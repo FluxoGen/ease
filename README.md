@@ -47,7 +47,7 @@ Requires Node 18+ (developed against Node 22).
 
 ```bash
 npm install
-npm run dev              # dev server at http://localhost:5173, hot reload
+npm run dev              # dev server at http://localhost:5183, hot reload
 ```
 
 The dev server does **not** register a service worker — `vite-plugin-pwa` only generates one on
