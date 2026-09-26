@@ -234,7 +234,7 @@ export const points: Point[] = [
     altNames: ['Hall of Impression'],
     region: 'forehead',
     location: 'Between the eyebrows, at the midpoint above the bridge of the nose.',
-    useTags: ['sleep', 'headache', 'stress_anxiety'],
+    useTags: ['sleep', 'stress_anxiety'],
     image: YinTang,
     source: VA_SOURCE,
   },
