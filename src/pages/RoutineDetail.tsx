@@ -16,13 +16,13 @@ export default function RoutineDetail() {
     <div>
       <Link
         to="/"
-        className="mb-3 flex items-center gap-1 text-sm text-black/50 hover:text-black/70 dark:text-white/50 dark:hover:text-white/70"
+        className="mb-3 flex items-center gap-1 text-sm text-muted hover:text-charcoal dark:text-muted-dark dark:hover:text-ivory"
       >
         <ChevronLeft size={16} />
         All symptoms
       </Link>
       <h1 className="text-2xl font-bold sm:text-3xl">{routine.title}</h1>
-      <p className="mt-1 text-black/60 dark:text-white/60">{routine.description}</p>
+      <p className="mt-1 text-muted dark:text-muted-dark">{routine.description}</p>
 
       <div className="mt-5 grid gap-3 sm:grid-cols-2">
         {routine.pointIds.map((id, i) => {
@@ -36,9 +36,9 @@ export default function RoutineDetail() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.18, delay: i * 0.03, ease: 'easeOut' }}
                 whileTap={{ scale: 0.98 }}
-                className="flex items-center gap-3.5 rounded-xl border border-black/10 bg-white p-2.5 shadow-sm dark:border-white/10 dark:bg-[#1c2b29]"
+                className="flex items-center gap-3.5 rounded-xl border border-charcoal/10 bg-sand p-2.5 shadow-sm dark:border-ivory/10 dark:bg-charcoal-soft"
               >
-                <div className="h-16 w-16 shrink-0 overflow-hidden rounded-lg border border-black/10 bg-white dark:border-white/10">
+                <div className="h-16 w-16 shrink-0 overflow-hidden rounded-lg border border-charcoal/10 bg-white dark:border-ivory/10">
                   <img
                     src={point.image}
                     alt={`${point.name} location`}
@@ -46,9 +46,9 @@ export default function RoutineDetail() {
                   />
                 </div>
                 <div className="flex flex-col gap-0.5">
-                  <span className="font-bold">{point.name}</span>
+                  <span className="font-bold text-charcoal dark:text-ivory">{point.name}</span>
                   {point.altNames && (
-                    <span className="text-xs text-black/50 dark:text-white/50">
+                    <span className="text-xs text-muted dark:text-muted-dark">
                       {point.altNames.join(', ')}
                     </span>
                   )}
@@ -64,7 +64,7 @@ export default function RoutineDetail() {
         })}
       </div>
 
-      <p className="mt-6 text-xs text-black/50 dark:text-white/40">
+      <p className="mt-6 text-xs text-muted dark:text-muted-dark">
         {routine.sourceUrl ? (
           <>
             Source:{' '}
@@ -72,7 +72,7 @@ export default function RoutineDetail() {
               href={routine.sourceUrl}
               target="_blank"
               rel="noreferrer"
-              className="text-brand-500 underline"
+              className="text-clay-dark underline dark:text-clay"
             >
               VA public-domain handout
             </a>

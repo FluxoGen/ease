@@ -1,6 +1,7 @@
 import { ShieldCheck } from 'lucide-react';
 import { Toaster } from 'sonner';
 import { Link, Outlet } from 'react-router-dom';
+import EaseLogo from './components/EaseLogo';
 import PregnancyGate from './components/PregnancyGate';
 import { PregnancyContext } from './context/PregnancyContext';
 import { usePregnancyStatus } from './hooks/usePregnancyStatus';
@@ -11,13 +12,14 @@ export default function App() {
   return (
     <PregnancyContext.Provider value={{ status, setStatus }}>
       <div className="flex min-h-full flex-col">
-        <header className="sticky top-0 z-10 flex items-center justify-between border-b border-black/10 bg-white/90 px-4 py-3 backdrop-blur sm:px-6 dark:border-white/10 dark:bg-[#1c2b29]/90">
-          <Link to="/" className="text-lg font-bold text-brand-600 dark:text-brand-400">
-            Ease
+        <header className="sticky top-0 z-10 flex items-center justify-between border-b border-charcoal/10 bg-sand/90 px-4 py-3 backdrop-blur sm:px-6 dark:border-ivory/10 dark:bg-charcoal-soft/90">
+          <Link to="/" aria-label="Ease home">
+            <EaseLogo height={22} className="dark:hidden" />
+            <EaseLogo height={22} ink="#F6F3EC" className="hidden dark:block" />
           </Link>
           <Link
             to="/safety"
-            className="flex items-center gap-1.5 text-sm text-black/60 hover:text-black/80 dark:text-white/60 dark:hover:text-white/80"
+            className="flex items-center gap-1.5 text-sm text-muted hover:text-charcoal dark:text-muted-dark dark:hover:text-ivory"
           >
             <ShieldCheck size={16} />
             Safety info
@@ -30,7 +32,7 @@ export default function App() {
           <Outlet />
         </main>
 
-        <footer className="mx-auto w-full max-w-xl px-4 pb-8 text-center text-xs text-black/50 sm:px-6 dark:text-white/40">
+        <footer className="mx-auto w-full max-w-xl px-4 pb-8 text-center text-xs text-muted sm:px-6 dark:text-muted-dark">
           Point photos and instructions adapted from U.S. Department of Veterans Affairs
           public-domain patient education handouts. For wellness education only — not a
           substitute for medical care.

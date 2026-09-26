@@ -90,10 +90,15 @@ npm run lint             # oxlint
 ## Structure
 
 - `src/data/points.ts` — the 25 points: location, meridian, use tags, pregnancy flag, source.
-- `src/data/routines.ts` — the 5 symptom routines, each a list of point ids.
+- `src/data/routines.ts` — the 10 symptom routines, each a list of point ids.
 - `src/pages/` — Home (symptom picker), RoutineDetail, PointDetail, Safety.
 - `src/assets/points/` — cropped point photos (JPEG, no VA branding).
+- `src/components/EaseLogo.tsx` — the wordmark as inline SVG (paths, no font needed to render it).
 - `sources/` — original VA PDFs, kept for provenance.
+- `brand-kit/` — the full brand kit (all logo variants, color tokens, favicons, social images,
+  usage guidelines). `public/` only has the specific files the app actually serves (favicons,
+  PWA icons); anything else — the reversed/mono/tagline logo variants, the Figma-adjacent
+  `EaseLogo.jsx` this component was adapted from, `tokens.css` — lives here for reference.
 
 ## Open items for v2
 

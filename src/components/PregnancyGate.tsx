@@ -22,14 +22,14 @@ export default function PregnancyGate({ open }: { open: boolean }) {
         aria-hidden="true"
       />
       <div className="fixed inset-0 flex items-end justify-center p-4 sm:items-center">
-        <DialogPanel className="w-full max-w-sm rounded-2xl bg-white p-6 shadow-xl transition duration-200 ease-out data-closed:translate-y-4 data-closed:opacity-0 sm:data-closed:translate-y-0 sm:data-closed:scale-95 dark:bg-[#1c2b29]">
+        <DialogPanel className="w-full max-w-sm rounded-2xl bg-sand p-6 shadow-xl transition duration-200 ease-out data-closed:translate-y-4 data-closed:opacity-0 sm:data-closed:translate-y-0 sm:data-closed:scale-95 dark:bg-charcoal-soft">
           <div className="mb-3 flex items-center gap-2 text-warn-600 dark:text-warn-500">
             <AlertTriangle size={20} />
-            <DialogTitle className="font-bold text-black dark:text-white">
+            <DialogTitle className="font-bold text-charcoal dark:text-ivory">
               Quick check before you start
             </DialogTitle>
           </div>
-          <p className="mb-5 text-sm text-black/70 dark:text-white/70">
+          <p className="mb-5 text-sm text-charcoal/70 dark:text-ivory/70">
             Are you pregnant, or think you might be? A few points are traditionally avoided
             during pregnancy — we'll hide those for you if so.
           </p>
@@ -43,7 +43,7 @@ export default function PregnancyGate({ open }: { open: boolean }) {
             </button>
             <button
               type="button"
-              className="flex-1 rounded-lg bg-black/10 px-4 py-2.5 text-sm font-semibold text-black hover:bg-black/15 dark:bg-white/10 dark:text-white dark:hover:bg-white/15"
+              className="flex-1 rounded-lg bg-charcoal/10 px-4 py-2.5 text-sm font-semibold text-charcoal hover:bg-charcoal/15 dark:bg-ivory/10 dark:text-ivory dark:hover:bg-ivory/15"
               onClick={() => choose('no')}
             >
               No

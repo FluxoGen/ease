@@ -33,7 +33,7 @@ export default function Home() {
   return (
     <div>
       <h1 className="text-2xl font-bold sm:text-3xl">What's going on?</h1>
-      <p className="mt-1 text-black/60 dark:text-white/60">
+      <p className="mt-1 text-muted dark:text-muted-dark">
         Pick what you're dealing with to see a handful of self-acupressure points for it.
       </p>
       <div className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-3">
@@ -46,12 +46,12 @@ export default function Home() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.2, delay: i * 0.04, ease: 'easeOut' }}
                 whileTap={{ scale: 0.96 }}
-                className="flex flex-col gap-3 rounded-2xl border border-black/10 bg-white p-5 shadow-sm dark:border-white/10 dark:bg-[#1c2b29]"
+                className="flex flex-col gap-3 rounded-2xl border border-charcoal/10 bg-sand p-5 shadow-sm dark:border-ivory/10 dark:bg-charcoal-soft"
               >
-                <Icon className="text-brand-500 dark:text-brand-400" size={26} />
+                <Icon className="text-charcoal/70 dark:text-ivory/70" size={26} />
                 <div>
-                  <div className="font-bold text-brand-600 dark:text-brand-400">{r.title}</div>
-                  <div className="text-xs text-black/50 dark:text-white/50">
+                  <div className="font-bold text-charcoal dark:text-ivory">{r.title}</div>
+                  <div className="text-xs text-muted dark:text-muted-dark">
                     {r.pointIds.length} points
                   </div>
                 </div>

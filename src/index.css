@@ -1,21 +1,22 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap');
 
 @theme {
-  --color-brand-50: #eef5f4;
-  --color-brand-100: #d6e6e4;
-  --color-brand-400: #4a8f8a;
-  --color-brand-500: #2f6f6b;
-  --color-brand-600: #204d4a;
-  --color-brand-700: #163634;
-
-  --color-accent-400: #f6994d;
-  --color-accent-500: #f48024;
+  /* ease brand palette */
+  --color-ivory: #f6f3ec;
+  --color-charcoal: #22302b;
+  --color-charcoal-soft: #2e3d37;
+  --color-clay: #c8734f;
+  --color-clay-dark: #8a4a30;
+  --color-sand: #ede8dc;
+  --color-muted: #5e6660;
+  --color-muted-dark: #9aa39c;
 
   --color-warn-50: #fdecea;
   --color-warn-500: #d9534f;
   --color-warn-600: #b8433f;
 
-  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-sans: "Manrope", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
 html, body, #root {
@@ -23,7 +24,7 @@ html, body, #root {
 }
 
 body {
-  @apply bg-[#faf7f2] text-[#201f1c] dark:bg-[#14201f] dark:text-[#f1efe9];
+  @apply bg-ivory text-charcoal dark:bg-charcoal dark:text-ivory;
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
 }

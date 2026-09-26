@@ -1,0 +1,30 @@
+:root {
+  /* ease brand colors */
+  --ease-ivory: #F6F3EC;      /* main background */
+  --ease-charcoal: #22302B;   /* text, logo letters */
+  --ease-clay: #C8734F;       /* acupoint dot, buttons, highlights */
+  --ease-clay-dark: #8A4A30;  /* tagline, links, text on ivory */
+  --ease-sand: #EDE8DC;       /* cards, secondary surfaces */
+  --ease-muted: #5E6660;      /* secondary text */
+
+  --ease-font: "Manrope", "Segoe UI", system-ui, sans-serif;
+  --ease-radius: 14px;
+}
+
+body {
+  margin: 0;
+  background: var(--ease-ivory);
+  color: var(--ease-charcoal);
+  font-family: var(--ease-font);
+}
+a { color: var(--ease-clay-dark); }
+.ease-button {
+  background: var(--ease-charcoal);
+  color: var(--ease-ivory);
+  border: 0;
+  border-radius: var(--ease-radius);
+  padding: 14px 22px;
+  font: 600 16px/1 var(--ease-font);
+  cursor: pointer;
+}
+.ease-button:hover { background: #000; }
