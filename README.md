@@ -158,6 +158,15 @@ npm run lint             # oxlint
   Mingmen, one of the most classically significant points on the Governing Vessel, adjacent to
   the Kidney Back-Shu point.
 
-  ~276 points still to go. Same process every batch: cross-reference facts across independent
+  **Batch 4 (85 -> 101):** completed the remaining two Five-Shu categories. All **twelve**
+  Shu-Stream points now exist (LI3, ST43, BL65, TE3 joined the eight already in the app) and all
+  **twelve** He-Sea points now exist (KD10, SI8, TE10 joined the nine already there) — meaning
+  three of the five full Five-Shu categories are now complete (Jing-Well, Shu-Stream, He-Sea);
+  Ying-Spring and Jing-River still have gaps. Also added nine well-known clinical points outside
+  the classical categories: LI15 (shoulder), ST6 (jaw), BL2 (eyebrow, common headache point),
+  BL10 (neck), TE17 (behind the ear), GB14 (forehead), GB1 (outer eye), SI11 (shoulder blade),
+  SI19 (in front of the ear).
+
+  ~260 points still to go. Same process every batch: cross-reference facts across independent
   sources via web search, never fabricate a location, never claim a photo that doesn't exist,
   keep `verified: false` until someone who isn't an AI actually checks it.
