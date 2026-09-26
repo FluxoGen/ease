@@ -3,6 +3,7 @@ import { AlertTriangle, ChevronDown, ChevronLeft } from 'lucide-react';
 import { Link, Navigate, useLocation, useParams } from 'react-router-dom';
 import { usePregnancy } from '../context/PregnancyContext';
 import { pointsById } from '../data/points';
+import { routines } from '../data/routines';
 
 const TAG_LABELS: Record<string, string> = {
   low_back_pain: 'Low back',
@@ -12,6 +13,9 @@ const TAG_LABELS: Record<string, string> = {
   well_being: 'Well-being',
   nausea: 'Nausea',
   stress_anxiety: 'Stress & anxiety',
+  menstrual_cramps: 'Menstrual cramps',
+  cold_flu: 'Cold & flu',
+  energy_fatigue: 'Energy & fatigue',
 };
 
 export default function PointDetail() {
@@ -24,7 +28,14 @@ export default function PointDetail() {
 
   const blocked = status === 'yes' && point.pregnancyCaution;
   const fromRoutine = (location.state as { fromRoutine?: string } | null)?.fromRoutine;
-  const backTo = fromRoutine ? `/routine/${fromRoutine}` : '/';
+  // Falls back to any routine containing this point (never home) — covers
+  // hard reloads and direct deep links, where router state isn't available.
+  const fallbackRoutine = routines.find((r) => r.pointIds.includes(point.id));
+  const backTo = fromRoutine
+    ? `/routine/${fromRoutine}`
+    : fallbackRoutine
+      ? `/routine/${fallbackRoutine.id}`
+      : '/';
 
   return (
     <div>

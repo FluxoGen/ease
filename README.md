@@ -6,10 +6,11 @@ points with photos and plain-language locations.
 
 ## v1 scope
 
-25 points across 7 routines (low back, headaches, neck, sleep, well-being, nausea, stress &
-anxiety), sourced entirely from public-domain VA patient education handouts (see `sources/`).
-The last two routines don't have their own dedicated VA handout — they reuse points already
-sourced for sleep/well-being that are also commonly used for nausea and stress (cross-checked
+25 points across 10 routines (low back, headaches, neck, sleep, well-being, nausea, stress &
+anxiety, menstrual cramps, cold & flu, energy & fatigue), sourced entirely from public-domain
+VA patient education handouts (see `sources/`). Five of the ten routines don't have their own
+dedicated VA handout — they reuse points already sourced for the other five that are also
+commonly cited for these symptoms (cross-checked
 against a non-federal source for point selection only, never copied for wording or images — see
 each point's own `source` field). No backend — all data is static JSON/TS, bundled for offline
 use via a service worker.

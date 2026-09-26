@@ -5,7 +5,10 @@ export type UseTag =
   | 'sleep'
   | 'well_being'
   | 'nausea'
-  | 'stress_anxiety';
+  | 'stress_anxiety'
+  | 'menstrual_cramps'
+  | 'cold_flu'
+  | 'energy_fatigue';
 
 export interface Point {
   id: string;

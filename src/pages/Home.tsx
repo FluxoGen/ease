@@ -1,4 +1,16 @@
-import { Activity, Brain, Feather, Frown, HeartPulse, Moon, Move, type LucideIcon } from 'lucide-react';
+import {
+  Activity,
+  Battery,
+  Brain,
+  Feather,
+  Flower2,
+  Frown,
+  HeartPulse,
+  Moon,
+  Move,
+  Thermometer,
+  type LucideIcon,
+} from 'lucide-react';
 import { motion } from 'motion/react';
 import { Link } from 'react-router-dom';
 import { routines } from '../data/routines';
@@ -12,6 +24,9 @@ const ROUTINE_ICONS: Record<UseTag, LucideIcon> = {
   well_being: HeartPulse,
   nausea: Frown,
   stress_anxiety: Feather,
+  menstrual_cramps: Flower2,
+  cold_flu: Thermometer,
+  energy_fatigue: Battery,
 };
 
 export default function Home() {
