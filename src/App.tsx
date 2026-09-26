@@ -12,7 +12,7 @@ export default function App() {
       <div className="flex min-h-full flex-col">
         <header className="sticky top-0 z-10 flex items-center justify-between border-b border-black/10 bg-white/90 px-4 py-3 backdrop-blur sm:px-6 dark:border-white/10 dark:bg-[#1c2b29]/90">
           <Link to="/" className="text-lg font-bold text-brand-600 dark:text-brand-400">
-            Tsubo
+            Ease
           </Link>
           <Link
             to="/safety"

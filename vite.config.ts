@@ -14,8 +14,8 @@ export default defineConfig({
         globPatterns: ['**/*.{js,css,html,ico,png,jpg,svg,woff2}'],
       },
       manifest: {
-        name: 'Tsubo — Self-Acupressure',
-        short_name: 'Tsubo',
+        name: 'Ease — Self-Acupressure',
+        short_name: 'Ease',
         description: 'Offline guide to self-acupressure points for common symptoms.',
         theme_color: '#2f6f6b',
         background_color: '#faf7f2',

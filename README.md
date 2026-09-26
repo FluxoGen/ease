@@ -1,7 +1,4 @@
-# Tsubo
-
-*Tsubo* (壺/経穴) is the Japanese term for an acupressure point — the name is literal, not a
-brand invention.
+# Ease
 
 An offline-capable PWA for self-acupressure — pressing points on your own body for common
 symptoms (not needle acupuncture). Symptom-first UX: pick what's going on, get a handful of
