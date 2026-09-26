@@ -1,4 +1,5 @@
 import { Activity, Brain, HeartPulse, Moon, Move, type LucideIcon } from 'lucide-react';
+import { motion } from 'motion/react';
 import { Link } from 'react-router-dom';
 import { routines } from '../data/routines';
 import type { UseTag } from '../types';
@@ -19,21 +20,25 @@ export default function Home() {
         Pick what you're dealing with to see a handful of self-acupressure points for it.
       </p>
       <div className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-3">
-        {routines.map((r) => {
+        {routines.map((r, i) => {
           const Icon = ROUTINE_ICONS[r.id];
           return (
-            <Link
-              key={r.id}
-              to={`/routine/${r.id}`}
-              className="flex flex-col gap-3 rounded-2xl border border-black/10 bg-white p-5 transition active:scale-[0.98] dark:border-white/10 dark:bg-[#1c2b29]"
-            >
-              <Icon className="text-brand-500 dark:text-brand-400" size={26} />
-              <div>
-                <div className="font-bold text-brand-600 dark:text-brand-400">{r.title}</div>
-                <div className="text-xs text-black/50 dark:text-white/50">
-                  {r.pointIds.length} points
+            <Link key={r.id} to={`/routine/${r.id}`}>
+              <motion.div
+                initial={{ opacity: 0, y: 10 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.2, delay: i * 0.04, ease: 'easeOut' }}
+                whileTap={{ scale: 0.96 }}
+                className="flex flex-col gap-3 rounded-2xl border border-black/10 bg-white p-5 shadow-sm dark:border-white/10 dark:bg-[#1c2b29]"
+              >
+                <Icon className="text-brand-500 dark:text-brand-400" size={26} />
+                <div>
+                  <div className="font-bold text-brand-600 dark:text-brand-400">{r.title}</div>
+                  <div className="text-xs text-black/50 dark:text-white/50">
+                    {r.pointIds.length} points
+                  </div>
                 </div>
-              </div>
+              </motion.div>
             </Link>
           );
         })}

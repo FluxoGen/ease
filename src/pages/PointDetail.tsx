@@ -1,6 +1,6 @@
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react';
 import { AlertTriangle, ChevronDown, ChevronLeft } from 'lucide-react';
-import { Link, Navigate, useParams } from 'react-router-dom';
+import { Link, Navigate, useLocation, useParams } from 'react-router-dom';
 import { usePregnancy } from '../context/PregnancyContext';
 import { pointsById } from '../data/points';
 
@@ -14,17 +14,20 @@ const TAG_LABELS: Record<string, string> = {
 
 export default function PointDetail() {
   const { pointId } = useParams<{ pointId: string }>();
+  const location = useLocation();
   const { status, setStatus } = usePregnancy();
   const point = pointId ? pointsById[pointId] : undefined;
 
   if (!point) return <Navigate to="/" replace />;
 
   const blocked = status === 'yes' && point.pregnancyCaution;
+  const fromRoutine = (location.state as { fromRoutine?: string } | null)?.fromRoutine;
+  const backTo = fromRoutine ? `/routine/${fromRoutine}` : '/';
 
   return (
     <div>
       <Link
-        to="/"
+        to={backTo}
         className="mb-3 flex items-center gap-1 text-sm text-black/50 hover:text-black/70 dark:text-white/50 dark:hover:text-white/70"
       >
         <ChevronLeft size={16} />
@@ -73,11 +76,13 @@ export default function PointDetail() {
         </div>
       ) : (
         <>
-          <img
-            src={point.image}
-            alt={`${point.name} location`}
-            className="mt-4 max-h-80 w-full rounded-2xl object-cover"
-          />
+          <div className="mt-4 overflow-hidden rounded-2xl border border-black/10 bg-white dark:border-white/10">
+            <img
+              src={point.image}
+              alt={`${point.name} location`}
+              className="max-h-80 w-full object-contain"
+            />
+          </div>
           <h2 className="mt-5 text-lg font-bold">Location</h2>
           <p className="mt-1 text-black/70 dark:text-white/70">{point.location}</p>
           <h2 className="mt-5 text-lg font-bold">How to use it</h2>

@@ -1,4 +1,5 @@
 import { ChevronLeft } from 'lucide-react';
+import { motion } from 'motion/react';
 import { Link, Navigate, useParams } from 'react-router-dom';
 import { pointsById } from '../data/points';
 import { routinesById } from '../data/routines';
@@ -24,34 +25,40 @@ export default function RoutineDetail() {
       <p className="mt-1 text-black/60 dark:text-white/60">{routine.description}</p>
 
       <div className="mt-5 grid gap-3 sm:grid-cols-2">
-        {routine.pointIds.map((id) => {
+        {routine.pointIds.map((id, i) => {
           const point = pointsById[id];
           if (!point) return null;
           const blocked = status === 'yes' && point.pregnancyCaution;
           return (
-            <Link
-              key={id}
-              to={`/point/${id}`}
-              className="flex items-center gap-3.5 rounded-xl border border-black/10 bg-white p-2.5 dark:border-white/10 dark:bg-[#1c2b29]"
-            >
-              <img
-                src={point.image}
-                alt={`${point.name} location`}
-                className={`h-16 w-16 shrink-0 rounded-lg object-cover ${blocked ? 'blur-md grayscale' : ''}`}
-              />
-              <div className="flex flex-col gap-0.5">
-                <span className="font-bold">{point.name}</span>
-                {point.altNames && (
-                  <span className="text-xs text-black/50 dark:text-white/50">
-                    {point.altNames.join(', ')}
-                  </span>
-                )}
-                {blocked && (
-                  <span className="text-xs font-semibold text-warn-500">
-                    Avoid during pregnancy
-                  </span>
-                )}
-              </div>
+            <Link key={id} to={`/point/${id}`} state={{ fromRoutine: routine.id }}>
+              <motion.div
+                initial={{ opacity: 0, y: 8 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.18, delay: i * 0.03, ease: 'easeOut' }}
+                whileTap={{ scale: 0.98 }}
+                className="flex items-center gap-3.5 rounded-xl border border-black/10 bg-white p-2.5 shadow-sm dark:border-white/10 dark:bg-[#1c2b29]"
+              >
+                <div className="h-16 w-16 shrink-0 overflow-hidden rounded-lg border border-black/10 bg-white dark:border-white/10">
+                  <img
+                    src={point.image}
+                    alt={`${point.name} location`}
+                    className={`h-full w-full object-contain ${blocked ? 'blur-md grayscale' : ''}`}
+                  />
+                </div>
+                <div className="flex flex-col gap-0.5">
+                  <span className="font-bold">{point.name}</span>
+                  {point.altNames && (
+                    <span className="text-xs text-black/50 dark:text-white/50">
+                      {point.altNames.join(', ')}
+                    </span>
+                  )}
+                  {blocked && (
+                    <span className="text-xs font-semibold text-warn-500">
+                      Avoid during pregnancy
+                    </span>
+                  )}
+                </div>
+              </motion.div>
             </Link>
           );
         })}

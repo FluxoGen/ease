@@ -1,9 +1,19 @@
 import { ChevronLeft } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { toast } from 'sonner';
 import { usePregnancy } from '../context/PregnancyContext';
 
 export default function Safety() {
   const { status, setStatus } = usePregnancy();
+
+  const choose = (value: 'yes' | 'no') => {
+    setStatus(value);
+    toast.success(
+      value === 'yes'
+        ? "Got it — we'll hide points traditionally avoided during pregnancy."
+        : "Got it — you'll see all points.",
+    );
+  };
 
   return (
     <div>
@@ -35,14 +45,14 @@ export default function Safety() {
             <button
               type="button"
               className="flex-1 rounded-lg bg-warn-500 px-4 py-2.5 text-sm font-semibold text-white hover:bg-warn-600"
-              onClick={() => setStatus('yes')}
+              onClick={() => choose('yes')}
             >
               Pregnant / not sure
             </button>
             <button
               type="button"
               className="flex-1 rounded-lg bg-black/10 px-4 py-2.5 text-sm font-semibold hover:bg-black/15 dark:bg-white/10 dark:hover:bg-white/15"
-              onClick={() => setStatus('no')}
+              onClick={() => choose('no')}
             >
               Not pregnant
             </button>
