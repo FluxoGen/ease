@@ -139,6 +139,14 @@ npm run lint             # oxlint
   consistently cited as pregnancy-contraindicated across acupressure safety sources, same
   standing as LI4/SP6/UB60.
 
-  ~317 points still to go. Same process each time: cross-reference facts across independent
-  sources, never fabricate a location, never claim a photo that doesn't exist, keep `verified:
-  false` until someone who isn't an AI actually checks it.
+  **Batch 2 (44 -> 68):** organized around completing whole classical sets rather than picking
+  points at random — this now has **all eight** of the Eight Confluent points (SP4, KD6, BL62,
+  GB41 joined the four already in the app), three more Back-Shu points (BL13 Lung, BL18 Liver,
+  BL20 Spleen — forming a visibly correct vertical line on the body map, next to BL23/BL25),
+  GV14 Dazhui (the other major all-Yang-channels meeting point besides GV20), two more Front-Mu
+  points (LR13, LR14), and the remaining Five-Shu transporting points for six channels that only
+  had one or two of their five before (Liver, Stomach, Spleen, Heart, Kidney, Pericardium, Lung).
+
+  ~293 points still to go. Same process every batch: cross-reference facts across independent
+  sources via web search, never fabricate a location, never claim a photo that doesn't exist,
+  keep `verified: false` until someone who isn't an AI actually checks it.
