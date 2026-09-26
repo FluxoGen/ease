@@ -39,6 +39,9 @@ export const points: Point[] = [
     useTags: ['low_back_pain'],
     image: SI4,
     source: VA_SOURCE,
+    verified: true,
+    classicalGroups: ['Yuan-source point'],
+    bodyMap: { view: 'front', x: 52, y: 280 },
   },
   {
     id: 'ling_gu',
@@ -49,6 +52,8 @@ export const points: Point[] = [
     useTags: ['low_back_pain'],
     image: LingGu,
     source: VA_SOURCE,
+    verified: true,
+    bodyMap: { view: 'front', x: 60, y: 296 },
   },
   {
     id: 'ear_low_back_zone',
@@ -58,6 +63,8 @@ export const points: Point[] = [
     useTags: ['low_back_pain'],
     image: EarLowBackZone,
     source: VA_SOURCE,
+    verified: true,
+    bodyMap: { view: 'front', x: 156, y: 45 },
   },
   {
     id: 'ub_low_back_lines',
@@ -68,6 +75,8 @@ export const points: Point[] = [
     useTags: ['low_back_pain'],
     image: UBLowBackLines,
     source: VA_SOURCE,
+    verified: true,
+    bodyMap: { view: 'back', x: 120, y: 270 },
   },
   {
     id: 'hip_area',
@@ -77,6 +86,8 @@ export const points: Point[] = [
     useTags: ['low_back_pain'],
     image: HipArea,
     source: VA_SOURCE,
+    verified: true,
+    bodyMap: { view: 'back', x: 120, y: 312 },
   },
   {
     id: 'ub40',
@@ -88,6 +99,10 @@ export const points: Point[] = [
     useTags: ['low_back_pain'],
     image: UB40,
     source: VA_SOURCE,
+    verified: true,
+    classicalGroups: ['Five-Shu: He-Sea point', 'Four Command Points (governs the low back)'],
+    fivePhase: 'earth',
+    bodyMap: { view: 'back', x: 103, y: 411 },
   },
   {
     id: 'ub57',
@@ -99,6 +114,8 @@ export const points: Point[] = [
     useTags: ['low_back_pain'],
     image: UB57,
     source: VA_SOURCE,
+    verified: true,
+    bodyMap: { view: 'back', x: 103, y: 486 },
   },
   {
     id: 'li4',
@@ -111,6 +128,9 @@ export const points: Point[] = [
     image: LI4,
     pregnancyCaution: true,
     source: VA_SOURCE,
+    verified: true,
+    classicalGroups: ['Yuan-source point', 'Four Command Points (governs the face and mouth)'],
+    bodyMap: { view: 'front', x: 192, y: 280 },
   },
   {
     id: 'si3',
@@ -122,6 +142,10 @@ export const points: Point[] = [
     useTags: ['headache', 'neck_pain'],
     image: SI3,
     source: VA_SOURCE,
+    verified: true,
+    classicalGroups: ['Five-Shu: Shu-Stream point', 'Eight Confluent point (opens the Governing Vessel)'],
+    fivePhase: 'wood',
+    bodyMap: { view: 'front', x: 48, y: 290 },
   },
   {
     id: 'gb20',
@@ -133,6 +157,8 @@ export const points: Point[] = [
     useTags: ['headache', 'neck_pain', 'cold_flu', 'energy_fatigue'],
     image: GB20,
     source: VA_SOURCE,
+    verified: true,
+    bodyMap: { view: 'back', x: 108, y: 76 },
   },
   {
     id: 'tai_yang',
@@ -142,6 +168,8 @@ export const points: Point[] = [
     useTags: ['headache'],
     image: TaiYang,
     source: VA_SOURCE,
+    verified: true,
+    bodyMap: { view: 'front', x: 98, y: 38 },
   },
   {
     id: 'lr3',
@@ -153,6 +181,10 @@ export const points: Point[] = [
     useTags: ['headache'],
     image: LR3,
     source: VA_SOURCE,
+    verified: true,
+    classicalGroups: ['Yuan-source point', 'Five-Shu: Shu-Stream point'],
+    fivePhase: 'earth',
+    bodyMap: { view: 'front', x: 98, y: 578 },
   },
   {
     id: 'kd1',
@@ -164,6 +196,10 @@ export const points: Point[] = [
     useTags: ['headache', 'sleep', 'energy_fatigue'],
     image: KD1,
     source: VA_SOURCE,
+    verified: true,
+    classicalGroups: ['Five-Shu: Jing-Well point'],
+    fivePhase: 'wood',
+    bodyMap: { view: 'front', x: 142, y: 578 },
   },
   {
     id: 'luo_zhen',
@@ -174,6 +210,8 @@ export const points: Point[] = [
     useTags: ['neck_pain'],
     image: LuoZhen,
     source: VA_SOURCE,
+    verified: true,
+    bodyMap: { view: 'front', x: 176, y: 296 },
   },
   {
     id: 'bai_lao',
@@ -183,6 +221,8 @@ export const points: Point[] = [
     useTags: ['neck_pain'],
     image: BaiLao,
     source: VA_SOURCE,
+    verified: true,
+    bodyMap: { view: 'back', x: 114, y: 84 },
   },
   {
     id: 'gb21',
@@ -194,6 +234,8 @@ export const points: Point[] = [
     useTags: ['neck_pain'],
     image: GB21,
     source: VA_SOURCE,
+    verified: true,
+    bodyMap: { view: 'back', x: 90, y: 90 },
   },
   {
     id: 'ub60',
@@ -206,6 +248,10 @@ export const points: Point[] = [
     image: UB60,
     pregnancyCaution: true,
     source: VA_SOURCE,
+    verified: true,
+    classicalGroups: ['Five-Shu: Jing-River point'],
+    fivePhase: 'fire',
+    bodyMap: { view: 'back', x: 92, y: 555 },
   },
   {
     id: 'ht7',
@@ -217,6 +263,10 @@ export const points: Point[] = [
     useTags: ['sleep', 'stress_anxiety'],
     image: HT7,
     source: VA_SOURCE,
+    verified: true,
+    classicalGroups: ['Yuan-source point', 'Five-Shu: Shu-Stream point'],
+    fivePhase: 'earth',
+    bodyMap: { view: 'front', x: 58, y: 270 },
   },
   {
     id: 'an_mian',
@@ -227,6 +277,8 @@ export const points: Point[] = [
     useTags: ['sleep'],
     image: AnMian,
     source: VA_SOURCE,
+    verified: true,
+    bodyMap: { view: 'front', x: 150, y: 55 },
   },
   {
     id: 'yin_tang',
@@ -237,6 +289,8 @@ export const points: Point[] = [
     useTags: ['sleep', 'stress_anxiety'],
     image: YinTang,
     source: VA_SOURCE,
+    verified: true,
+    bodyMap: { view: 'front', x: 120, y: 50 },
   },
   {
     id: 'sp6',
@@ -249,6 +303,9 @@ export const points: Point[] = [
     image: SP6,
     pregnancyCaution: true,
     source: VA_SOURCE,
+    verified: true,
+    classicalGroups: ['Meeting point of the three leg yin channels (Spleen, Liver, Kidney)'],
+    bodyMap: { view: 'front', x: 114, y: 520 },
   },
   {
     id: 'pc6',
@@ -260,6 +317,9 @@ export const points: Point[] = [
     useTags: ['sleep', 'nausea', 'stress_anxiety'],
     image: PC6,
     source: VA_SOURCE,
+    verified: true,
+    classicalGroups: ['Luo-connecting point', 'Eight Confluent point (opens the Yin Wei / Yin Linking Vessel)'],
+    bodyMap: { view: 'front', x: 188, y: 250 },
   },
   {
     id: 'st36',
@@ -271,6 +331,10 @@ export const points: Point[] = [
     useTags: ['well_being', 'nausea', 'energy_fatigue'],
     image: ST36,
     source: VA_SOURCE,
+    verified: true,
+    classicalGroups: ['Five-Shu: He-Sea point', 'Four Command Points (governs the abdomen)'],
+    fivePhase: 'earth',
+    bodyMap: { view: 'front', x: 148, y: 440 },
   },
   {
     id: 'li11',
@@ -282,6 +346,10 @@ export const points: Point[] = [
     useTags: ['well_being', 'cold_flu'],
     image: LI11,
     source: VA_SOURCE,
+    verified: true,
+    classicalGroups: ['Five-Shu: He-Sea point'],
+    fivePhase: 'earth',
+    bodyMap: { view: 'front', x: 188, y: 204 },
   },
   {
     id: 'lu7',
@@ -293,6 +361,13 @@ export const points: Point[] = [
     useTags: ['well_being'],
     image: Lu7,
     source: VA_SOURCE,
+    verified: true,
+    classicalGroups: [
+      'Luo-connecting point',
+      'Eight Confluent point (opens the Conception Vessel)',
+      'Four Command Points (governs the head and nape)',
+    ],
+    bodyMap: { view: 'front', x: 48, y: 250 },
   },
 ];
 

@@ -4,6 +4,7 @@ import { Link, Navigate, useLocation, useParams } from 'react-router-dom';
 import { usePregnancy } from '../context/PregnancyContext';
 import { pointsById } from '../data/points';
 import { routines } from '../data/routines';
+import type { FivePhase } from '../types';
 
 const TAG_LABELS: Record<string, string> = {
   low_back_pain: 'Low back',
@@ -18,6 +19,14 @@ const TAG_LABELS: Record<string, string> = {
   energy_fatigue: 'Energy & fatigue',
 };
 
+const PHASE_COLOR: Record<FivePhase, string> = {
+  wood: '#4a7c4e',
+  fire: '#c2483d',
+  earth: '#b8863b',
+  metal: '#8a8f94',
+  water: '#3f6b8a',
+};
+
 export default function PointDetail() {
   const { pointId } = useParams<{ pointId: string }>();
   const location = useLocation();
@@ -27,15 +36,17 @@ export default function PointDetail() {
   if (!point) return <Navigate to="/" replace />;
 
   const blocked = status === 'yes' && point.pregnancyCaution;
-  const fromRoutine = (location.state as { fromRoutine?: string } | null)?.fromRoutine;
+  const navState = location.state as { fromRoutine?: string; fromBodyMap?: boolean } | null;
   // Falls back to any routine containing this point (never home) — covers
   // hard reloads and direct deep links, where router state isn't available.
   const fallbackRoutine = routines.find((r) => r.pointIds.includes(point.id));
-  const backTo = fromRoutine
-    ? `/routine/${fromRoutine}`
-    : fallbackRoutine
-      ? `/routine/${fallbackRoutine.id}`
-      : '/';
+  const backTo = navState?.fromBodyMap
+    ? '/map'
+    : navState?.fromRoutine
+      ? `/routine/${navState.fromRoutine}`
+      : fallbackRoutine
+        ? `/routine/${fallbackRoutine.id}`
+        : '/';
 
   return (
     <div>
@@ -59,6 +70,13 @@ export default function PointDetail() {
         <p className="text-sm text-muted dark:text-muted-dark">{point.meridian} meridian</p>
       )}
 
+      {!point.verified && (
+        <div className="mt-2 flex items-center gap-1.5 rounded-lg bg-warn-50 px-2.5 py-1.5 text-xs font-medium text-warn-600 dark:bg-warn-500/10 dark:text-warn-500">
+          <AlertTriangle size={14} />
+          Not yet reviewed by a licensed acupuncturist — location is a best estimate.
+        </div>
+      )}
+
       <div className="mt-3 flex flex-wrap gap-1.5">
         {point.useTags.map((t) => (
           <span
@@ -69,6 +87,21 @@ export default function PointDetail() {
           </span>
         ))}
       </div>
+
+      {(point.classicalGroups || point.fivePhase) && (
+        <div className="mt-3 text-sm text-muted dark:text-muted-dark">
+          {point.fivePhase && (
+            <span className="mr-2 inline-flex items-center gap-1.5">
+              <span
+                className="inline-block h-2.5 w-2.5 rounded-full"
+                style={{ backgroundColor: PHASE_COLOR[point.fivePhase] }}
+              />
+              {point.fivePhase[0].toUpperCase() + point.fivePhase.slice(1)} phase
+            </span>
+          )}
+          {point.classicalGroups?.join(' · ')}
+        </div>
+      )}
 
       {blocked ? (
         <div className="mt-4 flex gap-3 rounded-xl border border-warn-500/40 bg-warn-50 p-4 dark:border-warn-500/40 dark:bg-warn-500/10">

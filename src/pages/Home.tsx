@@ -8,6 +8,7 @@ import {
   HeartPulse,
   Moon,
   Move,
+  PersonStanding,
   Thermometer,
   type LucideIcon,
 } from 'lucide-react';
@@ -36,6 +37,15 @@ export default function Home() {
       <p className="mt-1 text-muted dark:text-muted-dark">
         Pick what you're dealing with to see a handful of self-acupressure points for it.
       </p>
+
+      <Link
+        to="/map"
+        className="mt-4 flex items-center gap-2 rounded-xl border border-charcoal/10 bg-sand px-4 py-3 text-sm font-semibold text-charcoal shadow-sm dark:border-ivory/10 dark:bg-charcoal-soft dark:text-ivory"
+      >
+        <PersonStanding size={20} className="text-clay-dark dark:text-clay" />
+        Browse by body area instead
+      </Link>
+
       <div className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-3">
         {routines.map((r, i) => {
           const Icon = ROUTINE_ICONS[r.id];

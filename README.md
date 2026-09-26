@@ -89,9 +89,12 @@ npm run lint             # oxlint
 
 ## Structure
 
-- `src/data/points.ts` — the 25 points: location, meridian, use tags, pregnancy flag, source.
+- `src/data/points.ts` — the 25 points: location, meridian, use tags, pregnancy flag, source,
+  classical groupings/Five Phase, body-map placement, verified flag.
 - `src/data/routines.ts` — the 10 symptom routines, each a list of point ids.
-- `src/pages/` — Home (symptom picker), RoutineDetail, PointDetail, Safety.
+- `src/data/bodyMap.ts` — the body-map SVG viewBox constant.
+- `src/components/BodySilhouette.tsx` — the original schematic body outline used by `/map`.
+- `src/pages/` — Home (symptom picker), RoutineDetail, PointDetail, Safety, BodyMap.
 - `src/assets/points/` — cropped point photos (JPEG, no VA branding).
 - `src/components/EaseLogo.tsx` — the wordmark as inline SVG (paths, no font needed to render it).
 - `sources/` — original VA PDFs, kept for provenance.
@@ -100,11 +103,24 @@ npm run lint             # oxlint
   PWA icons); anything else — the reversed/mono/tagline logo variants, the Figma-adjacent
   `EaseLogo.jsx` this component was adapted from, `tokens.css` — lives here for reference.
 
-## Open items for v2
+## v2 progress
 
-- Body-map view: PD Wikimedia (Häggström) SVG outlines with point dots overlaid, for a
-  browse-by-region experience instead of routine-only.
-- Expand toward the WHO 361-point set, each new point flagged `verified: false` until reviewed
-  by a licensed acupuncturist.
-- Classical point groupings (Yuan-source, Back-Shu, Five Shu, etc.) and Five Phases tagging —
-  straightforward additions to `Point` once there's a reason to surface them in the UI.
+- **Body map** (`/map`, `src/pages/BodyMap.tsx`) — done. Front/back toggle over an original
+  schematic silhouette (`src/components/BodySilhouette.tsx`; not adapted from Wikimedia/Häggström
+  in the end — a simple original outline was faster to get right and coordinate against than
+  hunting for a matching public-domain front+back pair). Each of the 25 points has a
+  `bodyMap: { view, x, y }` placement; hand/foot points cluster tightly at this schematic scale,
+  called out directly in the UI rather than hidden.
+- **Classical groupings & Five Phase tagging** — done for all 25 points (`classicalGroups`,
+  `fivePhase` on `Point`). Only set where genuinely well-established across TCM references —
+  Yuan-source, Five-Shu transporting points, Luo-connecting points, the Eight Confluent points,
+  the classical Four Command Points, SP6's three-yin-meeting status. Most extra/empirical points
+  (Tai Yang, Yin Tang, An Mian, Luo Zhen, Bai Lao, Ling Gu) correctly have neither, since they sit
+  outside the 14-meridian system these classifications belong to. Surfaced on `PointDetail`.
+- **WHO-361 expansion — infrastructure only, not populated.** `Point.verified: boolean` exists
+  and `PointDetail` renders an "unreviewed" warning when false, but every current point is
+  `verified: true` — none of the additional ~336 points have been added. Doing that for real
+  needs either licensing WHO's dataset or sourcing each new point from multiple independent
+  references and having a licensed acupuncturist review it before shipping; that's real
+  effort, not something to rush to hit a number. The `verified: false` + body-map-diagram-instead-
+  of-fabricated-photo pattern is ready whenever that review pipeline exists.
