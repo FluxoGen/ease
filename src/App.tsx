@@ -1,14 +1,12 @@
 import { ShieldCheck } from 'lucide-react';
-import { AnimatePresence, motion } from 'motion/react';
 import { Toaster } from 'sonner';
-import { Link, Outlet, useLocation } from 'react-router-dom';
+import { Link, Outlet } from 'react-router-dom';
 import PregnancyGate from './components/PregnancyGate';
 import { PregnancyContext } from './context/PregnancyContext';
 import { usePregnancyStatus } from './hooks/usePregnancyStatus';
 
 export default function App() {
   const { status, setStatus } = usePregnancyStatus();
-  const location = useLocation();
 
   return (
     <PregnancyContext.Provider value={{ status, setStatus }}>
@@ -29,17 +27,7 @@ export default function App() {
         <PregnancyGate open={status === 'unset'} />
 
         <main className="mx-auto w-full max-w-xl flex-1 px-4 py-6 sm:px-6">
-          <AnimatePresence mode="wait" initial={false}>
-            <motion.div
-              key={location.pathname}
-              initial={{ opacity: 0, y: 8 }}
-              animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: -8 }}
-              transition={{ duration: 0.15, ease: 'easeOut' }}
-            >
-              <Outlet />
-            </motion.div>
-          </AnimatePresence>
+          <Outlet />
         </main>
 
         <footer className="mx-auto w-full max-w-xl px-4 pb-8 text-center text-xs text-black/50 sm:px-6 dark:text-white/40">
