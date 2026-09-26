@@ -147,6 +147,17 @@ npm run lint             # oxlint
   points (LR13, LR14), and the remaining Five-Shu transporting points for six channels that only
   had one or two of their five before (Liver, Stomach, Spleen, Heart, Kidney, Pericardium, Lung).
 
-  ~293 points still to go. Same process every batch: cross-reference facts across independent
+  **Batch 3 (68 -> 85):** completed two more whole classical sets. All **twelve** Jing-Well
+  points now exist (LI1, SI1, ST45, BL67, GB44, TE1 joined KD1/HT9/SP1 for the yang/yin split;
+  LR1, LU11, PC9 completed the yin side) — this is the classical "twelve Jing-Well points" set
+  used for emergency/resuscitation stimulation, a clean and bounded target. All **twelve**
+  Back-Shu points now exist too (BL14 Pericardium, BL15 Heart, BL19 Gallbladder, BL21 Stomach,
+  BL22 Triple Energizer, BL27 Small Intestine, BL28 Bladder joined the five from batches 1-2) —
+  visibly forms the correct vertical spine line on the body map, now dense enough that the UI's
+  existing "points sit close together at this scale" note is doing real work. Also added GV4
+  Mingmen, one of the most classically significant points on the Governing Vessel, adjacent to
+  the Kidney Back-Shu point.
+
+  ~276 points still to go. Same process every batch: cross-reference facts across independent
   sources via web search, never fabricate a location, never claim a photo that doesn't exist,
   keep `verified: false` until someone who isn't an AI actually checks it.
