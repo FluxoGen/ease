@@ -2,7 +2,7 @@ import { useCallback, useEffect, useState } from 'react';
 
 export type PregnancyStatus = 'yes' | 'no' | 'unset';
 
-const STORAGE_KEY = 'acupoint.pregnancyStatus';
+const STORAGE_KEY = 'tsubo.pregnancyStatus';
 
 function readStatus(): PregnancyStatus {
   try {

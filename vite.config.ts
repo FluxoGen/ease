@@ -14,8 +14,8 @@ export default defineConfig({
         globPatterns: ['**/*.{js,css,html,ico,png,jpg,svg,woff2}'],
       },
       manifest: {
-        name: 'Acupoint Self-Care',
-        short_name: 'Acupoint',
+        name: 'Tsubo — Self-Acupressure',
+        short_name: 'Tsubo',
         description: 'Offline guide to self-acupressure points for common symptoms.',
         theme_color: '#2f6f6b',
         background_color: '#faf7f2',

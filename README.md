@@ -1,4 +1,7 @@
-# Acupoint
+# Tsubo
+
+*Tsubo* (壺/経穴) is the Japanese term for an acupressure point — the name is literal, not a
+brand invention.
 
 An offline-capable PWA for self-acupressure — pressing points on your own body for common
 symptoms (not needle acupuncture). Symptom-first UX: pick what's going on, get a handful of
@@ -38,11 +41,49 @@ and imagery from other publishers (WHO, textbooks, other apps) were deliberately
 
 ## Running it
 
+Requires Node 18+ (developed against Node 22).
+
 ```bash
 npm install
-npm run dev       # dev server
-npm run build     # production build + service worker
+npm run dev              # dev server at http://localhost:5173, hot reload
 ```
+
+The dev server does **not** register a service worker — `vite-plugin-pwa` only generates one on
+a production build. To actually exercise offline behavior (or just to see what a real install
+looks like), build and serve the built output instead:
+
+```bash
+npm run build            # tsc -b && vite build → dist/, also generates dist/sw.js
+npm run preview          # serves dist/ at http://localhost:4173 with the service worker active
+```
+
+To verify offline mode manually: load `http://localhost:4173/` once with the network on (lets
+the service worker install and precache), then in DevTools → Network, switch to "Offline" and
+reload. The whole app — including point photos — should keep working; only genuinely uncached
+routes would fail.
+
+Other scripts:
+
+```bash
+npx tsc --noEmit         # type-check without emitting
+npm run lint             # oxlint
+```
+
+### Gotchas hit while building this
+
+- **`create-vite` refuses a non-empty directory.** Scaffold into a throwaway temp dir and copy
+  the files in, rather than passing `--overwrite` at the project root (that flag deletes existing
+  files first, including anything already committed).
+- **`vite-plugin-pwa`'s `globPatterns` is an explicit allowlist.** If you add a new asset
+  extension (this project switched point photos from `.png` to `.jpg` partway through), it has
+  to be added to `globPatterns` in `vite.config.ts` too, or the service worker silently stops
+  precaching those files — no error, no warning, they're just missing offline. Worth reloading
+  offline after any asset-pipeline change to catch this.
+- **No headless-browser CLI was preinstalled here.** Testing in an actual browser (not just
+  `tsc`/`vite build` succeeding) needed `npm install playwright` + `npx playwright install
+  chromium` in a scratch directory, then a small driver script (`chromium.launch()` →
+  `page.goto()` → assert/screenshot). Worth doing this after any UI change — a clean build and a
+  clean typecheck both pass even when a route 404s or a component throws at runtime.
 
 ## Structure
 
