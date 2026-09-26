@@ -52,17 +52,25 @@ export default function BodyMap() {
             const blocked = status === 'yes' && p.pregnancyCaution;
             return (
               <Link key={p.id} to={`/point/${p.id}`} state={{ fromBodyMap: true }}>
-                <circle
-                  cx={p.bodyMap!.x}
-                  cy={p.bodyMap!.y}
-                  r={8}
-                  className={
-                    blocked
-                      ? 'fill-warn-500/70 stroke-white'
-                      : 'fill-clay stroke-white hover:fill-clay-dark'
-                  }
-                  strokeWidth={2}
-                />
+                {blocked ? (
+                  // Hollow ring, not just a different color — a shape
+                  // difference reads clearly even for colorblind users.
+                  <circle
+                    cx={p.bodyMap!.x}
+                    cy={p.bodyMap!.y}
+                    r={8}
+                    className="fill-white stroke-warn-500 dark:fill-charcoal-soft"
+                    strokeWidth={3}
+                  />
+                ) : (
+                  <circle
+                    cx={p.bodyMap!.x}
+                    cy={p.bodyMap!.y}
+                    r={8}
+                    className="fill-clay stroke-white hover:fill-clay-dark"
+                    strokeWidth={2}
+                  />
+                )}
               </Link>
             );
           })}
@@ -75,7 +83,7 @@ export default function BodyMap() {
           Point
         </span>
         <span className="flex items-center gap-1.5">
-          <span className="inline-block h-2.5 w-2.5 rounded-full bg-warn-500/70" />
+          <span className="inline-block h-2.5 w-2.5 rounded-full border-2 border-warn-500 bg-white dark:bg-charcoal-soft" />
           Avoid during pregnancy
         </span>
       </div>
