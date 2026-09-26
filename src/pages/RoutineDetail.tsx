@@ -1,6 +1,7 @@
 import { ChevronLeft } from 'lucide-react';
 import { motion } from 'motion/react';
 import { Link, Navigate, useParams } from 'react-router-dom';
+import PointDiagram from '../components/PointDiagram';
 import { pointsById } from '../data/points';
 import { routinesById } from '../data/routines';
 import { usePregnancy } from '../context/PregnancyContext';
@@ -39,11 +40,19 @@ export default function RoutineDetail() {
                 className="flex items-center gap-3.5 rounded-xl border border-charcoal/10 bg-sand p-2.5 shadow-sm dark:border-ivory/10 dark:bg-charcoal-soft"
               >
                 <div className="h-16 w-16 shrink-0 overflow-hidden rounded-lg border border-charcoal/10 bg-white dark:border-ivory/10">
-                  <img
-                    src={point.image}
-                    alt={`${point.name} location`}
-                    className={`h-full w-full object-contain ${blocked ? 'blur-md grayscale' : ''}`}
-                  />
+                  {point.image ? (
+                    <img
+                      src={point.image}
+                      alt={`${point.name} location`}
+                      className={`h-full w-full object-contain ${blocked ? 'blur-md grayscale' : ''}`}
+                    />
+                  ) : point.bodyMap ? (
+                    <PointDiagram
+                      x={point.bodyMap.x}
+                      y={point.bodyMap.y}
+                      className={`h-full w-full ${blocked ? 'blur-md grayscale' : ''}`}
+                    />
+                  ) : null}
                 </div>
                 <div className="flex flex-col gap-0.5">
                   <span className="font-bold text-charcoal dark:text-ivory">{point.name}</span>

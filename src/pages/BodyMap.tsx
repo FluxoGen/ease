@@ -62,6 +62,17 @@ export default function BodyMap() {
                     className="fill-white stroke-warn-500 dark:fill-charcoal-soft"
                     strokeWidth={3}
                   />
+                ) : !p.verified ? (
+                  // Dashed outline — not yet reviewed, distinct from a
+                  // confirmed solid point.
+                  <circle
+                    cx={p.bodyMap!.x}
+                    cy={p.bodyMap!.y}
+                    r={8}
+                    strokeDasharray="3 2"
+                    className="fill-clay/40 stroke-clay-dark dark:stroke-clay"
+                    strokeWidth={2}
+                  />
                 ) : (
                   <circle
                     cx={p.bodyMap!.x}
@@ -85,6 +96,13 @@ export default function BodyMap() {
         <span className="flex items-center gap-1.5">
           <span className="inline-block h-2.5 w-2.5 rounded-full border-2 border-warn-500 bg-white dark:bg-charcoal-soft" />
           Avoid during pregnancy
+        </span>
+        <span className="flex items-center gap-1.5">
+          <span
+            className="inline-block h-2.5 w-2.5 rounded-full bg-clay/40"
+            style={{ border: '2px dashed #8a4a30' }}
+          />
+          Not yet reviewed
         </span>
       </div>
 

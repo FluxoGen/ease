@@ -20,7 +20,9 @@ export interface Point {
   region: string;
   location: string;
   useTags: UseTag[];
-  image: string;
+  /** Omitted for verified: false points — no fabricated photo. PointDetail
+   * falls back to a PointDiagram (body silhouette + dot) instead. */
+  image?: string;
   pregnancyCaution?: boolean;
   source: string;
   /** Classical TCM designations (Yuan-source, Five-Shu category, Luo-connecting,

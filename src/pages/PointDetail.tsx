@@ -1,6 +1,7 @@
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react';
 import { AlertTriangle, ChevronDown, ChevronLeft } from 'lucide-react';
 import { Link, Navigate, useLocation, useParams } from 'react-router-dom';
+import PointDiagram from '../components/PointDiagram';
 import { usePregnancy } from '../context/PregnancyContext';
 import { pointsById } from '../data/points';
 import { routines } from '../data/routines';
@@ -77,16 +78,18 @@ export default function PointDetail() {
         </div>
       )}
 
-      <div className="mt-3 flex flex-wrap gap-1.5">
-        {point.useTags.map((t) => (
-          <span
-            key={t}
-            className="rounded-full bg-charcoal/5 px-2.5 py-1 text-xs dark:bg-ivory/10"
-          >
-            {TAG_LABELS[t] ?? t}
-          </span>
-        ))}
-      </div>
+      {point.useTags.length > 0 && (
+        <div className="mt-3 flex flex-wrap gap-1.5">
+          {point.useTags.map((t) => (
+            <span
+              key={t}
+              className="rounded-full bg-charcoal/5 px-2.5 py-1 text-xs dark:bg-ivory/10"
+            >
+              {TAG_LABELS[t] ?? t}
+            </span>
+          ))}
+        </div>
+      )}
 
       {(point.classicalGroups || point.fivePhase) && (
         <div className="mt-3 text-sm text-muted dark:text-muted-dark">
@@ -122,13 +125,22 @@ export default function PointDetail() {
         </div>
       ) : (
         <>
-          <div className="mt-4 overflow-hidden rounded-2xl border border-charcoal/10 bg-white dark:border-ivory/10">
-            <img
-              src={point.image}
-              alt={`${point.name} location`}
-              className="max-h-80 w-full object-contain"
-            />
-          </div>
+          {point.image ? (
+            <div className="mt-4 overflow-hidden rounded-2xl border border-charcoal/10 bg-white dark:border-ivory/10">
+              <img
+                src={point.image}
+                alt={`${point.name} location`}
+                className="max-h-80 w-full object-contain"
+              />
+            </div>
+          ) : point.bodyMap ? (
+            <div className="mt-4 overflow-hidden rounded-2xl border border-charcoal/10 bg-sand dark:border-ivory/10 dark:bg-charcoal-soft">
+              <PointDiagram x={point.bodyMap.x} y={point.bodyMap.y} className="mx-auto h-56 w-56" />
+              <p className="pb-3 text-center text-xs text-muted dark:text-muted-dark">
+                Diagram, not a photo — approximate location only.
+              </p>
+            </div>
+          ) : null}
           <h2 className="mt-5 text-lg font-bold">Location</h2>
           <p className="mt-1 text-charcoal/70 dark:text-ivory/70">{point.location}</p>
           <h2 className="mt-5 text-lg font-bold">How to use it</h2>

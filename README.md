@@ -94,6 +94,8 @@ npm run lint             # oxlint
 - `src/data/routines.ts` — the 10 symptom routines, each a list of point ids.
 - `src/data/bodyMap.ts` — the body-map SVG viewBox constant.
 - `src/components/BodySilhouette.tsx` — the original schematic body outline used by `/map`.
+- `src/components/PointDiagram.tsx` — zoomed crop of that same silhouette + a dot, used as the
+  photo fallback for points that don't have one.
 - `src/pages/` — Home (symptom picker), RoutineDetail, PointDetail, Safety, BodyMap.
 - `src/assets/points/` — cropped point photos (JPEG, no VA branding).
 - `src/components/EaseLogo.tsx` — the wordmark as inline SVG (paths, no font needed to render it).
@@ -117,10 +119,26 @@ npm run lint             # oxlint
   the classical Four Command Points, SP6's three-yin-meeting status. Most extra/empirical points
   (Tai Yang, Yin Tang, An Mian, Luo Zhen, Bai Lao, Ling Gu) correctly have neither, since they sit
   outside the 14-meridian system these classifications belong to. Surfaced on `PointDetail`.
-- **WHO-361 expansion — infrastructure only, not populated.** `Point.verified: boolean` exists
-  and `PointDetail` renders an "unreviewed" warning when false, but every current point is
-  `verified: true` — none of the additional ~336 points have been added. Doing that for real
-  needs either licensing WHO's dataset or sourcing each new point from multiple independent
-  references and having a licensed acupuncturist review it before shipping; that's real
-  effort, not something to rush to hit a number. The `verified: false` + body-map-diagram-instead-
-  of-fabricated-photo pattern is ready whenever that review pipeline exists.
+- **WHO-361 expansion — started, first batch of 19 points added (`verified: false`).** 25 -> 44
+  points, spanning three channels this app had zero coverage of before (Governing Vessel,
+  Conception Vessel, Triple Energizer): GV20, GV26, CV4, CV6, CV12, CV17, BL23, BL25, GB30, GB34,
+  SP9, SP10, ST25, KD3, PC8, LU9, LI20, TE5, and EX-B2 (the Huatuojiaji paraspinal line,
+  represented as one region like `ub_low_back_lines` rather than the ~34 individual points it
+  technically is). Each location was cross-referenced across multiple independent TCM
+  references — never copied from a single source's exact wording, and never from WHO's own
+  Standard Acupuncture Point Locations text directly (that carries a restrictive license). No
+  photos: `Point.image` is optional now, and `PointDetail`/`RoutineDetail` fall back to
+  `PointDiagram` (a zoomed crop of the same body-map silhouette with the point marked) instead of
+  fabricating a stock photo. Every one of these 19 is `useTags: []` — deliberately not mixed into
+  the 10 curated routines, which stay VA-photo-sourced only. They're reachable via `/map` (shown
+  as a dashed dot, distinct from both the solid "confirmed" dot and the pregnancy-caution ring)
+  or a direct `/point/:id` link, and `PointDetail` shows a persistent "not yet reviewed by a
+  licensed acupuncturist" notice on all of them.
+
+  Two of the nineteen (CV4, CV6) got `pregnancyCaution: true` — lower-abdomen points are
+  consistently cited as pregnancy-contraindicated across acupressure safety sources, same
+  standing as LI4/SP6/UB60.
+
+  ~317 points still to go. Same process each time: cross-reference facts across independent
+  sources, never fabricate a location, never claim a photo that doesn't exist, keep `verified:
+  false` until someone who isn't an AI actually checks it.
