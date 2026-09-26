@@ -46,11 +46,13 @@ export default function Home() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.2, delay: i * 0.04, ease: 'easeOut' }}
                 whileTap={{ scale: 0.96 }}
-                className="flex flex-col gap-3 rounded-2xl border border-charcoal/10 bg-sand p-5 shadow-sm dark:border-ivory/10 dark:bg-charcoal-soft"
+                className="flex min-h-[9.5rem] flex-col justify-between gap-3 rounded-2xl border border-charcoal/10 bg-sand p-5 shadow-sm dark:border-ivory/10 dark:bg-charcoal-soft"
               >
                 <Icon className="text-charcoal/70 dark:text-ivory/70" size={26} />
                 <div>
-                  <div className="font-bold text-charcoal dark:text-ivory">{r.title}</div>
+                  <div className="line-clamp-2 font-bold text-charcoal dark:text-ivory">
+                    {r.title}
+                  </div>
                   <div className="text-xs text-muted dark:text-muted-dark">
                     {r.pointIds.length} points
                   </div>
