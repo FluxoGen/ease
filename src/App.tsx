@@ -1,6 +1,6 @@
 import { ShieldCheck } from 'lucide-react';
 import { Toaster } from 'sonner';
-import { Link, Outlet } from 'react-router-dom';
+import { Link, Outlet, useLocation } from 'react-router-dom';
 import EaseLogo from './components/EaseLogo';
 import PregnancyGate from './components/PregnancyGate';
 import { PregnancyContext } from './context/PregnancyContext';
@@ -8,6 +8,7 @@ import { usePregnancyStatus } from './hooks/usePregnancyStatus';
 
 export default function App() {
   const { status, setStatus } = usePregnancyStatus();
+  const location = useLocation();
 
   return (
     <PregnancyContext.Provider value={{ status, setStatus }}>
@@ -19,6 +20,7 @@ export default function App() {
           </Link>
           <Link
             to="/safety"
+            state={{ from: location.pathname !== '/safety' ? location.pathname : undefined }}
             className="flex items-center gap-1.5 text-sm text-muted hover:text-charcoal dark:text-muted-dark dark:hover:text-ivory"
           >
             <ShieldCheck size={16} />

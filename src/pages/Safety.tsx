@@ -1,10 +1,12 @@
 import { Check, ChevronLeft } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { toast } from 'sonner';
 import { usePregnancy } from '../context/PregnancyContext';
 
 export default function Safety() {
   const { status, setStatus } = usePregnancy();
+  const location = useLocation();
+  const backTo = (location.state as { from?: string } | null)?.from ?? '/';
 
   const choose = (value: 'yes' | 'no') => {
     setStatus(value);
@@ -18,7 +20,7 @@ export default function Safety() {
   return (
     <div>
       <Link
-        to="/"
+        to={backTo}
         className="mb-3 flex items-center gap-1 text-sm text-muted hover:text-charcoal dark:text-muted-dark dark:hover:text-ivory"
       >
         <ChevronLeft size={16} />
