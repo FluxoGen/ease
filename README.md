@@ -67,9 +67,19 @@ routes would fail.
 Other scripts:
 
 ```bash
-npx tsc --noEmit         # type-check without emitting
+npx tsc -b               # type-check without emitting
 npm run lint             # oxlint
 ```
+
+**Use `tsc -b`, not bare `tsc --noEmit`.** The root `tsconfig.json` here is "solution style"
+(`files: []` + `references` to `tsconfig.app.json`/`tsconfig.node.json`) — a bare `tsc --noEmit`
+with no `-p`/`-b` silently resolves to that root config, finds nothing in its own `include`, and
+exits 0 having checked *zero files*. It looks like a clean pass and isn't one. `tsc -b` (which is
+what `npm run build` actually runs) respects the references and checks everything. Found this the
+hard way: an actual type error (a `Record<UseTag, ...>` missing new keys) sat invisible through
+several rounds of "typecheck clean" until a `tsc -b` run surfaced it — build still caught it before
+anything shipped, since `npm run build` was always run before committing, but the redundant
+`--noEmit` check was pure theater the whole time.
 
 ### Gotchas hit while building this
 
@@ -96,7 +106,7 @@ npm run lint             # oxlint
 - `src/components/BodySilhouette.tsx` — the original schematic body outline used by `/map`.
 - `src/components/PointDiagram.tsx` — zoomed crop of that same silhouette + a dot, used as the
   photo fallback for points that don't have one.
-- `src/pages/` — Home (symptom picker), RoutineDetail, PointDetail, Safety, BodyMap.
+- `src/pages/` — Home (symptom picker), RoutineDetail, PointDetail, Safety, BodyMap, AllPoints.
 - `src/assets/points/` — cropped point photos (JPEG, no VA branding).
 - `src/components/EaseLogo.tsx` — the wordmark as inline SVG (paths, no font needed to render it).
 - `sources/` — original VA PDFs, kept for provenance.
@@ -129,11 +139,11 @@ npm run lint             # oxlint
   Standard Acupuncture Point Locations text directly (that carries a restrictive license). No
   photos: `Point.image` is optional now, and `PointDetail`/`RoutineDetail` fall back to
   `PointDiagram` (a zoomed crop of the same body-map silhouette with the point marked) instead of
-  fabricating a stock photo. Every one of these 19 is `useTags: []` — deliberately not mixed into
-  the 10 curated routines, which stay VA-photo-sourced only. They're reachable via `/map` (shown
-  as a dashed dot, distinct from both the solid "confirmed" dot and the pregnancy-caution ring)
-  or a direct `/point/:id` link, and `PointDetail` shows a persistent "not yet reviewed by a
-  licensed acupuncturist" notice on all of them.
+  fabricating a stock photo. At the time, these 19 were kept out of the 10 curated routines
+  (`useTags: []`) — see the "Discoverability rework" note further down for why that changed.
+  They're reachable via `/map` (shown as a dashed dot, distinct from both the solid "confirmed"
+  dot and the pregnancy-caution ring) or a direct `/point/:id` link, and `PointDetail` shows a
+  persistent "not yet reviewed by a licensed acupuncturist" notice on all of them.
 
   Two of the nineteen (CV4, CV6) got `pregnancyCaution: true` — lower-abdomen points are
   consistently cited as pregnancy-contraindicated across acupressure safety sources, same
@@ -170,3 +180,36 @@ npm run lint             # oxlint
   ~260 points still to go. Same process every batch: cross-reference facts across independent
   sources via web search, never fabricate a location, never claim a photo that doesn't exist,
   keep `verified: false` until someone who isn't an AI actually checks it.
+
+- **Discoverability rework — the "keep unverified points out of routines" call was wrong.**
+  Feedback after batch 4 (stopped at 101 points, 76 of them pending review): with those 76
+  reachable *only* via `/map`'s tiny dots, dense clustering meant a human genuinely couldn't
+  perceive that 100+ things were even there, and there was no way to browse by symptom at all —
+  correctly called out as "adding points nobody can use." Two structural fixes, not more data:
+
+  - **`/points` — a searchable, filterable directory of every point.** Search by name, filter by
+    meridian or by verified/pending, each row shows a thumbnail (photo or `PointDiagram`) and a
+    "Pending" badge. This is the only way to reach a few genuinely specialized points (e.g. GV26,
+    an emergency-resuscitation point with no natural fit in a self-care symptom list) — those get
+    `useTags: []` on purpose and are tracked in `NO_ROUTINE_EXCEPTIONS` in the QA script so that's
+    a deliberate choice, not a gap.
+  - **7 new routines, and unverified points folded into existing ones where a real link exists.**
+    Upper & Mid Back, Shoulder Tension, Eye Strain, Ear & Hearing, Digestive Health, Hand/Wrist &
+    Elbow, Foot & Ankle — 10 routines -> 17. Where a routine already had a `sourceUrl` (an actual
+    VA handout), the honest move was a new `Routine.extraNote` field alongside it, not silently
+    stretching what the handout covers: `extraNote` names exactly which points are the VA-sourced
+    core and which are additional pending-review points folded in. Every point list item also now
+    shows a "Not yet reviewed" label inline (`RoutineDetail`), so a mixed routine like Foot & Ankle
+    is legible at a glance — real photos for KD1/UB60/LR3, diagrams-with-a-badge for the rest —
+    without needing to open each point to find out which tier it's in.
+  - **`PointDiagram` got actual landmarks.** The earlier version was a bare zoomed crop of the
+    silhouette — fair complaint that it didn't help orient anyone, since any crop of a plain
+    rounded-rect limb looks the same regardless of *which* limb. Added dashed joint-landmark ticks
+    (shoulder/elbow/wrist/hip/knee/ankle) to `BodySilhouette`'s shared paths, plus a region + view
+    label printed above the diagram on `PointDetail` ("ANKLE · BACK VIEW").
+  - Retagging ~95 points by hand risked transcription slips, so it was done with a small script
+    (`retag.mjs`, not shipped — scratch tooling) mapping id -> final `useTags` array and applying
+    it in one pass, then re-run through the same data-consistency check every batch has used.
+  - This surfaced the `tsc --noEmit` no-op documented above — a real bug (`ROUTINE_ICONS` missing
+    keys for the 7 new categories) that the routine-but-broken typecheck step had been silently
+    missing; `npm run build`'s `tsc -b` caught it immediately once actually invoked.

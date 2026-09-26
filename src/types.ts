@@ -8,7 +8,14 @@ export type UseTag =
   | 'stress_anxiety'
   | 'menstrual_cramps'
   | 'cold_flu'
-  | 'energy_fatigue';
+  | 'energy_fatigue'
+  | 'upper_back'
+  | 'shoulder_tension'
+  | 'eye_strain'
+  | 'ear_hearing'
+  | 'digestive_health'
+  | 'hand_wrist_strain'
+  | 'foot_ankle_strain';
 
 export type FivePhase = 'wood' | 'fire' | 'earth' | 'metal' | 'water';
 
@@ -54,4 +61,9 @@ export interface Routine {
   /** Shown instead of sourceUrl when the routine draws on points already
    * sourced elsewhere rather than one dedicated handout. */
   sourceNote?: string;
+  /** Shown alongside sourceUrl when a VA-sourced routine has additional
+   * points folded in that AREN'T from that handout (verified: false ones,
+   * pending review) — keeps the sourceUrl honest about what it actually
+   * covers instead of implying it covers the extras too. */
+  extraNote?: string;
 }

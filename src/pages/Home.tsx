@@ -1,15 +1,22 @@
 import {
   Activity,
   Battery,
+  Bone,
   Brain,
+  Ear,
+  Eye,
   Feather,
   Flower2,
+  Footprints,
   Frown,
+  Hand,
   HeartPulse,
+  List,
   Moon,
   Move,
   PersonStanding,
   Thermometer,
+  Utensils,
   type LucideIcon,
 } from 'lucide-react';
 import { motion } from 'motion/react';
@@ -28,6 +35,13 @@ const ROUTINE_ICONS: Record<UseTag, LucideIcon> = {
   menstrual_cramps: Flower2,
   cold_flu: Thermometer,
   energy_fatigue: Battery,
+  upper_back: Bone,
+  shoulder_tension: PersonStanding,
+  eye_strain: Eye,
+  ear_hearing: Ear,
+  digestive_health: Utensils,
+  hand_wrist_strain: Hand,
+  foot_ankle_strain: Footprints,
 };
 
 export default function Home() {
@@ -38,13 +52,22 @@ export default function Home() {
         Pick what you're dealing with to see a handful of self-acupressure points for it.
       </p>
 
-      <Link
-        to="/map"
-        className="mt-4 flex items-center gap-2 rounded-xl border border-charcoal/10 bg-sand px-4 py-3 text-sm font-semibold text-charcoal shadow-sm dark:border-ivory/10 dark:bg-charcoal-soft dark:text-ivory"
-      >
-        <PersonStanding size={20} className="text-clay-dark dark:text-clay" />
-        Browse by body area instead
-      </Link>
+      <div className="mt-4 grid grid-cols-1 gap-2 sm:grid-cols-2">
+        <Link
+          to="/map"
+          className="flex items-center gap-2 rounded-xl border border-charcoal/10 bg-sand px-4 py-3 text-sm font-semibold text-charcoal shadow-sm dark:border-ivory/10 dark:bg-charcoal-soft dark:text-ivory"
+        >
+          <PersonStanding size={20} className="text-clay-dark dark:text-clay" />
+          Browse by body area
+        </Link>
+        <Link
+          to="/points"
+          className="flex items-center gap-2 rounded-xl border border-charcoal/10 bg-sand px-4 py-3 text-sm font-semibold text-charcoal shadow-sm dark:border-ivory/10 dark:bg-charcoal-soft dark:text-ivory"
+        >
+          <List size={20} className="text-clay-dark dark:text-clay" />
+          Search all points
+        </Link>
+      </div>
 
       <div className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-3">
         {routines.map((r, i) => {

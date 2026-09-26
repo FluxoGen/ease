@@ -66,6 +66,11 @@ export default function RoutineDetail() {
                       Avoid during pregnancy
                     </span>
                   )}
+                  {!point.verified && !blocked && (
+                    <span className="text-xs font-semibold text-clay-dark dark:text-clay">
+                      Not yet reviewed
+                    </span>
+                  )}
                 </div>
               </motion.div>
             </Link>
@@ -90,6 +95,9 @@ export default function RoutineDetail() {
           routine.sourceNote
         )}
       </p>
+      {routine.extraNote && (
+        <p className="mt-2 text-xs text-muted dark:text-muted-dark">{routine.extraNote}</p>
+      )}
     </div>
   );
 }

@@ -18,6 +18,13 @@ const TAG_LABELS: Record<string, string> = {
   menstrual_cramps: 'Menstrual cramps',
   cold_flu: 'Cold & flu',
   energy_fatigue: 'Energy & fatigue',
+  upper_back: 'Upper & mid back',
+  shoulder_tension: 'Shoulder tension',
+  eye_strain: 'Eye strain',
+  ear_hearing: 'Ear & hearing',
+  digestive_health: 'Digestive health',
+  hand_wrist_strain: 'Hand, wrist & elbow',
+  foot_ankle_strain: 'Foot & ankle',
 };
 
 const PHASE_COLOR: Record<FivePhase, string> = {
@@ -37,17 +44,23 @@ export default function PointDetail() {
   if (!point) return <Navigate to="/" replace />;
 
   const blocked = status === 'yes' && point.pregnancyCaution;
-  const navState = location.state as { fromRoutine?: string; fromBodyMap?: boolean } | null;
+  const navState = location.state as
+    | { fromRoutine?: string; fromBodyMap?: boolean; fromAllPoints?: boolean }
+    | null;
   // Falls back to any routine containing this point (never home) — covers
   // hard reloads and direct deep links, where router state isn't available.
+  // A few points (e.g. GV26) aren't in any routine at all — those fall
+  // through to the All Points directory instead.
   const fallbackRoutine = routines.find((r) => r.pointIds.includes(point.id));
   const backTo = navState?.fromBodyMap
     ? '/map'
-    : navState?.fromRoutine
-      ? `/routine/${navState.fromRoutine}`
-      : fallbackRoutine
-        ? `/routine/${fallbackRoutine.id}`
-        : '/';
+    : navState?.fromAllPoints
+      ? '/points'
+      : navState?.fromRoutine
+        ? `/routine/${navState.fromRoutine}`
+        : fallbackRoutine
+          ? `/routine/${fallbackRoutine.id}`
+          : '/points';
 
   return (
     <div>
@@ -135,9 +148,13 @@ export default function PointDetail() {
             </div>
           ) : point.bodyMap ? (
             <div className="mt-4 overflow-hidden rounded-2xl border border-charcoal/10 bg-sand dark:border-ivory/10 dark:bg-charcoal-soft">
+              <p className="pt-3 text-center text-xs font-semibold uppercase tracking-wide text-muted dark:text-muted-dark">
+                {point.region} &middot; {point.bodyMap.view} view
+              </p>
               <PointDiagram x={point.bodyMap.x} y={point.bodyMap.y} className="mx-auto h-56 w-56" />
               <p className="pb-3 text-center text-xs text-muted dark:text-muted-dark">
-                Diagram, not a photo — approximate location only.
+                Dashed lines mark nearby joints for reference. Diagram, not a photo — approximate
+                location only.
               </p>
             </div>
           ) : null}
