@@ -1,4 +1,4 @@
-import { ChevronLeft } from 'lucide-react';
+import { Check, ChevronLeft } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { toast } from 'sonner';
 import { usePregnancy } from '../context/PregnancyContext';
@@ -35,25 +35,32 @@ export default function Safety() {
           points.
         </p>
         <div className="mt-3 rounded-xl border border-black/10 bg-white p-4 dark:border-white/10 dark:bg-[#1c2b29]">
-          <p className="text-sm text-black/50 dark:text-white/50">
-            Your current setting:{' '}
-            <strong className="text-black dark:text-white">
-              {status === 'yes' ? 'Pregnant / not sure' : status === 'no' ? 'Not pregnant' : 'Not set'}
-            </strong>
-          </p>
-          <div className="mt-3 flex flex-col gap-2 sm:flex-row">
+          <p className="mb-3 text-sm text-black/50 dark:text-white/50">Which applies to you?</p>
+          <div className="flex flex-col gap-2 sm:flex-row">
             <button
               type="button"
-              className="flex-1 rounded-lg bg-warn-500 px-4 py-2.5 text-sm font-semibold text-white hover:bg-warn-600"
+              aria-pressed={status === 'yes'}
+              className={
+                status === 'yes'
+                  ? 'flex flex-1 items-center justify-center gap-1.5 rounded-lg bg-warn-500 px-4 py-2.5 text-sm font-semibold text-white ring-2 ring-warn-500 ring-offset-2 ring-offset-white dark:ring-offset-[#1c2b29]'
+                  : 'flex flex-1 items-center justify-center gap-1.5 rounded-lg border border-warn-500/40 px-4 py-2.5 text-sm font-semibold text-warn-600 hover:bg-warn-50 dark:text-warn-500 dark:hover:bg-warn-500/10'
+              }
               onClick={() => choose('yes')}
             >
+              {status === 'yes' && <Check size={16} />}
               Pregnant / not sure
             </button>
             <button
               type="button"
-              className="flex-1 rounded-lg bg-black/10 px-4 py-2.5 text-sm font-semibold hover:bg-black/15 dark:bg-white/10 dark:hover:bg-white/15"
+              aria-pressed={status === 'no'}
+              className={
+                status === 'no'
+                  ? 'flex flex-1 items-center justify-center gap-1.5 rounded-lg bg-brand-500 px-4 py-2.5 text-sm font-semibold text-white ring-2 ring-brand-500 ring-offset-2 ring-offset-white dark:ring-offset-[#1c2b29]'
+                  : 'flex flex-1 items-center justify-center gap-1.5 rounded-lg border border-black/15 px-4 py-2.5 text-sm font-semibold text-black/70 hover:bg-black/5 dark:border-white/20 dark:text-white/70 dark:hover:bg-white/10'
+              }
               onClick={() => choose('no')}
             >
+              {status === 'no' && <Check size={16} />}
               Not pregnant
             </button>
           </div>
