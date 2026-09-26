@@ -65,16 +65,21 @@ export default function RoutineDetail() {
       </div>
 
       <p className="mt-6 text-xs text-black/50 dark:text-white/40">
-        Source:{' '}
-        <a
-          href={routine.sourceUrl}
-          target="_blank"
-          rel="noreferrer"
-          className="text-brand-500 underline"
-        >
-          VA Portland Health Care System handout
-        </a>{' '}
-        (public domain)
+        {routine.sourceUrl ? (
+          <>
+            Source:{' '}
+            <a
+              href={routine.sourceUrl}
+              target="_blank"
+              rel="noreferrer"
+              className="text-brand-500 underline"
+            >
+              VA public-domain handout
+            </a>
+          </>
+        ) : (
+          routine.sourceNote
+        )}
       </p>
     </div>
   );

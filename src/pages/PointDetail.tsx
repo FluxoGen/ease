@@ -10,6 +10,8 @@ const TAG_LABELS: Record<string, string> = {
   neck_pain: 'Neck',
   sleep: 'Sleep',
   well_being: 'Well-being',
+  nausea: 'Nausea',
+  stress_anxiety: 'Stress & anxiety',
 };
 
 export default function PointDetail() {

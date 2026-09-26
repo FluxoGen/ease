@@ -6,9 +6,13 @@ points with photos and plain-language locations.
 
 ## v1 scope
 
-~25 points across 5 routines (low back, headaches, neck, sleep, well-being), sourced entirely
-from public-domain VA patient education handouts (see `sources/`). No backend — all data is
-static JSON/TS, bundled for offline use via a service worker.
+25 points across 7 routines (low back, headaches, neck, sleep, well-being, nausea, stress &
+anxiety), sourced entirely from public-domain VA patient education handouts (see `sources/`).
+The last two routines don't have their own dedicated VA handout — they reuse points already
+sourced for sleep/well-being that are also commonly used for nausea and stress (cross-checked
+against a non-federal source for point selection only, never copied for wording or images — see
+each point's own `source` field). No backend — all data is static JSON/TS, bundled for offline
+use via a service worker.
 
 Deliberately **not** v1: the full WHO 361-point set. That set has real value but the WHO
 locations/names carry a CC BY-NC style license that's awkward for a paid app, and the point

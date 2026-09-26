@@ -3,7 +3,9 @@ export type UseTag =
   | 'headache'
   | 'neck_pain'
   | 'sleep'
-  | 'well_being';
+  | 'well_being'
+  | 'nausea'
+  | 'stress_anxiety';
 
 export interface Point {
   id: string;
@@ -23,5 +25,9 @@ export interface Routine {
   title: string;
   description: string;
   pointIds: string[];
-  sourceUrl: string;
+  /** Present when one dedicated official handout covers this exact routine. */
+  sourceUrl?: string;
+  /** Shown instead of sourceUrl when the routine draws on points already
+   * sourced elsewhere rather than one dedicated handout. */
+  sourceNote?: string;
 }

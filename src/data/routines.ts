@@ -36,6 +36,22 @@ export const routines: Routine[] = [
     pointIds: ['li4', 'li11', 'lu7', 'st36', 'sp6'],
     sourceUrl: 'https://www.va.gov/files/2023-07/Acupressure%20for%20Well-Being.pdf',
   },
+  {
+    id: 'nausea',
+    title: 'Nausea',
+    description: 'Points traditionally used for nausea and upset stomach.',
+    pointIds: ['pc6', 'st36'],
+    sourceUrl:
+      'https://www.va.gov/WHOLEHEALTHLIBRARY/docs/Managing-Chemotherapy-Induced-Nausea-and-Vomiting.pdf',
+  },
+  {
+    id: 'stress_anxiety',
+    title: 'Stress & Anxiety',
+    description: 'Points traditionally used for calming a racing mind or a tense body.',
+    pointIds: ['yin_tang', 'ht7', 'pc6'],
+    sourceNote:
+      'These three points are drawn from the sleep routine above — Yin Tang, HT7, and PC6 are also commonly used for stress and anxiety in Traditional Chinese Medicine. See each point\'s page for its own source.',
+  },
 ];
 
 export const routinesById = Object.fromEntries(routines.map((r) => [r.id, r]));

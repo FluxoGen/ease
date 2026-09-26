@@ -1,4 +1,4 @@
-import { Activity, Brain, HeartPulse, Moon, Move, type LucideIcon } from 'lucide-react';
+import { Activity, Brain, Feather, Frown, HeartPulse, Moon, Move, type LucideIcon } from 'lucide-react';
 import { motion } from 'motion/react';
 import { Link } from 'react-router-dom';
 import { routines } from '../data/routines';
@@ -10,6 +10,8 @@ const ROUTINE_ICONS: Record<UseTag, LucideIcon> = {
   neck_pain: Move,
   sleep: Moon,
   well_being: HeartPulse,
+  nausea: Frown,
+  stress_anxiety: Feather,
 };
 
 export default function Home() {
