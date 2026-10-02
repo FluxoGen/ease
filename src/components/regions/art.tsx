@@ -83,7 +83,7 @@ function Guide({ y, w, children }: { y: number; w: number; children: ReactNode }
 
 // ---------------------------------------------------------------- FEET
 
-function FootTop() {
+export function FootTop() {
   return (
     <>
       <path d="M108 420 C104 350 98 300 86 250 C74 210 68 180 70 150 L256 150 L256 190 C252 205 234 225 224 250 C214 292 202 345 198 420 Z" fill={SKIN} />
@@ -106,7 +106,7 @@ function FootTop() {
   );
 }
 
-function FootSide({ outer }: { outer: boolean }) {
+export function FootSide({ outer }: { outer: boolean }) {
   const mx = outer ? 96 : 100;
   const my = outer ? 190 : 170;
   return (
@@ -153,7 +153,7 @@ function FootSide({ outer }: { outer: boolean }) {
 
 // ---------------------------------------------------------------- HANDS
 
-function HandPalm() {
+export function HandPalm() {
   return (
     <>
       <g transform="rotate(24 226 350)">
@@ -179,7 +179,7 @@ function HandPalm() {
   );
 }
 
-function HandBack() {
+export function HandBack() {
   return (
     <>
       <g transform="rotate(-24 114 350)">
@@ -212,7 +212,7 @@ function HandBack() {
 
 // ---------------------------------------------------------------- ARM
 
-function ElbowFront() {
+export function ElbowFront() {
   return (
     <>
       <path d="M92 0 C88 60 88 120 90 170 C92 230 100 300 105 380 L195 380 C200 300 208 230 210 170 C212 120 212 60 208 0 Z" fill={SKIN} {...stroke} />
@@ -230,7 +230,7 @@ function ElbowFront() {
   );
 }
 
-function ElbowBack() {
+export function ElbowBack() {
   return (
     <>
       <path d="M92 0 C88 60 88 120 90 170 C92 230 100 300 105 380 L195 380 C200 300 208 230 210 170 C212 120 212 60 208 0 Z" fill={SKIN} {...stroke} />
@@ -247,7 +247,7 @@ function ElbowBack() {
 
 // ---------------------------------------------------------------- LEG
 
-function LegFront() {
+export function LegFront() {
   return (
     <>
       <path d="M72 0 C78 80 90 150 100 205 C96 250 108 330 114 420 C118 480 120 530 118 580 L184 580 C182 530 186 480 192 420 C200 340 204 250 200 205 C214 150 224 80 230 0 Z" fill={SKIN} {...stroke} />
@@ -271,7 +271,7 @@ function LegFront() {
   );
 }
 
-function KneeBack() {
+export function KneeBack() {
   return (
     <>
       <path d="M85 0 C88 100 94 190 98 220 C96 300 106 380 112 420 L188 420 C194 380 204 300 202 220 C206 190 212 100 215 0 Z" fill={SKIN} {...stroke} />
@@ -289,7 +289,7 @@ function KneeBack() {
 
 // ---------------------------------------------------------------- TORSO
 
-function TorsoFront() {
+export function TorsoFront() {
   const ribs = [0, 1, 2, 3, 4, 5].map((i) => 86 + i * 24);
   return (
     <>
@@ -327,7 +327,7 @@ function TorsoFront() {
 
 const SPINE_Y = [70, 87, 104, 121, 138, 155, 172, 189, 206, 223, 240, 257, 274, 295, 318, 341, 364, 387];
 
-function BackArt() {
+export function BackArt() {
   return (
     <>
       <path d="M110 0 L190 0 L190 24 Q150 34 110 24 Z" fill="#7a6252" opacity={0.85} />
@@ -365,7 +365,7 @@ function BackArt() {
 
 // ---------------------------------------------------------------- HEAD
 
-function FaceFront() {
+export function FaceFront() {
   return (
     <>
       <ellipse cx={52} cy={195} rx={12} ry={28} fill={SKIN} {...stroke} />
@@ -393,7 +393,7 @@ function FaceFront() {
   );
 }
 
-function HeadSide() {
+export function HeadSide() {
   return (
     <>
       <path d="M205 22 C125 18 88 78 92 130 C82 150 62 165 72 176 L90 182 C92 200 85 214 95 228 C100 252 120 278 160 282 C185 272 215 258 236 238 C270 192 292 118 252 62 C238 36 222 24 205 22 Z" fill={SKIN} {...stroke} />
@@ -412,19 +412,3 @@ function HeadSide() {
     </>
   );
 }
-
-export const REGION_VIEWS: Record<RegionViewId, RegionView> = {
-  'foot-top': { label: 'Right foot · top view', size: [300, 420], win: [250, 250], pullX: [160, 0.6], Art: FootTop },
-  'foot-inner': { label: 'Right foot · inner side', size: [400, 300], win: [200, 200], Art: () => <FootSide outer={false} /> },
-  'foot-outer': { label: 'Right foot · outer side', size: [400, 300], win: [200, 200], Art: () => <FootSide outer /> },
-  'hand-palm': { label: 'Right hand · palm side', size: [300, 540], win: [250, 250], pullX: [160, 0.7], Art: HandPalm },
-  'hand-back': { label: 'Right hand · back of hand', size: [300, 540], win: [250, 250], pullX: [170, 0.7], Art: HandBack },
-  'elbow-front': { label: 'Right arm · inside of elbow', size: [300, 380], win: [170, 170], Art: ElbowFront },
-  'elbow-back': { label: 'Right arm · back of elbow', size: [300, 380], win: [170, 170], Art: ElbowBack },
-  'leg-front': { label: 'Right leg · front', size: [300, 620], win: [220, 220], Art: LegFront },
-  'knee-back': { label: 'Right leg · back of knee', size: [300, 420], win: [200, 200], Art: KneeBack },
-  'torso-front': { label: 'Front of the torso', size: [300, 520], win: [240, 240], mirrorX: 150, Art: TorsoFront },
-  back: { label: 'Back', size: [300, 620], win: [210, 210], mirrorX: 150, Art: BackArt },
-  'face-front': { label: 'Face · front', size: [300, 380], win: [240, 240], mirrorX: 150, Art: FaceFront },
-  'head-side': { label: 'Head · right side', size: [300, 340], win: [240, 240], Art: HeadSide },
-};

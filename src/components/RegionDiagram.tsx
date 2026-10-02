@@ -1,4 +1,4 @@
-import { REGION_VIEWS } from './regions/art';
+import { REGION_VIEWS } from './regions/views';
 import { POINT_DIAGRAMS } from '../data/pointDiagrams';
 
 interface RegionDiagramProps {
@@ -22,15 +22,6 @@ function marksFor(id: string, mirrorX?: number): Array<[number, number]> {
   const base: Array<[number, number]> = [[spec.x, spec.y]];
   if (mirrorX !== undefined && Math.abs(spec.x - mirrorX) > 2) base.push([2 * mirrorX - spec.x, spec.y]);
   return base;
-}
-
-export function hasRegionDiagram(pointId: string): boolean {
-  return pointId in POINT_DIAGRAMS;
-}
-
-export function regionLabel(pointId: string): string | undefined {
-  const spec = POINT_DIAGRAMS[pointId];
-  return spec ? REGION_VIEWS[spec.view].label : undefined;
 }
 
 // Original illustration of the body area around a point, with the point marked and
