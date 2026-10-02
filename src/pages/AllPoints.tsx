@@ -2,7 +2,8 @@ import { ChevronLeft, Search } from 'lucide-react';
 import { useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import PointDiagram from '../components/PointDiagram';
-import RegionDiagram, { hasRegionDiagram } from '../components/RegionDiagram';
+import RegionDiagram from '../components/RegionDiagram';
+import { hasRegionDiagram } from '../data/pointDiagrams';
 import { points } from '../data/points';
 
 const MERIDIAN_ORDER = [

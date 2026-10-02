@@ -2,7 +2,8 @@ import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react
 import { AlertTriangle, ChevronDown, ChevronLeft, Info } from 'lucide-react';
 import { Link, Navigate, useLocation, useParams } from 'react-router-dom';
 import PointDiagram from '../components/PointDiagram';
-import RegionDiagram, { hasRegionDiagram, regionLabel } from '../components/RegionDiagram';
+import RegionDiagram from '../components/RegionDiagram';
+import { hasRegionDiagram, regionLabel } from '../data/pointDiagrams';
 import { usePregnancy } from '../context/PregnancyContext';
 import { pointsById } from '../data/points';
 import { routines } from '../data/routines';

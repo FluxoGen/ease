@@ -1,4 +1,5 @@
 import type { RegionViewId } from '../components/regions/art';
+import { REGION_VIEWS } from '../components/regions/views';
 
 /** Where an unverified point sits on its region illustration (coordinates are in
  * the view's own drawing space — see components/regions/art.tsx). Positions are
@@ -105,3 +106,12 @@ export const POINT_DIAGRAMS: Record<string, PointDiagramSpec> = {
   te17: { view: 'head-side', x: 222, y: 186 },
   gv20: { view: 'head-side', x: 205, y: 30 },
 };
+
+export function hasRegionDiagram(pointId: string): boolean {
+  return pointId in POINT_DIAGRAMS;
+}
+
+export function regionLabel(pointId: string): string | undefined {
+  const spec = POINT_DIAGRAMS[pointId];
+  return spec ? REGION_VIEWS[spec.view].label : undefined;
+}
