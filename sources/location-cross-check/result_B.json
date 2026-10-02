@@ -1,0 +1,562 @@
+[
+ {
+  "id": "gb30",
+  "verdict": "MINOR",
+  "sources": [
+   {
+    "name": "WHO Standard Acupuncture Point Locations in the Western Pacific Region (2008), full text via Internet Archive",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "YinYangHouse point reference (GB30)",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/gb30/",
+    "agrees": true
+   },
+   {
+    "name": "iaomai acupuncture point database",
+    "url": "https://www.iaomai.app/en/acupuncture-points/GB30-huantiao",
+    "agrees": true
+   }
+  ],
+  "standard_landmarks": "Buttock; on the line from the greater trochanter (bony bump on outer hip) to the sacral hiatus (small dip just above the tailbone tip), at the point where the outer third meets the inner two thirds, i.e. one third of the way in from the hip end. Easier to find lying on the side with the thigh flexed.",
+  "controversy": "WHO lists an alternative: junction of lateral one third and medial two thirds of the line from greater trochanter to the anterior superior iliac spine. Most other sources use the sacral hiatus line.",
+  "corrected_location": "On the buttock, about one-third of the way along a line from the bony bump on the outside of the hip (greater trochanter) toward the small dip just above the tailbone tip (sacral hiatus), measured from the hip end; it is easiest to find lying on your side with the top knee bent.",
+  "notes": "Independence note: WHO 2008 is the primary standard; YinYangHouse wording is shared by several commercial chart sites (acupunctureproducts.com, goe.ac, acuiq.com, acupuncture.com), which are copies of one lineage and were counted once; iaomai and Me & Qi use their own wording. App text matches but says 'tailbone' where the standard end landmark is the sacral hiatus; and omits side-lying position. App wording 'one-third of the way' matches iaomai."
+ },
+ {
+  "id": "gb34",
+  "verdict": "CONFIRMED",
+  "sources": [
+   {
+    "name": "WHO Standard Acupuncture Point Locations in the Western Pacific Region (2008), full text via Internet Archive",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "YinYangHouse point reference (GB34)",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/gb34/",
+    "agrees": true
+   },
+   {
+    "name": "iaomai acupuncture point database",
+    "url": "https://www.iaomai.app/en/acupuncture-points/GB34-yanglingquan",
+    "agrees": true
+   }
+  ],
+  "standard_landmarks": "Outer side of lower leg, in the depression in front of and below the head of the fibula.",
+  "controversy": "",
+  "corrected_location": "",
+  "notes": "All three agree. App wording is faithful. WHO says 'anterior and distal'."
+ },
+ {
+  "id": "sp9",
+  "verdict": "CONFIRMED",
+  "sources": [
+   {
+    "name": "WHO Standard Acupuncture Point Locations in the Western Pacific Region (2008), full text via Internet Archive",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "YinYangHouse point reference (SP9)",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/sp9/",
+    "agrees": true
+   },
+   {
+    "name": "iaomai acupuncture point database",
+    "url": "https://www.iaomai.app/en/acupuncture-points/SP9-yinlingquan",
+    "agrees": true
+   }
+  ],
+  "standard_landmarks": "Inner side of lower leg, depression between the lower edge of the medial condyle of the tibia (the bulge below the inner knee) and the back/medial border of the tibia.",
+  "controversy": "Wording varies slightly (YinYangHouse: posterior and inferior to the medial condyle; also mentions the gap between tibia and calf muscle). Same region. iaomai's phrase 'just below the femoral head' is anatomically odd and was disregarded.",
+  "corrected_location": "",
+  "notes": "App text matches. Optional refinement: 'slide your thumb up the inner edge of the shin bone until it stops in a hollow under the knob'."
+ },
+ {
+  "id": "sp10",
+  "verdict": "MINOR",
+  "sources": [
+   {
+    "name": "WHO Standard Acupuncture Point Locations in the Western Pacific Region (2008), full text via Internet Archive",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "YinYangHouse point reference (SP10)",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/sp10/",
+    "agrees": true
+   },
+   {
+    "name": "iaomai acupuncture point database",
+    "url": "https://www.iaomai.app/en/acupuncture-points/SP10-xuehai",
+    "agrees": true
+   }
+  ],
+  "standard_landmarks": "Inner thigh on the bulge of vastus medialis, 2 cun (about 2 thumb-widths) above the inner/upper corner of the base of the kneecap; knee flexed.",
+  "controversy": "",
+  "corrected_location": "On the inner thigh, about two thumb-widths above the inner upper corner of the kneecap, on the bulge of the thigh muscle that stands out when the knee is bent.",
+  "notes": "Independence note: WHO 2008 is the primary standard; YinYangHouse wording is shared by several commercial chart sites (acupunctureproducts.com, goe.ac, acuiq.com, acupuncture.com), which are copies of one lineage and were counted once; iaomai and Me & Qi use their own wording. App says 'just above the kneecap' which is imprecise (2 cun above, not directly adjacent)."
+ },
+ {
+  "id": "st25",
+  "verdict": "MINOR",
+  "sources": [
+   {
+    "name": "WHO Standard Acupuncture Point Locations in the Western Pacific Region (2008), full text via Internet Archive",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "YinYangHouse point reference (ST25)",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/st25/",
+    "agrees": true
+   },
+   {
+    "name": "iaomai acupuncture point database",
+    "url": "https://www.iaomai.app/en/acupuncture-points/ST25-tianshu",
+    "agrees": true
+   },
+   {
+    "name": "Me & Qi Knowledge Base",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/stomach-meridian/tianshu-st-25",
+    "agrees": true
+   }
+  ],
+  "standard_landmarks": "Abdomen, 2 cun lateral to the centre of the navel (level with it; CV8 level).",
+  "controversy": "None on location. 'Finger-width' is ambiguous: 2 cun is about two thumb-widths or roughly three finger-widths, not two finger-widths (~1.5 cun).",
+  "corrected_location": "On the belly, level with the navel and about two thumb-widths (roughly three finger-widths) out to the side from its centre.",
+  "notes": "Independence note: WHO 2008 is the primary standard; YinYangHouse wording is shared by several commercial chart sites (acupunctureproducts.com, goe.ac, acuiq.com, acupuncture.com), which are copies of one lineage and were counted once; iaomai and Me & Qi use their own wording. WHO says 2 B-cun, YinYangHouse says 2 cun lateral to the navel level; app 'two finger-widths' is likely too short."
+ },
+ {
+  "id": "sp4",
+  "verdict": "CONFIRMED",
+  "sources": [
+   {
+    "name": "WHO Standard Acupuncture Point Locations in the Western Pacific Region (2008), full text via Internet Archive",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "YinYangHouse point reference (SP4)",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/sp4/",
+    "agrees": true
+   },
+   {
+    "name": "iaomai acupuncture point database",
+    "url": "https://www.iaomai.app/en/acupuncture-points/SP4-gongsun",
+    "agrees": true
+   }
+  ],
+  "standard_landmarks": "Inner foot, in the depression just in front of/below the base (back end) of the 1st metatarsal bone, at the border of red and white skin; felt by sliding back from SP3.",
+  "controversy": "",
+  "corrected_location": "",
+  "notes": "App matches. Minor optional: sliding the thumb back from SP3 until it drops into a hollow."
+ },
+ {
+  "id": "gb41",
+  "verdict": "MINOR",
+  "sources": [
+   {
+    "name": "WHO Standard Acupuncture Point Locations in the Western Pacific Region (2008), full text via Internet Archive",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "YinYangHouse point reference (GB41)",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/gb41/",
+    "agrees": true
+   },
+   {
+    "name": "iaomai acupuncture point database",
+    "url": "https://www.iaomai.app/en/acupuncture-points/GB41-zulinqi",
+    "agrees": true
+   }
+  ],
+  "standard_landmarks": "Top of foot, in the groove between the 4th and 5th metatarsals, in the depression on the outer side of the little-toe extensor tendon. WHO places it just distal to where the bases of the 4th and 5th metatarsals meet (i.e. toward the toes from the V where the bones join).",
+  "controversy": "Real variation: WHO says distal to the junction of the bases of the 4th and 5th metatarsals; YinYangHouse and iaomai say posterior/proximal to the 4th metatarsophalangeal joint (further forward in the groove). Both lie in the same groove between the 4th and 5th metatarsals, but not at the toe knuckles (that is GB42, which WHO puts proximal to the 4th MTP joint) -- hence the ambiguity.",
+  "corrected_location": "On the top of the foot, in the groove between the long bones of the 4th and 5th toes, in the hollow just in front of where those two bones join (toward the toes) and on the outer side of the little-toe tendon.",
+  "notes": "Independence note: WHO 2008 is the primary standard; YinYangHouse wording is shared by several commercial chart sites (acupunctureproducts.com, goe.ac, acuiq.com, acupuncture.com), which are copies of one lineage and were counted once; iaomai and Me & Qi use their own wording. App phrase 'before the toes' could steer users toward the toe-end of the groove (GB42 zone). Recommend anchoring to the groove and little-toe tendon."
+ },
+ {
+  "id": "lr2",
+  "verdict": "MINOR",
+  "sources": [
+   {
+    "name": "WHO Standard Acupuncture Point Locations in the Western Pacific Region (2008), full text via Internet Archive",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "iaomai acupuncture point database",
+    "url": "https://www.iaomai.app/en/acupuncture-points/LR2-xingjian",
+    "agrees": true
+   },
+   {
+    "name": "Me & Qi Knowledge Base",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/liver-meridian/xingjian-lr-2",
+    "agrees": true
+   }
+  ],
+  "standard_landmarks": "Top of foot between the 1st and 2nd toes, just behind (proximal to) the web edge, at the border of red and white skin; about 0.5 cun behind the web fold.",
+  "controversy": "",
+  "corrected_location": "On the top of the foot, in the groove between the big toe and second toe, just behind the edge of the web (about half a thumb-width back), where the skin colour changes.",
+  "notes": "Independence note: WHO 2008 is the primary standard; YinYangHouse wording is shared by several commercial chart sites (acupunctureproducts.com, goe.ac, acuiq.com, acupuncture.com), which are copies of one lineage and were counted once; iaomai and Me & Qi use their own wording. App says 'in the webbing', but the standard point is just proximal to the web margin. Note: YinYangHouse page uses /liv2/ slug which returned 404, so was not used."
+ },
+ {
+  "id": "lr8",
+  "verdict": "MINOR",
+  "sources": [
+   {
+    "name": "WHO Standard Acupuncture Point Locations in the Western Pacific Region (2008), full text via Internet Archive",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "iaomai acupuncture point database",
+    "url": "https://www.iaomai.app/en/acupuncture-points/LR8-ququan",
+    "agrees": true
+   },
+   {
+    "name": "Me & Qi Knowledge Base",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/liver-meridian/ququan-lr-8",
+    "agrees": true
+   }
+  ],
+  "standard_landmarks": "Inner knee with knee bent; in the depression at the inner end of the knee-crease, just in front of/medial to the tendons of semitendinosus and semimembranosus (the most prominent tendon at the inner crease end).",
+  "controversy": "Wording differs between sources (WHO: medial to the semitendinosus/semimembranosus tendons; iaomai: between sartorius and semitendinosus tendon above the tibial condyle; Me & Qi: above the crease end, behind the medial tibial condyle) but all describe the same inner-crease hollow.",
+  "corrected_location": "With the knee bent, on the inner side of the knee, in the hollow just in front of the thick tendon at the inner end of the back-of-knee crease.",
+  "notes": "Independence note: WHO 2008 is the primary standard; YinYangHouse wording is shared by several commercial chart sites (acupunctureproducts.com, goe.ac, acuiq.com, acupuncture.com), which are copies of one lineage and were counted once; iaomai and Me & Qi use their own wording. App is broadly right but omits the tendon landmark and the bent-knee instruction. Not verified in yinyanghouse (404)."
+ },
+ {
+  "id": "lr13",
+  "verdict": "DISCREPANCY",
+  "sources": [
+   {
+    "name": "WHO Standard Acupuncture Point Locations in the Western Pacific Region (2008), full text via Internet Archive",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "iaomai acupuncture point database",
+    "url": "https://www.iaomai.app/en/acupuncture-points/LR13-zhangmen",
+    "agrees": true
+   },
+   {
+    "name": "Me & Qi Knowledge Base",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/liver-meridian/zhangmen-lr-13",
+    "agrees": true
+   }
+  ],
+  "standard_landmarks": "Side of the torso, just below the free end (tip) of the 11th rib, found while lying on the side. The 12th rib tip is a different point (GB25).",
+  "controversy": "",
+  "corrected_location": "On the side of the torso, just below the tip of the 11th rib (the second-lowest rib, free at the front end), which you can feel under the rib cage edge when lying on your side with your top arm raised.",
+  "notes": "Independence note: WHO 2008 is the primary standard; YinYangHouse wording is shared by several commercial chart sites (acupunctureproducts.com, goe.ac, acuiq.com, acupuncture.com), which are copies of one lineage and were counted once; iaomai and Me & Qi use their own wording. App says 'the lowest, free-floating rib' which implies the 12th rib. WHO 2008 explicitly states the free extremity of the 11th rib for LR13 and the 12th rib for GB25. All three sources agree on 11th. Fix needed."
+ },
+ {
+  "id": "lr14",
+  "verdict": "MINOR",
+  "sources": [
+   {
+    "name": "WHO Standard Acupuncture Point Locations in the Western Pacific Region (2008), full text via Internet Archive",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "iaomai acupuncture point database",
+    "url": "https://www.iaomai.app/en/acupuncture-points/LR14-qimen",
+    "agrees": true
+   },
+   {
+    "name": "Me & Qi Knowledge Base",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/liver-meridian/qimen-lr-14",
+    "agrees": true
+   }
+  ],
+  "standard_landmarks": "Chest, 6th intercostal space (between 6th and 7th ribs), 4 cun lateral to the midline, in line with the nipple in men; in women WHO uses the midclavicular line instead of the nipple.",
+  "controversy": "Me & Qi mentions an alternative placement at the lower rib-cage edge for organ problems versus the intercostal space for channel problems. Nipple level varies, so 'two ribs down' is only approximate (nipple is around the 4th intercostal space in men).",
+  "corrected_location": "On the chest, directly below the nipple (in women, straight down from the middle of the collarbone), in the gap between the 6th and 7th ribs, about two rib-gaps below the nipple level.",
+  "notes": "Independence note: WHO 2008 is the primary standard; YinYangHouse wording is shared by several commercial chart sites (acupunctureproducts.com, goe.ac, acuiq.com, acupuncture.com), which are copies of one lineage and were counted once; iaomai and Me & Qi use their own wording. App 'two ribs down' is consistent with Me & Qi's phrasing but lacks 'in the gap between ribs 6 and 7' and the female landmark caveat."
+ },
+ {
+  "id": "st44",
+  "verdict": "MINOR",
+  "sources": [
+   {
+    "name": "YinYangHouse point reference (ST44)",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/st44/",
+    "agrees": true
+   },
+   {
+    "name": "iaomai acupuncture point database",
+    "url": "https://www.iaomai.app/en/acupuncture-points/ST44-neiting",
+    "agrees": true
+   },
+   {
+    "name": "Acupuncture.com point page ST44 (same lineage as YinYangHouse wording)",
+    "url": "https://www.acupuncture.com/education/points/stomach/st44.htm",
+    "agrees": true
+   }
+  ],
+  "standard_landmarks": "Top of foot, just behind (proximal to) the web edge between 2nd and 3rd toes, in the depression at the 2nd/3rd toe knuckle junction, at the red/white skin border.",
+  "controversy": "WHO 2008 entry for ST44 could not be read: the OCR text on Internet Archive dropped the description for ST44 (only figure present), so WHO is not listed for this point. YinYangHouse and acupuncture.com share the same lineage, so independence is only partial (iaomai is independent).",
+  "corrected_location": "On the top of the foot, in the groove just behind the web between the second and third toes, where the skin colour changes.",
+  "notes": "Only two independent lineages verified (YinYangHouse/acupuncture.com and iaomai). App says 'in the webbing' but standard is proximal to the web margin."
+ },
+ {
+  "id": "st40",
+  "verdict": "MINOR",
+  "sources": [
+   {
+    "name": "WHO Standard Acupuncture Point Locations in the Western Pacific Region (2008), full text via Internet Archive",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "YinYangHouse point reference (ST40)",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/st40/",
+    "agrees": true
+   },
+   {
+    "name": "iaomai acupuncture point database",
+    "url": "https://www.iaomai.app/en/acupuncture-points/ST40-fenglong",
+    "agrees": true
+   },
+   {
+    "name": "Me & Qi Knowledge Base",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/stomach-meridian/fenglong-st-40",
+    "agrees": true
+   }
+  ],
+  "standard_landmarks": "Front-outer lower leg, 8 cun above the prominence of the outer ankle bone (midway between ST35 at the knee and ST41 at the ankle), on the outer border of tibialis anterior, one middle-finger-width outside ST38; about two finger-widths outside the shin crest.",
+  "controversy": "Minor wording variation: WHO defines by the tibialis anterior border and ST38; others say two (middle) finger-widths lateral to the tibial crest.",
+  "corrected_location": "On the front of the lower leg, halfway between the knee and the ankle, about two finger-widths out to the outer side of the sharp shin bone edge.",
+  "notes": "Independence note: WHO 2008 is the primary standard; YinYangHouse wording is shared by several commercial chart sites (acupunctureproducts.com, goe.ac, acuiq.com, acupuncture.com), which are copies of one lineage and were counted once; iaomai and Me & Qi use their own wording. App says 'two thumb-widths', which is slightly wider than the usual 'two finger-widths' (~1.5-2 cun by finger method); thumb-width ~ 1 cun so this overshoots in the thumb method."
+ },
+ {
+  "id": "sp1",
+  "verdict": "CONFIRMED",
+  "sources": [
+   {
+    "name": "WHO Standard Acupuncture Point Locations in the Western Pacific Region (2008), full text via Internet Archive",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "YinYangHouse point reference (SP1)",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/sp1/",
+    "agrees": true
+   },
+   {
+    "name": "iaomai acupuncture point database",
+    "url": "https://www.iaomai.app/en/acupuncture-points/SP1-yinbai",
+    "agrees": true
+   }
+  ],
+  "standard_landmarks": "Big toe, inner (medial) side of the nail, 0.1 cun back from the nail corner.",
+  "controversy": "",
+  "corrected_location": "",
+  "notes": "App matches."
+ },
+ {
+  "id": "sp3",
+  "verdict": "CONFIRMED",
+  "sources": [
+   {
+    "name": "WHO Standard Acupuncture Point Locations in the Western Pacific Region (2008), full text via Internet Archive",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "YinYangHouse point reference (SP3)",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/sp3/",
+    "agrees": true
+   },
+   {
+    "name": "iaomai acupuncture point database",
+    "url": "https://www.iaomai.app/en/acupuncture-points/SP3-taibai",
+    "agrees": true
+   }
+  ],
+  "standard_landmarks": "Inner foot, depression just behind the first metatarsophalangeal joint (big-toe knuckle), at the red/white skin border.",
+  "controversy": "Minor wording variation: some sources say proximal and inferior to the head of the 1st metatarsal; same site.",
+  "corrected_location": "",
+  "notes": "App 'behind the ball of the big toe' matches."
+ },
+ {
+  "id": "st45",
+  "verdict": "CONFIRMED",
+  "sources": [
+   {
+    "name": "WHO Standard Acupuncture Point Locations in the Western Pacific Region (2008), full text via Internet Archive",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "YinYangHouse point reference (ST45)",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/st45/",
+    "agrees": true
+   },
+   {
+    "name": "iaomai acupuncture point database",
+    "url": "https://www.iaomai.app/en/acupuncture-points/ST45-lidui",
+    "agrees": true
+   }
+  ],
+  "standard_landmarks": "Second toe, outer (lateral) side of nail corner, 0.1 cun back from the corner.",
+  "controversy": "",
+  "corrected_location": "",
+  "notes": "App matches."
+ },
+ {
+  "id": "gb44",
+  "verdict": "CONFIRMED",
+  "sources": [
+   {
+    "name": "WHO Standard Acupuncture Point Locations in the Western Pacific Region (2008), full text via Internet Archive",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "YinYangHouse point reference (GB44)",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/gb44/",
+    "agrees": true
+   },
+   {
+    "name": "iaomai acupuncture point database",
+    "url": "https://www.iaomai.app/en/acupuncture-points/GB44-zuqiaoyin",
+    "agrees": true
+   }
+  ],
+  "standard_landmarks": "Fourth toe, outer (lateral) side of nail corner, 0.1 cun back.",
+  "controversy": "",
+  "corrected_location": "",
+  "notes": "App matches."
+ },
+ {
+  "id": "lr1",
+  "verdict": "CONFIRMED",
+  "sources": [
+   {
+    "name": "WHO Standard Acupuncture Point Locations in the Western Pacific Region (2008), full text via Internet Archive",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "iaomai acupuncture point database",
+    "url": "https://www.iaomai.app/en/acupuncture-points/LR1-dadun",
+    "agrees": true
+   },
+   {
+    "name": "Me & Qi Knowledge Base",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/liver-meridian/dadun-lr-1",
+    "agrees": true
+   }
+  ],
+  "standard_landmarks": "Big toe, lateral (outer, toward 2nd toe) side of nail corner, 0.1 cun behind the corner.",
+  "controversy": "iaomai's phrase 'near the inner side of the foot' is confusing; WHO, Me & Qi use lateral side.",
+  "corrected_location": "",
+  "notes": "App matches. Easily confused with SP1 (medial side)."
+ },
+ {
+  "id": "st43",
+  "verdict": "MINOR",
+  "sources": [
+   {
+    "name": "WHO Standard Acupuncture Point Locations in the Western Pacific Region (2008), full text via Internet Archive",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "YinYangHouse point reference (ST43)",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/st43/",
+    "agrees": true
+   },
+   {
+    "name": "iaomai acupuncture point database",
+    "url": "https://www.iaomai.app/en/acupuncture-points/ST43-xiangu",
+    "agrees": true
+   }
+  ],
+  "standard_landmarks": "Top of foot, between the 2nd and 3rd metatarsal bones, in the depression just behind the 2nd metatarsophalangeal joint (WHO).",
+  "controversy": "YinYangHouse: depression 'distal to the junction of the 2nd and 3rd metatarsal bones'; WHO: proximal to the 2nd MTP joint. Both describe the groove between 2nd and 3rd metatarsals, between ST42 and ST44.",
+  "corrected_location": "On the top of the foot, in the groove between the long bones behind the second and third toes, in the hollow just behind the knuckle of the second toe.",
+  "notes": "Independence note: WHO 2008 is the primary standard; YinYangHouse wording is shared by several commercial chart sites (acupunctureproducts.com, goe.ac, acuiq.com, acupuncture.com), which are copies of one lineage and were counted once; iaomai and Me & Qi use their own wording. App says bones 'of the 2nd and 3rd toes meet', which suggests the junction at the base; standard is the groove just behind the knuckle."
+ },
+ {
+  "id": "st6",
+  "verdict": "CONFIRMED",
+  "sources": [
+   {
+    "name": "WHO Standard Acupuncture Point Locations in the Western Pacific Region (2008), full text via Internet Archive",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "YinYangHouse point reference (ST6)",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/st6/",
+    "agrees": true
+   },
+   {
+    "name": "iaomai acupuncture point database",
+    "url": "https://www.iaomai.app/en/acupuncture-points/ST6-jiache",
+    "agrees": true
+   }
+  ],
+  "standard_landmarks": "Jaw, one finger-width (middle finger) in front of and above the angle of the lower jaw, at the bulge of masseter when teeth are clenched.",
+  "controversy": "",
+  "corrected_location": "",
+  "notes": "App matches WHO well. App says 'about one finger-width in front of and above'."
+ },
+ {
+  "id": "gb14",
+  "verdict": "CONFIRMED",
+  "sources": [
+   {
+    "name": "WHO Standard Acupuncture Point Locations in the Western Pacific Region (2008), full text via Internet Archive",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "YinYangHouse point reference (GB14)",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/gb14/",
+    "agrees": true
+   },
+   {
+    "name": "iaomai acupuncture point database",
+    "url": "https://www.iaomai.app/en/acupuncture-points/GB14-yangbai",
+    "agrees": true
+   }
+  ],
+  "standard_landmarks": "Forehead, 1 cun above the eyebrow, directly above the pupil (eyes looking straight ahead).",
+  "controversy": "",
+  "corrected_location": "",
+  "notes": "App matches. Note: 1 cun is roughly a thumb-width; 'finger-width' is acceptable."
+ },
+ {
+  "id": "gb1",
+  "verdict": "CONFIRMED",
+  "sources": [
+   {
+    "name": "WHO Standard Acupuncture Point Locations in the Western Pacific Region (2008), full text via Internet Archive",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "YinYangHouse point reference (GB1)",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/gb1/",
+    "agrees": true
+   },
+   {
+    "name": "iaomai acupuncture point database",
+    "url": "https://www.iaomai.app/en/acupuncture-points/GB1-tongziliao",
+    "agrees": true
+   }
+  ],
+  "standard_landmarks": "Beside the eye, 0.5 cun lateral to the outer corner of the eye, in the depression at the outer rim of the eye socket.",
+  "controversy": "",
+  "corrected_location": "",
+  "notes": "App matches; could add 'about half a thumb-width' and 'on the bone rim'."
+ }
+]

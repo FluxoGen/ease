@@ -2,6 +2,7 @@ import { ChevronLeft } from 'lucide-react';
 import { motion } from 'motion/react';
 import { Link, Navigate, useParams } from 'react-router-dom';
 import PointDiagram from '../components/PointDiagram';
+import RegionDiagram, { hasRegionDiagram } from '../components/RegionDiagram';
 import { pointsById } from '../data/points';
 import { routinesById } from '../data/routines';
 import { usePregnancy } from '../context/PregnancyContext';
@@ -45,6 +46,12 @@ export default function RoutineDetail() {
                       src={point.image}
                       alt={`${point.name} location`}
                       className={`h-full w-full object-contain ${blocked ? 'blur-md grayscale' : ''}`}
+                    />
+                  ) : hasRegionDiagram(point.id) ? (
+                    <RegionDiagram
+                      pointId={point.id}
+                      compact
+                      className={`h-full w-full bg-[#fbf8f2] ${blocked ? 'blur-md grayscale' : ''}`}
                     />
                   ) : point.bodyMap ? (
                     <PointDiagram

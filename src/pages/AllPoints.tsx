@@ -2,6 +2,7 @@ import { ChevronLeft, Search } from 'lucide-react';
 import { useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import PointDiagram from '../components/PointDiagram';
+import RegionDiagram, { hasRegionDiagram } from '../components/RegionDiagram';
 import { points } from '../data/points';
 
 const MERIDIAN_ORDER = [
@@ -106,6 +107,8 @@ export default function AllPoints() {
             <div className="h-12 w-12 shrink-0 overflow-hidden rounded-lg border border-charcoal/10 bg-white dark:border-ivory/10">
               {p.image ? (
                 <img src={p.image} alt="" className="h-full w-full object-contain" />
+              ) : hasRegionDiagram(p.id) ? (
+                <RegionDiagram pointId={p.id} compact className="h-full w-full bg-[#fbf8f2]" />
               ) : p.bodyMap ? (
                 <PointDiagram x={p.bodyMap.x} y={p.bodyMap.y} className="h-full w-full" />
               ) : null}

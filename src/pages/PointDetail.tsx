@@ -1,7 +1,8 @@
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react';
-import { AlertTriangle, ChevronDown, ChevronLeft } from 'lucide-react';
+import { AlertTriangle, ChevronDown, ChevronLeft, Info } from 'lucide-react';
 import { Link, Navigate, useLocation, useParams } from 'react-router-dom';
 import PointDiagram from '../components/PointDiagram';
+import RegionDiagram, { hasRegionDiagram, regionLabel } from '../components/RegionDiagram';
 import { usePregnancy } from '../context/PregnancyContext';
 import { pointsById } from '../data/points';
 import { routines } from '../data/routines';
@@ -26,6 +27,10 @@ const TAG_LABELS: Record<string, string> = {
   hand_wrist_strain: 'Hand, wrist & elbow',
   foot_ankle_strain: 'Foot & ankle',
 };
+
+// Points where the WHO text could not be matched: ST44 (description missing from the
+// readable copy) and EX-B2 (an extra point outside WHO's 361).
+const NO_WHO_MATCH = new Set(['st44', 'ex_b2']);
 
 const PHASE_COLOR: Record<FivePhase, string> = {
   wood: '#4a7c4e',
@@ -85,9 +90,11 @@ export default function PointDetail() {
       )}
 
       {!point.verified && (
-        <div className="mt-2 flex items-center gap-1.5 rounded-lg bg-warn-50 px-2.5 py-1.5 text-xs font-medium text-warn-600 dark:bg-warn-500/10 dark:text-warn-500">
-          <AlertTriangle size={14} />
-          Not yet reviewed by a licensed acupuncturist — location is a best estimate.
+        <div className="mt-2 flex items-start gap-2.5 rounded-lg border border-amber-300/60 bg-amber-50 px-3 py-2.5 text-sm font-medium text-amber-900 dark:border-amber-400/30 dark:bg-amber-400/10 dark:text-amber-200">
+          <Info size={22} className="mt-0.5 shrink-0 text-amber-600 dark:text-amber-300" />
+          {NO_WHO_MATCH.has(point.id)
+            ? 'Not yet reviewed by a licensed acupuncturist. Location comes from acupuncture education sources, not the WHO standard; the picture is an approximate illustration.'
+            : 'Not yet reviewed by a licensed acupuncturist. Location matches the WHO standard point locations; the picture is an approximate illustration.'}
         </div>
       )}
 
@@ -145,6 +152,16 @@ export default function PointDetail() {
                 alt={`${point.name} location`}
                 className="max-h-80 w-full object-contain"
               />
+            </div>
+          ) : hasRegionDiagram(point.id) ? (
+            <div className="mt-4 overflow-hidden rounded-2xl border border-charcoal/10 bg-[#fbf8f2] dark:border-ivory/10">
+              <p className="pt-3 text-center text-xs font-semibold uppercase tracking-wide text-[#8A6650]">
+                {regionLabel(point.id)}
+              </p>
+              <RegionDiagram pointId={point.id} className="mx-auto my-2 h-72 w-72 max-w-[calc(100%-2rem)] rounded-xl border border-[#eadfce] bg-[#fbf8f2]" />
+              <p className="px-4 pb-3 text-center text-xs text-[#8A6650]">
+                Orange dot = this point. Illustration, not a photo — approximate location only.
+              </p>
             </div>
           ) : point.bodyMap ? (
             <div className="mt-4 overflow-hidden rounded-2xl border border-charcoal/10 bg-sand dark:border-ivory/10 dark:bg-charcoal-soft">

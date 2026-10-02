@@ -1,0 +1,1946 @@
+[
+ {
+  "id": "si4",
+  "name": "SI4",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "medium",
+  "reason": "Not listed as forbidden/cautioned in pregnancy in the Yin Yang House precautions table (the only opened source with a point-by-point pregnancy list) or in any other opened list; distal/limb/head/upper-body location with no lower-abdomen or sacral link. Absence of evidence from limited sources, so moderate confidence.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "ling_gu",
+  "name": "Ling Gu",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "low",
+  "reason": "Extra/Dong-style point on the hand; no source opened addresses it; hand points near LI4 region but separate.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": "No source addresses this point.",
+  "evidence_level": "not-researched-specifically"
+ },
+ {
+  "id": "ear_low_back_zone",
+  "name": "Ear Low Back Zone",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "low",
+  "reason": "Auricular zone; no opened source addresses it. Auricular uterus/ovary/endocrine points are the usual ear cautions, not low-back zone.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": "No source opened for auricular points.",
+  "evidence_level": "not-researched-specifically"
+ },
+ {
+  "id": "ub_low_back_lines",
+  "name": "UB Low Back Lines",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "low",
+  "reason": "Descriptor is waist-level bladder lines, not sacral. Sources urge avoiding DEEP needling of the low back and sacrum; none opened explicitly forbids moderate pressure at waist level. Consider a caution note; flag only if the content includes sacral levels.",
+  "sources": [
+   {
+    "name": "Acufinder - Acupuncture Points to Avoid During Pregnancy",
+    "url": "https://www.acufinder.com/Acupuncture+Information/Detail/Acupuncture+Points+to+Avoid+During+Pregnancy"
+   },
+   {
+    "name": "Acupuncture Today - TCM and Pregnancy",
+    "url": "https://acupuncturetoday.com/article/31856-tcm-and-pregnancy"
+   }
+  ],
+  "disagreement": "Acufinder: 'low back - avoid deep needling' (caution only).",
+  "evidence_level": "caution-only"
+ },
+ {
+  "id": "hip_area",
+  "name": "Hip Area",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "low",
+  "reason": "Gluteal muscle region, not sacral foramina; Acufinder only cautions sacrum and low back. No explicit listing.",
+  "sources": [
+   {
+    "name": "Acufinder - Acupuncture Points to Avoid During Pregnancy",
+    "url": "https://www.acufinder.com/Acupuncture+Information/Detail/Acupuncture+Points+to+Avoid+During+Pregnancy"
+   },
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "ub40",
+  "name": "UB40",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "medium",
+  "reason": "Not listed as forbidden/cautioned in pregnancy in the Yin Yang House precautions table (the only opened source with a point-by-point pregnancy list) or in any other opened list; distal/limb/head/upper-body location with no lower-abdomen or sacral link. Absence of evidence from limited sources, so moderate confidence.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "ub57",
+  "name": "UB57",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "medium",
+  "reason": "Not listed as forbidden/cautioned in pregnancy in the Yin Yang House precautions table (the only opened source with a point-by-point pregnancy list) or in any other opened list; distal/limb/head/upper-body location with no lower-abdomen or sacral link. Absence of evidence from limited sources, so moderate confidence.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "li4",
+  "name": "LI4",
+  "currently_flagged": true,
+  "should_flag": true,
+  "confidence": "high",
+  "reason": "Named as a traditional forbidden point in essentially every list opened (strong qi-moving point used to induce labour, classically paired with SP6). Explicit 'avoid' category on the largest point-by-point cautions list. Modern evidence (Carr 2015 Acupunct Med and Betts & Budd 2011, seen only via search-result snippets, pages blocked 403) reports no objective evidence of harm from needling these points in healthy pregnancy; the listing is traditional/precautionary.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   },
+   {
+    "name": "TCM Study - Forbidden Points During Pregnancy",
+    "url": "https://newsletter.tcmstudy.net/p/forbidden-pregnancy-points"
+   },
+   {
+    "name": "Yo San University - 5 Forbidden Acupuncture Points",
+    "url": "https://yosan.edu/what-are-the-5-forbidden-acupuncture-points/"
+   },
+   {
+    "name": "Four Flowers Wellness - Don't Press There",
+    "url": "https://fourflowerswellness.com/dont-press-acupunctures-forbidden-points-pregnancy/"
+   },
+   {
+    "name": "AcupressureGuide - Pregnancy-safe pressure points",
+    "url": "https://acupressureguide.com/pregnancy-safe-pressure-points/"
+   },
+   {
+    "name": "TCMTips - Five acupuncture points to avoid during pregnancy",
+    "url": "https://tcmtips.com/important-these-are-the-five-acupuncture-points-to-avoid-during-pregnancy/"
+   },
+   {
+    "name": "Meglio - The 5 forbidden acupuncture points",
+    "url": "https://mymeglio.com/blogs/blog/the-5-forbidden-acupuncture-points-what-every-practitioner-should-know"
+   },
+   {
+    "name": "Acufinder - Acupuncture Points to Avoid During Pregnancy",
+    "url": "https://www.acufinder.com/Acupuncture+Information/Detail/Acupuncture+Points+to+Avoid+During+Pregnancy"
+   },
+   {
+    "name": "Dynamic Chiropractic - The Forbidden Points of Acupuncture",
+    "url": "https://dynamicchiropractic.com/article/31656-the-forbidden-points-of-acupuncture"
+   },
+   {
+    "name": "Yin Yang House point page LI4",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/li4/"
+   }
+  ],
+  "disagreement": "Yin Yang House point page softens to 'Cautions with pregnancy'; Yin Yang House and others note no demonstrated harm; Japanese practice reportedly ignores the prohibition.",
+  "evidence_level": "explicit"
+ },
+ {
+  "id": "si3",
+  "name": "SI3",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "medium",
+  "reason": "Not listed as forbidden/cautioned in pregnancy in the Yin Yang House precautions table (the only opened source with a point-by-point pregnancy list) or in any other opened list; distal/limb/head/upper-body location with no lower-abdomen or sacral link. Absence of evidence from limited sources, so moderate confidence.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "gb20",
+  "name": "GB20",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "low",
+  "reason": "Acupuncture Today lists GB20 as traditionally avoided; no other opened list does, and it is not in the Yin Yang precautions table.",
+  "sources": [
+   {
+    "name": "Acupuncture Today - TCM and Pregnancy",
+    "url": "https://acupuncturetoday.com/article/31856-tcm-and-pregnancy"
+   },
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": "Single-source listing vs absence elsewhere.",
+  "evidence_level": "disputed"
+ },
+ {
+  "id": "tai_yang",
+  "name": "Tai Yang",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "medium",
+  "reason": "Not listed as forbidden/cautioned in pregnancy in the Yin Yang House precautions table (the only opened source with a point-by-point pregnancy list) or in any other opened list; distal/limb/head/upper-body location with no lower-abdomen or sacral link. Absence of evidence from limited sources, so moderate confidence.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "lr3",
+  "name": "LR3",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "low",
+  "reason": "Acupuncture Today lists LR3 among traditionally avoided points (labour stimulation), AcupressureGuide calls it safe; not in Yin Yang precautions. Minority view.",
+  "sources": [
+   {
+    "name": "Acupuncture Today - TCM and Pregnancy",
+    "url": "https://acupuncturetoday.com/article/31856-tcm-and-pregnancy"
+   },
+   {
+    "name": "AcupressureGuide - Pregnancy-safe pressure points",
+    "url": "https://acupressureguide.com/pregnancy-safe-pressure-points/"
+   },
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": "Acupuncture Today avoid vs AcupressureGuide safe.",
+  "evidence_level": "disputed"
+ },
+ {
+  "id": "kd1",
+  "name": "KD1",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "low",
+  "reason": "No opened source lists this point as forbidden/cautioned; not in Yin Yang House pregnancy-caution table. Some distal points (e.g. liver/spleen/stomach/kidney channel points) are rarely discussed individually, so low confidence rather than a positive safety finding.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "luo_zhen",
+  "name": "Luo Zhen",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "low",
+  "reason": "Extra point on the hand; no source opened addresses it.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": "No source addresses this point.",
+  "evidence_level": "not-researched-specifically"
+ },
+ {
+  "id": "bai_lao",
+  "name": "Bai Lao",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "medium",
+  "reason": "Not listed as forbidden/cautioned in pregnancy in the Yin Yang House precautions table (the only opened source with a point-by-point pregnancy list) or in any other opened list; distal/limb/head/upper-body location with no lower-abdomen or sacral link. Absence of evidence from limited sources, so moderate confidence.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "gb21",
+  "name": "GB21",
+  "currently_flagged": false,
+  "should_flag": true,
+  "confidence": "high",
+  "reason": "Explicitly 'Contraindicated in Pregnancy' on Yin Yang House and in Avoid-in-Pregnancy category; strong descending action, used for retained placenta/difficult labour. Modern evidence (Carr 2015 Acupunct Med and Betts & Budd 2011, seen only via search-result snippets, pages blocked 403) reports no objective evidence of harm from needling these points in healthy pregnancy; the listing is traditional/precautionary.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   },
+   {
+    "name": "Yin Yang House point page GB21",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/gb21/"
+   },
+   {
+    "name": "TCM Study - Forbidden Points During Pregnancy",
+    "url": "https://newsletter.tcmstudy.net/p/forbidden-pregnancy-points"
+   },
+   {
+    "name": "Yo San University - 5 Forbidden Acupuncture Points",
+    "url": "https://yosan.edu/what-are-the-5-forbidden-acupuncture-points/"
+   },
+   {
+    "name": "Four Flowers Wellness - Don't Press There",
+    "url": "https://fourflowerswellness.com/dont-press-acupunctures-forbidden-points-pregnancy/"
+   },
+   {
+    "name": "AcupressureGuide - Pregnancy-safe pressure points",
+    "url": "https://acupressureguide.com/pregnancy-safe-pressure-points/"
+   },
+   {
+    "name": "Meglio - The 5 forbidden acupuncture points",
+    "url": "https://mymeglio.com/blogs/blog/the-5-forbidden-acupuncture-points-what-every-practitioner-should-know"
+   },
+   {
+    "name": "Dynamic Chiropractic - The Forbidden Points of Acupuncture",
+    "url": "https://dynamicchiropractic.com/article/31656-the-forbidden-points-of-acupuncture"
+   }
+  ],
+  "disagreement": "Reasons vary (descending qi vs pelvic floor weakening); no demonstrated harm.",
+  "evidence_level": "explicit"
+ },
+ {
+  "id": "ub60",
+  "name": "UB60",
+  "currently_flagged": true,
+  "should_flag": true,
+  "confidence": "high",
+  "reason": "Listed as traditionally forbidden (promotes labour, moves stagnation forcefully) by multiple lists. Modern evidence (Carr 2015 Acupunct Med and Betts & Budd 2011, seen only via search-result snippets, pages blocked 403) reports no objective evidence of harm from needling these points in healthy pregnancy; the listing is traditional/precautionary.",
+  "sources": [
+   {
+    "name": "TCM Study - Forbidden Points During Pregnancy",
+    "url": "https://newsletter.tcmstudy.net/p/forbidden-pregnancy-points"
+   },
+   {
+    "name": "Yo San University - 5 Forbidden Acupuncture Points",
+    "url": "https://yosan.edu/what-are-the-5-forbidden-acupuncture-points/"
+   },
+   {
+    "name": "Four Flowers Wellness - Don't Press There",
+    "url": "https://fourflowerswellness.com/dont-press-acupunctures-forbidden-points-pregnancy/"
+   },
+   {
+    "name": "AcupressureGuide - Pregnancy-safe pressure points",
+    "url": "https://acupressureguide.com/pregnancy-safe-pressure-points/"
+   },
+   {
+    "name": "Meglio - The 5 forbidden acupuncture points",
+    "url": "https://mymeglio.com/blogs/blog/the-5-forbidden-acupuncture-points-what-every-practitioner-should-know"
+   },
+   {
+    "name": "Dynamic Chiropractic - The Forbidden Points of Acupuncture",
+    "url": "https://dynamicchiropractic.com/article/31656-the-forbidden-points-of-acupuncture"
+   }
+  ],
+  "disagreement": "Not in Yin Yang House's pregnancy-caution list and its UB60 page carries no pregnancy caution (only notes use to induce labour). Not in Maciocia/Deadman-style 'core' list per some sources.",
+  "evidence_level": "explicit"
+ },
+ {
+  "id": "ht7",
+  "name": "HT7",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "medium",
+  "reason": "Not listed as forbidden/cautioned in pregnancy in the Yin Yang House precautions table (the only opened source with a point-by-point pregnancy list) or in any other opened list; distal/limb/head/upper-body location with no lower-abdomen or sacral link. Absence of evidence from limited sources, so moderate confidence.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "an_mian",
+  "name": "An Mian",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "medium",
+  "reason": "Not listed as forbidden/cautioned in pregnancy in the Yin Yang House precautions table (the only opened source with a point-by-point pregnancy list) or in any other opened list; distal/limb/head/upper-body location with no lower-abdomen or sacral link. Absence of evidence from limited sources, so moderate confidence.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "yin_tang",
+  "name": "Yin Tang",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "medium",
+  "reason": "Not listed as forbidden/cautioned in pregnancy in the Yin Yang House precautions table (the only opened source with a point-by-point pregnancy list) or in any other opened list; distal/limb/head/upper-body location with no lower-abdomen or sacral link. Absence of evidence from limited sources, so moderate confidence.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "sp6",
+  "name": "SP6",
+  "currently_flagged": true,
+  "should_flag": true,
+  "confidence": "high",
+  "reason": "Forbidden in every list opened; used to induce labour and soften cervix. Modern evidence (Carr 2015 Acupunct Med and Betts & Budd 2011, seen only via search-result snippets, pages blocked 403) reports no objective evidence of harm from needling these points in healthy pregnancy; the listing is traditional/precautionary.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   },
+   {
+    "name": "TCM Study - Forbidden Points During Pregnancy",
+    "url": "https://newsletter.tcmstudy.net/p/forbidden-pregnancy-points"
+   },
+   {
+    "name": "Yo San University - 5 Forbidden Acupuncture Points",
+    "url": "https://yosan.edu/what-are-the-5-forbidden-acupuncture-points/"
+   },
+   {
+    "name": "Four Flowers Wellness - Don't Press There",
+    "url": "https://fourflowerswellness.com/dont-press-acupunctures-forbidden-points-pregnancy/"
+   },
+   {
+    "name": "AcupressureGuide - Pregnancy-safe pressure points",
+    "url": "https://acupressureguide.com/pregnancy-safe-pressure-points/"
+   },
+   {
+    "name": "TCMTips - Five acupuncture points to avoid during pregnancy",
+    "url": "https://tcmtips.com/important-these-are-the-five-acupuncture-points-to-avoid-during-pregnancy/"
+   },
+   {
+    "name": "Meglio - The 5 forbidden acupuncture points",
+    "url": "https://mymeglio.com/blogs/blog/the-5-forbidden-acupuncture-points-what-every-practitioner-should-know"
+   },
+   {
+    "name": "Acufinder - Acupuncture Points to Avoid During Pregnancy",
+    "url": "https://www.acufinder.com/Acupuncture+Information/Detail/Acupuncture+Points+to+Avoid+During+Pregnancy"
+   },
+   {
+    "name": "Dynamic Chiropractic - The Forbidden Points of Acupuncture",
+    "url": "https://dynamicchiropractic.com/article/31656-the-forbidden-points-of-acupuncture"
+   },
+   {
+    "name": "Yin Yang House point page SP6",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/sp6/"
+   }
+  ],
+  "disagreement": "Several sources say avoid before ~37-38 weeks only; evidence of harm absent.",
+  "evidence_level": "explicit"
+ },
+ {
+  "id": "pc6",
+  "name": "PC6",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "high",
+  "reason": "Specifically recommended for pregnancy nausea by AcupressureGuide and Acupuncture Today.",
+  "sources": [
+   {
+    "name": "AcupressureGuide - Pregnancy-safe pressure points",
+    "url": "https://acupressureguide.com/pregnancy-safe-pressure-points/"
+   },
+   {
+    "name": "Acupuncture Today - TCM and Pregnancy",
+    "url": "https://acupuncturetoday.com/article/31856-tcm-and-pregnancy"
+   },
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "safe-listed"
+ },
+ {
+  "id": "st36",
+  "name": "ST36",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "low",
+  "reason": "Opened sources conflict: TCMTips lists it as avoid (downward qi), AcupressureGuide lists it as safe; not in Yin Yang cautions list.",
+  "sources": [
+   {
+    "name": "TCMTips - Five acupuncture points to avoid during pregnancy",
+    "url": "https://tcmtips.com/important-these-are-the-five-acupuncture-points-to-avoid-during-pregnancy/"
+   },
+   {
+    "name": "AcupressureGuide - Pregnancy-safe pressure points",
+    "url": "https://acupressureguide.com/pregnancy-safe-pressure-points/"
+   },
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": "TCMTips avoid vs AcupressureGuide safe.",
+  "evidence_level": "disputed"
+ },
+ {
+  "id": "li11",
+  "name": "LI11",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "low",
+  "reason": "No opened source lists this point as forbidden/cautioned; not in Yin Yang House pregnancy-caution table. Some distal points (e.g. liver/spleen/stomach/kidney channel points) are rarely discussed individually, so low confidence rather than a positive safety finding.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "lu7",
+  "name": "Lu7",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "low",
+  "reason": "Search snippets of Carr 2015 list LU7 among frequently cited forbidden points (not opened); Yin Yang House LU7 page and precautions list carry no pregnancy caution; no other opened list names it.",
+  "sources": [
+   {
+    "name": "Yin Yang House point page LU7",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/lu7/"
+   },
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": "Single unverified citation vs no caution on opened pages.",
+  "evidence_level": "disputed"
+ },
+ {
+  "id": "gv20",
+  "name": "GV20",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "medium",
+  "reason": "Not listed as forbidden/cautioned in pregnancy in the Yin Yang House precautions table (the only opened source with a point-by-point pregnancy list) or in any other opened list; distal/limb/head/upper-body location with no lower-abdomen or sacral link. Absence of evidence from limited sources, so moderate confidence.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "gv26",
+  "name": "GV26",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "low",
+  "reason": "No opened source lists it; one search snippet mentions GV26 among forbidden points 'in certain instances' (unopened).",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": "Unopened snippet only.",
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "cv4",
+  "name": "CV4",
+  "currently_flagged": true,
+  "should_flag": true,
+  "confidence": "medium",
+  "reason": "Lower-abdominal CV points (CV2-CV7) are widely avoided; Yin Yang House restricts deep and perpendicular needling in pregnancy; Dynamic Chiropractic lists needle/moxa contraindication; Acufinder says avoid lower abdominal points. For a self-acupressure app, blocking firm pressure below the navel is conservative.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   },
+   {
+    "name": "Yin Yang House point page CV4",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/cv4/"
+   },
+   {
+    "name": "Dynamic Chiropractic - The Forbidden Points of Acupuncture",
+    "url": "https://dynamicchiropractic.com/article/31656-the-forbidden-points-of-acupuncture"
+   },
+   {
+    "name": "Acufinder - Acupuncture Points to Avoid During Pregnancy",
+    "url": "https://www.acufinder.com/Acupuncture+Information/Detail/Acupuncture+Points+to+Avoid+During+Pregnancy"
+   },
+   {
+    "name": "Acupuncture Today - TCM and Pregnancy",
+    "url": "https://acupuncturetoday.com/article/31856-tcm-and-pregnancy"
+   },
+   {
+    "name": "TCM Study - Forbidden Points During Pregnancy",
+    "url": "https://newsletter.tcmstudy.net/p/forbidden-pregnancy-points"
+   }
+  ],
+  "disagreement": "Yin Yang House frames it as a needling-technique limit (no deep/perpendicular needling), not absolute avoidance; gentle surface pressure risk is theoretical.",
+  "evidence_level": "explicit-region"
+ },
+ {
+  "id": "cv6",
+  "name": "CV6",
+  "currently_flagged": true,
+  "should_flag": true,
+  "confidence": "medium",
+  "reason": "Same lower-abdomen group as CV4; Yin Yang blog calls CV6 the 'obvious' contraindication; Yin Yang page restricts deep/perpendicular needling in pregnancy; Acufinder/Acupuncture Today say avoid lower abdominal and sacral points.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   },
+   {
+    "name": "Yin Yang House point page CV6",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/cv6/"
+   },
+   {
+    "name": "Yin Yang House blog - Forbidden Points in Pregnancy: Perhaps Not So Forbidden",
+    "url": "https://yinyanghouse.com/blog/posts/forbidden-points-in-pregnancy-perhaps-not-so-forbidden"
+   },
+   {
+    "name": "Acufinder - Acupuncture Points to Avoid During Pregnancy",
+    "url": "https://www.acufinder.com/Acupuncture+Information/Detail/Acupuncture+Points+to+Avoid+During+Pregnancy"
+   },
+   {
+    "name": "Acupuncture Today - TCM and Pregnancy",
+    "url": "https://acupuncturetoday.com/article/31856-tcm-and-pregnancy"
+   },
+   {
+    "name": "TCM Study - Forbidden Points During Pregnancy",
+    "url": "https://newsletter.tcmstudy.net/p/forbidden-pregnancy-points"
+   }
+  ],
+  "disagreement": "Technique-restriction wording vs. outright contraindication.",
+  "evidence_level": "explicit-region"
+ },
+ {
+  "id": "cv12",
+  "name": "CV12",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "medium",
+  "reason": "Upper abdomen above navel; Yin Yang House only restricts perpendicular (deep) needling in pregnancy, no avoidance of the point. Light pressure not supported as contraindicated by opened sources. (Search snippet claiming CV12/CV4 contraindicated throughout was not verified.)",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   },
+   {
+    "name": "Yin Yang House point page CV12",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/cv12/"
+   }
+  ],
+  "disagreement": "Unopened snippet claims contraindication; Yin Yang says technique limit only.",
+  "evidence_level": "caution-only"
+ },
+ {
+  "id": "cv17",
+  "name": "CV17",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "medium",
+  "reason": "Not listed as forbidden/cautioned in pregnancy in the Yin Yang House precautions table (the only opened source with a point-by-point pregnancy list) or in any other opened list; distal/limb/head/upper-body location with no lower-abdomen or sacral link. Absence of evidence from limited sources, so moderate confidence.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "bl23",
+  "name": "BL23",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "medium",
+  "reason": "No opened source lists BL23 as forbidden; Yin Yang page has no caution and BL23 is not in the precautions table. Commonly used for pregnancy low-back pain. Some sources urge general low-back caution.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   },
+   {
+    "name": "Yin Yang House point page UB23",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/ub23/"
+   },
+   {
+    "name": "Acufinder - Acupuncture Points to Avoid During Pregnancy",
+    "url": "https://www.acufinder.com/Acupuncture+Information/Detail/Acupuncture+Points+to+Avoid+During+Pregnancy"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "bl25",
+  "name": "BL25",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "low",
+  "reason": "Lumbar point at iliac crest level; opened sources only give general low-back/sacral caution (deep needling). One search snippet says BL25 'contraindicated' but that page was not opened. Caution, not explicit contraindication.",
+  "sources": [
+   {
+    "name": "Acufinder - Acupuncture Points to Avoid During Pregnancy",
+    "url": "https://www.acufinder.com/Acupuncture+Information/Detail/Acupuncture+Points+to+Avoid+During+Pregnancy"
+   },
+   {
+    "name": "Acupuncture Today - TCM and Pregnancy",
+    "url": "https://acupuncturetoday.com/article/31856-tcm-and-pregnancy"
+   },
+   {
+    "name": "Yin Yang House point page UB25",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/ub25/"
+   }
+  ],
+  "disagreement": "Yin Yang UB25 page has no pregnancy caution; Acufinder urges caution for low back.",
+  "evidence_level": "caution-only"
+ },
+ {
+  "id": "gb30",
+  "name": "GB30",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "medium",
+  "reason": "No pregnancy caution on Yin Yang GB30 page or precautions table; gluteal point, not in sacral foramen region.",
+  "sources": [
+   {
+    "name": "Yin Yang House point page GB30",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/gb30/"
+   },
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "gb34",
+  "name": "GB34",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "low",
+  "reason": "Not in any opened forbidden list or Yin Yang precautions table.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "sp9",
+  "name": "SP9",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "medium",
+  "reason": "No pregnancy caution on Yin Yang SP9 page or precautions table.",
+  "sources": [
+   {
+    "name": "Yin Yang House point page SP9",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/sp9/"
+   },
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "sp10",
+  "name": "SP10",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "low",
+  "reason": "No pregnancy caution on Yin Yang page/precautions table, but SP10 is a blood-moving gynaecological point and is a plausible candidate for a precautionary flag; no opened source lists it.",
+  "sources": [
+   {
+    "name": "Yin Yang House point page SP10",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/sp10/"
+   },
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "st25",
+  "name": "ST25",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "low",
+  "reason": "Dynamic Chiropractic lists ST25 (needle) as a pregnancy contraindication, but Yin Yang House ST25 page and precautions table do not, and it is at navel level (Maciocia rule is below the umbilicus). Only one source explicitly supports flagging, so below the 2-source bar; reasonable to treat as caution for abdominal pressing.",
+  "sources": [
+   {
+    "name": "Dynamic Chiropractic - The Forbidden Points of Acupuncture",
+    "url": "https://dynamicchiropractic.com/article/31656-the-forbidden-points-of-acupuncture"
+   },
+   {
+    "name": "Yin Yang House point page ST25",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/st25/"
+   },
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": "Dynamic Chiropractic vs Yin Yang House.",
+  "evidence_level": "disputed"
+ },
+ {
+  "id": "kd3",
+  "name": "KD3",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "medium",
+  "reason": "Not in Yin Yang cautions; AcupressureGuide calls K3 safe for relaxation.",
+  "sources": [
+   {
+    "name": "Yin Yang House point page KD3",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/kd3/"
+   },
+   {
+    "name": "AcupressureGuide - Pregnancy-safe pressure points",
+    "url": "https://acupressureguide.com/pregnancy-safe-pressure-points/"
+   },
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "pc8",
+  "name": "PC8",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "low",
+  "reason": "No opened source lists this point as forbidden/cautioned; not in Yin Yang House pregnancy-caution table. Some distal points (e.g. liver/spleen/stomach/kidney channel points) are rarely discussed individually, so low confidence rather than a positive safety finding.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "lu9",
+  "name": "LU9",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "low",
+  "reason": "No opened source lists this point as forbidden/cautioned; not in Yin Yang House pregnancy-caution table. Some distal points (e.g. liver/spleen/stomach/kidney channel points) are rarely discussed individually, so low confidence rather than a positive safety finding.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "li20",
+  "name": "LI20",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "low",
+  "reason": "No opened source lists this point as forbidden/cautioned; not in Yin Yang House pregnancy-caution table. Some distal points (e.g. liver/spleen/stomach/kidney channel points) are rarely discussed individually, so low confidence rather than a positive safety finding.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "te5",
+  "name": "TE5",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "medium",
+  "reason": "Not listed as forbidden/cautioned in pregnancy in the Yin Yang House precautions table (the only opened source with a point-by-point pregnancy list) or in any other opened list; distal/limb/head/upper-body location with no lower-abdomen or sacral link. Absence of evidence from limited sources, so moderate confidence.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "ex_b2",
+  "name": "EX-B2",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "low",
+  "reason": "Huatuojiaji line spans T1-L5 paravertebral; lumbar part is low-back region. No opened source specifically forbids it; only generic caution about deep needling of lumbar/sacral area.",
+  "sources": [
+   {
+    "name": "Acufinder - Acupuncture Points to Avoid During Pregnancy",
+    "url": "https://www.acufinder.com/Acupuncture+Information/Detail/Acupuncture+Points+to+Avoid+During+Pregnancy"
+   },
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "caution-only"
+ },
+ {
+  "id": "sp4",
+  "name": "SP4",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "low",
+  "reason": "No opened source lists this point as forbidden/cautioned; not in Yin Yang House pregnancy-caution table. Some distal points (e.g. liver/spleen/stomach/kidney channel points) are rarely discussed individually, so low confidence rather than a positive safety finding.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "kd6",
+  "name": "KD6",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "low",
+  "reason": "No pregnancy caution found on Yin Yang KD6 page or precautions table (only search-snippet mention of KI6 in labour-stimulation trials, unopened). Medial ankle but not a listed forbidden point.",
+  "sources": [
+   {
+    "name": "Yin Yang House point page KD6",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/kd6/"
+   },
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": "Unopened snippet suggests use in labour stimulation protocols.",
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "bl62",
+  "name": "BL62",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "medium",
+  "reason": "Not listed as forbidden/cautioned in pregnancy in the Yin Yang House precautions table (the only opened source with a point-by-point pregnancy list) or in any other opened list; distal/limb/head/upper-body location with no lower-abdomen or sacral link. Absence of evidence from limited sources, so moderate confidence.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "gb41",
+  "name": "GB41",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "medium",
+  "reason": "Not listed as forbidden/cautioned in pregnancy in the Yin Yang House precautions table (the only opened source with a point-by-point pregnancy list) or in any other opened list; distal/limb/head/upper-body location with no lower-abdomen or sacral link. Absence of evidence from limited sources, so moderate confidence.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "gv14",
+  "name": "GV14",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "medium",
+  "reason": "Not listed as forbidden/cautioned in pregnancy in the Yin Yang House precautions table (the only opened source with a point-by-point pregnancy list) or in any other opened list; distal/limb/head/upper-body location with no lower-abdomen or sacral link. Absence of evidence from limited sources, so moderate confidence.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "bl13",
+  "name": "BL13",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "medium",
+  "reason": "Not listed as forbidden/cautioned in pregnancy in the Yin Yang House precautions table (the only opened source with a point-by-point pregnancy list) or in any other opened list; distal/limb/head/upper-body location with no lower-abdomen or sacral link. Absence of evidence from limited sources, so moderate confidence.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "bl18",
+  "name": "BL18",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "medium",
+  "reason": "Not listed as forbidden/cautioned in pregnancy in the Yin Yang House precautions table (the only opened source with a point-by-point pregnancy list) or in any other opened list; distal/limb/head/upper-body location with no lower-abdomen or sacral link. Absence of evidence from limited sources, so moderate confidence.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "bl20",
+  "name": "BL20",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "medium",
+  "reason": "Not listed as forbidden/cautioned in pregnancy in the Yin Yang House precautions table (the only opened source with a point-by-point pregnancy list) or in any other opened list; distal/limb/head/upper-body location with no lower-abdomen or sacral link. Absence of evidence from limited sources, so moderate confidence.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "lr2",
+  "name": "LR2",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "low",
+  "reason": "No opened source lists this point as forbidden/cautioned; not in Yin Yang House pregnancy-caution table. Some distal points (e.g. liver/spleen/stomach/kidney channel points) are rarely discussed individually, so low confidence rather than a positive safety finding.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "lr8",
+  "name": "LR8",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "low",
+  "reason": "No opened source lists this point as forbidden/cautioned; not in Yin Yang House pregnancy-caution table. Some distal points (e.g. liver/spleen/stomach/kidney channel points) are rarely discussed individually, so low confidence rather than a positive safety finding.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "lr13",
+  "name": "LR13",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "low",
+  "reason": "Not in Yin Yang precautions table; no opened source lists it.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "lr14",
+  "name": "LR14",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "medium",
+  "reason": "Not listed as forbidden/cautioned in pregnancy in the Yin Yang House precautions table (the only opened source with a point-by-point pregnancy list) or in any other opened list; distal/limb/head/upper-body location with no lower-abdomen or sacral link. Absence of evidence from limited sources, so moderate confidence.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "st44",
+  "name": "ST44",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "low",
+  "reason": "No opened source lists this point as forbidden/cautioned; not in Yin Yang House pregnancy-caution table. Some distal points (e.g. liver/spleen/stomach/kidney channel points) are rarely discussed individually, so low confidence rather than a positive safety finding.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "st40",
+  "name": "ST40",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "low",
+  "reason": "No opened source lists this point as forbidden/cautioned; not in Yin Yang House pregnancy-caution table. Some distal points (e.g. liver/spleen/stomach/kidney channel points) are rarely discussed individually, so low confidence rather than a positive safety finding.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "sp1",
+  "name": "SP1",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "low",
+  "reason": "No opened source lists this point as forbidden/cautioned; not in Yin Yang House pregnancy-caution table. Some distal points (e.g. liver/spleen/stomach/kidney channel points) are rarely discussed individually, so low confidence rather than a positive safety finding.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "sp3",
+  "name": "SP3",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "low",
+  "reason": "No opened source lists this point as forbidden/cautioned; not in Yin Yang House pregnancy-caution table. Some distal points (e.g. liver/spleen/stomach/kidney channel points) are rarely discussed individually, so low confidence rather than a positive safety finding.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "ht3",
+  "name": "HT3",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "medium",
+  "reason": "Not listed as forbidden/cautioned in pregnancy in the Yin Yang House precautions table (the only opened source with a point-by-point pregnancy list) or in any other opened list; distal/limb/head/upper-body location with no lower-abdomen or sacral link. Absence of evidence from limited sources, so moderate confidence.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "ht5",
+  "name": "HT5",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "medium",
+  "reason": "Not listed as forbidden/cautioned in pregnancy in the Yin Yang House precautions table (the only opened source with a point-by-point pregnancy list) or in any other opened list; distal/limb/head/upper-body location with no lower-abdomen or sacral link. Absence of evidence from limited sources, so moderate confidence.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "ht9",
+  "name": "HT9",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "medium",
+  "reason": "Not listed as forbidden/cautioned in pregnancy in the Yin Yang House precautions table (the only opened source with a point-by-point pregnancy list) or in any other opened list; distal/limb/head/upper-body location with no lower-abdomen or sacral link. Absence of evidence from limited sources, so moderate confidence.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "kd7",
+  "name": "KD7",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "low",
+  "reason": "No pregnancy caution found on Yin Yang KD7 page or precautions table; no opened list names it.",
+  "sources": [
+   {
+    "name": "Yin Yang House point page KD7",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/kd7/"
+   },
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "pc3",
+  "name": "PC3",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "low",
+  "reason": "No opened source lists this point as forbidden/cautioned; not in Yin Yang House pregnancy-caution table. Some distal points (e.g. liver/spleen/stomach/kidney channel points) are rarely discussed individually, so low confidence rather than a positive safety finding.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "pc7",
+  "name": "PC7",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "low",
+  "reason": "No opened source lists this point as forbidden/cautioned; not in Yin Yang House pregnancy-caution table. Some distal points (e.g. liver/spleen/stomach/kidney channel points) are rarely discussed individually, so low confidence rather than a positive safety finding.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "lu1",
+  "name": "LU1",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "low",
+  "reason": "No opened source lists this point as forbidden/cautioned; not in Yin Yang House pregnancy-caution table. Some distal points (e.g. liver/spleen/stomach/kidney channel points) are rarely discussed individually, so low confidence rather than a positive safety finding.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "lu5",
+  "name": "LU5",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "low",
+  "reason": "No opened source lists this point as forbidden/cautioned; not in Yin Yang House pregnancy-caution table. Some distal points (e.g. liver/spleen/stomach/kidney channel points) are rarely discussed individually, so low confidence rather than a positive safety finding.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "li1",
+  "name": "LI1",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "low",
+  "reason": "No opened source lists this point as forbidden/cautioned; not in Yin Yang House pregnancy-caution table. Some distal points (e.g. liver/spleen/stomach/kidney channel points) are rarely discussed individually, so low confidence rather than a positive safety finding.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "si1",
+  "name": "SI1",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "low",
+  "reason": "No opened source lists this point as forbidden/cautioned; not in Yin Yang House pregnancy-caution table. Some distal points (e.g. liver/spleen/stomach/kidney channel points) are rarely discussed individually, so low confidence rather than a positive safety finding.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "st45",
+  "name": "ST45",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "low",
+  "reason": "No opened source lists this point as forbidden/cautioned; not in Yin Yang House pregnancy-caution table. Some distal points (e.g. liver/spleen/stomach/kidney channel points) are rarely discussed individually, so low confidence rather than a positive safety finding.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "bl67",
+  "name": "BL67",
+  "currently_flagged": false,
+  "should_flag": true,
+  "confidence": "medium",
+  "reason": "Listed forbidden by several lists (strong uterine influence), though it is also the standard moxa point for breech version after ~34-37 wk, so many practitioners use it in late pregnancy.",
+  "sources": [
+   {
+    "name": "TCM Study - Forbidden Points During Pregnancy",
+    "url": "https://newsletter.tcmstudy.net/p/forbidden-pregnancy-points"
+   },
+   {
+    "name": "Yo San University - 5 Forbidden Acupuncture Points",
+    "url": "https://yosan.edu/what-are-the-5-forbidden-acupuncture-points/"
+   },
+   {
+    "name": "Meglio - The 5 forbidden acupuncture points",
+    "url": "https://mymeglio.com/blogs/blog/the-5-forbidden-acupuncture-points-what-every-practitioner-should-know"
+   },
+   {
+    "name": "AcupressureGuide - Pregnancy-safe pressure points",
+    "url": "https://acupressureguide.com/pregnancy-safe-pressure-points/"
+   },
+   {
+    "name": "TCMTips - Five acupuncture points to avoid during pregnancy",
+    "url": "https://tcmtips.com/important-these-are-the-five-acupuncture-points-to-avoid-during-pregnancy/"
+   },
+   {
+    "name": "Dynamic Chiropractic - The Forbidden Points of Acupuncture",
+    "url": "https://dynamicchiropractic.com/article/31656-the-forbidden-points-of-acupuncture"
+   },
+   {
+    "name": "Yin Yang House point page UB67",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/ub67/"
+   },
+   {
+    "name": "Acupuncture Today - TCM and Pregnancy",
+    "url": "https://acupuncturetoday.com/article/31856-tcm-and-pregnancy"
+   }
+  ],
+  "disagreement": "Genuine conflict: TCM Study says only some sources (Maciocia OB/GYN) list it and most modern textbooks do not; Yin Yang House has no pregnancy caution; Acupuncture Today recommends BL67 moxa for malposition.",
+  "evidence_level": "disputed"
+ },
+ {
+  "id": "gb44",
+  "name": "GB44",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "medium",
+  "reason": "Not listed as forbidden/cautioned in pregnancy in the Yin Yang House precautions table (the only opened source with a point-by-point pregnancy list) or in any other opened list; distal/limb/head/upper-body location with no lower-abdomen or sacral link. Absence of evidence from limited sources, so moderate confidence.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "te1",
+  "name": "TE1",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "low",
+  "reason": "No opened source lists this point as forbidden/cautioned; not in Yin Yang House pregnancy-caution table. Some distal points (e.g. liver/spleen/stomach/kidney channel points) are rarely discussed individually, so low confidence rather than a positive safety finding.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "lr1",
+  "name": "LR1",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "low",
+  "reason": "No opened source lists this point as forbidden/cautioned; not in Yin Yang House pregnancy-caution table. Some distal points (e.g. liver/spleen/stomach/kidney channel points) are rarely discussed individually, so low confidence rather than a positive safety finding.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "lu11",
+  "name": "LU11",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "low",
+  "reason": "No opened source lists this point as forbidden/cautioned; not in Yin Yang House pregnancy-caution table. Some distal points (e.g. liver/spleen/stomach/kidney channel points) are rarely discussed individually, so low confidence rather than a positive safety finding.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "pc9",
+  "name": "PC9",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "low",
+  "reason": "No opened source lists this point as forbidden/cautioned; not in Yin Yang House pregnancy-caution table. Some distal points (e.g. liver/spleen/stomach/kidney channel points) are rarely discussed individually, so low confidence rather than a positive safety finding.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "bl14",
+  "name": "BL14",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "medium",
+  "reason": "Not listed as forbidden/cautioned in pregnancy in the Yin Yang House precautions table (the only opened source with a point-by-point pregnancy list) or in any other opened list; distal/limb/head/upper-body location with no lower-abdomen or sacral link. Absence of evidence from limited sources, so moderate confidence.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "bl15",
+  "name": "BL15",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "medium",
+  "reason": "Not listed as forbidden/cautioned in pregnancy in the Yin Yang House precautions table (the only opened source with a point-by-point pregnancy list) or in any other opened list; distal/limb/head/upper-body location with no lower-abdomen or sacral link. Absence of evidence from limited sources, so moderate confidence.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "bl19",
+  "name": "BL19",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "medium",
+  "reason": "Not listed as forbidden/cautioned in pregnancy in the Yin Yang House precautions table (the only opened source with a point-by-point pregnancy list) or in any other opened list; distal/limb/head/upper-body location with no lower-abdomen or sacral link. Absence of evidence from limited sources, so moderate confidence.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "bl21",
+  "name": "BL21",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "medium",
+  "reason": "Not listed as forbidden/cautioned in pregnancy in the Yin Yang House precautions table (the only opened source with a point-by-point pregnancy list) or in any other opened list; distal/limb/head/upper-body location with no lower-abdomen or sacral link. Absence of evidence from limited sources, so moderate confidence.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "bl22",
+  "name": "BL22",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "medium",
+  "reason": "Not listed as forbidden/cautioned in pregnancy in the Yin Yang House precautions table (the only opened source with a point-by-point pregnancy list) or in any other opened list; distal/limb/head/upper-body location with no lower-abdomen or sacral link. Absence of evidence from limited sources, so moderate confidence.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "bl27",
+  "name": "BL27",
+  "currently_flagged": false,
+  "should_flag": true,
+  "confidence": "medium",
+  "reason": "Sacral-region points: Yin Yang blog lists UB27 as forbidden in pregnancy; Acupuncture Today, Acufinder and TCM Study say avoid sacral points (labour stimulation / proximity to pelvis). The Yin Yang precautions table, however, only lists UB31-34 for the sacrum.",
+  "sources": [
+   {
+    "name": "Yin Yang House blog - Forbidden Points in Pregnancy: Perhaps Not So Forbidden",
+    "url": "https://yinyanghouse.com/blog/posts/forbidden-points-in-pregnancy-perhaps-not-so-forbidden"
+   },
+   {
+    "name": "Acupuncture Today - TCM and Pregnancy",
+    "url": "https://acupuncturetoday.com/article/31856-tcm-and-pregnancy"
+   },
+   {
+    "name": "Acufinder - Acupuncture Points to Avoid During Pregnancy",
+    "url": "https://www.acufinder.com/Acupuncture+Information/Detail/Acupuncture+Points+to+Avoid+During+Pregnancy"
+   },
+   {
+    "name": "TCM Study - Forbidden Points During Pregnancy",
+    "url": "https://newsletter.tcmstudy.net/p/forbidden-pregnancy-points"
+   },
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": "Yin Yang precautions page lists only UB31-34 (not 27/28); the broader BL27-34 sacral range is cited in search-result snippets of Carr 2015 (not opened). Moderate disagreement on inclusion.",
+  "evidence_level": "region-based"
+ },
+ {
+  "id": "bl28",
+  "name": "BL28",
+  "currently_flagged": false,
+  "should_flag": true,
+  "confidence": "medium",
+  "reason": "Sacral-region points: Yin Yang blog lists UB28 as forbidden in pregnancy; Acupuncture Today, Acufinder and TCM Study say avoid sacral points (labour stimulation / proximity to pelvis). The Yin Yang precautions table, however, only lists UB31-34 for the sacrum.",
+  "sources": [
+   {
+    "name": "Yin Yang House blog - Forbidden Points in Pregnancy: Perhaps Not So Forbidden",
+    "url": "https://yinyanghouse.com/blog/posts/forbidden-points-in-pregnancy-perhaps-not-so-forbidden"
+   },
+   {
+    "name": "Acupuncture Today - TCM and Pregnancy",
+    "url": "https://acupuncturetoday.com/article/31856-tcm-and-pregnancy"
+   },
+   {
+    "name": "Acufinder - Acupuncture Points to Avoid During Pregnancy",
+    "url": "https://www.acufinder.com/Acupuncture+Information/Detail/Acupuncture+Points+to+Avoid+During+Pregnancy"
+   },
+   {
+    "name": "TCM Study - Forbidden Points During Pregnancy",
+    "url": "https://newsletter.tcmstudy.net/p/forbidden-pregnancy-points"
+   },
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": "Yin Yang precautions page lists only UB31-34 (not 27/28); the broader BL27-34 sacral range is cited in search-result snippets of Carr 2015 (not opened). Moderate disagreement on inclusion.",
+  "evidence_level": "region-based"
+ },
+ {
+  "id": "gv4",
+  "name": "GV4",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "low",
+  "reason": "Opened sources do not list GV4 for pregnancy (Yin Yang caution is only no-moxa for males under 20; Dynamic Chiropractic mentions moxa for young males). A search snippet claims contraindication but that source was not opened.",
+  "sources": [
+   {
+    "name": "Yin Yang House point page GV4",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/gv4/"
+   },
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   },
+   {
+    "name": "Dynamic Chiropractic - The Forbidden Points of Acupuncture",
+    "url": "https://dynamicchiropractic.com/article/31656-the-forbidden-points-of-acupuncture"
+   }
+  ],
+  "disagreement": "Unopened search snippet claims 'contraindicated throughout pregnancy'; opened sources do not.",
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "kd10",
+  "name": "KD10",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "low",
+  "reason": "No opened source lists this point as forbidden/cautioned; not in Yin Yang House pregnancy-caution table. Some distal points (e.g. liver/spleen/stomach/kidney channel points) are rarely discussed individually, so low confidence rather than a positive safety finding.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "si8",
+  "name": "SI8",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "medium",
+  "reason": "Not listed as forbidden/cautioned in pregnancy in the Yin Yang House precautions table (the only opened source with a point-by-point pregnancy list) or in any other opened list; distal/limb/head/upper-body location with no lower-abdomen or sacral link. Absence of evidence from limited sources, so moderate confidence.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "te10",
+  "name": "TE10",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "medium",
+  "reason": "Not listed as forbidden/cautioned in pregnancy in the Yin Yang House precautions table (the only opened source with a point-by-point pregnancy list) or in any other opened list; distal/limb/head/upper-body location with no lower-abdomen or sacral link. Absence of evidence from limited sources, so moderate confidence.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "li3",
+  "name": "LI3",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "low",
+  "reason": "No opened source lists this point as forbidden/cautioned; not in Yin Yang House pregnancy-caution table. Some distal points (e.g. liver/spleen/stomach/kidney channel points) are rarely discussed individually, so low confidence rather than a positive safety finding.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "st43",
+  "name": "ST43",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "low",
+  "reason": "No opened source lists this point as forbidden/cautioned; not in Yin Yang House pregnancy-caution table. Some distal points (e.g. liver/spleen/stomach/kidney channel points) are rarely discussed individually, so low confidence rather than a positive safety finding.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "bl65",
+  "name": "BL65",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "medium",
+  "reason": "Not listed as forbidden/cautioned in pregnancy in the Yin Yang House precautions table (the only opened source with a point-by-point pregnancy list) or in any other opened list; distal/limb/head/upper-body location with no lower-abdomen or sacral link. Absence of evidence from limited sources, so moderate confidence.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "te3",
+  "name": "TE3",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "medium",
+  "reason": "Not listed as forbidden/cautioned in pregnancy in the Yin Yang House precautions table (the only opened source with a point-by-point pregnancy list) or in any other opened list; distal/limb/head/upper-body location with no lower-abdomen or sacral link. Absence of evidence from limited sources, so moderate confidence.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "li15",
+  "name": "LI15",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "low",
+  "reason": "No opened source lists this point as forbidden/cautioned; not in Yin Yang House pregnancy-caution table. Some distal points (e.g. liver/spleen/stomach/kidney channel points) are rarely discussed individually, so low confidence rather than a positive safety finding.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "st6",
+  "name": "ST6",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "medium",
+  "reason": "Not listed as forbidden/cautioned in pregnancy in the Yin Yang House precautions table (the only opened source with a point-by-point pregnancy list) or in any other opened list; distal/limb/head/upper-body location with no lower-abdomen or sacral link. Absence of evidence from limited sources, so moderate confidence.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "bl2",
+  "name": "BL2",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "medium",
+  "reason": "Not listed as forbidden/cautioned in pregnancy in the Yin Yang House precautions table (the only opened source with a point-by-point pregnancy list) or in any other opened list; distal/limb/head/upper-body location with no lower-abdomen or sacral link. Absence of evidence from limited sources, so moderate confidence.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "bl10",
+  "name": "BL10",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "medium",
+  "reason": "Not listed as forbidden/cautioned in pregnancy in the Yin Yang House precautions table (the only opened source with a point-by-point pregnancy list) or in any other opened list; distal/limb/head/upper-body location with no lower-abdomen or sacral link. Absence of evidence from limited sources, so moderate confidence.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "te17",
+  "name": "TE17",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "medium",
+  "reason": "Not listed as forbidden/cautioned in pregnancy in the Yin Yang House precautions table (the only opened source with a point-by-point pregnancy list) or in any other opened list; distal/limb/head/upper-body location with no lower-abdomen or sacral link. Absence of evidence from limited sources, so moderate confidence.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "gb14",
+  "name": "GB14",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "medium",
+  "reason": "Not listed as forbidden/cautioned in pregnancy in the Yin Yang House precautions table (the only opened source with a point-by-point pregnancy list) or in any other opened list; distal/limb/head/upper-body location with no lower-abdomen or sacral link. Absence of evidence from limited sources, so moderate confidence.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "gb1",
+  "name": "GB1",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "medium",
+  "reason": "Not listed as forbidden/cautioned in pregnancy in the Yin Yang House precautions table (the only opened source with a point-by-point pregnancy list) or in any other opened list; distal/limb/head/upper-body location with no lower-abdomen or sacral link. Absence of evidence from limited sources, so moderate confidence.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "si11",
+  "name": "SI11",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "medium",
+  "reason": "Not listed as forbidden/cautioned in pregnancy in the Yin Yang House precautions table (the only opened source with a point-by-point pregnancy list) or in any other opened list; distal/limb/head/upper-body location with no lower-abdomen or sacral link. Absence of evidence from limited sources, so moderate confidence.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "none-found"
+ },
+ {
+  "id": "si19",
+  "name": "SI19",
+  "currently_flagged": false,
+  "should_flag": false,
+  "confidence": "medium",
+  "reason": "Not listed as forbidden/cautioned in pregnancy in the Yin Yang House precautions table (the only opened source with a point-by-point pregnancy list) or in any other opened list; distal/limb/head/upper-body location with no lower-abdomen or sacral link. Absence of evidence from limited sources, so moderate confidence.",
+  "sources": [
+   {
+    "name": "Yin Yang House - Precautions and Contraindications (all points with pregnancy cautions)",
+    "url": "https://yinyanghouse.com/theory/precautions_and_contraindications/"
+   }
+  ],
+  "disagreement": null,
+  "evidence_level": "none-found"
+ }
+]

@@ -1,0 +1,178 @@
+[
+ {
+  "id": "gv20",
+  "verdict": "MINOR",
+  "sources": [
+   {"name": "WHO Standard Acupuncture Point Locations in the Western Pacific Region (2008), full text read via Internet Archive OCR", "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion", "agrees": true},
+   {"name": "acupuntura.com atlas GV-20", "url": "https://acupuntura.com/en/atlas/governing-vessel/GV-20/", "agrees": true},
+   {"name": "PMC5379241 (GV20 scalp acupuncture meta-analysis; states ear-apex line and 5 cun/7 cun hairline measures)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5379241/", "agrees": true},
+   {"name": "Yin Yang House GV20", "url": "https://yinyanghouse.com/theory/acupuncturepoints/gv20/", "agrees": true}
+  ],
+  "standard_landmarks": "Primary WHO definition: on the midline of the head, 5 B-cun (proportional units) behind the front hairline. WHO notes: it sits in the hollow about 1 cun in front of the halfway mark between front and back hairlines; and when the ears are folded forward, it is at the midpoint of the line joining the two ear apices.",
+  "controversy": "None major. The hairline-based and ear-apex-based methods are both given by WHO as equivalent; the ear method only works with ears folded forward and the head's midline correctly identified.",
+  "corrected_location": "On the top of the head, on the midline, about halfway between the front hairline and the back hairline (a little forward of halfway); you can find it by folding both ears forward and locating where a line joining the two ear tips crosses the midline.",
+  "notes": "App text is essentially right but omits the 'fold ears forward' step, which is what makes the ear-tip line reproducible, and gives no hairline measurement. Note: sources are textbook-derived and share lineage; PMC5379241 is a peer-reviewed paper."
+ },
+ {
+  "id": "gv26",
+  "verdict": "MINOR",
+  "sources": [
+   {"name": "WHO Standard Acupuncture Point Locations (2008), OCR full text", "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion", "agrees": true},
+   {"name": "acupuntura.com atlas GV-26", "url": "https://acupuntura.com/en/atlas/governing-vessel/GV-26/", "agrees": true},
+   {"name": "Yin Yang House GV26", "url": "https://yinyanghouse.com/theory/acupuncturepoints/gv26/", "agrees": true},
+   {"name": "Attilio D'Alberto GV26", "url": "https://www.attiliodalberto.com/acupuncture/points/gv-26.php", "agrees": true}
+  ],
+  "standard_landmarks": "WHO primary location: at the midpoint of the philtrum's midline. WHO lists an alternative: junction of the upper third and lower two thirds of the philtrum. The three other sources all use the one-third alternative.",
+  "controversy": "Yes. WHO 2008 chose the philtrum midpoint as primary but explicitly lists the upper-one-third junction as the alternative; most textbooks and educational sites use the one-third location. They differ by roughly a few millimetres.",
+  "corrected_location": "On the midline of the upper lip, in the vertical groove under the nose, about one third of the way down from the nose (some standards place it at the midpoint of the groove).",
+  "notes": "App text ('junction of the upper and middle third') matches the widely used alternative, but the phrasing is ambiguous (the thirds are normally 'upper third / lower two thirds'). Recommend rewording and mentioning the WHO midpoint variant. Sources 2-4 follow the same textbook convention."
+ },
+ {
+  "id": "cv4",
+  "verdict": "CONFIRMED",
+  "sources": [
+   {"name": "WHO Standard Acupuncture Point Locations (2008), OCR full text", "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion", "agrees": true},
+   {"name": "acupuntura.com atlas CV-4", "url": "https://acupuntura.com/en/atlas/conception-vessel/CV-4/", "agrees": true},
+   {"name": "Yin Yang House CV4 (expresses as 2 cun above the pubic symphysis point CV2 landmark, consistent with 3 cun below navel on the standard 5 cun navel-to-pubis proportion)", "url": "https://yinyanghouse.com/theory/acupuncturepoints/cv4/", "agrees": true}
+  ],
+  "standard_landmarks": "Lower abdomen, on the front midline, 3 B-cun below the centre of the navel (equivalent to about four finger-widths held together, since four fingers is about 3 cun).",
+  "controversy": "",
+  "corrected_location": "",
+  "notes": "Four finger-widths = 3 cun under the standard finger-measure convention, so the app text is correct. The Yin Yang House number (2 cun above CV2) is anchored to the pubic bone rather than the navel; these coincide with the 5 cun navel-to-pubic-bone convention. Note that this is not a fully independent check of the navel-based figure."
+ },
+ {
+  "id": "cv6",
+  "verdict": "CONFIRMED",
+  "sources": [
+   {"name": "WHO Standard Acupuncture Point Locations (2008), OCR full text", "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion", "agrees": true},
+   {"name": "acupuntura.com atlas CV-6", "url": "https://acupuntura.com/en/atlas/conception-vessel/CV-6/", "agrees": true},
+   {"name": "Yin Yang House CV6", "url": "https://yinyanghouse.com/theory/acupuncturepoints/cv6/", "agrees": true}
+  ],
+  "standard_landmarks": "Lower abdomen, front midline, 1.5 B-cun below the navel centre, halfway between the navel and CV4.",
+  "controversy": "",
+  "corrected_location": "",
+  "notes": "1.5 cun is conventionally about two finger-widths (index+middle) so the app wording is acceptable. Slight ambiguity if a user reads 'finger-width' as one finger = 1 cun; consider 'about one and a half thumb-widths (two finger-widths)'. Sources share textbook lineage."
+ },
+ {
+  "id": "cv12",
+  "verdict": "MINOR",
+  "sources": [
+   {"name": "WHO Standard Acupuncture Point Locations (2008), OCR full text", "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion", "agrees": true},
+   {"name": "acupuntura.com atlas CV-12", "url": "https://acupuntura.com/en/atlas/conception-vessel/CV-12/", "agrees": true},
+   {"name": "Yin Yang House CV12", "url": "https://yinyanghouse.com/theory/acupuncturepoints/cv12/", "agrees": true}
+  ],
+  "standard_landmarks": "Upper abdomen, front midline, 4 B-cun above the navel centre; WHO adds that this is the midpoint of the line from the xiphisternal junction (where the breastbone meets the xiphoid process) down to the navel. acupuntura.com instead describes the midpoint relative to the costosternal angle.",
+  "controversy": "Minor: the upper reference for 'halfway' differs (xiphisternal junction in WHO, costosternal angle/breastbone bottom elsewhere), which can move the point by a finger-width or so. The 4 cun measure is the consistent anchor.",
+  "corrected_location": "On the upper abdomen, on the midline, about four thumb-widths above the navel, roughly halfway between the navel and the spot where the bottom of the rib arch meets the breastbone.",
+  "notes": "App says 'lower tip of the breastbone', which is ambiguous (xiphoid tip is lower than the xiphisternal junction used by WHO). Recommend adding the 4 cun / thumb-width measure."
+ },
+ {
+  "id": "cv17",
+  "verdict": "MINOR",
+  "sources": [
+   {"name": "WHO Standard Acupuncture Point Locations (2008), OCR full text", "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion", "agrees": true},
+   {"name": "acupuntura.com atlas CV-17", "url": "https://acupuntura.com/en/atlas/conception-vessel/CV-17/", "agrees": true},
+   {"name": "Yin Yang House CV17", "url": "https://yinyanghouse.com/theory/acupuncturepoints/cv17/", "agrees": true},
+   {"name": "Master Tung Acupuncture CV17", "url": "https://www.mastertungacupuncture.org/acupuncture/traditional/points/cv17", "agrees": true}
+  ],
+  "standard_landmarks": "Front of the chest, on the midline over the breastbone, at the level of the 4th intercostal space (WHO gives only this). Textbooks add that this is midway between the nipples, which is a male-oriented convention; for women the intercostal level should be used instead.",
+  "controversy": "Nipple-based vs rib-space-based location: nipple position varies with sex and breast size, so WHO uses the 4th intercostal space only.",
+  "corrected_location": "On the center of the chest, on the breastbone midline, level with the space between the 4th and 5th ribs; in most men this is about level with the nipples, but because nipple height varies, count down the ribs from the collarbone instead.",
+  "notes": "App text is right but presents the nipple line as a general equivalent; add the caveat."
+ },
+ {
+  "id": "kd3",
+  "verdict": "CONFIRMED",
+  "sources": [
+   {"name": "WHO Standard Acupuncture Point Locations (2008), OCR full text", "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion", "agrees": true},
+   {"name": "acupuntura.com atlas KI-3", "url": "https://acupuntura.com/en/atlas/kidney/KI-3/", "agrees": true},
+   {"name": "Yin Yang House KD3", "url": "https://yinyanghouse.com/theory/acupuncturepoints/kd3/", "agrees": true}
+  ],
+  "standard_landmarks": "Inner-back side of the ankle, in the hollow between the medial malleolus prominence and the Achilles (calcaneal) tendon; acupuntura.com adds midway between them and at the level of the malleolus apex.",
+  "controversy": "",
+  "corrected_location": "",
+  "notes": "WHO does not itself state the 'level with the apex' wording, but other sources do and it is consistent. Sources share textbook lineage."
+ },
+ {
+  "id": "ex_b2",
+  "verdict": "MINOR",
+  "sources": [
+   {"name": "Master Tung Acupuncture, Huatuojiaji (EX-B2)", "url": "https://www.mastertungacupuncture.org/acupuncture/traditional/points/huatuojiaji-ex-b2", "agrees": true},
+   {"name": "Yin Yang House, Huatuojiaji (page also describes a broader C1-S5 variant, which differs from the standard T1-L5)", "url": "https://yinyanghouse.com/theory/acupuncturepoints/x-huatuojiaji/", "agrees": true},
+   {"name": "Jing-jiaji pilot RCT protocol, Trials (PMC4228488): cervical EX-B2 at 12.5 mm off midline at C4-C6", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4228488/", "agrees": true}
+  ],
+  "standard_landmarks": "Standard set: 17 pairs (34 points) from T1 to L5, each about 0.5 cun (roughly half a thumb-width, about 1 cm) to the side of the lower edge of its spinous process. WHO 2008 does not cover extra points (confirmed: no EX-B2 entry in its text), so no WHO anchor.",
+  "controversy": "Yes. Some modern sources/clinicians extend the series to the cervical (C1-C7) and sacral levels, and the cervical Jing-jiaji trial uses 12.5 mm off midline; the classic T1-L5 definition is the common core. The origin (Hua Tuo attribution) is also debated.",
+  "corrected_location": "A line of points on each side of the spine, about half a thumb-width (roughly 1 cm) out from the bumps of the spine, running from the upper back (first thoracic vertebra, just below the neck bump) down to the lower back (fifth lumbar vertebra); traditionally pressed along as a line rather than at one spot.",
+  "notes": "App text is directionally correct but lacks the 0.5 cun measure and vertebral range. Only two broad sources plus one cervical-variant trial; WHO 2008 gives no standard so confidence is moderate. The Master Tung and Yin Yang House statements are textbook-derived and probably not fully independent."
+ },
+ {
+  "id": "kd6",
+  "verdict": "MINOR",
+  "sources": [
+   {"name": "WHO Standard Acupuncture Point Locations (2008), OCR full text", "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion", "agrees": true},
+   {"name": "acupuntura.com atlas KI-6", "url": "https://acupuntura.com/en/atlas/kidney/KI-6/", "agrees": true},
+   {"name": "Me and Qi KI-6", "url": "https://www.meandqi.com/knowledge-base/acupuncture/kidney-meridian/zhaohai-ki-6", "agrees": true},
+   {"name": "Yin Yang House KD6 (says only 'below the tip of the medial malleolus', no measure)", "url": "https://yinyanghouse.com/theory/acupuncturepoints/kd6/", "agrees": true}
+  ],
+  "standard_landmarks": "Inner side of the foot, 1 B-cun (about one thumb-width) below the prominence of the medial malleolus, in the hollow just beneath that bone.",
+  "controversy": "Mostly none; one source (acupuntura.com) adds a finer skin-transition-zone refinement; Yin Yang House gives no measure. WHO notes KI6 corresponds to BL62 on the outer side.",
+  "corrected_location": "On the inside of the ankle, in the hollow about one thumb-width directly below the tip of the inner ankle bone.",
+  "notes": "App says 'just below' with no distance; the standard is 1 cun. Adding the measure avoids pressing too close to the bone."
+ },
+ {
+  "id": "gv14",
+  "verdict": "CONFIRMED",
+  "sources": [
+   {"name": "WHO Standard Acupuncture Point Locations (2008), OCR full text", "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion", "agrees": true},
+   {"name": "acupuntura.com atlas GV-14", "url": "https://acupuntura.com/en/atlas/governing-vessel/GV-14/", "agrees": true},
+   {"name": "PMC8445714 (GV14 cerebral blood flow trial methods)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8445714/", "agrees": true},
+   {"name": "PMC5270441 (GV14/GV4 spinal cord injury study)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5270441/", "agrees": true}
+  ],
+  "standard_landmarks": "Back of the neck, on the midline, in the hollow just below the spinous process of C7. WHO notes C7 is the most prominent bump in neutral head position and that bending the neck forward helps feel it.",
+  "controversy": "Practical only: WHO says C7 is the most prominent bump in neutral posture and neck flexion helps palpate it; no source read disputes the C7 level.",
+  "corrected_location": "",
+  "notes": "App text matches WHO."
+ },
+ {
+  "id": "kd7",
+  "verdict": "MINOR",
+  "sources": [
+   {"name": "WHO Standard Acupuncture Point Locations (2008), OCR full text", "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion", "agrees": true},
+   {"name": "acupuntura.com atlas KI-7", "url": "https://acupuntura.com/en/atlas/kidney/KI-7/", "agrees": true},
+   {"name": "Yin Yang House KD7", "url": "https://yinyanghouse.com/theory/acupuncturepoints/kd7/", "agrees": true}
+  ],
+  "standard_landmarks": "On the inner-back side of the lower leg, in front of the Achilles tendon, 2 B-cun above the prominence of the medial malleolus (equivalently 2 cun above KI3), at the same level as KI8 but behind it.",
+  "controversy": "KI7 vs KI8: KI8 is 0.5 cun in front of KI7 at the same height, so the pressing spot must be right at the tendon edge.",
+  "corrected_location": "On the inside of the lower leg, about two thumb-widths (roughly three finger-widths) above the inner ankle bone, right at the front edge of the Achilles tendon.",
+  "notes": "App says 'two finger-widths' (about 1.5 cun), which is short of the standard 2 cun. Finger-width conventions: 1 thumb-width = 1 cun, four fingers = 3 cun. Fix wording."
+ },
+ {
+  "id": "gv4",
+  "verdict": "CONFIRMED",
+  "sources": [
+   {"name": "WHO Standard Acupuncture Point Locations (2008), OCR full text (also notes BL23 and GV4 are at the same level)", "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion", "agrees": true},
+   {"name": "acupuntura.com atlas GV-4", "url": "https://acupuntura.com/en/atlas/governing-vessel/GV-4/", "agrees": true},
+   {"name": "PMC5270441 (GV14/GV4 spinal cord injury study)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5270441/", "agrees": true},
+   {"name": "Yin Yang House GV4", "url": "https://yinyanghouse.com/theory/acupuncturepoints/gv4/", "agrees": true}
+  ],
+  "standard_landmarks": "Lower back, on the midline, in the hollow below the spinous process of L2; the same horizontal level as BL23 (Kidney Back-Shu) on either side; acupuntura.com also says it is level with the navel.",
+  "controversy": "",
+  "corrected_location": "",
+  "notes": "App text matches. Lay tip (not required): L2 is roughly opposite the navel."
+ },
+ {
+  "id": "kd10",
+  "verdict": "MINOR",
+  "sources": [
+   {"name": "WHO Standard Acupuncture Point Locations (2008), OCR full text", "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion", "agrees": true},
+   {"name": "acupuntura.com atlas KI-10", "url": "https://acupuntura.com/en/atlas/kidney/KI-10/", "agrees": true},
+   {"name": "Yin Yang House KD10", "url": "https://yinyanghouse.com/theory/acupuncturepoints/kd10/", "agrees": true},
+   {"name": "Me and Qi KI-10", "url": "https://www.meandqi.com/knowledge-base/acupuncture/kidney-meridian/yingu-ki-10", "agrees": true}
+  ],
+  "standard_landmarks": "Inner side of the back of the knee, on the popliteal crease, with the knee bent. WHO: just on the outer side of the semitendinosus tendon; older/other sources: in the gap between the semitendinosus and semimembranosus tendons.",
+  "controversy": "Yes, mild: WHO places it just lateral to the semitendinosus tendon, whereas acupuntura.com, Yin Yang House and Me and Qi say between the semitendinosus and semimembranosus tendons. Both are on the inner end of the crease.",
+  "corrected_location": "On the inner side of the back of the knee, at the inner end of the crease when the knee is bent, in the soft gap beside the prominent hamstring tendon (the cord you can feel on the inner side).",
+  "notes": "App text is correct in general but lacks the tendon landmark that distinguishes this point from nearby spots. The tendon description varies between sources, so keep the lay wording loose."
+ }
+]

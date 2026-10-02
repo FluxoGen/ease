@@ -1,0 +1,607 @@
+[
+ {
+  "id": "pc8",
+  "verdict": "CONFIRMED",
+  "sources": [
+   {
+    "name": "WHO Standard Acupuncture Point Locations in the Western Pacific Region (2008/2009 reprint), archive.org full text",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "Acupuntura.com Atlas PC 8 (page text opened)",
+    "url": "https://acupuntura.com/en/atlas/pericardium/PC-8/",
+    "agrees": true
+   },
+   {
+    "name": "Acupuncture.com PC8 (page text opened)",
+    "url": "https://www.acupuncture.com/education/points/pericardium/pc8.htm",
+    "agrees": true
+   },
+   {
+    "name": "Me and Qi PC-8",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/pericardium-meridian/laogong-pc-8",
+    "agrees": true
+   }
+  ],
+  "standard_landmarks": "Palm, in the hollow between the 2nd and 3rd metacarpal bones, just behind (proximal to) the knuckle joints; commonly found where the middle fingertip lands in a loose fist, slightly nearer the 3rd metacarpal.",
+  "controversy": "WHO lists PC8 as one of 6 points whose standard location was left unsettled; alternative is between the 3rd and 4th metacarpals (ring-fingertip landing). Most texts use 2nd/3rd (middle fingertip).",
+  "corrected_location": "",
+  "notes": "App text matches the mainstream (2nd/3rd metacarpal, middle fingertip) location. Note acupuncture.com wording is nearly identical to the app text, so treat it as weaker independent evidence."
+ },
+ {
+  "id": "lu9",
+  "verdict": "CONFIRMED",
+  "sources": [
+   {
+    "name": "WHO Standard Acupuncture Point Locations in the Western Pacific Region (2008/2009 reprint), archive.org full text",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "Acupuntura.com Atlas LU 9 (page text opened)",
+    "url": "https://acupuntura.com/en/atlas/lung/LU-9/",
+    "agrees": true
+   },
+   {
+    "name": "Acupuncture.com LU9 (page text opened)",
+    "url": "https://www.acupuncture.com/education/points/lung/lu9.htm",
+    "agrees": true
+   }
+  ],
+  "standard_landmarks": "Wrist, on the thumb-side end of the palmar wrist crease, in the dip between the radial styloid bump and the scaphoid, just ulnar (inner side) to the abductor pollicis longus tendon, over the radial artery pulse.",
+  "controversy": "",
+  "corrected_location": "",
+  "notes": "Matches."
+ },
+ {
+  "id": "li20",
+  "verdict": "CONFIRMED",
+  "sources": [
+   {
+    "name": "WHO Standard Acupuncture Point Locations in the Western Pacific Region (2008/2009 reprint), archive.org full text",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "Acupuntura.com Atlas LI 20 (page text opened)",
+    "url": "https://acupuntura.com/en/atlas/large-intestine/LI-20/",
+    "agrees": true
+   },
+   {
+    "name": "Acupuncture.com LI20 (page text opened)",
+    "url": "https://www.acupuncture.com/education/points/largeintestine/li20.htm",
+    "agrees": true
+   }
+  ],
+  "standard_landmarks": "In the nasolabial groove beside the nostril wing, level with the midpoint of the outer edge of the nasal ala (older texts: about 0.5 cun lateral to that midpoint).",
+  "controversy": "WHO lists LI20 as one of 6 unsettled points; alternative level is the lower border of the ala. App's 'widest part of the nostril' matches the main (midpoint of ala) version.",
+  "corrected_location": "",
+  "notes": "App wording is acceptable for lay use."
+ },
+ {
+  "id": "te5",
+  "verdict": "CONFIRMED",
+  "sources": [
+   {
+    "name": "WHO Standard Acupuncture Point Locations in the Western Pacific Region (2008/2009 reprint), archive.org full text",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "Acupuntura.com Atlas TE 5 (page text opened)",
+    "url": "https://acupuntura.com/en/atlas/triple-energizer/TE-5/",
+    "agrees": true
+   },
+   {
+    "name": "Acupuncture.com SJ5 (page text opened)",
+    "url": "https://www.acupuncture.com/education/points/sanjiao/sj5.htm",
+    "agrees": true
+   }
+  ],
+  "standard_landmarks": "Back of forearm, 2 cun above the dorsal wrist crease, midpoint of the gap between radius and ulna; the back-of-arm counterpart of PC6.",
+  "controversy": "",
+  "corrected_location": "",
+  "notes": "Thumb-width approximation of 2 cun is fine."
+ },
+ {
+  "id": "ht3",
+  "verdict": "MINOR",
+  "sources": [
+   {
+    "name": "WHO Standard Acupuncture Point Locations in the Western Pacific Region (2008/2009 reprint), archive.org full text",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "Acupuntura.com Atlas HT 3 (page text opened)",
+    "url": "https://acupuntura.com/en/atlas/heart/HT-3/",
+    "agrees": true
+   },
+   {
+    "name": "Acupuncture.com HT3 (page text opened)",
+    "url": "https://www.acupuncture.com/education/points/heart/ht3.htm",
+    "agrees": true
+   }
+  ],
+  "standard_landmarks": "Inner elbow at the level of the cubital crease, just in front of the medial epicondyle; with elbow bent, midway between the inner end of the crease and the medial epicondyle (bony bump on inner elbow).",
+  "controversy": "",
+  "corrected_location": "On the inner side of the elbow, when the elbow is bent, halfway between the inner end of the elbow crease and the bony bump on the inside of the elbow.",
+  "notes": "App says 'at the inner end of the crease'; the standard is the midpoint between crease end and the bony bump, so it is a bit imprecise."
+ },
+ {
+  "id": "ht5",
+  "verdict": "MINOR",
+  "sources": [
+   {
+    "name": "WHO Standard Acupuncture Point Locations in the Western Pacific Region (2008/2009 reprint), archive.org full text",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "Acupuntura.com Atlas HT 5 (page text opened)",
+    "url": "https://acupuntura.com/en/atlas/heart/HT-5/",
+    "agrees": true
+   },
+   {
+    "name": "Acupuncture.com HT5 (page text opened)",
+    "url": "https://www.acupuncture.com/education/points/heart/ht5.htm",
+    "agrees": true
+   }
+  ],
+  "standard_landmarks": "Palm side of forearm, 1 cun above the palmar wrist crease (1 cun above HT7), on the thumb side of the flexor carpi ulnaris tendon (the cord along the little-finger side of the wrist).",
+  "controversy": "",
+  "corrected_location": "On the palm side of the forearm, about one thumb-width above the wrist crease, just on the thumb side of the tendon that runs along the little-finger edge of the wrist.",
+  "notes": "Distance and side are correct but the tendon landmark is missing; 'finger-width' is ambiguous (thumb-width approximates 1 cun)."
+ },
+ {
+  "id": "ht9",
+  "verdict": "CONFIRMED",
+  "sources": [
+   {
+    "name": "WHO Standard Acupuncture Point Locations in the Western Pacific Region (2008/2009 reprint), archive.org full text",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "Acupuntura.com Atlas HT 9 (page text opened)",
+    "url": "https://acupuntura.com/en/atlas/heart/HT-9/",
+    "agrees": true
+   },
+   {
+    "name": "Acupuncture.com HT9 (page text opened)",
+    "url": "https://www.acupuncture.com/education/points/heart/ht9.htm",
+    "agrees": true
+   }
+  ],
+  "standard_landmarks": "Little finger, radial (thumb-facing) side, about 0.1 cun back and to the side of the nail corner where the nail's side edge and base lines cross.",
+  "controversy": "",
+  "corrected_location": "",
+  "notes": "Matches."
+ },
+ {
+  "id": "pc3",
+  "verdict": "CONFIRMED",
+  "sources": [
+   {
+    "name": "WHO Standard Acupuncture Point Locations in the Western Pacific Region (2008/2009 reprint), archive.org full text",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "Acupuntura.com Atlas PC 3 (page text opened)",
+    "url": "https://acupuntura.com/en/atlas/pericardium/PC-3/",
+    "agrees": true
+   },
+   {
+    "name": "Acupuncture.com PC3 (page text opened)",
+    "url": "https://www.acupuncture.com/education/points/pericardium/pc3.htm",
+    "agrees": true
+   }
+  ],
+  "standard_landmarks": "On the elbow crease, in the dip on the ulnar (little-finger) side of the biceps tendon.",
+  "controversy": "",
+  "corrected_location": "",
+  "notes": "Matches."
+ },
+ {
+  "id": "pc7",
+  "verdict": "CONFIRMED",
+  "sources": [
+   {
+    "name": "WHO Standard Acupuncture Point Locations in the Western Pacific Region (2008/2009 reprint), archive.org full text",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "Acupuntura.com Atlas PC 7 (page text opened)",
+    "url": "https://acupuntura.com/en/atlas/pericardium/PC-7/",
+    "agrees": true
+   },
+   {
+    "name": "Acupuncture.com PC7 (page text opened)",
+    "url": "https://www.acupuncture.com/education/points/pericardium/pc7.htm",
+    "agrees": true
+   }
+  ],
+  "standard_landmarks": "Palm-side wrist, on the wrist crease between the palmaris longus and flexor carpi radialis tendons (middle of the crease).",
+  "controversy": "",
+  "corrected_location": "",
+  "notes": "Matches. Optional: mention the two tendons that stand out when the fist is clenched; some people lack palmaris longus."
+ },
+ {
+  "id": "lu1",
+  "verdict": "CONFIRMED",
+  "sources": [
+   {
+    "name": "WHO Standard Acupuncture Point Locations in the Western Pacific Region (2008/2009 reprint), archive.org full text",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "Acupuntura.com Atlas LU 1 (page text opened)",
+    "url": "https://acupuntura.com/en/atlas/lung/LU-1/",
+    "agrees": true
+   },
+   {
+    "name": "Acupuncture.com LU1 (page text opened)",
+    "url": "https://www.acupuncture.com/education/points/lung/lu1.htm",
+    "agrees": true
+   }
+  ],
+  "standard_landmarks": "Upper chest at the 1st intercostal space, in the hollow lateral to the infraclavicular fossa, 6 cun lateral to the front midline and 1 cun below LU2.",
+  "controversy": "",
+  "corrected_location": "",
+  "notes": "App's 6 thumb-widths is consistent with 6 cun; add that it sits about one thumb-width below LU2 if more precision is wanted. Sources flag pneumothorax risk with deep needling, not relevant to acupressure."
+ },
+ {
+  "id": "lu5",
+  "verdict": "CONFIRMED",
+  "sources": [
+   {
+    "name": "WHO Standard Acupuncture Point Locations in the Western Pacific Region (2008/2009 reprint), archive.org full text",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "Acupuntura.com Atlas LU 5 (page text opened)",
+    "url": "https://acupuntura.com/en/atlas/lung/LU-5/",
+    "agrees": true
+   },
+   {
+    "name": "Acupuncture.com LU5 (page text opened)",
+    "url": "https://www.acupuncture.com/education/points/lung/lu5.htm",
+    "agrees": true
+   }
+  ],
+  "standard_landmarks": "On the elbow crease, in the dip on the radial (thumb) side of the biceps tendon.",
+  "controversy": "",
+  "corrected_location": "",
+  "notes": "Matches."
+ },
+ {
+  "id": "li1",
+  "verdict": "CONFIRMED",
+  "sources": [
+   {
+    "name": "WHO Standard Acupuncture Point Locations in the Western Pacific Region (2008/2009 reprint), archive.org full text",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "Acupuntura.com Atlas LI 1 (page text opened)",
+    "url": "https://acupuntura.com/en/atlas/large-intestine/LI-1/",
+    "agrees": true
+   },
+   {
+    "name": "Acupuncture.com LI1 (page text opened)",
+    "url": "https://www.acupuncture.com/education/points/largeintestine/li1.htm",
+    "agrees": true
+   }
+  ],
+  "standard_landmarks": "Index finger, radial (thumb) side, about 0.1 cun from the nail corner at the crossing of the side-edge and nail-base lines.",
+  "controversy": "",
+  "corrected_location": "",
+  "notes": "Matches."
+ },
+ {
+  "id": "si1",
+  "verdict": "MINOR",
+  "sources": [
+   {
+    "name": "WHO Standard Acupuncture Point Locations in the Western Pacific Region (2008/2009 reprint), archive.org full text",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "Acupuntura.com Atlas SI 1 (page text opened)",
+    "url": "https://acupuntura.com/en/atlas/small-intestine/SI-1/",
+    "agrees": true
+   },
+   {
+    "name": "Acupuncture.com SI1 (page text opened)",
+    "url": "https://www.acupuncture.com/education/points/smallintestine/si1.htm",
+    "agrees": true
+   }
+  ],
+  "standard_landmarks": "Little finger, ulnar side (the side facing away from the ring finger), about 0.1 cun from the nail corner at the crossing of the side-edge and nail-base lines.",
+  "controversy": "",
+  "corrected_location": "On the little finger, on the outer edge (the side facing away from the ring finger), just beside the corner of the nail at its base.",
+  "notes": "Direction is correct, but 'outer side' is ambiguous next to other entries that use 'thumb side'. Clarify."
+ },
+ {
+  "id": "te1",
+  "verdict": "CONFIRMED",
+  "sources": [
+   {
+    "name": "WHO Standard Acupuncture Point Locations in the Western Pacific Region (2008/2009 reprint), archive.org full text",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "Acupuntura.com Atlas TE 1 (page text opened)",
+    "url": "https://acupuntura.com/en/atlas/triple-energizer/TE-1/",
+    "agrees": true
+   },
+   {
+    "name": "Acupuncture.com SJ1 (page text opened)",
+    "url": "https://www.acupuncture.com/education/points/sanjiao/sj1.htm",
+    "agrees": true
+   }
+  ],
+  "standard_landmarks": "Ring finger, ulnar (little-finger) side, about 0.1 cun from the nail corner at the crossing of the side-edge and nail-base lines.",
+  "controversy": "",
+  "corrected_location": "",
+  "notes": "Matches."
+ },
+ {
+  "id": "lu11",
+  "verdict": "DISCREPANCY",
+  "sources": [
+   {
+    "name": "WHO Standard Acupuncture Point Locations in the Western Pacific Region (2008/2009 reprint), archive.org full text",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "Acupuntura.com Atlas LU 11 (page text opened)",
+    "url": "https://acupuntura.com/en/atlas/lung/LU-11/",
+    "agrees": true
+   },
+   {
+    "name": "Acupuncture.com LU11 (page text opened)",
+    "url": "https://www.acupuncture.com/education/points/lung/lu11.htm",
+    "agrees": true
+   }
+  ],
+  "standard_landmarks": "Thumb, radial side (the edge facing AWAY from the index finger), about 0.1 cun from the radial nail corner at the crossing of the side-edge and nail-base lines.",
+  "controversy": "",
+  "corrected_location": "On the thumb, on the outer edge (the side facing away from the index finger), just beside the corner of the nail at its base.",
+  "notes": "App says 'outer (index-finger) side'. The index-finger side of the thumb is the ulnar side, which is wrong; LU11 is on the radial side. Self-contradictory wording that could send users to the wrong edge."
+ },
+ {
+  "id": "pc9",
+  "verdict": "CONFIRMED",
+  "sources": [
+   {
+    "name": "WHO Standard Acupuncture Point Locations in the Western Pacific Region (2008/2009 reprint), archive.org full text",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "Acupuntura.com Atlas PC 9 (page text opened)",
+    "url": "https://acupuntura.com/en/atlas/pericardium/PC-9/",
+    "agrees": true
+   },
+   {
+    "name": "Acupuncture.com PC9 (page text opened)",
+    "url": "https://www.acupuncture.com/education/points/pericardium/pc9.htm",
+    "agrees": true
+   }
+  ],
+  "standard_landmarks": "Centre of the tip of the middle finger (WHO main location).",
+  "controversy": "WHO lists PC9 as one of 6 unsettled points; alternative is 0.1 cun back from the radial corner of the middle fingernail like other Jing-well points.",
+  "corrected_location": "",
+  "notes": "App matches the WHO main location. Acupuntura wording ('0.1 cun from free margin') slightly differs."
+ },
+ {
+  "id": "si8",
+  "verdict": "CONFIRMED",
+  "sources": [
+   {
+    "name": "WHO Standard Acupuncture Point Locations in the Western Pacific Region (2008/2009 reprint), archive.org full text",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "Acupuntura.com Atlas SI 8 (page text opened)",
+    "url": "https://acupuntura.com/en/atlas/small-intestine/SI-8/",
+    "agrees": true
+   },
+   {
+    "name": "Acupuncture.com SI8 (page text opened)",
+    "url": "https://www.acupuncture.com/education/points/smallintestine/si8.htm",
+    "agrees": true
+   }
+  ],
+  "standard_landmarks": "Back-inner elbow, in the hollow (ulnar nerve groove) between the olecranon and the medial epicondyle.",
+  "controversy": "",
+  "corrected_location": "",
+  "notes": "Matches. Pressing here can give a funny-bone tingle; sources mention the ulnar nerve groove."
+ },
+ {
+  "id": "te10",
+  "verdict": "CONFIRMED",
+  "sources": [
+   {
+    "name": "WHO Standard Acupuncture Point Locations in the Western Pacific Region (2008/2009 reprint), archive.org full text",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "Acupuntura.com Atlas TE 10 (page text opened)",
+    "url": "https://acupuntura.com/en/atlas/triple-energizer/TE-10/",
+    "agrees": true
+   },
+   {
+    "name": "Acupuncture.com SJ10 (page text opened)",
+    "url": "https://www.acupuncture.com/education/points/sanjiao/sj10.htm",
+    "agrees": true
+   }
+  ],
+  "standard_landmarks": "Back of the elbow, in the hollow 1 cun above the olecranon tip (in the olecranon fossa when the elbow is bent).",
+  "controversy": "",
+  "corrected_location": "",
+  "notes": "Matches."
+ },
+ {
+  "id": "li3",
+  "verdict": "CONFIRMED",
+  "sources": [
+   {
+    "name": "WHO Standard Acupuncture Point Locations in the Western Pacific Region (2008/2009 reprint), archive.org full text",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "Acupuntura.com Atlas LI 3 (page text opened)",
+    "url": "https://acupuntura.com/en/atlas/large-intestine/LI-3/",
+    "agrees": true
+   },
+   {
+    "name": "Acupuncture.com LI3 (page text opened)",
+    "url": "https://www.acupuncture.com/education/points/largeintestine/li3.htm",
+    "agrees": true
+   }
+  ],
+  "standard_landmarks": "Back of hand, in the dip on the thumb side and just behind the 2nd knuckle (2nd metacarpophalangeal joint).",
+  "controversy": "",
+  "corrected_location": "",
+  "notes": "Matches."
+ },
+ {
+  "id": "te3",
+  "verdict": "MINOR",
+  "sources": [
+   {
+    "name": "WHO Standard Acupuncture Point Locations in the Western Pacific Region (2008/2009 reprint), archive.org full text",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "Acupuntura.com Atlas TE 3 (page text opened)",
+    "url": "https://acupuntura.com/en/atlas/triple-energizer/TE-3/",
+    "agrees": true
+   },
+   {
+    "name": "Acupuncture.com SJ3 (page text opened)",
+    "url": "https://www.acupuncture.com/education/points/sanjiao/sj3.htm",
+    "agrees": true
+   }
+  ],
+  "standard_landmarks": "Back of hand, between the 4th and 5th metacarpal bones, in the dip just behind (toward the wrist from) the 4th knuckle.",
+  "controversy": "",
+  "corrected_location": "On the back of the hand, in the groove between the bones leading to the ring and little fingers, just behind (wrist-side of) the knuckles.",
+  "notes": "App omits 'behind the knuckles' and could be read as between the knuckles themselves."
+ },
+ {
+  "id": "li15",
+  "verdict": "CONFIRMED",
+  "sources": [
+   {
+    "name": "WHO Standard Acupuncture Point Locations in the Western Pacific Region (2008/2009 reprint), archive.org full text",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "Acupuntura.com Atlas LI 15 (page text opened)",
+    "url": "https://acupuntura.com/en/atlas/large-intestine/LI-15/",
+    "agrees": true
+   },
+   {
+    "name": "Acupuncture.com LI15 (page text opened)",
+    "url": "https://www.acupuncture.com/education/points/largeintestine/li15.htm",
+    "agrees": true
+   }
+  ],
+  "standard_landmarks": "Shoulder, in the depression between the front end of the acromion and the greater tubercle of the humerus; with the arm raised to the side, the front of two hollows beside the acromion.",
+  "controversy": "",
+  "corrected_location": "",
+  "notes": "Matches. Optional lay cue: it is easier to find with the arm raised to shoulder height."
+ },
+ {
+  "id": "te17",
+  "verdict": "CONFIRMED",
+  "sources": [
+   {
+    "name": "WHO Standard Acupuncture Point Locations in the Western Pacific Region (2008/2009 reprint), archive.org full text",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "Acupuntura.com Atlas TE 17 (page text opened)",
+    "url": "https://acupuntura.com/en/atlas/triple-energizer/TE-17/",
+    "agrees": true
+   },
+   {
+    "name": "Acupuncture.com SJ17 (page text opened)",
+    "url": "https://www.acupuncture.com/education/points/sanjiao/sj17.htm",
+    "agrees": true
+   }
+  ],
+  "standard_landmarks": "Behind the earlobe, in the hollow in front of the lower end of the mastoid process, between it and the angle of the jaw.",
+  "controversy": "",
+  "corrected_location": "",
+  "notes": "Matches."
+ },
+ {
+  "id": "si11",
+  "verdict": "MINOR",
+  "sources": [
+   {
+    "name": "WHO Standard Acupuncture Point Locations in the Western Pacific Region (2008/2009 reprint), archive.org full text",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "Acupuntura.com Atlas SI 11 (page text opened)",
+    "url": "https://acupuntura.com/en/atlas/small-intestine/SI-11/",
+    "agrees": true
+   },
+   {
+    "name": "Acupuncture.com SI11 (page text opened)",
+    "url": "https://www.acupuncture.com/education/points/smallintestine/si11.htm",
+    "agrees": true
+   }
+  ],
+  "standard_landmarks": "Shoulder blade, in the hollow of the infraspinous area, at the junction of upper one third and lower two thirds of the line from the midpoint of the scapular spine to the inferior angle; roughly level with T4 (acupuncture.com says centre of the infraspinous fossa).",
+  "controversy": "",
+  "corrected_location": "On the shoulder blade, in the hollow below the horizontal bony ridge across it, about one third of the way down from the middle of that ridge toward the bottom tip of the blade.",
+  "notes": "Fraction is right; 'center of the shoulder blade' and 'upper ridge' are vague. Clarify the ridge is the spine of the scapula and the point lies below it."
+ },
+ {
+  "id": "si19",
+  "verdict": "CONFIRMED",
+  "sources": [
+   {
+    "name": "WHO Standard Acupuncture Point Locations in the Western Pacific Region (2008/2009 reprint), archive.org full text",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "Acupuntura.com Atlas SI 19 (page text opened)",
+    "url": "https://acupuntura.com/en/atlas/small-intestine/SI-19/",
+    "agrees": true
+   },
+   {
+    "name": "Acupuncture.com SI19 (page text opened)",
+    "url": "https://www.acupuncture.com/education/points/smallintestine/si19.htm",
+    "agrees": true
+   }
+  ],
+  "standard_landmarks": "In front of the tragus (ear flap), in the hollow between the tragus and the jaw joint (mandibular condyle) that appears when the mouth is slightly open.",
+  "controversy": "",
+  "corrected_location": "",
+  "notes": "Matches. 'Just in front of the ear canal' is equivalent to in front of the tragus."
+ }
+]

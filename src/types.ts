@@ -28,7 +28,8 @@ export interface Point {
   location: string;
   useTags: UseTag[];
   /** Omitted for verified: false points — no fabricated photo. PointDetail
-   * falls back to a PointDiagram (body silhouette + dot) instead. */
+   * shows an original region illustration instead (data/pointDiagrams.ts +
+   * components/regions/art.tsx), falling back to PointDiagram (silhouette + dot). */
   image?: string;
   pregnancyCaution?: boolean;
   source: string;

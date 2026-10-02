@@ -1,0 +1,577 @@
+[
+ {
+  "id": "bl23",
+  "verdict": "MINOR",
+  "sources": [
+   {
+    "name": "WHO Standard Acupuncture Point Locations in the Western Pacific Region (2008), full text via archive.org",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "TCM Wiki BL23",
+    "url": "https://tcmwiki.com/wiki/bl23",
+    "agrees": true
+   },
+   {
+    "name": "Master Tung Acupuncture (traditional TCM point page) BL23",
+    "url": "https://www.mastertungacupuncture.org/acupuncture/traditional/points/bl23",
+    "agrees": true
+   },
+   {
+    "name": "MeAndQi TCM education center BL23",
+    "url": "https://www.meandqi.com/tcm-education-center/acupuncture/bladder-channel/shenshu-bl-23",
+    "agrees": true
+   },
+   {
+    "name": "PMC11353071 (back-shu points biomechanics study; methods give T-level + 1.5 B-cun)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11353071/",
+    "agrees": true
+   }
+  ],
+  "standard_landmarks": "Level of the lower border of the L2 spinous process, 1.5 cun lateral to posterior midline (same level as GV4). Back-shu line: 1.5 B-cun (about 1.5 thumb-widths / 2 finger-widths) lateral to the posterior midline, measured from the lower border of the spinous process of the named vertebra. WHO surface landmarks: T3 spinous process = line joining medial ends of the scapular spines; T7 = line joining inferior scapular angles (arms at sides); T12 = midpoint between inferior scapular angle and top of iliac crest; L4 = line joining top of iliac crests; S2 = line joining inferior borders of the PSISs.",
+  "controversy": "",
+  "corrected_location": "On the low back, about one and a half thumb-widths out from the spine, at the level of the second lumbar vertebra: roughly halfway between where the lowest rib meets the spine and the top of the hip bones.",
+  "notes": "App's 'level with the bottom of the rib cage' is loose; also inconsistent with BL22 text ('just below the rib cage' for a point that is higher than BL23). Midway rule derived from WHO landmarks T12 and L4 (L2 is midway between them). Independence caveat: TCM Wiki, Master Tung and MeAndQi all follow the standard Chinese-textbook wording and are not fully independent of each other or of the WHO/China national standard; WHO is the separate consensus reference."
+ },
+ {
+  "id": "bl25",
+  "verdict": "CONFIRMED",
+  "sources": [
+   {
+    "name": "WHO Standard Acupuncture Point Locations in the Western Pacific Region (2008), full text via archive.org",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "TCM Wiki BL25",
+    "url": "https://tcmwiki.com/wiki/bl25",
+    "agrees": true
+   },
+   {
+    "name": "Master Tung Acupuncture (traditional TCM point page) BL25",
+    "url": "https://www.mastertungacupuncture.org/acupuncture/traditional/points/bl25",
+    "agrees": true
+   },
+   {
+    "name": "MeAndQi TCM education center BL25",
+    "url": "https://www.meandqi.com/tcm-education-center/acupuncture/bladder-channel/dachangshu-bl-25",
+    "agrees": true
+   }
+  ],
+  "standard_landmarks": "L4 spinous process lower border (L4 = line joining the highest points of the iliac crests), 1.5 cun lateral to midline. Back-shu line: 1.5 B-cun (about 1.5 thumb-widths / 2 finger-widths) lateral to the posterior midline, measured from the lower border of the spinous process of the named vertebra. WHO surface landmarks: T3 spinous process = line joining medial ends of the scapular spines; T7 = line joining inferior scapular angles (arms at sides); T12 = midpoint between inferior scapular angle and top of iliac crest; L4 = line joining top of iliac crests; S2 = line joining inferior borders of the PSISs.",
+  "controversy": "",
+  "corrected_location": "",
+  "notes": "'Top of the hip bones' matches WHO definition of L4 landmark (highest point of iliac crest). Independence caveat: TCM Wiki, Master Tung and MeAndQi all follow the standard Chinese-textbook wording and are not fully independent of each other or of the WHO/China national standard; WHO is the separate consensus reference."
+ },
+ {
+  "id": "bl62",
+  "verdict": "CONFIRMED",
+  "sources": [
+   {
+    "name": "WHO Standard Acupuncture Point Locations in the Western Pacific Region (2008), full text via archive.org",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "TCM Wiki BL62",
+    "url": "https://tcmwiki.com/wiki/bl62",
+    "agrees": true
+   },
+   {
+    "name": "Master Tung Acupuncture (traditional TCM point page) BL62",
+    "url": "https://www.mastertungacupuncture.org/acupuncture/traditional/points/bl62",
+    "agrees": true
+   },
+   {
+    "name": "MeAndQi TCM education center BL62",
+    "url": "https://www.meandqi.com/tcm-education-center/acupuncture/bladder-channel/shenmai-bl-62",
+    "agrees": true
+   },
+   {
+    "name": "Wikipedia List of acupuncture points (coarse wording only)",
+    "url": "https://en.wikipedia.org/wiki/List_of_acupuncture_points",
+    "agrees": true
+   }
+  ],
+  "standard_landmarks": "Directly below the prominence (tip) of the lateral malleolus, in the hollow between the lower border of the malleolus and the calcaneus. TCM Wiki and Master Tung add: posterior to the peroneal tendons. Mirror point on the inner ankle is KI6.",
+  "controversy": "Only a difference in detail: WHO and MeAndQi say 'directly below malleolus'; TCM Wiki/Master Tung add the peroneal-tendon relation. No conflict in location.",
+  "corrected_location": "",
+  "notes": "Optional improvement: add 'just behind the tendons running along the outside of the ankle'. Independence caveat: TCM Wiki, Master Tung and MeAndQi all follow the standard Chinese-textbook wording and are not fully independent of each other or of the WHO/China national standard; WHO is the separate consensus reference."
+ },
+ {
+  "id": "bl13",
+  "verdict": "MINOR",
+  "sources": [
+   {
+    "name": "WHO Standard Acupuncture Point Locations in the Western Pacific Region (2008), full text via archive.org",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "TCM Wiki BL13",
+    "url": "https://tcmwiki.com/wiki/bl13",
+    "agrees": true
+   },
+   {
+    "name": "Master Tung Acupuncture (traditional TCM point page) BL13",
+    "url": "https://www.mastertungacupuncture.org/acupuncture/traditional/points/bl13",
+    "agrees": true
+   },
+   {
+    "name": "MeAndQi TCM education center BL13",
+    "url": "https://www.meandqi.com/tcm-education-center/acupuncture/bladder-channel/feishu-bl-13",
+    "agrees": true
+   },
+   {
+    "name": "PMC11353071 (back-shu points biomechanics study; methods give T-level + 1.5 B-cun)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11353071/",
+    "agrees": true
+   }
+  ],
+  "standard_landmarks": "Level of lower border of T3 spinous process, 1.5 cun lateral to midline. WHO defines T3 as the line between the medial ends of the two scapular spines (standing, arms at sides).",
+  "controversy": "",
+  "corrected_location": "On the upper back, about one and a half thumb-widths out from the spine, level with the line joining the inner ends of the ridges (spines) that run across the two shoulder blades (third thoracic vertebra).",
+  "notes": "'Top of the shoulder blades' is ambiguous: the upper tip of the scapula is higher than the scapular spine root that defines T3. (The superior-angle-at-T2 statement is general anatomy, not from the sources I opened.) Independence caveat: TCM Wiki, Master Tung and MeAndQi all follow the standard Chinese-textbook wording and are not fully independent of each other or of the WHO/China national standard; WHO is the separate consensus reference."
+ },
+ {
+  "id": "bl18",
+  "verdict": "MINOR",
+  "sources": [
+   {
+    "name": "WHO Standard Acupuncture Point Locations in the Western Pacific Region (2008), full text via archive.org",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "TCM Wiki BL18",
+    "url": "https://tcmwiki.com/wiki/bl18",
+    "agrees": true
+   },
+   {
+    "name": "Master Tung Acupuncture (traditional TCM point page) BL18",
+    "url": "https://www.mastertungacupuncture.org/acupuncture/traditional/points/bl18",
+    "agrees": true
+   },
+   {
+    "name": "MeAndQi TCM education center BL18",
+    "url": "https://www.meandqi.com/tcm-education-center/acupuncture/bladder-channel/ganshu-bl-18",
+    "agrees": true
+   },
+   {
+    "name": "PMC11353071 (back-shu points biomechanics study; methods give T-level + 1.5 B-cun)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11353071/",
+    "agrees": true
+   },
+   {
+    "name": "PMC9622668 (BL18/BL20/BL22 systematic review; vertebral levels)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9622668/",
+    "agrees": true
+   }
+  ],
+  "standard_landmarks": "Lower border of T9 spinous process, 1.5 cun lateral to midline. WHO: the bottom tips (inferior angles) of the scapulae are at T7, so BL18 is two vertebrae below that line.",
+  "controversy": "",
+  "corrected_location": "On the mid-back, about one and a half thumb-widths out from the spine, at the level of the 9th thoracic vertebra, which is two vertebrae (roughly a hand's width) below the line joining the bottom tips of the shoulder blades.",
+  "notes": "Level (T9) and 1.5 cun are right. The 'two finger-widths below shoulder blades' measure likely understates the gap (two vertebrae is about 3 cun by my estimate of ~1.5 cun per vertebra; that spacing figure is NOT from a source I opened). Suggest dropping or changing the finger measure; flag for owner. Independence caveat: TCM Wiki, Master Tung and MeAndQi all follow the standard Chinese-textbook wording and are not fully independent of each other or of the WHO/China national standard; WHO is the separate consensus reference."
+ },
+ {
+  "id": "bl20",
+  "verdict": "MINOR",
+  "sources": [
+   {
+    "name": "WHO Standard Acupuncture Point Locations in the Western Pacific Region (2008), full text via archive.org",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "TCM Wiki BL20",
+    "url": "https://tcmwiki.com/wiki/bl20",
+    "agrees": true
+   },
+   {
+    "name": "Master Tung Acupuncture (traditional TCM point page) BL20",
+    "url": "https://www.mastertungacupuncture.org/acupuncture/traditional/points/bl20",
+    "agrees": true
+   },
+   {
+    "name": "MeAndQi TCM education center BL20",
+    "url": "https://www.meandqi.com/tcm-education-center/acupuncture/bladder-channel/pishu-bl-20",
+    "agrees": true
+   },
+   {
+    "name": "PMC11353071 (back-shu points biomechanics study; methods give T-level + 1.5 B-cun)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11353071/",
+    "agrees": true
+   },
+   {
+    "name": "PMC9622668 (BL18/BL20/BL22 systematic review; vertebral levels)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9622668/",
+    "agrees": true
+   }
+  ],
+  "standard_landmarks": "Lower border of T11 spinous process, 1.5 cun lateral to midline. WHO places T12 (BL21) at the midpoint between scapular inferior angle and iliac crest top; BL20 is one vertebra above that.",
+  "controversy": "",
+  "corrected_location": "On the mid-back, about one and a half thumb-widths out from the spine, at the level of the 11th thoracic vertebra, one vertebra above the last rib-bearing vertebra (about a thumb-and-a-half above BL21).",
+  "notes": "'Where the lowest ribs meet the spine' is ambiguous: the 12th rib joins T12 (BL21 level), the 11th rib joins T11. Level T11 itself is confirmed. Independence caveat: TCM Wiki, Master Tung and MeAndQi all follow the standard Chinese-textbook wording and are not fully independent of each other or of the WHO/China national standard; WHO is the separate consensus reference."
+ },
+ {
+  "id": "bl67",
+  "verdict": "MINOR",
+  "sources": [
+   {
+    "name": "WHO Standard Acupuncture Point Locations in the Western Pacific Region (2008), full text via archive.org",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "TCM Wiki BL67",
+    "url": "https://tcmwiki.com/wiki/bl67",
+    "agrees": true
+   },
+   {
+    "name": "Master Tung Acupuncture (traditional TCM point page) BL67",
+    "url": "https://www.mastertungacupuncture.org/acupuncture/traditional/points/bl67",
+    "agrees": true
+   },
+   {
+    "name": "MeAndQi TCM education center BL67",
+    "url": "https://www.meandqi.com/tcm-education-center/acupuncture/bladder-channel/zhiyin-bl-67",
+    "agrees": true
+   },
+   {
+    "name": "Wikipedia List of acupuncture points (coarse wording only)",
+    "url": "https://en.wikipedia.org/wiki/List_of_acupuncture_points",
+    "agrees": true
+   }
+  ],
+  "standard_landmarks": "Outer (lateral) side of the little toe, 0.1 finger-cun (about 1-2 mm) back from the outer corner of the toenail; WHO: intersection of the vertical line along the nail's outer edge and the horizontal line of the nail base.",
+  "controversy": "",
+  "corrected_location": "On the outer side of the little toe, just beside the corner of the toenail (a hair's breadth, about 2 mm, behind the nail corner on the side of the toe).",
+  "notes": "App text is essentially right; only the 0.1 cun offset is missing. Low risk. Independence caveat: TCM Wiki, Master Tung and MeAndQi all follow the standard Chinese-textbook wording and are not fully independent of each other or of the WHO/China national standard; WHO is the separate consensus reference."
+ },
+ {
+  "id": "bl14",
+  "verdict": "CONFIRMED",
+  "sources": [
+   {
+    "name": "WHO Standard Acupuncture Point Locations in the Western Pacific Region (2008), full text via archive.org",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "TCM Wiki BL14",
+    "url": "https://tcmwiki.com/wiki/bl14",
+    "agrees": true
+   },
+   {
+    "name": "Master Tung Acupuncture (traditional TCM point page) BL14",
+    "url": "https://www.mastertungacupuncture.org/acupuncture/traditional/points/bl14",
+    "agrees": true
+   },
+   {
+    "name": "MeAndQi TCM education center BL14",
+    "url": "https://www.meandqi.com/tcm-education-center/acupuncture/bladder-channel/jueyinshu-bl-14",
+    "agrees": true
+   }
+  ],
+  "standard_landmarks": "Lower border of T4 spinous process, 1.5 cun lateral to midline; one vertebra below BL13 (T3).",
+  "controversy": "TCM Wiki page contains an internal typo ('4th thoracic vertebra (T6)'); WHO, Master Tung and MeAndQi all say T4.",
+  "corrected_location": "",
+  "notes": "'Roughly between the shoulder blades' is vague but not wrong. Optional: add 'one vertebra below BL13'. Independence caveat: TCM Wiki, Master Tung and MeAndQi all follow the standard Chinese-textbook wording and are not fully independent of each other or of the WHO/China national standard; WHO is the separate consensus reference."
+ },
+ {
+  "id": "bl15",
+  "verdict": "CONFIRMED",
+  "sources": [
+   {
+    "name": "WHO Standard Acupuncture Point Locations in the Western Pacific Region (2008), full text via archive.org",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "TCM Wiki BL15",
+    "url": "https://tcmwiki.com/wiki/bl15",
+    "agrees": true
+   },
+   {
+    "name": "Master Tung Acupuncture (traditional TCM point page) BL15",
+    "url": "https://www.mastertungacupuncture.org/acupuncture/traditional/points/bl15",
+    "agrees": true
+   },
+   {
+    "name": "MeAndQi TCM education center BL15",
+    "url": "https://www.meandqi.com/tcm-education-center/acupuncture/bladder-channel/xinshu-bl-15",
+    "agrees": true
+   },
+   {
+    "name": "PMC11353071 (back-shu points biomechanics study; methods give T-level + 1.5 B-cun)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11353071/",
+    "agrees": true
+   }
+  ],
+  "standard_landmarks": "Lower border of T5 spinous process, 1.5 cun lateral to midline; one vertebra below BL14.",
+  "controversy": "",
+  "corrected_location": "",
+  "notes": "Fully matches. Independence caveat: TCM Wiki, Master Tung and MeAndQi all follow the standard Chinese-textbook wording and are not fully independent of each other or of the WHO/China national standard; WHO is the separate consensus reference."
+ },
+ {
+  "id": "bl19",
+  "verdict": "MINOR",
+  "sources": [
+   {
+    "name": "WHO Standard Acupuncture Point Locations in the Western Pacific Region (2008), full text via archive.org",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "TCM Wiki BL19",
+    "url": "https://tcmwiki.com/wiki/bl19",
+    "agrees": true
+   },
+   {
+    "name": "Master Tung Acupuncture (traditional TCM point page) BL19",
+    "url": "https://www.mastertungacupuncture.org/acupuncture/traditional/points/bl19",
+    "agrees": true
+   },
+   {
+    "name": "MeAndQi TCM education center BL19",
+    "url": "https://www.meandqi.com/tcm-education-center/acupuncture/bladder-channel/danshu-bl-19",
+    "agrees": true
+   }
+  ],
+  "standard_landmarks": "Lower border of T10 spinous process, 1.5 cun lateral to midline; three vertebrae below the level of the scapular inferior angles (T7).",
+  "controversy": "",
+  "corrected_location": "On the mid-back, about one and a half thumb-widths out from the spine, at the level of the 10th thoracic vertebra, one vertebra below BL18 (roughly a hand's width and a half below the bottom tips of the shoulder blades).",
+  "notes": "Level and 1.5 cun right. 'A hand's width below shoulder blades' is probably short (3 vertebrae); the per-vertebra spacing is my estimate, not sourced. Prefer relative wording (one vertebra below BL18). Independence caveat: TCM Wiki, Master Tung and MeAndQi all follow the standard Chinese-textbook wording and are not fully independent of each other or of the WHO/China national standard; WHO is the separate consensus reference."
+ },
+ {
+  "id": "bl21",
+  "verdict": "MINOR",
+  "sources": [
+   {
+    "name": "WHO Standard Acupuncture Point Locations in the Western Pacific Region (2008), full text via archive.org",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "TCM Wiki BL21",
+    "url": "https://tcmwiki.com/wiki/bl21",
+    "agrees": true
+   },
+   {
+    "name": "Master Tung Acupuncture (traditional TCM point page) BL21",
+    "url": "https://www.mastertungacupuncture.org/acupuncture/traditional/points/bl21",
+    "agrees": true
+   },
+   {
+    "name": "MeAndQi TCM education center BL21",
+    "url": "https://www.meandqi.com/tcm-education-center/acupuncture/bladder-channel/weishu-bl-21",
+    "agrees": true
+   }
+  ],
+  "standard_landmarks": "Lower border of T12 spinous process, 1.5 cun lateral to midline. WHO: T12 is at the midpoint between the bottom tip of the shoulder blade and the top of the iliac crest.",
+  "controversy": "",
+  "corrected_location": "On the mid-back, about one and a half thumb-widths out from the spine, at the level of the 12th thoracic vertebra (the last one with a rib), roughly halfway between the bottom tips of the shoulder blades and the top of the hip bones.",
+  "notes": "Level and distance correct; the phrase 'at the small of the upper back' is non-standard/confusing and should be removed. Independence caveat: TCM Wiki, Master Tung and MeAndQi all follow the standard Chinese-textbook wording and are not fully independent of each other or of the WHO/China national standard; WHO is the separate consensus reference."
+ },
+ {
+  "id": "bl22",
+  "verdict": "MINOR",
+  "sources": [
+   {
+    "name": "WHO Standard Acupuncture Point Locations in the Western Pacific Region (2008), full text via archive.org",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "TCM Wiki BL22",
+    "url": "https://tcmwiki.com/wiki/bl22",
+    "agrees": true
+   },
+   {
+    "name": "Master Tung Acupuncture (traditional TCM point page) BL22",
+    "url": "https://www.mastertungacupuncture.org/acupuncture/traditional/points/bl22",
+    "agrees": true
+   },
+   {
+    "name": "MeAndQi TCM education center BL22",
+    "url": "https://www.meandqi.com/tcm-education-center/acupuncture/bladder-channel/sanjiaoshu-bl-22",
+    "agrees": true
+   },
+   {
+    "name": "PMC9622668 (BL18/BL20/BL22 systematic review; vertebral levels)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9622668/",
+    "agrees": true
+   }
+  ],
+  "standard_landmarks": "Lower border of L1 spinous process, 1.5 cun lateral to midline; one vertebra below BL21 (T12).",
+  "controversy": "",
+  "corrected_location": "On the low back, about one and a half thumb-widths out from the spine, at the level of the 1st lumbar vertebra, one vertebra (about a thumb-and-a-half) below BL21.",
+  "notes": "Level L1 correct. 'Just below the rib cage' is loose and conflicts with the BL23 text. Anchoring to BL21 is cleaner. Independence caveat: TCM Wiki, Master Tung and MeAndQi all follow the standard Chinese-textbook wording and are not fully independent of each other or of the WHO/China national standard; WHO is the separate consensus reference."
+ },
+ {
+  "id": "bl27",
+  "verdict": "DISCREPANCY",
+  "sources": [
+   {
+    "name": "WHO Standard Acupuncture Point Locations in the Western Pacific Region (2008), full text via archive.org",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "TCM Wiki BL27",
+    "url": "https://tcmwiki.com/wiki/bl27",
+    "agrees": true
+   },
+   {
+    "name": "Master Tung Acupuncture (traditional TCM point page) BL27",
+    "url": "https://www.mastertungacupuncture.org/acupuncture/traditional/points/bl27",
+    "agrees": true
+   },
+   {
+    "name": "MeAndQi TCM education center BL27",
+    "url": "https://www.meandqi.com/tcm-education-center/acupuncture/bladder-channel/xiaochangshu-bl-27",
+    "agrees": true
+   }
+  ],
+  "standard_landmarks": "Level of the 1st posterior sacral foramen, 1.5 cun lateral to the median sacral crest (WHO: same level as BL31). WHO defines S2 as the line joining the lower borders of the two PSISs (the visible dimples), so the dimple level is S2 = BL28/BL32 level, one segment BELOW BL27.",
+  "controversy": "None found among sources on level (S1 foramen). Dimple-level wording is my deduction from WHO's S2 landmark definition.",
+  "corrected_location": "On the lower back over the sacrum, about one and a half thumb-widths out from the midline, roughly one thumb-width above the level of the dimples above the buttocks (at the level of the first sacral hole).",
+  "notes": "App says BL27 is 'at the level of the dimples'; the dimples mark S2 which is BL28. 'One thumb-width above' is an approximation of S1-S2 spacing (not from a source). Independence caveat: TCM Wiki, Master Tung and MeAndQi all follow the standard Chinese-textbook wording and are not fully independent of each other or of the WHO/China national standard; WHO is the separate consensus reference."
+ },
+ {
+  "id": "bl28",
+  "verdict": "MINOR",
+  "sources": [
+   {
+    "name": "WHO Standard Acupuncture Point Locations in the Western Pacific Region (2008), full text via archive.org",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "TCM Wiki BL28",
+    "url": "https://tcmwiki.com/wiki/bl28",
+    "agrees": true
+   },
+   {
+    "name": "Master Tung Acupuncture (traditional TCM point page) BL28",
+    "url": "https://www.mastertungacupuncture.org/acupuncture/traditional/points/bl28",
+    "agrees": true
+   },
+   {
+    "name": "MeAndQi TCM education center BL28",
+    "url": "https://www.meandqi.com/tcm-education-center/acupuncture/bladder-channel/pangguangshu-bl-28",
+    "agrees": true
+   }
+  ],
+  "standard_landmarks": "Level of the 2nd posterior sacral foramen, 1.5 cun lateral to the median sacral crest (same level as BL32), in the depression between the medial border of the PSIS and the sacrum (MeAndQi). Level of the PSIS lower borders = S2.",
+  "controversy": "",
+  "corrected_location": "On the lower back over the sacrum, about one and a half thumb-widths out from the midline, level with the dimples above the buttocks (second sacral hole), just below BL27.",
+  "notes": "'Just below BL27' is right but lacks the dimple landmark that actually defines this point. Independence caveat: TCM Wiki, Master Tung and MeAndQi all follow the standard Chinese-textbook wording and are not fully independent of each other or of the WHO/China national standard; WHO is the separate consensus reference."
+ },
+ {
+  "id": "bl65",
+  "verdict": "DISCREPANCY",
+  "sources": [
+   {
+    "name": "WHO Standard Acupuncture Point Locations in the Western Pacific Region (2008), full text via archive.org",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "TCM Wiki BL65",
+    "url": "https://tcmwiki.com/wiki/bl65",
+    "agrees": true
+   },
+   {
+    "name": "Master Tung Acupuncture (traditional TCM point page) BL65",
+    "url": "https://www.mastertungacupuncture.org/acupuncture/traditional/points/bl65",
+    "agrees": true
+   },
+   {
+    "name": "MeAndQi TCM education center BL65",
+    "url": "https://www.meandqi.com/tcm-education-center/acupuncture/bladder-channel/shugu-bl-65",
+    "agrees": true
+   },
+   {
+    "name": "Wikipedia List of acupuncture points (coarse wording only)",
+    "url": "https://en.wikipedia.org/wiki/List_of_acupuncture_points",
+    "agrees": true
+   }
+  ],
+  "standard_landmarks": "Outer side of the foot, in the depression proximal (behind) the 5th metatarsophalangeal joint, i.e. just behind the HEAD of the 5th metatarsal, at the border of red and white skin. (TCM Wiki: posterior and inferior to the head.) The BASE of the 5th metatarsal is the BL64 (Jinggu) landmark.",
+  "controversy": "",
+  "corrected_location": "On the outer edge of the foot, in the hollow just behind the knuckle where the little toe joins the foot (the rounded head of the little toe's long bone), where the darker skin of the top of the foot meets the paler skin of the sole.",
+  "notes": "App says 'behind the base of the little toe's long bone', which read literally is the proximal end of the metatarsal (BL64 area), not BL65. Could be an ambiguous phrase for 'base of the little toe', but it is wrong as written. Independence caveat: TCM Wiki, Master Tung and MeAndQi all follow the standard Chinese-textbook wording and are not fully independent of each other or of the WHO/China national standard; WHO is the separate consensus reference."
+ },
+ {
+  "id": "bl2",
+  "verdict": "CONFIRMED",
+  "sources": [
+   {
+    "name": "WHO Standard Acupuncture Point Locations in the Western Pacific Region (2008), full text via archive.org",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "TCM Wiki BL2",
+    "url": "https://tcmwiki.com/wiki/bl2",
+    "agrees": true
+   },
+   {
+    "name": "Master Tung Acupuncture (traditional TCM point page) BL2",
+    "url": "https://www.mastertungacupuncture.org/acupuncture/traditional/points/bl2",
+    "agrees": true
+   },
+   {
+    "name": "MeAndQi TCM education center BL2",
+    "url": "https://www.meandqi.com/tcm-education-center/acupuncture/bladder-channel/zanzhu-bl-2",
+    "agrees": true
+   },
+   {
+    "name": "Wikipedia List of acupuncture points (coarse wording only)",
+    "url": "https://en.wikipedia.org/wiki/List_of_acupuncture_points",
+    "agrees": true
+   }
+  ],
+  "standard_landmarks": "In the depression at the medial end of the eyebrow (WHO); WHO note: the frontal (supraorbital) notch can often be palpated there, directly above BL1. Master Tung/MeAndQi: or on the supraorbital notch.",
+  "controversy": "",
+  "corrected_location": "",
+  "notes": "App wording ('inner edge of eyebrow, small notch just above inner corner of eye') matches. Independence caveat: TCM Wiki, Master Tung and MeAndQi all follow the standard Chinese-textbook wording and are not fully independent of each other or of the WHO/China national standard; WHO is the separate consensus reference."
+ },
+ {
+  "id": "bl10",
+  "verdict": "MINOR",
+  "sources": [
+   {
+    "name": "WHO Standard Acupuncture Point Locations in the Western Pacific Region (2008), full text via archive.org",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "TCM Wiki BL10",
+    "url": "https://tcmwiki.com/wiki/bl10",
+    "agrees": true
+   },
+   {
+    "name": "Master Tung Acupuncture (traditional TCM point page) BL10",
+    "url": "https://www.mastertungacupuncture.org/acupuncture/traditional/points/bl10",
+    "agrees": true
+   },
+   {
+    "name": "MeAndQi TCM education center BL10",
+    "url": "https://www.meandqi.com/tcm-education-center/acupuncture/bladder-channel/tianzhu-bl-10",
+    "agrees": true
+   },
+   {
+    "name": "Wikipedia List of acupuncture points (coarse wording only)",
+    "url": "https://en.wikipedia.org/wiki/List_of_acupuncture_points",
+    "agrees": true
+   }
+  ],
+  "standard_landmarks": "WHO: posterior neck at the level of the upper border of the C2 spinous process, in the depression on the outer side of the trapezius. TCM Wiki/Master Tung/MeAndQi: 1.3 cun lateral to the midline (GV15 Yamen), 0.5 cun above the posterior hairline, on the lateral edge of trapezius.",
+  "controversy": "WHO text does not give a cun distance from midline; the 1.3 cun figure comes from the TCM sources.",
+  "corrected_location": "On the back of the neck, just below the base of the skull, in the hollow on the outer side of the thick vertical neck muscle, a little more than a thumb-width out from the midline.",
+  "notes": "App says 'in the muscle'; the standard puts it in the depression at the muscle's outer edge. '~a thumb-width' vs 1.3 cun is close. Independence caveat: TCM Wiki, Master Tung and MeAndQi all follow the standard Chinese-textbook wording and are not fully independent of each other or of the WHO/China national standard; WHO is the separate consensus reference."
+ }
+]

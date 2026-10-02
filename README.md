@@ -104,8 +104,13 @@ anything shipped, since `npm run build` was always run before committing, but th
 - `src/data/routines.ts` — the 10 symptom routines, each a list of point ids.
 - `src/data/bodyMap.ts` — the body-map SVG viewBox constant.
 - `src/components/BodySilhouette.tsx` — the original schematic body outline used by `/map`.
-- `src/components/PointDiagram.tsx` — zoomed crop of that same silhouette + a dot, used as the
-  photo fallback for points that don't have one.
+- `src/components/RegionDiagram.tsx` + `src/components/regions/art.tsx` +
+  `src/data/pointDiagrams.ts` — original region illustrations (13 views: top/inner/outer foot,
+  palm, back of hand, elbow front/back, front of leg, back of knee, torso, back, face, side of
+  head) with landmark labels (ankle bone, navel, T7 shoulder-blade bottom, L4 hip-bone top…).
+  Each unverified point is a hand-placed dot on one view; the crop also shows nearby points as
+  hollow dots. This replaced the generic silhouette crop as the no-photo fallback.
+- `src/components/PointDiagram.tsx` — older zoomed silhouette crop; now only a last-resort fallback.
 - `src/pages/` — Home (symptom picker), RoutineDetail, PointDetail, Safety, BodyMap, AllPoints.
 - `src/assets/points/` — cropped point photos (JPEG, no VA branding).
 - `src/components/EaseLogo.tsx` — the wordmark as inline SVG (paths, no font needed to render it).
@@ -127,7 +132,7 @@ anything shipped, since `npm run build` was always run before committing, but th
   `fivePhase` on `Point`). Only set where genuinely well-established across TCM references —
   Yuan-source, Five-Shu transporting points, Luo-connecting points, the Eight Confluent points,
   the classical Four Command Points, SP6's three-yin-meeting status. Most extra/empirical points
-  (Tai Yang, Yin Tang, An Mian, Luo Zhen, Bai Lao, Ling Gu) correctly have neither, since they sit
+  (Tai Yang, Yin Tang, An Mian, Luo Zhen, Bai Lao) correctly have neither, since they sit
   outside the 14-meridian system these classifications belong to. Surfaced on `PointDetail`.
 - **WHO-361 expansion — started, first batch of 19 points added (`verified: false`).** 25 -> 44
   points, spanning three channels this app had zero coverage of before (Governing Vessel,
@@ -213,3 +218,48 @@ anything shipped, since `npm run build` was always run before committing, but th
   - This surfaced the `tsc --noEmit` no-op documented above — a real bug (`ROUTINE_ICONS` missing
     keys for the 7 new categories) that the routine-but-broken typecheck step had been silently
     missing; `npm run build`'s `tsc -b` caught it immediately once actually invoked.
+
+## Region illustrations for unreviewed points
+
+The 76 `verified: false` points have no licensed photo. A search for openly licensed per-point
+imagery found nothing usable: Wikimedia Commons covers about a dozen points (mostly CC BY-SA),
+Wellcome's CC BY charts are antique woodcuts, a clinic site's per-point diagrams
+(CC BY-SA 4.0) are full-body silhouettes with dots — at least one (BL-53) wrongly placed — and
+3D-atlas projects reuse a one-person coordinate set. So these are original illustrations drawn for
+Ease, placed from the same landmark descriptions as each point's `location` text. They are
+**approximate** and every point stays `verified: false` until a licensed acupuncturist checks
+placement. `PointDetail` captions them "Illustration, not a photo".
+
+## Location cross-check (76 unreviewed points)
+
+Each unreviewed point's location was checked against the WHO Standard Acupuncture Point Locations
+(2008, read as OCR text from archive.org) plus two or more TCM education references. Raw results,
+sources and verdicts: `sources/location-cross-check/result_{A,B,C,D}.json`.
+
+Outcome: 39 confirmed, 33 wording fixes, 4 outright errors (LU11 named the wrong thumb edge, BL27
+was placed at the wrong level, BL65 named the wrong end of the 5th metatarsal, LR13 named the 12th
+rib instead of the 11th) — all corrected in `points.ts`, with dot positions adjusted to match.
+
+Limits to know about: the "independent" sources largely share one textbook lineage, so this is a
+solid check against the WHO standard, not three fully separate opinions. The WHO text for ST44 was
+missing from the OCR, so ST44 rests on education sources only. WHO itself lists LI20, PC8 and PC9
+as unsettled, and sources differ on GB41, ST43, KD10 and GV26. EX-B2 is an extra point outside WHO's
+361, so it has no WHO anchor and is the lowest-confidence entry. Nothing here replaces review by a
+licensed acupuncturist — every point stays `verified: false`.
+
+## Full-repo audit (all points)
+
+- **VA-sourced points re-checked** (`sources/location-cross-check/result_E_va_points.json`). Most
+  matched the WHO standard. Fixes: SI4 text said "palm side" (it's the little-finger edge); Bai Lao,
+  An Mian and the UB low-back lines had imprecise locations and were rewritten.
+- **Removed:** *Ling Gu* (a Master Tung point only one school recognizes, with a location that
+  conflicted with its own school's, and a pregnancy contraindication) and *Hip Area* (a general
+  zone, not a defined point). The app now has 99 points: 23 with VA photos, 76 with illustrations.
+- **Non-WHO entries are labelled** in their source line: An Mian (modern empirical extra point).
+  Bai Lao is a recognized extra point (EX-HN15). The ear low-back zone is a recognized
+  auricular zone (lumbosacral).
+- **Pregnancy flags** (`sources/location-cross-check/result_F_pregnancy.json`): GB21 (explicit in
+  6+ sources), BL67, BL27, BL28 added. Now 9 flagged points (LI4, SP6, BL60, GB21, BL67, BL27,
+  BL28, CV4, CV6) — Ling Gu was also flagged before it was removed. Abdominal/lumbosacral points
+  where sources only urge caution (ST25, CV12, BL23, BL25, GV4) are not flagged; the "not listed"
+  evidence for the other points is weak (mostly one source), not proof of safety.

@@ -36,8 +36,8 @@ export default function App() {
 
         <footer className="mx-auto w-full max-w-xl px-4 pb-8 text-center text-xs text-muted sm:px-6 dark:text-muted-dark">
           Point photos and instructions adapted from U.S. Department of Veterans Affairs
-          public-domain patient education handouts. For wellness education only — not a
-          substitute for medical care.
+          public-domain patient education handouts. Illustrations for not-yet-reviewed points
+          are original drawings. For wellness education only — not a substitute for medical care.
         </footer>
       </div>
       <Toaster position="bottom-center" richColors closeButton />

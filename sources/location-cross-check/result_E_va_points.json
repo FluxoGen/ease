@@ -1,0 +1,592 @@
+[
+ {
+  "id": "si4",
+  "verdict": "DISCREPANCY",
+  "standard_status": "WHO_361",
+  "sources": [
+   {
+    "name": "WHO 2008 Standard Acupuncture Point Locations (archive.org djvu text)",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "Steve Woodley Point Notes SI-4",
+    "url": "https://www.steve-woodley.co.uk/Point+Notes?point=SI-4",
+    "agrees": true
+   },
+   {
+    "name": "TCM Wiki SI4",
+    "url": "https://tcmwiki.com/wiki/si4",
+    "agrees": true
+   }
+  ],
+  "corrected_location": "On the little-finger edge of the hand, in the soft dip at the wrist end of the hand bone leading to the little finger, where the palm skin meets the back-of-hand skin. Slide a finger up from the base of the little finger along that bone until you drop into the dip just before the wrist bone.",
+  "controversy": "None on location; WHO 2008 and textbook sources agree.",
+  "notes": "App says 'palm side', but the point sits on the ulnar border (red/white skin border), not on the palm face. 'Outer edge of the wrist below the base of the little finger' is otherwise right. Name Wangu = Wrist Bone is correct (Steve Woodley, TCM Wiki)."
+ },
+ {
+  "id": "ling_gu",
+  "verdict": "DISCREPANCY",
+  "standard_status": "other_school",
+  "sources": [
+   {
+    "name": "Master Tung Acupuncture - Linggu (T 22.05)",
+    "url": "https://www.mastertungacupuncture.org/acupuncture/tung/points/linggu-t-2205",
+    "agrees": true
+   },
+   {
+    "name": "Master Tung's Acupuncture Points 22.04 & 22.05",
+    "url": "https://www.mastertungspoints.com/22-04-22-05-dabai-linggu",
+    "agrees": true
+   }
+  ],
+  "corrected_location": "On the back of the hand, in the hollow where the thumb-side and index-side hand bones come together, a bit further back toward the wrist than the usual LI4 spot (not in the skin web itself).",
+  "controversy": "Master Tung / Dong-family point (T 22.05), not in WHO 361 nor WHO extra-point nomenclature; both opened sources are Tung-specific, so effectively one school. Tung sources describe it as contraindicated in pregnancy.",
+  "notes": "App text (web between thumb and index, nearer index) describes the LI4 area; Tung location is proximal to LI4 at the junction of the 1st and 2nd metacarpals. App pregnancyCaution=false conflicts with the Tung contraindication; recommend true or removing the point from a consumer app. Name 'Efficacious/Spirit Bone' acceptable (Spirit/Miraculous/Adroit Bone)."
+ },
+ {
+  "id": "ear_low_back_zone",
+  "verdict": "UNVERIFIABLE",
+  "standard_status": "regional_zone",
+  "sources": [
+   {
+    "name": "PMC11410248 auricular lumbar sprain protocol (WFAS standard)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11410248",
+    "agrees": true
+   },
+   {
+    "name": "PMC8716479 History of Auriculotherapy (WHO 1990 ear-point nomenclature group)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8716479/",
+    "agrees": true
+   }
+  ],
+  "corrected_location": "On the ear, on the raised inner ridge (antihelix, not the outer rim), in its upper part just below where the ridge forks toward the top of the ear.",
+  "controversy": "Lumbosacral vertebrae is a named WFAS/WHO-style ear point (AH9, on the antihelix body behind the abdomen point). Exact fraction ('a third down') not confirmed by any opened source; from memory the lumbosacral zone is the upper ~2/5 of the antihelix body, unverified. Ear charts (Nogier vs Chinese) differ.",
+  "notes": "Two opened sources recognise the zone; neither gave the fraction. Risk: lay users may confuse 'upper ridge' with the outer helix rim; wording should say inner ridge."
+ },
+ {
+  "id": "ub_low_back_lines",
+  "verdict": "MINOR",
+  "standard_status": "regional_zone",
+  "sources": [
+   {
+    "name": "WHO 2008 Standard Acupuncture Point Locations (archive.org djvu text)",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   }
+  ],
+  "corrected_location": "Two lines running up each side of the lower back: an inner line about one and a half thumb-widths from the spine and an outer line about three thumb-widths from the spine, in the waist area.",
+  "controversy": "Zone label is not a single point; Bladder line 1 (BL23-25 etc.) and line 2 (BL52 etc.).",
+  "notes": "WHO 2008: BL23 is 1.5 B-cun lateral to the posterior midline at L2; BL52 is 3 B-cun lateral at L2. App's 'one to two thumb-widths' only covers the inner line. Only WHO opened for this entry."
+ },
+ {
+  "id": "hip_area",
+  "verdict": "UNVERIFIABLE",
+  "standard_status": "regional_zone",
+  "sources": [
+   {
+    "name": "WHO 2008 Standard Acupuncture Point Locations (archive.org djvu text)",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   }
+  ],
+  "corrected_location": "On the buttock, in the fleshy area about a third of the way in from the side hip bump toward the tailbone dimple; roughly where a back pocket sits.",
+  "controversy": "Not a defined point. Nearest standard point GB30 (Huantiao) lies at the junction of the outer one-third and inner two-thirds of the line from the greater trochanter to the sacral hiatus (WHO 2008); BL54 is 3 B-cun lateral at the 4th sacral foramen level.",
+  "notes": "'Back pocket' is a plausible lay landmark for the GB30/BL54 region but no source defines 'Hip Area' as such."
+ },
+ {
+  "id": "ub40",
+  "verdict": "CONFIRMED",
+  "standard_status": "WHO_361",
+  "sources": [
+   {
+    "name": "WHO 2008 Standard Acupuncture Point Locations (archive.org djvu text)",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "TCM Wiki BL40",
+    "url": "https://tcmwiki.com/wiki/bl40",
+    "agrees": true
+   },
+   {
+    "name": "Acupuncture Nepal BL40",
+    "url": "https://acupuncturenepal.com/weizhong-nomenclature-location-function-indication-method.html",
+    "agrees": true
+   }
+  ],
+  "corrected_location": null,
+  "controversy": "None.",
+  "notes": "Weizhong = Middle of the Crook; alias OK. WHO prefix is BL, app uses UB (older/VA usage)."
+ },
+ {
+  "id": "ub57",
+  "verdict": "CONFIRMED",
+  "standard_status": "WHO_361",
+  "sources": [
+   {
+    "name": "WHO 2008 Standard Acupuncture Point Locations (archive.org djvu text)",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "TCM Wiki BL57",
+    "url": "https://tcmwiki.com/wiki/bl57",
+    "agrees": true
+   },
+   {
+    "name": "Steve Woodley Point Notes BL-57",
+    "url": "https://www.steve-woodley.co.uk/Point+Notes?point=BL-57",
+    "agrees": true
+   }
+  ],
+  "corrected_location": null,
+  "controversy": "None.",
+  "notes": "'Halfway between knee and heel' matches TCM Wiki; WHO uses the junction of the two calf muscle bellies with the Achilles tendon. Chengshan = Support the Mountain."
+ },
+ {
+  "id": "li4",
+  "verdict": "MINOR",
+  "standard_status": "WHO_361",
+  "sources": [
+   {
+    "name": "WHO 2008 Standard Acupuncture Point Locations (archive.org djvu text)",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "TCM Wiki LI4",
+    "url": "https://tcmwiki.com/wiki/li4",
+    "agrees": true
+   },
+   {
+    "name": "Steve Woodley Point Notes LI-4",
+    "url": "https://www.steve-woodley.co.uk/Point+Notes?point=LI-4",
+    "agrees": true
+   }
+  ],
+  "corrected_location": "On the back of the hand, in the web between thumb and index finger, against the index-finger bone about halfway along it on the thumb side; it is the high spot of the muscle bulge when thumb and index are pressed together.",
+  "controversy": "Several location methods are taught (muscle-bulge method vs. mid-second-metacarpal); they land close but not identical.",
+  "notes": "App text is the common lay method and acceptable; add 'next to the index-finger bone'. Hegu = Joining Valley (alias 'Tiger's Mouth' also used). Pregnancy caution correct (TCM Wiki, Woodley)."
+ },
+ {
+  "id": "si3",
+  "verdict": "CONFIRMED",
+  "standard_status": "WHO_361",
+  "sources": [
+   {
+    "name": "WHO 2008 Standard Acupuncture Point Locations (archive.org djvu text)",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "TCM Wiki SI3",
+    "url": "https://tcmwiki.com/wiki/si3",
+    "agrees": true
+   },
+   {
+    "name": "Steve Woodley Point Notes SI-3",
+    "url": "https://www.steve-woodley.co.uk/Point+Notes?point=SI-3",
+    "agrees": true
+   }
+  ],
+  "corrected_location": null,
+  "controversy": "None.",
+  "notes": "Matches WHO note (end of distal palmar crease in loose fist, red/white border). Houxi = Back Stream."
+ },
+ {
+  "id": "gb20",
+  "verdict": "MINOR",
+  "standard_status": "WHO_361",
+  "sources": [
+   {
+    "name": "WHO 2008 Standard Acupuncture Point Locations (archive.org djvu text)",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "TCM Wiki GB20",
+    "url": "https://tcmwiki.com/wiki/gb20",
+    "agrees": true
+   },
+   {
+    "name": "Steve Woodley Point Notes GB-20",
+    "url": "https://www.steve-woodley.co.uk/Point+Notes?point=GB-20",
+    "agrees": true
+   }
+  ],
+  "corrected_location": "At the base of the skull, in the hollows between the two big vertical neck muscles and the skull ridge, a few thumb-widths out to each side of the midline.",
+  "controversy": "None.",
+  "notes": "App 'either side of the spine' is vague: GB20 is lateral, between the sternocleidomastoid and trapezius origins, at about GV16 level, not close to the midline. Fengchi = Wind Pool."
+ },
+ {
+  "id": "tai_yang",
+  "verdict": "MINOR",
+  "standard_status": "WHO_extra",
+  "sources": [
+   {
+    "name": "Steve Woodley Ex-HN-5",
+    "url": "https://steve-woodley.co.uk/Point+Notes/point/Ex-HN-5",
+    "agrees": true
+   },
+   {
+    "name": "Master Tung site extra points list (Ex-HN5)",
+    "url": "https://www.mastertungacupuncture.org/acupuncture/traditional/channels/extra-acupuncture-points",
+    "agrees": true
+   },
+   {
+    "name": "WHO 2008 Standard Acupuncture Point Locations (archive.org djvu text)",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": false
+   }
+  ],
+  "corrected_location": "At the temple, in the tender hollow about a thumb-width behind the midpoint between the outer end of the eyebrow and the outer corner of the eye.",
+  "controversy": "Recognised extra point EX-HN5 (WHO 1993 nomenclature; not in WHO 2008 361, which I confirmed lists no extra points). Widely recognised across texts (3+ sources found).",
+  "notes": "App measures from the eyebrow end only and says 'beyond'; standard reference is the midpoint of brow-tail to outer canthus, then ~1 cun back. Close but imprecise. Press gently; avoid vigorous pressure near temporal artery."
+ },
+ {
+  "id": "lr3",
+  "verdict": "MINOR",
+  "standard_status": "WHO_361",
+  "sources": [
+   {
+    "name": "WHO 2008 Standard Acupuncture Point Locations (archive.org djvu text)",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "TCM Wiki LR3",
+    "url": "https://tcmwiki.com/wiki/lr3",
+    "agrees": true
+   },
+   {
+    "name": "Acupuncture Nepal LR3",
+    "url": "https://acupuncturenepal.com/taichong-lr3.html",
+    "agrees": true
+   }
+  ],
+  "corrected_location": "On top of the foot, in the groove between the big toe and second toe bones, slide up from the web until the bones meet in a V; the point is in the hollow just before that V.",
+  "controversy": "None.",
+  "notes": "App 'before the ankle' is vague and 'where the bones meet' could be read as the toe joints. Taichong = Supreme/Great Surge."
+ },
+ {
+  "id": "kd1",
+  "verdict": "CONFIRMED",
+  "standard_status": "WHO_361",
+  "sources": [
+   {
+    "name": "WHO 2008 Standard Acupuncture Point Locations (archive.org djvu text)",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "TCM Wiki KI1",
+    "url": "https://tcmwiki.com/wiki/ki1",
+    "agrees": true
+   },
+   {
+    "name": "Acupuncture Nepal KI1",
+    "url": "https://acupuncturenepal.com/yongquan-ki1.html",
+    "agrees": true
+   }
+  ],
+  "corrected_location": null,
+  "controversy": "None.",
+  "notes": "WHO fraction: junction of front third and back two-thirds of the heel-to-toe-web line (about one third from the toes). App wording 'a third of the way down from the base of toes' consistent. Code KI1 in WHO; app uses KD1. Yongquan = Gushing Spring."
+ },
+ {
+  "id": "luo_zhen",
+  "verdict": "MINOR",
+  "standard_status": "WHO_extra",
+  "sources": [
+   {
+    "name": "Me and Qi Wailaogong EX-UE-8",
+    "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-upper-extremities-ex-ue/wailaogong-ex-ue-8",
+    "agrees": true
+   },
+   {
+    "name": "Steve Woodley Ex-UE-8",
+    "url": "https://www.steve-woodley.co.uk/Point+Notes?point=Ex-UE-8",
+    "agrees": true
+   },
+   {
+    "name": "Master Tung site extra points list",
+    "url": "https://www.mastertungacupuncture.org/acupuncture/traditional/channels/extra-acupuncture-points",
+    "agrees": true
+   }
+  ],
+  "corrected_location": "On the back of the hand, in the groove between the long bones leading to the index and middle fingers, about half a thumb-width behind the knuckles.",
+  "controversy": "Luozhen is an alias of Wailaogong (EX-UE8); some lists give Luozhen a separate code EX-UE14, so numbering is inconsistent. Not Tung-specific.",
+  "notes": "App says 'between the knuckles' without 'behind'. 'Stiff Neck Point' is a fair gloss for Luozhen (fallen pillow)."
+ },
+ {
+  "id": "bai_lao",
+  "verdict": "DISCREPANCY",
+  "standard_status": "WHO_extra",
+  "sources": [
+   {
+    "name": "Me and Qi Bailao EX-HN-15",
+    "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-head-and-neck-ex-hn/bailao-ex-hn-15",
+    "agrees": true
+   },
+   {
+    "name": "Master Tung site extra points list",
+    "url": "https://www.mastertungacupuncture.org/acupuncture/traditional/channels/extra-acupuncture-points",
+    "agrees": true
+   }
+  ],
+  "corrected_location": "On the back of the neck, about two thumb-widths above the prominent bump at the base of the neck (C7), then one thumb-width out to each side of the midline.",
+  "controversy": "Code conflict: Jingbailao = EX-HN15 (WHO 1993), but sites list Bailao as EX-HN15 or EX-HN17.",
+  "notes": "App text 'just above where the shoulder muscle meets the neck' places it too low/vague; standard is 2 cun above C7, 1 cun lateral. Recognised by at least 2 opened sources."
+ },
+ {
+  "id": "gb21",
+  "verdict": "CONFIRMED",
+  "standard_status": "WHO_361",
+  "sources": [
+   {
+    "name": "WHO 2008 Standard Acupuncture Point Locations (archive.org djvu text)",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "TCM Wiki GB21",
+    "url": "https://tcmwiki.com/wiki/gb21",
+    "agrees": true
+   },
+   {
+    "name": "Steve Woodley Point Notes GB-21",
+    "url": "https://www.steve-woodley.co.uk/Point+Notes?point=GB-21",
+    "agrees": true
+   }
+  ],
+  "corrected_location": null,
+  "controversy": "Pregnancy: classical sources list GB21 as contraindicated in pregnancy.",
+  "notes": "Location matches WHO (midpoint between C7 and acromion, WHO says 'posterior region of the neck'). FLAG: app pregnancyCaution=false, but TCM Wiki and Woodley both give a pregnancy caution; recommend setting true. Jianjing = Shoulder Well."
+ },
+ {
+  "id": "ub60",
+  "verdict": "CONFIRMED",
+  "standard_status": "WHO_361",
+  "sources": [
+   {
+    "name": "WHO 2008 Standard Acupuncture Point Locations (archive.org djvu text)",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "TCM Wiki BL60",
+    "url": "https://tcmwiki.com/wiki/bl60",
+    "agrees": true
+   },
+   {
+    "name": "Steve Woodley Point Notes BL-60",
+    "url": "https://www.steve-woodley.co.uk/Point+Notes?point=BL-60",
+    "agrees": true
+   }
+  ],
+  "corrected_location": null,
+  "controversy": "None.",
+  "notes": "Pregnancy caution true is consistent with TCM Wiki. Kunlun = Kunlun Mountains."
+ },
+ {
+  "id": "ht7",
+  "verdict": "CONFIRMED",
+  "standard_status": "WHO_361",
+  "sources": [
+   {
+    "name": "WHO 2008 Standard Acupuncture Point Locations (archive.org djvu text)",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "TCM Wiki HT7",
+    "url": "https://tcmwiki.com/wiki/ht7",
+    "agrees": true
+   },
+   {
+    "name": "Master Tung site HT7",
+    "url": "https://www.mastertungacupuncture.org/acupuncture/traditional/points/ht7",
+    "agrees": true
+   }
+  ],
+  "corrected_location": null,
+  "controversy": "None.",
+  "notes": "Optional clarity: in the small hollow on the thumb-side of the firm tendon at the pinky-side of the wrist crease. Shenmen = Spirit Gate."
+ },
+ {
+  "id": "an_mian",
+  "verdict": "DISCREPANCY",
+  "standard_status": "other_school",
+  "sources": [
+   {
+    "name": "Me and Qi Anmian EX-HN",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/anmian-ex-hn",
+    "agrees": true
+   },
+   {
+    "name": "American Dragon Anmian",
+    "url": "https://www.americandragon.com/Points/Anmian.html",
+    "agrees": true
+   },
+   {
+    "name": "Master Tung site extra points list",
+    "url": "https://www.mastertungacupuncture.org/acupuncture/traditional/channels/extra-acupuncture-points",
+    "agrees": true
+   }
+  ],
+  "corrected_location": "Behind the ear: find the hollow just behind the earlobe, and the hollow at the base of the skull on the same side, then press at the midpoint between them.",
+  "controversy": "Modern Chinese empirical extra point, not in the WHO 1993 EX-HN list (my recollection, not confirmed by an opened source); numbering varies (EX-HN16, N-HN-54). Described as a contemporary addition. 3 opened sources recognise it, none WHO.",
+  "notes": "App location (hollow just behind earlobe at hairline) matches neighbouring Yifeng TE17, not An Mian, which is midway between TE17 and GB20."
+ },
+ {
+  "id": "yin_tang",
+  "verdict": "CONFIRMED",
+  "standard_status": "WHO_extra",
+  "sources": [
+   {
+    "name": "Steve Woodley Ex-HN-3",
+    "url": "https://www.steve-woodley.co.uk/Point+Notes?point=Ex-HN-3",
+    "agrees": true
+   },
+   {
+    "name": "Master Tung site extra points list",
+    "url": "https://www.mastertungacupuncture.org/acupuncture/traditional/channels/extra-acupuncture-points",
+    "agrees": true
+   },
+   {
+    "name": "WHO 2008 Standard Acupuncture Point Locations (archive.org djvu text)",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": false
+   }
+  ],
+  "corrected_location": null,
+  "controversy": "EX-HN3 in WHO 1993 nomenclature (not in WHO 2008 361). Well established.",
+  "notes": "Midpoint between the inner ends of the eyebrows; 'Hall of Impression' correct (also 'Seal Hall')."
+ },
+ {
+  "id": "sp6",
+  "verdict": "CONFIRMED",
+  "standard_status": "WHO_361",
+  "sources": [
+   {
+    "name": "WHO 2008 Standard Acupuncture Point Locations (archive.org djvu text)",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "TCM Wiki SP6",
+    "url": "https://tcmwiki.com/wiki/sp6",
+    "agrees": true
+   },
+   {
+    "name": "Steve Woodley Point Notes SP-6",
+    "url": "https://www.steve-woodley.co.uk/Point+Notes?point=SP-6",
+    "agrees": true
+   }
+  ],
+  "corrected_location": null,
+  "controversy": "None.",
+  "notes": "3 B-cun = about four finger-widths. Pregnancy caution correct. Sanyinjiao = Three Yin Intersection."
+ },
+ {
+  "id": "pc6",
+  "verdict": "MINOR",
+  "standard_status": "WHO_361",
+  "sources": [
+   {
+    "name": "WHO 2008 Standard Acupuncture Point Locations (archive.org djvu text)",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "TCM Wiki PC6",
+    "url": "https://tcmwiki.com/wiki/pc6",
+    "agrees": true
+   },
+   {
+    "name": "Steve Woodley Point Notes PC-6",
+    "url": "https://www.steve-woodley.co.uk/Point+Notes?point=PC-6",
+    "agrees": true
+   }
+  ],
+  "corrected_location": "On the inner forearm, about three finger-widths (roughly two thumb-widths) above the wrist crease, in the groove between the two central tendons.",
+  "controversy": "None.",
+  "notes": "2 cun is about 2.7 finger-widths; 'two to three' includes ~1.5 cun (closer to LU7-level). Tighten to three. Neiguan = Inner Pass."
+ },
+ {
+  "id": "st36",
+  "verdict": "CONFIRMED",
+  "standard_status": "WHO_361",
+  "sources": [
+   {
+    "name": "WHO 2008 Standard Acupuncture Point Locations (archive.org djvu text)",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "TCM Wiki ST36",
+    "url": "https://tcmwiki.com/wiki/st36",
+    "agrees": true
+   },
+   {
+    "name": "Steve Woodley Point Notes ST-36",
+    "url": "https://www.steve-woodley.co.uk/Point+Notes?point=ST-36",
+    "agrees": true
+   }
+  ],
+  "corrected_location": null,
+  "controversy": "None.",
+  "notes": "WHO: 3 B-cun below ST35 (about four finger-widths); older sources: one finger from tibial crest. Zusanli = Leg Three Miles."
+ },
+ {
+  "id": "li11",
+  "verdict": "CONFIRMED",
+  "standard_status": "WHO_361",
+  "sources": [
+   {
+    "name": "WHO 2008 Standard Acupuncture Point Locations (archive.org djvu text)",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "TCM Wiki LI11",
+    "url": "https://tcmwiki.com/wiki/li11",
+    "agrees": true
+   },
+   {
+    "name": "Steve Woodley Point Notes LI-11",
+    "url": "https://www.steve-woodley.co.uk/Point+Notes?point=LI-11",
+    "agrees": true
+   }
+  ],
+  "corrected_location": null,
+  "controversy": "None.",
+  "notes": "Lay text fine; WHO: midpoint of line from LU5 to lateral epicondyle with elbow flexed. Add 'bend elbow to ~90 degrees'. Quchi = Pool at the Crook."
+ },
+ {
+  "id": "lu7",
+  "verdict": "CONFIRMED",
+  "standard_status": "WHO_361",
+  "sources": [
+   {
+    "name": "WHO 2008 Standard Acupuncture Point Locations (archive.org djvu text)",
+    "url": "https://archive.org/details/WorldHealthOrganizationWHOStandardAcupuncturePointLocationsInTheWesternPacificRegion",
+    "agrees": true
+   },
+   {
+    "name": "TCM Wiki LU7",
+    "url": "https://tcmwiki.com/wiki/lu7",
+    "agrees": true
+   },
+   {
+    "name": "Steve Woodley Point Notes LU-7",
+    "url": "https://www.steve-woodley.co.uk/Point+Notes?point=LU-7",
+    "agrees": true
+   }
+  ],
+  "corrected_location": null,
+  "controversy": "None.",
+  "notes": "Two finger-widths = 1.5 B-cun. Optional: in the groove just above the wrist bump on thumb side. Lieque = Broken Sequence."
+ }
+]

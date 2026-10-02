@@ -6,12 +6,12 @@ export const routines: Routine[] = [
     title: 'Low Back',
     description: 'Points traditionally used for low back discomfort.',
     pointIds: [
-      'si4', 'ling_gu', 'ear_low_back_zone', 'ub_low_back_lines', 'hip_area', 'ub40', 'ub57',
+      'si4', 'ear_low_back_zone', 'ub_low_back_lines', 'ub40', 'ub57',
       'bl23', 'bl25', 'bl27', 'bl28', 'bl22', 'gb30', 'gv4', 'ex_b2',
     ],
     sourceUrl: 'https://www.va.gov/files/2021-12/4309_Acupressure_For_Back_Pain.pdf',
     extraNote:
-      'The first seven points above are exactly what that VA handout covers. The rest (BL22/23/25/27/28, GB30, GV4, the Huatuojiaji line) are additional classical low-back points not in that handout — each is marked "not yet reviewed" on its own page.',
+      'The first five points above are what that VA handout covers (two of its entries — Ling Gu and Hip Area — were left out because they aren\'t recognized standard points). The rest (BL22/23/25/27/28, GB30, GV4, the Huatuojiaji line) are additional classical low-back points not in that handout — each is marked "not yet reviewed" on its own page.',
   },
   {
     id: 'headache',
@@ -130,12 +130,12 @@ export const routines: Routine[] = [
     title: 'Hand, Wrist & Elbow',
     description: 'Points traditionally used for strain along the arm, wrist, or hand.',
     pointIds: [
-      'li4', 'li11', 'lu7', 'ht7', 'pc6', 'si3', 'si4', 'ling_gu', 'luo_zhen',
+      'li4', 'li11', 'lu7', 'ht7', 'pc6', 'si3', 'si4', 'luo_zhen',
       'li1', 'li3', 'si1', 'si8', 'te1', 'te3', 'te5', 'te10', 'ht3', 'ht5', 'ht9',
       'pc3', 'pc7', 'pc8', 'pc9', 'lu5', 'lu9', 'lu11',
     ],
     sourceNote:
-      'The first nine points are drawn from other routines above (VA-sourced). The rest are additional classical points along the arm — many of them the Five-Shu (transporting) points for their channels — not yet reviewed. See each point\'s page for its own source.',
+      'The first eight points are drawn from other routines above (VA-sourced). The rest are additional classical points along the arm — many of them the Five-Shu (transporting) points for their channels — not yet reviewed. See each point\'s page for its own source.',
   },
   {
     id: 'foot_ankle_strain',
