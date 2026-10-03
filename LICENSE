@@ -1,0 +1,19 @@
+Copyright (c) 2026 FluxoGen. All rights reserved.
+
+This software and its source code, design, illustrations, text and data (together, the
+"Work") are the proprietary property of FluxoGen. The Work is published publicly for
+transparency and review only. No licence or right is granted to copy, modify, distribute,
+sublicense, host, sell or create derivative works from the Work, in whole or in part, without
+prior written permission from FluxoGen.
+
+THE WORK IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND. FLUXOGEN IS NOT LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY ARISING FROM THE WORK OR ITS USE. THE WORK IS FOR WELLNESS
+EDUCATION ONLY AND IS NOT MEDICAL ADVICE, DIAGNOSIS OR TREATMENT.
+
+Third-party material
+- Point photographs in src/assets/points/ and the PDFs in sources/ come from U.S. Department of
+  Veterans Affairs patient education handouts. These are works of the U.S. federal government
+  and are in the public domain. They are not covered by the notice above.
+- Open-source dependencies listed in package.json remain under their own licences.
+
+The FluxoGen name and logo are trademarks of FluxoGen.

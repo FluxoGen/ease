@@ -1,5 +1,12 @@
 # Ease
 
+<a href="https://github.com/FluxoGen">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FluxoGen/.github/main/assets/badge-dark.png" />
+    <img alt="A product of FluxoGen" src="https://raw.githubusercontent.com/FluxoGen/.github/main/assets/badge-light.png" height="40" />
+  </picture>
+</a>
+
 An offline-capable PWA for self-acupressure — pressing points on your own body for common
 symptoms (not needle acupuncture). Symptom-first UX: pick what's going on, get a handful of
 points with photos and plain-language locations.
@@ -263,3 +270,25 @@ licensed acupuncturist — every point stays `verified: false`.
   BL28, CV4, CV6) — Ling Gu was also flagged before it was removed. Abdominal/lumbosacral points
   where sources only urge caution (ST25, CV12, BL23, BL25, GV4) are not flagged; the "not listed"
   evidence for the other points is weak (mostly one source), not proof of safety.
+
+## Ownership & legal
+
+Ease is a product of **[FluxoGen](https://github.com/FluxoGen)** and is © 2026 FluxoGen. All rights
+reserved; see [`LICENSE`](LICENSE). The source is public for transparency and review, not for reuse
+or redistribution.
+
+Third-party material: the point photos come from U.S. Department of Veterans Affairs patient
+education handouts, which are U.S. government works in the public domain (originals in `sources/`).
+Point locations were checked against published standards (see `sources/location-cross-check/`) and
+described in our own words. Ease is for wellness education only and is not medical advice.
+
+---
+
+<a href="https://github.com/FluxoGen">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FluxoGen/.github/main/assets/footer-dark.png" />
+    <img alt="FluxoGen — From spark to arc." src="https://raw.githubusercontent.com/FluxoGen/.github/main/assets/footer-light.png" width="100%" />
+  </picture>
+</a>
+
+<p align="center"><sub>© 2026 FluxoGen. Built with care — from spark to arc.</sub></p>
