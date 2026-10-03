@@ -38,6 +38,18 @@ export default function App() {
           Point photos and instructions adapted from U.S. Department of Veterans Affairs
           public-domain patient education handouts. Illustrations for not-yet-reviewed points
           are original drawings. For wellness education only — not a substitute for medical care.
+          <span className="mt-2 block">
+            A product of{' '}
+            <a
+              href="https://github.com/FluxoGen"
+              target="_blank"
+              rel="noreferrer"
+              className="font-semibold underline underline-offset-2 hover:text-charcoal dark:hover:text-ivory"
+            >
+              FluxoGen
+            </a>{' '}
+            · © 2026 FluxoGen. All rights reserved.
+          </span>
         </footer>
       </div>
       <Toaster position="bottom-center" richColors closeButton />

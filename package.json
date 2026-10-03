@@ -3,7 +3,8 @@
   "private": true,
   "version": "0.0.0",
   "description": "Ease \u2014 a symptom-first self-acupressure PWA (React + Vite + TypeScript). Wellness education only.",
-  "license": "UNLICENSED",
+  "author": "FluxoGen",
+  "license": "SEE LICENSE IN LICENSE",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/FluxoGen/ease.git"
