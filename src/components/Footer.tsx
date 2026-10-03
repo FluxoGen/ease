@@ -4,60 +4,46 @@ import fluxogenMark from '../assets/fluxogen-mark.png';
 const FLUXOGEN_URL = 'https://github.com/FluxoGen';
 const CONTACT_EMAIL = 'fluxogentechnologies@gmail.com';
 
+const linkClass = 'hover:text-clay-dark hover:underline dark:hover:text-clay';
+
 export default function Footer() {
   return (
-    <footer className="mt-4 border-t border-charcoal/10 bg-sand/60 dark:border-ivory/10 dark:bg-charcoal-soft/60">
-      <div className="mx-auto w-full max-w-xl px-4 py-8 sm:px-6">
-        <a
-          href={FLUXOGEN_URL}
-          target="_blank"
-          rel="noreferrer"
-          className="group flex items-center gap-3.5 rounded-xl"
-          aria-label="Ease is a product of FluxoGen"
-        >
-          <img src={fluxogenMark} alt="" width={44} height={44} className="h-11 w-11 shrink-0" />
-          <span className="flex flex-col">
-            <span className="text-xs text-muted dark:text-muted-dark">A product of</span>
-            <span className="text-lg font-bold leading-tight tracking-tight text-charcoal group-hover:text-clay-dark dark:text-ivory dark:group-hover:text-clay">
-              FluxoGen
-            </span>
-            <span className="text-xs italic text-muted dark:text-muted-dark">From spark to arc.</span>
-          </span>
-        </a>
-
-        <nav
-          aria-label="Footer"
-          className="mt-6 flex flex-wrap gap-x-5 gap-y-2 text-sm text-charcoal/80 dark:text-ivory/80"
-        >
-          <Link to="/safety" className="hover:text-clay-dark dark:hover:text-clay">
-            Safety info
-          </Link>
-          <Link to="/points" className="hover:text-clay-dark dark:hover:text-clay">
-            All points
-          </Link>
+    <footer className="border-t border-charcoal/10 bg-sand/60 dark:border-ivory/10 dark:bg-charcoal-soft/60">
+      <div className="mx-auto w-full max-w-xl px-4 py-4 sm:px-6">
+        <div className="flex items-center justify-between gap-3">
           <a
             href={FLUXOGEN_URL}
             target="_blank"
             rel="noreferrer"
-            className="hover:text-clay-dark dark:hover:text-clay"
+            className="group flex items-center gap-2.5"
+            aria-label="Ease is a product of FluxoGen"
           >
-            About FluxoGen
+            <img src={fluxogenMark} alt="" width={28} height={28} className="h-7 w-7 shrink-0" />
+            <span className="text-xs leading-tight text-muted dark:text-muted-dark">
+              A product of
+              <span className="block text-sm font-bold tracking-tight text-charcoal group-hover:text-clay-dark dark:text-ivory dark:group-hover:text-clay">
+                FluxoGen
+              </span>
+            </span>
           </a>
-          <a
-            href={`mailto:${CONTACT_EMAIL}?subject=Ease%20feedback`}
-            className="hover:text-clay-dark dark:hover:text-clay"
+          <nav
+            aria-label="Footer"
+            className="flex flex-wrap justify-end gap-x-3.5 gap-y-1 text-xs text-charcoal/75 dark:text-ivory/75"
           >
-            Contact us
-          </a>
-        </nav>
-
-        <p className="mt-6 text-xs leading-relaxed text-muted dark:text-muted-dark">
-          Point photos and instructions adapted from U.S. Department of Veterans Affairs
-          public-domain patient education handouts. Illustrations for not-yet-reviewed points are
-          original drawings. For wellness education only — not a substitute for medical care.
-        </p>
-        <p className="mt-3 text-xs text-muted dark:text-muted-dark">
-          © 2026 FluxoGen. All rights reserved.
+            <Link to="/safety" className={linkClass}>
+              Safety
+            </Link>
+            <a href={FLUXOGEN_URL} target="_blank" rel="noreferrer" className={linkClass}>
+              About
+            </a>
+            <a href={`mailto:${CONTACT_EMAIL}?subject=Ease%20feedback`} className={linkClass}>
+              Contact
+            </a>
+          </nav>
+        </div>
+        <p className="mt-3 text-[11px] leading-snug text-muted dark:text-muted-dark">
+          Photos adapted from public-domain U.S. VA handouts; other illustrations are original.
+          Wellness education only — not medical advice. © 2026 FluxoGen. All rights reserved.
         </p>
       </div>
     </footer>
