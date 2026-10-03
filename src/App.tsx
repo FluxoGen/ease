@@ -2,6 +2,7 @@ import { ShieldCheck } from 'lucide-react';
 import { Toaster } from 'sonner';
 import { Link, Outlet, useLocation } from 'react-router-dom';
 import EaseLogo from './components/EaseLogo';
+import Footer from './components/Footer';
 import PregnancyGate from './components/PregnancyGate';
 import { PregnancyContext } from './context/PregnancyContext';
 import { usePregnancyStatus } from './hooks/usePregnancyStatus';
@@ -34,23 +35,7 @@ export default function App() {
           <Outlet />
         </main>
 
-        <footer className="mx-auto w-full max-w-xl px-4 pb-8 text-center text-xs text-muted sm:px-6 dark:text-muted-dark">
-          Point photos and instructions adapted from U.S. Department of Veterans Affairs
-          public-domain patient education handouts. Illustrations for not-yet-reviewed points
-          are original drawings. For wellness education only — not a substitute for medical care.
-          <span className="mt-2 block">
-            A product of{' '}
-            <a
-              href="https://github.com/FluxoGen"
-              target="_blank"
-              rel="noreferrer"
-              className="font-semibold underline underline-offset-2 hover:text-charcoal dark:hover:text-ivory"
-            >
-              FluxoGen
-            </a>{' '}
-            · © 2026 FluxoGen. All rights reserved.
-          </span>
-        </footer>
+        <Footer />
       </div>
       <Toaster position="bottom-center" richColors closeButton />
     </PregnancyContext.Provider>
