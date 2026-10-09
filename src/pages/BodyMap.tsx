@@ -44,31 +44,31 @@ export default function BodyMap() {
   };
 
   return (
-    <div className="md:grid md:grid-cols-[minmax(0,24rem)_1fr] md:gap-12">
+    <div className="lg:grid lg:grid-cols-[minmax(0,24rem)_1fr] lg:gap-12">
       <div>
         <h1 className="text-[28px] font-extrabold leading-tight tracking-tight md:text-4xl">Where does it hurt?</h1>
         <p className="mt-1.5 text-[15px] text-ink-2">Tap the area on the body.</p>
 
-        <div role="group" aria-label="Body side" className="mt-4 inline-flex rounded-full border border-line bg-card-2 p-1">
+        <div role="group" aria-label="Body side" className="mt-4 grid w-full max-w-[16rem] grid-cols-2 rounded-full border border-line bg-card-2 p-1">
           {(['front', 'back'] as const).map((v) => (
             <button
               key={v}
               type="button"
               aria-pressed={view === v}
               onClick={() => flip(v)}
-              className={`min-h-11 rounded-full px-5 text-sm font-bold transition ${view === v ? 'bg-card text-ink shadow-card' : 'text-ink-2'}`}
+              className={`min-h-11 rounded-full px-3 text-sm font-bold transition ${view === v ? 'bg-card text-ink shadow-card' : 'text-ink-2'}`}
             >
               {v === 'front' ? 'Front' : 'Back'}
             </button>
           ))}
         </div>
 
-        <div className="mx-auto mt-4 w-full max-w-[17rem] rounded-[28px] border border-line bg-atlas-paper px-6 py-5 md:max-w-none">
-          <BodyFigure view={view} selected={area} onSelect={pick} counts={counts} className="mx-auto block h-[22rem] w-auto max-w-full md:h-[32rem]" />
+        <div className="mx-auto mt-4 w-full max-w-[17rem] rounded-[28px] border border-line bg-atlas-paper px-6 py-5 lg:max-w-none">
+          <BodyFigure view={view} selected={area} onSelect={pick} counts={counts} className="mx-auto block h-[22rem] w-auto max-w-full md:h-[28rem] lg:h-[32rem]" />
         </div>
       </div>
 
-      <div ref={panel} className="mt-6 md:mt-[5.25rem]" aria-live="polite">
+      <div ref={panel} className="mt-6 lg:mt-[5.25rem]" aria-live="polite">
         {info ? (
           <section className="rounded-[var(--radius-card)] border border-line bg-card p-5 shadow-card">
             <div className="flex items-baseline justify-between gap-3">

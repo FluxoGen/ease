@@ -19,7 +19,7 @@ export default function PointCard({ point: p, step, state }: PointCardProps) {
     <Link
       to={`/point/${p.id}`}
       state={state}
-      className="group flex items-center gap-3 rounded-[var(--radius-card)] border border-line bg-card p-3 shadow-card transition active:scale-[0.99] md:hover:border-line-strong"
+      className="group flex min-w-0 items-center gap-3 rounded-[var(--radius-card)] border border-line bg-card p-3 shadow-card transition active:scale-[0.99] md:hover:border-line-strong"
     >
       <span className="relative h-[4.5rem] w-[4.5rem] shrink-0 overflow-hidden rounded-2xl bg-atlas-paper">
         <PointPicture point={p} compact className={`h-full w-full ${blocked ? 'blur-md grayscale' : ''}`} />
@@ -35,7 +35,7 @@ export default function PointCard({ point: p, step, state }: PointCardProps) {
           <span className="mt-0.5 line-clamp-2 text-[13px] leading-snug text-ink-2">{p.find}</span>
         )}
       </span>
-      <ChevronRight size={18} className="shrink-0 text-ink-3 transition group-hover:translate-x-0.5" aria-hidden="true" />
+      <ChevronRight size={18} className="shrink-0 text-ink-3 transition group-hover:translate-x-0.5 max-[359px]:hidden" aria-hidden="true" />
     </Link>
   );
 }

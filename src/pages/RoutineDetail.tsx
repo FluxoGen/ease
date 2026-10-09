@@ -46,7 +46,7 @@ export default function RoutineDetail() {
           <div className="mt-3 flex flex-wrap gap-2">
             <Chip className="tnum">{points.length} points</Chip>
             {routine.sourceUrl && routine.core.length > 0 && (
-              <a href={routine.sourceUrl} target="_blank" rel="noreferrer">
+              <a href={routine.sourceUrl} target="_blank" rel="noreferrer" className="-my-2.5 inline-flex min-h-11 max-w-full items-center">
                 <Chip icon={ExternalLink}>First {routine.core.length} from a VA handout</Chip>
               </a>
             )}
@@ -74,7 +74,7 @@ export default function RoutineDetail() {
 
       <section className="mt-8" aria-labelledby="steps">
         <h2 id="steps" className="mb-3 text-lg font-extrabold tracking-tight">Start here</h2>
-        <div className="grid gap-3 sm:grid-cols-2">
+        <div className="grid gap-3 sm:grid-cols-[repeat(auto-fill,minmax(min(20rem,100%),1fr))]">
           {steps.map((p, i) => <PointCard key={p.id} point={p} step={i + 1} state={state} />)}
         </div>
       </section>

@@ -25,7 +25,7 @@ export default function BottomNav() {
   return (
     <nav
       aria-label="Main"
-      className="tabbar fixed inset-x-0 bottom-0 z-30 border-t border-line bg-card/97 pb-[env(safe-area-inset-bottom)] backdrop-blur-xl md:hidden"
+      className="tabbar fixed inset-x-0 bottom-0 z-30 border-t border-line bg-card/97 pb-[env(safe-area-inset-bottom)] backdrop-blur-xl wide:hidden"
     >
       <ul className="mx-auto grid max-w-md grid-cols-4">
         {NAV.map(({ to, label, icon: Icon, match }) => {

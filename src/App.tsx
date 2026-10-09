@@ -24,12 +24,12 @@ export default function App() {
     <PregnancyContext.Provider value={{ status, setStatus }}>
       <div className="flex min-h-dvh flex-col">
         <header className="sticky top-0 z-20 border-b border-line bg-paper/95 backdrop-blur-xl">
-          <div className="mx-auto flex h-14 w-full max-w-5xl items-center justify-between gap-4 px-4 md:h-16 md:px-8">
-            <Link to="/" aria-label="Ease home" className="shrink-0">
+          <div className="mx-auto flex h-14 w-full max-w-5xl items-center justify-between gap-4 px-4 wide:h-16 md:px-8">
+            <Link to="/" aria-label="Ease home" className="-mx-2 flex min-h-11 shrink-0 items-center px-2">
               <EaseLogo height={24} ink="var(--ink)" dot="var(--accent)" />
             </Link>
 
-            <nav aria-label="Main" className="hidden items-center gap-1 md:flex">
+            <nav aria-label="Main" className="hidden items-center gap-1 wide:flex">
               {NAV.map(({ to, label, icon: Icon, match }) => {
                 const active = match(pathname, state as NavState | null);
                 return (
@@ -37,7 +37,7 @@ export default function App() {
                     key={to}
                     to={to}
                     aria-current={active ? 'page' : undefined}
-                    className={`flex items-center gap-2 rounded-full px-4 py-2 text-sm font-semibold transition ${active ? 'bg-card-2 text-ink' : 'text-ink-2 hover:bg-card-2/60 hover:text-ink'}`}
+                    className={`flex min-h-11 items-center gap-2 rounded-full px-4 text-sm font-semibold transition ${active ? 'bg-card-2 text-ink' : 'text-ink-2 hover:bg-card-2/60 hover:text-ink'}`}
                   >
                     <Icon size={18} aria-hidden="true" />
                     {label}

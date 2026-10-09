@@ -87,6 +87,18 @@
   }
 }
 
+/* "wide" = tablet/desktop layout chrome: width >= 768px, or a short landscape phone (tab bar would eat half the height). */
+@custom-variant wide {
+  @media (min-width: 48rem) {
+    @slot;
+  }
+  @media (max-height: 31.25rem) and (min-width: 35rem) {
+    @slot;
+  }
+}
+/* Short screens: let the header scroll away instead of pinning it. */
+@media (max-height: 31.25rem) { header.sticky { position: static; } }
+
 @theme inline {
   --color-paper: var(--paper);
   --color-card: var(--card);
@@ -176,3 +188,6 @@ body {
 :root[data-nav='hidden'] .tabbar { transform: translateY(calc(100% + env(safe-area-inset-bottom))); }
 .pressbar { bottom: calc(3.5rem + env(safe-area-inset-bottom)); transition: bottom 0.25s ease, padding-bottom 0.25s ease; }
 :root[data-nav='hidden'] .pressbar { bottom: 0; padding-bottom: calc(0.625rem + env(safe-area-inset-bottom)); }
+
+/* A single very long word (large text on a small phone) breaks instead of pushing the page sideways. */
+h1, h2, h3 { overflow-wrap: anywhere; }

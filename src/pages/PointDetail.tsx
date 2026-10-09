@@ -71,13 +71,13 @@ export default function PointDetail() {
 
       <header>
         <div className="flex flex-wrap items-baseline gap-x-3">
-          <h1 className="tnum text-[44px] font-extrabold leading-none tracking-tight md:text-6xl">{point.code}</h1>
+          <h1 className="tnum text-[44px] font-extrabold leading-none tracking-tight lg:text-6xl">{point.code}</h1>
           <p className="text-lg font-semibold text-ink-2">{point.pinyin}</p>
         </div>
         <p className="mt-1.5 text-[15px] text-ink-2">{[point.english, CHANNELS[point.channel] + (point.channel === 'EX' ? '' : ' channel')].filter(Boolean).join(' · ')}</p>
         <div className="mt-3 flex flex-wrap items-center gap-2">
           {point.selfCare !== 'avoid' && (
-            <Link to="/safety#locations" aria-label={`${ev.text}. How locations are checked`}>
+            <Link to="/safety#locations" aria-label={`${ev.text}. How locations are checked`} className="-my-2.5 inline-flex min-h-11 items-center">
               <Chip tone={ev.tone} icon={ev.icon}>{ev.text}</Chip>
             </Link>
           )}
@@ -93,8 +93,8 @@ export default function PointDetail() {
         </div>
       )}
 
-      <div className="mt-5 md:grid md:grid-cols-[minmax(0,26rem)_1fr] md:items-start md:gap-10">
-        <div className="md:sticky md:top-24">
+      <div className="mt-5 lg:grid lg:grid-cols-[minmax(0,26rem)_1fr] lg:items-start lg:gap-10">
+        <div className="lg:sticky lg:top-24">
           {blocked ? (
             <div className="rounded-[var(--radius-card)] border border-caution-line bg-caution-tint p-5 text-caution">
               <div className="flex items-center gap-2 font-extrabold"><ShieldAlert size={20} aria-hidden="true" /> Hidden in pregnancy mode</div>
@@ -107,12 +107,12 @@ export default function PointDetail() {
             </div>
           ) : (
             <figure className="overflow-hidden rounded-[var(--radius-card)] border border-line bg-atlas-paper shadow-card">
-              <figcaption className="flex items-center justify-between gap-2 px-4 pt-3 text-xs font-bold uppercase tracking-wider text-ink-2">
+              <figcaption className="flex flex-wrap items-center justify-between gap-2 px-4 pt-3 text-xs font-bold uppercase tracking-wider text-ink-2">
                 <span>{hasPhoto && !showDrawing ? 'Photo · VA handout' : VIEWS[point.view].label}</span>
                 {hasPhoto && (
-                  <span role="group" aria-label="Picture type" className="flex rounded-full bg-card-2 p-0.5 normal-case tracking-normal">
+                  <span role="group" aria-label="Picture type" className="flex max-w-full rounded-full bg-card-2 p-0.5 normal-case tracking-normal">
                     {([false, true] as const).map((d) => (
-                      <button key={String(d)} type="button" aria-pressed={showDrawing === d} onClick={() => setShowDrawing(d)} className={`min-h-10 rounded-full px-3.5 text-xs font-bold ${showDrawing === d ? 'bg-card text-ink shadow-card' : 'text-ink-2'}`}>
+                      <button key={String(d)} type="button" aria-pressed={showDrawing === d} onClick={() => setShowDrawing(d)} className={`min-h-10 min-w-0 rounded-full px-3 text-xs font-bold ${showDrawing === d ? 'bg-card text-ink shadow-card' : 'text-ink-2'}`}>
                         {d ? 'Drawing' : 'Photo'}
                       </button>
                     ))}
@@ -124,7 +124,7 @@ export default function PointDetail() {
           )}
 
           {canPress && (
-            <div className="mt-3 hidden rounded-[var(--radius-card)] border border-line bg-card p-4 shadow-card md:block">
+            <div className="mt-3 hidden rounded-[var(--radius-card)] border border-line bg-card p-4 shadow-card wide:block">
               <div className="flex items-center gap-3">
                 <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-accent-tint text-accent-strong"><Timer size={22} aria-hidden="true" /></span>
                 <div className="min-w-0">
@@ -225,8 +225,8 @@ export default function PointDetail() {
 
       {canPress && (
         <>
-          <div className="h-16 md:hidden" aria-hidden="true" />
-          <div className="pressbar fixed inset-x-0 z-20 border-t border-line bg-paper/97 px-4 py-2.5 backdrop-blur-xl md:hidden">
+          <div className="h-16 wide:hidden" aria-hidden="true" />
+          <div className="pressbar fixed inset-x-0 z-20 border-t border-line bg-paper/97 px-4 py-2.5 backdrop-blur-xl wide:hidden">
             <div className="mx-auto flex max-w-md items-center gap-3">
               <div className="min-w-0 flex-1">
                 <p className="truncate text-[15px] font-extrabold leading-tight">{tech.label}</p>

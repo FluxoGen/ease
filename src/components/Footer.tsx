@@ -3,14 +3,14 @@ import fluxogenMark from '../assets/fluxogen-mark.png';
 
 const FLUXOGEN_URL = 'https://github.com/FluxoGen';
 const CONTACT_EMAIL = 'fluxogentechnologies@gmail.com';
-const link = 'inline-flex min-h-11 items-center hover:text-accent-strong hover:underline underline-offset-2';
+const link = 'inline-flex min-h-11 min-w-11 items-center justify-center hover:text-accent-strong hover:underline underline-offset-2';
 
 export default function Footer() {
   return (
     <footer className="border-t border-line">
-      <div className="mx-auto w-full max-w-5xl px-4 pb-28 pt-6 md:px-8 md:pb-10">
-        <div className="flex items-center justify-between gap-3">
-          <a href={FLUXOGEN_URL} target="_blank" rel="noreferrer" className="group flex items-center gap-2.5" aria-label="Ease is a product of FluxoGen">
+      <div className="mx-auto w-full max-w-5xl px-4 pb-28 pt-6 md:px-8 wide:pb-10">
+        <div className="flex flex-wrap items-center justify-between gap-x-3 gap-y-1">
+          <a href={FLUXOGEN_URL} target="_blank" rel="noreferrer" className="group flex min-h-11 items-center gap-2.5" aria-label="Ease is a product of FluxoGen">
             <img src={fluxogenMark} alt="" width={28} height={28} className="h-7 w-7 shrink-0" />
             <span className="text-xs leading-tight text-ink-2">
               A product of

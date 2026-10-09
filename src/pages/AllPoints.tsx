@@ -61,7 +61,7 @@ export default function AllPoints() {
         )}
       </div>
 
-      <div className="no-scrollbar -mx-4 mt-3 flex gap-2 overflow-x-auto px-4 pb-1 md:mx-0 md:px-0" role="group" aria-label="Body area">
+      <div className="no-scrollbar -mx-4 mt-3 flex gap-2 overflow-x-auto px-4 pb-1 md:mx-0 md:flex-wrap md:overflow-visible md:px-0" role="group" aria-label="Body area">
         <button type="button" aria-pressed={area === null} onClick={() => setArea(null)} className={chip(area === null)}>All areas</button>
         {AREAS.map((a) => (
           <button key={a.id} type="button" aria-pressed={area === a.id} onClick={() => setArea(a.id)} className={chip(area === a.id)}>

@@ -22,7 +22,7 @@ interface ChipProps {
 /** Small status/label pill. Tone is the meaning (see docs/design-system.md), not decoration. */
 export default function Chip({ tone = 'neutral', icon: Icon, children, className = '' }: ChipProps) {
   return (
-    <span className={`inline-flex items-center gap-1.5 rounded-full px-2.5 py-1 text-xs font-semibold ${TONES[tone]} ${className}`}>
+    <span className={`inline-flex max-w-full items-center gap-1.5 rounded-full px-2.5 py-1 text-xs font-semibold ${TONES[tone]} ${className}`}>
       {Icon && <Icon size={14} aria-hidden="true" />}
       {children}
     </span>

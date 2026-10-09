@@ -61,7 +61,7 @@ export default function Home() {
           type="search"
           value={q}
           onChange={(e) => setQ(e.target.value)}
-          placeholder="Try “headache” or “can't sleep”"
+          placeholder="Search “headache”, “LI4”…"
           aria-label="Search symptoms and points"
           enterKeyHint="search"
           className="h-14 w-full rounded-2xl border border-line-strong bg-card pl-12 pr-12 text-base font-medium text-ink shadow-card outline-none placeholder:text-ink-2 focus:border-accent focus:ring-4 focus:ring-accent/15 [&::-webkit-search-cancel-button]:hidden"
@@ -110,15 +110,15 @@ export default function Home() {
         <>
           <section className="mt-8" aria-labelledby="popular">
             <h2 id="popular" className="mb-3 text-lg font-extrabold tracking-tight">Popular</h2>
-            <div className="grid grid-cols-2 gap-3 md:grid-cols-3">{popular.map((r) => <SymptomTile key={r.id} r={r} big />)}</div>
+            <div className="grid grid-cols-[repeat(auto-fill,minmax(min(9.5rem,100%),1fr))] gap-3 md:grid-cols-3">{popular.map((r) => <SymptomTile key={r.id} r={r} big />)}</div>
           </section>
 
           <Link
             to="/map"
-            className="relative mt-8 flex items-center gap-5 overflow-hidden rounded-[var(--radius-card)] border border-line bg-accent-tint p-5 transition active:scale-[0.99] md:p-7"
+            className="relative mt-8 flex flex-wrap items-center gap-x-5 gap-y-3 overflow-hidden rounded-[var(--radius-card)] border border-line bg-accent-tint p-5 transition active:scale-[0.99] md:p-7"
           >
             <BodyFigure view="front" className="h-36 w-auto shrink-0 md:h-44" />
-            <span className="min-w-0">
+            <span className="min-w-[min(11rem,100%)] flex-1">
               <span className="block text-xl font-extrabold leading-tight tracking-tight text-ink md:text-2xl">Tap where it hurts</span>
               <span className="mt-1 block text-sm text-ink-2 md:text-[15px]">Pick a spot on the body to see the points there.</span>
               <span className="mt-3 inline-flex items-center gap-1.5 text-sm font-bold text-accent-strong">
@@ -133,7 +133,7 @@ export default function Home() {
               {SYMPTOM_GROUPS.map((g) => (
                 <div key={g.id}>
                   <h3 className="mb-2 text-xs font-bold uppercase tracking-wider text-ink-2">{g.title}</h3>
-                  <div className="grid grid-cols-2 gap-2">
+                  <div className="grid grid-cols-[repeat(auto-fill,minmax(min(9.5rem,100%),1fr))] gap-2">
                     {g.routines.filter((id) => routinesById[id]).map((id) => <SymptomTile key={id} r={routinesById[id]} />)}
                   </div>
                 </div>

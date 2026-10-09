@@ -21,9 +21,9 @@ export default function PointRow({ point: p, state }: PointRowProps) {
     <Link
       to={`/point/${p.id}`}
       state={state}
-      className="group flex items-center gap-3 rounded-2xl border border-line bg-card p-2.5 pr-3 shadow-card transition active:scale-[0.99] md:hover:border-line-strong"
+      className="group flex min-w-0 items-center gap-3 rounded-2xl border border-line bg-card p-2.5 pr-3 shadow-card transition active:scale-[0.99] md:hover:border-line-strong"
     >
-      <span className={`tnum grid h-12 w-16 shrink-0 place-items-center rounded-xl text-[12px] font-extrabold ${p.selfCare === 'avoid' ? 'bg-stop-tint text-stop' : blocked ? 'bg-caution-tint text-caution' : 'bg-card-2 text-ink'}`}>
+      <span className={`tnum grid h-12 w-16 max-w-[30%] shrink place-items-center overflow-hidden text-ellipsis rounded-xl text-[12px] font-extrabold ${p.selfCare === 'avoid' ? 'bg-stop-tint text-stop' : blocked ? 'bg-caution-tint text-caution' : 'bg-card-2 text-ink'}`}>
         {badgeText(p)}
       </span>
       <span className="min-w-0 flex-1">
@@ -32,13 +32,13 @@ export default function PointRow({ point: p, state }: PointRowProps) {
           <span className="ml-1.5 font-medium text-ink-2">{p.english}</span>
         </span>
         <span className="line-clamp-2 text-[13px] leading-snug text-ink-2">{sub}</span>
+        {(p.selfCare === 'avoid' || blocked) && (
+          <span className="mt-1.5 flex flex-wrap gap-1.5">
+            {p.selfCare === 'avoid' ? <Chip tone="stop" icon={ShieldAlert}>Reference only</Chip> : <Chip tone="caution">Avoid in pregnancy</Chip>}
+          </span>
+        )}
       </span>
-      {p.selfCare === 'avoid' ? (
-        <Chip tone="stop" icon={ShieldAlert} className="shrink-0">Reference only</Chip>
-      ) : blocked ? (
-        <Chip tone="caution" className="shrink-0">Avoid in pregnancy</Chip>
-      ) : null}
-      <ChevronRight size={18} className="shrink-0 text-ink-3 transition group-hover:translate-x-0.5" aria-hidden="true" />
+      <ChevronRight size={18} className="shrink-0 text-ink-3 transition group-hover:translate-x-0.5 max-[359px]:hidden" aria-hidden="true" />
     </Link>
   );
 }
