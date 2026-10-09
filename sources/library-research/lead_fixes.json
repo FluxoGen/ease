@@ -113,10 +113,52 @@
  },
  "BL44": {
   "find": "On the upper back, four finger-widths out from the spine, beside the inner edge of the shoulder blade, two bumps below the level of the inner ends of the shoulder-blade ridges.",
-  "reason": "removed point code from user text; levels from WHO"
+  "reason": "OCR junk in name",
+  "pinyin": "Shentang"
  },
  "BL45": {
   "find": "On the upper back, four finger-widths out from the spine, beside the lower inner edge of the shoulder blade, one bump above the level of its bottom tip.",
   "reason": "removed point code from user text; levels from WHO"
+ },
+ "BL67": {
+  "evidence": "who",
+  "note": "",
+  "reason": "disputed flag was about pregnancy, not location"
+ },
+ "GV26": {
+  "note": "WHO places this in the middle of the groove under the nose; many references use the spot one third of the way down. Either is fine.",
+  "reason": "plain-language dispute note"
+ },
+ "GB16": {
+  "note": "Older references place this a little further back from the hairline. This follows the WHO 2008 measurement.",
+  "reason": "plain-language dispute note"
+ },
+ "GB17": {
+  "note": "Older references place this a little further back from the hairline. This follows the WHO 2008 measurement.",
+  "reason": "plain-language dispute note"
+ },
+ "GB18": {
+  "note": "Older references place this a little further back from the hairline. This follows the WHO 2008 measurement.",
+  "reason": "plain-language dispute note"
+ },
+ "GB23": {
+  "note": "WHO places this in the 4th rib gap; some references use the 5th.",
+  "reason": "plain-language dispute note"
+ },
+ "GB31": {
+  "note": "WHO describes this only as where your middle fingertip rests with your arms by your sides. Some references give a fixed seven thumb-widths above the knee crease.",
+  "reason": "plain-language dispute note"
+ },
+ "GB32": {
+  "note": "WHO places this seven thumb-widths above the knee crease; some older references give five.",
+  "reason": "plain-language dispute note"
+ },
+ "EX-UE7": {
+  "note": "References differ on whether these sit midway between wrist and knuckles or nearer the wrist. This follows the midway version.",
+  "reason": "plain-language dispute note"
+ },
+ "EX-B9": {
+  "note": "References differ on the height. This follows the version two thumb-widths above the tip of the tailbone.",
+  "reason": "plain-language dispute note"
  }
 }

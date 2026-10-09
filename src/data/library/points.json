@@ -15,6 +15,9 @@
 "tags":[
 "cough_breathing"
 ],
+"tagWeight":{
+"cough_breathing":1
+},
 "indications":[
 "cough"
 ],
@@ -58,6 +61,10 @@
 "cough_breathing",
 "shoulder_tension"
 ],
+"tagWeight":{
+"shoulder_tension":1,
+"cough_breathing":1
+},
 "indications":[
 "cough",
 "shoulder pain"
@@ -98,6 +105,7 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[],
+"tagWeight":{},
 "indications":[
 "nosebleed",
 "forgetfulness"
@@ -142,6 +150,9 @@
 "tags":[
 "cough_breathing"
 ],
+"tagWeight":{
+"cough_breathing":2
+},
 "indications":[
 "cough",
 "chest tightness"
@@ -183,7 +194,12 @@
 "technique":"press",
 "cautions":[],
 "pregnancy":false,
-"tags":[],
+"tags":[
+"hand_wrist_strain"
+],
+"tagWeight":{
+"hand_wrist_strain":1
+},
 "indications":[
 "elbow pain"
 ],
@@ -226,6 +242,9 @@
 "tags":[
 "cold_flu"
 ],
+"tagWeight":{
+"cold_flu":1
+},
 "indications":[
 "sore throat"
 ],
@@ -270,6 +289,10 @@
 "cold_flu",
 "neck_pain"
 ],
+"tagWeight":{
+"cold_flu":2,
+"neck_pain":1
+},
 "indications":[
 "cold symptoms",
 "sore throat",
@@ -319,6 +342,7 @@
 ],
 "pregnancy":false,
 "tags":[],
+"tagWeight":{},
 "indications":[],
 "sources":[
 {
@@ -360,9 +384,13 @@
 ],
 "pregnancy":false,
 "tags":[
-"hand_wrist_strain",
-"cough_breathing"
+"cough_breathing",
+"hand_wrist_strain"
 ],
+"tagWeight":{
+"hand_wrist_strain":1,
+"cough_breathing":2
+},
 "indications":[
 "wrist pain",
 "cough",
@@ -406,6 +434,9 @@
 "tags":[
 "cold_flu"
 ],
+"tagWeight":{
+"cold_flu":1
+},
 "indications":[
 "sore throat"
 ],
@@ -447,6 +478,9 @@
 "tags":[
 "cold_flu"
 ],
+"tagWeight":{
+"cold_flu":1
+},
 "indications":[
 "sore throat"
 ],
@@ -486,8 +520,13 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
+"cold_flu",
 "toothache_jaw"
 ],
+"tagWeight":{
+"cold_flu":1,
+"toothache_jaw":1
+},
 "indications":[
 "toothache",
 "fever"
@@ -528,9 +567,15 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
-"toothache_jaw",
-"cold_flu"
+"cold_flu",
+"eye_strain",
+"toothache_jaw"
 ],
+"tagWeight":{
+"cold_flu":1,
+"toothache_jaw":1,
+"eye_strain":1
+},
 "indications":[
 "toothache",
 "sore throat",
@@ -573,10 +618,15 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
-"toothache_jaw",
 "cold_flu",
-"digestive_health"
+"digestive_health",
+"toothache_jaw"
 ],
+"tagWeight":{
+"cold_flu":1,
+"digestive_health":1,
+"toothache_jaw":1
+},
 "indications":[
 "toothache",
 "sore throat",
@@ -622,9 +672,14 @@
 "pregnancy":true,
 "tags":[
 "headache",
-"toothache_jaw",
-"nose_sinus"
+"nose_sinus",
+"toothache_jaw"
 ],
+"tagWeight":{
+"headache":1,
+"toothache_jaw":1,
+"nose_sinus":1
+},
 "indications":[
 "headache",
 "toothache",
@@ -673,6 +728,9 @@
 "tags":[
 "hand_wrist_strain"
 ],
+"tagWeight":{
+"hand_wrist_strain":1
+},
 "indications":[
 "wrist pain"
 ],
@@ -712,6 +770,7 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[],
+"tagWeight":{},
 "indications":[
 "facial puffiness"
 ],
@@ -753,6 +812,7 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[],
+"tagWeight":{},
 "indications":[],
 "sources":[
 {
@@ -792,6 +852,7 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[],
+"tagWeight":{},
 "indications":[],
 "sources":[
 {
@@ -831,8 +892,13 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
-"digestive_health"
+"digestive_health",
+"hand_wrist_strain"
 ],
+"tagWeight":{
+"digestive_health":1,
+"hand_wrist_strain":1
+},
 "indications":[
 "abdominal pain",
 "arm numbness"
@@ -876,8 +942,14 @@
 "pregnancy":false,
 "tags":[
 "digestive_health",
+"hand_wrist_strain",
 "shoulder_tension"
 ],
+"tagWeight":{
+"digestive_health":1,
+"hand_wrist_strain":1,
+"shoulder_tension":1
+},
 "indications":[
 "arm and elbow pain",
 "abdominal pain",
@@ -920,7 +992,14 @@
 "technique":"press",
 "cautions":[],
 "pregnancy":false,
-"tags":[],
+"tags":[
+"cold_flu",
+"hand_wrist_strain"
+],
+"tagWeight":{
+"cold_flu":1,
+"hand_wrist_strain":1
+},
 "indications":[
 "elbow pain",
 "fever",
@@ -965,7 +1044,12 @@
 "technique":"circle",
 "cautions":[],
 "pregnancy":false,
-"tags":[],
+"tags":[
+"hand_wrist_strain"
+],
+"tagWeight":{
+"hand_wrist_strain":1
+},
 "indications":[
 "elbow pain"
 ],
@@ -1006,8 +1090,13 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
-"cough_breathing"
+"cough_breathing",
+"hand_wrist_strain"
 ],
+"tagWeight":{
+"hand_wrist_strain":1,
+"cough_breathing":1
+},
 "indications":[
 "elbow and arm pain",
 "cough"
@@ -1050,8 +1139,13 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
+"hand_wrist_strain",
 "shoulder_tension"
 ],
+"tagWeight":{
+"hand_wrist_strain":1,
+"shoulder_tension":1
+},
 "indications":[
 "shoulder and arm pain"
 ],
@@ -1095,6 +1189,9 @@
 "tags":[
 "shoulder_tension"
 ],
+"tagWeight":{
+"shoulder_tension":1
+},
 "indications":[
 "shoulder pain"
 ],
@@ -1137,6 +1234,9 @@
 "tags":[
 "shoulder_tension"
 ],
+"tagWeight":{
+"shoulder_tension":1
+},
 "indications":[
 "shoulder pain"
 ],
@@ -1181,6 +1281,9 @@
 "tags":[
 "cold_flu"
 ],
+"tagWeight":{
+"cold_flu":2
+},
 "indications":[
 "sore throat",
 "loss of voice"
@@ -1227,6 +1330,9 @@
 "tags":[
 "cold_flu"
 ],
+"tagWeight":{
+"cold_flu":2
+},
 "indications":[
 "sore throat",
 "loss of voice"
@@ -1270,6 +1376,9 @@
 "tags":[
 "nose_sinus"
 ],
+"tagWeight":{
+"nose_sinus":1
+},
 "indications":[
 "stuffy nose",
 "nosebleed"
@@ -1313,6 +1422,9 @@
 "tags":[
 "nose_sinus"
 ],
+"tagWeight":{
+"nose_sinus":2
+},
 "indications":[
 "stuffy nose",
 "loss of smell"
@@ -1355,6 +1467,7 @@
 ],
 "pregnancy":false,
 "tags":[],
+"tagWeight":{},
 "indications":[],
 "sources":[
 {
@@ -1402,6 +1515,9 @@
 "tags":[
 "eye_strain"
 ],
+"tagWeight":{
+"eye_strain":2
+},
 "indications":[
 "sore, red eyes",
 "eyelid twitching"
@@ -1449,6 +1565,9 @@
 "tags":[
 "toothache_jaw"
 ],
+"tagWeight":{
+"toothache_jaw":1
+},
 "indications":[
 "toothache"
 ],
@@ -1493,6 +1612,7 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[],
+"tagWeight":{},
 "indications":[],
 "sources":[
 {
@@ -1539,6 +1659,9 @@
 "tags":[
 "toothache_jaw"
 ],
+"tagWeight":{
+"toothache_jaw":1
+},
 "indications":[
 "toothache",
 "swollen cheek"
@@ -1586,6 +1709,9 @@
 "tags":[
 "toothache_jaw"
 ],
+"tagWeight":{
+"toothache_jaw":2
+},
 "indications":[
 "toothache",
 "jaw tightness"
@@ -1630,9 +1756,13 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
-"toothache_jaw",
-"ear_hearing"
+"ear_hearing",
+"toothache_jaw"
 ],
+"tagWeight":{
+"toothache_jaw":2,
+"ear_hearing":1
+},
 "indications":[
 "toothache",
 "jaw joint pain",
@@ -1681,6 +1811,9 @@
 "tags":[
 "headache"
 ],
+"tagWeight":{
+"headache":1
+},
 "indications":[
 "headache",
 "dizziness"
@@ -1729,6 +1862,7 @@
 ],
 "pregnancy":false,
 "tags":[],
+"tagWeight":{},
 "indications":[],
 "sources":[
 {
@@ -1776,6 +1910,9 @@
 "tags":[
 "cold_flu"
 ],
+"tagWeight":{
+"cold_flu":1
+},
 "indications":[
 "sore throat"
 ],
@@ -1825,6 +1962,10 @@
 "cold_flu",
 "neck_pain"
 ],
+"tagWeight":{
+"cold_flu":1,
+"neck_pain":1
+},
 "indications":[
 "sore throat",
 "stiff neck"
@@ -1872,6 +2013,7 @@
 ],
 "pregnancy":false,
 "tags":[],
+"tagWeight":{},
 "indications":[
 "pain above the collarbone"
 ],
@@ -1915,7 +2057,12 @@
 "technique":"press",
 "cautions":[],
 "pregnancy":false,
-"tags":[],
+"tags":[
+"cough_breathing"
+],
+"tagWeight":{
+"cough_breathing":1
+},
 "indications":[
 "chest tightness"
 ],
@@ -1959,7 +2106,12 @@
 "technique":"press",
 "cautions":[],
 "pregnancy":false,
-"tags":[],
+"tags":[
+"cough_breathing"
+],
+"tagWeight":{
+"cough_breathing":1
+},
 "indications":[
 "chest tightness"
 ],
@@ -2003,7 +2155,12 @@
 "technique":"press",
 "cautions":[],
 "pregnancy":false,
-"tags":[],
+"tags":[
+"cough_breathing"
+],
+"tagWeight":{
+"cough_breathing":1
+},
 "indications":[
 "chest tightness"
 ],
@@ -2047,7 +2204,12 @@
 "technique":"press",
 "cautions":[],
 "pregnancy":false,
-"tags":[],
+"tags":[
+"cough_breathing"
+],
+"tagWeight":{
+"cough_breathing":1
+},
 "indications":[
 "chest tightness"
 ],
@@ -2092,6 +2254,7 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[],
+"tagWeight":{},
 "indications":[],
 "sources":[
 {
@@ -2134,6 +2297,7 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[],
+"tagWeight":{},
 "indications":[
 "chest discomfort"
 ],
@@ -2178,9 +2342,13 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
-"nausea",
-"digestive_health"
+"digestive_health",
+"nausea"
 ],
+"tagWeight":{
+"digestive_health":2,
+"nausea":1
+},
 "indications":[
 "vomiting",
 "stomachache",
@@ -2230,6 +2398,9 @@
 "tags":[
 "digestive_health"
 ],
+"tagWeight":{
+"digestive_health":2
+},
 "indications":[
 "stomachache",
 "poor appetite"
@@ -2278,6 +2449,9 @@
 "tags":[
 "digestive_health"
 ],
+"tagWeight":{
+"digestive_health":2
+},
 "indications":[
 "stomachache",
 "poor appetite"
@@ -2326,6 +2500,9 @@
 "tags":[
 "digestive_health"
 ],
+"tagWeight":{
+"digestive_health":4
+},
 "indications":[
 "bloating",
 "diarrhea",
@@ -2376,6 +2553,9 @@
 "tags":[
 "digestive_health"
 ],
+"tagWeight":{
+"digestive_health":2
+},
 "indications":[
 "abdominal pain",
 "stomach discomfort"
@@ -2418,9 +2598,13 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
-"nausea",
-"digestive_health"
+"digestive_health",
+"nausea"
 ],
+"tagWeight":{
+"digestive_health":1,
+"nausea":1
+},
 "indications":[
 "stomach pain",
 "vomiting"
@@ -2463,10 +2647,15 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
-"digestive_health",
 "constipation",
+"digestive_health",
 "menstrual_cramps"
 ],
+"tagWeight":{
+"digestive_health":3,
+"constipation":1,
+"menstrual_cramps":1
+},
 "indications":[
 "diarrhea",
 "constipation",
@@ -2517,9 +2706,13 @@
 ],
 "pregnancy":true,
 "tags":[
-"menstrual_cramps",
-"digestive_health"
+"digestive_health",
+"menstrual_cramps"
 ],
+"tagWeight":{
+"digestive_health":1,
+"menstrual_cramps":1
+},
 "indications":[
 "abdominal pain",
 "painful periods",
@@ -2567,6 +2760,9 @@
 "tags":[
 "digestive_health"
 ],
+"tagWeight":{
+"digestive_health":2
+},
 "indications":[
 "bloating",
 "abdominal pain",
@@ -2612,6 +2808,7 @@
 ],
 "pregnancy":true,
 "tags":[],
+"tagWeight":{},
 "indications":[
 "difficulty urinating"
 ],
@@ -2657,6 +2854,9 @@
 "tags":[
 "menstrual_cramps"
 ],
+"tagWeight":{
+"menstrual_cramps":1
+},
 "indications":[
 "irregular periods",
 "painful periods"
@@ -2702,8 +2902,13 @@
 ],
 "pregnancy":true,
 "tags":[
+"digestive_health",
 "menstrual_cramps"
 ],
+"tagWeight":{
+"digestive_health":1,
+"menstrual_cramps":1
+},
 "indications":[
 "abdominal pain",
 "painful periods",
@@ -2748,6 +2953,9 @@
 "tags":[
 "hip_leg_pain"
 ],
+"tagWeight":{
+"hip_leg_pain":2
+},
 "indications":[
 "thigh pain",
 "leg weakness"
@@ -2792,6 +3000,10 @@
 "knee_pain",
 "low_back_pain"
 ],
+"tagWeight":{
+"knee_pain":2,
+"low_back_pain":1
+},
 "indications":[
 "knee pain",
 "low back pain",
@@ -2835,8 +3047,13 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
+"hip_leg_pain",
 "knee_pain"
 ],
+"tagWeight":{
+"knee_pain":1,
+"hip_leg_pain":1
+},
 "indications":[
 "knee pain",
 "leg weakness"
@@ -2879,10 +3096,15 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
+"digestive_health",
 "knee_pain",
-"nausea",
-"digestive_health"
+"nausea"
 ],
+"tagWeight":{
+"digestive_health":1,
+"knee_pain":1,
+"nausea":1
+},
 "indications":[
 "knee pain",
 "stomach pain",
@@ -2928,6 +3150,9 @@
 "tags":[
 "knee_pain"
 ],
+"tagWeight":{
+"knee_pain":1
+},
 "indications":[
 "knee pain"
 ],
@@ -2967,10 +3192,15 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
-"nausea",
+"digestive_health",
 "energy_fatigue",
-"digestive_health"
+"nausea"
 ],
+"tagWeight":{
+"digestive_health":2,
+"energy_fatigue":1,
+"nausea":1
+},
 "indications":[
 "nausea",
 "low energy",
@@ -3021,6 +3251,9 @@
 "tags":[
 "digestive_health"
 ],
+"tagWeight":{
+"digestive_health":3
+},
 "indications":[
 "diarrhea",
 "abdominal pain",
@@ -3064,8 +3297,13 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
+"hip_leg_pain",
 "shoulder_tension"
 ],
+"tagWeight":{
+"hip_leg_pain":1,
+"shoulder_tension":1
+},
 "indications":[
 "shoulder pain",
 "lower leg numbness"
@@ -3110,6 +3348,9 @@
 "tags":[
 "digestive_health"
 ],
+"tagWeight":{
+"digestive_health":2
+},
 "indications":[
 "abdominal pain",
 "diarrhea"
@@ -3154,6 +3395,9 @@
 "tags":[
 "cough_breathing"
 ],
+"tagWeight":{
+"cough_breathing":1
+},
 "indications":[
 "cough",
 "dizziness"
@@ -3195,10 +3439,15 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
+"constipation",
 "foot_ankle_strain",
-"headache",
-"constipation"
+"headache"
 ],
+"tagWeight":{
+"foot_ankle_strain":1,
+"constipation":1,
+"headache":1
+},
 "indications":[
 "ankle pain",
 "headache",
@@ -3243,9 +3492,13 @@
 ],
 "pregnancy":false,
 "tags":[
-"toothache_jaw",
-"foot_ankle_strain"
+"foot_ankle_strain",
+"toothache_jaw"
 ],
+"tagWeight":{
+"foot_ankle_strain":1,
+"toothache_jaw":1
+},
 "indications":[
 "toothache",
 "foot pain"
@@ -3289,6 +3542,10 @@
 "digestive_health",
 "foot_ankle_strain"
 ],
+"tagWeight":{
+"digestive_health":2,
+"foot_ankle_strain":1
+},
 "indications":[
 "bloating",
 "abdominal pain",
@@ -3331,9 +3588,15 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
-"toothache_jaw",
-"digestive_health"
+"cold_flu",
+"digestive_health",
+"toothache_jaw"
 ],
+"tagWeight":{
+"cold_flu":1,
+"digestive_health":2,
+"toothache_jaw":1
+},
 "indications":[
 "toothache",
 "sore throat",
@@ -3376,6 +3639,9 @@
 "tags":[
 "toothache_jaw"
 ],
+"tagWeight":{
+"toothache_jaw":1
+},
 "indications":[
 "toothache"
 ],
@@ -3416,9 +3682,13 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
-"sleep",
-"digestive_health"
+"digestive_health",
+"sleep"
 ],
+"tagWeight":{
+"sleep":1,
+"digestive_health":1
+},
 "indications":[
 "disturbed sleep",
 "bloating"
@@ -3461,6 +3731,9 @@
 "tags":[
 "digestive_health"
 ],
+"tagWeight":{
+"digestive_health":3
+},
 "indications":[
 "bloating",
 "diarrhea",
@@ -3506,6 +3779,10 @@
 "digestive_health",
 "energy_fatigue"
 ],
+"tagWeight":{
+"digestive_health":3,
+"energy_fatigue":1
+},
 "indications":[
 "poor appetite",
 "bloating",
@@ -3555,6 +3832,9 @@
 "tags":[
 "digestive_health"
 ],
+"tagWeight":{
+"digestive_health":1
+},
 "indications":[
 "stomach ache",
 "irregular periods"
@@ -3599,9 +3879,13 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
-"foot_ankle_strain",
-"digestive_health"
+"digestive_health",
+"foot_ankle_strain"
 ],
+"tagWeight":{
+"foot_ankle_strain":1,
+"digestive_health":1
+},
 "indications":[
 "ankle pain",
 "bloating"
@@ -3648,10 +3932,15 @@
 ],
 "pregnancy":true,
 "tags":[
-"sleep",
+"energy_fatigue",
 "menstrual_cramps",
-"energy_fatigue"
+"sleep"
 ],
+"tagWeight":{
+"sleep":1,
+"menstrual_cramps":1,
+"energy_fatigue":1
+},
 "indications":[
 "trouble sleeping",
 "painful periods",
@@ -3706,6 +3995,9 @@
 "tags":[
 "digestive_health"
 ],
+"tagWeight":{
+"digestive_health":2
+},
 "indications":[
 "bloating",
 "diarrhea"
@@ -3748,9 +4040,13 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
-"menstrual_cramps",
-"digestive_health"
+"digestive_health",
+"menstrual_cramps"
 ],
+"tagWeight":{
+"digestive_health":1,
+"menstrual_cramps":1
+},
 "indications":[
 "painful periods",
 "irregular periods",
@@ -3797,6 +4093,10 @@
 "digestive_health",
 "knee_pain"
 ],
+"tagWeight":{
+"digestive_health":1,
+"knee_pain":1
+},
 "indications":[
 "swelling and water retention",
 "bloating",
@@ -3841,6 +4141,9 @@
 "tags":[
 "menstrual_cramps"
 ],
+"tagWeight":{
+"menstrual_cramps":1
+},
 "indications":[
 "painful periods",
 "irregular periods",
@@ -3885,6 +4188,7 @@
 ],
 "pregnancy":false,
 "tags":[],
+"tagWeight":{},
 "indications":[
 "difficult urination",
 "genital itching"
@@ -3928,6 +4232,9 @@
 "tags":[
 "digestive_health"
 ],
+"tagWeight":{
+"digestive_health":1
+},
 "indications":[
 "lower abdominal pain"
 ],
@@ -3970,8 +4277,13 @@
 ],
 "pregnancy":true,
 "tags":[
-"digestive_health"
+"digestive_health",
+"hip_leg_pain"
 ],
+"tagWeight":{
+"digestive_health":1,
+"hip_leg_pain":1
+},
 "indications":[
 "lower abdominal pain",
 "thigh pain"
@@ -4016,9 +4328,13 @@
 ],
 "pregnancy":true,
 "tags":[
-"digestive_health",
-"cough_breathing"
+"cough_breathing",
+"digestive_health"
 ],
+"tagWeight":{
+"digestive_health":3,
+"cough_breathing":1
+},
 "indications":[
 "bloating",
 "diarrhea",
@@ -4066,6 +4382,10 @@
 "constipation",
 "digestive_health"
 ],
+"tagWeight":{
+"digestive_health":2,
+"constipation":1
+},
 "indications":[
 "constipation",
 "abdominal pain",
@@ -4112,6 +4432,10 @@
 "constipation",
 "digestive_health"
 ],
+"tagWeight":{
+"digestive_health":1,
+"constipation":1
+},
 "indications":[
 "constipation",
 "pain around the navel"
@@ -4154,8 +4478,13 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
+"cough_breathing",
 "digestive_health"
 ],
+"tagWeight":{
+"digestive_health":1,
+"cough_breathing":1
+},
 "indications":[
 "chest tightness",
 "bloating"
@@ -4199,6 +4528,9 @@
 "tags":[
 "cough_breathing"
 ],
+"tagWeight":{
+"cough_breathing":2
+},
 "indications":[
 "cough",
 "chest tightness"
@@ -4242,6 +4574,9 @@
 "tags":[
 "cough_breathing"
 ],
+"tagWeight":{
+"cough_breathing":2
+},
 "indications":[
 "cough",
 "chest tightness"
@@ -4285,6 +4620,9 @@
 "tags":[
 "cough_breathing"
 ],
+"tagWeight":{
+"cough_breathing":1
+},
 "indications":[
 "cough",
 "chest discomfort"
@@ -4326,6 +4664,7 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[],
+"tagWeight":{},
 "indications":[
 "rib-side pain",
 "body aches"
@@ -4366,6 +4705,7 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[],
+"tagWeight":{},
 "indications":[
 "palpitations"
 ],
@@ -4406,8 +4746,13 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
+"hand_wrist_strain",
 "shoulder_tension"
 ],
+"tagWeight":{
+"hand_wrist_strain":1,
+"shoulder_tension":1
+},
 "indications":[
 "shoulder and arm stiffness"
 ],
@@ -4449,8 +4794,13 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
+"hand_wrist_strain",
 "stress_anxiety"
 ],
+"tagWeight":{
+"hand_wrist_strain":1,
+"stress_anxiety":1
+},
 "indications":[
 "elbow pain",
 "anxiety"
@@ -4492,8 +4842,13 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
+"cold_flu",
 "stress_anxiety"
 ],
+"tagWeight":{
+"cold_flu":1,
+"stress_anxiety":2
+},
 "indications":[
 "sudden loss of voice",
 "sadness",
@@ -4537,8 +4892,13 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
+"cold_flu",
 "stress_anxiety"
 ],
+"tagWeight":{
+"cold_flu":1,
+"stress_anxiety":2
+},
 "indications":[
 "anxiety",
 "palpitations",
@@ -4581,7 +4941,12 @@
 "technique":"press",
 "cautions":[],
 "pregnancy":false,
-"tags":[],
+"tags":[
+"stress_anxiety"
+],
+"tagWeight":{
+"stress_anxiety":1
+},
 "indications":[
 "night sweats",
 "palpitations",
@@ -4630,6 +4995,10 @@
 "sleep",
 "stress_anxiety"
 ],
+"tagWeight":{
+"sleep":1,
+"stress_anxiety":2
+},
 "indications":[
 "trouble sleeping",
 "anxiety",
@@ -4685,6 +5054,10 @@
 "sleep",
 "stress_anxiety"
 ],
+"tagWeight":{
+"sleep":1,
+"stress_anxiety":2
+},
 "indications":[
 "anxiety",
 "trouble sleeping",
@@ -4727,7 +5100,12 @@
 "technique":"nail",
 "cautions":[],
 "pregnancy":false,
-"tags":[],
+"tags":[
+"stress_anxiety"
+],
+"tagWeight":{
+"stress_anxiety":1
+},
 "indications":[
 "palpitations",
 "chest pain"
@@ -4768,8 +5146,13 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
+"cold_flu",
 "headache"
 ],
+"tagWeight":{
+"cold_flu":1,
+"headache":1
+},
 "indications":[
 "sore throat",
 "headache"
@@ -4813,6 +5196,10 @@
 "eye_strain",
 "neck_pain"
 ],
+"tagWeight":{
+"neck_pain":1,
+"eye_strain":1
+},
 "indications":[
 "eye pain",
 "neck pain"
@@ -4854,10 +5241,15 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
-"neck_pain",
+"ear_hearing",
 "headache",
-"ear_hearing"
+"neck_pain"
 ],
+"tagWeight":{
+"headache":1,
+"neck_pain":1,
+"ear_hearing":1
+},
 "indications":[
 "stiff neck",
 "headache",
@@ -4908,10 +5300,15 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
+"hand_wrist_strain",
 "headache",
-"neck_pain",
-"hand_wrist_strain"
+"neck_pain"
 ],
+"tagWeight":{
+"headache":1,
+"hand_wrist_strain":1,
+"neck_pain":1
+},
 "indications":[
 "headache",
 "neck pain",
@@ -4959,6 +5356,9 @@
 "tags":[
 "hand_wrist_strain"
 ],
+"tagWeight":{
+"hand_wrist_strain":1
+},
 "indications":[
 "wrist pain"
 ],
@@ -5000,10 +5400,15 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
+"eye_strain",
 "neck_pain",
-"shoulder_tension",
-"eye_strain"
+"shoulder_tension"
 ],
+"tagWeight":{
+"neck_pain":1,
+"shoulder_tension":1,
+"eye_strain":1
+},
 "indications":[
 "neck pain",
 "shoulder pain",
@@ -5047,8 +5452,13 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
+"hand_wrist_strain",
 "stress_anxiety"
 ],
+"tagWeight":{
+"hand_wrist_strain":1,
+"stress_anxiety":1
+},
 "indications":[
 "anxiety",
 "weak or sore elbow"
@@ -5091,8 +5501,13 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
+"hand_wrist_strain",
 "neck_pain"
 ],
+"tagWeight":{
+"hand_wrist_strain":1,
+"neck_pain":1
+},
 "indications":[
 "elbow pain",
 "neck pain"
@@ -5134,8 +5549,13 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
+"hand_wrist_strain",
 "shoulder_tension"
 ],
+"tagWeight":{
+"hand_wrist_strain":1,
+"shoulder_tension":1
+},
 "indications":[
 "shoulder pain",
 "arm pain"
@@ -5177,8 +5597,13 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
+"hand_wrist_strain",
 "shoulder_tension"
 ],
+"tagWeight":{
+"hand_wrist_strain":1,
+"shoulder_tension":1
+},
 "indications":[
 "shoulder pain",
 "arm weakness"
@@ -5223,6 +5648,10 @@
 "shoulder_tension",
 "upper_back"
 ],
+"tagWeight":{
+"upper_back":1,
+"shoulder_tension":2
+},
 "indications":[
 "shoulder pain",
 "shoulder blade pain"
@@ -5264,8 +5693,13 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
+"hand_wrist_strain",
 "shoulder_tension"
 ],
+"tagWeight":{
+"hand_wrist_strain":1,
+"shoulder_tension":1
+},
 "indications":[
 "shoulder pain",
 "arm numbness"
@@ -5307,8 +5741,13 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
-"shoulder_tension"
+"shoulder_tension",
+"upper_back"
 ],
+"tagWeight":{
+"upper_back":1,
+"shoulder_tension":2
+},
 "indications":[
 "shoulder pain",
 "stiff shoulder blade"
@@ -5350,10 +5789,15 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
-"upper_back",
 "neck_pain",
-"shoulder_tension"
+"shoulder_tension",
+"upper_back"
 ],
+"tagWeight":{
+"upper_back":2,
+"neck_pain":1,
+"shoulder_tension":1
+},
 "indications":[
 "neck pain",
 "upper back pain",
@@ -5398,8 +5842,15 @@
 "tags":[
 "cough_breathing",
 "neck_pain",
+"shoulder_tension",
 "upper_back"
 ],
+"tagWeight":{
+"upper_back":1,
+"neck_pain":1,
+"shoulder_tension":1,
+"cough_breathing":1
+},
 "indications":[
 "cough",
 "neck pain",
@@ -5444,9 +5895,15 @@
 ],
 "pregnancy":false,
 "tags":[
+"cold_flu",
 "ear_hearing",
 "neck_pain"
 ],
+"tagWeight":{
+"cold_flu":1,
+"neck_pain":1,
+"ear_hearing":2
+},
 "indications":[
 "sore throat",
 "ringing in the ears",
@@ -5493,9 +5950,15 @@
 ],
 "pregnancy":false,
 "tags":[
-"ear_hearing",
-"cough_breathing"
+"cold_flu",
+"cough_breathing",
+"ear_hearing"
 ],
+"tagWeight":{
+"cold_flu":1,
+"cough_breathing":1,
+"ear_hearing":1
+},
 "indications":[
 "sore throat",
 "ringing in the ears",
@@ -5538,8 +6001,13 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
+"eye_strain",
 "toothache_jaw"
 ],
+"tagWeight":{
+"toothache_jaw":1,
+"eye_strain":1
+},
 "indications":[
 "upper toothache",
 "eyelid twitching"
@@ -5584,6 +6052,10 @@
 "ear_hearing",
 "toothache_jaw"
 ],
+"tagWeight":{
+"toothache_jaw":1,
+"ear_hearing":2
+},
 "indications":[
 "ringing in the ears",
 "jaw joint pain",
@@ -5630,6 +6102,9 @@
 "tags":[
 "eye_strain"
 ],
+"tagWeight":{
+"eye_strain":1
+},
 "indications":[
 "tired or sore eyes"
 ],
@@ -5673,9 +6148,15 @@
 ],
 "pregnancy":false,
 "tags":[
+"eye_strain",
 "headache",
-"eye_strain"
+"nausea"
 ],
+"tagWeight":{
+"headache":1,
+"nausea":1,
+"eye_strain":1
+},
 "indications":[
 "headache",
 "tired or sore eyes",
@@ -5720,6 +6201,10 @@
 "headache",
 "nose_sinus"
 ],
+"tagWeight":{
+"headache":1,
+"nose_sinus":1
+},
 "indications":[
 "headache",
 "dizziness",
@@ -5766,6 +6251,10 @@
 "headache",
 "nose_sinus"
 ],
+"tagWeight":{
+"headache":1,
+"nose_sinus":1
+},
 "indications":[
 "headache",
 "dizziness",
@@ -5811,6 +6300,9 @@
 "tags":[
 "headache"
 ],
+"tagWeight":{
+"headache":1
+},
 "indications":[
 "headache",
 "dizziness"
@@ -5856,6 +6348,10 @@
 "headache",
 "nose_sinus"
 ],
+"tagWeight":{
+"headache":1,
+"nose_sinus":1
+},
 "indications":[
 "headache",
 "dizziness",
@@ -5902,6 +6398,10 @@
 "headache",
 "nose_sinus"
 ],
+"tagWeight":{
+"headache":1,
+"nose_sinus":1
+},
 "indications":[
 "headache",
 "dizziness",
@@ -5948,6 +6448,10 @@
 "ear_hearing",
 "eye_strain"
 ],
+"tagWeight":{
+"eye_strain":1,
+"ear_hearing":1
+},
 "indications":[
 "dizziness",
 "ringing in the ears",
@@ -5993,6 +6497,9 @@
 "tags":[
 "neck_pain"
 ],
+"tagWeight":{
+"neck_pain":1
+},
 "indications":[
 "stiff neck"
 ],
@@ -6036,6 +6543,10 @@
 "neck_pain",
 "nose_sinus"
 ],
+"tagWeight":{
+"neck_pain":1,
+"nose_sinus":1
+},
 "indications":[
 "stiff neck",
 "stuffy nose"
@@ -6080,8 +6591,15 @@
 "tags":[
 "cough_breathing",
 "neck_pain",
+"shoulder_tension",
 "upper_back"
 ],
+"tagWeight":{
+"upper_back":1,
+"neck_pain":1,
+"shoulder_tension":1,
+"cough_breathing":1
+},
 "indications":[
 "cough",
 "stiff neck",
@@ -6126,8 +6644,15 @@
 "tags":[
 "cold_flu",
 "cough_breathing",
+"headache",
 "neck_pain"
 ],
+"tagWeight":{
+"cold_flu":1,
+"headache":1,
+"neck_pain":1,
+"cough_breathing":1
+},
 "indications":[
 "common cold",
 "cough",
@@ -6173,6 +6698,9 @@
 "tags":[
 "cough_breathing"
 ],
+"tagWeight":{
+"cough_breathing":1
+},
 "indications":[
 "cough"
 ],
@@ -6212,7 +6740,14 @@
 "technique":"ball",
 "cautions":[],
 "pregnancy":false,
-"tags":[],
+"tags":[
+"cough_breathing",
+"stress_anxiety"
+],
+"tagWeight":{
+"cough_breathing":1,
+"stress_anxiety":1
+},
 "indications":[
 "chest tightness",
 "palpitations"
@@ -6255,8 +6790,14 @@
 "pregnancy":false,
 "tags":[
 "sleep",
+"stress_anxiety",
 "upper_back"
 ],
+"tagWeight":{
+"sleep":1,
+"upper_back":1,
+"stress_anxiety":1
+},
 "indications":[
 "trouble sleeping",
 "palpitations",
@@ -6299,8 +6840,13 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
-"digestive_health"
+"digestive_health",
+"nausea"
 ],
+"tagWeight":{
+"digestive_health":2,
+"nausea":1
+},
 "indications":[
 "abdominal pain",
 "gurgling bowels",
@@ -6345,6 +6891,9 @@
 "tags":[
 "nausea"
 ],
+"tagWeight":{
+"nausea":2
+},
 "indications":[
 "hiccups",
 "vomiting"
@@ -6388,6 +6937,9 @@
 "tags":[
 "eye_strain"
 ],
+"tagWeight":{
+"eye_strain":1
+},
 "indications":[
 "tired or sore eyes"
 ],
@@ -6430,6 +6982,9 @@
 "tags":[
 "digestive_health"
 ],
+"tagWeight":{
+"digestive_health":1
+},
 "indications":[
 "stomach upset"
 ],
@@ -6472,6 +7027,9 @@
 "tags":[
 "digestive_health"
 ],
+"tagWeight":{
+"digestive_health":1
+},
 "indications":[
 "loose stools"
 ],
@@ -6513,8 +7071,14 @@
 "pregnancy":false,
 "tags":[
 "digestive_health",
+"low_back_pain",
 "nausea"
 ],
+"tagWeight":{
+"digestive_health":2,
+"nausea":1,
+"low_back_pain":1
+},
 "indications":[
 "stomach ache",
 "vomiting",
@@ -6559,8 +7123,14 @@
 "pregnancy":false,
 "tags":[
 "digestive_health",
-"low_back_pain"
+"low_back_pain",
+"nausea"
 ],
+"tagWeight":{
+"digestive_health":1,
+"nausea":1,
+"low_back_pain":1
+},
 "indications":[
 "gurgling bowels",
 "vomiting",
@@ -6603,10 +7173,15 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
-"low_back_pain",
 "ear_hearing",
-"energy_fatigue"
+"energy_fatigue",
+"low_back_pain"
 ],
+"tagWeight":{
+"energy_fatigue":1,
+"low_back_pain":1,
+"ear_hearing":1
+},
 "indications":[
 "low back pain",
 "ringing in the ears",
@@ -6657,6 +7232,10 @@
 "low_back_pain",
 "menstrual_cramps"
 ],
+"tagWeight":{
+"menstrual_cramps":1,
+"low_back_pain":1
+},
 "indications":[
 "low back pain",
 "period cramps"
@@ -6702,10 +7281,15 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
-"low_back_pain",
 "constipation",
-"digestive_health"
+"digestive_health",
+"low_back_pain"
 ],
+"tagWeight":{
+"digestive_health":2,
+"constipation":1,
+"low_back_pain":1
+},
 "indications":[
 "low back pain",
 "constipation",
@@ -6756,6 +7340,10 @@
 "digestive_health",
 "low_back_pain"
 ],
+"tagWeight":{
+"digestive_health":1,
+"low_back_pain":1
+},
 "indications":[
 "bloating",
 "low back pain",
@@ -6806,6 +7394,9 @@
 "tags":[
 "digestive_health"
 ],
+"tagWeight":{
+"digestive_health":2
+},
 "indications":[
 "abdominal pain",
 "diarrhea"
@@ -6855,6 +7446,9 @@
 "tags":[
 "low_back_pain"
 ],
+"tagWeight":{
+"low_back_pain":1
+},
 "indications":[
 "low back pain",
 "difficult urination"
@@ -6904,6 +7498,9 @@
 "tags":[
 "low_back_pain"
 ],
+"tagWeight":{
+"low_back_pain":1
+},
 "indications":[
 "low back pain"
 ],
@@ -6952,6 +7549,9 @@
 "tags":[
 "low_back_pain"
 ],
+"tagWeight":{
+"low_back_pain":1
+},
 "indications":[
 "low back pain"
 ],
@@ -6998,10 +7598,15 @@
 ],
 "pregnancy":true,
 "tags":[
-"low_back_pain",
 "constipation",
+"low_back_pain",
 "menstrual_cramps"
 ],
+"tagWeight":{
+"constipation":1,
+"menstrual_cramps":1,
+"low_back_pain":1
+},
 "indications":[
 "low back pain",
 "constipation",
@@ -7050,9 +7655,13 @@
 ],
 "pregnancy":true,
 "tags":[
-"menstrual_cramps",
-"low_back_pain"
+"low_back_pain",
+"menstrual_cramps"
 ],
+"tagWeight":{
+"menstrual_cramps":1,
+"low_back_pain":1
+},
 "indications":[
 "period cramps",
 "low back pain"
@@ -7106,6 +7715,10 @@
 "constipation",
 "low_back_pain"
 ],
+"tagWeight":{
+"constipation":1,
+"low_back_pain":1
+},
 "indications":[
 "constipation",
 "low back pain"
@@ -7154,9 +7767,14 @@
 "pregnancy":true,
 "tags":[
 "constipation",
-"low_back_pain",
-"digestive_health"
+"digestive_health",
+"low_back_pain"
 ],
+"tagWeight":{
+"digestive_health":1,
+"constipation":1,
+"low_back_pain":1
+},
 "indications":[
 "constipation",
 "low back pain",
@@ -7205,6 +7823,7 @@
 ],
 "pregnancy":true,
 "tags":[],
+"tagWeight":{},
 "indications":[
 "diarrhea",
 "tailbone pain"
@@ -7251,9 +7870,13 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
-"low_back_pain",
-"hip_leg_pain"
+"hip_leg_pain",
+"low_back_pain"
 ],
+"tagWeight":{
+"hip_leg_pain":1,
+"low_back_pain":1
+},
 "indications":[
 "low back pain",
 "buttock and thigh pain"
@@ -7300,6 +7923,9 @@
 "tags":[
 "low_back_pain"
 ],
+"tagWeight":{
+"low_back_pain":1
+},
 "indications":[
 "low back pain"
 ],
@@ -7348,6 +7974,10 @@
 "constipation",
 "knee_pain"
 ],
+"tagWeight":{
+"knee_pain":1,
+"constipation":1
+},
 "indications":[
 "constipation",
 "tightness behind the knee"
@@ -7393,9 +8023,13 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
-"low_back_pain",
-"hip_leg_pain"
+"hip_leg_pain",
+"low_back_pain"
 ],
+"tagWeight":{
+"hip_leg_pain":1,
+"low_back_pain":1
+},
 "indications":[
 "low back pain",
 "leg cramps"
@@ -7443,9 +8077,13 @@
 ],
 "pregnancy":false,
 "tags":[
-"low_back_pain",
-"knee_pain"
+"knee_pain",
+"low_back_pain"
 ],
+"tagWeight":{
+"knee_pain":1,
+"low_back_pain":1
+},
 "indications":[
 "low back pain",
 "knee pain"
@@ -7494,10 +8132,17 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
+"hand_wrist_strain",
 "neck_pain",
 "shoulder_tension",
 "upper_back"
 ],
+"tagWeight":{
+"upper_back":1,
+"hand_wrist_strain":1,
+"neck_pain":1,
+"shoulder_tension":1
+},
 "indications":[
 "stiff neck",
 "shoulder and upper back pain",
@@ -7545,8 +8190,14 @@
 "pregnancy":false,
 "tags":[
 "cough_breathing",
+"shoulder_tension",
 "upper_back"
 ],
+"tagWeight":{
+"upper_back":1,
+"shoulder_tension":1,
+"cough_breathing":2
+},
 "indications":[
 "cough",
 "wheezing",
@@ -7596,6 +8247,10 @@
 "cough_breathing",
 "energy_fatigue"
 ],
+"tagWeight":{
+"energy_fatigue":1,
+"cough_breathing":2
+},
 "indications":[
 "wheezing",
 "cough",
@@ -7631,7 +8286,7 @@
 {
 "id":"bl44",
 "code":"BL44",
-"pinyin":"Shentang i",
+"pinyin":"Shentang",
 "english":"Spirit Hall",
 "channel":"BL",
 "area":"back",
@@ -7642,8 +8297,13 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
+"cough_breathing",
 "stress_anxiety"
 ],
+"tagWeight":{
+"cough_breathing":1,
+"stress_anxiety":2
+},
 "indications":[
 "anxiety",
 "restlessness",
@@ -7691,9 +8351,14 @@
 "pregnancy":false,
 "tags":[
 "cough_breathing",
-"upper_back",
-"shoulder_tension"
+"shoulder_tension",
+"upper_back"
 ],
+"tagWeight":{
+"upper_back":1,
+"shoulder_tension":1,
+"cough_breathing":1
+},
 "indications":[
 "cough",
 "shoulder and upper back pain"
@@ -7739,9 +8404,16 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
+"digestive_health",
+"low_back_pain",
 "nausea",
 "upper_back"
 ],
+"tagWeight":{
+"digestive_health":1,
+"nausea":1,
+"low_back_pain":1
+},
 "indications":[
 "belching",
 "vomiting",
@@ -7784,9 +8456,14 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
-"upper_back",
-"nausea"
+"low_back_pain",
+"nausea",
+"upper_back"
 ],
+"tagWeight":{
+"nausea":1,
+"low_back_pain":1
+},
 "indications":[
 "back pain",
 "vomiting",
@@ -7831,6 +8508,9 @@
 "tags":[
 "digestive_health"
 ],
+"tagWeight":{
+"digestive_health":3
+},
 "indications":[
 "diarrhea",
 "abdominal pain",
@@ -7876,6 +8556,10 @@
 "digestive_health",
 "nausea"
 ],
+"tagWeight":{
+"digestive_health":2,
+"nausea":1
+},
 "indications":[
 "bloating",
 "vomiting",
@@ -7918,8 +8602,13 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
-"digestive_health"
+"digestive_health",
+"low_back_pain"
 ],
+"tagWeight":{
+"digestive_health":2,
+"low_back_pain":1
+},
 "indications":[
 "bloating",
 "stomach ache",
@@ -7965,6 +8654,10 @@
 "constipation",
 "digestive_health"
 ],
+"tagWeight":{
+"digestive_health":1,
+"constipation":1
+},
 "indications":[
 "constipation",
 "upper belly pain"
@@ -8008,6 +8701,9 @@
 "tags":[
 "low_back_pain"
 ],
+"tagWeight":{
+"low_back_pain":1
+},
 "indications":[
 "low back pain",
 "urinary difficulty"
@@ -8051,9 +8747,13 @@
 ],
 "pregnancy":true,
 "tags":[
-"low_back_pain",
-"digestive_health"
+"digestive_health",
+"low_back_pain"
 ],
+"tagWeight":{
+"digestive_health":1,
+"low_back_pain":1
+},
 "indications":[
 "low back pain",
 "bloating",
@@ -8098,9 +8798,13 @@
 ],
 "pregnancy":true,
 "tags":[
-"low_back_pain",
-"constipation"
+"constipation",
+"low_back_pain"
 ],
+"tagWeight":{
+"constipation":1,
+"low_back_pain":1
+},
 "indications":[
 "low back pain",
 "constipation",
@@ -8143,9 +8847,13 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
-"low_back_pain",
-"hip_leg_pain"
+"hip_leg_pain",
+"low_back_pain"
 ],
+"tagWeight":{
+"hip_leg_pain":1,
+"low_back_pain":1
+},
 "indications":[
 "low back pain",
 "leg pain"
@@ -8190,6 +8898,9 @@
 "tags":[
 "low_back_pain"
 ],
+"tagWeight":{
+"low_back_pain":1
+},
 "indications":[
 "low back pain"
 ],
@@ -8231,9 +8942,13 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
-"low_back_pain",
-"hip_leg_pain"
+"hip_leg_pain",
+"low_back_pain"
 ],
+"tagWeight":{
+"hip_leg_pain":1,
+"low_back_pain":1
+},
 "indications":[
 "calf cramps",
 "low back pain"
@@ -8280,6 +8995,9 @@
 "tags":[
 "low_back_pain"
 ],
+"tagWeight":{
+"low_back_pain":1
+},
 "indications":[
 "low back pain"
 ],
@@ -8321,10 +9039,15 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
+"foot_ankle_strain",
 "headache",
-"low_back_pain",
-"foot_ankle_strain"
+"low_back_pain"
 ],
+"tagWeight":{
+"headache":1,
+"low_back_pain":1,
+"foot_ankle_strain":1
+},
 "indications":[
 "headache",
 "low back pain",
@@ -8370,10 +9093,15 @@
 ],
 "pregnancy":true,
 "tags":[
+"foot_ankle_strain",
 "headache",
-"low_back_pain",
-"foot_ankle_strain"
+"low_back_pain"
 ],
+"tagWeight":{
+"headache":1,
+"low_back_pain":1,
+"foot_ankle_strain":1
+},
 "indications":[
 "low back pain",
 "headache",
@@ -8419,7 +9147,12 @@
 "technique":"press",
 "cautions":[],
 "pregnancy":false,
-"tags":[],
+"tags":[
+"hip_leg_pain"
+],
+"tagWeight":{
+"hip_leg_pain":1
+},
 "indications":[
 "weak legs"
 ],
@@ -8462,6 +9195,10 @@
 "headache",
 "sleep"
 ],
+"tagWeight":{
+"sleep":1,
+"headache":1
+},
 "indications":[
 "headache",
 "insomnia"
@@ -8505,6 +9242,9 @@
 "tags":[
 "foot_ankle_strain"
 ],
+"tagWeight":{
+"foot_ankle_strain":1
+},
 "indications":[
 "outer ankle pain"
 ],
@@ -8546,6 +9286,9 @@
 "tags":[
 "headache"
 ],
+"tagWeight":{
+"headache":1
+},
 "indications":[
 "headache"
 ],
@@ -8586,9 +9329,14 @@
 "pregnancy":false,
 "tags":[
 "headache",
-"neck_pain",
-"low_back_pain"
+"low_back_pain",
+"neck_pain"
 ],
+"tagWeight":{
+"headache":1,
+"neck_pain":1,
+"low_back_pain":1
+},
 "indications":[
 "headache",
 "stiff neck",
@@ -8634,6 +9382,10 @@
 "headache",
 "neck_pain"
 ],
+"tagWeight":{
+"headache":1,
+"neck_pain":1
+},
 "indications":[
 "headache",
 "stiff neck",
@@ -8678,9 +9430,13 @@
 ],
 "pregnancy":true,
 "tags":[
-"headache",
-"eye_strain"
+"eye_strain",
+"headache"
 ],
+"tagWeight":{
+"headache":1,
+"eye_strain":1
+},
 "indications":[
 "headache",
 "eye pain"
@@ -8702,8 +9458,7 @@
 "p":"/theory/acupuncturepoints/ub67/"
 }
 ],
-"evidence":"disputed",
-"note":"Two sources say avoid in pregnancy: Me and Qi BL-67 ('Contraindicated during pregnancy') and Satyori BL-67 ('avoid in late pregnancy without guidance'), so the flag must be true. Indications were empty; YYH and Me and Qi both list headache and eye pain. Add source entries yyh (https://yinyanghouse.com/theory/acupuncturepoints/ub67/), mq (https://www.meandqi.com/knowledge-base/acupuncture/bladder-meridian/zhiyin-bl-67) and satyori (https://satyori.com/tcm/acupressure/bl-67-zhiyin/). Location is correct.",
+"evidence":"who",
 "place":{
 "at":"toe5_nail_corner_outer"
 }
@@ -8753,6 +9508,7 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[],
+"tagWeight":{},
 "indications":[
 "feeling faint"
 ],
@@ -8799,7 +9555,12 @@
 "technique":"circle",
 "cautions":[],
 "pregnancy":false,
-"tags":[],
+"tags":[
+"cold_flu"
+],
+"tagWeight":{
+"cold_flu":1
+},
 "indications":[
 "sore throat"
 ],
@@ -8842,9 +9603,15 @@
 ],
 "pregnancy":false,
 "tags":[
-"sleep",
-"ear_hearing"
+"cold_flu",
+"ear_hearing",
+"sleep"
 ],
+"tagWeight":{
+"sleep":1,
+"cold_flu":1,
+"ear_hearing":1
+},
 "indications":[
 "insomnia",
 "ringing in the ears",
@@ -8891,10 +9658,15 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
-"low_back_pain",
 "constipation",
-"foot_ankle_strain"
+"foot_ankle_strain",
+"low_back_pain"
 ],
+"tagWeight":{
+"foot_ankle_strain":1,
+"constipation":1,
+"low_back_pain":1
+},
 "indications":[
 "constipation",
 "low back pain",
@@ -8942,6 +9714,9 @@
 "tags":[
 "menstrual_cramps"
 ],
+"tagWeight":{
+"menstrual_cramps":1
+},
 "indications":[
 "irregular periods",
 "period pain"
@@ -8986,8 +9761,13 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
+"cold_flu",
 "sleep"
 ],
+"tagWeight":{
+"sleep":1,
+"cold_flu":1
+},
 "indications":[
 "insomnia",
 "sore throat",
@@ -9032,6 +9812,9 @@
 "tags":[
 "digestive_health"
 ],
+"tagWeight":{
+"digestive_health":1
+},
 "indications":[
 "night sweats",
 "diarrhea",
@@ -9078,6 +9861,10 @@
 "constipation",
 "digestive_health"
 ],
+"tagWeight":{
+"digestive_health":1,
+"constipation":1
+},
 "indications":[
 "irregular periods",
 "constipation",
@@ -9120,8 +9907,13 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
+"hip_leg_pain",
 "nausea"
 ],
+"tagWeight":{
+"hip_leg_pain":1,
+"nausea":1
+},
 "indications":[
 "vomiting",
 "calf pain"
@@ -9166,6 +9958,9 @@
 "tags":[
 "knee_pain"
 ],
+"tagWeight":{
+"knee_pain":1
+},
 "indications":[
 "difficult urination",
 "inner knee pain"
@@ -9209,6 +10004,7 @@
 ],
 "pregnancy":true,
 "tags":[],
+"tagWeight":{},
 "indications":[],
 "sources":[
 {
@@ -9251,6 +10047,7 @@
 ],
 "pregnancy":true,
 "tags":[],
+"tagWeight":{},
 "indications":[
 "abnormal vaginal discharge"
 ],
@@ -9296,6 +10093,9 @@
 "tags":[
 "digestive_health"
 ],
+"tagWeight":{
+"digestive_health":1
+},
 "indications":[
 "irregular periods",
 "abnormal vaginal discharge",
@@ -9341,6 +10141,7 @@
 ],
 "pregnancy":true,
 "tags":[],
+"tagWeight":{},
 "indications":[
 "irregular periods"
 ],
@@ -9384,9 +10185,13 @@
 ],
 "pregnancy":true,
 "tags":[
-"digestive_health",
-"constipation"
+"constipation",
+"digestive_health"
 ],
+"tagWeight":{
+"digestive_health":1,
+"constipation":1
+},
 "indications":[
 "constipation",
 "diarrhea",
@@ -9430,9 +10235,13 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
-"digestive_health",
-"constipation"
+"constipation",
+"digestive_health"
 ],
+"tagWeight":{
+"digestive_health":1,
+"constipation":1
+},
 "indications":[
 "constipation",
 "abdominal pain"
@@ -9477,6 +10286,9 @@
 "tags":[
 "digestive_health"
 ],
+"tagWeight":{
+"digestive_health":1
+},
 "indications":[
 "abdominal pain"
 ],
@@ -9518,10 +10330,14 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
-"digestive_health",
 "constipation",
+"digestive_health",
 "nausea"
 ],
+"tagWeight":{
+"constipation":1,
+"nausea":1
+},
 "indications":[
 "constipation",
 "vomiting"
@@ -9564,9 +10380,13 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
-"digestive_health",
-"constipation"
+"constipation",
+"digestive_health"
 ],
+"tagWeight":{
+"digestive_health":1,
+"constipation":1
+},
 "indications":[
 "constipation",
 "stomach and belly pain"
@@ -9609,9 +10429,15 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
+"digestive_health",
 "nausea",
-"digestive_health"
+"stress_anxiety"
 ],
+"tagWeight":{
+"digestive_health":1,
+"nausea":1,
+"stress_anxiety":1
+},
 "indications":[
 "vomiting",
 "belly bloating and pain",
@@ -9655,9 +10481,13 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
-"nausea",
-"digestive_health"
+"digestive_health",
+"nausea"
 ],
+"tagWeight":{
+"digestive_health":1,
+"nausea":1
+},
 "indications":[
 "nausea and vomiting",
 "abdominal pain"
@@ -9702,6 +10532,9 @@
 "tags":[
 "cough_breathing"
 ],
+"tagWeight":{
+"cough_breathing":2
+},
 "indications":[
 "cough and wheezing",
 "chest tightness"
@@ -9744,8 +10577,13 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
-"cough_breathing"
+"cough_breathing",
+"nausea"
 ],
+"tagWeight":{
+"nausea":1,
+"cough_breathing":2
+},
 "indications":[
 "cough and wheezing",
 "chest tightness",
@@ -9789,8 +10627,13 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
-"cough_breathing"
+"cough_breathing",
+"nausea"
 ],
+"tagWeight":{
+"nausea":1,
+"cough_breathing":2
+},
 "indications":[
 "cough and wheezing",
 "chest tightness",
@@ -9834,8 +10677,13 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
-"cough_breathing"
+"cough_breathing",
+"nausea"
 ],
+"tagWeight":{
+"nausea":1,
+"cough_breathing":2
+},
 "indications":[
 "cough and wheezing",
 "chest tightness",
@@ -9881,6 +10729,9 @@
 "tags":[
 "cough_breathing"
 ],
+"tagWeight":{
+"cough_breathing":2
+},
 "indications":[
 "cough and wheezing",
 "chest tightness"
@@ -9925,6 +10776,9 @@
 "tags":[
 "cough_breathing"
 ],
+"tagWeight":{
+"cough_breathing":2
+},
 "indications":[
 "cough and wheezing",
 "chest tightness"
@@ -9970,6 +10824,10 @@
 "cough_breathing",
 "headache"
 ],
+"tagWeight":{
+"headache":1,
+"cough_breathing":2
+},
 "indications":[
 "cough",
 "chest fullness",
@@ -10012,8 +10870,13 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
-"cough_breathing"
+"cough_breathing",
+"stress_anxiety"
 ],
+"tagWeight":{
+"cough_breathing":1,
+"stress_anxiety":1
+},
 "indications":[
 "cough",
 "chest discomfort",
@@ -10059,8 +10922,15 @@
 ],
 "pregnancy":false,
 "tags":[
-"nausea"
+"hand_wrist_strain",
+"nausea",
+"stress_anxiety"
 ],
+"tagWeight":{
+"hand_wrist_strain":1,
+"nausea":1,
+"stress_anxiety":1
+},
 "indications":[
 "vomiting",
 "elbow pain",
@@ -10103,7 +10973,12 @@
 "technique":"press",
 "cautions":[],
 "pregnancy":false,
-"tags":[],
+"tags":[
+"stress_anxiety"
+],
+"tagWeight":{
+"stress_anxiety":1
+},
 "indications":[
 "palpitations"
 ],
@@ -10145,6 +11020,7 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[],
+"tagWeight":{},
 "indications":[
 "chest discomfort"
 ],
@@ -10186,10 +11062,17 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
+"cough_breathing",
 "nausea",
 "sleep",
 "stress_anxiety"
 ],
+"tagWeight":{
+"sleep":1,
+"nausea":2,
+"cough_breathing":1,
+"stress_anxiety":1
+},
 "indications":[
 "nausea",
 "motion sickness",
@@ -10241,6 +11124,9 @@
 "tags":[
 "hand_wrist_strain"
 ],
+"tagWeight":{
+"hand_wrist_strain":1
+},
 "indications":[
 "wrist pain"
 ],
@@ -10284,6 +11170,9 @@
 "tags":[
 "stress_anxiety"
 ],
+"tagWeight":{
+"stress_anxiety":1
+},
 "indications":[
 "mouth sores",
 "restlessness"
@@ -10324,6 +11213,7 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[],
+"tagWeight":{},
 "indications":[
 "feeling faint",
 "feeling overheated"
@@ -10364,8 +11254,13 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
+"cold_flu",
 "headache"
 ],
+"tagWeight":{
+"cold_flu":1,
+"headache":1
+},
 "indications":[
 "headache",
 "sore throat"
@@ -10406,9 +11301,17 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
-"headache",
-"ear_hearing"
+"cold_flu",
+"ear_hearing",
+"eye_strain",
+"headache"
 ],
+"tagWeight":{
+"cold_flu":1,
+"headache":1,
+"eye_strain":1,
+"ear_hearing":2
+},
 "indications":[
 "headache",
 "ringing in the ears",
@@ -10455,6 +11358,9 @@
 "tags":[
 "ear_hearing"
 ],
+"tagWeight":{
+"ear_hearing":2
+},
 "indications":[
 "hearing loss",
 "ringing in the ears"
@@ -10498,6 +11404,9 @@
 "tags":[
 "hand_wrist_strain"
 ],
+"tagWeight":{
+"hand_wrist_strain":1
+},
 "indications":[
 "wrist pain"
 ],
@@ -10539,10 +11448,15 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
-"headache",
 "cold_flu",
-"ear_hearing"
+"ear_hearing",
+"headache"
 ],
+"tagWeight":{
+"cold_flu":1,
+"headache":1,
+"ear_hearing":2
+},
 "indications":[
 "headache",
 "colds",
@@ -10587,8 +11501,13 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
-"constipation"
+"constipation",
+"hand_wrist_strain"
 ],
+"tagWeight":{
+"constipation":1,
+"hand_wrist_strain":1
+},
 "indications":[
 "constipation",
 "pain along the ribs",
@@ -10632,8 +11551,13 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
-"ear_hearing"
+"ear_hearing",
+"hand_wrist_strain"
 ],
+"tagWeight":{
+"hand_wrist_strain":1,
+"ear_hearing":1
+},
 "indications":[
 "hearing loss",
 "arm pain"
@@ -10677,6 +11601,9 @@
 "tags":[
 "hand_wrist_strain"
 ],
+"tagWeight":{
+"hand_wrist_strain":1
+},
 "indications":[
 "arm pain"
 ],
@@ -10719,9 +11646,14 @@
 "pregnancy":false,
 "tags":[
 "ear_hearing",
-"toothache_jaw",
-"hand_wrist_strain"
+"hand_wrist_strain",
+"toothache_jaw"
 ],
+"tagWeight":{
+"hand_wrist_strain":1,
+"toothache_jaw":1,
+"ear_hearing":1
+},
 "indications":[
 "hearing loss",
 "toothache",
@@ -10765,9 +11697,13 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
-"shoulder_tension",
-"headache"
+"headache",
+"shoulder_tension"
 ],
+"tagWeight":{
+"headache":1,
+"shoulder_tension":1
+},
 "indications":[
 "shoulder pain",
 "headache"
@@ -10810,10 +11746,15 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
-"headache",
 "eye_strain",
+"headache",
 "shoulder_tension"
 ],
+"tagWeight":{
+"headache":1,
+"shoulder_tension":1,
+"eye_strain":1
+},
 "indications":[
 "headache",
 "eye pain",
@@ -10861,6 +11802,11 @@
 "neck_pain",
 "toothache_jaw"
 ],
+"tagWeight":{
+"neck_pain":1,
+"headache":1,
+"toothache_jaw":1
+},
 "indications":[
 "headache",
 "toothache",
@@ -10904,8 +11850,13 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
+"hand_wrist_strain",
 "shoulder_tension"
 ],
+"tagWeight":{
+"hand_wrist_strain":1,
+"shoulder_tension":1
+},
 "indications":[
 "shoulder and arm pain"
 ],
@@ -10949,6 +11900,9 @@
 "tags":[
 "shoulder_tension"
 ],
+"tagWeight":{
+"shoulder_tension":1
+},
 "indications":[
 "shoulder pain"
 ],
@@ -10989,9 +11943,13 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
-"shoulder_tension",
-"neck_pain"
+"neck_pain",
+"shoulder_tension"
 ],
+"tagWeight":{
+"neck_pain":1,
+"shoulder_tension":1
+},
 "indications":[
 "shoulder pain",
 "stiff neck"
@@ -11033,10 +11991,17 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
+"ear_hearing",
+"eye_strain",
 "headache",
-"neck_pain",
-"ear_hearing"
+"neck_pain"
 ],
+"tagWeight":{
+"headache":1,
+"neck_pain":1,
+"eye_strain":1,
+"ear_hearing":1
+},
 "indications":[
 "headache",
 "stiff neck",
@@ -11082,6 +12047,9 @@
 "tags":[
 "ear_hearing"
 ],
+"tagWeight":{
+"ear_hearing":2
+},
 "indications":[
 "ringing in the ears",
 "hearing loss"
@@ -11126,9 +12094,13 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
-"headache",
-"ear_hearing"
+"ear_hearing",
+"headache"
 ],
+"tagWeight":{
+"headache":1,
+"ear_hearing":2
+},
 "indications":[
 "headache",
 "ringing in the ears",
@@ -11170,9 +12142,13 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
-"headache",
-"ear_hearing"
+"ear_hearing",
+"headache"
 ],
+"tagWeight":{
+"headache":1,
+"ear_hearing":2
+},
 "indications":[
 "headache",
 "ringing in the ears",
@@ -11217,6 +12193,9 @@
 "tags":[
 "toothache_jaw"
 ],
+"tagWeight":{
+"toothache_jaw":1
+},
 "indications":[
 "toothache"
 ],
@@ -11260,6 +12239,10 @@
 "ear_hearing",
 "toothache_jaw"
 ],
+"tagWeight":{
+"toothache_jaw":2,
+"ear_hearing":2
+},
 "indications":[
 "ringing in the ears",
 "hearing loss",
@@ -11305,10 +12288,15 @@
 ],
 "pregnancy":false,
 "tags":[
-"headache",
 "ear_hearing",
+"headache",
 "toothache_jaw"
 ],
+"tagWeight":{
+"headache":1,
+"toothache_jaw":1,
+"ear_hearing":1
+},
 "indications":[
 "headache",
 "ringing in the ears",
@@ -11353,9 +12341,13 @@
 ],
 "pregnancy":false,
 "tags":[
-"headache",
-"eye_strain"
+"eye_strain",
+"headache"
 ],
+"tagWeight":{
+"headache":1,
+"eye_strain":1
+},
 "indications":[
 "headache",
 "eye pain"
@@ -11401,6 +12393,10 @@
 "eye_strain",
 "headache"
 ],
+"tagWeight":{
+"headache":1,
+"eye_strain":1
+},
 "indications":[
 "eye pain",
 "headache"
@@ -11445,6 +12441,10 @@
 "ear_hearing",
 "toothache_jaw"
 ],
+"tagWeight":{
+"toothache_jaw":1,
+"ear_hearing":1
+},
 "indications":[
 "ringing in the ears",
 "jaw pain"
@@ -11489,6 +12489,10 @@
 "ear_hearing",
 "toothache_jaw"
 ],
+"tagWeight":{
+"toothache_jaw":1,
+"ear_hearing":1
+},
 "indications":[
 "ringing in the ears",
 "toothache"
@@ -11532,6 +12536,9 @@
 "tags":[
 "headache"
 ],
+"tagWeight":{
+"headache":1
+},
 "indications":[
 "headache"
 ],
@@ -11572,10 +12579,15 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
+"eye_strain",
 "headache",
-"toothache_jaw",
-"eye_strain"
+"toothache_jaw"
 ],
+"tagWeight":{
+"headache":1,
+"toothache_jaw":1,
+"eye_strain":1
+},
 "indications":[
 "headache",
 "toothache",
@@ -11621,6 +12633,10 @@
 "headache",
 "toothache_jaw"
 ],
+"tagWeight":{
+"headache":1,
+"toothache_jaw":1
+},
 "indications":[
 "headache",
 "toothache"
@@ -11663,9 +12679,14 @@
 "pregnancy":false,
 "tags":[
 "headache",
-"neck_pain",
-"nausea"
+"nausea",
+"neck_pain"
 ],
+"tagWeight":{
+"headache":1,
+"neck_pain":1,
+"nausea":1
+},
 "indications":[
 "headache",
 "stiff neck",
@@ -11711,6 +12732,10 @@
 "headache",
 "nausea"
 ],
+"tagWeight":{
+"headache":1,
+"nausea":1
+},
 "indications":[
 "headache",
 "dizziness",
@@ -11753,10 +12778,15 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
-"headache",
 "ear_hearing",
+"headache",
 "toothache_jaw"
 ],
+"tagWeight":{
+"headache":1,
+"toothache_jaw":1,
+"ear_hearing":1
+},
 "indications":[
 "headache",
 "ringing in the ears",
@@ -11802,6 +12832,10 @@
 "ear_hearing",
 "toothache_jaw"
 ],
+"tagWeight":{
+"toothache_jaw":1,
+"ear_hearing":1
+},
 "indications":[
 "ringing in the ears",
 "toothache"
@@ -11843,10 +12877,15 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
+"ear_hearing",
 "headache",
-"neck_pain",
-"ear_hearing"
+"neck_pain"
 ],
+"tagWeight":{
+"headache":1,
+"neck_pain":1,
+"ear_hearing":1
+},
 "indications":[
 "headache",
 "stiff neck",
@@ -11893,6 +12932,11 @@
 "sleep",
 "toothache_jaw"
 ],
+"tagWeight":{
+"sleep":1,
+"headache":1,
+"toothache_jaw":1
+},
 "indications":[
 "headache",
 "trouble sleeping",
@@ -11937,6 +12981,9 @@
 "tags":[
 "stress_anxiety"
 ],
+"tagWeight":{
+"stress_anxiety":1
+},
 "indications":[
 "dizziness",
 "anxious feelings"
@@ -11979,9 +13026,13 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
-"headache",
-"eye_strain"
+"eye_strain",
+"headache"
 ],
+"tagWeight":{
+"headache":1,
+"eye_strain":2
+},
 "indications":[
 "headache",
 "eye pain",
@@ -12026,6 +13077,9 @@
 "tags":[
 "headache"
 ],
+"tagWeight":{
+"headache":1
+},
 "indications":[
 "headache",
 "dizziness"
@@ -12070,6 +13124,9 @@
 "tags":[
 "eye_strain"
 ],
+"tagWeight":{
+"eye_strain":1
+},
 "indications":[
 "eye pain"
 ],
@@ -12087,7 +13144,7 @@
 }
 ],
 "evidence":"disputed",
-"note":"Record follows WHO (1.5 cun within hairline, 1 cun behind GB15) and find/place are consistent with it. YYH uses the older convention: 1.5 cun behind GB15 = 2 cun above the hairline. Keep WHO; flag the older 2-cun location.",
+"note":"Older references place this a little further back from the hairline. This follows the WHO 2008 measurement.",
 "place":{
 "from":"anterior_hairline_mid",
 "up":1.5,
@@ -12110,6 +13167,9 @@
 "tags":[
 "headache"
 ],
+"tagWeight":{
+"headache":1
+},
 "indications":[
 "headache",
 "dizziness"
@@ -12128,7 +13188,7 @@
 }
 ],
 "evidence":"disputed",
-"note":"WHO: 2.5 cun within hairline; YYH uses the older 3.5 cun (1.5 behind GB16 at 2). Also the author's 'about three finger-widths' is about 2.25 cun, short of WHO's 2.5; reworded.",
+"note":"Older references place this a little further back from the hairline. This follows the WHO 2008 measurement.",
 "place":{
 "from":"anterior_hairline_mid",
 "up":2.5,
@@ -12152,6 +13212,10 @@
 "headache",
 "nose_sinus"
 ],
+"tagWeight":{
+"headache":1,
+"nose_sinus":1
+},
 "indications":[
 "headache",
 "dizziness",
@@ -12171,7 +13235,7 @@
 }
 ],
 "evidence":"disputed",
-"note":"Record follows WHO (4 cun within hairline, level with BL7). YYH gives the older 5 cun above the hairline. Keep WHO; flag the older location. Blocked-nose indication plausible.",
+"note":"Older references place this a little further back from the hairline. This follows the WHO 2008 measurement.",
 "place":{
 "from":"anterior_hairline_mid",
 "up":4,
@@ -12192,10 +13256,15 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
-"headache",
+"ear_hearing",
 "eye_strain",
-"ear_hearing"
+"headache"
 ],
+"tagWeight":{
+"headache":1,
+"ear_hearing":1,
+"eye_strain":1
+},
 "indications":[
 "headache",
 "dizziness",
@@ -12239,10 +13308,17 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
+"cold_flu",
+"eye_strain",
 "headache",
-"neck_pain",
-"cold_flu"
+"neck_pain"
 ],
+"tagWeight":{
+"cold_flu":1,
+"headache":1,
+"neck_pain":1,
+"eye_strain":1
+},
 "indications":[
 "headache",
 "stiff neck",
@@ -12299,6 +13375,10 @@
 "neck_pain",
 "shoulder_tension"
 ],
+"tagWeight":{
+"neck_pain":1,
+"shoulder_tension":1
+},
 "indications":[
 "stiff neck",
 "shoulder pain"
@@ -12349,6 +13429,9 @@
 "tags":[
 "cough_breathing"
 ],
+"tagWeight":{
+"cough_breathing":2
+},
 "indications":[
 "cough",
 "chest tightness",
@@ -12387,6 +13470,7 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[],
+"tagWeight":{},
 "indications":[],
 "sources":[
 {
@@ -12406,7 +13490,7 @@
 }
 ],
 "evidence":"disputed",
-"note":"Matches WHO (4th intercostal space, 1 cun in front of midaxillary line, about nipple level); Me and Qi also gives 4th space, 1 cun anterior to GB22, level with the nipple. The 5th-space variant noted by the author is the older convention.",
+"note":"WHO places this in the 4th rib gap; some references use the 5th.",
 "xy":[
 124,
 190
@@ -12426,9 +13510,13 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
-"nausea",
-"digestive_health"
+"digestive_health",
+"nausea"
 ],
+"tagWeight":{
+"digestive_health":1,
+"nausea":1
+},
 "indications":[
 "nausea",
 "sour regurgitation",
@@ -12471,9 +13559,13 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
-"low_back_pain",
-"digestive_health"
+"digestive_health",
+"low_back_pain"
 ],
+"tagWeight":{
+"digestive_health":1,
+"low_back_pain":1
+},
 "indications":[
 "low back pain",
 "pain along the ribs",
@@ -12518,6 +13610,9 @@
 "tags":[
 "low_back_pain"
 ],
+"tagWeight":{
+"low_back_pain":1
+},
 "indications":[
 "low back pain"
 ],
@@ -12559,7 +13654,12 @@
 "pregnancy"
 ],
 "pregnancy":true,
-"tags":[],
+"tags":[
+"digestive_health"
+],
+"tagWeight":{
+"digestive_health":1
+},
 "indications":[
 "lower belly pain"
 ],
@@ -12602,6 +13702,7 @@
 ],
 "pregnancy":true,
 "tags":[],
+"tagWeight":{},
 "indications":[],
 "sources":[
 {
@@ -12641,8 +13742,13 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
-"hip_leg_pain"
+"hip_leg_pain",
+"low_back_pain"
 ],
+"tagWeight":{
+"hip_leg_pain":2,
+"low_back_pain":1
+},
 "indications":[
 "hip pain",
 "sciatic-type leg pain"
@@ -12690,6 +13796,10 @@
 "hip_leg_pain",
 "low_back_pain"
 ],
+"tagWeight":{
+"hip_leg_pain":2,
+"low_back_pain":2
+},
 "indications":[
 "hip pain",
 "sciatic-type leg pain",
@@ -12735,8 +13845,13 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
-"hip_leg_pain"
+"hip_leg_pain",
+"low_back_pain"
 ],
+"tagWeight":{
+"hip_leg_pain":2,
+"low_back_pain":1
+},
 "indications":[
 "sciatic-type leg pain",
 "leg weakness or numbness",
@@ -12756,7 +13871,7 @@
 }
 ],
 "evidence":"disputed",
-"note":"WHO gives only the middle-fingertip rule (posterior to the iliotibial band) and puts GB32 at 7 cun; Me and Qi (and YYH/D'Alberto per author) put GB31 at 7 cun above the popliteal crease. The author's 9-cun plot is an inference from WHO GB32, not a WHO figure. Fingertip rule in find is fine.",
+"note":"WHO describes this only as where your middle fingertip rests with your arms by your sides. Some references give a fixed seven thumb-widths above the knee crease.",
 "place":{
 "line":"GB",
 "from":"popliteal_crease_lateral_end",
@@ -12777,6 +13892,7 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[],
+"tagWeight":{},
 "indications":[],
 "sources":[
 {
@@ -12792,7 +13908,7 @@
 }
 ],
 "evidence":"disputed",
-"note":"The find said 'about a hand's width (four finger-widths plus a bit)' which is about 3 cun, but the record's WHO figure is 7 cun. Also genuinely disputed: Me and Qi gives 5 cun (2 cun below GB31); WHO says 7 cun. Keep WHO.",
+"note":"WHO places this seven thumb-widths above the knee crease; some older references give five.",
 "place":{
 "line":"GB",
 "from":"popliteal_crease_lateral_end",
@@ -12813,6 +13929,7 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[],
+"tagWeight":{},
 "indications":[],
 "sources":[
 {
@@ -12851,10 +13968,15 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
-"knee_pain",
 "hip_leg_pain",
+"knee_pain",
 "nausea"
 ],
+"tagWeight":{
+"knee_pain":1,
+"hip_leg_pain":1,
+"nausea":1
+},
 "indications":[
 "muscle cramps and spasm",
 "hip and leg pain",
@@ -12899,6 +14021,7 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[],
+"tagWeight":{},
 "indications":[],
 "sources":[
 {
@@ -12937,6 +14060,7 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[],
+"tagWeight":{},
 "indications":[],
 "sources":[
 {
@@ -12976,8 +14100,14 @@
 "pregnancy":false,
 "tags":[
 "eye_strain",
-"headache"
+"headache",
+"hip_leg_pain"
 ],
+"tagWeight":{
+"headache":1,
+"hip_leg_pain":1,
+"eye_strain":2
+},
 "indications":[
 "tired or blurry eyes",
 "headache around the eyes",
@@ -13021,6 +14151,7 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[],
+"tagWeight":{},
 "indications":[],
 "sources":[
 {
@@ -13060,9 +14191,13 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
-"neck_pain",
-"foot_ankle_strain"
+"foot_ankle_strain",
+"neck_pain"
 ],
+"tagWeight":{
+"foot_ankle_strain":1,
+"neck_pain":1
+},
 "indications":[
 "stiff neck",
 "ankle strain"
@@ -13107,6 +14242,9 @@
 "tags":[
 "foot_ankle_strain"
 ],
+"tagWeight":{
+"foot_ankle_strain":1
+},
 "indications":[
 "ankle pain"
 ],
@@ -13147,8 +14285,13 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
+"foot_ankle_strain",
 "headache"
 ],
+"tagWeight":{
+"headache":1,
+"foot_ankle_strain":1
+},
 "indications":[
 "headache at the side of the head",
 "outer foot pain"
@@ -13193,6 +14336,7 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[],
+"tagWeight":{},
 "indications":[],
 "sources":[
 {
@@ -13234,10 +14378,15 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
-"headache",
 "ear_hearing",
-"eye_strain"
+"eye_strain",
+"headache"
 ],
+"tagWeight":{
+"headache":1,
+"eye_strain":1,
+"ear_hearing":1
+},
 "indications":[
 "headache",
 "dizziness",
@@ -13284,10 +14433,17 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
-"sleep",
+"ear_hearing",
 "eye_strain",
-"ear_hearing"
+"sleep",
+"stress_anxiety"
 ],
+"tagWeight":{
+"sleep":1,
+"ear_hearing":1,
+"eye_strain":1,
+"stress_anxiety":1
+},
 "indications":[
 "restless sleep",
 "eye pain",
@@ -13329,6 +14485,7 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[],
+"tagWeight":{},
 "indications":[],
 "sources":[
 {
@@ -13366,9 +14523,13 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
-"stress_anxiety",
-"eye_strain"
+"eye_strain",
+"stress_anxiety"
 ],
+"tagWeight":{
+"eye_strain":1,
+"stress_anxiety":1
+},
 "indications":[
 "irritability and anger",
 "red, sore eyes"
@@ -13412,10 +14573,19 @@
 ],
 "pregnancy":false,
 "tags":[
+"eye_strain",
 "headache",
-"stress_anxiety",
-"menstrual_cramps"
+"menstrual_cramps",
+"sleep",
+"stress_anxiety"
 ],
+"tagWeight":{
+"sleep":1,
+"headache":1,
+"eye_strain":1,
+"stress_anxiety":1,
+"menstrual_cramps":1
+},
 "indications":[
 "headache",
 "irritability and anger",
@@ -13469,6 +14639,9 @@
 "tags":[
 "foot_ankle_strain"
 ],
+"tagWeight":{
+"foot_ankle_strain":1
+},
 "indications":[
 "inner ankle pain"
 ],
@@ -13509,6 +14682,7 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[],
+"tagWeight":{},
 "indications":[],
 "sources":[
 {
@@ -13548,6 +14722,7 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[],
+"tagWeight":{},
 "indications":[],
 "sources":[
 {
@@ -13587,6 +14762,7 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[],
+"tagWeight":{},
 "indications":[],
 "sources":[
 {
@@ -13627,6 +14803,9 @@
 "tags":[
 "knee_pain"
 ],
+"tagWeight":{
+"knee_pain":1
+},
 "indications":[
 "inner knee pain"
 ],
@@ -13666,6 +14845,7 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[],
+"tagWeight":{},
 "indications":[],
 "sources":[
 {
@@ -13706,6 +14886,7 @@
 ],
 "pregnancy":false,
 "tags":[],
+"tagWeight":{},
 "indications":[],
 "sources":[
 {
@@ -13745,6 +14926,7 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[],
+"tagWeight":{},
 "indications":[],
 "sources":[
 {
@@ -13787,6 +14969,7 @@
 ],
 "pregnancy":true,
 "tags":[],
+"tagWeight":{},
 "indications":[],
 "sources":[
 {
@@ -13827,6 +15010,9 @@
 "tags":[
 "digestive_health"
 ],
+"tagWeight":{
+"digestive_health":2
+},
 "indications":[
 "bloating",
 "loose stools"
@@ -13868,6 +15054,7 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[],
+"tagWeight":{},
 "indications":[
 "rib-side pain"
 ],
@@ -13908,6 +15095,7 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[],
+"tagWeight":{},
 "indications":[
 "diarrhea",
 "tailbone pain"
@@ -13954,6 +15142,9 @@
 "tags":[
 "low_back_pain"
 ],
+"tagWeight":{
+"low_back_pain":1
+},
 "indications":[
 "low back pain",
 "irregular periods"
@@ -13996,6 +15187,9 @@
 "tags":[
 "low_back_pain"
 ],
+"tagWeight":{
+"low_back_pain":1
+},
 "indications":[
 "low back pain",
 "irregular periods"
@@ -14036,8 +15230,13 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
+"digestive_health",
 "low_back_pain"
 ],
+"tagWeight":{
+"digestive_health":1,
+"low_back_pain":1
+},
 "indications":[
 "low back pain",
 "frequent urination",
@@ -14084,9 +15283,13 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
-"low_back_pain",
-"digestive_health"
+"digestive_health",
+"low_back_pain"
 ],
+"tagWeight":{
+"digestive_health":1,
+"low_back_pain":1
+},
 "indications":[
 "stiff lower back",
 "indigestion"
@@ -14129,6 +15332,9 @@
 "tags":[
 "digestive_health"
 ],
+"tagWeight":{
+"digestive_health":1
+},
 "indications":[
 "diarrhea"
 ],
@@ -14168,8 +15374,13 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
-"digestive_health"
+"digestive_health",
+"low_back_pain"
 ],
+"tagWeight":{
+"digestive_health":3,
+"low_back_pain":1
+},
 "indications":[
 "stomach pain",
 "loss of appetite",
@@ -14212,8 +15423,12 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
+"low_back_pain",
 "upper_back"
 ],
+"tagWeight":{
+"low_back_pain":1
+},
 "indications":[
 "stiff back"
 ],
@@ -14253,8 +15468,13 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
+"cough_breathing",
 "upper_back"
 ],
+"tagWeight":{
+"upper_back":1,
+"cough_breathing":1
+},
 "indications":[
 "stiff mid-back",
 "chest tightness"
@@ -14298,6 +15518,9 @@
 "neck_pain",
 "upper_back"
 ],
+"tagWeight":{
+"neck_pain":1
+},
 "indications":[
 "stiff neck"
 ],
@@ -14337,8 +15560,13 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
-"sleep"
+"sleep",
+"stress_anxiety"
 ],
+"tagWeight":{
+"sleep":1,
+"stress_anxiety":1
+},
 "indications":[
 "palpitations",
 "trouble sleeping",
@@ -14382,6 +15610,9 @@
 "tags":[
 "cough_breathing"
 ],
+"tagWeight":{
+"cough_breathing":1
+},
 "indications":[
 "cough"
 ],
@@ -14421,9 +15652,14 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
-"upper_back",
-"cold_flu"
+"cold_flu",
+"low_back_pain",
+"upper_back"
 ],
+"tagWeight":{
+"cold_flu":1,
+"low_back_pain":1
+},
 "indications":[
 "stiff back",
 "chills and fever"
@@ -14464,10 +15700,15 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
-"neck_pain",
 "cold_flu",
-"cough_breathing"
+"cough_breathing",
+"neck_pain"
 ],
+"tagWeight":{
+"cold_flu":1,
+"neck_pain":1,
+"cough_breathing":1
+},
 "indications":[
 "stiff neck",
 "common cold",
@@ -14513,9 +15754,15 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
+"cold_flu",
 "headache",
 "neck_pain"
 ],
+"tagWeight":{
+"cold_flu":1,
+"headache":1,
+"neck_pain":1
+},
 "indications":[
 "headache at the back of the head",
 "stiff neck",
@@ -14555,9 +15802,15 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
+"cold_flu",
 "headache",
 "neck_pain"
 ],
+"tagWeight":{
+"cold_flu":1,
+"headache":1,
+"neck_pain":1
+},
 "indications":[
 "headache",
 "stiff neck",
@@ -14601,8 +15854,13 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
+"headache",
 "neck_pain"
 ],
+"tagWeight":{
+"headache":1,
+"neck_pain":1
+},
 "indications":[
 "heavy head",
 "stiff neck",
@@ -14648,6 +15906,10 @@
 "headache",
 "neck_pain"
 ],
+"tagWeight":{
+"headache":1,
+"neck_pain":1
+},
 "indications":[
 "headache",
 "stiff neck",
@@ -14688,9 +15950,14 @@
 "pregnancy":false,
 "tags":[
 "headache",
-"sleep",
-"neck_pain"
+"neck_pain",
+"sleep"
 ],
+"tagWeight":{
+"sleep":1,
+"headache":1,
+"neck_pain":1
+},
 "indications":[
 "headache",
 "dizziness",
@@ -14734,9 +16001,13 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
-"headache",
-"ear_hearing"
+"ear_hearing",
+"headache"
 ],
+"tagWeight":{
+"headache":1,
+"ear_hearing":1
+},
 "indications":[
 "headache",
 "dizziness",
@@ -14781,6 +16052,9 @@
 "tags":[
 "headache"
 ],
+"tagWeight":{
+"headache":1
+},
 "indications":[
 "headache"
 ],
@@ -14824,6 +16098,10 @@
 "headache",
 "nose_sinus"
 ],
+"tagWeight":{
+"headache":1,
+"nose_sinus":1
+},
 "indications":[
 "headache",
 "dizziness",
@@ -14866,10 +16144,15 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
-"nose_sinus",
+"eye_strain",
 "headache",
-"eye_strain"
+"nose_sinus"
 ],
+"tagWeight":{
+"headache":1,
+"eye_strain":1,
+"nose_sinus":1
+},
 "indications":[
 "stuffy nose",
 "headache",
@@ -14916,6 +16199,11 @@
 "nose_sinus",
 "stress_anxiety"
 ],
+"tagWeight":{
+"headache":1,
+"stress_anxiety":1,
+"nose_sinus":1
+},
 "indications":[
 "headache at the forehead",
 "nasal problems",
@@ -14960,6 +16248,9 @@
 "tags":[
 "nose_sinus"
 ],
+"tagWeight":{
+"nose_sinus":1
+},
 "indications":[
 "stuffy nose",
 "nosebleed",
@@ -15005,6 +16296,9 @@
 "low_back_pain",
 "nose_sinus"
 ],
+"tagWeight":{
+"low_back_pain":1
+},
 "indications":[
 "feeling faint",
 "sudden low back pain",
@@ -15024,7 +16318,7 @@
 }
 ],
 "evidence":"disputed",
-"note":"WHO's primary location is the midpoint of the philtrum, with an alternative at the junction of the upper one-third. TCM Wiki gives the upper one-third junction. The record's find text covers both, and its disputed field explains the split. No change is needed beyond keeping the dispute flag.",
+"note":"WHO places this in the middle of the groove under the nose; many references use the spot one third of the way down. Either is fine.",
 "place":{
 "at":"philtrum"
 }
@@ -15043,6 +16337,7 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[],
+"tagWeight":{},
 "indications":[],
 "sources":[
 {
@@ -15081,6 +16376,7 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[],
+"tagWeight":{},
 "indications":[
 "gum pain"
 ],
@@ -15122,6 +16418,7 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[],
+"tagWeight":{},
 "indications":[],
 "sources":[
 {
@@ -15165,6 +16462,9 @@
 "tags":[
 "menstrual_cramps"
 ],
+"tagWeight":{
+"menstrual_cramps":1
+},
 "indications":[
 "menstrual cramps",
 "irregular periods"
@@ -15209,6 +16509,9 @@
 "tags":[
 "menstrual_cramps"
 ],
+"tagWeight":{
+"menstrual_cramps":1
+},
 "indications":[
 "menstrual cramps",
 "frequent or painful urination"
@@ -15255,6 +16558,9 @@
 "tags":[
 "energy_fatigue"
 ],
+"tagWeight":{
+"energy_fatigue":1
+},
 "indications":[
 "tiredness"
 ],
@@ -15300,6 +16606,9 @@
 "tags":[
 "digestive_health"
 ],
+"tagWeight":{
+"digestive_health":1
+},
 "indications":[
 "lower belly pain"
 ],
@@ -15343,10 +16652,15 @@
 ],
 "pregnancy":true,
 "tags":[
-"energy_fatigue",
 "digestive_health",
+"energy_fatigue",
 "menstrual_cramps"
 ],
+"tagWeight":{
+"digestive_health":2,
+"menstrual_cramps":1,
+"energy_fatigue":1
+},
 "indications":[
 "tiredness",
 "bloating",
@@ -15392,7 +16706,12 @@
 "pregnancy"
 ],
 "pregnancy":true,
-"tags":[],
+"tags":[
+"digestive_health"
+],
+"tagWeight":{
+"digestive_health":1
+},
 "indications":[
 "lower belly pain",
 "irregular periods"
@@ -15435,6 +16754,7 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[],
+"tagWeight":{},
 "indications":[],
 "sources":[
 {
@@ -15473,8 +16793,13 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
-"digestive_health"
+"digestive_health",
+"nausea"
 ],
+"tagWeight":{
+"digestive_health":1,
+"nausea":1
+},
 "indications":[
 "tummy rumbling",
 "vomiting"
@@ -15520,6 +16845,10 @@
 "digestive_health",
 "nausea"
 ],
+"tagWeight":{
+"digestive_health":2,
+"nausea":1
+},
 "indications":[
 "bloating",
 "vomiting",
@@ -15566,6 +16895,10 @@
 "digestive_health",
 "nausea"
 ],
+"tagWeight":{
+"digestive_health":1,
+"nausea":1
+},
 "indications":[
 "bloating",
 "vomiting"
@@ -15611,6 +16944,10 @@
 "digestive_health",
 "nausea"
 ],
+"tagWeight":{
+"digestive_health":4,
+"nausea":1
+},
 "indications":[
 "stomach ache",
 "bloating",
@@ -15656,9 +16993,13 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
-"nausea",
-"digestive_health"
+"digestive_health",
+"nausea"
 ],
+"tagWeight":{
+"digestive_health":2,
+"nausea":1
+},
 "indications":[
 "nausea and vomiting",
 "stomach pain",
@@ -15701,7 +17042,12 @@
 "technique":"circle",
 "cautions":[],
 "pregnancy":false,
-"tags":[],
+"tags":[
+"stress_anxiety"
+],
+"tagWeight":{
+"stress_anxiety":1
+},
 "indications":[
 "palpitations"
 ],
@@ -15743,8 +17089,12 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
-"digestive_health"
+"digestive_health",
+"nausea"
 ],
+"tagWeight":{
+"nausea":1
+},
 "indications":[
 "hiccups"
 ],
@@ -15785,9 +17135,12 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
-"nausea",
-"digestive_health"
+"digestive_health",
+"nausea"
 ],
+"tagWeight":{
+"nausea":1
+},
 "indications":[
 "vomiting",
 "difficulty swallowing"
@@ -15829,9 +17182,15 @@
 "pregnancy":false,
 "tags":[
 "cough_breathing",
-"stress_anxiety",
-"digestive_health"
+"digestive_health",
+"nausea",
+"stress_anxiety"
 ],
+"tagWeight":{
+"nausea":1,
+"cough_breathing":3,
+"stress_anxiety":1
+},
 "indications":[
 "cough",
 "chest tightness",
@@ -15881,6 +17240,9 @@
 "tags":[
 "cough_breathing"
 ],
+"tagWeight":{
+"cough_breathing":1
+},
 "indications":[
 "chest tightness"
 ],
@@ -15922,6 +17284,7 @@
 "tags":[
 "cough_breathing"
 ],
+"tagWeight":{},
 "indications":[
 "chest discomfort"
 ],
@@ -15963,6 +17326,7 @@
 "tags":[
 "cough_breathing"
 ],
+"tagWeight":{},
 "indications":[
 "chest discomfort"
 ],
@@ -16004,6 +17368,9 @@
 "tags":[
 "digestive_health"
 ],
+"tagWeight":{
+"digestive_health":1
+},
 "indications":[
 "throat discomfort",
 "indigestion"
@@ -16047,8 +17414,13 @@
 ],
 "pregnancy":false,
 "tags":[
+"cold_flu",
 "cough_breathing"
 ],
+"tagWeight":{
+"cold_flu":2,
+"cough_breathing":1
+},
 "indications":[
 "cough",
 "sore throat",
@@ -16093,6 +17465,7 @@
 ],
 "pregnancy":false,
 "tags":[],
+"tagWeight":{},
 "indications":[
 "difficulty swallowing",
 "throat discomfort",
@@ -16137,6 +17510,9 @@
 "tags":[
 "toothache_jaw"
 ],
+"tagWeight":{
+"toothache_jaw":1
+},
 "indications":[
 "sore gums",
 "excess saliva"
@@ -16179,6 +17555,9 @@
 "tags":[
 "cough_breathing"
 ],
+"tagWeight":{
+"cough_breathing":1
+},
 "indications":[
 "cough"
 ],
@@ -16224,6 +17603,9 @@
 "tags":[
 "menstrual_cramps"
 ],
+"tagWeight":{
+"menstrual_cramps":1
+},
 "indications":[
 "period pain",
 "irregular periods"
@@ -16263,9 +17645,13 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
-"sleep",
-"headache"
+"headache",
+"sleep"
 ],
+"tagWeight":{
+"sleep":1,
+"headache":1
+},
 "indications":[
 "trouble sleeping",
 "headache at the top of the head",
@@ -16308,8 +17694,12 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
+"hip_leg_pain",
 "knee_pain"
 ],
+"tagWeight":{
+"hip_leg_pain":1
+},
 "indications":[
 "leg pain"
 ],
@@ -16344,6 +17734,7 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[],
+"tagWeight":{},
 "indications":[],
 "sources":[
 {
@@ -16378,6 +17769,7 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[],
+"tagWeight":{},
 "indications":[],
 "sources":[
 {
@@ -16421,6 +17813,10 @@
 "headache",
 "nose_sinus"
 ],
+"tagWeight":{
+"headache":1,
+"nose_sinus":1
+},
 "indications":[
 "headache",
 "dizziness",
@@ -16457,8 +17853,13 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
+"hip_leg_pain",
 "knee_pain"
 ],
+"tagWeight":{
+"knee_pain":1,
+"hip_leg_pain":1
+},
 "indications":[
 "knee pain",
 "leg weakness"
@@ -16500,6 +17901,7 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[],
+"tagWeight":{},
 "indications":[],
 "sources":[
 {
@@ -16542,6 +17944,9 @@
 "tags":[
 "digestive_health"
 ],
+"tagWeight":{
+"digestive_health":1
+},
 "indications":[
 "dry mouth",
 "stomach ache"
@@ -16580,10 +17985,17 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
-"sleep",
 "headache",
-"nose_sinus"
+"nose_sinus",
+"sleep",
+"stress_anxiety"
 ],
+"tagWeight":{
+"sleep":1,
+"headache":1,
+"stress_anxiety":1,
+"nose_sinus":1
+},
 "indications":[
 "trouble sleeping",
 "headache at the front of the head",
@@ -16640,6 +18052,7 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[],
+"tagWeight":{},
 "indications":[
 "itchy skin"
 ],
@@ -16674,8 +18087,13 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
+"cough_breathing",
 "digestive_health"
 ],
+"tagWeight":{
+"digestive_health":1,
+"cough_breathing":1
+},
 "indications":[
 "chest tightness",
 "stomach pain"
@@ -16712,6 +18130,9 @@
 "tags":[
 "low_back_pain"
 ],
+"tagWeight":{
+"low_back_pain":1
+},
 "indications":[
 "low back pain"
 ],
@@ -16751,9 +18172,13 @@
 ],
 "pregnancy":false,
 "tags":[
-"headache",
-"eye_strain"
+"eye_strain",
+"headache"
 ],
+"tagWeight":{
+"headache":1,
+"eye_strain":2
+},
 "indications":[
 "headache at the front of the head",
 "red, sore eyes",
@@ -16794,6 +18219,9 @@
 "tags":[
 "knee_pain"
 ],
+"tagWeight":{
+"knee_pain":1
+},
 "indications":[
 "knee pain"
 ],
@@ -16832,6 +18260,9 @@
 "tags":[
 "nausea"
 ],
+"tagWeight":{
+"nausea":2
+},
 "indications":[
 "nausea",
 "hiccups"
@@ -16868,6 +18299,9 @@
 "tags":[
 "low_back_pain"
 ],
+"tagWeight":{
+"low_back_pain":1
+},
 "indications":[
 "low back pain"
 ],
@@ -16901,10 +18335,15 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
-"headache",
 "eye_strain",
+"headache",
 "toothache_jaw"
 ],
+"tagWeight":{
+"headache":1,
+"toothache_jaw":1,
+"eye_strain":1
+},
 "indications":[
 "headache at the temple",
 "tired or sore eyes",
@@ -16960,8 +18399,13 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
+"hip_leg_pain",
 "knee_pain"
 ],
+"tagWeight":{
+"knee_pain":1,
+"hip_leg_pain":1
+},
 "indications":[
 "knee pain",
 "leg weakness"
@@ -17014,6 +18458,7 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[],
+"tagWeight":{},
 "indications":[
 "nosebleed"
 ],
@@ -17053,6 +18498,9 @@
 "tags":[
 "low_back_pain"
 ],
+"tagWeight":{
+"low_back_pain":1
+},
 "indications":[
 "low back pain"
 ],
@@ -17086,9 +18534,15 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
-"headache",
-"eye_strain"
+"cold_flu",
+"eye_strain",
+"headache"
 ],
+"tagWeight":{
+"cold_flu":1,
+"headache":1,
+"eye_strain":1
+},
 "indications":[
 "one-sided headache",
 "sore throat",
@@ -17127,6 +18581,7 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[],
+"tagWeight":{},
 "indications":[],
 "sources":[
 {
@@ -17167,6 +18622,7 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[],
+"tagWeight":{},
 "indications":[],
 "sources":[
 {
@@ -17204,6 +18660,9 @@
 "tags":[
 "low_back_pain"
 ],
+"tagWeight":{
+"low_back_pain":1
+},
 "indications":[
 "low back pain",
 "frequent urination"
@@ -17248,6 +18707,7 @@
 ],
 "pregnancy":false,
 "tags":[],
+"tagWeight":{},
 "indications":[],
 "sources":[
 {
@@ -17289,6 +18749,9 @@
 "tags":[
 "digestive_health"
 ],
+"tagWeight":{
+"digestive_health":1
+},
 "indications":[
 "indigestion"
 ],
@@ -17333,6 +18796,9 @@
 "tags":[
 "low_back_pain"
 ],
+"tagWeight":{
+"low_back_pain":1
+},
 "indications":[
 "low back pain"
 ],
@@ -17351,7 +18817,7 @@
 }
 ],
 "evidence":"disputed",
-"note":"TCM Wiki and Yin Yang House place the two points midway between wrist crease and knuckles (as recorded). Me & Qi and Attilio place them nearer the wrist, where the shaft meets the base of the hand bones. Record kept; flashcard dropped. Low back pain backed by TCM Wiki, YYH, Me & Qi.",
+"note":"References differ on whether these sit midway between wrist and knuckles or nearer the wrist. This follows the midway version.",
 "xy":[
 151,
 344
@@ -17386,6 +18852,10 @@
 "low_back_pain",
 "menstrual_cramps"
 ],
+"tagWeight":{
+"menstrual_cramps":1,
+"low_back_pain":1
+},
 "indications":[
 "low back pain",
 "period pain"
@@ -17430,6 +18900,9 @@
 "tags":[
 "nose_sinus"
 ],
+"tagWeight":{
+"nose_sinus":1
+},
 "indications":[
 "stuffy nose"
 ],
@@ -17467,6 +18940,7 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[],
+"tagWeight":{},
 "indications":[],
 "sources":[
 {
@@ -17499,6 +18973,9 @@
 "tags":[
 "neck_pain"
 ],
+"tagWeight":{
+"neck_pain":1
+},
 "indications":[
 "stiff neck"
 ],
@@ -17546,9 +19023,13 @@
 ],
 "pregnancy":true,
 "tags":[
-"sleep",
-"constipation"
+"constipation",
+"sleep"
 ],
+"tagWeight":{
+"sleep":1,
+"constipation":1
+},
 "indications":[
 "trouble sleeping",
 "constipation"
@@ -17568,7 +19049,7 @@
 }
 ],
 "evidence":"disputed",
-"note":"Sources genuinely disagree on height: TCM Wiki and Me & Qi put it 2 cun above the coccyx tip between the sacral horns (as the record does), Attilio puts it below the S2 spinous process. The 2-cun version is kept. Find gains the distance; flashcard dropped. Sleep and constipation are backed by TCM Wiki and Me & Qi.",
+"note":"References differ on the height. This follows the version two thumb-widths above the tip of the tailbone.",
 "place":{
 "from":"coccyx_tip",
 "up":2
@@ -17588,6 +19069,7 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[],
+"tagWeight":{},
 "indications":[],
 "sources":[
 {
@@ -17624,6 +19106,7 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[],
+"tagWeight":{},
 "indications":[],
 "sources":[
 {
@@ -17656,6 +19139,9 @@
 "tags":[
 "hand_wrist_strain"
 ],
+"tagWeight":{
+"hand_wrist_strain":2
+},
 "indications":[
 "finger numbness",
 "swollen hand"
@@ -17716,6 +19202,7 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[],
+"tagWeight":{},
 "indications":[],
 "sources":[
 {
@@ -17750,6 +19237,9 @@
 "tags":[
 "foot_ankle_strain"
 ],
+"tagWeight":{
+"foot_ankle_strain":2
+},
 "indications":[
 "swollen foot",
 "toe numbness"
@@ -17810,6 +19300,7 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[],
+"tagWeight":{},
 "indications":[],
 "sources":[
 {
@@ -17867,6 +19358,7 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[],
+"tagWeight":{},
 "indications":[],
 "sources":[
 {
@@ -17901,6 +19393,7 @@
 ],
 "pregnancy":true,
 "tags":[],
+"tagWeight":{},
 "indications":[],
 "sources":[
 {
@@ -17934,6 +19427,9 @@
 "tags":[
 "cold_flu"
 ],
+"tagWeight":{
+"cold_flu":1
+},
 "indications":[
 "sore throat"
 ],
@@ -17997,6 +19493,7 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[],
+"tagWeight":{},
 "indications":[],
 "sources":[
 {
@@ -18039,6 +19536,9 @@
 "tags":[
 "foot_ankle_strain"
 ],
+"tagWeight":{
+"foot_ankle_strain":1
+},
 "indications":[
 "swollen feet"
 ],
@@ -18094,6 +19594,7 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[],
+"tagWeight":{},
 "indications":[],
 "sources":[
 {
@@ -18134,9 +19635,13 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
-"sleep",
-"ear_hearing"
+"ear_hearing",
+"sleep"
 ],
+"tagWeight":{
+"sleep":1,
+"ear_hearing":1
+},
 "indications":[
 "trouble sleeping",
 "ringing in the ears",
@@ -18179,9 +19684,13 @@
 "cautions":[],
 "pregnancy":false,
 "tags":[
-"neck_pain",
-"cough_breathing"
+"cough_breathing",
+"neck_pain"
 ],
+"tagWeight":{
+"neck_pain":1,
+"cough_breathing":1
+},
 "indications":[
 "stiff neck",
 "cough"
@@ -18232,6 +19741,10 @@
 "sleep",
 "stress_anxiety"
 ],
+"tagWeight":{
+"sleep":1,
+"stress_anxiety":1
+},
 "indications":[
 "trouble sleeping",
 "dizziness",

@@ -56,7 +56,7 @@ export default function Home() {
     <div>
       <h1 className="text-2xl font-bold sm:text-3xl">What's going on?</h1>
       <p className="mt-1 text-muted dark:text-muted-dark">
-        Pick what you're dealing with to see a handful of self-acupressure points for it.
+        Pick what you're dealing with to see self-acupressure points for it, most useful first.
       </p>
 
       <div className="mt-4 grid grid-cols-1 gap-2 sm:grid-cols-2">

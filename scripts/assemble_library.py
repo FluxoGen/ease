@@ -49,6 +49,44 @@ VA_IMAGE = {
 }
 
 
+# Sourced indication phrase -> symptom routine. Applied on top of the researched tags so a point
+# lands in every routine its (two-source) indications support. Order-independent; easy to audit.
+TAG_RULES = [
+    (r'headache|heavy head', 'headache'),
+    (r'low back|lower back|(?<!upper )back ache|(?<!upper )back pain|stiff back|back stiffness|sciatic', 'low_back_pain'),
+    (r'stiff neck|neck pain', 'neck_pain'),
+    (r'upper back|mid-back|shoulder blade', 'upper_back'),
+    (r'shoulder', 'shoulder_tension'),
+    (r'trouble sleeping|insomnia|restless sleep|disturbed sleep', 'sleep'),
+    (r'anxi|palpitation|restless|irritab|sadness|fear', 'stress_anxiety'),
+    (r'nausea|vomit|motion sickness|hiccup', 'nausea'),
+    (r'bloat|indigestion|stomach|abdominal|belly|appetite|gurgling|rumbling|diarrh|loose stools|navel|belching|regurgitation|acid reflux', 'digestive_health'),
+    (r'constipation', 'constipation'),
+    (r'period cramps|period pain|painful periods|menstrual cramps', 'menstrual_cramps'),
+    (r'sore throat|common cold|\bcolds?\b(?! limbs)|cold symptoms|fever|chills|loss of voice|hoarse', 'cold_flu'),
+    (r'cough|wheez|shortness of breath|chest tightness|chest fullness', 'cough_breathing'),
+    (r'stuffy nose|blocked nose|nasal|loss of smell', 'nose_sinus'),
+    (r'toothache|jaw|gums', 'toothache_jaw'),
+    (r'\beyes?\b|vision|eyelid', 'eye_strain'),
+    (r'\bears?\b|hearing', 'ear_hearing'),
+    (r'tiredness|fatigue|low energy', 'energy_fatigue'),
+    (r'elbow|wrist|arm pain|arm numbness|numb arm|arm weakness|arm stiffness|finger|swollen hand', 'hand_wrist_strain'),
+    (r'knee', 'knee_pain'),
+    (r'hip|thigh|buttock|leg pain|leg weakness|weak legs|calf|leg cramps|lower leg', 'hip_leg_pain'),
+    (r'ankle|heel|foot|feet|toe', 'foot_ankle_strain'),
+]
+
+
+def mapped_tags(indications):
+    out = set()
+    for ind in indications:
+        t = ind.lower()
+        for pat, tag in TAG_RULES:
+            if re.search(pat, t):
+                out.add(tag)
+    return out
+
+
 def pid(code):
     return code.lower()
 
@@ -95,7 +133,7 @@ def main():
         else:
             report['unverified'].append(code)
         for k, val in lead_fixes.get(code, {}).items():
-            if k != 'reason':
+            if k not in ('reason', 'evidence', 'note'):
                 rec[k] = val
         # sources
         srcs, by_author_id = [], {}
@@ -138,11 +176,21 @@ def main():
             'channel': 'EX' if code.startswith('EX') or code == 'ANMIAN' else re.match(r'[A-Z]+', code).group(0),
             'area': VIEW_AREA[view], 'view': view, 'find': rec['find'].strip(),
             'selfCare': rec['selfCare'], 'technique': rec.get('technique') if rec['selfCare'] != 'avoid' else None,
-            'cautions': cautions, 'pregnancy': preg, 'tags': rec.get('tags', []) if rec['selfCare'] != 'avoid' else [],
+            'cautions': cautions, 'pregnancy': preg,
+            'tags': sorted(set(rec.get('tags', [])) | mapped_tags(inds)) if rec['selfCare'] != 'avoid' else [],
+            # how many sourced indications support each tag (used to rank points within a routine)
+            'tagWeight': {t: sum(1 for i in inds if t in mapped_tags([i])) for t in mapped_tags(inds)} if rec['selfCare'] != 'avoid' else {},
             'indications': inds, 'sources': srcs, 'evidence': evidence,
         }
         if rec['selfCare'] == 'avoid':
             item['avoidReason'] = rec.get('avoidReason', '')
+        lf = lead_fixes.get(code, {})
+        if 'evidence' in lf:
+            item['evidence'] = lf['evidence']
+        if 'note' in lf:
+            note = lf['note']
+        elif note:
+            note = ''  # verifier wording is internal; only lead-written notes are shown to users
         if note:
             item['note'] = note
         if 'xy' in pos:

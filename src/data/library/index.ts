@@ -20,6 +20,8 @@ export interface LibraryPoint {
   cautions: CautionId[];
   pregnancy: boolean;
   tags: string[];
+  /** Number of sourced indications behind each tag. */
+  tagWeight: Record<string, number>;
   indications: string[];
   sources: Array<{ s: string; p?: string }>;
   evidence: Evidence;

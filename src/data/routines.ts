@@ -25,7 +25,7 @@ const DEFS: RoutineDef[] = [
   { id: 'neck_pain', title: 'Neck', description: 'Points traditionally used for neck discomfort.', core: ['ex-ue8', 'si3', 'gb20', 'ex-hn15', 'gb21', 'bl60'], sourceUrl: 'https://www.va.gov/files/2021-12/4313_AcupressureforNeckPain.pdf' },
   { id: 'sleep', title: 'Sleep', description: 'Points traditionally used to support restful sleep.', core: ['ht7', 'anmian', 'ex-hn3', 'ki1', 'sp6', 'pc6'], sourceUrl: 'https://www.va.gov/files/2021-12/4312_AcupressureforSleep.pdf' },
   { id: 'well_being', title: 'Well-Being', description: 'Points traditionally used for general well-being.', core: ['li4', 'li11', 'lu7', 'st36', 'sp6'], sourceUrl: 'https://www.va.gov/files/2023-07/Acupressure%20for%20Well-Being.pdf' },
-  { id: 'nausea', title: 'Nausea', description: 'Points traditionally used to settle nausea.', core: ['pc6', 'st36'] },
+  { id: 'nausea', title: 'Nausea', description: 'Points traditionally used to settle nausea.', core: ['pc6', 'st36'], sourceUrl: 'https://www.va.gov/WHOLEHEALTHLIBRARY/docs/Managing-Chemotherapy-Induced-Nausea-and-Vomiting.pdf' },
   { id: 'stress_anxiety', title: 'Stress & Anxiety', description: 'Points traditionally used to calm stress and worry.' },
   { id: 'menstrual_cramps', title: 'Menstrual Cramps', description: 'Points traditionally used for period cramps.' },
   { id: 'cold_flu', title: 'Cold & Flu', description: 'Points traditionally used for cold and flu symptoms.' },
@@ -50,9 +50,21 @@ const MIN_POINTS = 3;
 
 const usable = (p: LibraryPoint) => p.selfCare !== 'avoid';
 
+/** Most useful first: confirmed location, normal pressure, easy to reach, specific to this symptom. */
+const rank = (p: LibraryPoint, tag: string) =>
+  -3 * (p.tagWeight[tag] ?? 0) +
+  (p.evidence === 'disputed' ? 4 : 0) +
+  (p.selfCare === 'gentle' ? 2 : 0) +
+  (p.technique === 'ball' ? 2 : 0) +
+  (p.image ? -3 : 0) +
+  Math.min(p.tags.length, 4) * 0.5;
+
 export const routines: Routine[] = DEFS.map((d) => {
   const core = (d.core ?? []).filter((id) => library.some((p) => p.id === id));
-  const tagged = library.filter((p) => usable(p) && p.tags.includes(d.id) && !core.includes(p.id)).map((p) => p.id);
+  const tagged = library
+    .filter((p) => usable(p) && p.tags.includes(d.id) && !core.includes(p.id))
+    .sort((a, b) => rank(a, d.id) - rank(b, d.id))
+    .map((p) => p.id);
   return { id: d.id, title: d.title, description: d.description, core, pointIds: [...core, ...tagged], sourceUrl: d.sourceUrl };
 }).filter((r) => r.pointIds.length >= MIN_POINTS);
 
