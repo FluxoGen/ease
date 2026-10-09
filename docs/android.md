@@ -29,6 +29,10 @@ npm run android:sync   # rebuild the web part and copy it into android/ (Studio 
 the APK already holds every file, and a second cache would only risk serving old files after an update.
 Always sync after a web change; the APK only contains what was synced.
 
+If Android Studio shows **Gradle: Build Error** right after opening the project, the usual cause is the Gradle JDK:
+Capacitor 8 needs JDK 21, and a system Java 17 is not enough. In Studio open Settings > Build, Execution, Deployment >
+Build Tools > Gradle and set **Gradle JDK** to the embedded JDK (`jbr-21`), then File > Sync Project with Gradle Files.
+
 Command-line builds (no Studio):
 
 ```bash

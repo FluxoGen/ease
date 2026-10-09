@@ -55,12 +55,11 @@ function PressBody({ point, onClose, sides, next }: { point: LibraryPoint; onClo
   const endAt = useRef(0);
   const remaining = useRef(total);
 
-  const begin = (secs: number) => {
-    remaining.current = secs;
-    endAt.current = performance.now() + secs * 1000;
-    setLeft(secs); setDone(false); setRunning(true);
+  // Restart, Repeat and Other side put the timer back at full time and wait: you press Start when ready.
+  const reset = (nextSide = 1) => {
+    remaining.current = total;
+    setSide(nextSide); setLeft(total); setDone(false); setRunning(false);
   };
-  const reset = (nextSide = 1) => { setSide(nextSide); begin(total); };
   const togglePause = () => {
     if (running) setRunning(false);
     else { endAt.current = performance.now() + remaining.current * 1000; setRunning(true); }
@@ -95,7 +94,7 @@ function PressBody({ point, onClose, sides, next }: { point: LibraryPoint; onClo
 
   const elapsed = total - left;
   // Screen readers hear three short announcements, not a breath cue every few seconds.
-  const announce = done ? 'Finished.' : elapsed >= total / 2 ? 'Halfway.' : elapsed < 2 ? `Started. ${total} seconds.` : '';
+  const announce = done ? 'Finished.' : elapsed >= total / 2 ? 'Halfway.' : elapsed < 2 && running ? `Started. ${total} seconds.` : '';
   const phase = elapsed % CYCLE;
   const breatheIn = phase < IN;
   const progress = Math.min(1, elapsed / total);
@@ -145,7 +144,7 @@ function PressBody({ point, onClose, sides, next }: { point: LibraryPoint; onClo
             {!done && (
               <div className="mt-4 text-center" role="timer" aria-live="off">
                 <p className="tnum text-5xl font-extrabold tracking-tight">{fmt(left)}</p>
-                <p className="mt-1 text-lg font-bold text-accent-strong">{running ? (breatheIn ? 'Breathe in…' : 'Breathe out…') : 'Paused'}</p>
+                <p className="mt-1 text-lg font-bold text-accent-strong">{running ? (breatheIn ? 'Breathe in…' : 'Breathe out…') : left >= total ? 'Ready' : 'Paused'}</p>
                 <p className="mt-1 text-sm text-ink-2">{sides === 2 ? `Side ${side} of 2 · ` : ''}{tech.how}</p>
               </div>
             )}
@@ -170,7 +169,7 @@ function PressBody({ point, onClose, sides, next }: { point: LibraryPoint; onClo
               <div className="grid grid-cols-[1fr_auto] gap-2.5">
                 <Button onClick={togglePause}>
                   {running ? <Pause size={18} aria-hidden="true" /> : <Play size={18} aria-hidden="true" />}
-                  {running ? 'Pause' : 'Resume'}
+                  {running ? 'Pause' : left >= total ? 'Start' : 'Resume'}
                 </Button>
                 <Button variant="secondary" aria-label="Restart" onClick={() => reset(side)} className="!px-4">
                   <RotateCcw size={18} aria-hidden="true" />
