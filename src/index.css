@@ -1,30 +1,178 @@
 @import "tailwindcss";
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap');
 
-@theme {
-  /* ease brand palette */
-  --color-ivory: #f6f3ec;
-  --color-charcoal: #22302b;
-  --color-charcoal-soft: #2e3d37;
-  --color-clay: #c8734f;
-  --color-clay-dark: #8a4a30;
-  --color-sand: #ede8dc;
-  --color-muted: #5e6660;
-  --color-muted-dark: #9aa39c;
+/* Semantic tokens. Components use the role classes (bg-paper, text-ink, border-line, ...) and never
+   a raw hex, so light/dark and every screen stay in one vocabulary. See docs/design-system.md. */
+:root {
+  color-scheme: light;
+  --paper: #f6f3ec;
+  --card: #fffdf9;
+  --card-2: #ede8dc;
+  --ink: #22302b;
+  --ink-2: #566059;
+  --ink-3: #868e88;
+  --line: rgb(34 48 43 / 0.1);
+  --line-strong: rgb(34 48 43 / 0.2);
 
-  --color-warn-50: #fdecea;
-  --color-warn-500: #d9534f;
-  --color-warn-600: #b8433f;
+  --accent: #c8734f;
+  --accent-strong: #8a4a30;
+  --on-accent: #fff8f1;
+  --accent-tint: #f4e2d7;
 
-  --font-sans: "Manrope", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --ok: #2d6a47;
+  --ok-tint: #e2efe6;
+  --info: #335d7c;
+  --info-tint: #e1ecf4;
+  --caution: #75500a;
+  --caution-tint: #fbefd6;
+  --caution-line: #e6ca90;
+  --stop: #8c2f2c;
+  --stop-tint: #fbe6e3;
+  --stop-line: #e8b4ae;
+
+  --shadow-card: 0 1px 2px rgb(34 48 43 / 0.06), 0 10px 28px -14px rgb(34 48 43 / 0.22);
+  --shadow-pop: 0 2px 4px rgb(34 48 43 / 0.08), 0 24px 48px -16px rgb(34 48 43 / 0.35);
+
+  /* body drawings */
+  --atlas-paper: #fbf8f2;
+  --atlas-skin: #f3d9c4;
+  --atlas-shade: #e6c0a5;
+  --atlas-line: #b58467;
+  --atlas-faint: #d2a88e;
+  --atlas-label: #8a6650;
+  --atlas-hair: #a08572;
+  --atlas-nail: #faede3;
+  --atlas-eye: #ffffff;
 }
 
-html, body, #root {
-  height: 100%;
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --paper: #1a2420;
+    --card: #25322d;
+    --card-2: #2f3e38;
+    --ink: #f2eee5;
+    --ink-2: #b9c1ba;
+    --ink-3: #8b958e;
+    --line: rgb(246 243 236 / 0.1);
+    --line-strong: rgb(246 243 236 / 0.2);
+
+    --accent: #e08a63;
+    --accent-strong: #eba684;
+    --on-accent: #1a2420;
+    --accent-tint: #3d3029;
+
+    --ok: #8fd1a6;
+    --ok-tint: #213a2d;
+    --info: #9cc3e0;
+    --info-tint: #20323f;
+    --caution: #f0d79a;
+    --caution-tint: #3a3220;
+    --caution-line: #6b5830;
+    --stop: #f2a8a1;
+    --stop-tint: #3d2523;
+    --stop-line: #774640;
+
+    --shadow-card: 0 0 0 transparent;
+    --shadow-pop: 0 24px 48px -16px rgb(0 0 0 / 0.6);
+
+    --atlas-paper: #1d2824;
+    --atlas-skin: #4a3b34;
+    --atlas-shade: #5d4a40;
+    --atlas-line: #d1a688;
+    --atlas-faint: #86705f;
+    --atlas-label: #dcbfa8;
+    --atlas-hair: #2a211d;
+    --atlas-nail: #6d584b;
+    --atlas-eye: #e9e1d6;
+  }
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-card: var(--card);
+  --color-card-2: var(--card-2);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-ink-3: var(--ink-3);
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+  --color-accent: var(--accent);
+  --color-accent-strong: var(--accent-strong);
+  --color-on-accent: var(--on-accent);
+  --color-accent-tint: var(--accent-tint);
+  --color-ok: var(--ok);
+  --color-ok-tint: var(--ok-tint);
+  --color-info: var(--info);
+  --color-info-tint: var(--info-tint);
+  --color-caution: var(--caution);
+  --color-caution-tint: var(--caution-tint);
+  --color-caution-line: var(--caution-line);
+  --color-stop: var(--stop);
+  --color-stop-tint: var(--stop-tint);
+  --color-stop-line: var(--stop-line);
+  --color-atlas-paper: var(--atlas-paper);
+
+  --font-sans: "Manrope Variable", "Manrope", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --shadow-card: var(--shadow-card);
+  --shadow-pop: var(--shadow-pop);
+  --radius-card: 1.25rem;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
 }
 
 body {
-  @apply bg-ivory text-charcoal dark:bg-charcoal dark:text-ivory;
+  background: var(--paper);
+  color: var(--ink);
   font-family: var(--font-sans);
+  font-feature-settings: "ss01", "cv11";
   -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+  text-rendering: optimizeLegibility;
 }
+
+/* Codes and counts line up in lists. */
+.tnum {
+  font-variant-numeric: tabular-nums;
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent-strong);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+/* Breathing dot (guided press). Respect reduced motion. */
+@keyframes ease-breathe {
+  0%, 100% { transform: scale(0.72); }
+  40% { transform: scale(1.08); }
+}
+@keyframes ease-ring {
+  0% { transform: scale(0.8); opacity: 0.55; }
+  100% { transform: scale(1.5); opacity: 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+/* Hide scrollbars on horizontal chip rows. */
+.no-scrollbar { scrollbar-width: none; }
+.no-scrollbar::-webkit-scrollbar { display: none; }
+
+/* Handout photos are pure white; soften them at night (migraine and photophobia friendly). */
+@media (prefers-color-scheme: dark) {
+  .photo { filter: brightness(0.86) contrast(1.02); }
+}
+
+/* Tab bar tucks away on scroll down; the floating press bar drops to the bottom with it. */
+.tabbar { transition: transform 0.25s ease; }
+:root[data-nav='hidden'] .tabbar { transform: translateY(calc(100% + env(safe-area-inset-bottom))); }
+.pressbar { bottom: calc(3.5rem + env(safe-area-inset-bottom)); transition: bottom 0.25s ease, padding-bottom 0.25s ease; }
+:root[data-nav='hidden'] .pressbar { bottom: 0; padding-bottom: calc(0.625rem + env(safe-area-inset-bottom)); }

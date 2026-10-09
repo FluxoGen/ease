@@ -9,6 +9,8 @@ export interface Routine {
   /** Every point in the routine: core first, then library points tagged for it. */
   pointIds: string[];
   sourceUrl?: string;
+  /** Show the urgent-care line (symptoms that can occasionally be serious). */
+  urgent: boolean;
 }
 
 interface RoutineDef {
@@ -18,6 +20,8 @@ interface RoutineDef {
   core?: string[];
   sourceUrl?: string;
 }
+
+const URGENT = new Set(['headache', 'neck_pain', 'nausea', 'digestive_health', 'cough_breathing', 'cold_flu', 'menstrual_cramps']);
 
 const DEFS: RoutineDef[] = [
   { id: 'low_back_pain', title: 'Low Back', description: 'Points traditionally used for low back discomfort.', core: ['si4', 'ear_low_back_zone', 'ub_low_back_lines', 'bl40', 'bl57'], sourceUrl: 'https://www.va.gov/files/2021-12/4309_Acupressure_For_Back_Pain.pdf' },
@@ -65,7 +69,7 @@ export const routines: Routine[] = DEFS.map((d) => {
     .filter((p) => usable(p) && p.tags.includes(d.id) && !core.includes(p.id))
     .sort((a, b) => rank(a, d.id) - rank(b, d.id))
     .map((p) => p.id);
-  return { id: d.id, title: d.title, description: d.description, core, pointIds: [...core, ...tagged], sourceUrl: d.sourceUrl };
+  return { id: d.id, title: d.title, description: d.description, core, pointIds: [...core, ...tagged], sourceUrl: d.sourceUrl, urgent: URGENT.has(d.id) };
 }).filter((r) => r.pointIds.length >= MIN_POINTS);
 
 export const routinesById: Record<string, Routine> = Object.fromEntries(routines.map((r) => [r.id, r]));

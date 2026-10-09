@@ -60,6 +60,25 @@ python3 scripts/assemble_library.py && python3 scripts/check_library.py
 Signed-off points show "Reviewed by …" in the app; rejected ones become "References differ" with the
 reviewer's note. Regenerate the sheet with `python3 scripts/review_sheet.py > sources/review/acupuncturist-review.csv`.
 
+## Design
+
+The UI follows one token system (`src/index.css`, spec in [`docs/design-system.md`](docs/design-system.md)):
+semantic color roles that switch with light/dark, so no component hard-codes a color.
+
+- **Home:** one search (symptoms, body parts, point names/codes, everyday phrases), six popular
+  symptoms, a "Tap where it hurts" body-map entry, and the rest of the symptoms grouped under six headings.
+- **Body map (`/map`):** a tappable body figure (front/back); tapping an area shows its common
+  symptoms and every point there.
+- **Point page:** picture first, then "Find it", then a one-tap **guided press**: a full-screen timer
+  where the logo's dot breathes (4 s in, 6 s out), with side switching and a "next point" hand-off.
+  On phones the Start button floats above the tab bar so the main action is always in reach.
+- **Navigation:** bottom tab bar on phones (Home, Body, Search, Safety), top nav on desktop. The clay
+  dot over the active tab is the logo's acupoint.
+- **Color meaning:** green = matches WHO standard, blue = cross-checked references, amber = caution,
+  rose = reference only / do not self-press. Same chips on the point page and the Safety legend.
+
+`npm run check` runs the library rules check and the WCAG contrast check on the tokens.
+
 ## History
 
 The notes below record how the app got here.
