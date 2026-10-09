@@ -12,8 +12,9 @@ The work runs in phases. A phase only starts when the previous phase's **gate** 
 | 1. Research | Per channel batch, write one record per point: lay location, placement spec, technique, safety, indications, sources. | author agents | Schema check passes; ≥1 independent source per point besides WHO; ≥2 sources for every indication |
 | 2. Verify | A different agent re-checks every record against the WHO entry and a fresh source, without seeing the author's sources first. | verifier agents (different model) | Every disagreement resolved or the point is marked `disputed` |
 | 3. Place | A deterministic placer turns each placement spec into a dot on a region drawing. | lead (code) | Every point renders inside its drawing; a visual sweep of every crop finds no misplaced dot |
-| 4. Assemble | Merge into `src/data`, dedupe text into shared tables, map indications to symptom routines. | lead | Type check, lint, build, and data-consistency checks pass |
+| 4. Assemble | `scripts/assemble_library.py` merges records into `src/data/library/points.json`, applies verifier fixes, `lead_fixes.json` and `positions.json`, dedupes text into shared tables, maps indications to tags. `scripts/unit_audit.py` checks cun vs finger/hand wording. | lead | `check_library.py`, `npx tsc -b`, lint and build pass |
 | 5. Ship | Browser test on phone width, light and dark; PR. | lead | No console errors; deep links work; PR merged |
+| 6. Review (open) | Licensed acupuncturist signs off via `sources/review/acupuncturist-review.csv` and `scripts/import_review.py`. | human | Not done yet; app says so on the Safety page |
 
 ## Anti-hallucination rules
 
@@ -66,9 +67,14 @@ One of:
 Landmark and line ids are listed in `placement-vocab.json`.
 
 ### Symptom tags: `tags`
-Existing: `low_back_pain`, `headache`, `neck_pain`, `sleep`, `well_being`, `nausea`,
-`stress_anxiety`, `menstrual_cramps`, `cold_flu`, `energy_fatigue`, `upper_back`,
-`shoulder_tension`, `eye_strain`, `ear_hearing`, `digestive_health`, `hand_wrist_strain`,
-`foot_ankle_strain`.
-Candidates (a routine is only created if enough well-sourced points land in it): `toothache_jaw`,
-`nose_sinus`, `cough_breathing`, `knee_pain`, `hip_leg_pain`, `constipation`.
+22 tags are in use, each with a routine (23 routines in total; `well_being` is the VA-handout routine and has no
+automatic tag): `low_back_pain`, `headache`, `neck_pain`, `sleep`, `nausea`, `stress_anxiety`,
+`menstrual_cramps`, `cold_flu`, `energy_fatigue`, `upper_back`, `shoulder_tension`, `eye_strain`, `ear_hearing`,
+`digestive_health`, `constipation`, `toothache_jaw`, `nose_sinus`, `cough_breathing`, `hand_wrist_strain`,
+`knee_pain`, `hip_leg_pain`, `foot_ankle_strain`. A routine is only shown if it has at least 3 points.
+Tags come from the `TAG_RULES` keyword table in `assemble_library.py`, never typed by hand per point.
+
+## Files the assembler reads
+`sources/library-research/`: `authors/*.json` (phase 1), `verify/V1-V9` (phase 2), `positions.json` (hand-checked
+dots), `lead_fixes.json`, `pregnancy_audit.json`, `caution_check.json`, `verify_ex_units.json`; plus
+`review.json` (written by `import_review.py`) once a reviewer signs off.
