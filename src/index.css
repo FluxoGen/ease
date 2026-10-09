@@ -110,8 +110,12 @@
     @slot;
   }
 }
-/* Short screens: let the header scroll away instead of pinning it. */
-@media (max-height: 31.25rem) { header.sticky { position: static; } }
+/* App layout (Android app): utilities like app:hidden apply only under <html data-app>. */
+@custom-variant app (&:where([data-app] *));
+@custom-variant web (&:where(:root:not([data-app]) *));
+
+/* Short screens on the website: let the header scroll away instead of pinning it. */
+@media (max-height: 31.25rem) { :root:not([data-app]) header.sticky { position: static; } }
 
 @theme inline {
   --color-paper: var(--paper);
@@ -207,3 +211,46 @@ body {
 
 /* A single very long word (large text on a small phone) breaks instead of pushing the page sideways. */
 h1, h2, h3 { overflow-wrap: anywhere; }
+
+/* ---- App layout (only under <html data-app>) ---- */
+:root[data-app] {
+  overscroll-behavior: none;
+  --nav-h: 5rem;
+}
+/* An app is not a document: no text selection or long-press menus, except where you type or copy. */
+[data-app] body {
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+}
+[data-app] input, [data-app] textarea, [data-app] .selectable {
+  -webkit-user-select: text;
+  user-select: text;
+}
+[data-app] img { -webkit-user-drag: none; }
+
+/* Screen transitions: forward slides in, back and tab switches fade. */
+@keyframes app-push { from { opacity: 0; transform: translateX(28px); } to { opacity: 1; transform: none; } }
+@keyframes app-pop { from { opacity: 0; transform: translateX(-18px); } to { opacity: 1; transform: none; } }
+@keyframes app-fade { from { opacity: 0; } to { opacity: 1; } }
+@keyframes app-sheet { from { transform: translateY(100%); } to { transform: none; } }
+/* `backwards`, not `both`: once finished the wrapper must hold no transform, or it becomes the containing block for fixed bars. */
+.app-screen { animation: app-fade 0.18s ease-out backwards; }
+.app-screen.push { animation: app-push 0.24s cubic-bezier(0.2, 0.8, 0.2, 1) backwards; }
+.app-screen.pop { animation: app-pop 0.2s cubic-bezier(0.2, 0.8, 0.2, 1) backwards; }
+.app-sheet { animation: app-sheet 0.26s cubic-bezier(0.2, 0.8, 0.2, 1) both; }
+
+/* Touch ripple (see initRipple in src/native.ts). */
+.app-ripple { position: fixed; overflow: hidden; pointer-events: none; z-index: 60; contain: strict; }
+.app-ripple > i { position: absolute; border-radius: 50%; background: currentColor; opacity: 0.14; transform: scale(0); animation: app-ripple-grow 0.5s cubic-bezier(0.2, 0.6, 0.2, 1) forwards; }
+.app-ripple.out { transition: opacity 0.3s ease; opacity: 0; }
+@keyframes app-ripple-grow { to { transform: scale(1); } }
+
+/* Detail screens (point, routine) use a bottom action bar instead of the navigation bar. */
+[data-app] .pressbar { bottom: 0; padding-bottom: calc(0.75rem + env(safe-area-inset-bottom)); }
+
+/* Short landscape phones: a slimmer action bar. */
+@media (max-height: 31.25rem) {
+  [data-app] .pressbar { padding-top: 0.5rem; padding-bottom: calc(0.5rem + env(safe-area-inset-bottom)); }
+  [data-app] .pressbar a, [data-app] .pressbar button { min-height: 3rem; }
+}

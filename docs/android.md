@@ -37,6 +37,30 @@ cd android && ./gradlew assembleDebug        # app/build/outputs/apk/debug/app-d
 adb install -r app/build/outputs/apk/debug/app-debug.apk
 ```
 
+## The app layout (not the website)
+
+In the app the UI is a dedicated layout, not the website in a wrapper. It is switched on by `isApp` in
+`src/native.ts` (always on in the Android app; in `npm run dev` add `?app=1` to preview it in a browser; never on in a
+production website build). `<html data-app>` is set before the first render, and the Tailwind `app:` variant
+(`src/index.css`) applies only under it, so the website's classes and behaviour are unchanged.
+
+| Website | App |
+|---|---|
+| Logo header on every page, big page headings | Top app bar: logo on Home, a title on each tab, a back arrow on detail screens (the title fades in when you scroll) |
+| Dot-style tab bar that hides on scroll; desktop top nav | Material navigation bar with a pill indicator; a rail on tablets and in landscape; hidden on detail screens |
+| "‹ Home" text link, footer with links | System-style back arrow; no footer (About, version and feedback live on Safety) |
+| Cards with their own borders | One rounded surface per list, with dividers |
+| Inline "Start routine / Start press" buttons | Bottom action bar on detail screens |
+| Body-map result under the figure; `<select>` for channels | Bottom sheets (body-map result, channel filter, pregnancy question) |
+| Hover and focus styles | Touch ripple, press states, no text selection, no overscroll glow |
+| Pages swap instantly | Short slide/fade transitions (none for reduced motion) |
+
+Code: `src/components/app/` (`AppChrome.tsx` bar and nav, `barContext.ts`, `ChannelSheet.tsx`), `AppLayout` in
+`src/App.tsx`, `initRipple` in `src/native.ts`. A detail screen gives the bar its title with `<AppBarTitle>`.
+System back also closes a bottom sheet (`data-back-closes`) before leaving the screen.
+
+Known limit: on a landscape phone (about 400 px tall) the point screen is cramped but scrollable.
+
 ## What is native, and where
 
 | Concern | How | Where |

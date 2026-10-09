@@ -5,6 +5,7 @@ import type { LibraryPoint } from '../data/library';
 import { AREAS } from '../data/library/areas';
 import { badgeText } from '../data/library/format';
 import Chip from './ui/Chip';
+import { GROUPED_ROW } from './ui/list';
 
 interface PointRowProps {
   point: LibraryPoint;
@@ -21,7 +22,7 @@ export default function PointRow({ point: p, state }: PointRowProps) {
     <Link
       to={`/point/${p.id}`}
       state={state}
-      className="group flex min-w-0 items-center gap-3 rounded-2xl border border-line bg-card p-2.5 pr-3 shadow-card transition active:scale-[0.99] md:hover:border-line-strong"
+      className={`group flex min-w-0 items-center gap-3 rounded-2xl border border-line bg-card p-2.5 pr-3 shadow-card transition active:scale-[0.99] md:hover:border-line-strong app:p-3 ${GROUPED_ROW}`}
     >
       <span className={`tnum grid h-12 w-16 max-w-[30%] shrink place-items-center overflow-hidden text-ellipsis rounded-xl text-[12px] font-extrabold ${p.selfCare === 'avoid' ? 'bg-stop-tint text-stop' : blocked ? 'bg-caution-tint text-caution' : 'bg-card-2 text-ink'}`}>
         {badgeText(p)}

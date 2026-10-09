@@ -6,6 +6,7 @@ import PointRow from '../components/PointRow';
 import { POPULAR, ROUTINE_ICONS, SYMPTOM_GROUPS, routineList } from '../data/groups';
 import { search } from '../data/search';
 import { routinesById, type Routine } from '../data/routines';
+import { GROUPED_LIST } from '../components/ui/list';
 import { usePageTitle } from '../hooks/usePageTitle';
 
 function SymptomTile({ r, big }: { r: Routine; big?: boolean }) {
@@ -49,14 +50,14 @@ export default function Home() {
 
   return (
     <div>
-      <h1 className="text-[32px] font-extrabold leading-[1.1] tracking-tight md:text-5xl">
+      <h1 className="text-[32px] font-extrabold leading-[1.1] tracking-tight md:text-5xl app:mt-1 app:text-[26px]">
         What's <span className="text-accent-strong">bothering</span> you?
       </h1>
-      <p className="mt-2 max-w-lg text-[15px] leading-relaxed text-ink-2 md:text-base">
+      <p className="mt-2 max-w-lg text-[15px] leading-relaxed text-ink-2 md:text-base app:hidden">
         Find the right pressure points, fast. Search a symptom, a body part or a point name.
       </p>
 
-      <div className="relative mt-5 max-w-2xl">
+      <div className="relative mt-5 max-w-2xl app:mt-4">
         <Search size={20} className="pointer-events-none absolute left-4 top-1/2 -translate-y-1/2 text-ink-2" aria-hidden="true" />
         <input
           ref={input}
@@ -66,7 +67,7 @@ export default function Home() {
           placeholder="Search “headache”, “LI4”…"
           aria-label="Search symptoms and points"
           enterKeyHint="search"
-          className="h-14 w-full rounded-2xl border border-line-strong bg-card pl-12 pr-12 text-base font-medium text-ink shadow-card outline-none placeholder:text-ink-2 focus:border-accent focus:ring-4 focus:ring-accent/15 [&::-webkit-search-cancel-button]:hidden"
+          className="h-14 w-full rounded-2xl border border-line-strong bg-card pl-12 pr-12 text-base font-medium text-ink shadow-card outline-none placeholder:text-ink-2 focus:border-accent focus:ring-4 focus:ring-accent/15 app:rounded-full app:border-transparent app:bg-card-2 app:shadow-none app:focus:ring-2 [&::-webkit-search-cancel-button]:hidden"
         />
         {searching && (
           <button
@@ -91,7 +92,7 @@ export default function Home() {
           {result.points.length > 0 && (
             <section>
               <h2 className="mb-2 text-xs font-bold uppercase tracking-wider text-ink-2">Points</h2>
-              <div className="flex flex-col gap-2">{result.points.map((p) => <PointRow key={p.id} point={p} state={{ fromHome: true }} />)}</div>
+              <div className={GROUPED_LIST}>{result.points.map((p) => <PointRow key={p.id} point={p} state={{ fromHome: true }} />)}</div>
               {result.totalPoints > result.points.length && (
                 <Link to={`/points?q=${encodeURIComponent(q.trim())}`} className="mt-3 inline-flex min-h-11 items-center gap-1.5 text-sm font-bold text-accent-strong">
                   See all {result.totalPoints} matching points <ArrowRight size={16} aria-hidden="true" />
@@ -117,7 +118,7 @@ export default function Home() {
 
           <Link
             to="/map"
-            className="relative mt-8 flex flex-wrap items-center gap-x-5 gap-y-3 overflow-hidden rounded-[var(--radius-card)] border border-line bg-accent-tint p-5 transition active:scale-[0.99] md:p-7"
+            className="relative mt-8 app:mt-6 flex flex-wrap items-center gap-x-5 gap-y-3 overflow-hidden rounded-[var(--radius-card)] border border-line bg-accent-tint p-5 transition active:scale-[0.99] md:p-7"
           >
             <BodyFigure view="front" className="h-36 w-auto shrink-0 md:h-44" />
             <span className="min-w-[min(11rem,100%)] flex-1">

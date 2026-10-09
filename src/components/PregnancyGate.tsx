@@ -20,8 +20,9 @@ export default function PregnancyGate({ open }: { open: boolean }) {
   return (
     <Dialog open={open} onClose={() => {}} transition className="relative z-40" {...{ [BLOCKING_DIALOG]: '' }}>
       <div className="fixed inset-0 bg-black/50 backdrop-blur-sm transition-opacity duration-200 data-closed:opacity-0" aria-hidden="true" />
-      <div className="fixed inset-0 flex items-end justify-center p-3 sm:items-center sm:p-4">
-        <DialogPanel className="w-full max-w-sm rounded-[28px] border border-line bg-card p-6 shadow-pop transition duration-200 ease-out data-closed:translate-y-6 data-closed:opacity-0 sm:data-closed:translate-y-0 sm:data-closed:scale-95">
+      <div className="fixed inset-0 flex items-end justify-center p-3 sm:items-center sm:p-4 app:p-0">
+        <DialogPanel className="w-full max-w-sm rounded-[28px] border border-line bg-card p-6 shadow-pop transition duration-200 ease-out data-closed:translate-y-6 data-closed:opacity-0 sm:data-closed:translate-y-0 sm:data-closed:scale-95 app:max-w-lg app:rounded-b-none app:border-x-0 app:border-b-0 app:px-5 app:pb-[calc(1.5rem+env(safe-area-inset-bottom))] app:pt-3 app:data-closed:translate-y-full app:data-closed:opacity-100">
+          <div className="mx-auto mb-4 hidden h-1.5 w-10 rounded-full bg-line-strong app:block" aria-hidden="true" />
           <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-2xl bg-caution-tint text-caution">
             <Baby size={26} aria-hidden="true" />
           </div>

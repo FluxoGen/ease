@@ -1,11 +1,13 @@
 import { AlertTriangle, BadgeCheck, Check, Hand, Info, Lock, Scale, ShieldAlert, type LucideIcon } from 'lucide-react';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import { toast } from 'sonner';
 import Chip, { type ChipTone } from '../components/ui/Chip';
 import { usePregnancy } from '../context/PregnancyContext';
 import { library } from '../data/library';
 import { PRIVACY_URL, REVIEW_STATEMENT, TERMS_URL, URGENT_SIGNS } from '../data/library/shared';
+import fluxogenMark from '../assets/fluxogen-mark.png';
+import { appVersion, isApp } from '../native';
 import { usePageTitle } from '../hooks/usePageTitle';
 
 const PREGNANCY_POINTS = library.filter((p) => p.pregnancy && p.selfCare !== 'avoid').length;
@@ -69,10 +71,10 @@ export default function Safety() {
 
   return (
     <div className="max-w-3xl">
-      <h1 className="text-[28px] font-extrabold leading-tight tracking-tight md:text-4xl">Safety</h1>
-      <p className="mt-1 text-[15px] text-ink-2">A minute here helps you use every point safely.</p>
+      <h1 className="text-[28px] font-extrabold leading-tight tracking-tight md:text-4xl app:sr-only">Safety</h1>
+      <p className="mt-1 text-[15px] text-ink-2 app:mt-0">A minute here helps you use every point safely.</p>
 
-      <div className="mt-6 space-y-4">
+      <div className="mt-6 space-y-4 app:mt-4">
         <Card title="Pregnancy" icon={ShieldAlert} tone="caution">
           <p>
             <span className="tnum">{PREGNANCY_POINTS}</span> points are traditionally avoided during pregnancy, mostly on the lower belly and
@@ -141,7 +143,31 @@ export default function Safety() {
             <a href={TERMS_URL} target="_blank" rel="noreferrer" className="inline-flex min-h-11 items-center font-semibold text-accent-strong underline underline-offset-2">Terms of use</a>
           </p>
         </Card>
+
+        {isApp && <AboutCard />}
       </div>
     </div>
+  );
+}
+
+/** App only: who makes it and which version this is (the website has a footer for this). */
+function AboutCard() {
+  const [version, setVersion] = useState<string | null>(null);
+  useEffect(() => { appVersion().then(setVersion); }, []);
+  return (
+    <section aria-labelledby="about" className="rounded-[var(--radius-card)] border border-line bg-card p-5 shadow-card">
+      <div className="flex items-center gap-3">
+        <img src={fluxogenMark} alt="" width={40} height={40} className="h-10 w-10 shrink-0" />
+        <div>
+          <h2 id="about" className="text-lg font-extrabold leading-tight tracking-tight">Ease</h2>
+          <p className="text-sm text-ink-2">A product of FluxoGen{version ? ` · v${version}` : ''}</p>
+        </div>
+      </div>
+      <p className="mt-3 text-[13px] leading-relaxed text-ink-2">
+        Photos adapted from public-domain U.S. VA handouts; other illustrations are original. Wellness education only, not medical advice.
+        © 2026 FluxoGen. All rights reserved.
+      </p>
+      <a href={`mailto:fluxogentechnologies@gmail.com?subject=Ease%20feedback`} className="mt-2 inline-flex min-h-11 items-center font-semibold text-accent-strong underline underline-offset-2">Send feedback</a>
+    </section>
   );
 }

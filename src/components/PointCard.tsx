@@ -4,6 +4,7 @@ import { usePregnancy } from '../context/PregnancyContext';
 import type { LibraryPoint } from '../data/library';
 import PointPicture from './PointPicture';
 import Chip from './ui/Chip';
+import { GROUPED_ROW } from './ui/list';
 
 interface PointCardProps {
   point: LibraryPoint;
@@ -19,7 +20,7 @@ export default function PointCard({ point: p, step, state }: PointCardProps) {
     <Link
       to={`/point/${p.id}`}
       state={state}
-      className="group flex min-w-0 items-center gap-3 rounded-[var(--radius-card)] border border-line bg-card p-3 shadow-card transition active:scale-[0.99] md:hover:border-line-strong"
+      className={`group flex min-w-0 items-center gap-3 rounded-[var(--radius-card)] border border-line bg-card p-3 shadow-card transition active:scale-[0.99] md:hover:border-line-strong ${GROUPED_ROW}`}
     >
       <span className="relative h-[4.5rem] w-[4.5rem] shrink-0 overflow-hidden rounded-2xl bg-atlas-paper">
         <PointPicture point={p} compact className={`h-full w-full ${blocked ? 'blur-md grayscale' : ''}`} />

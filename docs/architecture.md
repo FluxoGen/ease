@@ -116,7 +116,7 @@ The same build runs in an Android WebView through Capacitor 8, served from the A
 (`npm run build:native` drops the service worker). `src/native.ts` holds all native glue and is a no-op on the
 web: back button, external links to the browser, keep-awake during a press, the pregnancy answer mirrored to
 SharedPreferences, splash, and live light/dark. The manifest removes the INTERNET permission and turns off
-backup. Details: [android.md](android.md).
+backup. The app has its own layout (app bar, navigation bar or rail, bottom sheets, ripple, transitions), enabled by `<html data-app>` and the `app:` Tailwind variant, so the website is untouched. Details: [android.md](android.md).
 
 ## 4. Placement engine (pictures)
 

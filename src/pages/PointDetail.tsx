@@ -2,6 +2,7 @@ import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react
 import { AlertTriangle, ArrowRight, BadgeCheck, ChevronDown, ChevronLeft, Hand, Info, Scale, ShieldAlert, Timer } from 'lucide-react';
 import { useState } from 'react';
 import { Link, Navigate, useLocation, useParams } from 'react-router-dom';
+import { AppBarTitle } from '../components/app/AppChrome';
 import { VIEWS } from '../components/atlas/geometry';
 import PointPicture from '../components/PointPicture';
 import PressSheet from '../components/PressSheet';
@@ -24,7 +25,7 @@ const EVIDENCE: Record<string, { icon: typeof BadgeCheck; tone: ChipTone; text: 
 function Section({ title, children }: { title: string; children: React.ReactNode }) {
   return (
     <section className="mt-7">
-      <h2 className="mb-2 text-xs font-bold uppercase tracking-wider text-ink-2">{title}</h2>
+      <h2 className="mb-2 text-xs font-bold uppercase tracking-wider text-ink-2 app:text-sm app:font-semibold app:normal-case app:tracking-normal">{title}</h2>
       {children}
     </section>
   );
@@ -66,14 +67,15 @@ export default function PointDetail() {
 
   return (
     <div>
-      <Link to={back.to} className="-ml-2 mb-2 inline-flex min-h-11 items-center gap-1 rounded-full px-2 text-sm font-semibold text-ink-2 hover:text-ink">
+      <AppBarTitle title={`${point.code} ${point.pinyin}`} backTo={back.to} />
+      <Link to={back.to} className="-ml-2 mb-2 app:hidden inline-flex min-h-11 items-center gap-1 rounded-full px-2 text-sm font-semibold text-ink-2 hover:text-ink">
         <ChevronLeft size={18} aria-hidden="true" />
         {back.label}
       </Link>
 
       <header>
         <div className="flex flex-wrap items-baseline gap-x-3">
-          <h1 className="tnum text-[44px] font-extrabold leading-none tracking-tight lg:text-6xl">{point.code}</h1>
+          <h1 className="tnum text-[44px] font-extrabold leading-none tracking-tight lg:text-6xl app:selectable app:text-[38px] [@media(max-height:31.25rem)]:text-[32px]">{point.code}</h1>
           <p className="text-lg font-semibold text-ink-2">{point.pinyin}</p>
         </div>
         <p className="mt-1.5 text-[15px] text-ink-2">{[point.english, CHANNELS[point.channel] + (point.channel === 'EX' ? '' : ' channel')].filter(Boolean).join(' · ')}</p>
@@ -95,8 +97,8 @@ export default function PointDetail() {
         </div>
       )}
 
-      <div className="mt-5 lg:grid lg:grid-cols-[minmax(0,26rem)_1fr] lg:items-start lg:gap-10">
-        <div className="lg:sticky lg:top-24">
+      <div className="mt-5 lg:grid lg:grid-cols-[minmax(0,26rem)_1fr] lg:items-start lg:gap-10 wide:app:grid wide:app:grid-cols-[minmax(0,20rem)_1fr] wide:app:items-start wide:app:gap-8">
+        <div className="lg:sticky lg:top-24 wide:app:sticky wide:app:top-16">
           {blocked ? (
             <div className="rounded-[var(--radius-card)] border border-caution-line bg-caution-tint p-5 text-caution">
               <div className="flex items-center gap-2 font-extrabold"><ShieldAlert size={20} aria-hidden="true" /> Hidden in pregnancy mode</div>
@@ -108,7 +110,7 @@ export default function PointDetail() {
               </button>
             </div>
           ) : (
-            <figure className="overflow-hidden rounded-[var(--radius-card)] border border-line bg-atlas-paper shadow-card">
+            <figure className="overflow-hidden rounded-[var(--radius-card)] border border-line bg-atlas-paper shadow-card app:-mx-4 app:rounded-b-[28px] app:rounded-t-none app:border-x-0 app:border-t-0 app:shadow-none wide:app:mx-0 wide:app:rounded-[var(--radius-card)] wide:app:border">
               <figcaption className="flex flex-wrap items-center justify-between gap-2 px-4 pt-3 text-xs font-bold uppercase tracking-wider text-ink-2">
                 <span>{hasPhoto && !showDrawing ? 'Photo · VA handout' : VIEWS[point.view].label}</span>
                 {hasPhoto && (
@@ -121,12 +123,12 @@ export default function PointDetail() {
                   </span>
                 )}
               </figcaption>
-              <PointPicture point={point} drawing={showDrawing} className={`mx-auto my-3 aspect-square w-full max-w-[22rem] ${hasPhoto && !showDrawing ? 'photo rounded-2xl bg-white p-2' : ''}`} />
+              <PointPicture point={point} drawing={showDrawing} className={`mx-auto my-3 aspect-square w-full max-w-[22rem] [@media(max-height:31.25rem)]:max-w-[12rem] ${hasPhoto && !showDrawing ? 'photo rounded-2xl bg-white p-2' : ''}`} />
             </figure>
           )}
 
           {canPress && (
-            <div className="mt-3 hidden rounded-[var(--radius-card)] border border-line bg-card p-4 shadow-card wide:block">
+            <div className="mt-3 hidden rounded-[var(--radius-card)] border border-line bg-card p-4 shadow-card web:wide:block">
               <div className="flex items-center gap-3">
                 <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-accent-tint text-accent-strong"><Timer size={22} aria-hidden="true" /></span>
                 <div className="min-w-0">
@@ -141,7 +143,7 @@ export default function PointDetail() {
 
         <div>
           <Section title="Find it">
-            <p className="text-[19px] font-medium leading-relaxed text-ink">{point.find}</p>
+            <p className="text-[19px] font-medium leading-relaxed text-ink app:text-[18px] app:leading-7">{point.find}</p>
           </Section>
 
           {point.selfCare !== 'avoid' && !blocked && point.cautions.length > 0 && (
@@ -227,8 +229,8 @@ export default function PointDetail() {
 
       {canPress && (
         <>
-          <div className="h-16 wide:hidden" aria-hidden="true" />
-          <div className="pressbar fixed inset-x-0 z-20 border-t border-line bg-paper/97 px-4 py-2.5 backdrop-blur-xl wide:hidden">
+          <div className="h-16 web:wide:hidden" aria-hidden="true" />
+          <div className="pressbar fixed inset-x-0 z-20 border-t border-line bg-paper/97 px-4 py-2.5 backdrop-blur-xl web:wide:hidden">
             <div className="mx-auto flex max-w-md items-center gap-3">
               <div className="min-w-0 flex-1">
                 <p className="truncate text-[15px] font-extrabold leading-tight">{tech.label}</p>

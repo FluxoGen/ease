@@ -10,7 +10,9 @@ import Chip from './components/ui/Chip';
 import { PregnancyContext } from './context/PregnancyContext';
 import { NAV, type NavState } from './data/nav';
 import { usePregnancyStatus } from './hooks/usePregnancyStatus';
-import { initNative } from './native';
+import { AppBar, AppNav, BarProvider } from './components/app/AppChrome';
+import { isDetail } from './components/app/barContext';
+import { initNative, isApp } from './native';
 
 export default function App() {
   const { status, setStatus } = usePregnancyStatus();
@@ -33,6 +35,10 @@ export default function App() {
   useEffect(() => {
     if (navType !== 'POP') window.scrollTo(0, 0);
   }, [pathname, navType]);
+
+  if (isApp) {
+    return <AppLayout status={status} setStatus={setStatus} />;
+  }
 
   return (
     <PregnancyContext.Provider value={{ status, setStatus }}>
@@ -80,6 +86,33 @@ export default function App() {
         <BottomNav />
       </div>
       <Toaster position="top-center" closeButton offset={72} toastOptions={{ className: '!rounded-2xl !border !border-line !bg-card !text-ink !shadow-pop' }} />
+    </PregnancyContext.Provider>
+  );
+}
+
+/** The Android app layout: app bar on top, navigation bar below, no website header or footer. */
+function AppLayout({ status, setStatus }: { status: ReturnType<typeof usePregnancyStatus>['status']; setStatus: ReturnType<typeof usePregnancyStatus>['setStatus'] }) {
+  const { pathname } = useLocation();
+  const navType = useNavigationType();
+  const detail = isDetail(pathname);
+  // Tab to tab fades; opening a detail screen slides in; going back slides out.
+  const motion = navType === 'POP' ? 'pop' : navType === 'PUSH' && detail ? 'push' : '';
+
+  return (
+    <PregnancyContext.Provider value={{ status, setStatus }}>
+      <BarProvider>
+        <div className={`flex min-h-dvh flex-col ${detail ? '' : 'wide:pl-20'}`}>
+          <AppBar status={status} />
+          <PregnancyGate open={status === 'unset'} />
+          <main className={`mx-auto w-full max-w-3xl flex-1 px-4 pt-2 ${detail ? 'pb-8' : 'pb-[calc(var(--nav-h)+1.5rem)] wide:pb-8'}`}>
+            <div key={pathname} className={`app-screen ${motion}`}>
+              <Outlet />
+            </div>
+          </main>
+          {!detail && <AppNav />}
+        </div>
+        <Toaster position="bottom-center" closeButton offset={detail ? 96 : 104} toastOptions={{ className: '!rounded-2xl !border !border-line !bg-card !text-ink !shadow-pop' }} />
+      </BarProvider>
     </PregnancyContext.Provider>
   );
 }

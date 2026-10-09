@@ -1,10 +1,12 @@
 import { ChevronDown, ChevronLeft, ExternalLink, Play, ShieldAlert } from 'lucide-react';
 import { useState } from 'react';
 import { Link, Navigate, useParams } from 'react-router-dom';
+import { AppBarTitle } from '../components/app/AppChrome';
 import PointCard from '../components/PointCard';
 import PointRow from '../components/PointRow';
 import Chip from '../components/ui/Chip';
 import { LinkButton } from '../components/ui/Button';
+import { GROUPED_LIST } from '../components/ui/list';
 import { usePregnancy } from '../context/PregnancyContext';
 import { ROUTINE_ICONS } from '../data/groups';
 import { libraryById, sidesOf } from '../data/library';
@@ -35,7 +37,8 @@ export default function RoutineDetail() {
 
   return (
     <div className="max-w-3xl">
-      <Link to="/" className="-ml-2 mb-2 inline-flex min-h-11 items-center gap-1 rounded-full px-2 text-sm font-semibold text-ink-2 hover:text-ink">
+      <AppBarTitle title={routine.title} backTo="/" />
+      <Link to="/" className="-ml-2 mb-2 app:hidden inline-flex min-h-11 items-center gap-1 rounded-full px-2 text-sm font-semibold text-ink-2 hover:text-ink">
         <ChevronLeft size={18} aria-hidden="true" />
         Home
       </Link>
@@ -59,7 +62,7 @@ export default function RoutineDetail() {
       </header>
 
       {first && (
-        <div className="mt-5">
+        <div className="mt-5 app:hidden">
           <LinkButton to={`/point/${first.id}`} state={state} className="w-full sm:w-auto">
             <Play size={18} aria-hidden="true" /> Start routine
           </LinkButton>
@@ -78,7 +81,7 @@ export default function RoutineDetail() {
 
       <section className="mt-8" aria-labelledby="steps">
         <h2 id="steps" className="mb-3 text-lg font-extrabold tracking-tight">Start here</h2>
-        <div className="grid gap-3 sm:grid-cols-[repeat(auto-fill,minmax(min(20rem,100%),1fr))]">
+        <div className={`grid gap-3 sm:grid-cols-[repeat(auto-fill,minmax(min(20rem,100%),1fr))] app:block app:overflow-hidden app:rounded-[24px] app:border app:border-line app:bg-card`}>
           {steps.map((p, i) => <PointCard key={p.id} point={p} step={i + 1} state={state} />)}
         </div>
       </section>
@@ -87,7 +90,7 @@ export default function RoutineDetail() {
         <section className="mt-8" aria-labelledby="more">
           <h2 id="more" className="mb-3 text-lg font-extrabold tracking-tight">More points <span className="tnum font-medium text-ink-2">({more.length})</span></h2>
           {all && (
-            <div className="flex flex-col gap-2">{more.map((p) => <PointRow key={p.id} point={p} state={state} />)}</div>
+            <div className={GROUPED_LIST}>{more.map((p) => <PointRow key={p.id} point={p} state={state} />)}</div>
           )}
           <button
             type="button"
@@ -99,6 +102,23 @@ export default function RoutineDetail() {
             <ChevronDown size={18} className={all ? 'rotate-180' : ''} aria-hidden="true" />
           </button>
         </section>
+      )}
+
+      {first && (
+        <>
+          <div className="hidden h-24 app:block" aria-hidden="true" />
+          <div className="pressbar fixed inset-x-0 z-20 hidden border-t border-line bg-paper px-4 pt-3 app:block">
+            <div className="mx-auto flex max-w-3xl items-center gap-3">
+              <p className="min-w-0 flex-1 text-[13px] leading-tight text-ink-2">
+                <span className="block text-[15px] font-extrabold text-ink"><span className="tnum">{doable.length}</span> {doable.length === 1 ? 'step' : 'steps'}</span>
+                about <span className="tnum">{minutes}</span> min
+              </p>
+              <LinkButton to={`/point/${first.id}`} state={state} className="shrink-0">
+                <Play size={18} aria-hidden="true" /> Start routine
+              </LinkButton>
+            </div>
+          </div>
+        </>
       )}
     </div>
   );

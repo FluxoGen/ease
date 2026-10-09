@@ -9,6 +9,20 @@ import { KeepAwake } from '@capacitor-community/keep-awake';
 
 export const isNative = Capacitor.isNativePlatform();
 
+/**
+ * App layout (Material-style app bar, navigation bar, sheets) instead of the website layout. Always on in the
+ * Android app. In `npm run dev` it can be previewed in a browser with ?app=1 (kept for the tab's session).
+ * It is never on in a production website build.
+ */
+export const isApp = isNative || (import.meta.env.DEV && (() => {
+  try {
+    if (new URLSearchParams(window.location.search).get('app') === '1') sessionStorage.setItem('ease.app', '1');
+    return sessionStorage.getItem('ease.app') === '1';
+  } catch { return false; }
+})());
+// Set before the first render so CSS can switch layouts without a flash.
+if (isApp) document.documentElement.dataset.app = '';
+
 /** Settings mirrored to native storage. WebView localStorage is written to disk lazily (about a second
  * later), so an answer given just before the app is killed could be lost; SharedPreferences is not. */
 const PERSISTED_KEYS = ['ease.pregnancyStatus'];
@@ -109,12 +123,17 @@ export interface BackHandler {
  * history, go to Home, and only then send the app to the background (Android's root behaviour).
  */
 export function initNative(back: BackHandler): () => void {
-  if (!isNative) return () => {};
+  if (!isApp) return () => {};
+  const stopRipple = initRipple();
+  if (!isNative) return stopRipple;
   document.documentElement.dataset.native = 'android';
   document.addEventListener('click', onDocumentClick, true);
 
   // `canGoBack` is the WebView's own history, which stays right after redirects that replace an entry.
   const sub = CapApp.addListener('backButton', ({ canGoBack }) => {
+    // A bottom sheet that is not a dialog (body-map result) offers its own close button.
+    const closer = document.querySelector<HTMLElement>('[data-back-closes]');
+    if (closer && !document.querySelector('[role="dialog"]')) { closer.click(); return; }
     const dialog = document.querySelector('[role="dialog"]');
     if (dialog) {
       if (dialog.closest(`[${BLOCKING_DIALOG}]`) || dialog.hasAttribute(BLOCKING_DIALOG) || dialog.querySelector(`[${BLOCKING_DIALOG}]`)) {
@@ -132,7 +151,71 @@ export function initNative(back: BackHandler): () => void {
   hideSplash();
 
   return () => {
+    stopRipple();
     document.removeEventListener('click', onDocumentClick, true);
     sub.then((s) => s.remove()).catch(() => {});
   };
+}
+
+/** App name and version for the About card (null in a browser). */
+export async function appVersion(): Promise<string | null> {
+  if (!isNative) return null;
+  try {
+    const info = await CapApp.getInfo();
+    return `${info.version} (${info.build})`;
+  } catch {
+    return null;
+  }
+}
+
+const PRESSABLE = 'a[href], button:not([disabled]), [role="button"], summary';
+
+/**
+ * Material-style touch ripple for anything pressable. It lives in a small overlay on <body> that copies the
+ * pressed element's box, radius and text colour, so no component needs wrapping or `overflow: hidden`.
+ * It is removed as soon as the finger starts scrolling, so a swipe never flashes.
+ */
+function initRipple(): () => void {
+  let cleanup: (() => void) | null = null;
+
+  const onDown = (e: PointerEvent) => {
+    if (e.pointerType === 'mouse' && e.button !== 0) return;
+    const el = (e.target as Element | null)?.closest?.(PRESSABLE) as HTMLElement | null;
+    if (!el || el.closest('[data-no-ripple]') || el.getAttribute('aria-disabled') === 'true') return;
+    const r = el.getBoundingClientRect();
+    if (r.width < 24 || r.height < 24) return;
+    cleanup?.();
+
+    const cs = getComputedStyle(el);
+    const box = document.createElement('div');
+    box.className = 'app-ripple';
+    box.style.cssText = `left:${r.left}px;top:${r.top}px;width:${r.width}px;height:${r.height}px;border-radius:${cs.borderRadius};color:${cs.color}`;
+    const size = Math.hypot(r.width, r.height) * 2;
+    const dot = document.createElement('i');
+    dot.style.cssText = `width:${size}px;height:${size}px;left:${e.clientX - r.left - size / 2}px;top:${e.clientY - r.top - size / 2}px`;
+    box.appendChild(dot);
+    document.body.appendChild(box);
+
+    const x0 = e.clientX, y0 = e.clientY;
+    const stop = (fade: boolean) => {
+      window.removeEventListener('pointerup', onUp, true);
+      window.removeEventListener('pointercancel', onCancel, true);
+      window.removeEventListener('pointermove', onMove, true);
+      window.removeEventListener('scroll', onCancel, true);
+      if (cleanup === remove) cleanup = null;
+      if (fade) { box.classList.add('out'); window.setTimeout(() => box.remove(), 320); } else box.remove();
+    };
+    const onUp = () => stop(true);
+    const onCancel = () => stop(false);
+    const onMove = (m: PointerEvent) => { if (Math.hypot(m.clientX - x0, m.clientY - y0) > 10) stop(false); };
+    const remove = () => stop(false);
+    cleanup = remove;
+    window.addEventListener('pointerup', onUp, true);
+    window.addEventListener('pointercancel', onCancel, true);
+    window.addEventListener('pointermove', onMove, true);
+    window.addEventListener('scroll', onCancel, true);
+  };
+
+  document.addEventListener('pointerdown', onDown, true);
+  return () => { document.removeEventListener('pointerdown', onDown, true); cleanup?.(); };
 }

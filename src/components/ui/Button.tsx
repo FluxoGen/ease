@@ -10,7 +10,7 @@ const VARIANTS: Record<Variant, string> = {
 };
 
 const BASE =
-  'inline-flex min-h-12 items-center justify-center gap-2 rounded-[14px] px-5 text-[15px] font-bold transition active:scale-[0.98] disabled:opacity-50';
+  'inline-flex min-h-12 items-center justify-center gap-2 rounded-[14px] px-5 text-[15px] font-bold transition active:scale-[0.98] disabled:opacity-50 app:min-h-14 app:rounded-full app:text-base';
 
 interface Common {
   variant?: Variant;
