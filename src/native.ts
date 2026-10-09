@@ -143,17 +143,6 @@ export function initNative(back: BackHandler): () => void {
   };
 }
 
-/** App name and version for the About card (null in a browser). */
-export async function appVersion(): Promise<string | null> {
-  if (!isNative) return null;
-  try {
-    const info = await CapApp.getInfo();
-    return `${info.version} (${info.build})`;
-  } catch {
-    return null;
-  }
-}
-
 const PRESSABLE = 'a[href], button:not([disabled]), [role="button"], summary';
 
 /**

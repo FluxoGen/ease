@@ -212,6 +212,15 @@ body {
 /* A single very long word (large text on a small phone) breaks instead of pushing the page sideways. */
 h1, h2, h3 { overflow-wrap: anywhere; }
 
+/* Theme switch (src/theme.ts): no element fades on its own, so every colour changes in the same frame; the
+   circular reveal is one view transition on the whole page. */
+:root[data-theme-switching] *, :root[data-theme-switching] *::before, :root[data-theme-switching] *::after {
+  transition: none !important;
+}
+::view-transition-old(root), ::view-transition-new(root) { animation: none; mix-blend-mode: normal; }
+::view-transition-old(root) { z-index: 1; }
+::view-transition-new(root) { z-index: 2; }
+
 /* ---- App layout (only under <html data-app>) ---- */
 :root[data-app] {
   overscroll-behavior: none;

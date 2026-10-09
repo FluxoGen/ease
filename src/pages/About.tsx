@@ -1,29 +1,26 @@
 import { BookOpen, Lock } from 'lucide-react';
-import { useEffect, useState } from 'react';
 import fluxogenMark from '../assets/fluxogen-mark.png';
 import { AppBarTitle } from '../components/app/AppChrome';
 import InfoCard from '../components/ui/InfoCard';
 import { CONTACT_EMAIL, PRIVACY_URL, TERMS_URL } from '../data/library/shared';
 import { usePageTitle } from '../hooks/usePageTitle';
-import { appVersion } from '../native';
+import VersionLine from '../components/VersionLine';
 
 const link = 'inline-flex min-h-11 items-center font-semibold text-accent-strong underline underline-offset-2';
 
 export default function About() {
   usePageTitle('About');
-  const [version, setVersion] = useState<string | null>(null);
-  useEffect(() => { appVersion().then(setVersion); }, []);
-
   return (
     <div className="max-w-3xl">
       <AppBarTitle title="About" backTo="/settings" pinned />
       <h1 className="sr-only">About Ease</h1>
 
-      <section aria-label="Ease" className="flex items-center gap-4 rounded-[var(--radius-card)] border border-line bg-card p-5 shadow-card app:shadow-none">
+      <section aria-label="Ease" className="flex flex-wrap items-center gap-x-4 gap-y-2 rounded-[var(--radius-card)] border border-line bg-card p-5 shadow-card app:shadow-none">
         <img src={fluxogenMark} alt="" width={48} height={48} className="h-12 w-12 shrink-0" />
-        <div className="min-w-0">
+        <div className="min-w-[min(10rem,100%)] flex-1 [overflow-wrap:anywhere]">
           <p className="text-xl font-extrabold leading-tight tracking-tight">Ease</p>
-          <p className="text-sm text-ink-2">A product of FluxoGen{version ? ` · v${version}` : ''}</p>
+          <p className="text-sm text-ink-2">A product of FluxoGen</p>
+          <VersionLine className="mt-0.5 text-sm font-semibold text-ink" />
         </div>
       </section>
 

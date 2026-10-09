@@ -3,6 +3,7 @@ import { useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { toast } from 'sonner';
 import InfoCard from '../components/ui/InfoCard';
+import VersionLine from '../components/VersionLine';
 import { usePregnancy } from '../context/PregnancyContext';
 import { CONTACT_EMAIL, PREGNANCY_ANSWERS, PRIVACY_URL, TERMS_URL } from '../data/library/shared';
 import { usePageTitle } from '../hooks/usePageTitle';
@@ -26,7 +27,10 @@ function Appearance() {
             type="button"
             role="radio"
             aria-checked={on}
-            onClick={() => setThemePref(id)}
+            onClick={(e) => {
+              const r = e.currentTarget.getBoundingClientRect();
+              setThemePref(id, { x: r.left + r.width / 2, y: r.top + r.height / 2 });
+            }}
             className={`flex min-h-16 flex-col items-center justify-center gap-1 rounded-2xl border-2 text-sm font-bold transition ${on ? 'border-accent-strong bg-accent-tint text-accent-strong' : 'border-line bg-paper text-ink-2'}`}
           >
             <Icon size={20} aria-hidden="true" />
@@ -125,6 +129,11 @@ export default function Settings() {
           <Row icon={ExternalLink} title="Terms of use" href={TERMS_URL} />
           <Row icon={Mail} title="Send feedback" hint={CONTACT_EMAIL} href={`mailto:${CONTACT_EMAIL}?subject=Ease%20feedback`} />
         </Group>
+
+        <div className="pb-2 text-center text-xs text-ink-2">
+          <p className="font-semibold text-ink">Ease · FluxoGen</p>
+          <VersionLine className="mt-0.5" />
+        </div>
       </div>
     </div>
   );

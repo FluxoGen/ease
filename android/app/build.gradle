@@ -1,5 +1,9 @@
 apply plugin: 'com.android.application'
 
+// Version comes from ../package.json (one place for the website and the app): "version" is the version
+// name and config.androidVersionCode is the build number. Raise androidVersionCode on every Play upload.
+def appPackage = new groovy.json.JsonSlurper().parse(new File(rootDir, '../package.json'))
+
 android {
     namespace = "com.fluxogen.ease"
     compileSdk = rootProject.ext.compileSdkVersion
@@ -7,8 +11,8 @@ android {
         applicationId "com.fluxogen.ease"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 1
-        versionName "1.0"
+        versionCode appPackage.config.androidVersionCode as int
+        versionName appPackage.version
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         aaptOptions {
              // Files and dirs to omit from the packaged assets dir, modified to accommodate modern web apps.

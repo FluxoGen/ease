@@ -74,7 +74,7 @@ Known limit: on a landscape phone (about 400 px tall) the point screen is crampe
 | Screen stays on during a press | `@capacitor-community/keep-awake` (Android WebView has no Wake Lock API); released on pause, finish or close. Only the latest request can release it, so a quick pause/resume never lets the screen sleep mid-press. | `src/native.ts`, `PressSheet.tsx` |
 | Splash | Android 12 splash API: paper background + Ease mark; hidden after the first render, with a 3 s fallback so it can never stick. | `res/values/styles.xml`, `res/drawable/splash_icon.xml` |
 | Status and navigation bars | Capacitor SystemBars, `insetsHandling: native`: the WebView sits between the bars, the window behind them is paper (dark: night paper). | `capacitor.config.ts`, `res/values*/colors.xml` |
-| Light / dark | A sun/moon button in the top bar and an **Appearance** card on Safety (System, Light, Dark). The choice is saved in localStorage and mirrored to native storage. `src/theme.ts` applies it as `data-theme` on `<html>` (the CSS `theme-dark` variant reads it), and `MainActivity.EaseNative` gives the page the system theme at start (`isDark`) and lets it set the status/navigation bar icons and window colour (`setBars`). System switches while the app is open reach the page as an `ease-system-theme` event, which it ignores if you picked Light or Dark. The activity is not restarted, so a running timer survives. | `src/theme.ts`, `MainActivity.java`, `src/index.css` |
+| Light / dark | A sun/moon button in the top bar and an **Appearance** card on Safety (System, Light, Dark). The choice is saved in localStorage and mirrored to native storage. `src/theme.ts` applies it as `data-theme` on `<html>` (the CSS `theme-dark` variant reads it), and `MainActivity.EaseNative` gives the page the system theme at start (`isDark`) and lets it set the status/navigation bar icons and window colour (`setBars`). System switches while the app is open reach the page as an `ease-system-theme` event, which it ignores if you picked Light or Dark. The switch is one view transition (a circle growing from the tapped control) with all CSS transitions off while it runs, so every colour changes in the same frame; the status/navigation bars follow when it ends. The activity is not restarted, so a running timer survives. | `src/theme.ts`, `MainActivity.java`, `src/index.css` |
 | Icon | Adaptive vector icon (ring + dot on paper) with a monochrome layer for themed icons; PNGs for API 24-25. | `res/drawable/ic_launcher_*.xml`, `res/mipmap-*` |
 | Saved answer | The pregnancy answer is kept in localStorage and mirrored to native SharedPreferences (`@capacitor/preferences`), which is the source of truth at startup: the WebView writes its storage to disk about a second late, so a fast kill could otherwise lose it. | `src/native.ts`, `usePregnancyStatus.ts` |
 | Privacy | No `INTERNET` / network-state permission (removed even if a library adds it). Cloud backup and device transfer are off, so the pregnancy answer never leaves the phone. | `AndroidManifest.xml`, `res/xml/data_extraction_rules.xml` |
@@ -86,8 +86,10 @@ its service worker). The plugins' small web shims do ship in the website bundle.
 
 ## Release to Google Play
 
-1. **Version.** In `android/app/build.gradle` raise `versionCode` (integer, +1 every upload) and set
-   `versionName` (for example `1.0.0`).
+1. **Version.** One place: `package.json`. `version` is the version name (shown as "Version 1.0.0") and
+   `config.androidVersionCode` is the build number (shown as "build 1"); Gradle reads both, so the app, the website and the
+   Play listing can't drift. Raise `androidVersionCode` by 1 on every Play upload. Settings and About show
+   "Version X (build N)" and, in the app, the web content's commit id (a quick way to spot a missed `npm run android:sync`).
 2. **Upload key (once).** Android Studio > Build > Generate Signed App Bundle > create a new keystore. Keep the
    `.jks` file and its passwords outside the repo (a password manager plus an offline backup). `*.jks` and
    `*.keystore` are git-ignored. Enrol in **Play App Signing** when Play Console offers it; then a lost upload
