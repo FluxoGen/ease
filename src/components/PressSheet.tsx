@@ -35,7 +35,7 @@ export default function PressSheet({ point, open, onClose, sides, next }: PressS
     <Dialog open={open} onClose={onClose} transition className="relative z-50">
       <div className="fixed inset-0 bg-paper transition-opacity duration-200 data-closed:opacity-0" aria-hidden="true" />
       <div className="fixed inset-0 flex justify-center overflow-y-auto">
-        <DialogPanel className="flex min-h-full w-full max-w-md flex-col px-5 pb-[max(1.5rem,env(safe-area-inset-bottom))] pt-4 transition duration-200 ease-out data-closed:translate-y-6 data-closed:opacity-0">
+        <DialogPanel className="flex min-h-full w-full max-w-md [@media(max-height:500px)_and_(min-width:560px)]:max-w-3xl flex-col px-5 pb-[max(1.5rem,env(safe-area-inset-bottom))] pt-4 transition duration-200 ease-out data-closed:translate-y-6 data-closed:opacity-0">
           {/* The panel only exists while open, so every opening gets a brand-new timer. */}
           <PressBody point={point} onClose={onClose} sides={sides} next={next} />
         </DialogPanel>
@@ -111,14 +111,16 @@ function PressBody({ point, onClose, sides, next }: { point: LibraryPoint; onClo
           </div>
 
           <p className="sr-only" role="status" aria-live="polite">{announce}</p>
-          <div className="mt-3 flex items-center gap-3 rounded-2xl border border-line bg-card p-2.5">
+          <div className="mt-3 flex items-center gap-3 rounded-2xl border border-line bg-card p-2.5 [@media(max-height:500px)]:hidden">
             <div className="h-16 w-16 shrink-0 overflow-hidden rounded-xl bg-atlas-paper">
               <PointPicture point={point} compact className="h-full w-full" />
             </div>
             <p className="line-clamp-3 text-[13px] leading-snug text-ink-2">{point.find}</p>
           </div>
 
-          <div className="flex flex-1 flex-col items-center justify-center py-6">
+          {/* Short landscape screens: ring and timer on the left, controls on the right. */}
+          <div className="flex flex-1 flex-col [@media(max-height:500px)_and_(min-width:560px)]:flex-row [@media(max-height:500px)_and_(min-width:560px)]:items-center [@media(max-height:500px)_and_(min-width:560px)]:justify-center [@media(max-height:500px)_and_(min-width:560px)]:gap-8">
+          <div className="flex flex-1 flex-col items-center justify-center py-6 [@media(max-height:500px)_and_(min-width:560px)]:py-1 [@media(max-height:500px)_and_(min-width:560px)]:flex-1">
             {done ? (
               <div className="text-center" role="status">
                 <div className="mx-auto flex h-24 w-24 items-center justify-center rounded-full bg-ok-tint text-4xl text-ok">✓</div>
@@ -128,20 +130,20 @@ function PressBody({ point, onClose, sides, next }: { point: LibraryPoint; onClo
                 </p>
               </div>
             ) : (
-              <div className="relative flex h-[17rem] w-[17rem] items-center justify-center">
+              <div className="relative flex h-[min(17rem,38dvh)] w-[min(17rem,38dvh)] items-center justify-center [@media(max-height:500px)_and_(min-width:560px)]:h-[36dvh] [@media(max-height:500px)_and_(min-width:560px)]:w-[36dvh]">
                 <svg viewBox="0 0 260 260" className="absolute inset-0 h-full w-full -rotate-90" aria-hidden="true">
                   <circle cx="130" cy="130" r={R} fill="none" stroke="var(--line-strong)" strokeWidth="5" />
                   <circle cx="130" cy="130" r={R} fill="none" stroke="var(--accent)" strokeWidth="5" strokeLinecap="round" strokeDasharray={C} strokeDashoffset={C * (1 - progress)} style={{ transition: 'stroke-dashoffset 0.3s linear' }} />
                 </svg>
-                <div className="absolute inset-9 rounded-full border border-line-strong" style={{ animation: running ? `ease-breathe ${CYCLE}s ease-in-out infinite` : undefined, transformOrigin: 'center' }} />
-                <div className="absolute inset-14 rounded-full bg-accent/15" style={{ animation: running ? `ease-breathe ${CYCLE}s ease-in-out infinite` : undefined, transformOrigin: 'center' }} />
-                <div className="relative h-14 w-14 rounded-full bg-accent shadow-card" />
+                <div className="absolute inset-[13%] rounded-full border border-line-strong" style={{ animation: running ? `ease-breathe ${CYCLE}s ease-in-out infinite` : undefined, transformOrigin: 'center' }} />
+                <div className="absolute inset-[20.5%] rounded-full bg-accent/15" style={{ animation: running ? `ease-breathe ${CYCLE}s ease-in-out infinite` : undefined, transformOrigin: 'center' }} />
+                <div className="relative h-[20.5%] w-[20.5%] rounded-full bg-accent shadow-card" />
               </div>
             )}
 
             {!done && (
-              <div className="mt-4 text-center" role="timer" aria-live="off">
-                <p className="tnum text-5xl font-extrabold tracking-tight">{fmt(left)}</p>
+              <div className="mt-4 text-center [@media(max-height:500px)_and_(min-width:560px)]:mt-2" role="timer" aria-live="off">
+                <p className="tnum text-5xl font-extrabold tracking-tight [@media(max-height:500px)_and_(min-width:560px)]:text-4xl">{fmt(left)}</p>
                 <p className="mt-1 text-lg font-bold text-accent-strong">{running ? (breatheIn ? 'Breathe in…' : 'Breathe out…') : left >= total ? 'Ready' : 'Paused'}</p>
                 <p className="mt-1 text-sm text-ink-2">{sides === 2 ? `Side ${side} of 2 · ` : ''}{tech.how}</p>
               </div>
@@ -149,7 +151,8 @@ function PressBody({ point, onClose, sides, next }: { point: LibraryPoint; onClo
           </div>
 
           {done ? (
-            <div className="flex flex-col gap-2.5">
+            <div className="contents [@media(max-height:500px)_and_(min-width:560px)]:flex [@media(max-height:500px)_and_(min-width:560px)]:flex-col [@media(max-height:500px)_and_(min-width:560px)]:gap-2.5 [@media(max-height:500px)_and_(min-width:560px)]:sticky [@media(max-height:500px)_and_(min-width:560px)]:top-2 [@media(max-height:500px)_and_(min-width:560px)]:self-start [@media(max-height:500px)_and_(min-width:560px)]:w-[min(20rem,42%)]">
+              <div className="sticky bottom-0 z-10 bg-paper pb-1 pt-2">
               {sides === 2 && side === 1 ? (
                 <Button onClick={() => reset(2)}>Other side</Button>
               ) : next ? (
@@ -157,14 +160,15 @@ function PressBody({ point, onClose, sides, next }: { point: LibraryPoint; onClo
               ) : (
                 <Button onClick={onClose}>Finish</Button>
               )}
-              <Button variant="secondary" onClick={() => reset(side)}>
+              </div>
+              <Button variant="secondary" onClick={() => reset(side)} className="mt-2.5 [@media(max-height:500px)_and_(min-width:560px)]:mt-0">
                 <RotateCcw size={17} aria-hidden="true" /> Repeat
               </Button>
-              {(sides === 1 || side === 2) && next && <Button variant="ghost" onClick={onClose}>Finish</Button>}
+              {(sides === 1 || side === 2) && next && <Button variant="ghost" onClick={onClose} className="mt-2.5 [@media(max-height:500px)_and_(min-width:560px)]:mt-0">Finish</Button>}
             </div>
           ) : (
-            <div className="flex flex-col gap-3">
-              <div className="grid grid-cols-[1fr_auto] gap-2.5">
+            <div className="contents [@media(max-height:500px)_and_(min-width:560px)]:flex [@media(max-height:500px)_and_(min-width:560px)]:flex-col [@media(max-height:500px)_and_(min-width:560px)]:gap-3 [@media(max-height:500px)_and_(min-width:560px)]:sticky [@media(max-height:500px)_and_(min-width:560px)]:top-2 [@media(max-height:500px)_and_(min-width:560px)]:self-start [@media(max-height:500px)_and_(min-width:560px)]:w-[min(20rem,42%)]">
+              <div className="sticky bottom-0 z-10 bg-paper pb-1 pt-2 grid grid-cols-[1fr_auto] gap-2.5">
                 <Button onClick={togglePause}>
                   {running ? <Pause size={18} aria-hidden="true" /> : <Play size={18} aria-hidden="true" />}
                   {running ? 'Pause' : left >= total ? 'Start' : 'Resume'}
@@ -173,14 +177,15 @@ function PressBody({ point, onClose, sides, next }: { point: LibraryPoint; onClo
                   <RotateCcw size={18} aria-hidden="true" />
                 </Button>
               </div>
-              <ul className="space-y-1 text-center text-[13px] text-ink-2">
+              <ul className="mt-3 space-y-1 text-center text-[13px] text-ink-2 [@media(max-height:500px)_and_(min-width:560px)]:hidden">
                 {PRESSING_RULES.slice(0, 2).map((r) => <li key={r}>{r}</li>)}
               </ul>
-              <Link to="/safety" onClick={onClose} className="text-center text-xs font-semibold text-ink-2 underline underline-offset-2">
+              <Link to="/safety" onClick={onClose} className="mt-3 text-center text-xs font-semibold text-ink-2 underline underline-offset-2 [@media(max-height:500px)_and_(min-width:560px)]:hidden">
                 Safety information
               </Link>
             </div>
           )}
+          </div>
     </>
   );
 }

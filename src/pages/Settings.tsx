@@ -18,7 +18,7 @@ const THEMES: Array<{ id: ThemePref; label: string; icon: LucideIcon }> = [
 function Appearance() {
   const { pref } = useTheme();
   return (
-    <div role="radiogroup" aria-label="Appearance" className="grid grid-cols-3 gap-2">
+    <div role="radiogroup" aria-label="Appearance" className="grid grid-cols-[repeat(auto-fit,minmax(5rem,1fr))] gap-2">
       {THEMES.map(({ id, label, icon: Icon }) => {
         const on = pref === id;
         return (

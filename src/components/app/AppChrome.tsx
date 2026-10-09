@@ -85,12 +85,12 @@ export function AppNav() {
           const active = match(pathname, state as Parameters<typeof match>[1]);
           const Icon = ICONS[to];
           return (
-            <li key={to}>
-              <Link to={to} aria-current={active ? 'page' : undefined} className="flex h-20 flex-col items-center justify-center gap-1 wide:w-20">
-                <span className={`flex h-8 w-16 items-center justify-center rounded-full transition-colors duration-200 ${active ? 'bg-accent-tint text-accent-strong' : 'text-ink-2'}`}>
+            <li key={to} className="min-w-0">
+              <Link to={to} aria-current={active ? 'page' : undefined} className="flex h-20 min-w-0 flex-col items-center justify-center gap-1 wide:w-20">
+                <span className={`flex h-8 w-16 max-w-full items-center justify-center rounded-full transition-colors duration-200 ${active ? 'bg-accent-tint text-accent-strong' : 'text-ink-2'}`}>
                   <Icon size={24} strokeWidth={active ? 2.4 : 1.8} aria-hidden="true" />
                 </span>
-                <span className={`text-xs tracking-wide ${active ? 'font-extrabold text-ink' : 'font-semibold text-ink-2'}`}>{label}</span>
+                <span className={`max-w-full truncate px-0.5 text-xs tracking-wide ${active ? 'font-extrabold text-ink' : 'font-semibold text-ink-2'}`}>{label}</span>
               </Link>
             </li>
           );

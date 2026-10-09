@@ -101,12 +101,14 @@
   }
 }
 
-/* "wide" = tablet/desktop layout chrome: width >= 768px, or a short landscape phone (tab bar would eat half the height). */
+/* "wide" = tablet/desktop layout chrome: width >= 768px (in rem, so large text keeps it narrow), or a short landscape
+   phone (tab bar would eat half the height). The short-screen test uses px, not rem: rem inside a media query grows
+   with the system font size, which would make a tall portrait screen count as "short" at large text. */
 @custom-variant wide {
   @media (min-width: 48rem) {
     @slot;
   }
-  @media (max-height: 31.25rem) and (min-width: 35rem) {
+  @media (max-height: 500px) and (min-width: 560px) {
     @slot;
   }
 }
@@ -115,7 +117,7 @@
 @custom-variant web (&:where(:root:not([data-app]) *));
 
 /* Short screens on the website: let the header scroll away instead of pinning it. */
-@media (max-height: 31.25rem) { :root:not([data-app]) header.sticky { position: static; } }
+@media (max-height: 500px) { :root:not([data-app]) header.sticky { position: static; } }
 
 @theme inline {
   --color-paper: var(--paper);
@@ -259,7 +261,7 @@ h1, h2, h3 { overflow-wrap: anywhere; }
 [data-app] .pressbar { bottom: 0; padding-bottom: calc(0.75rem + env(safe-area-inset-bottom)); }
 
 /* Short landscape phones: a slimmer action bar. */
-@media (max-height: 31.25rem) {
+@media (max-height: 500px) {
   [data-app] .pressbar { padding-top: 0.5rem; padding-bottom: calc(0.5rem + env(safe-area-inset-bottom)); }
   [data-app] .pressbar a, [data-app] .pressbar button { min-height: 3rem; }
 }

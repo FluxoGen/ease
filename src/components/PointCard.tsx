@@ -28,7 +28,7 @@ export default function PointCard({ point: p, step, state }: PointCardProps) {
         <span className="tnum absolute bottom-1 left-1 flex h-5 w-5 items-center justify-center rounded-full bg-ink text-[11px] font-extrabold text-paper">{step}</span>
       </span>
       <span className="min-w-0 flex-1">
-        <span className="block text-[17px] font-extrabold leading-tight tracking-tight">
+        <span className="block text-[17px] font-extrabold leading-tight tracking-tight [overflow-wrap:anywhere]">
           {p.code} <span className="font-medium text-ink-2">{p.pinyin}</span>
         </span>
         {blocked ? (

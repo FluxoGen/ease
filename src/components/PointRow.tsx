@@ -30,11 +30,11 @@ export default function PointRow({ point: p, state }: PointRowProps) {
         {badgeText(p)}
       </span>
       <span className="min-w-0 flex-1">
-        <span className="line-clamp-2 text-[15px] font-bold leading-snug text-ink">
+        <span className="line-clamp-2 text-[15px] font-bold leading-snug text-ink [overflow-wrap:anywhere]">
           {p.pinyin}
           <span className="ml-1.5 font-medium text-ink-2">{p.english}</span>
         </span>
-        <span className="line-clamp-2 text-[13px] leading-snug text-ink-2">{sub}</span>
+        <span className="line-clamp-2 text-[13px] leading-snug text-ink-2 [overflow-wrap:anywhere]">{sub}</span>
         {(p.selfCare === 'avoid' || flagged) && (
           <span className="mt-1.5 flex flex-wrap gap-1.5">
             {p.selfCare === 'avoid' ? <Chip tone="stop" icon={ShieldAlert}>Reference only</Chip> : <Chip tone="caution">Avoid in pregnancy</Chip>}

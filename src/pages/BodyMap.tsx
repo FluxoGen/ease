@@ -66,7 +66,7 @@ export default function BodyMap() {
         </div>
 
         <div className="mx-auto mt-4 w-full max-w-[17rem] rounded-[28px] border border-line bg-atlas-paper px-6 py-5 lg:max-w-none app:border-0 app:py-3">
-          <BodyFigure view={view} selected={area} onSelect={pick} counts={counts} className={`mx-auto block h-[22rem] w-auto max-w-full md:h-[28rem] lg:h-[32rem] app:transition-[height] app:duration-200 ${info ? 'app:h-[min(17rem,31dvh)]' : 'app:h-[min(30rem,52dvh)]'}`} />
+          <BodyFigure view={view} selected={area} onSelect={pick} counts={counts} className={`mx-auto block h-[22rem] w-auto max-w-full md:h-[28rem] lg:h-[32rem] app:transition-[height] app:duration-200 ${info ? 'app:h-[max(18rem,min(17rem,31dvh))]' : 'app:h-[max(21rem,min(30rem,52dvh))]'}`} />
         </div>
       </div>
 

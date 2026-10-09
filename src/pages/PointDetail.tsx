@@ -3,6 +3,7 @@ import { AlertTriangle, ArrowRight, BadgeCheck, ChevronDown, ChevronLeft, Hand, 
 import { useState } from 'react';
 import { Link, Navigate, useLocation, useParams } from 'react-router-dom';
 import { AppBarTitle } from '../components/app/AppChrome';
+import BarSpacer from '../components/app/BarSpacer';
 import { VIEWS } from '../components/atlas/geometry';
 import PointPicture from '../components/PointPicture';
 import { PregnancyAnswer } from '../components/PregnancyPrompt';
@@ -78,7 +79,7 @@ export default function PointDetail() {
 
       <header>
         <div className="flex flex-wrap items-baseline gap-x-3">
-          <h1 className="tnum text-[44px] font-extrabold leading-none tracking-tight lg:text-6xl app:selectable app:text-[38px] [@media(max-height:31.25rem)]:text-[32px]">{point.code}</h1>
+          <h1 className="tnum text-[44px] font-extrabold leading-none tracking-tight lg:text-6xl app:selectable app:text-[38px] [@media(max-height:500px)]:text-[32px]">{point.code}</h1>
           <p className="text-lg font-semibold text-ink-2">{point.pinyin}</p>
         </div>
         <p className="mt-1.5 text-[15px] text-ink-2">{[point.english, CHANNELS[point.channel] + (point.channel === 'EX' ? '' : ' channel')].filter(Boolean).join(' · ')}</p>
@@ -110,7 +111,7 @@ export default function PointDetail() {
         </section>
       )}
 
-      <div className="mt-5 lg:grid lg:grid-cols-[minmax(0,26rem)_1fr] lg:items-start lg:gap-10 wide:app:grid wide:app:grid-cols-[minmax(0,20rem)_1fr] wide:app:items-start wide:app:gap-8">
+      <div className="mt-5 lg:grid lg:grid-cols-[minmax(0,26rem)_1fr] lg:items-start lg:gap-10 wide:app:grid wide:app:grid-cols-[minmax(0,min(20rem,45%))_1fr] wide:app:items-start wide:app:gap-8">
         <div className="lg:sticky lg:top-24 wide:app:sticky wide:app:top-16">
           {blocked ? (
             <div className="rounded-[var(--radius-card)] border border-caution-line bg-caution-tint p-5 text-caution">
@@ -136,7 +137,7 @@ export default function PointDetail() {
                   </span>
                 )}
               </figcaption>
-              <PointPicture point={point} drawing={showDrawing} className={`mx-auto my-3 aspect-square w-full max-w-[22rem] [@media(max-height:31.25rem)]:max-w-[12rem] ${hasPhoto && !showDrawing ? 'photo rounded-2xl bg-white p-2' : ''}`} />
+              <PointPicture point={point} drawing={showDrawing} className={`mx-auto my-3 aspect-square w-full max-w-[22rem] [@media(max-height:500px)]:max-w-[12rem] ${hasPhoto && !showDrawing ? 'photo rounded-2xl bg-white p-2' : ''}`} />
             </figure>
           )}
 
@@ -242,14 +243,15 @@ export default function PointDetail() {
 
       {canPress && (
         <>
-          <div className="h-16 web:wide:hidden" aria-hidden="true" />
+          <div className="h-16 app:hidden web:wide:hidden" aria-hidden="true" />
+          <BarSpacer />
           <div className="pressbar fixed inset-x-0 z-20 border-t border-line bg-paper/97 px-4 py-2.5 backdrop-blur-xl web:wide:hidden">
-            <div className="mx-auto flex max-w-md items-center gap-3">
-              <div className="min-w-0 flex-1">
+            <div className="mx-auto flex max-w-md flex-wrap items-center gap-x-3 gap-y-2 app:max-w-3xl">
+              <div className="min-w-[7rem] flex-1">
                 <p className="truncate text-[15px] font-extrabold leading-tight">{tech.label}</p>
                 <p className="truncate text-xs text-ink-2">{tech.time} · {sides === 2 ? 'both sides' : 'midline'}</p>
               </div>
-              <Button className="shrink-0" onClick={() => setPressing(true)}>
+              <Button className="max-w-full shrink-0" onClick={() => setPressing(true)}>
                 <Timer size={18} aria-hidden="true" /> Start press
               </Button>
             </div>

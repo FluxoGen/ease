@@ -2,6 +2,7 @@ import { ChevronDown, ChevronLeft, ExternalLink, Play, ShieldAlert } from 'lucid
 import { useState } from 'react';
 import { Link, Navigate, useParams } from 'react-router-dom';
 import { AppBarTitle } from '../components/app/AppChrome';
+import BarSpacer from '../components/app/BarSpacer';
 import PointCard from '../components/PointCard';
 import PointRow from '../components/PointRow';
 import Chip from '../components/ui/Chip';
@@ -106,14 +107,14 @@ export default function RoutineDetail() {
 
       {first && (
         <>
-          <div className="hidden h-24 app:block" aria-hidden="true" />
+          <BarSpacer />
           <div className="pressbar fixed inset-x-0 z-20 hidden border-t border-line bg-paper px-4 pt-3 app:block">
-            <div className="mx-auto flex max-w-3xl items-center gap-3">
-              <p className="min-w-0 flex-1 text-[13px] leading-tight text-ink-2">
+            <div className="mx-auto flex max-w-3xl flex-wrap items-center gap-x-3 gap-y-2">
+              <p className="min-w-[7rem] flex-1 text-[13px] leading-tight text-ink-2">
                 <span className="block text-[15px] font-extrabold text-ink"><span className="tnum">{doable.length}</span> {doable.length === 1 ? 'step' : 'steps'}</span>
                 about <span className="tnum">{minutes}</span> min
               </p>
-              <LinkButton to={`/point/${first.id}`} state={state} className="shrink-0">
+              <LinkButton to={`/point/${first.id}`} state={state} className="max-w-full shrink-0">
                 <Play size={18} aria-hidden="true" /> Start routine
               </LinkButton>
             </div>
