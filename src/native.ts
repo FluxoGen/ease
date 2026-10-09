@@ -25,7 +25,7 @@ if (isApp) document.documentElement.dataset.app = '';
 
 /** Settings mirrored to native storage. WebView localStorage is written to disk lazily (about a second
  * later), so an answer given just before the app is killed could be lost; SharedPreferences is not. */
-const PERSISTED_KEYS = ['ease.pregnancyStatus'];
+const PERSISTED_KEYS = ['ease.pregnancyStatus', 'ease.theme'];
 
 /**
  * Before the first render. Native storage is the source of truth: it is written at once, while the
@@ -33,13 +33,6 @@ const PERSISTED_KEYS = ['ease.pregnancyStatus'];
  */
 export async function restoreNativeState(): Promise<void> {
   if (!isNative) return;
-  // System light/dark from Android (MainActivity.EaseNative); later switches arrive the same way.
-  try {
-    const bridge = (window as unknown as { EaseNative?: { isDark: () => boolean } }).EaseNative;
-    if (bridge) document.documentElement.dataset.theme = bridge.isDark() ? 'dark' : 'light';
-  } catch {
-    // fall back to the WebView's media query
-  }
   await Promise.all(PERSISTED_KEYS.map(async (key) => {
     try {
       const { value } = await Preferences.get({ key });

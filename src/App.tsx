@@ -6,6 +6,7 @@ import BottomNav from './components/BottomNav';
 import EaseLogo from './components/EaseLogo';
 import Footer from './components/Footer';
 import PregnancyGate from './components/PregnancyGate';
+import ThemeToggle from './components/ThemeToggle';
 import Chip from './components/ui/Chip';
 import { PregnancyContext } from './context/PregnancyContext';
 import { NAV, type NavState } from './data/nav';
@@ -66,7 +67,8 @@ export default function App() {
               })}
             </nav>
 
-            <div className="flex min-w-[2rem] justify-end">
+            <div className="flex min-w-[2rem] items-center justify-end gap-2">
+              <ThemeToggle />
               {status === 'yes' && (
                 <Link to="/safety" aria-label="Pregnancy mode is on. Open safety settings">
                   <Chip tone="caution" icon={ShieldAlert}>Pregnancy mode</Chip>

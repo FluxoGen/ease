@@ -4,6 +4,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { NAV } from '../../data/nav';
 import EaseLogo from '../EaseLogo';
 import Chip from '../ui/Chip';
+import ThemeToggle from '../ThemeToggle';
 import { BarContext, isDetail, useAppBar, useBack, type BarConfig } from './barContext';
 import type { PregnancyStatus } from '../../hooks/usePregnancyStatus';
 
@@ -58,12 +59,13 @@ export function AppBar({ status }: { status: PregnancyStatus }) {
           <p aria-hidden="true" className="min-w-0 flex-1 truncate px-2 text-[22px] font-extrabold tracking-tight">{title}</p>
         )}
         {!detail && (
-          <div className="ml-auto flex shrink-0 items-center pr-2">
+          <div className="ml-auto flex shrink-0 items-center gap-1 pr-1">
             {status === 'yes' && (
               <Link to="/safety" aria-label="Pregnancy mode is on. Open safety settings">
                 <Chip tone="caution" icon={ShieldAlert}>Pregnancy mode</Chip>
               </Link>
             )}
+            <ThemeToggle />
           </div>
         )}
       </div>

@@ -1,4 +1,4 @@
-import { AlertTriangle, BadgeCheck, Check, Hand, Info, Lock, Scale, ShieldAlert, type LucideIcon } from 'lucide-react';
+import { AlertTriangle, BadgeCheck, Check, Hand, Info, Lock, Monitor, Moon, Palette, Scale, ShieldAlert, Sun, type LucideIcon } from 'lucide-react';
 import { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import { toast } from 'sonner';
@@ -9,6 +9,7 @@ import { PRIVACY_URL, REVIEW_STATEMENT, TERMS_URL, URGENT_SIGNS } from '../data/
 import fluxogenMark from '../assets/fluxogen-mark.png';
 import { appVersion, isApp } from '../native';
 import { usePageTitle } from '../hooks/usePageTitle';
+import { setThemePref, useTheme, type ThemePref } from '../theme';
 
 const PREGNANCY_POINTS = library.filter((p) => p.pregnancy && p.selfCare !== 'avoid').length;
 
@@ -133,6 +134,10 @@ export default function Safety() {
           </p>
         </Card>
 
+        <Card id="appearance" title="Appearance" icon={Palette}>
+          <AppearanceChoice />
+        </Card>
+
         <Card id="privacy" title="Your privacy" icon={Lock}>
           <p>
             Ease has no sign-in, ads, analytics or tracking, and it works offline. The one thing it remembers is your answer to the
@@ -146,6 +151,36 @@ export default function Safety() {
 
         {isApp && <AboutCard />}
       </div>
+    </div>
+  );
+}
+
+const THEMES: Array<{ id: ThemePref; label: string; icon: LucideIcon }> = [
+  { id: 'system', label: 'System', icon: Monitor },
+  { id: 'light', label: 'Light', icon: Sun },
+  { id: 'dark', label: 'Dark', icon: Moon },
+];
+
+function AppearanceChoice() {
+  const { pref } = useTheme();
+  return (
+    <div role="radiogroup" aria-label="Appearance" className="grid grid-cols-3 gap-2">
+      {THEMES.map(({ id, label, icon: Icon }) => {
+        const on = pref === id;
+        return (
+          <button
+            key={id}
+            type="button"
+            role="radio"
+            aria-checked={on}
+            onClick={() => setThemePref(id)}
+            className={`flex min-h-16 flex-col items-center justify-center gap-1 rounded-2xl border-2 text-sm font-bold transition ${on ? 'border-accent-strong bg-accent-tint text-accent-strong' : 'border-line bg-paper text-ink-2'}`}
+          >
+            <Icon size={20} aria-hidden="true" />
+            {label}
+          </button>
+        );
+      })}
     </div>
   );
 }
