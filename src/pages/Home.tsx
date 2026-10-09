@@ -2,6 +2,7 @@ import { ArrowRight, Search, X } from 'lucide-react';
 import { useMemo, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import BodyFigure from '../components/BodyFigure';
+import PregnancyPrompt from '../components/PregnancyPrompt';
 import PointRow from '../components/PointRow';
 import { POPULAR, ROUTINE_ICONS, SYMPTOM_GROUPS, routineList } from '../data/groups';
 import { search } from '../data/search';
@@ -111,6 +112,7 @@ export default function Home() {
         </div>
       ) : (
         <>
+          <PregnancyPrompt />
           <section className="mt-8" aria-labelledby="popular">
             <h2 id="popular" className="mb-3 text-lg font-extrabold tracking-tight">Popular</h2>
             <div className="grid grid-cols-[repeat(auto-fill,minmax(min(9.5rem,100%),1fr))] gap-3 md:grid-cols-3">{popular.map((r) => <SymptomTile key={r.id} r={r} big />)}</div>

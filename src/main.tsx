@@ -8,6 +8,8 @@ import Home from './pages/Home.tsx'
 import RoutineDetail from './pages/RoutineDetail.tsx'
 import PointDetail from './pages/PointDetail.tsx'
 import Safety from './pages/Safety.tsx'
+import Settings from './pages/Settings.tsx'
+import About from './pages/About.tsx'
 import BodyMap from './pages/BodyMap.tsx'
 import AllPoints from './pages/AllPoints.tsx'
 import AtlasSweep from './dev/AtlasSweep.tsx'
@@ -26,6 +28,8 @@ restoreNativeState().finally(() => {
           <Route path="routine/:routineId" element={<RoutineDetail />} />
           <Route path="point/:pointId" element={<PointDetail />} />
           <Route path="safety" element={<Safety />} />
+          <Route path="settings" element={<Settings />} />
+          <Route path="about" element={<About />} />
           <Route path="map" element={<BodyMap />} />
           <Route path="points" element={<AllPoints />} />
           {import.meta.env.DEV && <Route path="atlas-dev" element={<AtlasSweep />} />}

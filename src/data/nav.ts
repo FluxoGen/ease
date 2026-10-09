@@ -1,4 +1,4 @@
-import { Home, PersonStanding, Search, ShieldCheck, type LucideIcon } from 'lucide-react';
+import { Home, PersonStanding, Search, Settings, type LucideIcon } from 'lucide-react';
 
 export interface NavState { fromAllPoints?: boolean; fromRoutine?: string; fromHome?: boolean }
 
@@ -9,5 +9,5 @@ export const NAV: Array<{ to: string; label: string; icon: LucideIcon; match: (p
   { to: '/', label: 'Home', icon: Home, match: (p, s) => p === '/' || p.startsWith('/routine') || (p.startsWith('/point/') && !fromList(p, s)) },
   { to: '/map', label: 'Body', icon: PersonStanding, match: (p) => p.startsWith('/map') },
   { to: '/points', label: 'Search', icon: Search, match: (p, s) => p.startsWith('/points') || fromList(p, s) },
-  { to: '/safety', label: 'Safety', icon: ShieldCheck, match: (p) => p.startsWith('/safety') },
+  { to: '/settings', label: 'Settings', icon: Settings, match: (p) => p.startsWith('/settings') || p.startsWith('/safety') || p.startsWith('/about') },
 ];

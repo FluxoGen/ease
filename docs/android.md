@@ -55,7 +55,7 @@ production website build). `<html data-app>` is set before the first render, and
 | "‹ Home" text link, footer with links | System-style back arrow; no footer (About, version and feedback live on Safety) |
 | Cards with their own borders | One rounded surface per list, with dividers |
 | Inline "Start routine / Start press" buttons | Bottom action bar on detail screens |
-| Body-map result under the figure; `<select>` for channels | Bottom sheets (body-map result, channel filter, pregnancy question) |
+| Body-map result under the figure; `<select>` for channels | Bottom sheets (body-map result, channel filter) |
 | Hover and focus styles | Touch ripple, press states, no text selection, no overscroll glow |
 | Pages swap instantly | Short slide/fade transitions (none for reduced motion) |
 
@@ -69,7 +69,7 @@ Known limit: on a landscape phone (about 400 px tall) the point screen is crampe
 
 | Concern | How | Where |
 |---|---|---|
-| Back button / gesture | Closes the guided press, then goes back in the WebView's own history (Capacitor's `canGoBack`), then Home, then backgrounds the app. The pregnancy question cannot be dismissed with back. | `src/native.ts`, `src/App.tsx` |
+| Back button / gesture | Closes the guided press, then goes back in the WebView's own history (Capacitor's `canGoBack`), then Home, then backgrounds the app. | `src/native.ts`, `src/App.tsx` |
 | Links that leave the app | `http(s)` links to other hosts open in a browser Custom Tab (`@capacitor/browser`); `mailto:` hands off to the mail app. The app WebView never leaves `https://localhost`. | `src/native.ts` |
 | Screen stays on during a press | `@capacitor-community/keep-awake` (Android WebView has no Wake Lock API); released on pause, finish or close. Only the latest request can release it, so a quick pause/resume never lets the screen sleep mid-press. | `src/native.ts`, `PressSheet.tsx` |
 | Splash | Android 12 splash API: paper background + Ease mark; hidden after the first render, with a 3 s fallback so it can never stick. | `res/values/styles.xml`, `res/drawable/splash_icon.xml` |
@@ -110,7 +110,7 @@ its service worker). The plugins' small web shims do ship in the website bundle.
 
 ## Device checklist (before each release)
 
-- Fresh install asks the pregnancy question; back on it backgrounds the app; the answer survives a restart.
+- Fresh install opens straight to Home (no blocking question); the optional pregnancy card works; the answer survives a restart.
 - Home > routine > point > Start press; back closes the press, then returns routine > Home > leaves the app.
 - Screen stays on during a press; pause releases it.
 - Privacy / source links open in the browser; Contact opens the mail app; returning lands on the same page.

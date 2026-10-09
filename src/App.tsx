@@ -5,7 +5,6 @@ import { Link, Outlet, useLocation, useNavigate, useNavigationType } from 'react
 import BottomNav from './components/BottomNav';
 import EaseLogo from './components/EaseLogo';
 import Footer from './components/Footer';
-import PregnancyGate from './components/PregnancyGate';
 import ThemeToggle from './components/ThemeToggle';
 import Chip from './components/ui/Chip';
 import { PregnancyContext } from './context/PregnancyContext';
@@ -70,15 +69,13 @@ export default function App() {
             <div className="flex min-w-[2rem] items-center justify-end gap-2">
               <ThemeToggle />
               {status === 'yes' && (
-                <Link to="/safety" aria-label="Pregnancy mode is on. Open safety settings">
+                <Link to="/settings#pregnancy" aria-label="Pregnancy mode is on. Open settings">
                   <Chip tone="caution" icon={ShieldAlert}>Pregnancy mode</Chip>
                 </Link>
               )}
             </div>
           </div>
         </header>
-
-        <PregnancyGate open={status === 'unset'} />
 
         <main className="mx-auto w-full max-w-5xl flex-1 px-4 pb-10 pt-5 md:px-8 md:pt-8">
           <Outlet />
@@ -105,7 +102,6 @@ function AppLayout({ status, setStatus }: { status: ReturnType<typeof usePregnan
       <BarProvider>
         <div className={`flex min-h-dvh flex-col ${detail ? '' : 'wide:pl-20'}`}>
           <AppBar status={status} />
-          <PregnancyGate open={status === 'unset'} />
           <main className={`mx-auto w-full max-w-3xl flex-1 px-4 pt-2 ${detail ? 'pb-8' : 'pb-[calc(var(--nav-h)+1.5rem)] wide:pb-8'}`}>
             <div key={pathname} className={`app-screen ${motion}`}>
               <Outlet />

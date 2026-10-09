@@ -16,6 +16,7 @@ interface PointCardProps {
 export default function PointCard({ point: p, step, state }: PointCardProps) {
   const { status } = usePregnancy();
   const blocked = status === 'yes' && p.pregnancy;
+  const flagged = status !== 'no' && p.pregnancy;
   return (
     <Link
       to={`/point/${p.id}`}
@@ -33,7 +34,10 @@ export default function PointCard({ point: p, step, state }: PointCardProps) {
         {blocked ? (
           <Chip tone="caution" className="mt-1">Avoid in pregnancy</Chip>
         ) : (
-          <span className="mt-0.5 line-clamp-2 text-[13px] leading-snug text-ink-2">{p.find}</span>
+          <>
+            <span className="mt-0.5 line-clamp-2 text-[13px] leading-snug text-ink-2">{p.find}</span>
+            {flagged && <Chip tone="caution" className="mt-1.5">Avoid in pregnancy</Chip>}
+          </>
         )}
       </span>
       <ChevronRight size={18} className="shrink-0 text-ink-3 transition group-hover:translate-x-0.5 max-[359px]:hidden" aria-hidden="true" />

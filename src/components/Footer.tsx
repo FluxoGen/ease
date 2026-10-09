@@ -20,6 +20,7 @@ export default function Footer() {
           </a>
           <nav aria-label="Footer" className="flex flex-wrap justify-end gap-x-4 text-xs font-medium text-ink-2">
             <Link to="/safety" className={link}>Safety</Link>
+            <Link to="/settings" className={link}>Settings</Link>
             <a href={FLUXOGEN_URL} target="_blank" rel="noreferrer" className={link}>About</a>
             <a href={PRIVACY_URL} target="_blank" rel="noreferrer" className={link}>Privacy</a>
             <a href={TERMS_URL} target="_blank" rel="noreferrer" className={link}>Terms</a>

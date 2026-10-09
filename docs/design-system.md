@@ -5,7 +5,7 @@ Goal: a calm, trustworthy, fast "go-to" app. Easy to scan in pain, distinctive e
 ## Principles (UX research → decisions)
 - **Fewer choices up front (Hick's law).** Home = one search + 6 popular symptoms; the rest grouped under 6 headings.
 - **Recognition over recall.** "Tap where it hurts" body figure; picture first on every point page.
-- **Thumb reach.** Phone: bottom tab bar (Home, Body, Search, Safety). Desktop: top nav.
+- **Thumb reach.** Phone: bottom tab bar (Home, Body, Search, Settings). Desktop: top nav.
 - **One color vocabulary.** A color means one thing everywhere (see roles below). No hand-typed hex in components.
 - **Act in context.** Pressing time/technique sits beside the picture with a one-tap guided timer.
 - **Calm motion.** Micro-interactions only (press states, breathing dot, sheets). No page transitions.

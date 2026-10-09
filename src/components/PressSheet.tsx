@@ -49,7 +49,8 @@ function PressBody({ point, onClose, sides, next }: { point: LibraryPoint; onClo
   const total = tech.seconds;
   const [side, setSide] = useState(1);
   const [left, setLeft] = useState(total);
-  const [running, setRunning] = useState(true);
+  // Opening the sheet shows the timer ready at full time; nothing counts down until you press Start.
+  const [running, setRunning] = useState(false);
   const [done, setDone] = useState(false);
   // The countdown is driven by a wall-clock deadline, so it stays accurate if the tab is throttled.
   const endAt = useRef(0);
@@ -64,9 +65,6 @@ function PressBody({ point, onClose, sides, next }: { point: LibraryPoint; onClo
     if (running) setRunning(false);
     else { endAt.current = performance.now() + remaining.current * 1000; setRunning(true); }
   };
-
-  // Start the clock when the body mounts (state already starts at full time, running).
-  useEffect(() => { endAt.current = performance.now() + total * 1000; }, [total]);
 
   useEffect(() => {
     if (!running || done) return;

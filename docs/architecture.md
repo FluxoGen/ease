@@ -65,7 +65,7 @@ Legacy ids redirect (for example `ub40` to `bl40`) in `findPoint`.
 ### Routing and shell
 
 `src/main.tsx` defines the routes inside `App` (the shell: sticky header, desktop nav, mobile tab bar,
-footer, pregnancy gate):
+footer):
 
 | Route | Page |
 |---|---|
@@ -74,7 +74,9 @@ footer, pregnancy gate):
 | `/point/:pointId` | PointDetail (and the guided press) |
 | `/points` | AllPoints (`?q=`, `?area=`, channel filter) |
 | `/map` | BodyMap |
-| `/safety` | Safety |
+| `/settings` | Settings (Appearance, Pregnancy, links) |
+| `/safety` | Safety guide only (no preferences) |
+| `/about` | About, privacy, credits |
 | `/atlas-dev` | dev only: AtlasSweep |
 | `*` | redirect to `/` |
 
@@ -100,9 +102,9 @@ gives screen readers three announcements (started, halfway, finished). There is 
 
 ### Pregnancy safety
 
-`context/PregnancyContext` + `hooks/usePregnancyStatus` hold `yes | no | unset` and persist it (`unset` shows the gate).
-`PregnancyGate` asks once (pregnant or not sure answers "yes"). Flagged points render a warning instead of instructions (also in routines and
-the press flow). The flag lives in the data, not in components, so one rule covers every surface.
+`context/PregnancyContext` + `hooks/usePregnancyStatus` hold `yes | no | unset` and persist it. Nothing blocks on `unset`: Home shows an optional card (`PregnancyPrompt`, snoozed for
+14 days with Not now), lists tag flagged points "Avoid in pregnancy", and a flagged point asks in place and withholds Start press
+until answered. With `yes`, flagged points render a warning instead of instructions (also in routines and the press flow). The flag lives in the data, not in components, so one rule covers every surface.
 
 ### Offline / PWA
 

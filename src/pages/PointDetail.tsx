@@ -5,6 +5,7 @@ import { Link, Navigate, useLocation, useParams } from 'react-router-dom';
 import { AppBarTitle } from '../components/app/AppChrome';
 import { VIEWS } from '../components/atlas/geometry';
 import PointPicture from '../components/PointPicture';
+import { PregnancyAnswer } from '../components/PregnancyPrompt';
 import PressSheet from '../components/PressSheet';
 import Chip, { type ChipTone } from '../components/ui/Chip';
 import { Button } from '../components/ui/Button';
@@ -44,6 +45,8 @@ export default function PointDetail() {
   if (pointId !== point.id) return <Navigate to={`/point/${point.id}`} replace state={location.state} />;
 
   const blocked = status === 'yes' && point.pregnancy;
+  // Not answered yet and this point is traditionally avoided in pregnancy: ask here, in place, before pressing.
+  const needsAnswer = status === 'unset' && point.pregnancy && point.selfCare !== 'avoid';
   const navState = location.state as { fromRoutine?: string; fromAllPoints?: boolean; fromHome?: boolean } | null;
   const routine = (navState?.fromRoutine && routinesById[navState.fromRoutine]) || (navState?.fromAllPoints || navState?.fromHome ? undefined : routines.find((r) => r.pointIds.includes(point.id)));
   const back = routine
@@ -63,7 +66,7 @@ export default function PointDetail() {
   const sides = sidesOf(point);
   const hasPhoto = Boolean(photoFor(point));
   const usedIn = routines.filter((r) => r.pointIds.includes(point.id));
-  const canPress = point.selfCare !== 'avoid' && !blocked && tech;
+  const canPress = point.selfCare !== 'avoid' && !blocked && !needsAnswer && tech;
 
   return (
     <div>
@@ -95,6 +98,16 @@ export default function PointDetail() {
           <ShieldAlert size={22} className="mt-0.5 shrink-0" aria-hidden="true" />
           <p className="text-[15px] leading-relaxed"><strong>Not for pressing yourself.</strong> {point.avoidReason} Shown for reference only.</p>
         </div>
+      )}
+
+      {needsAnswer && (
+        <section aria-labelledby="needs-answer" className="mt-4 rounded-[var(--radius-card)] border border-caution-line bg-caution-tint p-4 text-caution">
+          <h2 id="needs-answer" className="flex items-center gap-2 font-extrabold"><ShieldAlert size={20} aria-hidden="true" /> Before you press this one</h2>
+          <p className="mt-1.5 text-[15px] leading-relaxed">
+            This point is traditionally avoided during pregnancy. Does that apply to you? If you are pregnant or not sure, talk to your medical provider first.
+          </p>
+          <div className="mt-3 text-ink"><PregnancyAnswer compact /></div>
+        </section>
       )}
 
       <div className="mt-5 lg:grid lg:grid-cols-[minmax(0,26rem)_1fr] lg:items-start lg:gap-10 wide:app:grid wide:app:grid-cols-[minmax(0,20rem)_1fr] wide:app:items-start wide:app:gap-8">

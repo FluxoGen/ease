@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Dark tokens from src/index.css. -->
 <resources>
-    <color name="ease_paper">#1A2420</color>
+    <color name="ease_paper">#191715</color>
     <color name="ease_ink">#F2EEE5</color>
     <color name="ease_accent">#E08A63</color>
     <color name="colorPrimary">#F2EEE5</color>
-    <color name="colorPrimaryDark">#1A2420</color>
+    <color name="colorPrimaryDark">#191715</color>
     <color name="colorAccent">#EBA684</color>
 </resources>

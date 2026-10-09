@@ -27,7 +27,7 @@ Wellness education only. Not medical advice. Language is "traditionally used for
 | Safety | 45 points pregnancy-flagged, 16 reference-only (never pressable), 78 gentle-touch |
 | Stack | React 19, TypeScript 6, Vite 8, Tailwind CSS v4, react-router 7, Headless UI, vite-plugin-pwa |
 | Backend | none; static data, works offline |
-| Review status | **not yet reviewed by a licensed acupuncturist** (stated on the Safety page) |
+| Review status | **not yet reviewed by a licensed acupuncturist** (stated on the Safety guide) |
 
 ## Features
 
@@ -36,9 +36,11 @@ Wellness education only. Not medical advice. Language is "traditionally used for
 - **All points** (`/points`): search plus area and channel filters over the whole library.
 - **Point page**: picture, "Find it", technique, cautions, evidence chip, and a **guided press**
   (full-screen timer, 4 s in / 6 s out breathing dot, side switching, screen wake lock, next-point hand-off).
-- **Pregnancy gate**: users say once whether they are pregnant or not sure; flagged points then show a
-  warning instead of instructions, everywhere.
-- **Safety page**: urgent signs, pressing rules, color legend, how locations were checked.
+- **Pregnancy, never a blocker**: nothing is asked on first launch. Home offers an optional, dismissible card, and a
+  point that is traditionally avoided in pregnancy asks in place (and won't start) until answered. Pregnant or not
+  sure sets those points aside everywhere. Change it any time in Settings.
+- **Settings tab**: Appearance (System / Light / Dark), Pregnancy, links to the Safety guide, About, privacy and feedback.
+- **Safety guide** (`/safety`): urgent signs, when to skip or stop, how locations were checked. **About** (`/about`): FluxoGen, version, privacy, credits.
 - **PWA**: installable, fully offline after first load (~46 precached files, about 2 MB).
 - **Light and dark**, responsive from small phones to desktop, large-text safe, WCAG AA contrast.
 
@@ -75,7 +77,7 @@ and https://fluxogen.github.io/legal/ease/terms/.
 
 ```
 src/
-  main.tsx, App.tsx        routes, shell (header, tab bar, footer, pregnancy gate)
+  main.tsx, App.tsx        routes, shell (header, tab bar, footer)
   pages/                   Home, RoutineDetail, PointDetail, AllPoints, BodyMap, Safety
   components/              PointCard/Row/Picture, PressSheet, BodyFigure, BottomNav, ui/*
   components/atlas/        drawings (art.tsx), landmarks (geometry.ts), placer (place.ts)

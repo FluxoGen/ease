@@ -39,7 +39,7 @@ public class MainActivity extends BridgeActivity {
     }
 
     private void applyBars(boolean dark) {
-        getWindow().setBackgroundDrawable(new ColorDrawable(dark ? 0xFF1A2420 : 0xFFF6F3EC));
+        getWindow().setBackgroundDrawable(new ColorDrawable(dark ? 0xFF191715 : 0xFFF6F3EC));
         WindowInsetsControllerCompat bars = new WindowInsetsControllerCompat(getWindow(), getWindow().getDecorView());
         bars.setAppearanceLightStatusBars(!dark);
         bars.setAppearanceLightNavigationBars(!dark);

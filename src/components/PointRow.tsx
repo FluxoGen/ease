@@ -16,6 +16,8 @@ interface PointRowProps {
 export default function PointRow({ point: p, state }: PointRowProps) {
   const { status } = usePregnancy();
   const blocked = status === 'yes' && p.pregnancy;
+  // Until someone says it doesn't apply, a point that is traditionally avoided in pregnancy says so.
+  const flagged = status !== 'no' && p.pregnancy;
   const area = AREAS.find((a) => a.id === p.area)?.label ?? '';
   const sub = [area, ...p.indications.slice(0, 3)].filter(Boolean).join(' · ');
   return (
@@ -33,7 +35,7 @@ export default function PointRow({ point: p, state }: PointRowProps) {
           <span className="ml-1.5 font-medium text-ink-2">{p.english}</span>
         </span>
         <span className="line-clamp-2 text-[13px] leading-snug text-ink-2">{sub}</span>
-        {(p.selfCare === 'avoid' || blocked) && (
+        {(p.selfCare === 'avoid' || flagged) && (
           <span className="mt-1.5 flex flex-wrap gap-1.5">
             {p.selfCare === 'avoid' ? <Chip tone="stop" icon={ShieldAlert}>Reference only</Chip> : <Chip tone="caution">Avoid in pregnancy</Chip>}
           </span>

@@ -1,4 +1,4 @@
-import { ArrowLeft, Home, PersonStanding, Search, ShieldAlert, ShieldCheck, type LucideIcon } from 'lucide-react';
+import { ArrowLeft, Home, PersonStanding, Search, Settings, ShieldAlert, type LucideIcon } from 'lucide-react';
 import { useCallback, useContext, useEffect, useMemo, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { NAV } from '../../data/nav';
@@ -18,7 +18,7 @@ export function BarProvider({ children }: { children: React.ReactNode }) {
 const TAB_TITLES: Record<string, string> = {
   '/map': 'Where does it hurt?',
   '/points': 'All points',
-  '/safety': 'Safety',
+  '/settings': 'Settings',
 };
 
 /** Top app bar: logo on Home, a title on the other tabs, a back arrow (and a title that fades in on scroll) on detail screens. */
@@ -47,7 +47,7 @@ export function AppBar({ status }: { status: PregnancyStatus }) {
             <button type="button" aria-label="Back" onClick={() => goBack(config?.backTo ?? '/')} className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full text-ink">
               <ArrowLeft size={24} aria-hidden="true" />
             </button>
-            <p aria-hidden="true" className={`min-w-0 flex-1 truncate text-[17px] font-bold tracking-tight transition-opacity duration-150 ${scrollY > 90 ? 'opacity-100' : 'opacity-0'}`}>
+            <p aria-hidden="true" className={`min-w-0 flex-1 truncate text-[17px] font-bold tracking-tight transition-opacity duration-150 ${config?.pinned || scrollY > 90 ? 'opacity-100' : 'opacity-0'}`}>
               {config?.title}
             </p>
           </>
@@ -61,7 +61,7 @@ export function AppBar({ status }: { status: PregnancyStatus }) {
         {!detail && (
           <div className="ml-auto flex shrink-0 items-center gap-1 pr-1">
             {status === 'yes' && (
-              <Link to="/safety" aria-label="Pregnancy mode is on. Open safety settings">
+              <Link to="/settings#pregnancy" aria-label="Pregnancy mode is on. Open settings">
                 <Chip tone="caution" icon={ShieldAlert}>Pregnancy mode</Chip>
               </Link>
             )}
@@ -73,7 +73,7 @@ export function AppBar({ status }: { status: PregnancyStatus }) {
   );
 }
 
-const ICONS: Record<string, LucideIcon> = { '/': Home, '/map': PersonStanding, '/points': Search, '/safety': ShieldCheck };
+const ICONS: Record<string, LucideIcon> = { '/': Home, '/map': PersonStanding, '/points': Search, '/settings': Settings };
 
 /** Material-style navigation bar (bottom on phones, a rail on tablets and in landscape). */
 export function AppNav() {
@@ -101,7 +101,7 @@ export function AppNav() {
 }
 
 /** Put on a detail screen to give the app bar its title and back target. Renders nothing. */
-export function AppBarTitle({ title, backTo }: { title: string; backTo: string }) {
-  useAppBar(title, backTo);
+export function AppBarTitle({ title, backTo, pinned }: { title: string; backTo: string; pinned?: boolean }) {
+  useAppBar(title, backTo, pinned);
   return null;
 }

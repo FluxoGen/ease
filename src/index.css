@@ -61,35 +61,35 @@
 :root {
   @variant theme-dark {
     color-scheme: dark;
-    --paper: #1a2420;
-    --card: #25322d;
-    --card-2: #2f3e38;
+    --paper: #191715;
+    --card: #242120;
+    --card-2: #2e2a27;
     --ink: #f2eee5;
-    --ink-2: #b9c1ba;
-    --ink-3: #8b958e;
+    --ink-2: #bdb6ab;
+    --ink-3: #8f887d;
     --line: rgb(246 243 236 / 0.1);
     --line-strong: rgb(246 243 236 / 0.2);
 
     --accent: #e08a63;
     --accent-strong: #eba684;
-    --on-accent: #1a2420;
-    --accent-tint: #3d3029;
+    --on-accent: #191715;
+    --accent-tint: #3a2b24;
 
     --ok: #8fd1a6;
-    --ok-tint: #213a2d;
+    --ok-tint: #232b26;
     --info: #9cc3e0;
-    --info-tint: #20323f;
+    --info-tint: #232a31;
     --caution: #f0d79a;
-    --caution-tint: #3a3220;
+    --caution-tint: #372f22;
     --caution-line: #6b5830;
     --stop: #f2a8a1;
-    --stop-tint: #3d2523;
+    --stop-tint: #3b2523;
     --stop-line: #774640;
 
     --shadow-card: 0 0 0 transparent;
     --shadow-pop: 0 24px 48px -16px rgb(0 0 0 / 0.6);
 
-    --atlas-paper: #1d2824;
+    --atlas-paper: #211e1c;
     --atlas-skin: #4a3b34;
     --atlas-shade: #5d4a40;
     --atlas-line: #d1a688;

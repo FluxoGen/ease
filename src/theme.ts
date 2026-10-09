@@ -7,7 +7,7 @@ import { isNative, persistNative } from './native';
 export type ThemePref = 'system' | 'light' | 'dark';
 
 const KEY = 'ease.theme';
-const COLORS = { light: '#f6f3ec', dark: '#1a2420' };
+const COLORS = { light: '#f6f3ec', dark: '#191715' };
 
 interface NativeBridge { isDark?: () => boolean; setBars?: (dark: boolean) => void }
 const bridge = (): NativeBridge | undefined => (window as unknown as { EaseNative?: NativeBridge }).EaseNative;

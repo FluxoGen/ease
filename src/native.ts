@@ -25,7 +25,7 @@ if (isApp) document.documentElement.dataset.app = '';
 
 /** Settings mirrored to native storage. WebView localStorage is written to disk lazily (about a second
  * later), so an answer given just before the app is killed could be lost; SharedPreferences is not. */
-const PERSISTED_KEYS = ['ease.pregnancyStatus', 'ease.theme'];
+const PERSISTED_KEYS = ['ease.pregnancyStatus', 'ease.theme', 'ease.pregnancyNudge'];
 
 /**
  * Before the first render. Native storage is the source of truth: it is written at once, while the
@@ -53,9 +53,6 @@ export function persistNative(key: string, value: string | null) {
   if (!isNative) return;
   (value === null ? Preferences.remove({ key }) : Preferences.set({ key, value })).catch(() => {});
 }
-
-/** Attribute that marks a dialog the back button must not dismiss (the pregnancy question). */
-export const BLOCKING_DIALOG = 'data-blocking-dialog';
 
 /**
  * Keep the screen on while a guided press runs. Native: the KeepAwake plugin (Android WebView has no
@@ -129,10 +126,6 @@ export function initNative(back: BackHandler): () => void {
     if (closer && !document.querySelector('[role="dialog"]')) { closer.click(); return; }
     const dialog = document.querySelector('[role="dialog"]');
     if (dialog) {
-      if (dialog.closest(`[${BLOCKING_DIALOG}]`) || dialog.hasAttribute(BLOCKING_DIALOG) || dialog.querySelector(`[${BLOCKING_DIALOG}]`)) {
-        CapApp.minimizeApp().catch(() => {});
-        return;
-      }
       // Headless UI dialogs close on Escape.
       (document.activeElement ?? document.body).dispatchEvent(new KeyboardEvent('keydown', { key: 'Escape', code: 'Escape', bubbles: true }));
       return;
