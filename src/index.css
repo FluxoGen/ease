@@ -44,8 +44,22 @@
   --atlas-eye: #ffffff;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
+/* Dark = the system says dark, unless the Android app has said light; or the Android app says dark.
+   (Android's WebView only reads the system theme at start, so the app reports live switches via
+   data-theme on <html>; see MainActivity.java. The website never sets it.) */
+@custom-variant theme-dark {
+  @media (prefers-color-scheme: dark) {
+    &:is(:root:not([data-theme='light']), :root:not([data-theme='light']) *) {
+      @slot;
+    }
+  }
+  &:is([data-theme='dark'], [data-theme='dark'] *) {
+    @slot;
+  }
+}
+
+:root {
+  @variant theme-dark {
     color-scheme: dark;
     --paper: #1a2420;
     --card: #25322d;
@@ -179,8 +193,10 @@ body {
 .no-scrollbar::-webkit-scrollbar { display: none; }
 
 /* Handout photos are pure white; soften them at night (migraine and photophobia friendly). */
-@media (prefers-color-scheme: dark) {
-  .photo { filter: brightness(0.86) contrast(1.02); }
+.photo {
+  @variant theme-dark {
+    filter: brightness(0.86) contrast(1.02);
+  }
 }
 
 /* Tab bar tucks away on scroll down; the floating press bar drops to the bottom with it. */

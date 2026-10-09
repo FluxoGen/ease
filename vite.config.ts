@@ -4,11 +4,14 @@ import { defineConfig } from 'vite'
 import { VitePWA } from 'vite-plugin-pwa'
 
 // https://vite.dev/config/
-export default defineConfig({
+// `vite build --mode native` builds for the Android app: the APK already holds every file, so no
+// service worker (it would only add a second cache that can serve stale files after an update).
+export default defineConfig(({ mode }) => ({
   plugins: [
     react(),
     tailwindcss(),
     VitePWA({
+      disable: mode === 'native',
       registerType: 'autoUpdate',
       workbox: {
         globPatterns: ['**/*.{js,css,html,ico,png,jpg,svg,woff2}'],
@@ -28,4 +31,4 @@ export default defineConfig({
       },
     }),
   ],
-})
+}))

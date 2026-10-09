@@ -5,7 +5,7 @@ How Ease is put together and why. For setup see the [README](../README.md); for 
 
 ## 1. Shape of the system
 
-Ease is a static single-page app. There is no server and no database. The whole library ships as one JSON
+Ease is a static single-page app, shipped as a website and as an Android app. There is no server and no database. The whole library ships as one JSON
 file, and a service worker makes it work offline. The only user data is the pregnancy answer in
 `localStorage` (`ease.pregnancyStatus`). Nothing is sent anywhere.
 
@@ -109,6 +109,14 @@ the press flow). The flag lives in the data, not in components, so one rule cove
 `vite-plugin-pwa` (autoUpdate) precaches `js, css, html, ico, png, jpg, svg, woff2` (about 46 entries).
 Fonts are self-hosted (Manrope variable). The manifest sets standalone display and maskable icons. Dev mode
 has no service worker, so test offline on `npm run preview`.
+
+### Android app
+
+The same build runs in an Android WebView through Capacitor 8, served from the APK at `https://localhost`
+(`npm run build:native` drops the service worker). `src/native.ts` holds all native glue and is a no-op on the
+web: back button, external links to the browser, keep-awake during a press, the pregnancy answer mirrored to
+SharedPreferences, splash, and live light/dark. The manifest removes the INTERNET permission and turns off
+backup. Details: [android.md](android.md).
 
 ## 4. Placement engine (pictures)
 

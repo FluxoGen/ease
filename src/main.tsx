@@ -11,8 +11,11 @@ import Safety from './pages/Safety.tsx'
 import BodyMap from './pages/BodyMap.tsx'
 import AllPoints from './pages/AllPoints.tsx'
 import AtlasSweep from './dev/AtlasSweep.tsx'
+import { hideSplash, restoreNativeState } from './native'
 
-createRoot(document.getElementById('root')!).render(
+// Android: restore saved settings before the first render (instant on the web).
+restoreNativeState().finally(() => {
+  createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <BrowserRouter>
       <Routes>
@@ -30,3 +33,6 @@ createRoot(document.getElementById('root')!).render(
     </BrowserRouter>
   </StrictMode>,
 )
+  // Never leave the Android splash up, even if the first render fails.
+  setTimeout(hideSplash, 3000)
+})

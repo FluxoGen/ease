@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Launch splash mark: same ring + dot, sized for the 240dp splash icon canvas (shown inside a 160dp circle). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="240dp" android:height="240dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <path android:strokeColor="@color/ease_ink" android:strokeWidth="5.4" android:fillColor="#00000000"
+        android:pathData="M54,34a20,20 0,1 1,0 40a20,20 0,1 1,0 -40z"/>
+    <path android:fillColor="@color/ease_accent"
+        android:pathData="M54,44.5a9.5,9.5 0,1 1,0 19a9.5,9.5 0,1 1,0 -19z"/>
+</vector>

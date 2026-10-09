@@ -1,11 +1,11 @@
-import { AlertTriangle, BadgeCheck, Check, Hand, Info, Scale, ShieldAlert, type LucideIcon } from 'lucide-react';
+import { AlertTriangle, BadgeCheck, Check, Hand, Info, Lock, Scale, ShieldAlert, type LucideIcon } from 'lucide-react';
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import { toast } from 'sonner';
 import Chip, { type ChipTone } from '../components/ui/Chip';
 import { usePregnancy } from '../context/PregnancyContext';
 import { library } from '../data/library';
-import { REVIEW_STATEMENT, URGENT_SIGNS } from '../data/library/shared';
+import { PRIVACY_URL, REVIEW_STATEMENT, TERMS_URL, URGENT_SIGNS } from '../data/library/shared';
 import { usePageTitle } from '../hooks/usePageTitle';
 
 const PREGNANCY_POINTS = library.filter((p) => p.pregnancy && p.selfCare !== 'avoid').length;
@@ -128,6 +128,17 @@ export default function Safety() {
           <p className="mt-3">
             Photos and point selections for the first routines come from public-domain patient education handouts by the VA Portland
             Health Care System and the VHA Office of Patient Centered Care (U.S. federal government works, 17 U.S.C. §105).
+          </p>
+        </Card>
+
+        <Card id="privacy" title="Your privacy" icon={Lock}>
+          <p>
+            Ease has no sign-in, ads, analytics or tracking, and it works offline. The one thing it remembers is your answer to the
+            pregnancy question, kept on this device only. Clearing the app's data or uninstalling removes it.
+          </p>
+          <p className="mt-3 flex flex-wrap gap-x-4">
+            <a href={PRIVACY_URL} target="_blank" rel="noreferrer" className="inline-flex min-h-11 items-center font-semibold text-accent-strong underline underline-offset-2">Privacy policy</a>
+            <a href={TERMS_URL} target="_blank" rel="noreferrer" className="inline-flex min-h-11 items-center font-semibold text-accent-strong underline underline-offset-2">Terms of use</a>
           </p>
         </Card>
       </div>

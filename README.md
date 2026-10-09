@@ -53,6 +53,7 @@ npm run build      # tsc -b && vite build -> dist/ (+ service worker)
 npm run preview    # serves dist/ at http://localhost:4173 with the service worker
 npm run lint       # oxlint
 npm run check      # library rules check + WCAG contrast check
+npm run android    # Android: native build + cap sync + open Android Studio
 npx tsc -b         # type-check only
 ```
 
@@ -62,6 +63,13 @@ references), so bare `tsc --noEmit` checks zero files and exits 0.
 Test offline: open the preview once online, then DevTools > Network > Offline and reload.
 
 Dev-only route `/atlas-dev` draws all 19 views with every point labelled, for visual placement checks.
+
+## Android app
+
+The same app ships for Android with Capacitor, fully offline (no INTERNET permission). `npm run android`
+builds, syncs and opens Android Studio. Release steps, native behaviour and the Play checklist:
+[`docs/android.md`](docs/android.md). Privacy policy and terms: https://fluxogen.github.io/legal/ease/privacy/
+and https://fluxogen.github.io/legal/ease/terms/.
 
 ## Repository map
 
@@ -74,6 +82,7 @@ src/
   data/library/            points.json (generated), index.ts, shared.ts, areas.ts, photos.ts
   data/                    routines.ts, search.ts, nav.ts, groups.ts
   context/, hooks/         pregnancy state, page titles
+android/                   Capacitor Android project (see docs/android.md)
 scripts/                   assemble_library.py, check_library.py, unit_audit.py,
                            review_sheet.py, import_review.py, contrast_check.mjs
 sources/                   VA PDFs + every research, verification and review record

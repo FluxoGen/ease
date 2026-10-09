@@ -1,7 +1,7 @@
 import { ShieldAlert } from 'lucide-react';
 import { Toaster } from 'sonner';
-import { useEffect } from 'react';
-import { Link, Outlet, useLocation, useNavigationType } from 'react-router-dom';
+import { useEffect, useRef } from 'react';
+import { Link, Outlet, useLocation, useNavigate, useNavigationType } from 'react-router-dom';
 import BottomNav from './components/BottomNav';
 import EaseLogo from './components/EaseLogo';
 import Footer from './components/Footer';
@@ -10,11 +10,25 @@ import Chip from './components/ui/Chip';
 import { PregnancyContext } from './context/PregnancyContext';
 import { NAV, type NavState } from './data/nav';
 import { usePregnancyStatus } from './hooks/usePregnancyStatus';
+import { initNative } from './native';
 
 export default function App() {
   const { status, setStatus } = usePregnancyStatus();
-  const { pathname, state } = useLocation();
+  const location = useLocation();
+  const { pathname, state } = location;
   const navType = useNavigationType();
+  const navigate = useNavigate();
+  // Android back button (no-op on the web). The listener is registered once and reads the latest location.
+  const here = useRef(location);
+  useEffect(() => { here.current = location; }, [location]);
+  useEffect(() => initNative({
+    goBack: () => navigate(-1),
+    goHome: () => {
+      if (here.current.pathname === '/') return false;
+      navigate('/', { replace: true });
+      return true;
+    },
+  }), [navigate]);
   // New pages open at the top; back/forward keeps the browser's own scroll position.
   useEffect(() => {
     if (navType !== 'POP') window.scrollTo(0, 0);
@@ -24,12 +38,12 @@ export default function App() {
     <PregnancyContext.Provider value={{ status, setStatus }}>
       <div className="flex min-h-dvh flex-col">
         <header className="sticky top-0 z-20 border-b border-line bg-paper/95 backdrop-blur-xl">
-          <div className="mx-auto flex h-14 w-full max-w-5xl items-center justify-between gap-4 px-4 wide:h-16 md:px-8">
+          <div className="mx-auto flex min-h-14 w-full max-w-5xl items-center justify-between gap-4 px-4 wide:min-h-16 md:px-8">
             <Link to="/" aria-label="Ease home" className="-mx-2 flex min-h-11 shrink-0 items-center px-2">
               <EaseLogo height={24} ink="var(--ink)" dot="var(--accent)" />
             </Link>
 
-            <nav aria-label="Main" className="hidden items-center gap-1 wide:flex">
+            <nav aria-label="Main" className="hidden min-w-0 flex-wrap items-center justify-center gap-1 wide:flex">
               {NAV.map(({ to, label, icon: Icon, match }) => {
                 const active = match(pathname, state as NavState | null);
                 return (

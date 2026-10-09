@@ -2,6 +2,7 @@ import { Dialog, DialogPanel, DialogTitle } from '@headlessui/react';
 import { Baby } from 'lucide-react';
 import { toast } from 'sonner';
 import { usePregnancy } from '../context/PregnancyContext';
+import { BLOCKING_DIALOG } from '../native';
 import { Button } from './ui/Button';
 
 export default function PregnancyGate({ open }: { open: boolean }) {
@@ -17,7 +18,7 @@ export default function PregnancyGate({ open }: { open: boolean }) {
   };
 
   return (
-    <Dialog open={open} onClose={() => {}} transition className="relative z-40">
+    <Dialog open={open} onClose={() => {}} transition className="relative z-40" {...{ [BLOCKING_DIALOG]: '' }}>
       <div className="fixed inset-0 bg-black/50 backdrop-blur-sm transition-opacity duration-200 data-closed:opacity-0" aria-hidden="true" />
       <div className="fixed inset-0 flex items-end justify-center p-3 sm:items-center sm:p-4">
         <DialogPanel className="w-full max-w-sm rounded-[28px] border border-line bg-card p-6 shadow-pop transition duration-200 ease-out data-closed:translate-y-6 data-closed:opacity-0 sm:data-closed:translate-y-0 sm:data-closed:scale-95">

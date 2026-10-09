@@ -1,7 +1,8 @@
 // WCAG contrast check for the design tokens in src/index.css (light + dark). Exit 1 on failure.
 import fs from 'fs';
 const css = fs.readFileSync('src/index.css', 'utf8');
-const blocks = [...css.matchAll(/:root\s*\{([\s\S]*?)\n\s*\}/g)].map((m) => m[1]);
+// Light tokens: the first `:root { ... }` block. Dark tokens: the `@variant theme-dark { ... }` block.
+const blocks = [css.match(/:root\s*\{([\s\S]*?)\n\}/)[1], css.match(/@variant theme-dark\s*\{([\s\S]*?)\n\s*\}/)[1]];
 const parse = (b) => Object.fromEntries([...b.matchAll(/--([\w-]+):\s*(#[0-9a-fA-F]{6}|rgb\([^)]*\))\s*;/g)].map((m) => [m[1], m[2]]));
 const light = parse(blocks[0]);
 const dark = { ...light, ...parse(blocks[1]) };

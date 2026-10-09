@@ -3,6 +3,7 @@ import { Pause, Play, RotateCcw, X } from 'lucide-react';
 import { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import type { LibraryPoint } from '../data/library';
+import { keepScreenOn } from '../native';
 import { PRESSING_RULES, TECHNIQUES } from '../data/library/shared';
 import PointPicture from './PointPicture';
 import { Button, LinkButton } from './ui/Button';
@@ -86,9 +87,10 @@ function PressBody({ point, onClose, sides, next }: { point: LibraryPoint; onClo
   // Keep the screen awake while pressing.
   useEffect(() => {
     if (!running) return;
-    let lock: { release: () => Promise<void> } | null = null;
-    (navigator as unknown as { wakeLock?: { request: (t: string) => Promise<typeof lock> } }).wakeLock?.request('screen').then((l) => { lock = l; }).catch(() => {});
-    return () => { lock?.release().catch(() => {}); };
+    let release: (() => void) | null = null;
+    let stopped = false;
+    keepScreenOn().then((r) => { if (stopped) r(); else release = r; });
+    return () => { stopped = true; release?.(); };
   }, [running]);
 
   const elapsed = total - left;

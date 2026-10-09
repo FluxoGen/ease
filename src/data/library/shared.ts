@@ -71,3 +71,7 @@ export const SOURCE_SITES: Record<string, { name: string; base: string }> = {
 export const SITE_BY_DOMAIN: Record<string, string> = Object.fromEntries(
   Object.entries(SOURCE_SITES).filter(([, s]) => s.base).map(([id, s]) => [new URL(s.base).hostname.replace('www.', ''), id]),
 );
+
+/** Public legal pages (FluxoGen/legal on GitHub Pages). Also used for the Play Store listing. */
+export const PRIVACY_URL = 'https://fluxogen.github.io/legal/ease/privacy/';
+export const TERMS_URL = 'https://fluxogen.github.io/legal/ease/terms/';
