@@ -2,6 +2,7 @@ import { Search, X } from 'lucide-react';
 import { useMemo, useRef, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import PointRow from '../components/PointRow';
+import ChipScroller from '../components/ui/ChipScroller';
 import { library, type Area } from '../data/library';
 import { AREAS } from '../data/library/areas';
 import { CHANNELS } from '../data/library/shared';
@@ -21,12 +22,6 @@ export default function AllPoints() {
   const [channel, setChannel] = useState('all');
   const [shown, setShown] = useState(PAGE);
   const input = useRef<HTMLInputElement>(null);
-
-  const counts = useMemo(() => {
-    const c: Partial<Record<Area, number>> = {};
-    for (const p of library) c[p.area] = (c[p.area] ?? 0) + 1;
-    return c;
-  }, []);
 
   const results = useMemo(() => {
     const base = query.trim() ? search(query, 1000).points : library;
@@ -63,14 +58,14 @@ export default function AllPoints() {
         )}
       </div>
 
-      <div className="no-scrollbar -mx-4 mt-3 flex gap-2 overflow-x-auto px-4 pb-1 md:mx-0 md:flex-wrap md:overflow-visible md:px-0" role="group" aria-label="Body area">
-        <button type="button" aria-pressed={area === null} onClick={() => setArea(null)} className={chip(area === null)}>All areas</button>
+      <ChipScroller label="Body area" className="mt-3">
+        <button type="button" aria-pressed={area === null} onClick={() => setArea(null)} className={`${chip(area === null)} snap-start`}>All areas</button>
         {AREAS.map((a) => (
-          <button key={a.id} type="button" aria-pressed={area === a.id} onClick={() => setArea(a.id)} className={chip(area === a.id)}>
-            {a.label} <span className="tnum font-semibold">{counts[a.id]}</span>
+          <button key={a.id} type="button" aria-pressed={area === a.id} onClick={() => setArea(a.id)} className={`${chip(area === a.id)} snap-start`}>
+            {a.label}
           </button>
         ))}
-      </div>
+      </ChipScroller>
 
       <label className="mt-2 block">
         <span className="sr-only">Channel</span>
