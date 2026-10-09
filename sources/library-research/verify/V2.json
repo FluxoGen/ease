@@ -1,0 +1,536 @@
+[
+ {
+  "code": "ST1",
+  "verdict": "ok",
+  "reason": "Matches WHO (below pupil, between eyeball and lower orbital rim). avoid + eye caution correct for a point between eyeball and orbit. YYH agrees.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House ST1",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/st1/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "ST2",
+  "verdict": "ok",
+  "reason": "WHO: in the infraorbital foramen; YYH: below pupil in the depression at the infraorbital foramen. Find and 1-cun-below-pupil placement consistent.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House ST2",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/st2/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "ST3",
+  "verdict": "ok",
+  "reason": "WHO and YYH: below pupil, level with lower border of nostril wing. Toothache confirmed by YYH.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House ST3",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/st3/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "ST4",
+  "verdict": "fix",
+  "fixes": {
+   "find": "On the face, just beside the corner of the mouth, about half a finger-width out, on the line of the crease that runs down from the nose."
+  },
+  "reason": "WHO puts ST4 0.4 cun lateral to the mouth corner; 'a finger-width' (~0.7 cun) overstates it. Placement (out 0.4) is right; only the find text needs tightening.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House ST4",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/st4/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "ST5",
+  "verdict": "ok",
+  "reason": "WHO: in front of jaw angle, at front edge of masseter, over facial artery; YYH same (facial artery groove, 'avoid artery'). pulse caution and gentle are correct.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House ST5",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/st5/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "ST6",
+  "verdict": "ok",
+  "reason": "WHO and YYH: one finger-width forward and up from jaw angle, at masseter prominence on clenching. Matches.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House ST6",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/st6/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "ST7",
+  "verdict": "fix",
+  "fixes": {
+   "find": "On the side of the face, about a finger-width in front of the ear, in the hollow just under the cheekbone arch. With your mouth closed you feel a dip; it fills when you open your mouth."
+  },
+  "reason": "WHO: depression between the lower border of the cheekbone arch and the jaw notch, directly below GB3, i.e. about a finger-width in front of the ear, not 'just in front of the ear' (that is the SI19/TMJ hollow). YYH agrees on location; ear ringing and jaw pain confirmed.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House ST7",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/st7/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "ST8",
+  "verdict": "fix",
+  "fixes": {
+   "find": "At the corner of the forehead on each side, about half a thumb-width inside the hairline, where the hairline turns back toward the temple."
+  },
+  "reason": "WHO and YYH: 0.5 cun inside the hairline at the forehead corner, 4.5 cun from the midline. Find says 'about a thumb-width up', which is double; placement (up 0.5) is correct.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House ST8",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/st8/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "ST9",
+  "verdict": "ok",
+  "reason": "WHO: level with top of thyroid cartilage, front edge of SCM, over common carotid; YYH same. avoid + pulse correct (carotid).",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House ST9",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/st9/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "ST10",
+  "verdict": "fix",
+  "fixes": {
+   "find": "On the front of the neck, along the front edge of the large neck muscle, a little below the level of the Adam's apple, about halfway between the carotid pulse and the inner end of the collarbone.",
+   "place": {
+    "manual": "On the front edge of the sternocleidomastoid at the level of the cricoid cartilage, midway between ST9 (level with the top of the Adam's apple) and ST11 (above the inner end of the collarbone)."
+   }
+  },
+  "reason": "WHO: level with the cricoid cartilage at the front edge of SCM; YYH: midway between ST9 and ST11. Placement uses clavicle_mid as the lower anchor, but ST11 sits at the inner (sternal) end of the collarbone, so the dot would be pulled far out to the side. Find's 'notch above the collarbone' is also ambiguous.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House ST10",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/st10/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "ST11",
+  "verdict": "ok",
+  "reason": "WHO and YYH: above the inner end of the collarbone, between the two heads of SCM. Sore throat and neck stiffness confirmed by YYH.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House ST11",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/st11/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "ST12",
+  "verdict": "fix",
+  "fixes": {
+   "selfCare": "gentle",
+   "technique": "gentle",
+   "cautions": [
+    "pulse"
+   ]
+  },
+  "reason": "Location matches WHO and YYH (mid supraclavicular fossa, 4 cun from midline). But YYH flags 'Avoid Artery' (subclavian) and no deep pressure; the deep hollow over the subclavian artery and brachial plexus should not get normal firm pressure. Some classical texts also list ST12 as contraindicated in pregnancy, but I did not confirm this in 2 opened sources, so pregnancy left false.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House ST12",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/st12/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "ST13",
+  "verdict": "ok",
+  "reason": "WHO and YYH: below the collarbone, 4 cun from midline (nipple line). 'About a hand-width from the breastbone' is consistent (breastbone edge ~1 cun from midline).",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House ST13",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/st13/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "ST14",
+  "verdict": "ok",
+  "reason": "WHO and YYH: 1st intercostal space, 4 cun lateral. Chest tightness confirmed.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House ST14",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/st14/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "ST15",
+  "verdict": "ok",
+  "reason": "WHO and YYH: 2nd intercostal space, 4 cun lateral; sternal-angle tip matches WHO note.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House ST15",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/st15/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "ST16",
+  "verdict": "ok",
+  "reason": "WHO and YYH: 3rd intercostal space, 4 cun lateral.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House ST16",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/st16/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "ST17",
+  "verdict": "ok",
+  "reason": "Centre of nipple; landmark only (YYH: never needled or treated). avoid correct per brief.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House ST17",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/st17/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "ST18",
+  "verdict": "ok",
+  "reason": "WHO and YYH: 5th intercostal space, 4 cun lateral; female note (midpoint of breast crease) matches WHO.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House ST18",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/st18/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "ST19",
+  "verdict": "fix",
+  "fixes": {
+   "find": "On the upper belly, on both sides, just under the rib edge, about two hand-widths above the navel and about three finger-widths out from the midline."
+  },
+  "reason": "WHO: 6 cun above navel, 2 cun lateral (YYH: level with CV14). Find says 'about a hand-width above the belly button' (a hand-width is ~3 cun, so it is half the distance) and 'out to the right', but the point is on both sides. Placement is correct.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House ST19",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/st19/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "ST20",
+  "verdict": "fix",
+  "fixes": {
+   "find": "On the upper belly, five thumb-widths above the navel and two thumb-widths out from the midline, one thumb-width below the point just under the ribs (ST19)."
+  },
+  "reason": "WHO: 5 cun above navel, 2 cun lateral, 1 cun below ST19. Find claims 'one thumb-width below the rib edge', which is not in WHO and varies with rib-cage shape (WHO notes the rib may even lie below ST19). Placement correct.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House ST20",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/st20/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "ST21",
+  "verdict": "ok",
+  "reason": "WHO and YYH (level with CV12): 4 cun above navel, 2 cun lateral. Indications confirmed.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House ST21",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/st21/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "ST22",
+  "verdict": "ok",
+  "reason": "WHO and YYH (level with CV11): 3 cun above navel, 2 cun lateral. Bloating, diarrhea, rumbling confirmed by YYH.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House ST22",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/st22/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "ST23",
+  "verdict": "ok",
+  "reason": "WHO and TCM Wiki: 2 cun above navel, 2 cun lateral. Stomachache confirmed.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki ST23",
+   "url": "https://tcmwiki.com/wiki/st23",
+   "agrees": true
+  }
+ },
+ {
+  "code": "ST24",
+  "verdict": "ok",
+  "reason": "WHO and TCM Wiki: 1 cun above navel, 2 cun lateral. Stomachache, vomiting confirmed.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki ST24",
+   "url": "https://tcmwiki.com/wiki/st24",
+   "agrees": true
+  }
+ },
+ {
+  "code": "ST25",
+  "verdict": "ok",
+  "reason": "WHO and Pulse TCM: 2 cun lateral to the navel centre, level with the navel. Diarrhea/bowel use confirmed. Not lower abdomen, so pregnancy false is consistent with the region rule (Pulse TCM only advises consulting a physician in pregnancy).",
+  "freshSource": {
+   "id": "pulsetcm",
+   "name": "Pulse TCM Tian Shu ST25",
+   "url": "https://pulsetcm.sg/acupoints/天枢-tian-shu-st25/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "ST26",
+  "verdict": "ok",
+  "reason": "WHO and TCM Wiki: 1 cun below navel, 2 cun lateral. Lower abdomen so pregnancy true is right; dysmenorrhea confirmed.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki ST26",
+   "url": "https://tcmwiki.com/wiki/st26",
+   "agrees": true
+  }
+ },
+ {
+  "code": "ST27",
+  "verdict": "ok",
+  "reason": "WHO and TCM Wiki: 2 cun below navel, 2 cun lateral. Abdominal distension confirmed; 'irregular periods' not listed by TCM Wiki (author's two sources stand).",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki ST27",
+   "url": "https://tcmwiki.com/wiki/st27",
+   "agrees": true
+  }
+ },
+ {
+  "code": "ST28",
+  "verdict": "ok",
+  "reason": "WHO and TCM Wiki: 3 cun below navel, 2 cun lateral. Difficult urination (dysuria) confirmed.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki ST28",
+   "url": "https://tcmwiki.com/wiki/st28",
+   "agrees": true
+  }
+ },
+ {
+  "code": "ST29",
+  "verdict": "ok",
+  "reason": "WHO and TCM Wiki: 4 cun below navel, 2 cun lateral. Irregular periods confirmed.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki ST29",
+   "url": "https://tcmwiki.com/wiki/st29",
+   "agrees": true
+  }
+ },
+ {
+  "code": "ST30",
+  "verdict": "ok",
+  "reason": "WHO: level with top of pubic symphysis, 2 cun lateral, over femoral artery; TCM Wiki: slightly above the groin, 5 cun below navel. gentle + pulse + pregnancy appropriate. Borderline for 'avoid' given groin location; lead may prefer avoid.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki ST30",
+   "url": "https://tcmwiki.com/wiki/st30",
+   "agrees": true
+  }
+ },
+ {
+  "code": "ST31",
+  "verdict": "fix",
+  "fixes": {
+   "find": "On the upper front of the thigh, straight below the bony point at the front of the hip, level with the bottom of the pubic bone, in the soft dip between the thigh muscles.",
+   "place": {
+    "manual": "On the line from the front hip bone point (ASIS) to the outer end of the kneecap top, at the level of the lower border of the pubic symphysis (slightly below pubic_symphysis_top)."
+   }
+  },
+  "reason": "WHO note 2 puts ST31 level with the LOWER border of the pubic symphysis, on the ASIS to outer-kneecap line; TCM Wiki agrees ('level with the lower border of the pubic symphysis'). Find says 'level with the top of the pubic bone', and the placement (18 cun above patella base = top of symphysis by the thigh span) puts it at the same wrong level, slightly too high.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki ST31",
+   "url": "https://tcmwiki.com/wiki/st31",
+   "agrees": true
+  }
+ },
+ {
+  "code": "ST32",
+  "verdict": "ok",
+  "reason": "WHO and TCM Wiki: on the ASIS to outer-kneecap line, 6 cun above the kneecap. Knee and lumbar pain confirmed.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki ST32",
+   "url": "https://tcmwiki.com/wiki/st32",
+   "agrees": true
+  }
+ },
+ {
+  "code": "ST33",
+  "verdict": "ok",
+  "reason": "WHO and TCM Wiki: 3 cun above the kneecap on the same line, lateral to rectus femoris tendon.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki ST33",
+   "url": "https://tcmwiki.com/wiki/st33",
+   "agrees": true
+  }
+ },
+ {
+  "code": "ST34",
+  "verdict": "ok",
+  "reason": "WHO and TCM Wiki: 2 cun above upper-outer kneecap. Acute stomach pain and knee pain confirmed.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki ST34",
+   "url": "https://tcmwiki.com/wiki/st34",
+   "agrees": true
+  }
+ },
+ {
+  "code": "ST35",
+  "verdict": "ok",
+  "reason": "WHO and TCM Wiki: knee bent, hollow outside the patellar ligament at the kneecap's lower edge.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki ST35",
+   "url": "https://tcmwiki.com/wiki/st35",
+   "agrees": true
+  }
+ },
+ {
+  "code": "ST36",
+  "verdict": "ok",
+  "reason": "WHO: 3 cun below ST35 on the ST35-ST41 line; TCM Wiki: 3 cun below ST35, one finger-breadth from the shin crest. Four finger-widths = 3 cun, correct.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki ST36",
+   "url": "https://tcmwiki.com/wiki/st36",
+   "agrees": true
+  }
+ },
+ {
+  "code": "ST37",
+  "verdict": "ok",
+  "reason": "WHO and TCM Wiki: 6 cun below ST35, one finger-breadth lateral to the shin crest.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki ST37",
+   "url": "https://tcmwiki.com/wiki/st37",
+   "agrees": true
+  }
+ },
+ {
+  "code": "ST38",
+  "verdict": "ok",
+  "reason": "WHO and TCM Wiki: 8 cun below ST35, one finger-breadth lateral to shin crest. Shoulder/arm aching confirmed.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki ST38",
+   "url": "https://tcmwiki.com/wiki/st38",
+   "agrees": true
+  }
+ },
+ {
+  "code": "ST39",
+  "verdict": "ok",
+  "reason": "WHO and TCM Wiki: 9 cun below ST35, one finger-breadth lateral to shin crest.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki ST39",
+   "url": "https://tcmwiki.com/wiki/st39",
+   "agrees": true
+  }
+ },
+ {
+  "code": "ST40",
+  "verdict": "fix",
+  "fixes": {
+   "place": {
+    "manual": "Level with ST38 (8 cun below ST35 / 8 cun above the lateral malleolus prominence), one finger-width lateral to the ST line, at the outer edge of the tibialis anterior."
+   }
+  },
+  "reason": "Location text is right (WHO: 8 cun above lateral malleolus, at outer edge of tibialis anterior, one finger-breadth lateral to ST38; TCM Wiki agrees). But place {line: ST, from lateral_malleolus, cun 8} puts the dot ON the ST line, i.e. at ST38; ST40 sits one finger-width further out.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki ST40",
+   "url": "https://tcmwiki.com/wiki/st40",
+   "agrees": true
+  }
+ },
+ {
+  "code": "ST41",
+  "verdict": "ok",
+  "reason": "WHO and TCM Wiki: centre of the front of the ankle, between the extensor hallucis longus and extensor digitorum longus tendons. TCM Wiki lists only local ankle uses; headache/constipation rest on the author's sources.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki ST41",
+   "url": "https://tcmwiki.com/wiki/st41",
+   "agrees": true
+  }
+ },
+ {
+  "code": "ST42",
+  "verdict": "ok",
+  "reason": "WHO: base of 2nd metatarsal/intermediate cuneiform joint, over dorsalis pedis; TCM Wiki: depression between 2nd/3rd metatarsals and cuneiform. pulse caution correct; toothache and instep pain confirmed.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki ST42",
+   "url": "https://tcmwiki.com/wiki/st42",
+   "agrees": true
+  }
+ },
+ {
+  "code": "ST43",
+  "verdict": "ok",
+  "reason": "WHO: between 2nd and 3rd metatarsals, in the depression proximal to the 2nd toe knuckle. TCM Wiki ('distal to the junction of 2nd and 3rd metatarsals') describes the same groove. Abdominal pain and instep pain confirmed.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki ST43",
+   "url": "https://tcmwiki.com/wiki/st43",
+   "agrees": true
+  }
+ },
+ {
+  "code": "ST44",
+  "verdict": "ok",
+  "reason": "WHO text missing in scan, flagged correctly. TCM Wiki: just behind the web margin between toes 2 and 3; matches find and placement. Toothache, sore throat, gastric pain confirmed.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki ST44",
+   "url": "https://tcmwiki.com/wiki/st44",
+   "agrees": true
+  }
+ },
+ {
+  "code": "ST45",
+  "verdict": "ok",
+  "reason": "WHO and TCM Wiki: outer side of 2nd toe, 0.1 cun from the nail corner. TCM Wiki does not list toothache; author's two sources stand.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki ST45",
+   "url": "https://tcmwiki.com/wiki/st45",
+   "agrees": true
+  }
+ }
+]

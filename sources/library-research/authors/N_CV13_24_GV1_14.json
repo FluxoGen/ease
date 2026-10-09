@@ -1,0 +1,1498 @@
+[
+ {
+  "code": "CV13",
+  "pinyin": "Shangwan",
+  "english": "Upper Stomach Cavity",
+  "region": "upper abdomen",
+  "view": "torso-front",
+  "find": "On the belly, in the middle, about a hand's width (four fingers) and a thumb-width above the navel, roughly halfway up toward the bottom of the breastbone.",
+  "place": {
+   "line": "CV",
+   "from": "umbilicus",
+   "cun": 5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "nausea and vomiting",
+    "sources": [
+     "atti",
+     "tcmwiki"
+    ]
+   },
+   {
+    "text": "stomach pain",
+    "sources": [
+     "atti",
+     "tcmwiki"
+    ]
+   },
+   {
+    "text": "bloating",
+    "sources": [
+     "atti",
+     "tcmwiki"
+    ]
+   }
+  ],
+  "tags": [
+   "nausea",
+   "digestive_health"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "atti",
+    "name": "Attilio D'Alberto CV13",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/cv-13.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki CV13",
+    "url": "https://tcmwiki.com/wiki/cv13"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "CV14",
+  "pinyin": "Juque",
+  "english": "Great Palace Gate",
+  "region": "upper abdomen",
+  "view": "torso-front",
+  "find": "On the belly, in the middle, about a hand's width and two thumb-widths above the navel, a little below where the ribs meet at the bottom of the breastbone.",
+  "place": {
+   "line": "CV",
+   "from": "umbilicus",
+   "cun": 6
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "palpitations",
+    "sources": [
+     "atti",
+     "tcmwiki"
+    ]
+   }
+  ],
+  "tags": [],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "atti",
+    "name": "Attilio D'Alberto CV14",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/cv-14.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki CV14",
+    "url": "https://tcmwiki.com/wiki/cv14"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "CV15",
+  "pinyin": "Jiuwei",
+  "english": "Turtledove Tail",
+  "region": "chest",
+  "view": "torso-front",
+  "find": "On the midline just under the pointed bottom tip of the breastbone, about one thumb-width below it. Press lightly.",
+  "place": {
+   "from": "xiphisternal_junction",
+   "down": 1
+  },
+  "selfCare": "gentle",
+  "avoidReason": "",
+  "technique": "gentle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "hiccups",
+    "sources": [
+     "atti",
+     "tcmwiki"
+    ]
+   }
+  ],
+  "tags": [
+   "digestive_health"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "atti",
+    "name": "Attilio D'Alberto CV15",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/cv-15.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki CV15",
+    "url": "https://tcmwiki.com/wiki/cv15"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "CV16",
+  "pinyin": "Zhongting",
+  "english": "Central Palace",
+  "region": "chest",
+  "view": "torso-front",
+  "find": "On the midline of the chest, right at the bottom of the breastbone where it meets the soft upper belly. Use light pressure.",
+  "place": {
+   "at": "xiphisternal_junction"
+  },
+  "selfCare": "gentle",
+  "avoidReason": "",
+  "technique": "gentle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "vomiting",
+    "sources": [
+     "atti",
+     "tcmwiki"
+    ]
+   },
+   {
+    "text": "difficulty swallowing",
+    "sources": [
+     "atti",
+     "tcmwiki"
+    ]
+   }
+  ],
+  "tags": [
+   "nausea",
+   "digestive_health"
+  ],
+  "whoMatch": true,
+  "whoNote": "Atti gives CV16 as 1.6 cun below CV17; WHO (and TCM Wiki) put it at the xiphisternal junction. WHO followed.",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "atti",
+    "name": "Attilio D'Alberto CV16",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/cv-16.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki CV16",
+    "url": "https://tcmwiki.com/wiki/cv16"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "CV17",
+  "pinyin": "Danzhong",
+  "english": "Chest Centre",
+  "region": "chest",
+  "view": "torso-front",
+  "find": "On the middle of the chest, on the breastbone, level with the space between the 4th and 5th ribs (count down from the collarbone). In many men this is nipple height.",
+  "place": {
+   "at": "ics_4"
+  },
+  "selfCare": "gentle",
+  "avoidReason": "",
+  "technique": "gentle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "cough",
+    "sources": [
+     "atti",
+     "tcmwiki",
+     "sat"
+    ]
+   },
+   {
+    "text": "chest tightness",
+    "sources": [
+     "atti",
+     "tcmwiki",
+     "sat"
+    ]
+   },
+   {
+    "text": "shortness of breath",
+    "sources": [
+     "atti",
+     "tcmwiki",
+     "sat"
+    ]
+   },
+   {
+    "text": "hiccups",
+    "sources": [
+     "tcmwiki",
+     "sat"
+    ]
+   },
+   {
+    "text": "feeling anxious",
+    "sources": [
+     "atti",
+     "sat"
+    ]
+   }
+  ],
+  "tags": [
+   "cough_breathing",
+   "stress_anxiety",
+   "digestive_health"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "atti",
+    "name": "Attilio D'Alberto CV17",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/cv-17.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki CV17",
+    "url": "https://tcmwiki.com/wiki/cv17"
+   },
+   {
+    "id": "sat",
+    "name": "Satyori CV17",
+    "url": "https://satyori.com/tcm/acupressure/cv-17-shanzhong/"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "CV18",
+  "pinyin": "Yutang",
+  "english": "Jade Hall",
+  "region": "chest",
+  "view": "torso-front",
+  "find": "On the middle of the breastbone, level with the space between the 3rd and 4th ribs, about two finger-widths above the 4th-rib level of the chest centre.",
+  "place": {
+   "at": "ics_3"
+  },
+  "selfCare": "gentle",
+  "avoidReason": "",
+  "technique": "gentle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "chest tightness",
+    "sources": [
+     "atti",
+     "tcmwiki"
+    ]
+   }
+  ],
+  "tags": [
+   "cough_breathing"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "atti",
+    "name": "Attilio D'Alberto CV18",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/cv-18.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki CV18",
+    "url": "https://tcmwiki.com/wiki/cv18"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "CV19",
+  "pinyin": "Zigong",
+  "english": "Purple Palace",
+  "region": "chest",
+  "view": "torso-front",
+  "find": "On the middle of the breastbone, level with the gap between the 2nd and 3rd ribs, a few finger-widths below the collarbone line.",
+  "place": {
+   "at": "ics_2"
+  },
+  "selfCare": "gentle",
+  "avoidReason": "",
+  "technique": "gentle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "chest discomfort",
+    "sources": [
+     "atti",
+     "tcmwiki"
+    ]
+   }
+  ],
+  "tags": [
+   "cough_breathing"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "atti",
+    "name": "Attilio D'Alberto CV19",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/cv-19.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki CV19",
+    "url": "https://tcmwiki.com/wiki/cv19"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "CV20",
+  "pinyin": "Huagai",
+  "english": "Splendid Canopy",
+  "region": "chest",
+  "view": "torso-front",
+  "find": "On the upper part of the breastbone, in line with the first gap between ribs just below the collarbone, about a thumb-width below the next point up.",
+  "place": {
+   "at": "ics_1"
+  },
+  "selfCare": "gentle",
+  "avoidReason": "",
+  "technique": "gentle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "chest discomfort",
+    "sources": [
+     "atti",
+     "tcmwiki"
+    ]
+   }
+  ],
+  "tags": [
+   "cough_breathing"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "atti",
+    "name": "Attilio D'Alberto CV20",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/cv-20.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki CV20",
+    "url": "https://tcmwiki.com/wiki/cv20"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "CV21",
+  "pinyin": "Xuanji",
+  "english": "Jade Pivot",
+  "region": "chest",
+  "view": "torso-front",
+  "find": "On the upper breastbone, about one thumb-width below the hollow at the base of the throat.",
+  "place": {
+   "from": "suprasternal_notch",
+   "down": 1
+  },
+  "selfCare": "gentle",
+  "avoidReason": "",
+  "technique": "gentle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "throat discomfort",
+    "sources": [
+     "atti",
+     "tcmwiki"
+    ]
+   },
+   {
+    "text": "indigestion",
+    "sources": [
+     "atti",
+     "tcmwiki"
+    ]
+   }
+  ],
+  "tags": [
+   "digestive_health"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "atti",
+    "name": "Attilio D'Alberto CV21",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/cv-21.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki CV21",
+    "url": "https://tcmwiki.com/wiki/cv21"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "CV22",
+  "pinyin": "Tiantu",
+  "english": "Heaven Projection",
+  "region": "neck",
+  "view": "torso-front",
+  "find": "In the soft hollow at the base of the throat, just above the top of the breastbone, between the inner ends of the collarbones. Use very light pressure.",
+  "place": {
+   "at": "suprasternal_notch"
+  },
+  "selfCare": "gentle",
+  "avoidReason": "",
+  "technique": "gentle",
+  "cautions": [
+   "throat"
+  ],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "cough",
+    "sources": [
+     "atti",
+     "tcmwiki"
+    ]
+   },
+   {
+    "text": "sore throat",
+    "sources": [
+     "atti",
+     "tcmwiki"
+    ]
+   },
+   {
+    "text": "loss of voice",
+    "sources": [
+     "atti",
+     "tcmwiki"
+    ]
+   },
+   {
+    "text": "lump-in-throat feeling",
+    "sources": [
+     "atti",
+     "tcmwiki"
+    ]
+   }
+  ],
+  "tags": [
+   "cough_breathing"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "atti",
+    "name": "Attilio D'Alberto CV22",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/cv-22.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki CV22",
+    "url": "https://tcmwiki.com/wiki/cv22"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "CV23",
+  "pinyin": "Lianquan",
+  "english": "Ridge Spring",
+  "region": "neck",
+  "view": "head-side",
+  "find": "On the front midline of the neck, in the dip just above the bony hyoid ridge, between the chin and the Adam's apple. Use very light pressure.",
+  "place": {
+   "manual": "On the front midline of the neck, in the dip just above the hyoid bone, above the Adam's apple."
+  },
+  "selfCare": "gentle",
+  "avoidReason": "",
+  "technique": "gentle",
+  "cautions": [
+   "throat"
+  ],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "difficulty swallowing",
+    "sources": [
+     "atti",
+     "tcmwiki"
+    ]
+   },
+   {
+    "text": "throat discomfort",
+    "sources": [
+     "atti",
+     "tcmwiki"
+    ]
+   },
+   {
+    "text": "excess saliva",
+    "sources": [
+     "atti",
+     "tcmwiki"
+    ]
+   }
+  ],
+  "tags": [],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "atti",
+    "name": "Attilio D'Alberto CV23",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/cv-23.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki CV23",
+    "url": "https://tcmwiki.com/wiki/cv23"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "CV24",
+  "pinyin": "Chengjiang",
+  "english": "Sauce Receptacle",
+  "region": "face",
+  "view": "face-front",
+  "find": "On the chin, in the middle of the dip between the lower lip and the point of the chin. Press lightly.",
+  "place": {
+   "at": "chin_groove"
+  },
+  "selfCare": "gentle",
+  "avoidReason": "",
+  "technique": "gentle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "sore gums",
+    "sources": [
+     "atti",
+     "tcmwiki"
+    ]
+   },
+   {
+    "text": "excess saliva",
+    "sources": [
+     "atti",
+     "tcmwiki"
+    ]
+   }
+  ],
+  "tags": [
+   "toothache_jaw"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "atti",
+    "name": "Attilio D'Alberto CV24",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/cv-24.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki CV24",
+    "url": "https://tcmwiki.com/wiki/cv24"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "GV1",
+  "pinyin": "Changqiang",
+  "english": "Long Strong",
+  "region": "perineum",
+  "view": "back",
+  "find": "Between the tip of the tailbone and the anus, in the perineal area.",
+  "place": {
+   "manual": "Midway between the tip of the coccyx and the anus."
+  },
+  "selfCare": "avoid",
+  "avoidReason": "Located in the perineal area beside the anus; it cannot be pressed comfortably or hygienically on your own.",
+  "technique": null,
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "diarrhea",
+    "sources": [
+     "atti",
+     "tcmwiki"
+    ]
+   },
+   {
+    "text": "tailbone pain",
+    "sources": [
+     "atti",
+     "tcmwiki"
+    ]
+   }
+  ],
+  "tags": [],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "atti",
+    "name": "Attilio D'Alberto GV1",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/gv-1.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki GV1",
+    "url": "https://tcmwiki.com/wiki/gv1"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "GV2",
+  "pinyin": "Yaoshu",
+  "english": "Lumbar Shu",
+  "region": "sacrum",
+  "view": "back",
+  "find": "At the very bottom of the spine, in the small dip just above where the buttock crease begins, on the midline.",
+  "place": {
+   "at": "sacral_hiatus"
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [
+   "pregnancy"
+  ],
+  "pregnancy": true,
+  "indications": [
+   {
+    "text": "low back pain",
+    "sources": [
+     "atti",
+     "tcmwiki"
+    ]
+   },
+   {
+    "text": "irregular periods",
+    "sources": [
+     "atti",
+     "tcmwiki"
+    ]
+   }
+  ],
+  "tags": [
+   "low_back_pain"
+  ],
+  "whoMatch": true,
+  "whoNote": "Atti page gives no usable location; TCM Wiki matches WHO (sacral hiatus).",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "atti",
+    "name": "Attilio D'Alberto GV2",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/gv-2.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki GV2",
+    "url": "https://tcmwiki.com/wiki/gv2"
+   }
+  ],
+  "disputed": "",
+  "appFix": "",
+  "pregnancyBasis": "region:sacrum"
+ },
+ {
+  "code": "GV3",
+  "pinyin": "Yaoyangguan",
+  "english": "Lumbar Yang Gate",
+  "region": "lower back",
+  "view": "back",
+  "find": "On the midline of the lower back, in the dip under the bump of the spine level with the top of your hip bones.",
+  "place": {
+   "at": "L4"
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "low back pain",
+    "sources": [
+     "atti",
+     "tcmwiki"
+    ]
+   },
+   {
+    "text": "irregular periods",
+    "sources": [
+     "atti",
+     "tcmwiki"
+    ]
+   }
+  ],
+  "tags": [
+   "low_back_pain"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "atti",
+    "name": "Attilio D'Alberto GV3",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/gv-3.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki GV3",
+    "url": "https://tcmwiki.com/wiki/gv3"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "GV4",
+  "pinyin": "Mingmen",
+  "english": "Life Gate",
+  "region": "lower back",
+  "view": "back",
+  "find": "On the midline of the lower back, in the dip under the second lower-back bump, roughly level with the navel on the front.",
+  "place": {
+   "at": "L2"
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "low back pain",
+    "sources": [
+     "atti",
+     "tcmwiki",
+     "sat"
+    ]
+   },
+   {
+    "text": "frequent urination",
+    "sources": [
+     "atti",
+     "tcmwiki",
+     "sat"
+    ]
+   },
+   {
+    "text": "diarrhea",
+    "sources": [
+     "atti",
+     "tcmwiki",
+     "sat"
+    ]
+   },
+   {
+    "text": "irregular periods",
+    "sources": [
+     "atti",
+     "tcmwiki"
+    ]
+   }
+  ],
+  "tags": [
+   "low_back_pain"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "atti",
+    "name": "Attilio D'Alberto GV4",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/gv-4.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki GV4",
+    "url": "https://tcmwiki.com/wiki/gv4"
+   },
+   {
+    "id": "sat",
+    "name": "Satyori GV4",
+    "url": "https://satyori.com/tcm/acupressure/gv-4-mingmen/"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "GV5",
+  "pinyin": "Xuanshu",
+  "english": "Suspended Pivot",
+  "region": "lower back",
+  "view": "back",
+  "find": "On the midline of the lower back, in the dip just under the first lower-back bump, a thumb-width or so above the waist-level point.",
+  "place": {
+   "at": "L1"
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "stiff lower back",
+    "sources": [
+     "atti",
+     "tcmwiki"
+    ]
+   },
+   {
+    "text": "indigestion",
+    "sources": [
+     "atti",
+     "tcmwiki"
+    ]
+   }
+  ],
+  "tags": [
+   "low_back_pain",
+   "digestive_health"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "atti",
+    "name": "Attilio D'Alberto GV5",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/gv-5.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki GV5",
+    "url": "https://tcmwiki.com/wiki/gv5"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "GV6",
+  "pinyin": "Jizhong",
+  "english": "Spine Centre",
+  "region": "back",
+  "view": "back",
+  "find": "On the midline of the back, in the dip under the 11th chest-level spine bump, near the lowest ribs.",
+  "place": {
+   "at": "T11"
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "ball",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "diarrhea",
+    "sources": [
+     "atti",
+     "tcmwiki"
+    ]
+   }
+  ],
+  "tags": [
+   "digestive_health"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "atti",
+    "name": "Attilio D'Alberto GV6",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/gv-6.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki GV6",
+    "url": "https://tcmwiki.com/wiki/gv6"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "GV7",
+  "pinyin": "Zhongshu",
+  "english": "Central Pivot",
+  "region": "back",
+  "view": "back",
+  "find": "On the midline of the back, in the dip under the 10th chest-level spine bump, just above the waist.",
+  "place": {
+   "at": "T10"
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "ball",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "stomach pain",
+    "sources": [
+     "atti",
+     "tcmwiki"
+    ]
+   },
+   {
+    "text": "loss of appetite",
+    "sources": [
+     "atti",
+     "tcmwiki"
+    ]
+   },
+   {
+    "text": "abdominal fullness",
+    "sources": [
+     "atti",
+     "tcmwiki"
+    ]
+   },
+   {
+    "text": "back pain",
+    "sources": [
+     "atti",
+     "tcmwiki"
+    ]
+   }
+  ],
+  "tags": [
+   "digestive_health"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "atti",
+    "name": "Attilio D'Alberto GV7",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/gv-7.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki GV7",
+    "url": "https://tcmwiki.com/wiki/gv7"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "GV8",
+  "pinyin": "Jinsuo",
+  "english": "Muscle Contraction",
+  "region": "back",
+  "view": "back",
+  "find": "On the midline of the mid-back, in the dip under the 9th chest-level spine bump, level with the lower edge of the ribs at the back.",
+  "place": {
+   "at": "T9"
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "ball",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "stiff back",
+    "sources": [
+     "atti",
+     "tcmwiki"
+    ]
+   }
+  ],
+  "tags": [
+   "upper_back"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "atti",
+    "name": "Attilio D'Alberto GV8",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/gv-8.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki GV8",
+    "url": "https://tcmwiki.com/wiki/gv8"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "GV9",
+  "pinyin": "Zhiyang",
+  "english": "Extremely Yang",
+  "region": "back",
+  "view": "back",
+  "find": "On the midline of the mid-back, in the dip under the 7th chest-level spine bump, level with the lower tips of the shoulder blades.",
+  "place": {
+   "at": "T7"
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "ball",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "stiff mid-back",
+    "sources": [
+     "atti",
+     "tcmwiki"
+    ]
+   },
+   {
+    "text": "chest tightness",
+    "sources": [
+     "atti",
+     "tcmwiki"
+    ]
+   }
+  ],
+  "tags": [
+   "upper_back"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "atti",
+    "name": "Attilio D'Alberto GV9",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/gv-9.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki GV9",
+    "url": "https://tcmwiki.com/wiki/gv9"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "GV10",
+  "pinyin": "Lingtai",
+  "english": "Spirit Tower",
+  "region": "back",
+  "view": "back",
+  "find": "On the midline of the upper back, in the dip under the 6th chest-level spine bump, just above the lower tips of the shoulder blades.",
+  "place": {
+   "at": "T6"
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "ball",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "stiff neck",
+    "sources": [
+     "atti",
+     "tcmwiki"
+    ]
+   }
+  ],
+  "tags": [
+   "neck_pain",
+   "upper_back"
+  ],
+  "whoMatch": true,
+  "whoNote": "Atti says between T6 and T7; WHO and TCM Wiki say below T6. WHO followed.",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "atti",
+    "name": "Attilio D'Alberto GV10",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/gv-10.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki GV10",
+    "url": "https://tcmwiki.com/wiki/gv10"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "GV11",
+  "pinyin": "Shendao",
+  "english": "Spirit Path",
+  "region": "back",
+  "view": "back",
+  "find": "On the midline of the upper back, in the dip under the 5th chest-level spine bump, between the shoulder blades.",
+  "place": {
+   "at": "T5"
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "ball",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "palpitations",
+    "sources": [
+     "atti",
+     "tcmwiki"
+    ]
+   },
+   {
+    "text": "trouble sleeping",
+    "sources": [
+     "atti",
+     "tcmwiki"
+    ]
+   },
+   {
+    "text": "forgetfulness",
+    "sources": [
+     "atti",
+     "tcmwiki"
+    ]
+   }
+  ],
+  "tags": [
+   "sleep"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "atti",
+    "name": "Attilio D'Alberto GV11",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/gv-11.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki GV11",
+    "url": "https://tcmwiki.com/wiki/gv11"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "GV12",
+  "pinyin": "Shenzhu",
+  "english": "Body Pillar",
+  "region": "back",
+  "view": "back",
+  "find": "On the midline of the upper back, in the dip under the 3rd chest-level spine bump, level with where the shoulder-blade ridge meets the spine.",
+  "place": {
+   "at": "T3"
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "ball",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "cough",
+    "sources": [
+     "atti",
+     "tcmwiki"
+    ]
+   }
+  ],
+  "tags": [
+   "cough_breathing"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "atti",
+    "name": "Attilio D'Alberto GV12",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/gv-12.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki GV12",
+    "url": "https://tcmwiki.com/wiki/gv12"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "GV13",
+  "pinyin": "Taodao",
+  "english": "Kiln Path",
+  "region": "back",
+  "view": "back",
+  "find": "On the midline of the upper back, in the dip under the first chest-level spine bump, just below the big bump at the base of the neck.",
+  "place": {
+   "at": "T1"
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "ball",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "stiff back",
+    "sources": [
+     "atti",
+     "tcmwiki"
+    ]
+   },
+   {
+    "text": "chills and fever",
+    "sources": [
+     "atti",
+     "tcmwiki"
+    ]
+   }
+  ],
+  "tags": [
+   "upper_back",
+   "cold_flu"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "atti",
+    "name": "Attilio D'Alberto GV13",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/gv-13.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki GV13",
+    "url": "https://tcmwiki.com/wiki/gv13"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "GV14",
+  "pinyin": "Dazhui",
+  "english": "Great Hammer",
+  "region": "neck",
+  "view": "back",
+  "find": "At the base of the neck on the midline, in the dip just under the biggest bump you feel when you tilt your head forward.",
+  "place": {
+   "at": "C7"
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "stiff neck",
+    "sources": [
+     "atti",
+     "tcmwiki",
+     "sat"
+    ]
+   },
+   {
+    "text": "common cold",
+    "sources": [
+     "atti",
+     "sat"
+    ]
+   },
+   {
+    "text": "cough",
+    "sources": [
+     "tcmwiki",
+     "sat"
+    ]
+   }
+  ],
+  "tags": [
+   "neck_pain",
+   "cold_flu",
+   "cough_breathing"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "atti",
+    "name": "Attilio D'Alberto GV14",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/gv-14.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki GV14",
+    "url": "https://tcmwiki.com/wiki/gv14"
+   },
+   {
+    "id": "sat",
+    "name": "Satyori GV14",
+    "url": "https://satyori.com/tcm/acupressure/gv-14-dazhui/"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ }
+]

@@ -1,0 +1,1252 @@
+[
+ {
+  "code": "ST1",
+  "pinyin": "Chengqi",
+  "english": "Container of Tears",
+  "region": "face",
+  "view": "face-front",
+  "find": "On the face, straight below the pupil when looking ahead, right on the edge of the lower eye socket, at the point where the eyeball sits just above.",
+  "place": {
+   "at": "infraorbital_ridge"
+  },
+  "selfCare": "avoid",
+  "avoidReason": "Sits between the eyeball and the lower eye-socket rim; pressing here pushes into the eye.",
+  "technique": null,
+  "cautions": [
+   "eye"
+  ],
+  "pregnancy": false,
+  "indications": [],
+  "tags": [],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "attilio",
+    "name": "Dr Attilio D'Alberto ST 1",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/st-1.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki ST1",
+    "url": "https://tcmwiki.com/wiki/ST1"
+   },
+   {
+    "id": "msk",
+    "name": "Acupuncture Points of 14 Channels (Musculoskeletal Key)",
+    "url": "https://musculoskeletalkey.com/acupuncture-points-of-14-channels/"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "ST2",
+  "pinyin": "Sibai",
+  "english": "Four Whites",
+  "region": "face",
+  "view": "face-front",
+  "find": "On the face, about a thumb-width straight below the pupil when looking ahead, in the small dip in the cheekbone just under the eye socket.",
+  "place": {
+   "from": "pupil",
+   "down": 1
+  },
+  "selfCare": "gentle",
+  "avoidReason": "",
+  "technique": "gentle",
+  "cautions": [
+   "eye"
+  ],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "sore, red eyes",
+    "sources": [
+     "attilio",
+     "tcmwiki"
+    ]
+   },
+   {
+    "text": "eyelid twitching",
+    "sources": [
+     "attilio",
+     "tcmwiki"
+    ]
+   }
+  ],
+  "tags": [
+   "eye_strain"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "attilio",
+    "name": "Dr Attilio D'Alberto ST 2",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/st-2.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki ST2",
+    "url": "https://tcmwiki.com/wiki/ST2"
+   },
+   {
+    "id": "msk",
+    "name": "Acupuncture Points of 14 Channels (Musculoskeletal Key)",
+    "url": "https://musculoskeletalkey.com/acupuncture-points-of-14-channels/"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "ST3",
+  "pinyin": "Juliao",
+  "english": "Great Crevice",
+  "region": "face",
+  "view": "face-front",
+  "find": "On the face, straight below the pupil when looking ahead, level with the bottom of the nostril wing, just outside the crease running from nose to mouth.",
+  "place": {
+   "manual": "Straight below the pupil, level with the bottom edge of the nostril wing, just outside the nose-to-mouth crease."
+  },
+  "selfCare": "gentle",
+  "avoidReason": "",
+  "technique": "gentle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "toothache",
+    "sources": [
+     "attilio",
+     "tcmwiki"
+    ]
+   }
+  ],
+  "tags": [
+   "toothache_jaw"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "attilio",
+    "name": "Dr Attilio D'Alberto ST 3",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/st-3.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki ST3",
+    "url": "https://tcmwiki.com/wiki/ST3"
+   },
+   {
+    "id": "msk",
+    "name": "Acupuncture Points of 14 Channels (Musculoskeletal Key)",
+    "url": "https://musculoskeletalkey.com/acupuncture-points-of-14-channels/"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "ST4",
+  "pinyin": "Dicang",
+  "english": "Earth Granary",
+  "region": "face",
+  "view": "face-front",
+  "find": "On the face, a finger-width out to the side from the corner of the mouth, in or along the crease that runs down from the nose.",
+  "place": {
+   "from": "mouth_corner",
+   "out": 0.4
+  },
+  "selfCare": "gentle",
+  "avoidReason": "",
+  "technique": "gentle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [],
+  "tags": [],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "attilio",
+    "name": "Dr Attilio D'Alberto ST 4",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/st-4.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki ST4",
+    "url": "https://tcmwiki.com/wiki/ST4"
+   },
+   {
+    "id": "msk",
+    "name": "Acupuncture Points of 14 Channels (Musculoskeletal Key)",
+    "url": "https://musculoskeletalkey.com/acupuncture-points-of-14-channels/"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "ST5",
+  "pinyin": "Daying",
+  "english": "Great Welcome",
+  "region": "face",
+  "view": "head-side",
+  "find": "On the jaw, just in front of the angle of the jawbone, in the dip at the front edge of the chewing muscle. You may feel a pulse there; press beside it, lightly.",
+  "place": {
+   "manual": "On the lower jaw just in front of the jaw angle, in the dip at the front edge of the chewing muscle, beside the facial pulse."
+  },
+  "selfCare": "gentle",
+  "avoidReason": "",
+  "technique": "gentle",
+  "cautions": [
+   "pulse"
+  ],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "toothache",
+    "sources": [
+     "attilio",
+     "tcmwiki"
+    ]
+   },
+   {
+    "text": "swollen cheek",
+    "sources": [
+     "attilio",
+     "tcmwiki"
+    ]
+   }
+  ],
+  "tags": [
+   "toothache_jaw"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "attilio",
+    "name": "Dr Attilio D'Alberto ST 5",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/st-5.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki ST5",
+    "url": "https://tcmwiki.com/wiki/ST5"
+   },
+   {
+    "id": "msk",
+    "name": "Acupuncture Points of 14 Channels (Musculoskeletal Key)",
+    "url": "https://musculoskeletalkey.com/acupuncture-points-of-14-channels/"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "ST6",
+  "pinyin": "Jiache",
+  "english": "Jaw Chariot",
+  "region": "face",
+  "view": "head-side",
+  "find": "On the jaw, about one finger-width in front of and above the angle of the jawbone, where the chewing muscle bulges when you clench your teeth.",
+  "place": {
+   "at": "masseter_bulge"
+  },
+  "selfCare": "gentle",
+  "avoidReason": "",
+  "technique": "gentle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "toothache",
+    "sources": [
+     "attilio",
+     "tcmwiki"
+    ]
+   },
+   {
+    "text": "jaw tightness",
+    "sources": [
+     "attilio",
+     "tcmwiki"
+    ]
+   }
+  ],
+  "tags": [
+   "toothache_jaw"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "attilio",
+    "name": "Dr Attilio D'Alberto ST 6",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/st-6.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki ST6",
+    "url": "https://tcmwiki.com/wiki/ST6"
+   },
+   {
+    "id": "msk",
+    "name": "Acupuncture Points of 14 Channels (Musculoskeletal Key)",
+    "url": "https://musculoskeletalkey.com/acupuncture-points-of-14-channels/"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "ST7",
+  "pinyin": "Xiaguan",
+  "english": "Below the Joint",
+  "region": "face",
+  "view": "head-side",
+  "find": "On the side of the face, just in front of the ear, in the hollow under the cheekbone arch. It is easiest to feel with your mouth closed.",
+  "place": {
+   "manual": "In the hollow just in front of the ear, below the cheekbone arch, with the mouth closed."
+  },
+  "selfCare": "gentle",
+  "avoidReason": "",
+  "technique": "gentle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "toothache",
+    "sources": [
+     "attilio",
+     "tcmwiki"
+    ]
+   },
+   {
+    "text": "jaw joint pain",
+    "sources": [
+     "attilio",
+     "tcmwiki"
+    ]
+   },
+   {
+    "text": "ringing in the ears",
+    "sources": [
+     "attilio",
+     "tcmwiki"
+    ]
+   }
+  ],
+  "tags": [
+   "toothache_jaw",
+   "ear_hearing"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "attilio",
+    "name": "Dr Attilio D'Alberto ST 7",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/st-7.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki ST7",
+    "url": "https://tcmwiki.com/wiki/ST7"
+   },
+   {
+    "id": "msk",
+    "name": "Acupuncture Points of 14 Channels (Musculoskeletal Key)",
+    "url": "https://musculoskeletalkey.com/acupuncture-points-of-14-channels/"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "ST8",
+  "pinyin": "Touwei",
+  "english": "Head Corner",
+  "region": "head",
+  "view": "face-front",
+  "find": "At the corner of the forehead, just inside the hairline, about a thumb-width up from the hairline's front corner on the temple side.",
+  "place": {
+   "from": "anterior_hairline_mid",
+   "up": 0.5,
+   "out": 4.5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "headache",
+    "sources": [
+     "attilio",
+     "tcmwiki"
+    ]
+   },
+   {
+    "text": "dizziness",
+    "sources": [
+     "attilio",
+     "tcmwiki"
+    ]
+   }
+  ],
+  "tags": [
+   "headache"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "attilio",
+    "name": "Dr Attilio D'Alberto ST 8",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/st-8.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki ST8",
+    "url": "https://tcmwiki.com/wiki/ST8"
+   },
+   {
+    "id": "msk",
+    "name": "Acupuncture Points of 14 Channels (Musculoskeletal Key)",
+    "url": "https://musculoskeletalkey.com/acupuncture-points-of-14-channels/"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "ST9",
+  "pinyin": "Renying",
+  "english": "Man's Welcome",
+  "region": "neck",
+  "view": "head-side",
+  "find": "On the front of the neck beside the Adam's apple, just in front of the large neck muscle, right where you feel the pulse of the carotid artery.",
+  "place": {
+   "at": "scm_front"
+  },
+  "selfCare": "avoid",
+  "avoidReason": "Lies directly over the common carotid artery; pressing here is unsafe.",
+  "technique": null,
+  "cautions": [
+   "pulse"
+  ],
+  "pregnancy": false,
+  "indications": [],
+  "tags": [],
+  "whoMatch": true,
+  "whoNote": "Scan text clean; TCM Wiki gives 1.5 cun lateral to Adam's apple, consistent with WHO.",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "attilio",
+    "name": "Dr Attilio D'Alberto ST 9",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/st-9.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki ST9",
+    "url": "https://tcmwiki.com/wiki/ST9"
+   },
+   {
+    "id": "msk",
+    "name": "Acupuncture Points of 14 Channels (Musculoskeletal Key)",
+    "url": "https://musculoskeletalkey.com/acupuncture-points-of-14-channels/"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "ST10",
+  "pinyin": "Shuitu",
+  "english": "Water Prominence",
+  "region": "neck",
+  "view": "head-side",
+  "find": "On the front of the neck, along the front edge of the large neck muscle, roughly halfway between the carotid pulse and the notch above the collarbone.",
+  "place": {
+   "between": [
+    "scm_front",
+    "clavicle_mid"
+   ],
+   "frac": 0.5
+  },
+  "selfCare": "gentle",
+  "avoidReason": "",
+  "technique": "gentle",
+  "cautions": [
+   "throat"
+  ],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "sore throat",
+    "sources": [
+     "attilio",
+     "tcmwiki"
+    ]
+   }
+  ],
+  "tags": [
+   "cold_flu"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "attilio",
+    "name": "Dr Attilio D'Alberto ST 10",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/st-10.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki ST10",
+    "url": "https://tcmwiki.com/wiki/ST10"
+   },
+   {
+    "id": "msk",
+    "name": "Acupuncture Points of 14 Channels (Musculoskeletal Key)",
+    "url": "https://musculoskeletalkey.com/acupuncture-points-of-14-channels/"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "ST11",
+  "pinyin": "Qishe",
+  "english": "Qi Abode",
+  "region": "neck",
+  "view": "torso-front",
+  "find": "At the base of the front of the neck, in the small dip just above the inner end of the collarbone, between the two tendons of the neck muscle.",
+  "place": {
+   "from": "suprasternal_notch",
+   "out": 1.5
+  },
+  "selfCare": "gentle",
+  "avoidReason": "",
+  "technique": "gentle",
+  "cautions": [
+   "throat"
+  ],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "sore throat",
+    "sources": [
+     "attilio",
+     "tcmwiki"
+    ]
+   },
+   {
+    "text": "stiff neck",
+    "sources": [
+     "attilio",
+     "tcmwiki"
+    ]
+   }
+  ],
+  "tags": [
+   "cold_flu",
+   "neck_pain"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "attilio",
+    "name": "Dr Attilio D'Alberto ST 11",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/st-11.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki ST11",
+    "url": "https://tcmwiki.com/wiki/ST11"
+   },
+   {
+    "id": "msk",
+    "name": "Acupuncture Points of 14 Channels (Musculoskeletal Key)",
+    "url": "https://musculoskeletalkey.com/acupuncture-points-of-14-channels/"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "ST12",
+  "pinyin": "Quepen",
+  "english": "Empty Basin",
+  "region": "neck",
+  "view": "torso-front",
+  "find": "In the hollow just above the middle of the collarbone, in line with the nipple, in the dip at the base of the side of the neck.",
+  "place": {
+   "from": "clavicle_mid",
+   "up": 0.5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "pain above the collarbone",
+    "sources": [
+     "attilio",
+     "tcmwiki"
+    ]
+   }
+  ],
+  "tags": [],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "attilio",
+    "name": "Dr Attilio D'Alberto ST 12",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/st-12.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki ST12",
+    "url": "https://tcmwiki.com/wiki/ST12"
+   },
+   {
+    "id": "msk",
+    "name": "Acupuncture Points of 14 Channels (Musculoskeletal Key)",
+    "url": "https://musculoskeletalkey.com/acupuncture-points-of-14-channels/"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "ST13",
+  "pinyin": "Qihu",
+  "english": "Qi Door",
+  "region": "chest",
+  "view": "torso-front",
+  "find": "On the upper chest, just below the middle of the collarbone, about a hand-width out from the breastbone on a line with the nipple.",
+  "place": {
+   "from": "clavicle_mid",
+   "down": 0.5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "chest tightness",
+    "sources": [
+     "attilio",
+     "tcmwiki"
+    ]
+   }
+  ],
+  "tags": [],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "attilio",
+    "name": "Dr Attilio D'Alberto ST 13",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/st-13.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki ST13",
+    "url": "https://tcmwiki.com/wiki/ST13"
+   },
+   {
+    "id": "msk",
+    "name": "Acupuncture Points of 14 Channels (Musculoskeletal Key)",
+    "url": "https://musculoskeletalkey.com/acupuncture-points-of-14-channels/"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "ST14",
+  "pinyin": "Kufang",
+  "english": "Storeroom",
+  "region": "chest",
+  "view": "torso-front",
+  "find": "On the upper chest, in the gap between the first and second ribs, about a hand-width out from the breastbone.",
+  "place": {
+   "from": "ics_1",
+   "out": 4
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "chest tightness",
+    "sources": [
+     "attilio",
+     "tcmwiki"
+    ]
+   }
+  ],
+  "tags": [],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "attilio",
+    "name": "Dr Attilio D'Alberto ST 14",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/st-14.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki ST14",
+    "url": "https://tcmwiki.com/wiki/ST14"
+   },
+   {
+    "id": "msk",
+    "name": "Acupuncture Points of 14 Channels (Musculoskeletal Key)",
+    "url": "https://musculoskeletalkey.com/acupuncture-points-of-14-channels/"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "ST15",
+  "pinyin": "Wuyi",
+  "english": "Roof",
+  "region": "chest",
+  "view": "torso-front",
+  "find": "On the chest, in the gap just below the second rib, about a hand-width out from the breastbone. The second rib joins the breastbone at its raised ridge.",
+  "place": {
+   "from": "ics_2",
+   "out": 4
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "chest tightness",
+    "sources": [
+     "attilio",
+     "tcmwiki"
+    ]
+   }
+  ],
+  "tags": [],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "attilio",
+    "name": "Dr Attilio D'Alberto ST 15",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/st-15.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki ST15",
+    "url": "https://tcmwiki.com/wiki/ST15"
+   },
+   {
+    "id": "msk",
+    "name": "Acupuncture Points of 14 Channels (Musculoskeletal Key)",
+    "url": "https://musculoskeletalkey.com/acupuncture-points-of-14-channels/"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "ST16",
+  "pinyin": "Yingchuang",
+  "english": "Breast Window",
+  "region": "chest",
+  "view": "torso-front",
+  "find": "On the chest, in the gap between the third and fourth ribs, about a hand-width out from the breastbone and above the nipple.",
+  "place": {
+   "from": "ics_3",
+   "out": 4
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "chest tightness",
+    "sources": [
+     "attilio",
+     "tcmwiki"
+    ]
+   }
+  ],
+  "tags": [],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "attilio",
+    "name": "Dr Attilio D'Alberto ST 16",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/st-16.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki ST16",
+    "url": "https://tcmwiki.com/wiki/ST16"
+   },
+   {
+    "id": "msk",
+    "name": "Acupuncture Points of 14 Channels (Musculoskeletal Key)",
+    "url": "https://musculoskeletalkey.com/acupuncture-points-of-14-channels/"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "ST17",
+  "pinyin": "Ruzhong",
+  "english": "Middle of the Breast",
+  "region": "chest",
+  "view": "torso-front",
+  "find": "At the centre of the nipple. It is used only as a measuring landmark for the chest and abdomen, not as a treatment point.",
+  "place": {
+   "at": "nipple"
+  },
+  "selfCare": "avoid",
+  "avoidReason": "On the nipple; used only as a landmark, not for self-pressing.",
+  "technique": null,
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [],
+  "tags": [],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "attilio",
+    "name": "Dr Attilio D'Alberto ST 17",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/st-17.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki ST17",
+    "url": "https://tcmwiki.com/wiki/ST17"
+   },
+   {
+    "id": "msk",
+    "name": "Acupuncture Points of 14 Channels (Musculoskeletal Key)",
+    "url": "https://musculoskeletalkey.com/acupuncture-points-of-14-channels/"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "ST18",
+  "pinyin": "Rugen",
+  "english": "Breast Root",
+  "region": "chest",
+  "view": "torso-front",
+  "find": "On the chest, directly below the nipple in the gap between the fifth and sixth ribs. In women it is at the crease under the breast.",
+  "place": {
+   "from": "ics_5",
+   "out": 4
+  },
+  "selfCare": "gentle",
+  "avoidReason": "",
+  "technique": "gentle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "chest discomfort",
+    "sources": [
+     "attilio",
+     "tcmwiki"
+    ]
+   }
+  ],
+  "tags": [],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "attilio",
+    "name": "Dr Attilio D'Alberto ST 18",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/st-18.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki ST18",
+    "url": "https://tcmwiki.com/wiki/ST18"
+   },
+   {
+    "id": "msk",
+    "name": "Acupuncture Points of 14 Channels (Musculoskeletal Key)",
+    "url": "https://musculoskeletalkey.com/acupuncture-points-of-14-channels/"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "ST19",
+  "pinyin": "Burong",
+  "english": "Not Contained",
+  "region": "abdomen",
+  "view": "torso-front",
+  "find": "On the upper belly, just under the ribs, about a hand-width above the belly button and a few finger-widths out to the right of the midline.",
+  "place": {
+   "from": "umbilicus",
+   "up": 6,
+   "out": 2
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "vomiting",
+    "sources": [
+     "attilio",
+     "tcmwiki"
+    ]
+   },
+   {
+    "text": "stomachache",
+    "sources": [
+     "attilio",
+     "tcmwiki"
+    ]
+   },
+   {
+    "text": "poor appetite",
+    "sources": [
+     "attilio",
+     "tcmwiki"
+    ]
+   }
+  ],
+  "tags": [
+   "nausea",
+   "digestive_health"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "attilio",
+    "name": "Dr Attilio D'Alberto ST 19",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/st-19.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki ST19",
+    "url": "https://tcmwiki.com/wiki/ST19"
+   },
+   {
+    "id": "msk",
+    "name": "Acupuncture Points of 14 Channels (Musculoskeletal Key)",
+    "url": "https://musculoskeletalkey.com/acupuncture-points-of-14-channels/"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "ST20",
+  "pinyin": "Chengman",
+  "english": "Assuming Fullness",
+  "region": "abdomen",
+  "view": "torso-front",
+  "find": "On the upper belly, five thumb-widths above the belly button and two thumb-widths out from the midline, one thumb-width below the rib edge.",
+  "place": {
+   "from": "umbilicus",
+   "up": 5,
+   "out": 2
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "stomachache",
+    "sources": [
+     "attilio",
+     "tcmwiki"
+    ]
+   },
+   {
+    "text": "poor appetite",
+    "sources": [
+     "attilio",
+     "tcmwiki"
+    ]
+   }
+  ],
+  "tags": [
+   "digestive_health"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "attilio",
+    "name": "Dr Attilio D'Alberto ST 20",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/st-20.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki ST20",
+    "url": "https://tcmwiki.com/wiki/ST20"
+   },
+   {
+    "id": "msk",
+    "name": "Acupuncture Points of 14 Channels (Musculoskeletal Key)",
+    "url": "https://musculoskeletalkey.com/acupuncture-points-of-14-channels/"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "ST21",
+  "pinyin": "Liangmen",
+  "english": "Beam Gate",
+  "region": "abdomen",
+  "view": "torso-front",
+  "find": "On the upper belly, four thumb-widths above the belly button and two thumb-widths out from the midline.",
+  "place": {
+   "from": "umbilicus",
+   "up": 4,
+   "out": 2
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "stomachache",
+    "sources": [
+     "attilio",
+     "tcmwiki"
+    ]
+   },
+   {
+    "text": "poor appetite",
+    "sources": [
+     "attilio",
+     "tcmwiki"
+    ]
+   }
+  ],
+  "tags": [
+   "digestive_health"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "attilio",
+    "name": "Dr Attilio D'Alberto ST 21",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/st-21.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki ST21",
+    "url": "https://tcmwiki.com/wiki/ST21"
+   },
+   {
+    "id": "msk",
+    "name": "Acupuncture Points of 14 Channels (Musculoskeletal Key)",
+    "url": "https://musculoskeletalkey.com/acupuncture-points-of-14-channels/"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "ST22",
+  "pinyin": "Guanmen",
+  "english": "Pass Gate",
+  "region": "abdomen",
+  "view": "torso-front",
+  "find": "On the upper belly, three thumb-widths above the belly button and two thumb-widths out from the midline.",
+  "place": {
+   "from": "umbilicus",
+   "up": 3,
+   "out": 2
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "bloating",
+    "sources": [
+     "attilio",
+     "tcmwiki"
+    ]
+   },
+   {
+    "text": "diarrhea",
+    "sources": [
+     "attilio",
+     "tcmwiki"
+    ]
+   },
+   {
+    "text": "abdominal pain",
+    "sources": [
+     "attilio",
+     "tcmwiki"
+    ]
+   },
+   {
+    "text": "stomach rumbling",
+    "sources": [
+     "attilio",
+     "tcmwiki"
+    ]
+   }
+  ],
+  "tags": [
+   "digestive_health"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "attilio",
+    "name": "Dr Attilio D'Alberto ST 22",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/st-22.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki ST22",
+    "url": "https://tcmwiki.com/wiki/ST22"
+   },
+   {
+    "id": "msk",
+    "name": "Acupuncture Points of 14 Channels (Musculoskeletal Key)",
+    "url": "https://musculoskeletalkey.com/acupuncture-points-of-14-channels/"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ }
+]

@@ -1,0 +1,528 @@
+[
+ {
+  "code": "GB1",
+  "verdict": "ok",
+  "reason": "Matches WHO (depression 0.5 cun lateral to outer canthus); YYH gives the same spot on the lateral orbit. Eye caution and gentle pressure appropriate.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House GB1",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/gb1/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "GB2",
+  "verdict": "ok",
+  "reason": "Matches WHO (depression between intertragic notch and mandibular condyle, mouth open); YYH agrees and lists tinnitus and TMJ/jaw issues.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House GB2",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/gb2/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "GB3",
+  "verdict": "ok",
+  "reason": "Matches WHO (depression above midpoint of zygomatic arch, above ST7); YYH agrees.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House GB3",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/gb3/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "GB4",
+  "verdict": "ok",
+  "reason": "Matches WHO (upper 1/4 of ST8-GB7 curve); YYH agrees, headache indication confirmed.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House GB4",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/gb4/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "GB5",
+  "verdict": "ok",
+  "reason": "Matches WHO (midpoint of ST8-GB7 curve); YYH agrees.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House GB5",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/gb5/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "GB6",
+  "verdict": "ok",
+  "reason": "Matches WHO (upper 3/4 of ST8-GB7 curve); YYH agrees.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House GB6",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/gb6/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "GB7",
+  "verdict": "ok",
+  "reason": "Matches WHO (sideburn back edge meets line through ear apex); YYH agrees. Vomiting checked: listed on Me and Qi GB7; YYH lists only headache, so it is a minor traditional use but acceptable.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House GB7",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/gb7/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "GB8",
+  "verdict": "ok",
+  "reason": "Matches WHO (directly above ear apex, 1.5 cun into hairline, easier when chewing); 1.5 cun about 2 finger-widths is right. YYH agrees and lists migraine with nausea/vomiting.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House GB8",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/gb8/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "GB9",
+  "verdict": "fix",
+  "fixes": {
+   "find": "Above and behind the ear: from the back edge of where the ear joins the head, go straight up about two and a half finger-widths into the hair, a fingertip behind the point above the ear tip."
+  },
+  "reason": "WHO and YYH put GB9 2 cun above the hairline directly above the back of the ear root, 0.5 cun behind GB8. The author's find gave no height and said 'just above', which places it too low.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House GB9",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/gb9/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "GB10",
+  "verdict": "fix",
+  "fixes": {
+   "find": "Behind the ear, roughly level with the top of the ear, about a thumb-width into the hair, on the curve running down toward the bony bump behind the earlobe."
+  },
+  "reason": "WHO: one third of the way down the GB9-GB12 curve, behind the ear apex, 1 cun above the hairline (YYH agrees). The author's find ('just above and behind the bony bump behind the earlobe') puts it near the mastoid, i.e. too low; that is closer to GB11/GB12.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House GB10",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/gb10/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "GB11",
+  "verdict": "fix",
+  "fixes": {
+   "find": "Behind the ear, in the hair just above and behind the bony bump behind the earlobe, about two thirds of the way down the curve from the top of the ear to the hollow below that bump."
+  },
+  "reason": "Location agrees with WHO/YYH (lower third of GB9-GB12 curve), but the find relied on 'the point above it', which a user cannot follow; rewritten with its own landmarks.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House GB11",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/gb11/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "GB12",
+  "verdict": "ok",
+  "reason": "Matches WHO (depression posteroinferior to mastoid); YYH agrees and lists insomnia and occipital headache, supporting 'trouble sleeping'.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House GB12",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/gb12/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "GB13",
+  "verdict": "ok",
+  "reason": "Matches WHO (0.5 cun into hairline, 3 cun lateral; 3 cun = 4 finger-widths); YYH agrees and lists headache and anxiety uses.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House GB13",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/gb13/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "GB14",
+  "verdict": "ok",
+  "reason": "Matches WHO (1 cun above eyebrow, above pupil); YYH agrees, eye and headache indications confirmed.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House GB14",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/gb14/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "GB15",
+  "verdict": "fix",
+  "fixes": {
+   "find": "On the scalp straight above the pupil when looking ahead, about half a thumb-width back from the front edge of the hair."
+  },
+  "reason": "WHO and YYH: 0.5 cun within the anterior hairline. The author's find said 'a bit more than a thumb-width up from the edge of the hair', which is more than double the distance (place spec up 0.5 is correct).",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House GB15",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/gb15/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "GB16",
+  "verdict": "disputed",
+  "reason": "Record follows WHO (1.5 cun within hairline, 1 cun behind GB15) and find/place are consistent with it. YYH uses the older convention: 1.5 cun behind GB15 = 2 cun above the hairline. Keep WHO; flag the older 2-cun location.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House GB16",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/gb16/",
+   "agrees": false
+  }
+ },
+ {
+  "code": "GB17",
+  "verdict": "disputed",
+  "fixes": {
+   "find": "On the scalp straight above the pupil, about two and a half thumb-widths (three to four finger-widths) back from the front hairline."
+  },
+  "reason": "WHO: 2.5 cun within hairline; YYH uses the older 3.5 cun (1.5 behind GB16 at 2). Also the author's 'about three finger-widths' is about 2.25 cun, short of WHO's 2.5; reworded.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House GB17",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/gb17/",
+   "agrees": false
+  }
+ },
+ {
+  "code": "GB18",
+  "verdict": "disputed",
+  "reason": "Record follows WHO (4 cun within hairline, level with BL7). YYH gives the older 5 cun above the hairline. Keep WHO; flag the older location. Blocked-nose indication plausible.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House GB18",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/gb18/",
+   "agrees": false
+  }
+ },
+ {
+  "code": "GB19",
+  "verdict": "ok",
+  "reason": "Matches WHO (level with top of external occipital protuberance, directly above GB20, about 2.25 cun lateral); YYH agrees.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House GB19",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/gb19/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "GB20",
+  "verdict": "ok",
+  "reason": "Matches WHO (below occiput, between SCM and trapezius origins, level with GV16); YYH agrees and lists headache, stiff neck, dizziness, eye issues, fever/chills.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House GB20",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/gb20/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "GB21",
+  "verdict": "ok",
+  "reason": "Matches WHO (midpoint C7 to lateral end of acromion); YYH agrees and states it is contraindicated in pregnancy, so pregnancy flag is correct.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House GB21",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/gb21/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "GB22",
+  "verdict": "ok",
+  "reason": "Find (about 3 cun below the armpit on the midaxillary line) is compatible with WHO (4th intercostal space, midaxillary line). YYH says 5th intercostal space (older numbering); the find avoids naming the rib gap, so no change. Me and Qi lists coughing and chest fullness.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House GB22",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/gb22/",
+   "agrees": false
+  }
+ },
+ {
+  "code": "GB23",
+  "verdict": "ok",
+  "reason": "Matches WHO (4th intercostal space, 1 cun in front of midaxillary line, about nipple level); Me and Qi also gives 4th space, 1 cun anterior to GB22, level with the nipple. The 5th-space variant noted by the author is the older convention.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me and Qi GB23",
+   "url": "https://www.meandqi.com/knowledge-base/acupuncture/gall-bladder-meridian/zhejin-gb-23",
+   "agrees": true
+  }
+ },
+ {
+  "code": "GB24",
+  "verdict": "fix",
+  "fixes": {
+   "find": "Straight down from the nipple, count three rib gaps lower (the nipple sits at about the fourth gap; this is the seventh), near the lower edge of the rib cage. In women, go straight down from mid-collarbone."
+  },
+  "reason": "Location in the record (7th intercostal space, 4 cun lateral) matches WHO and Me and Qi, but the find ('one rib below the rib that lies just under the nipple line ... at the lower rib edge') is confusing and implies the space just below the nipple; rewritten to count gaps from the nipple and add the WHO note for women.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me and Qi GB24",
+   "url": "https://www.meandqi.com/knowledge-base/acupuncture/gall-bladder-meridian/riyue-gb-24",
+   "agrees": true
+  }
+ },
+ {
+  "code": "GB25",
+  "verdict": "ok",
+  "reason": "Matches WHO (below the free end of the 12th rib); Me and Qi agrees and lists low back pain, rib-side pain, diarrhea.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me and Qi GB25",
+   "url": "https://www.meandqi.com/knowledge-base/acupuncture/gall-bladder-meridian/jingmen-gb-25",
+   "agrees": true
+  }
+ },
+ {
+  "code": "GB26",
+  "verdict": "ok",
+  "reason": "Matches WHO (below free end of 11th rib, level with umbilicus); Me and Qi agrees.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me and Qi GB26",
+   "url": "https://www.meandqi.com/knowledge-base/acupuncture/gall-bladder-meridian/daimai-gb-26",
+   "agrees": true
+  }
+ },
+ {
+  "code": "GB27",
+  "verdict": "fix",
+  "fixes": {
+   "find": "On the side of the lower belly, just inside the front point of the hip bone, level with a spot four finger-widths below the belly button."
+  },
+  "reason": "WHO and Me and Qi: 3 cun below the umbilicus level, medial to the ASIS. The author's 'a few finger-widths below the belly button' reads as a midline spot and gives no fixed distance (3 cun = 4 finger-widths). Place and pregnancy flag are fine.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me and Qi GB27",
+   "url": "https://www.meandqi.com/knowledge-base/acupuncture/gall-bladder-meridian/wushu-gb-27",
+   "agrees": true
+  }
+ },
+ {
+  "code": "GB28",
+  "verdict": "ok",
+  "reason": "Matches WHO (0.5 cun medioinferior to ASIS / GB27); Me and Qi agrees (0.5 cun anterior-inferior to GB27). Lower-abdomen pregnancy flag correct.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me and Qi GB28",
+   "url": "https://www.meandqi.com/knowledge-base/acupuncture/gall-bladder-meridian/weidao-gb-28",
+   "agrees": true
+  }
+ },
+ {
+  "code": "GB29",
+  "verdict": "ok",
+  "reason": "Matches WHO (midpoint of ASIS to greater trochanter prominence); Me and Qi agrees and lists hip pain and sciatica.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me and Qi GB29",
+   "url": "https://www.meandqi.com/knowledge-base/acupuncture/gall-bladder-meridian/juliao-gb-29",
+   "agrees": true
+  }
+ },
+ {
+  "code": "GB30",
+  "verdict": "ok",
+  "reason": "Matches WHO primary location (lateral third of trochanter-sacral hiatus line); Me and Qi agrees; WHO alternative noted in record.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me and Qi GB30",
+   "url": "https://www.meandqi.com/knowledge-base/acupuncture/gall-bladder-meridian/huantiao-gb-30",
+   "agrees": true
+  }
+ },
+ {
+  "code": "GB31",
+  "verdict": "disputed",
+  "reason": "WHO gives only the middle-fingertip rule (posterior to the iliotibial band) and puts GB32 at 7 cun; Me and Qi (and YYH/D'Alberto per author) put GB31 at 7 cun above the popliteal crease. The author's 9-cun plot is an inference from WHO GB32, not a WHO figure. Fingertip rule in find is fine.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me and Qi GB31",
+   "url": "https://www.meandqi.com/knowledge-base/acupuncture/gall-bladder-meridian/fengshi-gb-31",
+   "agrees": false
+  }
+ },
+ {
+  "code": "GB32",
+  "verdict": "fix",
+  "fixes": {
+   "find": "On the outer thigh, about seven thumb-widths (a little over two hand-widths) above the outer end of the back-of-knee crease, just behind the thick band along the outer thigh."
+  },
+  "reason": "The find said 'about a hand's width (four finger-widths plus a bit)' which is about 3 cun, but the record's WHO figure is 7 cun. Also genuinely disputed: Me and Qi gives 5 cun (2 cun below GB31); WHO says 7 cun. Keep WHO.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me and Qi GB32",
+   "url": "https://www.meandqi.com/knowledge-base/acupuncture/gall-bladder-meridian/zhongdu-gb-32",
+   "agrees": false
+  }
+ },
+ {
+  "code": "GB33",
+  "verdict": "ok",
+  "reason": "Matches WHO (depression between biceps femoris tendon and iliotibial band, above/behind lateral femoral epicondyle); Me and Qi agrees.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me and Qi GB33",
+   "url": "https://www.meandqi.com/knowledge-base/acupuncture/gall-bladder-meridian/xiyangguan-gb-33",
+   "agrees": true
+  }
+ },
+ {
+  "code": "GB34",
+  "verdict": "ok",
+  "reason": "Matches WHO (depression anterior and distal to fibular head); Me and Qi agrees and lists knee pain, hip pain, nausea, rib-side pain.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me and Qi GB34",
+   "url": "https://www.meandqi.com/knowledge-base/acupuncture/gall-bladder-meridian/yanglingquan-gb-34",
+   "agrees": true
+  }
+ },
+ {
+  "code": "GB35",
+  "verdict": "fix",
+  "fixes": {
+   "find": "On the outer lower leg, about seven thumb-widths (a little over two hand-widths) above the outer ankle bone, just behind the thin outer shin bone.",
+   "place": {
+    "manual": "7 cun above the lateral malleolus prominence, just posterior to the fibula, level with GB36 (1 cun below the midpoint of the knee-crease to malleolus line)."
+   }
+  },
+  "reason": "WHO and Me and Qi: 7 cun above the lateral malleolus, posterior border of the fibula. The find said 'about a hand-width' (about 3 cun), which is less than half the distance. The place spec was identical to GB36 (GB line, 7 cun), losing the behind-the-fibula difference; changed to manual.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me and Qi GB35",
+   "url": "https://www.meandqi.com/knowledge-base/acupuncture/gall-bladder-meridian/yangjiao-gb-35",
+   "agrees": true
+  }
+ },
+ {
+  "code": "GB36",
+  "verdict": "fix",
+  "fixes": {
+   "find": "On the outer lower leg, about seven thumb-widths (a little over two hand-widths) above the outer ankle bone, on the front edge of the thin outer shin bone."
+  },
+  "reason": "WHO and Me and Qi: 7 cun above the lateral malleolus, anterior border of fibula. The find said 'about a hand-width and a bit', which is roughly 3-4 cun, far too low.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me and Qi GB36",
+   "url": "https://www.meandqi.com/knowledge-base/acupuncture/gall-bladder-meridian/waiqiu-gb-36",
+   "agrees": true
+  }
+ },
+ {
+  "code": "GB37",
+  "verdict": "ok",
+  "reason": "Matches WHO (5 cun above malleolus, anterior to fibula); Me and Qi agrees and lists eye pain, blurred vision, headache, leg pain.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me and Qi GB37",
+   "url": "https://www.meandqi.com/knowledge-base/acupuncture/gall-bladder-meridian/guangming-gb-37",
+   "agrees": true
+  }
+ },
+ {
+  "code": "GB38",
+  "verdict": "ok",
+  "reason": "Matches WHO (4 cun above malleolus, anterior to fibula); Me and Qi agrees.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me and Qi GB38",
+   "url": "https://www.meandqi.com/knowledge-base/acupuncture/gall-bladder-meridian/yangfu-gb-38",
+   "agrees": true
+  }
+ },
+ {
+  "code": "GB39",
+  "verdict": "fix",
+  "fixes": {
+   "find": "On the outer lower leg, about three thumb-widths (four finger-widths) above the outer ankle bone, in the dip on the front edge of the thin outer shin bone."
+  },
+  "reason": "WHO and Me and Qi: anterior to the fibula, 3 cun above the malleolus. The find put it 'between the thin outer shin bone and the tendons behind it', i.e. behind the fibula (an older text variant). Wrong side of the bone for a WHO-based record.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me and Qi GB39",
+   "url": "https://www.meandqi.com/knowledge-base/acupuncture/gall-bladder-meridian/xuanzhong-gb-39",
+   "agrees": true
+  }
+ },
+ {
+  "code": "GB40",
+  "verdict": "fix",
+  "fixes": {
+   "find": "In front of and below the outer ankle bone, in the hollow on the outer side of the tendon that runs to the little toes (lift the toes to see it)."
+  },
+  "reason": "WHO and Me and Qi: depression lateral to the extensor digitorum longus tendon. The find said only 'beside the tendon', which leaves the side ambiguous.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me and Qi GB40",
+   "url": "https://www.meandqi.com/knowledge-base/acupuncture/gall-bladder-meridian/qiuxu-gb-40",
+   "agrees": true
+  }
+ },
+ {
+  "code": "GB41",
+  "verdict": "fix",
+  "fixes": {
+   "find": "On top of the foot, in the groove between the bones of the fourth and little toes, just in front of where they meet, on the outer side of the tendon to the little toe."
+  },
+  "reason": "WHO and Me and Qi: distal to the 4th/5th metatarsal base junction, lateral to the little-toe extensor tendon. Find said only 'beside', leaving the side ambiguous (GB42 is on the inner side of the same tendon).",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me and Qi GB41",
+   "url": "https://www.meandqi.com/knowledge-base/acupuncture/gall-bladder-meridian/zulingqi-gb-41",
+   "agrees": true
+  }
+ },
+ {
+  "code": "GB42",
+  "verdict": "ok",
+  "reason": "Matches WHO (between 4th and 5th metatarsals, proximal to 4th MTP joint); Me and Qi agrees (medial to the little-toe tendon).",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me and Qi GB42",
+   "url": "https://www.meandqi.com/knowledge-base/acupuncture/gall-bladder-meridian/diwuhui-gb-42",
+   "agrees": true
+  }
+ },
+ {
+  "code": "GB43",
+  "verdict": "ok",
+  "reason": "Matches WHO (between 4th and 5th toes, proximal to web margin); Me and Qi agrees and lists headache, dizziness, tinnitus, blurred vision.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me and Qi GB43",
+   "url": "https://www.meandqi.com/knowledge-base/acupuncture/gall-bladder-meridian/xiaxi-gb-43",
+   "agrees": true
+  }
+ },
+ {
+  "code": "GB44",
+  "verdict": "ok",
+  "reason": "Matches WHO (lateral side of 4th toe, 0.1 cun from nail corner); Me and Qi agrees and lists insomnia, eye pain, headache.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me and Qi GB44",
+   "url": "https://www.meandqi.com/knowledge-base/acupuncture/gall-bladder-meridian/zuqiaoyin-gb-44",
+   "agrees": true
+  }
+ }
+]

@@ -1,0 +1,843 @@
+[
+ {
+  "code": "GV15",
+  "pinyin": "Yamen",
+  "english": "Gate of Muteness",
+  "region": "neck",
+  "view": "head-back",
+  "find": "On the back of the neck, right on the midline just below the base of the skull, a little above the hairline in the small hollow under the top neck bump.",
+  "place": {
+   "from": "posterior_hairline_mid",
+   "up": 0.5
+  },
+  "selfCare": "gentle",
+  "avoidReason": "",
+  "technique": "gentle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "headache at the back of the head",
+    "sources": [
+     "yyh",
+     "adalb"
+    ]
+   },
+   {
+    "text": "stiff neck",
+    "sources": [
+     "yyh",
+     "adalb"
+    ]
+   },
+   {
+    "text": "hoarse voice",
+    "sources": [
+     "yyh",
+     "adalb"
+    ]
+   }
+  ],
+  "tags": [
+   "headache",
+   "neck_pain"
+  ],
+  "whoMatch": false,
+  "whoNote": "WHO scan text for GV15 is missing; location taken from two independent sources (yyh, adalb), which agree: 0.5 cun above the posterior hairline midpoint, below the C1 spinous process.",
+  "sources": [
+   {
+    "id": "yyh",
+    "name": "Yin Yang House GV15",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/gv15"
+   },
+   {
+    "id": "adalb",
+    "name": "Attilio D'Alberto GV15",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/gv-15.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "GV16",
+  "pinyin": "Fengfu",
+  "english": "Wind Mansion",
+  "region": "neck",
+  "view": "head-back",
+  "find": "On the back of the head, on the midline just below the bony bump at the base of the skull, in the hollow between the two neck muscles.",
+  "place": {
+   "from": "posterior_hairline_mid",
+   "up": 1
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "headache",
+    "sources": [
+     "yyh",
+     "adalb"
+    ]
+   },
+   {
+    "text": "stiff neck",
+    "sources": [
+     "yyh",
+     "adalb"
+    ]
+   },
+   {
+    "text": "dizziness",
+    "sources": [
+     "yyh",
+     "adalb"
+    ]
+   },
+   {
+    "text": "sore throat",
+    "sources": [
+     "yyh",
+     "adalb"
+    ]
+   }
+  ],
+  "tags": [
+   "headache",
+   "neck_pain"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House GV16",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/gv16"
+   },
+   {
+    "id": "adalb",
+    "name": "Attilio D'Alberto GV16",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/gv-16.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "GV17",
+  "pinyin": "Naohu",
+  "english": "Brain's Door",
+  "region": "head",
+  "view": "head-back",
+  "find": "On the midline at the back of the head, in the hollow just above the bony bump at the base of the skull.",
+  "place": {
+   "at": "external_occipital_protuberance"
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "heavy head",
+    "sources": [
+     "yyh",
+     "adalb"
+    ]
+   },
+   {
+    "text": "stiff neck",
+    "sources": [
+     "yyh",
+     "adalb"
+    ]
+   },
+   {
+    "text": "dizziness",
+    "sources": [
+     "yyh",
+     "adalb"
+    ]
+   }
+  ],
+  "tags": [
+   "neck_pain"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House GV17",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/gv17"
+   },
+   {
+    "id": "adalb",
+    "name": "Attilio D'Alberto GV17",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/gv-17.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "GV18",
+  "pinyin": "Qiangjian",
+  "english": "Unyielding Space",
+  "region": "head",
+  "view": "head-back",
+  "find": "On the midline at the back of the head, about halfway between the bony bump at the base of the skull and the very top of the head.",
+  "place": {
+   "from": "posterior_hairline_mid",
+   "up": 4
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "headache",
+    "sources": [
+     "yyh",
+     "adalb"
+    ]
+   },
+   {
+    "text": "stiff neck",
+    "sources": [
+     "yyh",
+     "adalb"
+    ]
+   },
+   {
+    "text": "dizziness",
+    "sources": [
+     "yyh",
+     "adalb"
+    ]
+   }
+  ],
+  "tags": [
+   "headache",
+   "neck_pain"
+  ],
+  "whoMatch": false,
+  "whoNote": "WHO scan text for GV18 is garbled/missing; location from two independent sources (yyh: midway between GV16 and GV20; adalb: 1.5 cun above GV17, about 4 cun above the posterior hairline), which agree.",
+  "sources": [
+   {
+    "id": "yyh",
+    "name": "Yin Yang House GV18",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/gv18"
+   },
+   {
+    "id": "adalb",
+    "name": "Attilio D'Alberto GV18",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/gv-18.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "GV19",
+  "pinyin": "Houding",
+  "english": "Behind the Summit",
+  "region": "head",
+  "view": "head-top",
+  "find": "On the midline at the back of the top of the head, about two finger-widths behind the very top of the head.",
+  "place": {
+   "from": "posterior_hairline_mid",
+   "down": 5.5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "headache",
+    "sources": [
+     "yyh",
+     "adalb"
+    ]
+   },
+   {
+    "text": "dizziness",
+    "sources": [
+     "yyh",
+     "adalb"
+    ]
+   },
+   {
+    "text": "trouble sleeping",
+    "sources": [
+     "yyh",
+     "adalb"
+    ]
+   },
+   {
+    "text": "stiff neck",
+    "sources": [
+     "yyh",
+     "adalb"
+    ]
+   }
+  ],
+  "tags": [
+   "headache",
+   "sleep",
+   "neck_pain"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House GV19",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/gv19"
+   },
+   {
+    "id": "adalb",
+    "name": "Attilio D'Alberto GV19",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/gv-19.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "GV20",
+  "pinyin": "Baihui",
+  "english": "Hundred Meetings",
+  "region": "head",
+  "view": "head-top",
+  "find": "At the very top of the head on the midline, a little forward of halfway between the front and back hairlines; also where a line joining the tips of both folded-forward ears crosses the midline.",
+  "place": {
+   "from": "anterior_hairline_mid",
+   "up": 5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "headache",
+    "sources": [
+     "yyh",
+     "adalb"
+    ]
+   },
+   {
+    "text": "dizziness",
+    "sources": [
+     "yyh",
+     "adalb"
+    ]
+   },
+   {
+    "text": "ringing in the ears",
+    "sources": [
+     "yyh",
+     "adalb"
+    ]
+   }
+  ],
+  "tags": [
+   "headache",
+   "ear_hearing"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House GV20",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/gv20"
+   },
+   {
+    "id": "adalb",
+    "name": "Attilio D'Alberto GV20",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/gv-20.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "GV21",
+  "pinyin": "Qianding",
+  "english": "Before the Vertex",
+  "region": "head",
+  "view": "head-top",
+  "find": "On the midline of the scalp, a little in front of the very top of the head, about one thumb-width ahead of the crown point.",
+  "place": {
+   "from": "anterior_hairline_mid",
+   "up": 3.5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "headache",
+    "sources": [
+     "yyh",
+     "adalb"
+    ]
+   }
+  ],
+  "tags": [
+   "headache"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House GV21",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/gv21"
+   },
+   {
+    "id": "adalb",
+    "name": "Attilio D'Alberto GV21",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/gv-21.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "GV22",
+  "pinyin": "Xinhui",
+  "english": "Fontanelle Meeting",
+  "region": "head",
+  "view": "head-top",
+  "find": "On the midline of the scalp, about two thumb-widths behind the front hairline.",
+  "place": {
+   "from": "anterior_hairline_mid",
+   "up": 2
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "headache",
+    "sources": [
+     "yyh",
+     "adalb"
+    ]
+   },
+   {
+    "text": "dizziness",
+    "sources": [
+     "yyh",
+     "adalb"
+    ]
+   },
+   {
+    "text": "stuffy nose",
+    "sources": [
+     "yyh",
+     "adalb"
+    ]
+   }
+  ],
+  "tags": [
+   "headache",
+   "nose_sinus"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House GV22",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/gv22"
+   },
+   {
+    "id": "adalb",
+    "name": "Attilio D'Alberto GV22",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/gv-22.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "GV23",
+  "pinyin": "Shangxing",
+  "english": "Upper Star",
+  "region": "head",
+  "view": "head-top",
+  "find": "On the midline of the scalp, one thumb-width behind the front hairline.",
+  "place": {
+   "from": "anterior_hairline_mid",
+   "up": 1
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "stuffy nose",
+    "sources": [
+     "yyh",
+     "adalb"
+    ]
+   },
+   {
+    "text": "headache",
+    "sources": [
+     "yyh",
+     "adalb"
+    ]
+   },
+   {
+    "text": "red or sore eyes",
+    "sources": [
+     "yyh",
+     "adalb"
+    ]
+   }
+  ],
+  "tags": [
+   "nose_sinus",
+   "headache",
+   "eye_strain"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House GV23",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/gv23"
+   },
+   {
+    "id": "adalb",
+    "name": "Attilio D'Alberto GV23",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/gv-23.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "GV24",
+  "pinyin": "Shenting",
+  "english": "Courtyard of the Spirit",
+  "region": "head",
+  "view": "head-top",
+  "find": "On the midline of the scalp, half a thumb-width behind the front hairline.",
+  "place": {
+   "from": "anterior_hairline_mid",
+   "up": 0.5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "headache at the forehead",
+    "sources": [
+     "yyh",
+     "adalb"
+    ]
+   },
+   {
+    "text": "nasal problems",
+    "sources": [
+     "yyh",
+     "adalb"
+    ]
+   },
+   {
+    "text": "anxiety",
+    "sources": [
+     "yyh",
+     "adalb"
+    ]
+   }
+  ],
+  "tags": [
+   "headache",
+   "nose_sinus",
+   "stress_anxiety"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House GV24",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/gv24"
+   },
+   {
+    "id": "adalb",
+    "name": "Attilio D'Alberto GV24",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/gv-24.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "GV25",
+  "pinyin": "Suliao",
+  "english": "White Crevice",
+  "region": "face",
+  "view": "face-front",
+  "find": "On the very tip of the nose, at the centre of the rounded end.",
+  "place": {
+   "manual": "At the tip of the nose, on the midline."
+  },
+  "selfCare": "gentle",
+  "avoidReason": "",
+  "technique": "gentle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "stuffy nose",
+    "sources": [
+     "yyh",
+     "adalb"
+    ]
+   },
+   {
+    "text": "nosebleed",
+    "sources": [
+     "yyh",
+     "adalb"
+    ]
+   },
+   {
+    "text": "feeling faint",
+    "sources": [
+     "yyh",
+     "adalb"
+    ]
+   }
+  ],
+  "tags": [
+   "nose_sinus"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House GV25",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/gv25"
+   },
+   {
+    "id": "adalb",
+    "name": "Attilio D'Alberto GV25",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/gv-25.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "GV26",
+  "pinyin": "Shuigou",
+  "english": "Water Trough",
+  "region": "face",
+  "view": "face-front",
+  "find": "On the midline of the upper lip, in the vertical groove under the nose, around its middle or a little nearer the nose.",
+  "place": {
+   "at": "philtrum"
+  },
+  "selfCare": "gentle",
+  "avoidReason": "",
+  "technique": "gentle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "feeling faint",
+    "sources": [
+     "yyh",
+     "adalb"
+    ]
+   },
+   {
+    "text": "sudden low back pain",
+    "sources": [
+     "yyh",
+     "adalb"
+    ]
+   },
+   {
+    "text": "nosebleed",
+    "sources": [
+     "yyh",
+     "adalb"
+    ]
+   }
+  ],
+  "tags": [
+   "low_back_pain",
+   "nose_sinus"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House GV26",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/gv26"
+   },
+   {
+    "id": "adalb",
+    "name": "Attilio D'Alberto GV26",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/gv-26.php"
+   }
+  ],
+  "disputed": "WHO gives the midpoint of the philtrum, with an alternative at the upper one-third junction; yyh and adalb both lean to the upper third.",
+  "appFix": ""
+ },
+ {
+  "code": "GV27",
+  "pinyin": "Duiduan",
+  "english": "Extremity of the Mouth",
+  "region": "face",
+  "view": "face-front",
+  "find": "On the midline of the upper lip, at the middle of the small bump in the centre of the lip edge.",
+  "place": {
+   "manual": "At the midpoint of the tubercle of the upper lip, on the midline."
+  },
+  "selfCare": "gentle",
+  "avoidReason": "",
+  "technique": "gentle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [],
+  "tags": [],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House GV27",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/gv27"
+   },
+   {
+    "id": "adalb",
+    "name": "Attilio D'Alberto GV27",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/gv-27.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "GV28",
+  "pinyin": "Yinjiao",
+  "english": "Gum Intersection",
+  "region": "face",
+  "view": "face-front",
+  "find": "Inside the mouth, where the small fold of skin joining the upper lip meets the upper gum, on the midline.",
+  "place": {
+   "manual": "Inside the mouth, at the junction of the upper-lip frenulum and the upper gum on the midline."
+  },
+  "selfCare": "avoid",
+  "avoidReason": "Inside the mouth under the lip; cannot be sensibly self-pressed.",
+  "technique": null,
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "gum pain",
+    "sources": [
+     "yyh",
+     "adalb"
+    ]
+   }
+  ],
+  "tags": [],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House GV28",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/gv28"
+   },
+   {
+    "id": "adalb",
+    "name": "Attilio D'Alberto GV28",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/gv-28.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ }
+]

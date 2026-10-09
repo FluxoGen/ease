@@ -1,0 +1,1355 @@
+[
+ {
+  "code": "LR1",
+  "pinyin": "Dadun",
+  "english": "Great Mound",
+  "region": "toe",
+  "view": "foot-top",
+  "find": "On the big toe, on the side facing the second toe, at the base corner of the toenail, just a hair back from where the nail meets the skin.",
+  "place": {
+   "at": "big_toe_nail_corner_outer"
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "nail",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [],
+  "tags": [],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House LV1",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/lv1/"
+   },
+   {
+    "id": "adalb",
+    "name": "Attilio D'Alberto LV1",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/lv-1.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "LR2",
+  "pinyin": "Xingjian",
+  "english": "Moving Between",
+  "region": "foot",
+  "view": "foot-top",
+  "find": "On the top of the foot, in the groove between the big toe and second toe, a little way back from the edge of the web, where the skin colour changes.",
+  "place": {
+   "from": "web_1_2",
+   "up": 0.5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "irritability and anger",
+    "sources": [
+     "yyh",
+     "adalb"
+    ]
+   },
+   {
+    "text": "red, sore eyes",
+    "sources": [
+     "yyh",
+     "adalb"
+    ]
+   }
+  ],
+  "tags": [
+   "stress_anxiety",
+   "eye_strain"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House LV2",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/lv2/"
+   },
+   {
+    "id": "adalb",
+    "name": "Attilio D'Alberto LV2",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/lv-2.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "LR3",
+  "pinyin": "Taichong",
+  "english": "Great Rushing",
+  "region": "foot",
+  "view": "foot-top",
+  "find": "On the top of the foot, in the hollow between the big-toe and second-toe bones, just toe-side of where they join; you can feel the foot pulse here.",
+  "place": {
+   "between": [
+    "web_1_2",
+    "met_base_1_2"
+   ],
+   "frac": 0.85
+  },
+  "selfCare": "gentle",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [
+   "pulse"
+  ],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "headache",
+    "sources": [
+     "yyh",
+     "adalb"
+    ]
+   },
+   {
+    "text": "irritability and anger",
+    "sources": [
+     "yyh",
+     "adalb"
+    ]
+   },
+   {
+    "text": "menstrual cramps",
+    "sources": [
+     "yyh",
+     "adalb"
+    ]
+   },
+   {
+    "text": "trouble sleeping",
+    "sources": [
+     "yyh",
+     "adalb"
+    ]
+   },
+   {
+    "text": "red, sore eyes",
+    "sources": [
+     "yyh",
+     "adalb"
+    ]
+   }
+  ],
+  "tags": [
+   "headache",
+   "stress_anxiety",
+   "menstrual_cramps"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House LV3",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/lv3/"
+   },
+   {
+    "id": "adalb",
+    "name": "Attilio D'Alberto LV3",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/lv-3.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": "Says the bones 'meet' here; the point is in the hollow just toe-side of where the two bones join, over the foot pulse."
+ },
+ {
+  "code": "LR4",
+  "pinyin": "Zhongfeng",
+  "english": "Mound Centre",
+  "region": "ankle",
+  "view": "foot-top",
+  "find": "At the front of the inner ankle, in the soft dip just inside the large tendon that runs up from the big toe, in front of the ankle bump.",
+  "place": {
+   "from": "tibialis_tendon",
+   "in": 0.5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "inner ankle pain",
+    "sources": [
+     "yyh",
+     "adalb"
+    ]
+   }
+  ],
+  "tags": [
+   "foot_ankle_strain"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House LV4",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/lv4/"
+   },
+   {
+    "id": "adalb",
+    "name": "Attilio D'Alberto LV4",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/lv-4.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "LR5",
+  "pinyin": "Ligou",
+  "english": "Woodworm Canal",
+  "region": "lower leg",
+  "view": "leg-inner",
+  "find": "On the inner shin, in the middle of the flat inner edge of the shinbone, about five thumb-widths above the ankle bone.",
+  "place": {
+   "line": "LR",
+   "from": "medial_malleolus",
+   "cun": 5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [],
+  "tags": [],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House LV5",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/lv5/"
+   },
+   {
+    "id": "adalb",
+    "name": "Attilio D'Alberto LV5",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/lv-5.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "LR6",
+  "pinyin": "Zhongdu",
+  "english": "Central Metropolis",
+  "region": "lower leg",
+  "view": "leg-inner",
+  "find": "On the inner shin, in the middle of the flat inner edge of the shinbone, about seven thumb-widths above the ankle bone.",
+  "place": {
+   "line": "LR",
+   "from": "medial_malleolus",
+   "cun": 7
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [],
+  "tags": [],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House LV6",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/lv6/"
+   },
+   {
+    "id": "adalb",
+    "name": "Attilio D'Alberto LV6",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/lv-6.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "LR7",
+  "pinyin": "Xiguan",
+  "english": "Knee Joint",
+  "region": "knee",
+  "view": "leg-inner",
+  "find": "Just below the bony bump on the inner side of the knee, about one thumb-width behind the soft dip found there, at the top of the calf.",
+  "place": {
+   "from": "tibia_medial_condyle",
+   "down": 0.5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [],
+  "tags": [],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House LV7",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/lv7/"
+   },
+   {
+    "id": "adalb",
+    "name": "Attilio D'Alberto LV7",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/lv-7.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "LR8",
+  "pinyin": "Ququan",
+  "english": "Spring at the Bend",
+  "region": "knee",
+  "view": "leg-inner",
+  "find": "With the knee bent, on the inner side of the knee, in the hollow just in front of the thick tendons at the inner end of the crease behind the knee.",
+  "place": {
+   "at": "knee_crease_medial_end"
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "inner knee pain",
+    "sources": [
+     "yyh",
+     "adalb"
+    ]
+   }
+  ],
+  "tags": [
+   "knee_pain"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House LV8",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/lv8/"
+   },
+   {
+    "id": "adalb",
+    "name": "Attilio D'Alberto LV8",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/lv-8.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "LR9",
+  "pinyin": "Yinbao",
+  "english": "Yin Bundle",
+  "region": "thigh",
+  "view": "leg-inner",
+  "find": "On the inner thigh, about four thumb-widths above the inner edge of the kneecap, in the groove between the two muscles there.",
+  "place": {
+   "from": "patella_medial_base",
+   "up": 4
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [],
+  "tags": [],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House LV9",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/lv9/"
+   },
+   {
+    "id": "adalb",
+    "name": "Attilio D'Alberto LV9",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/lv-9.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "LR10",
+  "pinyin": "Zuwuli",
+  "english": "Foot Five Miles",
+  "region": "thigh",
+  "view": "leg-inner",
+  "find": "On the inner upper thigh, about three thumb-widths below the groin fold, where you can feel a pulse.",
+  "place": {
+   "from": "pubic_symphysis_top",
+   "down": 3
+  },
+  "selfCare": "gentle",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [
+   "pulse"
+  ],
+  "pregnancy": false,
+  "indications": [],
+  "tags": [],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House LV10",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/lv10/"
+   },
+   {
+    "id": "adalb",
+    "name": "Attilio D'Alberto LV10",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/lv-10.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "LR11",
+  "pinyin": "Yinlian",
+  "english": "Yin Corner",
+  "region": "thigh",
+  "view": "leg-inner",
+  "find": "On the inner upper thigh, about two thumb-widths below the groin fold, just outside the thick cord-like muscle of the inner thigh.",
+  "place": {
+   "from": "pubic_symphysis_top",
+   "down": 2
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [],
+  "tags": [],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House LV11",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/lv11/"
+   },
+   {
+    "id": "adalb",
+    "name": "Attilio D'Alberto LV11",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/lv-11.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "LR12",
+  "pinyin": "Jimai",
+  "english": "Urgent Pulse",
+  "region": "groin",
+  "view": "torso-front",
+  "find": "In the groin crease, level with the top of the pubic bone and about two and a half thumb-widths out from the midline, just outside the pulse.",
+  "place": {
+   "from": "pubic_symphysis_top",
+   "out": 2.5
+  },
+  "selfCare": "gentle",
+  "avoidReason": "",
+  "technique": "gentle",
+  "cautions": [
+   "pulse",
+   "pregnancy"
+  ],
+  "pregnancy": true,
+  "pregnancyBasis": "region:lower-abdomen",
+  "indications": [],
+  "tags": [],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House LV12",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/lv12/"
+   },
+   {
+    "id": "adalb",
+    "name": "Attilio D'Alberto LV12",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/lv-12.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "LR13",
+  "pinyin": "Zhangmen",
+  "english": "Chapter Gate",
+  "region": "side of torso",
+  "view": "torso-side",
+  "find": "On the side of the belly, just below the tip of the second-lowest floating rib; lying on your side with your top arm raised helps you feel it.",
+  "place": {
+   "from": "rib_11_tip",
+   "down": 0.3
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "bloating",
+    "sources": [
+     "yyh",
+     "adalb"
+    ]
+   },
+   {
+    "text": "loose stools",
+    "sources": [
+     "yyh",
+     "adalb"
+    ]
+   }
+  ],
+  "tags": [
+   "digestive_health"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House LV13",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/lv13/"
+   },
+   {
+    "id": "adalb",
+    "name": "Attilio D'Alberto LV13",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/lv-13.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "LR14",
+  "pinyin": "Qimen",
+  "english": "Cycle Gate",
+  "region": "chest",
+  "view": "torso-front",
+  "find": "On the chest, straight below the nipple, in the gap between the sixth and seventh ribs, about two rib-gaps below nipple level.",
+  "place": {
+   "from": "nipple",
+   "down": 2
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "rib-side pain",
+    "sources": [
+     "yyh",
+     "adalb"
+    ]
+   }
+  ],
+  "tags": [],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House LV14",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/lv14/"
+   },
+   {
+    "id": "adalb",
+    "name": "Attilio D'Alberto LV14",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/lv-14.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "CV1",
+  "pinyin": "Huiyin",
+  "english": "Meeting of Yin",
+  "region": "perineum",
+  "view": "torso-front",
+  "find": "In the soft area between the anus and the genitals, at the midpoint.",
+  "place": {
+   "manual": "On the midline of the perineum, midway between the anus and the genitals; not shown on the body drawing."
+  },
+  "selfCare": "avoid",
+  "avoidReason": "In the perineal region, not sensible or appropriate to self-press.",
+  "technique": null,
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [],
+  "tags": [],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House CV1",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/cv1/"
+   },
+   {
+    "id": "adalb",
+    "name": "Attilio D'Alberto CV1",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/cv-1.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "CV2",
+  "pinyin": "Qugu",
+  "english": "Curved Bone",
+  "region": "lower abdomen",
+  "view": "torso-front",
+  "find": "On the lower belly, on the midline, just above the top edge of the pubic bone.",
+  "place": {
+   "at": "pubic_symphysis_top"
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [
+   "pregnancy"
+  ],
+  "pregnancy": true,
+  "pregnancyBasis": "region:lower-abdomen",
+  "indications": [
+   {
+    "text": "menstrual cramps",
+    "sources": [
+     "yyh",
+     "adalb"
+    ]
+   },
+   {
+    "text": "irregular periods",
+    "sources": [
+     "yyh",
+     "adalb"
+    ]
+   }
+  ],
+  "tags": [
+   "menstrual_cramps"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House CV2",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/cv2/"
+   },
+   {
+    "id": "adalb",
+    "name": "Attilio D'Alberto CV2",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/cv-2.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "CV3",
+  "pinyin": "Zhongji",
+  "english": "Central Pole",
+  "region": "lower abdomen",
+  "view": "torso-front",
+  "find": "On the lower belly, on the midline, about four thumb-widths below the navel.",
+  "place": {
+   "line": "CV",
+   "from": "umbilicus",
+   "cun": -4
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [
+   "pregnancy"
+  ],
+  "pregnancy": true,
+  "pregnancyBasis": "region:lower-abdomen",
+  "indications": [
+   {
+    "text": "menstrual cramps",
+    "sources": [
+     "yyh",
+     "adalb"
+    ]
+   },
+   {
+    "text": "frequent or painful urination",
+    "sources": [
+     "yyh",
+     "adalb"
+    ]
+   }
+  ],
+  "tags": [
+   "menstrual_cramps"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House CV3",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/cv3/"
+   },
+   {
+    "id": "adalb",
+    "name": "Attilio D'Alberto CV3",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/cv-3.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "CV4",
+  "pinyin": "Guanyuan",
+  "english": "Gate of Origin",
+  "region": "lower abdomen",
+  "view": "torso-front",
+  "find": "On the lower belly, on the midline, about three thumb-widths (four finger-widths) below the navel.",
+  "place": {
+   "line": "CV",
+   "from": "umbilicus",
+   "cun": -3
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [
+   "pregnancy"
+  ],
+  "pregnancy": true,
+  "pregnancyBasis": "region:lower-abdomen",
+  "indications": [
+   {
+    "text": "tiredness",
+    "sources": [
+     "yyh",
+     "adalb"
+    ]
+   }
+  ],
+  "tags": [
+   "energy_fatigue"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House CV4",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/cv4/"
+   },
+   {
+    "id": "adalb",
+    "name": "Attilio D'Alberto CV4",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/cv-4.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "CV5",
+  "pinyin": "Shimen",
+  "english": "Stone Gate",
+  "region": "lower abdomen",
+  "view": "torso-front",
+  "find": "On the lower belly, on the midline, about two thumb-widths below the navel.",
+  "place": {
+   "line": "CV",
+   "from": "umbilicus",
+   "cun": -2
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [
+   "pregnancy"
+  ],
+  "pregnancy": true,
+  "pregnancyBasis": "region:lower-abdomen",
+  "indications": [
+   {
+    "text": "lower belly pain",
+    "sources": [
+     "yyh",
+     "adalb"
+    ]
+   }
+  ],
+  "tags": [
+   "digestive_health"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House CV5",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/cv5/"
+   },
+   {
+    "id": "adalb",
+    "name": "Attilio D'Alberto CV5",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/cv-5.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "CV6",
+  "pinyin": "Qihai",
+  "english": "Sea of Qi",
+  "region": "lower abdomen",
+  "view": "torso-front",
+  "find": "On the lower belly, on the midline, about one and a half thumb-widths (two finger-widths) below the navel.",
+  "place": {
+   "line": "CV",
+   "from": "umbilicus",
+   "cun": -1.5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [
+   "pregnancy"
+  ],
+  "pregnancy": true,
+  "pregnancyBasis": "region:lower-abdomen",
+  "indications": [
+   {
+    "text": "tiredness",
+    "sources": [
+     "yyh",
+     "adalb"
+    ]
+   },
+   {
+    "text": "bloating",
+    "sources": [
+     "yyh",
+     "adalb"
+    ]
+   },
+   {
+    "text": "menstrual cramps",
+    "sources": [
+     "yyh",
+     "adalb"
+    ]
+   },
+   {
+    "text": "loose stools",
+    "sources": [
+     "yyh",
+     "adalb"
+    ]
+   }
+  ],
+  "tags": [
+   "energy_fatigue",
+   "digestive_health",
+   "menstrual_cramps"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House CV6",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/cv6/"
+   },
+   {
+    "id": "adalb",
+    "name": "Attilio D'Alberto CV6",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/cv-6.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "CV7",
+  "pinyin": "Yinjiao",
+  "english": "Yin Intersection",
+  "region": "lower abdomen",
+  "view": "torso-front",
+  "find": "On the lower belly, on the midline, about one thumb-width below the navel.",
+  "place": {
+   "line": "CV",
+   "from": "umbilicus",
+   "cun": -1
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [
+   "pregnancy"
+  ],
+  "pregnancy": true,
+  "pregnancyBasis": "region:lower-abdomen",
+  "indications": [
+   {
+    "text": "lower belly pain",
+    "sources": [
+     "yyh",
+     "adalb"
+    ]
+   },
+   {
+    "text": "irregular periods",
+    "sources": [
+     "yyh",
+     "adalb"
+    ]
+   }
+  ],
+  "tags": [],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House CV7",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/cv7/"
+   },
+   {
+    "id": "adalb",
+    "name": "Attilio D'Alberto CV7",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/cv-7.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "CV8",
+  "pinyin": "Shenque",
+  "english": "Spirit Gate Tower",
+  "region": "abdomen",
+  "view": "torso-front",
+  "find": "In the centre of the navel, inside the belly button.",
+  "place": {
+   "at": "umbilicus"
+  },
+  "selfCare": "avoid",
+  "avoidReason": "Lies inside the navel; not pressed directly.",
+  "technique": null,
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [],
+  "tags": [],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House CV8",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/cv8/"
+   },
+   {
+    "id": "adalb",
+    "name": "Attilio D'Alberto CV8",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/cv-8.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "CV9",
+  "pinyin": "Shuifen",
+  "english": "Water Separation",
+  "region": "upper abdomen",
+  "view": "torso-front",
+  "find": "On the upper belly, on the midline, about one thumb-width above the navel.",
+  "place": {
+   "line": "CV",
+   "from": "umbilicus",
+   "cun": 1
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "tummy rumbling",
+    "sources": [
+     "yyh",
+     "adalb"
+    ]
+   },
+   {
+    "text": "vomiting",
+    "sources": [
+     "yyh",
+     "adalb"
+    ]
+   }
+  ],
+  "tags": [
+   "digestive_health"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House CV9",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/cv9/"
+   },
+   {
+    "id": "adalb",
+    "name": "Attilio D'Alberto CV9",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/cv-9.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "CV10",
+  "pinyin": "Xiawan",
+  "english": "Lower Stomach Duct",
+  "region": "upper abdomen",
+  "view": "torso-front",
+  "find": "On the upper belly, on the midline, about two thumb-widths above the navel.",
+  "place": {
+   "line": "CV",
+   "from": "umbilicus",
+   "cun": 2
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "bloating",
+    "sources": [
+     "yyh",
+     "adalb"
+    ]
+   },
+   {
+    "text": "vomiting",
+    "sources": [
+     "yyh",
+     "adalb"
+    ]
+   },
+   {
+    "text": "diarrhea",
+    "sources": [
+     "yyh",
+     "adalb"
+    ]
+   }
+  ],
+  "tags": [
+   "digestive_health",
+   "nausea"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House CV10",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/cv10/"
+   },
+   {
+    "id": "adalb",
+    "name": "Attilio D'Alberto CV10",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/cv-10.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "CV11",
+  "pinyin": "Jianli",
+  "english": "Building Mile",
+  "region": "upper abdomen",
+  "view": "torso-front",
+  "find": "On the upper belly, on the midline, about three thumb-widths above the navel.",
+  "place": {
+   "line": "CV",
+   "from": "umbilicus",
+   "cun": 3
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "bloating",
+    "sources": [
+     "yyh",
+     "adalb"
+    ]
+   },
+   {
+    "text": "vomiting",
+    "sources": [
+     "yyh",
+     "adalb"
+    ]
+   }
+  ],
+  "tags": [
+   "digestive_health",
+   "nausea"
+  ],
+  "whoMatch": true,
+  "whoNote": "The OCR text for this entry is partly mixed with a neighbouring point's text (TE14). The CV11 entry (3 B-cun above the navel on the anterior median line) appears at the end of the CV10 block and was used.",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House CV11",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/cv11/"
+   },
+   {
+    "id": "adalb",
+    "name": "Attilio D'Alberto CV11",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/cv-11.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "CV12",
+  "pinyin": "Zhongwan",
+  "english": "Middle Stomach Duct",
+  "region": "upper abdomen",
+  "view": "torso-front",
+  "find": "On the upper belly, on the midline, halfway between the navel and the lower tip of the breastbone, about four thumb-widths above the navel.",
+  "place": {
+   "line": "CV",
+   "from": "umbilicus",
+   "cun": 4
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "stomach ache",
+    "sources": [
+     "yyh",
+     "adalb"
+    ]
+   },
+   {
+    "text": "bloating",
+    "sources": [
+     "yyh",
+     "adalb"
+    ]
+   },
+   {
+    "text": "vomiting",
+    "sources": [
+     "yyh",
+     "adalb"
+    ]
+   },
+   {
+    "text": "acid reflux",
+    "sources": [
+     "yyh",
+     "adalb"
+    ]
+   },
+   {
+    "text": "diarrhea",
+    "sources": [
+     "yyh",
+     "adalb"
+    ]
+   }
+  ],
+  "tags": [
+   "digestive_health",
+   "nausea"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House CV12",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/cv12/"
+   },
+   {
+    "id": "adalb",
+    "name": "Attilio D'Alberto CV12",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/cv-12.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ }
+]

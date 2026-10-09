@@ -1,0 +1,36 @@
+{
+  "_note": "Landmarks and channel lines per view. Distances are in cun (B-cun). 'up' on limbs = toward the trunk. Proportional spans used to scale each drawing are listed in 'spans'.",
+  "views": {
+    "foot-top":   { "landmarks": ["big_toe_nail_corner_inner","big_toe_nail_corner_outer","toe2_nail_corner_outer","toe4_nail_corner_outer","web_1_2","web_2_3","web_3_4","web_4_5","mtp_1","mtp_2","mtp_4","mtp_5","met_base_1_2","met_base_2_3","met_base_4_5","ankle_front_crease_mid","tibialis_tendon","ext_hallucis_tendon","ext_digitorum_tendon_little"], "lines": ["ST","LR","GB"] },
+    "foot-inner": { "landmarks": ["medial_malleolus","achilles_tendon","calcaneus_medial","navicular_tuberosity","met1_base","mtp_1_inner","big_toe_nail_corner_inner","sole_border"], "lines": ["SP","KI","LR"] },
+    "foot-outer": { "landmarks": ["lateral_malleolus","achilles_tendon","calcaneus_lateral","cuboid","met5_tuberosity","met5_head","toe5_nail_corner_outer","sole_border"], "lines": ["BL","GB"] },
+    "foot-sole":  { "landmarks": ["toe_web_2_3","heel_back","sole_mid"], "lines": [] },
+    "hand-palm":  { "landmarks": ["wrist_crease_palm","pisiform","radial_artery","thenar","palm_center","mcp_2_3_palm","middle_fingertip","little_finger_nail_corner_radial","thumb_nail_corner_radial","index_nail_corner_radial"], "lines": ["LU","PC","HT"] },
+    "hand-back":  { "landmarks": ["wrist_crease_back","snuffbox","met_1_2_junction","mcp_2_radial","mcp_4_5","mcp_5_ulnar","hamate_triquetrum_dip","index_nail_corner_radial","ring_nail_corner_ulnar","little_nail_corner_ulnar","thumb_nail_corner_radial"], "lines": ["LI","TE","SI"] },
+    "arm-inner":  { "landmarks": ["wrist_crease_palm","elbow_crease","biceps_tendon","medial_epicondyle","axillary_fold_front","axilla_apex","palmaris_tendon","fcu_tendon"], "lines": ["LU","PC","HT"] },
+    "arm-outer":  { "landmarks": ["wrist_crease_back","elbow_crease_lateral_end","lateral_epicondyle","olecranon","acromion","acromial_angle","deltoid_insertion","axillary_fold_back"], "lines": ["LI","TE","SI"] },
+    "leg-front":  { "landmarks": ["asis","pubic_symphysis_top","patella_base","patella_apex","patella_lateral_hollow","patella_medial_hollow","tibial_tuberosity","tibial_crest","ankle_front_crease_mid","lateral_malleolus","medial_malleolus"], "lines": ["ST","SP","LR"] },
+    "leg-inner":  { "landmarks": ["medial_malleolus","tibia_posterior_border","tibia_medial_condyle","knee_crease_medial_end","patella_medial_base","adductor_bulge","pubic_symphysis_top","achilles_tendon"], "lines": ["SP","KI","LR"] },
+    "leg-outer":  { "landmarks": ["greater_trochanter","asis","iliotibial_band","popliteal_crease_lateral_end","fibula_head","lateral_malleolus","tibial_crest","achilles_tendon"], "lines": ["GB","ST","BL"] },
+    "leg-back":   { "landmarks": ["gluteal_fold_mid","popliteal_crease_mid","popliteal_crease_lateral_end","popliteal_crease_medial_end","biceps_femoris_tendon","semitendinosus_tendon","calf_bulge_bottom","achilles_tendon","heel"], "lines": ["BL","KI"] },
+    "torso-front":{ "landmarks": ["suprasternal_notch","clavicle_mid","infraclavicular_fossa","coracoid","sternal_angle","ics_1","ics_2","ics_3","ics_4","ics_5","ics_6","ics_7","xiphisternal_junction","nipple","umbilicus","asis","pubic_symphysis_top","costal_margin","rib_11_tip"], "lines": ["CV","KI","ST","SP","LR","GB","LU","PC"] },
+    "torso-side": { "landmarks": ["axilla_apex","midaxillary_line","rib_11_tip","rib_12_tip","iliac_crest","asis","greater_trochanter","ics_6"], "lines": ["GB","SP","LR"] },
+    "back":       { "landmarks": ["C7","T1","T2","T3","T4","T5","T6","T7","T8","T9","T10","T11","T12","L1","L2","L3","L4","L5","S1","S2","S3","S4","sacral_hiatus","coccyx_tip","scapula_spine_root","scapula_inferior_angle","scapula_mid","acromial_angle","iliac_crest_top","psis","greater_trochanter","gluteal_fold_mid"], "lines": ["GV","BL_inner","BL_outer","huatuo","SI","TE","GB"] },
+    "face-front": { "landmarks": ["glabella","eyebrow_inner","eyebrow_mid","eyebrow_outer","inner_eye_corner","outer_eye_corner","pupil","infraorbital_ridge","nose_wing","philtrum","mouth_corner","chin_groove","anterior_hairline_mid","forehead_mid"], "lines": ["GV","CV","ST","BL","GB"] },
+    "head-side":  { "landmarks": ["ear_apex","tragus","earlobe","mastoid","jaw_angle","masseter_bulge","zygomatic_arch","temple","temporal_hairline","adams_apple","scm_front","scm_back","clavicle_mid"], "lines": ["GB","TE","SI","ST","LI"] },
+    "head-back":  { "landmarks": ["external_occipital_protuberance","occiput_base","posterior_hairline_mid","C7","mastoid","trapezius_outer_edge","scm_back"], "lines": ["GV","BL","GB"] },
+    "head-top":   { "landmarks": ["anterior_hairline_mid","posterior_hairline_mid","vertex","ear_apex_line"], "lines": ["GV","BL","GB"] }
+  },
+  "spans": {
+    "forearm": "palmar/dorsal wrist crease to elbow crease = 12 cun",
+    "upper_arm": "axillary fold to elbow crease = 9 cun",
+    "thigh": "pubic symphysis top to patella base = 18 cun; greater trochanter to popliteal crease = 19 cun",
+    "lower_leg_lateral": "popliteal crease (lateral) to lateral malleolus prominence = 16 cun",
+    "lower_leg_medial": "tibia medial condyle to medial malleolus prominence = 13 cun",
+    "abdomen_upper": "xiphisternal junction to umbilicus = 8 cun",
+    "abdomen_lower": "umbilicus to pubic symphysis top = 5 cun",
+    "chest_width": "nipple to nipple = 8 cun",
+    "back_width": "spine to medial scapula border = 3 cun",
+    "head_long": "anterior to posterior hairline = 12 cun"
+  }
+}

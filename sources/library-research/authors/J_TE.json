@@ -1,0 +1,1395 @@
+[
+ {
+  "code": "TE1",
+  "pinyin": "Guanchong",
+  "english": "Passage Hub",
+  "region": "hand",
+  "view": "hand-back",
+  "find": "On the little-finger side of the ring finger, just behind the corner of the nail, where the side of the nail meets its base.",
+  "place": {
+   "at": "ring_nail_corner_ulnar"
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "nail",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "headache",
+    "sources": [
+     "tcmwiki",
+     "attilio"
+    ]
+   },
+   {
+    "text": "sore throat",
+    "sources": [
+     "tcmwiki",
+     "attilio"
+    ]
+   }
+  ],
+  "tags": [
+   "headache"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki TE1",
+    "url": "https://tcmwiki.com/wiki/te1"
+   },
+   {
+    "id": "attilio",
+    "name": "Attilio D'Alberto TB1",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/tb-1.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "TE2",
+  "pinyin": "Yemen",
+  "english": "Fluid Gate",
+  "region": "hand",
+  "view": "hand-back",
+  "find": "On the back of the hand, in the small hollow just above the skin fold between the ring finger and little finger.",
+  "place": {
+   "manual": "On the back of the hand, in the hollow just behind the web between the ring and little fingers."
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "headache",
+    "sources": [
+     "tcmwiki",
+     "attilio"
+    ]
+   },
+   {
+    "text": "ringing in the ears",
+    "sources": [
+     "tcmwiki",
+     "attilio"
+    ]
+   },
+   {
+    "text": "hearing loss",
+    "sources": [
+     "tcmwiki",
+     "attilio"
+    ]
+   },
+   {
+    "text": "sore throat",
+    "sources": [
+     "tcmwiki",
+     "attilio"
+    ]
+   },
+   {
+    "text": "red eyes",
+    "sources": [
+     "tcmwiki",
+     "attilio"
+    ]
+   }
+  ],
+  "tags": [
+   "headache",
+   "ear_hearing"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki TE2",
+    "url": "https://tcmwiki.com/wiki/te2"
+   },
+   {
+    "id": "attilio",
+    "name": "Attilio D'Alberto TB2",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/tb-2.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "TE3",
+  "pinyin": "Zhongzhu",
+  "english": "Central Islet",
+  "region": "hand",
+  "view": "hand-back",
+  "find": "On the back of the hand, in the groove between the ring- and little-finger bones, just behind the knuckles on the wrist side.",
+  "place": {
+   "from": "mcp_4_5",
+   "up": 0.5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "hearing loss",
+    "sources": [
+     "tcmwiki",
+     "attilio"
+    ]
+   },
+   {
+    "text": "ringing in the ears",
+    "sources": [
+     "tcmwiki",
+     "attilio"
+    ]
+   }
+  ],
+  "tags": [
+   "ear_hearing"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki TE3",
+    "url": "https://tcmwiki.com/wiki/te3"
+   },
+   {
+    "id": "attilio",
+    "name": "Attilio D'Alberto TB3",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/tb-3.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "TE4",
+  "pinyin": "Yangchi",
+  "english": "Yang Pool",
+  "region": "hand",
+  "view": "hand-back",
+  "find": "On the back of the wrist, right on the crease, in the dip just toward the little-finger side of the tendon that runs to the middle finger.",
+  "place": {
+   "line": "TE",
+   "from": "wrist_crease_back",
+   "cun": 0
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "wrist pain",
+    "sources": [
+     "tcmwiki",
+     "attilio"
+    ]
+   }
+  ],
+  "tags": [
+   "hand_wrist_strain"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki TE4",
+    "url": "https://tcmwiki.com/wiki/te4"
+   },
+   {
+    "id": "attilio",
+    "name": "Attilio D'Alberto TB4",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/tb-4.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "TE5",
+  "pinyin": "Waiguan",
+  "english": "Outer Pass",
+  "region": "forearm",
+  "view": "arm-outer",
+  "find": "On the back of the forearm, about two finger-widths above the wrist crease, in the groove between the two forearm bones. It is opposite the inner-arm point PC6.",
+  "place": {
+   "line": "TE",
+   "from": "wrist_crease_back",
+   "cun": 2
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "headache",
+    "sources": [
+     "tcmwiki",
+     "attilio"
+    ]
+   },
+   {
+    "text": "colds",
+    "sources": [
+     "tcmwiki",
+     "attilio"
+    ]
+   },
+   {
+    "text": "ringing in the ears",
+    "sources": [
+     "tcmwiki",
+     "attilio"
+    ]
+   },
+   {
+    "text": "hearing loss",
+    "sources": [
+     "tcmwiki",
+     "attilio"
+    ]
+   }
+  ],
+  "tags": [
+   "headache",
+   "cold_flu",
+   "ear_hearing"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki TE5",
+    "url": "https://tcmwiki.com/wiki/te5"
+   },
+   {
+    "id": "attilio",
+    "name": "Attilio D'Alberto TB5",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/tb-5.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "TE6",
+  "pinyin": "Zhigou",
+  "english": "Branch Ditch",
+  "region": "forearm",
+  "view": "arm-outer",
+  "find": "On the back of the forearm, about four finger-widths above the wrist crease, in the groove between the two forearm bones.",
+  "place": {
+   "line": "TE",
+   "from": "wrist_crease_back",
+   "cun": 3
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "constipation",
+    "sources": [
+     "tcmwiki",
+     "attilio"
+    ]
+   },
+   {
+    "text": "pain along the ribs",
+    "sources": [
+     "tcmwiki",
+     "attilio"
+    ]
+   },
+   {
+    "text": "arm pain",
+    "sources": [
+     "tcmwiki",
+     "attilio"
+    ]
+   }
+  ],
+  "tags": [
+   "constipation"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki TE6",
+    "url": "https://tcmwiki.com/wiki/te6"
+   },
+   {
+    "id": "attilio",
+    "name": "Attilio D'Alberto TB6",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/tb-6.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "TE7",
+  "pinyin": "Huizong",
+  "english": "Convergence and Gathering",
+  "region": "forearm",
+  "view": "arm-outer",
+  "find": "On the back of the forearm, about four finger-widths above the wrist crease, right beside the bone on the little-finger side, one thumb-width over from TE6.",
+  "place": {
+   "line": "TE",
+   "from": "wrist_crease_back",
+   "cun": 3
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "hearing loss",
+    "sources": [
+     "tcmwiki",
+     "attilio"
+    ]
+   },
+   {
+    "text": "arm pain",
+    "sources": [
+     "tcmwiki",
+     "attilio"
+    ]
+   }
+  ],
+  "tags": [
+   "ear_hearing"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki TE7",
+    "url": "https://tcmwiki.com/wiki/te7"
+   },
+   {
+    "id": "attilio",
+    "name": "Attilio D'Alberto TB7",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/tb-7.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "TE8",
+  "pinyin": "Sanyangluo",
+  "english": "Three Yang Connection",
+  "region": "forearm",
+  "view": "arm-outer",
+  "find": "On the back of the forearm, a thumb-width above TE6, in the groove between the two forearm bones.",
+  "place": {
+   "line": "TE",
+   "from": "wrist_crease_back",
+   "cun": 4
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "arm pain",
+    "sources": [
+     "tcmwiki",
+     "attilio"
+    ]
+   }
+  ],
+  "tags": [
+   "hand_wrist_strain"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki TE8",
+    "url": "https://tcmwiki.com/wiki/te8"
+   },
+   {
+    "id": "attilio",
+    "name": "Attilio D'Alberto TB8",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/tb-8.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "TE9",
+  "pinyin": "Sidu",
+  "english": "Four Rivers",
+  "region": "forearm",
+  "view": "arm-outer",
+  "find": "On the back of the forearm, about a hand-width below the tip of the elbow, in the groove between the two forearm bones.",
+  "place": {
+   "line": "TE",
+   "from": "olecranon",
+   "cun": -5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "hearing loss",
+    "sources": [
+     "tcmwiki",
+     "attilio"
+    ]
+   },
+   {
+    "text": "toothache",
+    "sources": [
+     "tcmwiki",
+     "attilio"
+    ]
+   },
+   {
+    "text": "arm pain",
+    "sources": [
+     "tcmwiki",
+     "attilio"
+    ]
+   }
+  ],
+  "tags": [
+   "ear_hearing",
+   "toothache_jaw",
+   "hand_wrist_strain"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki TE9",
+    "url": "https://tcmwiki.com/wiki/te9"
+   },
+   {
+    "id": "attilio",
+    "name": "Attilio D'Alberto TB9",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/tb-9.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "TE10",
+  "pinyin": "Tianjing",
+  "english": "Heavenly Well",
+  "region": "upper arm",
+  "view": "arm-outer",
+  "find": "On the back of the arm, about one thumb-width above the tip of the elbow, in the hollow you feel when the elbow is bent.",
+  "place": {
+   "line": "TE",
+   "from": "olecranon",
+   "cun": 1
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "shoulder pain",
+    "sources": [
+     "tcmwiki",
+     "attilio"
+    ]
+   },
+   {
+    "text": "headache",
+    "sources": [
+     "tcmwiki",
+     "attilio"
+    ]
+   }
+  ],
+  "tags": [
+   "shoulder_tension",
+   "headache"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki TE10",
+    "url": "https://tcmwiki.com/wiki/te10"
+   },
+   {
+    "id": "attilio",
+    "name": "Attilio D'Alberto TB10",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/tb-10.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "TE11",
+  "pinyin": "Qinglengyuan",
+  "english": "Clear Cold Abyss",
+  "region": "upper arm",
+  "view": "arm-outer",
+  "find": "On the back of the upper arm, about two finger-widths above the tip of the elbow, in the middle of the arm.",
+  "place": {
+   "line": "TE",
+   "from": "olecranon",
+   "cun": 2
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "headache",
+    "sources": [
+     "tcmwiki",
+     "attilio"
+    ]
+   },
+   {
+    "text": "eye pain",
+    "sources": [
+     "tcmwiki",
+     "attilio"
+    ]
+   },
+   {
+    "text": "shoulder pain",
+    "sources": [
+     "tcmwiki",
+     "attilio"
+    ]
+   }
+  ],
+  "tags": [
+   "headache",
+   "eye_strain",
+   "shoulder_tension"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki TE11",
+    "url": "https://tcmwiki.com/wiki/te11"
+   },
+   {
+    "id": "attilio",
+    "name": "Attilio D'Alberto TB11",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/tb-11.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "TE12",
+  "pinyin": "Xiaoluo",
+  "english": "Dispersing Riverbed",
+  "region": "upper arm",
+  "view": "arm-outer",
+  "find": "On the back of the upper arm, about a hand-width above the tip of the elbow, in the middle of the arm.",
+  "place": {
+   "line": "TE",
+   "from": "olecranon",
+   "cun": 5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "knead",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "headache",
+    "sources": [
+     "tcmwiki",
+     "attilio"
+    ]
+   },
+   {
+    "text": "toothache",
+    "sources": [
+     "tcmwiki",
+     "attilio"
+    ]
+   },
+   {
+    "text": "stiff neck",
+    "sources": [
+     "tcmwiki",
+     "attilio"
+    ]
+   }
+  ],
+  "tags": [
+   "headache",
+   "neck_pain",
+   "toothache_jaw"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki TE12",
+    "url": "https://tcmwiki.com/wiki/te12"
+   },
+   {
+    "id": "attilio",
+    "name": "Attilio D'Alberto TB12",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/tb-12.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "TE13",
+  "pinyin": "Naohui",
+  "english": "Upper Arm Convergence",
+  "region": "upper arm",
+  "view": "arm-outer",
+  "find": "On the back of the upper arm, about four finger-widths below the bony tip of the shoulder, along the rear edge of the rounded shoulder muscle.",
+  "place": {
+   "line": "TE",
+   "from": "acromial_angle",
+   "cun": -3
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "knead",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "shoulder and arm pain",
+    "sources": [
+     "tcmwiki",
+     "attilio"
+    ]
+   }
+  ],
+  "tags": [
+   "shoulder_tension"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki TE13",
+    "url": "https://tcmwiki.com/wiki/te13"
+   },
+   {
+    "id": "attilio",
+    "name": "Attilio D'Alberto TB13",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/tb-13.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "TE14",
+  "pinyin": "Jianliao",
+  "english": "Shoulder Bone-hole",
+  "region": "shoulder",
+  "view": "arm-outer",
+  "find": "On the back of the shoulder, in the dimple just behind and below the bony tip of the shoulder. It shows up when you raise the arm out to the side.",
+  "place": {
+   "from": "acromial_angle",
+   "down": 1
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "shoulder pain",
+    "sources": [
+     "tcmwiki",
+     "attilio"
+    ]
+   }
+  ],
+  "tags": [
+   "shoulder_tension"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki TE14",
+    "url": "https://tcmwiki.com/wiki/te14"
+   },
+   {
+    "id": "attilio",
+    "name": "Attilio D'Alberto TB14",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/tb-14.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "TE15",
+  "pinyin": "Tianliao",
+  "english": "Heavenly Bone-hole",
+  "region": "shoulder",
+  "view": "back",
+  "find": "On the top of the shoulder blade area, in the hollow midway between the base of the neck and the point of the shoulder, on the upper edge of the shoulder blade.",
+  "place": {
+   "manual": "Halfway between the highest point of the shoulder muscle (GB21) and the upper inner corner of the shoulder blade (SI13), above the shoulder blade."
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "knead",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "shoulder pain",
+    "sources": [
+     "tcmwiki",
+     "attilio"
+    ]
+   },
+   {
+    "text": "stiff neck",
+    "sources": [
+     "tcmwiki",
+     "attilio"
+    ]
+   }
+  ],
+  "tags": [
+   "shoulder_tension",
+   "neck_pain"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki TE15",
+    "url": "https://tcmwiki.com/wiki/te15"
+   },
+   {
+    "id": "attilio",
+    "name": "Attilio D'Alberto TB15",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/tb-15.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "TE16",
+  "pinyin": "Tianyou",
+  "english": "Window of Heaven",
+  "region": "neck",
+  "view": "head-side",
+  "find": "On the side of the neck, just behind the big neck muscle, level with the angle of the jaw.",
+  "place": {
+   "at": "scm_back"
+  },
+  "selfCare": "gentle",
+  "avoidReason": "",
+  "technique": "gentle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "headache",
+    "sources": [
+     "tcmwiki",
+     "attilio"
+    ]
+   },
+   {
+    "text": "stiff neck",
+    "sources": [
+     "tcmwiki",
+     "attilio"
+    ]
+   },
+   {
+    "text": "hearing loss",
+    "sources": [
+     "tcmwiki",
+     "attilio"
+    ]
+   },
+   {
+    "text": "blurry vision",
+    "sources": [
+     "tcmwiki",
+     "attilio"
+    ]
+   }
+  ],
+  "tags": [
+   "headache",
+   "neck_pain",
+   "ear_hearing"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki TE16",
+    "url": "https://tcmwiki.com/wiki/te16"
+   },
+   {
+    "id": "attilio",
+    "name": "Attilio D'Alberto TB16",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/tb-16.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "TE17",
+  "pinyin": "Yifeng",
+  "english": "Wind Screen",
+  "region": "head",
+  "view": "head-side",
+  "find": "Just behind the earlobe, in the soft hollow between the jawbone and the bony bump behind the ear.",
+  "place": {
+   "between": [
+    "earlobe",
+    "mastoid"
+   ],
+   "frac": 0.5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "ringing in the ears",
+    "sources": [
+     "tcmwiki",
+     "attilio"
+    ]
+   },
+   {
+    "text": "hearing loss",
+    "sources": [
+     "tcmwiki",
+     "attilio"
+    ]
+   }
+  ],
+  "tags": [
+   "ear_hearing"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki TE17",
+    "url": "https://tcmwiki.com/wiki/te17"
+   },
+   {
+    "id": "attilio",
+    "name": "Attilio D'Alberto TB17",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/tb-17.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "TE18",
+  "pinyin": "Chimai",
+  "english": "Spasm Vessel",
+  "region": "head",
+  "view": "head-side",
+  "find": "On the bony bump behind the ear, near its middle, in line with the curve that runs from behind the earlobe up around the ear.",
+  "place": {
+   "at": "mastoid"
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "headache",
+    "sources": [
+     "tcmwiki",
+     "attilio"
+    ]
+   },
+   {
+    "text": "ringing in the ears",
+    "sources": [
+     "tcmwiki",
+     "attilio"
+    ]
+   },
+   {
+    "text": "hearing loss",
+    "sources": [
+     "tcmwiki",
+     "attilio"
+    ]
+   }
+  ],
+  "tags": [
+   "headache",
+   "ear_hearing"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki TE18",
+    "url": "https://tcmwiki.com/wiki/te18"
+   },
+   {
+    "id": "attilio",
+    "name": "Attilio D'Alberto TB18",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/tb-18.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "TE19",
+  "pinyin": "Luxi",
+  "english": "Skull Rest",
+  "region": "head",
+  "view": "head-side",
+  "find": "Behind the ear, on the curve that runs from the earlobe up around the ear, about one thumb-width above TE18.",
+  "place": {
+   "manual": "Behind the ear, on the curve from the earlobe to the ear tip, one-third of the way down from the top."
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "headache",
+    "sources": [
+     "tcmwiki",
+     "attilio"
+    ]
+   },
+   {
+    "text": "ringing in the ears",
+    "sources": [
+     "tcmwiki",
+     "attilio"
+    ]
+   },
+   {
+    "text": "hearing loss",
+    "sources": [
+     "tcmwiki",
+     "attilio"
+    ]
+   }
+  ],
+  "tags": [
+   "headache",
+   "ear_hearing"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki TE19",
+    "url": "https://tcmwiki.com/wiki/te19"
+   },
+   {
+    "id": "attilio",
+    "name": "Attilio D'Alberto TB19",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/tb-19.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "TE20",
+  "pinyin": "Jiaosun",
+  "english": "Angle Vertex",
+  "region": "head",
+  "view": "head-side",
+  "find": "On the side of the head just above the tip of the ear. Fold the ear forward, and the spot is where the tip touches the scalp.",
+  "place": {
+   "from": "ear_apex",
+   "up": 0.5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "toothache",
+    "sources": [
+     "tcmwiki",
+     "attilio"
+    ]
+   }
+  ],
+  "tags": [
+   "toothache_jaw"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki TE20",
+    "url": "https://tcmwiki.com/wiki/te20"
+   },
+   {
+    "id": "attilio",
+    "name": "Attilio D'Alberto TB20",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/tb-20.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "TE21",
+  "pinyin": "Ermen",
+  "english": "Ear Gate",
+  "region": "face",
+  "view": "head-side",
+  "find": "In front of the ear, in the small dip just above the little flap at the ear opening. It deepens when you open your mouth slightly.",
+  "place": {
+   "from": "tragus",
+   "up": 0.5
+  },
+  "selfCare": "gentle",
+  "avoidReason": "",
+  "technique": "gentle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "ringing in the ears",
+    "sources": [
+     "tcmwiki",
+     "attilio"
+    ]
+   },
+   {
+    "text": "hearing loss",
+    "sources": [
+     "tcmwiki",
+     "attilio"
+    ]
+   },
+   {
+    "text": "toothache",
+    "sources": [
+     "tcmwiki",
+     "attilio"
+    ]
+   },
+   {
+    "text": "jaw joint pain",
+    "sources": [
+     "tcmwiki",
+     "attilio"
+    ]
+   }
+  ],
+  "tags": [
+   "ear_hearing",
+   "toothache_jaw"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki TE21",
+    "url": "https://tcmwiki.com/wiki/te21"
+   },
+   {
+    "id": "attilio",
+    "name": "Attilio D'Alberto TB21",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/tb-21.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "TE22",
+  "pinyin": "Erheliao",
+  "english": "Ear Harmonic Bone-hole",
+  "region": "head",
+  "view": "head-side",
+  "find": "On the side of the head, just in front of the top of the ear and at the edge of the temple hair. You can feel a pulse right in front of it; stay behind that.",
+  "place": {
+   "manual": "Just in front of the upper ear root, at the temple hairline, behind the pulse of the temple artery."
+  },
+  "selfCare": "gentle",
+  "avoidReason": "",
+  "technique": "gentle",
+  "cautions": [
+   "pulse"
+  ],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "headache",
+    "sources": [
+     "tcmwiki",
+     "attilio"
+    ]
+   },
+   {
+    "text": "ringing in the ears",
+    "sources": [
+     "tcmwiki",
+     "attilio"
+    ]
+   },
+   {
+    "text": "jaw tightness",
+    "sources": [
+     "tcmwiki",
+     "attilio"
+    ]
+   }
+  ],
+  "tags": [
+   "headache",
+   "ear_hearing",
+   "toothache_jaw"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki TE22",
+    "url": "https://tcmwiki.com/wiki/te22"
+   },
+   {
+    "id": "attilio",
+    "name": "Attilio D'Alberto TB22",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/tb-22.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "TE23",
+  "pinyin": "Sizhukong",
+  "english": "Silk Bamboo Hole",
+  "region": "face",
+  "view": "face-front",
+  "find": "At the outer end of the eyebrow, in the small hollow on the bone.",
+  "place": {
+   "at": "eyebrow_outer"
+  },
+  "selfCare": "gentle",
+  "avoidReason": "",
+  "technique": "gentle",
+  "cautions": [
+   "eye"
+  ],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "headache",
+    "sources": [
+     "tcmwiki",
+     "attilio"
+    ]
+   },
+   {
+    "text": "eye pain",
+    "sources": [
+     "tcmwiki",
+     "attilio"
+    ]
+   }
+  ],
+  "tags": [
+   "headache",
+   "eye_strain"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki TE23",
+    "url": "https://tcmwiki.com/wiki/te23"
+   },
+   {
+    "id": "attilio",
+    "name": "Attilio D'Alberto TB23",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/tb-23.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ }
+]

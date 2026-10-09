@@ -1,0 +1,1468 @@
+[
+ {
+  "code": "EX-B1",
+  "pinyin": "Dingchuan",
+  "english": "Calm Wheezing",
+  "region": "upper back",
+  "view": "back",
+  "find": "On the upper back, just beside the spine at the base of the bony bump at the bottom of the neck, about half a thumb-width out to the side.",
+  "place": {
+   "from": "C7",
+   "out": 0.5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "cough",
+    "sources": [
+     "tcmwiki",
+     "atd"
+    ]
+   }
+  ],
+  "tags": [
+   "cough_breathing"
+  ],
+  "whoMatch": false,
+  "whoNote": "No WHO 2008 text; WHO 1991 nomenclature code. Location taken from two independent opened sources that agree.",
+  "sources": [
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki Dingchuan",
+    "url": "https://tcmwiki.com/wiki/dingchuan"
+   },
+   {
+    "id": "atd",
+    "name": "Attilio D'Alberto Ding Chuan",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/ding-chuan.php"
+   },
+   {
+    "id": "bs1",
+    "name": "Brainscape: Extra Points and Needling directions",
+    "url": "https://brainscape.com/flashcards/extra-points-and-needling-directions-5846973/packs/8189512"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "EX-B2",
+  "pinyin": "Jiaji (Huatuojiaji)",
+  "english": "Huatuo Paravertebral Points",
+  "region": "back",
+  "view": "back",
+  "find": "A row of points on each side of the spine, from the top of the upper back down to the low back, each about half a thumb-width out from the bony bumps of the spine.",
+  "place": {
+   "line": "huatuo",
+   "from": "T1",
+   "cun": 0
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "ball",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [],
+  "tags": [],
+  "whoMatch": false,
+  "whoNote": "Series point: 17 points per side from T1 to L5; one record covers the whole set. No WHO 2008 text; two opened sources agree.",
+  "sources": [
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki Jiaji",
+    "url": "https://tcmwiki.com/wiki/jiaji"
+   },
+   {
+    "id": "atd",
+    "name": "Attilio D'Alberto Hua Tuo Jia Ji",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/hua-tuo.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "EX-B3",
+  "pinyin": "Weiwanxiashu",
+  "english": "Lower Stomach Back Point",
+  "region": "back",
+  "view": "back",
+  "find": "On the mid-back, a thumb-width and a half out from the spine, level with the bottom of the bony bump around the middle of the shoulder blade.",
+  "place": {
+   "from": "T8",
+   "out": 1.5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "ball",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "dry mouth",
+    "sources": [
+     "tcmwiki",
+     "atd"
+    ]
+   }
+  ],
+  "tags": [],
+  "whoMatch": false,
+  "whoNote": "No WHO 2008 text; WHO 1991 nomenclature code. Location taken from two independent opened sources that agree.",
+  "sources": [
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki Weiwanxiashu",
+    "url": "https://tcmwiki.com/wiki/weiwanxiashu"
+   },
+   {
+    "id": "atd",
+    "name": "Attilio D'Alberto Wei Guan Xia Shu",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/wei-guan-xia-shu.php"
+   },
+   {
+    "id": "bs1",
+    "name": "Brainscape: Extra Points and Needling directions",
+    "url": "https://brainscape.com/flashcards/extra-points-and-needling-directions-5846973/packs/8189512"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "EX-B4",
+  "pinyin": "Pigen",
+  "english": "Root of Mass",
+  "region": "lower back",
+  "view": "back",
+  "find": "On the low back, about three and a half thumb-widths out from the spine, level with the first bump of the low back.",
+  "place": {
+   "from": "L1",
+   "out": 3.5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [],
+  "tags": [],
+  "whoMatch": false,
+  "whoNote": "No WHO 2008 text; WHO 1991 nomenclature code. Location taken from two independent opened sources that agree.",
+  "sources": [
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki Pigen",
+    "url": "https://tcmwiki.com/wiki/pigen"
+   },
+   {
+    "id": "atd",
+    "name": "Attilio D'Alberto Pi Gen",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/pi-gen.php"
+   },
+   {
+    "id": "bs4",
+    "name": "Brainscape: Extra Points - Lower Back, Sacrum & Buttocks",
+    "url": "https://brainscape.com/flashcards/extra-points-lower-back-sacrum-buttocks-5125399/packs/7578379"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "EX-B5",
+  "pinyin": "Xiajishu",
+  "english": "Lower Extremity Shu",
+  "region": "lower back",
+  "view": "back",
+  "find": "On the low back, in the middle line of the spine, just under the third bony bump of the low back.",
+  "place": {
+   "from": "L3",
+   "down": 0.5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [],
+  "tags": [],
+  "whoMatch": false,
+  "whoNote": "Only two opened sources, both location-only for the lay reader; one flashcard notes a possible labour-promoting effect, so treat with care in late pregnancy.",
+  "sources": [
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki Xiajishu",
+    "url": "https://tcmwiki.com/wiki/xiajishu"
+   },
+   {
+    "id": "bs1",
+    "name": "Brainscape: Extra Points and Needling directions",
+    "url": "https://brainscape.com/flashcards/extra-points-and-needling-directions-5846973/packs/8189512"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "EX-B6",
+  "pinyin": "Yaoyi",
+  "english": "Lumbar Suitability",
+  "region": "lower back",
+  "view": "back",
+  "find": "On the low back, three thumb-widths out from the spine, level with the fourth bony bump of the low back.",
+  "place": {
+   "from": "L4",
+   "out": 3
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [],
+  "tags": [],
+  "whoMatch": false,
+  "whoNote": "No WHO 2008 text; WHO 1991 nomenclature code. Location taken from two independent opened sources that agree.",
+  "sources": [
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki Yaoyi",
+    "url": "https://tcmwiki.com/wiki/yaoyi"
+   },
+   {
+    "id": "bs1",
+    "name": "Brainscape: Extra Points and Needling directions",
+    "url": "https://brainscape.com/flashcards/extra-points-and-needling-directions-5846973/packs/8189512"
+   },
+   {
+    "id": "bs4",
+    "name": "Brainscape: Extra Points - Lower Back, Sacrum & Buttocks",
+    "url": "https://brainscape.com/flashcards/extra-points-lower-back-sacrum-buttocks-5125399/packs/7578379"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "EX-B7",
+  "pinyin": "Yaoyan",
+  "english": "Lumbar Eye",
+  "region": "lower back",
+  "view": "back",
+  "find": "On the low back, in the dimple about three and a half thumb-widths out from the spine, level with the fourth bony bump of the low back.",
+  "place": {
+   "from": "L4",
+   "out": 3.5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "low back pain",
+    "sources": [
+     "tcmwiki",
+     "atd"
+    ]
+   },
+   {
+    "text": "frequent urination",
+    "sources": [
+     "tcmwiki",
+     "atd"
+    ]
+   }
+  ],
+  "tags": [
+   "low_back_pain"
+  ],
+  "whoMatch": false,
+  "whoNote": "Sources differ slightly: 3.5 (TCM Wiki, flashcards) vs 3.8 (Attilio) out from L4; 3.5 used.",
+  "sources": [
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki Yaoyan",
+    "url": "https://tcmwiki.com/wiki/yaoyan"
+   },
+   {
+    "id": "atd",
+    "name": "Attilio D'Alberto Yao Yan",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/yaoyan.php"
+   },
+   {
+    "id": "bs4",
+    "name": "Brainscape: Extra Points - Lower Back, Sacrum & Buttocks",
+    "url": "https://brainscape.com/flashcards/extra-points-lower-back-sacrum-buttocks-5125399/packs/7578379"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "EX-B8",
+  "pinyin": "Shiqizhuixia",
+  "english": "Below the 17th Vertebra",
+  "region": "lower back",
+  "view": "back",
+  "find": "On the middle line of the low back, in the small hollow just below the last bony bump of the low back, where it meets the sacrum.",
+  "place": {
+   "from": "L5",
+   "down": 0.5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [
+   "pregnancy"
+  ],
+  "pregnancy": true,
+  "indications": [
+   {
+    "text": "low back pain",
+    "sources": [
+     "tcmwiki",
+     "atd"
+    ]
+   },
+   {
+    "text": "period pain",
+    "sources": [
+     "tcmwiki",
+     "atd"
+    ]
+   }
+  ],
+  "tags": [
+   "low_back_pain",
+   "menstrual_cramps"
+  ],
+  "whoMatch": false,
+  "whoNote": "Lumbosacral junction; region rule applied conservatively. No WHO 2008 text.",
+  "sources": [
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki Shiqizhui",
+    "url": "https://tcmwiki.com/wiki/shiqizhui"
+   },
+   {
+    "id": "atd",
+    "name": "Attilio D'Alberto Shi Qi Zhui",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/shi-qi-zhui.php"
+   },
+   {
+    "id": "bs4",
+    "name": "Brainscape: Extra Points - Lower Back, Sacrum & Buttocks",
+    "url": "https://brainscape.com/flashcards/extra-points-lower-back-sacrum-buttocks-5125399/packs/7578379"
+   }
+  ],
+  "disputed": "",
+  "appFix": "",
+  "pregnancyBasis": "region:sacrum"
+ },
+ {
+  "code": "EX-B9",
+  "pinyin": "Yaoqi",
+  "english": "Extraordinary Lumbar Point",
+  "region": "sacrum",
+  "view": "back",
+  "find": "On the middle line just above the tailbone, in the hollow between the two small bony ridges at the lower end of the sacrum.",
+  "place": {
+   "from": "coccyx_tip",
+   "up": 2
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [
+   "pregnancy"
+  ],
+  "pregnancy": true,
+  "indications": [],
+  "tags": [],
+  "whoMatch": false,
+  "whoNote": "Sources disagree on height; the 2-cun-above-coccyx version is used.",
+  "sources": [
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki Yaoqi",
+    "url": "https://tcmwiki.com/wiki/yaoqi"
+   },
+   {
+    "id": "atd",
+    "name": "Attilio D'Alberto Yao Qi",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/yaoqi.php"
+   },
+   {
+    "id": "bs4",
+    "name": "Brainscape: Extra Points - Lower Back, Sacrum & Buttocks",
+    "url": "https://brainscape.com/flashcards/extra-points-lower-back-sacrum-buttocks-5125399/packs/7578379"
+   }
+  ],
+  "disputed": "Location differs between sources: 2 cun above the coccyx tip (TCM Wiki) vs below the S2 spinous process (Attilio, Brainscape).",
+  "appFix": "",
+  "pregnancyBasis": "region:sacrum"
+ },
+ {
+  "code": "EX-UE1",
+  "pinyin": "Zhoujian",
+  "english": "Elbow Tip",
+  "region": "elbow",
+  "view": "arm-outer",
+  "find": "On the back of the elbow, at the very tip of the pointed bone that sticks out when you bend your arm.",
+  "place": {
+   "at": "olecranon"
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [],
+  "tags": [],
+  "whoMatch": false,
+  "whoNote": "No WHO 2008 text; WHO 1991 nomenclature code. Location taken from two independent opened sources that agree.",
+  "sources": [
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki Zhoujian",
+    "url": "https://tcmwiki.com/wiki/zhoujian"
+   },
+   {
+    "id": "atd",
+    "name": "Attilio D'Alberto Zhou Jian",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/zhou-jian.php"
+   },
+   {
+    "id": "bs2",
+    "name": "Brainscape: Extra Points - Hand/Arms",
+    "url": "https://brainscape.com/flashcards/extra-points-hand-arms-1868066/packs/3237198"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "EX-UE2",
+  "pinyin": "Erbai",
+  "english": "Two Whites",
+  "region": "forearm",
+  "view": "arm-inner",
+  "find": "On the inner forearm, about four thumb-widths up from the wrist crease. There is one point on each side of the central tendon, so two per arm.",
+  "place": {
+   "line": "PC",
+   "from": "wrist_crease_palm",
+   "cun": 4
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [],
+  "tags": [],
+  "whoMatch": false,
+  "whoNote": "Pair of points per arm either side of the flexor tendon; the PC line is the approximate midline. No WHO 2008 text.",
+  "sources": [
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki Erbai",
+    "url": "https://tcmwiki.com/wiki/erbai"
+   },
+   {
+    "id": "atd",
+    "name": "Attilio D'Alberto Er Bai",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/er-bai.php"
+   },
+   {
+    "id": "bs2",
+    "name": "Brainscape: Extra Points - Hand/Arms",
+    "url": "https://brainscape.com/flashcards/extra-points-hand-arms-1868066/packs/3237198"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "EX-UE3",
+  "pinyin": "Zhongquan",
+  "english": "Middle Spring",
+  "region": "wrist",
+  "view": "hand-back",
+  "find": "On the back of the wrist, in the hollow along the wrist crease just on the thumb side of the main finger-straightening tendon.",
+  "place": {
+   "manual": "Back of the wrist, on the wrist crease, in the hollow on the thumb side of the tendon that straightens the fingers."
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "chest tightness",
+    "sources": [
+     "tcmwiki",
+     "bs2"
+    ]
+   },
+   {
+    "text": "stomach pain",
+    "sources": [
+     "tcmwiki",
+     "bs2"
+    ]
+   }
+  ],
+  "tags": [
+   "digestive_health"
+  ],
+  "whoMatch": false,
+  "whoNote": "No WHO 2008 text; WHO 1991 nomenclature code. Location taken from two independent opened sources that agree.",
+  "sources": [
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki Zhongquan",
+    "url": "https://tcmwiki.com/wiki/zhongquan"
+   },
+   {
+    "id": "bs1",
+    "name": "Brainscape: Extra Points and Needling directions",
+    "url": "https://brainscape.com/flashcards/extra-points-and-needling-directions-5846973/packs/8189512"
+   },
+   {
+    "id": "bs2",
+    "name": "Brainscape: Extra Points - Hand/Arms",
+    "url": "https://brainscape.com/flashcards/extra-points-hand-arms-1868066/packs/3237198"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "EX-UE4",
+  "pinyin": "Zhongkui",
+  "english": "Middle Finger Eminence",
+  "region": "finger",
+  "view": "hand-back",
+  "find": "On the back of the middle finger, right at the middle of the first (nearest the hand) knuckle crease.",
+  "place": {
+   "manual": "Back of the middle finger, at the centre of the crease of the first knuckle joint."
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "nausea",
+    "sources": [
+     "tcmwiki",
+     "bs2"
+    ]
+   },
+   {
+    "text": "hiccups",
+    "sources": [
+     "tcmwiki",
+     "bs2"
+    ]
+   }
+  ],
+  "tags": [
+   "nausea"
+  ],
+  "whoMatch": false,
+  "whoNote": "No WHO 2008 text; WHO 1991 nomenclature code. Location taken from two independent opened sources that agree.",
+  "sources": [
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki Zhongkui",
+    "url": "https://tcmwiki.com/wiki/zhongkui"
+   },
+   {
+    "id": "bs1",
+    "name": "Brainscape: Extra Points and Needling directions",
+    "url": "https://brainscape.com/flashcards/extra-points-and-needling-directions-5846973/packs/8189512"
+   },
+   {
+    "id": "bs2",
+    "name": "Brainscape: Extra Points - Hand/Arms",
+    "url": "https://brainscape.com/flashcards/extra-points-hand-arms-1868066/packs/3237198"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "EX-UE5",
+  "pinyin": "Dagukong",
+  "english": "Large Bone Hollow",
+  "region": "thumb",
+  "view": "hand-back",
+  "find": "On the back of the thumb, in the middle of the crease at the thumb's only knuckle joint.",
+  "place": {
+   "manual": "Back of the thumb, at the centre of the crease of the joint in the middle of the thumb."
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "nosebleed",
+    "sources": [
+     "tcmwiki",
+     "atd"
+    ]
+   }
+  ],
+  "tags": [],
+  "whoMatch": false,
+  "whoNote": "No WHO 2008 text; WHO 1991 nomenclature code. Location taken from two independent opened sources that agree.",
+  "sources": [
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki Dagukong",
+    "url": "https://tcmwiki.com/wiki/dagukong"
+   },
+   {
+    "id": "atd",
+    "name": "Attilio D'Alberto Da Gu Kong",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/da-gu-kong.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "EX-UE6",
+  "pinyin": "Xiaogukong",
+  "english": "Small Bone Hollow",
+  "region": "finger",
+  "view": "hand-back",
+  "find": "On the back of the little finger, in the middle of the crease at the first knuckle joint nearest the hand.",
+  "place": {
+   "manual": "Back of the little finger, at the centre of the crease of the first knuckle joint."
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [],
+  "tags": [],
+  "whoMatch": false,
+  "whoNote": "No WHO 2008 text; WHO 1991 nomenclature code. Location taken from two independent opened sources that agree.",
+  "sources": [
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki Xiaogukong",
+    "url": "https://tcmwiki.com/wiki/xiaogukong"
+   },
+   {
+    "id": "atd",
+    "name": "Attilio D'Alberto Xiao Gu Kong",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/xiao-gu-kong.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "EX-UE7",
+  "pinyin": "Yaotongdian",
+  "english": "Low Back Pain Point",
+  "region": "hand",
+  "view": "hand-back",
+  "find": "On the back of the hand, two points: one between the index and middle finger bones and one between the ring and little finger bones, about halfway from wrist to knuckles.",
+  "place": {
+   "manual": "Back of the hand, in the grooves between the 2nd-3rd and 4th-5th hand bones, midway between the wrist crease and the knuckles."
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "low back pain",
+    "sources": [
+     "tcmwiki",
+     "bs2"
+    ]
+   }
+  ],
+  "tags": [
+   "low_back_pain"
+  ],
+  "whoMatch": false,
+  "whoNote": "Pair of points per hand. Attilio D'Alberto lists a different variant (2nd-3rd metacarpal base), so it was not cited for location.",
+  "sources": [
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki Yaotongdian",
+    "url": "https://tcmwiki.com/wiki/yaotongdian"
+   },
+   {
+    "id": "bs2",
+    "name": "Brainscape: Extra Points - Hand/Arms",
+    "url": "https://brainscape.com/flashcards/extra-points-hand-arms-1868066/packs/3237198"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "EX-UE8",
+  "pinyin": "Wailaogong (Luozhen)",
+  "english": "Outer Palace of Toil / Stiff Neck Point",
+  "region": "hand",
+  "view": "hand-back",
+  "find": "On the back of the hand, in the tender hollow between the index and middle finger bones, about half a thumb-width behind the knuckles.",
+  "place": {
+   "manual": "Back of the hand, in the hollow between the 2nd and 3rd hand bones, a little behind the knuckle line."
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "stiff neck",
+    "sources": [
+     "tcmwiki",
+     "pulsetcm",
+     "bs2"
+    ]
+   }
+  ],
+  "tags": [
+   "neck_pain"
+  ],
+  "whoMatch": false,
+  "whoNote": "No WHO 2008 text; WHO 1991 nomenclature code. Location taken from two independent opened sources that agree.",
+  "sources": [
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki Wailaogong",
+    "url": "https://tcmwiki.com/wiki/wailaogong"
+   },
+   {
+    "id": "pulsetcm",
+    "name": "Pulse TCM Luo Zhen EX-UE8",
+    "url": "https://pulsetcm.sg/bites/luozhen-ex-ue8-stiff-neck/"
+   },
+   {
+    "id": "bs2",
+    "name": "Brainscape: Extra Points - Hand/Arms",
+    "url": "https://brainscape.com/flashcards/extra-points-hand-arms-1868066/packs/3237198"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "EX-UE9",
+  "pinyin": "Baxie",
+  "english": "Eight Pathogens",
+  "region": "hand",
+  "view": "hand-back",
+  "find": "On the back of the hand, in the four hollows between the knuckles of neighbouring fingers, just behind the finger webs. Four points on each hand.",
+  "place": {
+   "manual": "Back of the hand, just behind the web edge between each pair of neighbouring fingers (four points per hand)."
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "finger numbness",
+    "sources": [
+     "atd",
+     "bs2"
+    ]
+   },
+   {
+    "text": "swollen hand",
+    "sources": [
+     "tcmwiki",
+     "atd",
+     "bs2"
+    ]
+   }
+  ],
+  "tags": [
+   "hand_wrist_strain"
+  ],
+  "whoMatch": false,
+  "whoNote": "Series point: four per hand; one record covers the set. No WHO 2008 text.",
+  "sources": [
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki Baxie",
+    "url": "https://tcmwiki.com/wiki/baxie"
+   },
+   {
+    "id": "atd",
+    "name": "Attilio D'Alberto Ba Xie",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/baxie.php"
+   },
+   {
+    "id": "bs2",
+    "name": "Brainscape: Extra Points - Hand/Arms",
+    "url": "https://brainscape.com/flashcards/extra-points-hand-arms-1868066/packs/3237198"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "EX-UE10",
+  "pinyin": "Sifeng",
+  "english": "Four Seams",
+  "region": "hand",
+  "view": "hand-palm",
+  "find": "On the palm side of the index, middle, ring and little fingers, at the centre of the crease of the first knuckle joint nearest the palm. Four points on each hand.",
+  "place": {
+   "manual": "Palm side of the four fingers, at the middle of the crease of the first finger joint (four points per hand)."
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [],
+  "tags": [],
+  "whoMatch": false,
+  "whoNote": "Series point: four per hand; one record covers the set. Traditionally used in children and pricked, not pressed; indications omitted.",
+  "sources": [
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki Sifeng",
+    "url": "https://tcmwiki.com/wiki/sifeng"
+   },
+   {
+    "id": "atd",
+    "name": "Attilio D'Alberto Si Feng",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/si-feng.php"
+   },
+   {
+    "id": "bs2",
+    "name": "Brainscape: Extra Points - Hand/Arms",
+    "url": "https://brainscape.com/flashcards/extra-points-hand-arms-1868066/packs/3237198"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "EX-UE11",
+  "pinyin": "Shixuan",
+  "english": "Ten Diffusions",
+  "region": "fingertips",
+  "view": "hand-palm",
+  "find": "At the very tip of each of the ten fingers, just beyond the nail edge. Press with the edge of a fingernail on each tip.",
+  "place": {
+   "manual": "At the tip of each finger, a hair's breadth from the nail edge (ten points)."
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "nail",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "sore throat",
+    "sources": [
+     "tcmwiki",
+     "atd",
+     "bs2"
+    ]
+   },
+   {
+    "text": "fingertip numbness",
+    "sources": [
+     "atd",
+     "bs2"
+    ]
+   }
+  ],
+  "tags": [
+   "cold_flu"
+  ],
+  "whoMatch": false,
+  "whoNote": "Series point: ten fingertips; one record covers the set.",
+  "sources": [
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki Shixuan",
+    "url": "https://tcmwiki.com/wiki/shixuan"
+   },
+   {
+    "id": "atd",
+    "name": "Attilio D'Alberto Shi Xuan",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/shi-xuan.php"
+   },
+   {
+    "id": "bs2",
+    "name": "Brainscape: Extra Points - Hand/Arms",
+    "url": "https://brainscape.com/flashcards/extra-points-hand-arms-1868066/packs/3237198"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "EX-LE1",
+  "pinyin": "Kuangu",
+  "english": "Hip Bone",
+  "region": "thigh",
+  "view": "leg-front",
+  "find": "On the front of the thigh, a little above the kneecap. Two points, one on each side of the middle of the thigh muscle, about two finger-widths apart.",
+  "place": {
+   "line": "ST",
+   "from": "patella_base",
+   "cun": 2
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "knead",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [],
+  "tags": [],
+  "whoMatch": false,
+  "whoNote": "Pair of points either side of ST34; the ST line is the approximate midline. No WHO 2008 text.",
+  "sources": [
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki Kuangu",
+    "url": "https://tcmwiki.com/wiki/kuangu"
+   },
+   {
+    "id": "bs1",
+    "name": "Brainscape: Extra Points and Needling directions",
+    "url": "https://brainscape.com/flashcards/extra-points-and-needling-directions-5846973/packs/8189512"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "EX-LE2",
+  "pinyin": "Heding",
+  "english": "Crane's Top",
+  "region": "knee",
+  "view": "leg-front",
+  "find": "Just above the kneecap, in the small hollow at the middle of its upper edge.",
+  "place": {
+   "at": "patella_base"
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "knee pain",
+    "sources": [
+     "atd",
+     "bs3"
+    ]
+   },
+   {
+    "text": "leg weakness",
+    "sources": [
+     "tcmwiki",
+     "atd",
+     "bs3"
+    ]
+   }
+  ],
+  "tags": [
+   "knee_pain"
+  ],
+  "whoMatch": false,
+  "whoNote": "No WHO 2008 text; WHO 1991 nomenclature code. Location taken from two independent opened sources that agree.",
+  "sources": [
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki Heding",
+    "url": "https://tcmwiki.com/wiki/heding"
+   },
+   {
+    "id": "atd",
+    "name": "Attilio D'Alberto He Ding",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/he-ding.php"
+   },
+   {
+    "id": "bs3",
+    "name": "Brainscape: Extra Points Wk 4",
+    "url": "https://brainscape.com/flashcards/extra-points-wk-4-16457104/packs/21844111"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "EX-LE3",
+  "pinyin": "Baichongwo",
+  "english": "Hundred Insects Burrow",
+  "region": "thigh",
+  "view": "leg-inner",
+  "find": "On the inner thigh, about a thumb-width above the muscle bulge point that sits two thumb-widths above the inner corner of the kneecap.",
+  "place": {
+   "line": "SP",
+   "from": "patella_medial_base",
+   "cun": 3
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "knead",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [],
+  "tags": [],
+  "whoMatch": false,
+  "whoNote": "TCM Wiki: 3 cun above the inner top corner of the kneecap; flashcards: 1 cun above SP10. Consistent.",
+  "sources": [
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki Baichongwo",
+    "url": "https://tcmwiki.com/wiki/baichongwo"
+   },
+   {
+    "id": "bs1",
+    "name": "Brainscape: Extra Points and Needling directions",
+    "url": "https://brainscape.com/flashcards/extra-points-and-needling-directions-5846973/packs/8189512"
+   },
+   {
+    "id": "bs3",
+    "name": "Brainscape: Extra Points Wk 4",
+    "url": "https://brainscape.com/flashcards/extra-points-wk-4-16457104/packs/21844111"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "EX-LE4",
+  "pinyin": "Neixiyan",
+  "english": "Inner Knee Eye",
+  "region": "knee",
+  "view": "leg-front",
+  "find": "With the knee bent, in the soft dip just below the kneecap on the inner side of the thick tendon.",
+  "place": {
+   "at": "patella_medial_hollow"
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "knee pain",
+    "sources": [
+     "tcmwiki",
+     "atd"
+    ]
+   }
+  ],
+  "tags": [
+   "knee_pain"
+  ],
+  "whoMatch": false,
+  "whoNote": "No WHO 2008 text; WHO 1991 nomenclature code. Location taken from two independent opened sources that agree.",
+  "sources": [
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki Neixiyan",
+    "url": "https://tcmwiki.com/wiki/neixiyan"
+   },
+   {
+    "id": "atd",
+    "name": "Attilio D'Alberto Nei Xi Yan",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/neixiyan.php"
+   },
+   {
+    "id": "bs1",
+    "name": "Brainscape: Extra Points and Needling directions",
+    "url": "https://brainscape.com/flashcards/extra-points-and-needling-directions-5846973/packs/8189512"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "EX-LE5",
+  "pinyin": "Xiyan",
+  "english": "Eyes of the Knee",
+  "region": "knee",
+  "view": "leg-front",
+  "find": "With the knee bent, in the two soft dips just below the kneecap, one on each side of the thick tendon. The inner dip is Neixiyan.",
+  "place": {
+   "manual": "Knee bent, in the two hollows just below the kneecap on either side of the patellar tendon."
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "knee pain",
+    "sources": [
+     "tcmwiki",
+     "atd",
+     "bs3"
+    ]
+   },
+   {
+    "text": "leg weakness",
+    "sources": [
+     "tcmwiki",
+     "atd",
+     "bs3"
+    ]
+   }
+  ],
+  "tags": [
+   "knee_pain"
+  ],
+  "whoMatch": false,
+  "whoNote": "Pair of points; the medial one is Neixiyan and overlaps ST35. No WHO 2008 text.",
+  "sources": [
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki Xiyan",
+    "url": "https://tcmwiki.com/wiki/xiyan"
+   },
+   {
+    "id": "atd",
+    "name": "Attilio D'Alberto Xi Yan",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/xiyan.php"
+   },
+   {
+    "id": "bs3",
+    "name": "Brainscape: Extra Points Wk 4",
+    "url": "https://brainscape.com/flashcards/extra-points-wk-4-16457104/packs/21844111"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "EX-LE6",
+  "pinyin": "Dannang",
+  "english": "Gallbladder Point",
+  "region": "lower leg",
+  "view": "leg-outer",
+  "find": "On the outer side of the lower leg, about two thumb-widths below the small bony knob at the top of the outer shin, at the tender spot.",
+  "place": {
+   "line": "GB",
+   "from": "fibula_head",
+   "cun": -2
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [],
+  "tags": [],
+  "whoMatch": false,
+  "whoNote": "2 cun below GB34 (below and in front of the fibular head); tender spot varies. Indications omitted because sources list organ-disease uses only.",
+  "sources": [
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki Dannang",
+    "url": "https://tcmwiki.com/wiki/dannang"
+   },
+   {
+    "id": "atd",
+    "name": "Attilio D'Alberto Dan Nang",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/dan-nang.php"
+   },
+   {
+    "id": "bs3",
+    "name": "Brainscape: Extra Points Wk 4",
+    "url": "https://brainscape.com/flashcards/extra-points-wk-4-16457104/packs/21844111"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "EX-LE7",
+  "pinyin": "Lanwei",
+  "english": "Appendix Point",
+  "region": "lower leg",
+  "view": "leg-front",
+  "find": "On the front of the lower leg, a hand-width and more below the kneecap, one finger-width outside the shin bone, at the tender spot.",
+  "place": {
+   "line": "ST",
+   "from": "patella_apex",
+   "cun": -5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "indigestion",
+    "sources": [
+     "tcmwiki",
+     "bs3"
+    ]
+   }
+  ],
+  "tags": [
+   "digestive_health"
+  ],
+  "whoMatch": false,
+  "whoNote": "TCM Wiki: 5 cun below ST35; Attilio: 2 cun below ST36; equivalent. Tender spot varies.",
+  "sources": [
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki Lanwei",
+    "url": "https://tcmwiki.com/wiki/lanwei"
+   },
+   {
+    "id": "atd",
+    "name": "Attilio D'Alberto Lan Wei",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/lan-wei.php"
+   },
+   {
+    "id": "bs3",
+    "name": "Brainscape: Extra Points Wk 4",
+    "url": "https://brainscape.com/flashcards/extra-points-wk-4-16457104/packs/21844111"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "EX-LE8",
+  "pinyin": "Neihuaijian",
+  "english": "Inner Ankle Tip",
+  "region": "ankle",
+  "view": "foot-inner",
+  "find": "On the inner side of the ankle, at the very top of the rounded bony bump.",
+  "place": {
+   "at": "medial_malleolus"
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [],
+  "tags": [],
+  "whoMatch": false,
+  "whoNote": "No WHO 2008 text; WHO 1991 nomenclature code. Location taken from two independent opened sources that agree.",
+  "sources": [
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki Neihuaijian",
+    "url": "https://tcmwiki.com/wiki/neihuaijian"
+   },
+   {
+    "id": "bs1",
+    "name": "Brainscape: Extra Points and Needling directions",
+    "url": "https://brainscape.com/flashcards/extra-points-and-needling-directions-5846973/packs/8189512"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "EX-LE9",
+  "pinyin": "Waihuaijian",
+  "english": "Outer Ankle Tip",
+  "region": "ankle",
+  "view": "foot-outer",
+  "find": "On the outer side of the ankle, at the very top of the rounded bony bump.",
+  "place": {
+   "at": "lateral_malleolus"
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [],
+  "tags": [],
+  "whoMatch": false,
+  "whoNote": "No WHO 2008 text; WHO 1991 nomenclature code. Location taken from two independent opened sources that agree.",
+  "sources": [
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki Waihuaijian",
+    "url": "https://tcmwiki.com/wiki/waihuaijian"
+   },
+   {
+    "id": "bs1",
+    "name": "Brainscape: Extra Points and Needling directions",
+    "url": "https://brainscape.com/flashcards/extra-points-and-needling-directions-5846973/packs/8189512"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "EX-LE10",
+  "pinyin": "Bafeng",
+  "english": "Eight Winds",
+  "region": "foot",
+  "view": "foot-top",
+  "find": "On the top of the foot, in the four hollows between neighbouring toes, just behind the toe webs. Four points on each foot.",
+  "place": {
+   "manual": "Top of the foot, just behind the web edge between each pair of neighbouring toes (four points per foot)."
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "swollen foot",
+    "sources": [
+     "tcmwiki",
+     "atd",
+     "bs3"
+    ]
+   },
+   {
+    "text": "toe numbness",
+    "sources": [
+     "atd",
+     "bs3"
+    ]
+   }
+  ],
+  "tags": [
+   "foot_ankle_strain"
+  ],
+  "whoMatch": false,
+  "whoNote": "Series point: four per foot; one record covers the set. No WHO 2008 text.",
+  "sources": [
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki Bafeng",
+    "url": "https://tcmwiki.com/wiki/bafeng"
+   },
+   {
+    "id": "atd",
+    "name": "Attilio D'Alberto Ba Feng",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/bafeng.php"
+   },
+   {
+    "id": "bs3",
+    "name": "Brainscape: Extra Points Wk 4",
+    "url": "https://brainscape.com/flashcards/extra-points-wk-4-16457104/packs/21844111"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "EX-LE11",
+  "pinyin": "Duyin",
+  "english": "Solitary Yin",
+  "region": "toe",
+  "view": "foot-sole",
+  "find": "On the underside of the second toe, in the middle of the crease at the joint nearest the toenail.",
+  "place": {
+   "manual": "Sole side of the second toe, at the middle of the crease of the joint nearest the nail."
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [],
+  "tags": [],
+  "whoMatch": false,
+  "whoNote": "No WHO 2008 text; WHO 1991 nomenclature code. Location taken from two independent opened sources that agree.",
+  "sources": [
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki Duyin",
+    "url": "https://tcmwiki.com/wiki/duyin"
+   },
+   {
+    "id": "bs1",
+    "name": "Brainscape: Extra Points and Needling directions",
+    "url": "https://brainscape.com/flashcards/extra-points-and-needling-directions-5846973/packs/8189512"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "EX-LE12",
+  "pinyin": "Qiduan",
+  "english": "End of Qi",
+  "region": "toes",
+  "view": "foot-top",
+  "find": "At the tip of each of the ten toes, just beyond the nail edge. Press with the edge of a fingernail.",
+  "place": {
+   "manual": "At the tip of each toe, a hair's breadth from the nail edge (ten points)."
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "nail",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "toe numbness",
+    "sources": [
+     "tcmwiki",
+     "bs3"
+    ]
+   }
+  ],
+  "tags": [
+   "foot_ankle_strain"
+  ],
+  "whoMatch": false,
+  "whoNote": "Series point: ten toe tips; one record covers the set.",
+  "sources": [
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki Qiduan",
+    "url": "https://tcmwiki.com/wiki/qiduan"
+   },
+   {
+    "id": "bs1",
+    "name": "Brainscape: Extra Points and Needling directions",
+    "url": "https://brainscape.com/flashcards/extra-points-and-needling-directions-5846973/packs/8189512"
+   },
+   {
+    "id": "bs3",
+    "name": "Brainscape: Extra Points Wk 4",
+    "url": "https://brainscape.com/flashcards/extra-points-wk-4-16457104/packs/21844111"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ }
+]

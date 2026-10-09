@@ -1,0 +1,346 @@
+[
+ {
+  "code": "EX-HN1",
+  "ok": true,
+  "sourceChecked": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-head-and-neck-ex-hn/sishengcong-ex-hn-1",
+  "sourceSays": "4 points, each 1 cun anterior, posterior and lateral to GV20 (vertex).",
+  "problem": ""
+ },
+ {
+  "code": "EX-HN2",
+  "ok": true,
+  "sourceChecked": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-head-and-neck-ex-hn/dangyang-ex-hn-2",
+  "sourceSays": "On the pupil line, 1 cun within the anterior hairline.",
+  "problem": ""
+ },
+ {
+  "code": "EX-HN3",
+  "ok": true,
+  "sourceChecked": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-head-and-neck-ex-hn/yintang-ex-hn-3",
+  "sourceSays": "Between the eyebrows on the anterior midline.",
+  "problem": ""
+ },
+ {
+  "code": "EX-HN4",
+  "ok": true,
+  "sourceChecked": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-head-and-neck-ex-hn/yuyao-ex-hn-4",
+  "sourceSays": "Directly above the pupil, in the middle of the eyebrow.",
+  "problem": ""
+ },
+ {
+  "code": "EX-HN5",
+  "ok": true,
+  "sourceChecked": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-head-and-neck-ex-hn/taiyang-ex-hn-5",
+  "sourceSays": "Temple depression ~1 cun posterior to midpoint between lateral end of eyebrow and outer canthus.",
+  "problem": ""
+ },
+ {
+  "code": "EX-HN6",
+  "ok": true,
+  "sourceChecked": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-head-and-neck-ex-hn/erjian-ex-hn-6",
+  "sourceSays": "On the apex of the ear (ear folded forward).",
+  "problem": ""
+ },
+ {
+  "code": "EX-HN7",
+  "ok": true,
+  "sourceChecked": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-head-and-neck-ex-hn/qiuhou-ex-hn-7",
+  "sourceSays": "Lower border of orbit, junction of lateral quarter and medial three quarters.",
+  "problem": ""
+ },
+ {
+  "code": "EX-HN8",
+  "ok": true,
+  "sourceChecked": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-head-and-neck-ex-hn/shangyingxiang-ex-hn-8",
+  "sourceSays": "Upper end of nasolabial groove, junction of maxilla and nasal cartilage.",
+  "problem": ""
+ },
+ {
+  "code": "EX-HN9",
+  "ok": true,
+  "sourceChecked": "https://tcmwiki.com/wiki/neiyingxiang",
+  "sourceSays": "Inside the nostril, junction of alar-cartilage mucosa and nasal concha (MQ: junction of nasal bone and cartilage). No cun. Find is vague but not contradictory.",
+  "problem": ""
+ },
+ {
+  "code": "EX-HN10",
+  "ok": true,
+  "sourceChecked": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-head-and-neck-ex-hn/juquan-ex-hn-10",
+  "sourceSays": "Center of the dorsal tongue when maximally extended.",
+  "problem": ""
+ },
+ {
+  "code": "EX-HN11",
+  "ok": true,
+  "sourceChecked": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-head-and-neck-ex-hn/haiquan-ex-hn-11",
+  "sourceSays": "Below the tongue, center of the frenulum.",
+  "problem": ""
+ },
+ {
+  "code": "EX-HN12",
+  "ok": true,
+  "sourceChecked": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-head-and-neck-ex-hn/jinjin-ex-hn-12",
+  "sourceSays": "Below the tongue, on the left sublingual vein beside the frenulum.",
+  "problem": ""
+ },
+ {
+  "code": "EX-HN13",
+  "ok": true,
+  "sourceChecked": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-head-and-neck-ex-hn/yuye-ex-hn-13",
+  "sourceSays": "Below the tongue, on the right sublingual vein beside the frenulum.",
+  "problem": ""
+ },
+ {
+  "code": "EX-HN14",
+  "ok": true,
+  "sourceChecked": "https://www.attiliodalberto.com/acupuncture/points/yi-ming.php",
+  "sourceSays": "1 cun posterior to TE17 (behind earlobe), on posterior border of mastoid.",
+  "problem": ""
+ },
+ {
+  "code": "EX-HN15",
+  "ok": true,
+  "sourceChecked": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-head-and-neck-ex-hn/bailao-ex-hn-15",
+  "sourceSays": "2 cun above lower border of C7 spinous process (GV14), 1 cun lateral to midline.",
+  "problem": ""
+ },
+ {
+  "code": "ANMIAN",
+  "ok": true,
+  "sourceChecked": "https://www.attiliodalberto.com/acupuncture/points/an-mian.php",
+  "sourceSays": "Midpoint between GB20 (hollow below occiput) and TE17 (behind earlobe); no cun distance.",
+  "problem": ""
+ },
+ {
+  "code": "EX-B1",
+  "ok": true,
+  "sourceChecked": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-back-ex-b/dingchuan-ex-b-1",
+  "sourceSays": "0.5 cun lateral to lower border of C7 spinous process.",
+  "problem": ""
+ },
+ {
+  "code": "EX-B2",
+  "ok": true,
+  "sourceChecked": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-back-ex-b/huatuojiaji-ex-b-2",
+  "sourceSays": "0.5 cun lateral to lower borders of T1-T12 and L1-L5 spinous processes.",
+  "problem": ""
+ },
+ {
+  "code": "EX-B3",
+  "ok": true,
+  "sourceChecked": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-back-ex-b/weiwanxiashu-ex-b-3",
+  "sourceSays": "1.5 cun lateral to lower border of T8 spinous process (T7 is level with scapula inferior angle).",
+  "problem": ""
+ },
+ {
+  "code": "EX-B4",
+  "ok": true,
+  "sourceChecked": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-back-ex-b/pigen-ex-b-4",
+  "sourceSays": "3.5 cun lateral to lower border of L1 spinous process (L4 is at iliac crest level).",
+  "problem": ""
+ },
+ {
+  "code": "EX-B5",
+  "ok": true,
+  "sourceChecked": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-back-ex-b/xiajishu-ex-b-5",
+  "sourceSays": "Posterior midline below L3 spinous process (MQ also lists two companions 3 cun lateral; WHO point is the midline one).",
+  "problem": ""
+ },
+ {
+  "code": "EX-B6",
+  "ok": true,
+  "sourceChecked": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-back-ex-b/yaoyi-ex-b-6",
+  "sourceSays": "3 cun lateral to lower border of L4 spinous process.",
+  "problem": ""
+ },
+ {
+  "code": "EX-B7",
+  "ok": true,
+  "sourceChecked": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-back-ex-b/yaoyan-ex-b-7",
+  "sourceSays": "3.5 cun lateral to lower border of L4 spinous process, in a depression.",
+  "problem": ""
+ },
+ {
+  "code": "EX-B8",
+  "ok": true,
+  "sourceChecked": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-back-ex-b/shiqizhuixia-ex-b-8",
+  "sourceSays": "Directly below the L5 spinous process on the midline.",
+  "problem": ""
+ },
+ {
+  "code": "EX-B9",
+  "ok": false,
+  "sourceChecked": "https://www.attiliodalberto.com/acupuncture/points/yaoqi.php",
+  "sourceSays": "2 cun above tip of coccyx (MQ), below the spinous process of S2 (D'Alberto).",
+  "problem": "Landmark mismatch: 'hollow between the two small bony ridges at the lower end of the sacrum' is the sacral hiatus/cornua (GV2 area), which is below this point. Sources put it 2 cun above coccyx tip, below the S2 spinous process. Distance (three finger-widths ≈ 2 cun) is fine.",
+  "fixedFind": "On the middle line of the lower back, on the flat triangular bone at the base of the spine (the sacrum), three finger-widths above the tip of the tailbone, in the small dip there."
+ },
+ {
+  "code": "EX-CA1",
+  "ok": true,
+  "sourceChecked": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-chest-and-abdomen-ex-ca/zigong-ex-ca-1",
+  "sourceSays": "3 cun lateral to midline, 1 cun above pubic symphysis (= 4 cun below navel).",
+  "problem": ""
+ },
+ {
+  "code": "EX-UE1",
+  "ok": true,
+  "sourceChecked": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-upper-extremities-ex-ue/zhoujian-ex-ue-1",
+  "sourceSays": "On the tip of the olecranon.",
+  "problem": ""
+ },
+ {
+  "code": "EX-UE2",
+  "ok": true,
+  "sourceChecked": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-upper-extremities-ex-ue/erbai-ex-ue-2",
+  "sourceSays": "4 cun proximal to distal wrist crease, either side of flexor carpi radialis tendon.",
+  "problem": ""
+ },
+ {
+  "code": "EX-UE3",
+  "ok": true,
+  "sourceChecked": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-upper-extremities-ex-ue/zhongquan-ex-ue-3",
+  "sourceSays": "Dorsal wrist crease, radial to extensor digitorum tendon.",
+  "problem": ""
+ },
+ {
+  "code": "EX-UE4",
+  "ok": true,
+  "sourceChecked": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-upper-extremities-ex-ue/zhongkui-ex-ue-4",
+  "sourceSays": "Dorsum of middle finger, center of PIP joint crease.",
+  "problem": ""
+ },
+ {
+  "code": "EX-UE5",
+  "ok": true,
+  "sourceChecked": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-upper-extremities-ex-ue/dagukong-ex-ue-5",
+  "sourceSays": "Dorsum of thumb, center of interphalangeal joint crease.",
+  "problem": ""
+ },
+ {
+  "code": "EX-UE6",
+  "ok": true,
+  "sourceChecked": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-upper-extremities-ex-ue/xiaogukong-ex-ue-6",
+  "sourceSays": "Dorsum of little finger, center of PIP joint crease.",
+  "problem": ""
+ },
+ {
+  "code": "EX-UE7",
+  "ok": true,
+  "sourceChecked": "https://www.yinyanghouse.com/theory/acupuncturepoints/x-yaotongxue",
+  "sourceSays": "Dorsum of hand, midway between wrist crease and MCP joints, between 2nd/3rd and 4th/5th metacarpals (MQ places them nearer the metacarpal bases).",
+  "problem": ""
+ },
+ {
+  "code": "EX-UE8",
+  "ok": true,
+  "sourceChecked": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-upper-extremities-ex-ue/wailaogong-ex-ue-8",
+  "sourceSays": "Between 2nd and 3rd metacarpals, just proximal to MCP joints (~0.5 cun).",
+  "problem": ""
+ },
+ {
+  "code": "EX-UE9",
+  "ok": true,
+  "sourceChecked": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-upper-extremities-ex-ue/baxie-ex-ue-9",
+  "sourceSays": "4 points per hand, slightly proximal to the web margins between fingers.",
+  "problem": ""
+ },
+ {
+  "code": "EX-UE10",
+  "ok": true,
+  "sourceChecked": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-upper-extremities-ex-ue/sifeng-ex-ue-10",
+  "sourceSays": "Palmar side of fingers 2-5, midpoint of PIP joint creases.",
+  "problem": ""
+ },
+ {
+  "code": "EX-UE11",
+  "ok": true,
+  "sourceChecked": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-upper-extremities-ex-ue/shixuan-ex-ue-11",
+  "sourceSays": "On the tips of the 10 fingers.",
+  "problem": ""
+ },
+ {
+  "code": "EX-LE1",
+  "ok": true,
+  "sourceChecked": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-lower-extremities-ex-le/kuangu-ex-le-1",
+  "sourceSays": "2 points, 2 cun above patella, 1.5 cun lateral and medial to ST34 (2 cun above lateral upper patella).",
+  "problem": ""
+ },
+ {
+  "code": "EX-LE2",
+  "ok": true,
+  "sourceChecked": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-lower-extremities-ex-le/heding-ex-le-2",
+  "sourceSays": "Center of upper border of patella.",
+  "problem": ""
+ },
+ {
+  "code": "EX-LE3",
+  "ok": true,
+  "sourceChecked": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-lower-extremities-ex-le/baichongwo-ex-le-3",
+  "sourceSays": "3 cun above upper medial border of patella, on vastus medialis.",
+  "problem": ""
+ },
+ {
+  "code": "EX-LE4",
+  "ok": true,
+  "sourceChecked": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-lower-extremities-ex-le/neixiyan-ex-le-4",
+  "sourceSays": "Knee flexed, below patella, depression medial to patellar ligament.",
+  "problem": ""
+ },
+ {
+  "code": "EX-LE5",
+  "ok": true,
+  "sourceChecked": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-lower-extremities-ex-le/xiyan-ex-le-5",
+  "sourceSays": "Two depressions below patella, medial and lateral to patellar ligament.",
+  "problem": ""
+ },
+ {
+  "code": "EX-LE6",
+  "ok": true,
+  "sourceChecked": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-lower-extremities-ex-le/dannang-ex-le-6",
+  "sourceSays": "About 1-2 cun below GB34 (depression anterior-inferior to fibular head), most tender spot (WHO: 2 cun).",
+  "problem": ""
+ },
+ {
+  "code": "EX-LE7",
+  "ok": true,
+  "sourceChecked": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-lower-extremities-ex-le/lanwei-ex-le-7",
+  "sourceSays": "About 2 cun below ST36 (ST36 = 3 cun below lower patella/ST35, one finger-width lateral to tibia), most tender spot; total 5 cun.",
+  "problem": ""
+ },
+ {
+  "code": "EX-LE8",
+  "ok": true,
+  "sourceChecked": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-lower-extremities-ex-le/neihuaijian-ex-le-8",
+  "sourceSays": "Highest point of the medial malleolus.",
+  "problem": ""
+ },
+ {
+  "code": "EX-LE9",
+  "ok": true,
+  "sourceChecked": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-lower-extremities-ex-le/waihuaijian-ex-le-9",
+  "sourceSays": "Highest point of the lateral malleolus.",
+  "problem": ""
+ },
+ {
+  "code": "EX-LE10",
+  "ok": true,
+  "sourceChecked": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-lower-extremities-ex-le/bafeng-ex-le-10",
+  "sourceSays": "8 points on foot dorsum, slightly proximal to the interdigital web margins.",
+  "problem": ""
+ },
+ {
+  "code": "EX-LE11",
+  "ok": true,
+  "sourceChecked": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-lower-extremities-ex-le/duyin-ex-le-11",
+  "sourceSays": "Plantar 2nd toe, midpoint of distal interphalangeal crease.",
+  "problem": ""
+ },
+ {
+  "code": "EX-LE12",
+  "ok": true,
+  "sourceChecked": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-lower-extremities-ex-le/qiduan-ex-le-12",
+  "sourceSays": "On the tips of the 10 toes.",
+  "problem": ""
+ }
+]

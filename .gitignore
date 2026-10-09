@@ -34,3 +34,6 @@ coverage
 test-results
 playwright-report
 .claude/
+
+# Phase 3 sweep data (generated)
+src/dev/records.json

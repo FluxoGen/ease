@@ -1,0 +1,1013 @@
+[
+ {
+  "code": "EX-HN1",
+  "pinyin": "Sishencong",
+  "english": "Four Alert Spirit",
+  "region": "head",
+  "view": "head-top",
+  "find": "On the top of the head, a set of four spots: one thumb-width in front of, behind, and to each side of the very top of the head.",
+  "place": {
+   "at": "vertex"
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "trouble sleeping",
+    "sources": [
+     "adalberto",
+     "bs-ind",
+     "bs-ex"
+    ]
+   },
+   {
+    "text": "headache at the top of the head",
+    "sources": [
+     "adalberto",
+     "bs-ind"
+    ]
+   },
+   {
+    "text": "poor memory",
+    "sources": [
+     "adalberto",
+     "bs-ind",
+     "bs-ex"
+    ]
+   }
+  ],
+  "tags": [
+   "sleep",
+   "headache"
+  ],
+  "whoMatch": false,
+  "whoNote": "Extra point from the WHO 1991 nomenclature; no WHO 2008 text, so location is from independent web sources. Series point: the placed dot marks the centre (Baihui); the set is four points around it.",
+  "sources": [
+   {
+    "id": "adalberto",
+    "name": "Attilio D'Alberto Si Shen Cong",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/si-shen-cong.php"
+   },
+   {
+    "id": "bs-ind",
+    "name": "Brainscape flashcards: extra points (indications, needling)",
+    "url": "https://brainscape.com/flashcards/extra-points-2696167/packs/4528597"
+   },
+   {
+    "id": "bs-ex",
+    "name": "Brainscape flashcards: Extraordinary Points (locations, indications)",
+    "url": "https://brainscape.com/flashcards/extraordinary-points-99634/packs/376636"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "EX-HN2",
+  "pinyin": "Dangyang",
+  "english": "Facing Yang",
+  "region": "head",
+  "view": "face-front",
+  "find": "On the forehead, straight above the pupil when you look ahead, about one thumb-width up from the hairline.",
+  "place": {
+   "from": "anterior_hairline_mid",
+   "up": 1,
+   "out": 2.25
+  },
+  "selfCare": "gentle",
+  "avoidReason": "",
+  "technique": "gentle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [],
+  "tags": [],
+  "whoMatch": false,
+  "whoNote": "Extra point from the WHO 1991 nomenclature; no WHO 2008 text, so location is from independent web sources. Only flashcard-type sources found for location; indications only in one opened source, so none listed.",
+  "sources": [
+   {
+    "id": "bs-nd",
+    "name": "Brainscape flashcards: Extra Points and Needling directions (locations)",
+    "url": "https://brainscape.com/flashcards/extra-points-and-needling-directions-5846973/packs/8189512"
+   },
+   {
+    "id": "bs-ep",
+    "name": "Brainscape flashcards: Extra Points (locations, indications)",
+    "url": "https://brainscape.com/flashcards/extra-points-5319804/packs/7879463"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "EX-HN3",
+  "pinyin": "Yintang",
+  "english": "Hall of Impression",
+  "region": "face",
+  "view": "face-front",
+  "find": "On the forehead, in the flat spot exactly halfway between the inner ends of your eyebrows.",
+  "place": {
+   "at": "glabella"
+  },
+  "selfCare": "gentle",
+  "avoidReason": "",
+  "technique": "gentle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "trouble sleeping",
+    "sources": [
+     "adalberto",
+     "satyori",
+     "pulsetcm",
+     "bs-ind"
+    ]
+   },
+   {
+    "text": "headache at the front of the head",
+    "sources": [
+     "adalberto",
+     "satyori",
+     "bs-ind"
+    ]
+   },
+   {
+    "text": "stuffy nose",
+    "sources": [
+     "adalberto",
+     "satyori",
+     "bs-ind"
+    ]
+   },
+   {
+    "text": "restlessness",
+    "sources": [
+     "adalberto",
+     "satyori",
+     "pulsetcm"
+    ]
+   },
+   {
+    "text": "dizziness",
+    "sources": [
+     "adalberto",
+     "satyori"
+    ]
+   }
+  ],
+  "tags": [
+   "sleep",
+   "headache",
+   "nose_sinus"
+  ],
+  "whoMatch": false,
+  "whoNote": "Extra point from the WHO 1991 nomenclature; no WHO 2008 text, so location is from independent web sources.",
+  "sources": [
+   {
+    "id": "adalberto",
+    "name": "Attilio D'Alberto Yin Tang",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/yin-tang.php"
+   },
+   {
+    "id": "satyori",
+    "name": "Satyori EX-HN3 Yintang",
+    "url": "https://satyori.com/tcm/acupressure/ex-hn3-yintang/"
+   },
+   {
+    "id": "pulsetcm",
+    "name": "PULSE TCM Singapore Yin Tang",
+    "url": "https://pulsetcm.sg/bites/yin-tang-ex-hn3/"
+   },
+   {
+    "id": "bs-ind",
+    "name": "Brainscape flashcards: extra points (indications, needling)",
+    "url": "https://brainscape.com/flashcards/extra-points-2696167/packs/4528597"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "EX-HN4",
+  "pinyin": "Yuyao",
+  "english": "Fish Waist",
+  "region": "face",
+  "view": "face-front",
+  "find": "On the eyebrow, at its middle, directly above the pupil when you look straight ahead. Stay on the brow bone.",
+  "place": {
+   "at": "eyebrow_mid"
+  },
+  "selfCare": "gentle",
+  "avoidReason": "",
+  "technique": "gentle",
+  "cautions": [
+   "eye"
+  ],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "headache at the front of the head",
+    "sources": [
+     "adalberto",
+     "bs-ind",
+     "bs-ex"
+    ]
+   },
+   {
+    "text": "red, sore eyes",
+    "sources": [
+     "adalberto",
+     "bs-ind",
+     "bs-ex",
+     "bs-ep"
+    ]
+   },
+   {
+    "text": "twitching eyelid",
+    "sources": [
+     "adalberto",
+     "bs-ind",
+     "bs-ex",
+     "bs-ep"
+    ]
+   }
+  ],
+  "tags": [
+   "headache",
+   "eye_strain"
+  ],
+  "whoMatch": false,
+  "whoNote": "Extra point from the WHO 1991 nomenclature; no WHO 2008 text, so location is from independent web sources.",
+  "sources": [
+   {
+    "id": "adalberto",
+    "name": "Attilio D'Alberto Yu Yao",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/yu-yao.php"
+   },
+   {
+    "id": "bs-ind",
+    "name": "Brainscape flashcards: extra points (indications, needling)",
+    "url": "https://brainscape.com/flashcards/extra-points-2696167/packs/4528597"
+   },
+   {
+    "id": "bs-ex",
+    "name": "Brainscape flashcards: Extraordinary Points (locations, indications)",
+    "url": "https://brainscape.com/flashcards/extraordinary-points-99634/packs/376636"
+   },
+   {
+    "id": "bs-ep",
+    "name": "Brainscape flashcards: Extra Points (locations, indications)",
+    "url": "https://brainscape.com/flashcards/extra-points-5319804/packs/7879463"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "EX-HN5",
+  "pinyin": "Taiyang",
+  "english": "Sun / Supreme Yang",
+  "region": "head",
+  "view": "head-side",
+  "find": "In the soft hollow of the temple, about one thumb-width behind the middle of the line from the outer end of the eyebrow to the outer corner of the eye.",
+  "place": {
+   "at": "temple"
+  },
+  "selfCare": "gentle",
+  "avoidReason": "",
+  "technique": "gentle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "headache at the temple",
+    "sources": [
+     "adalberto",
+     "pulsetcm",
+     "lierre",
+     "bs-ex"
+    ]
+   },
+   {
+    "text": "tired or sore eyes",
+    "sources": [
+     "adalberto",
+     "lierre",
+     "bs-ex",
+     "bs-ind"
+    ]
+   },
+   {
+    "text": "toothache",
+    "sources": [
+     "adalberto",
+     "lierre",
+     "bs-ind",
+     "bs-ex"
+    ]
+   },
+   {
+    "text": "dizziness",
+    "sources": [
+     "pulsetcm",
+     "lierre",
+     "bs-ex"
+    ]
+   }
+  ],
+  "tags": [
+   "headache",
+   "eye_strain",
+   "toothache_jaw"
+  ],
+  "whoMatch": false,
+  "whoNote": "Extra point from the WHO 1991 nomenclature; no WHO 2008 text, so location is from independent web sources.",
+  "sources": [
+   {
+    "id": "adalberto",
+    "name": "Attilio D'Alberto Tai Yang",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/tai-yang.php"
+   },
+   {
+    "id": "pulsetcm",
+    "name": "PULSE TCM Singapore Tai Yang",
+    "url": "https://pulsetcm.sg/bites/tai-yang-ex-hn5/"
+   },
+   {
+    "id": "lierre",
+    "name": "Lierre Acupuncture Point Taiyang (EX-HN5)",
+    "url": "https://www.lierre.ca/blogs/acupuncture-supplies/acupuncture-point-taiyang-ex-hn5"
+   },
+   {
+    "id": "bs-ind",
+    "name": "Brainscape flashcards: extra points (indications, needling)",
+    "url": "https://brainscape.com/flashcards/extra-points-2696167/packs/4528597"
+   },
+   {
+    "id": "bs-ex",
+    "name": "Brainscape flashcards: Extraordinary Points (locations, indications)",
+    "url": "https://brainscape.com/flashcards/extraordinary-points-99634/packs/376636"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "EX-HN6",
+  "pinyin": "Erjian",
+  "english": "Ear Apex",
+  "region": "head",
+  "view": "head-side",
+  "find": "At the very top of the ear. Fold the ear forward and it is at the tip of the fold.",
+  "place": {
+   "at": "ear_apex"
+  },
+  "selfCare": "gentle",
+  "avoidReason": "",
+  "technique": "gentle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "one-sided headache",
+    "sources": [
+     "adalberto",
+     "bs-ind",
+     "bs-ex"
+    ]
+   },
+   {
+    "text": "sore throat",
+    "sources": [
+     "adalberto",
+     "bs-ind",
+     "bs-ex"
+    ]
+   },
+   {
+    "text": "red, sore eyes",
+    "sources": [
+     "adalberto",
+     "bs-ind",
+     "bs-ex",
+     "bs-ep"
+    ]
+   }
+  ],
+  "tags": [
+   "headache",
+   "eye_strain"
+  ],
+  "whoMatch": false,
+  "whoNote": "Extra point from the WHO 1991 nomenclature; no WHO 2008 text, so location is from independent web sources.",
+  "sources": [
+   {
+    "id": "adalberto",
+    "name": "Attilio D'Alberto Er Jian",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/erjian.php"
+   },
+   {
+    "id": "bs-ind",
+    "name": "Brainscape flashcards: extra points (indications, needling)",
+    "url": "https://brainscape.com/flashcards/extra-points-2696167/packs/4528597"
+   },
+   {
+    "id": "bs-ex",
+    "name": "Brainscape flashcards: Extraordinary Points (locations, indications)",
+    "url": "https://brainscape.com/flashcards/extraordinary-points-99634/packs/376636"
+   },
+   {
+    "id": "bs-ep",
+    "name": "Brainscape flashcards: Extra Points (locations, indications)",
+    "url": "https://brainscape.com/flashcards/extra-points-5319804/packs/7879463"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "EX-HN7",
+  "pinyin": "Qiuhou",
+  "english": "Behind the Ball",
+  "region": "face",
+  "view": "face-front",
+  "find": "On the lower rim of the eye socket, about one quarter of the way in from the outer corner of the eye.",
+  "place": {
+   "between": [
+    "outer_eye_corner",
+    "inner_eye_corner"
+   ],
+   "frac": 0.25
+  },
+  "selfCare": "avoid",
+  "avoidReason": "Sits right under the eyeball and is needled deep by specialists; pressing here risks pushing into the eye.",
+  "technique": null,
+  "cautions": [
+   "eye"
+  ],
+  "pregnancy": false,
+  "indications": [],
+  "tags": [],
+  "whoMatch": false,
+  "whoNote": "Extra point from the WHO 1991 nomenclature; no WHO 2008 text, so location is from independent web sources.",
+  "sources": [
+   {
+    "id": "adalberto",
+    "name": "Attilio D'Alberto Qiu Hou",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/qiu-hou.php"
+   },
+   {
+    "id": "bs-nd",
+    "name": "Brainscape flashcards: Extra Points and Needling directions (locations)",
+    "url": "https://brainscape.com/flashcards/extra-points-and-needling-directions-5846973/packs/8189512"
+   },
+   {
+    "id": "bs-ex",
+    "name": "Brainscape flashcards: Extraordinary Points (locations, indications)",
+    "url": "https://brainscape.com/flashcards/extraordinary-points-99634/packs/376636"
+   },
+   {
+    "id": "bs-ind",
+    "name": "Brainscape flashcards: extra points (indications, needling)",
+    "url": "https://brainscape.com/flashcards/extra-points-2696167/packs/4528597"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "EX-HN8",
+  "pinyin": "Shangyingxiang",
+  "english": "Upper Welcome Fragrance (Bitong)",
+  "region": "face",
+  "view": "face-front",
+  "find": "On the face, at the top end of the groove running from the side of the nostril, where the nose cartilage meets the bone.",
+  "place": {
+   "from": "nose_wing",
+   "up": 0.5
+  },
+  "selfCare": "gentle",
+  "avoidReason": "",
+  "technique": "gentle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "stuffy nose",
+    "sources": [
+     "bs-ex",
+     "bs-ind",
+     "bs-ep"
+    ]
+   }
+  ],
+  "tags": [
+   "nose_sinus"
+  ],
+  "whoMatch": false,
+  "whoNote": "Extra point from the WHO 1991 nomenclature; no WHO 2008 text, so location is from independent web sources. Only flashcard-type sources opened for this point.",
+  "sources": [
+   {
+    "id": "bs-nd",
+    "name": "Brainscape flashcards: Extra Points and Needling directions (locations)",
+    "url": "https://brainscape.com/flashcards/extra-points-and-needling-directions-5846973/packs/8189512"
+   },
+   {
+    "id": "bs-ex",
+    "name": "Brainscape flashcards: Extraordinary Points (locations, indications)",
+    "url": "https://brainscape.com/flashcards/extraordinary-points-99634/packs/376636"
+   },
+   {
+    "id": "bs-ind",
+    "name": "Brainscape flashcards: extra points (indications, needling)",
+    "url": "https://brainscape.com/flashcards/extra-points-2696167/packs/4528597"
+   },
+   {
+    "id": "bs-ep",
+    "name": "Brainscape flashcards: Extra Points (locations, indications)",
+    "url": "https://brainscape.com/flashcards/extra-points-5319804/packs/7879463"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "EX-HN9",
+  "pinyin": "Neiyingxiang",
+  "english": "Inner Welcome Fragrance",
+  "region": "face",
+  "view": "face-front",
+  "find": "Inside the nostril, high up, where the nose meets the upper lining.",
+  "place": {
+   "manual": "Inside the nostril on the inner lining, near the junction of cartilage and bone; shown at the nostril for reference."
+  },
+  "selfCare": "avoid",
+  "avoidReason": "Inside the nose; needled or pricked with an endoscope by practitioners and not something to press yourself.",
+  "technique": null,
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [],
+  "tags": [],
+  "whoMatch": false,
+  "whoNote": "Extra point from the WHO 1991 nomenclature; no WHO 2008 text, so location is from independent web sources. Location from a flashcard set and an intranasal acupuncture trial.",
+  "sources": [
+   {
+    "id": "bs-nd",
+    "name": "Brainscape flashcards: Extra Points and Needling directions (locations)",
+    "url": "https://brainscape.com/flashcards/extra-points-and-needling-directions-5846973/packs/8189512"
+   },
+   {
+    "id": "pmc-10175315",
+    "name": "PMC10175315 intranasal acupuncture, Neiyingxiang",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10175315"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "EX-HN10",
+  "pinyin": "Juquan",
+  "english": "Gathering Spring",
+  "region": "mouth",
+  "view": "face-front",
+  "find": "In the mouth, on the middle of the tongue top when the tongue is stuck fully out.",
+  "place": {
+   "manual": "Inside the mouth, under or on the tongue; shown near the mouth for reference."
+  },
+  "selfCare": "avoid",
+  "avoidReason": "On the tongue; not suitable for self-pressing.",
+  "technique": null,
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [],
+  "tags": [],
+  "whoMatch": false,
+  "whoNote": "Extra point from the WHO 1991 nomenclature; no WHO 2008 text, so location is from independent web sources.",
+  "sources": [
+   {
+    "id": "bs-nd",
+    "name": "Brainscape flashcards: Extra Points and Needling directions (locations)",
+    "url": "https://brainscape.com/flashcards/extra-points-and-needling-directions-5846973/packs/8189512"
+   },
+   {
+    "id": "bs-ep",
+    "name": "Brainscape flashcards: Extra Points (locations, indications)",
+    "url": "https://brainscape.com/flashcards/extra-points-5319804/packs/7879463"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "EX-HN11",
+  "pinyin": "Haiquan",
+  "english": "Sea Spring",
+  "region": "mouth",
+  "view": "face-front",
+  "find": "In the mouth, under the tongue, in the middle of the fold of skin holding the tongue down.",
+  "place": {
+   "manual": "Inside the mouth, under or on the tongue; shown near the mouth for reference."
+  },
+  "selfCare": "avoid",
+  "avoidReason": "Under the tongue; traditionally pricked to bleed, not suitable for self-pressing.",
+  "technique": null,
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [],
+  "tags": [],
+  "whoMatch": false,
+  "whoNote": "Extra point from the WHO 1991 nomenclature; no WHO 2008 text, so location is from independent web sources.",
+  "sources": [
+   {
+    "id": "bs-nd",
+    "name": "Brainscape flashcards: Extra Points and Needling directions (locations)",
+    "url": "https://brainscape.com/flashcards/extra-points-and-needling-directions-5846973/packs/8189512"
+   },
+   {
+    "id": "bs-ep",
+    "name": "Brainscape flashcards: Extra Points (locations, indications)",
+    "url": "https://brainscape.com/flashcards/extra-points-5319804/packs/7879463"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "EX-HN12",
+  "pinyin": "Jinjin",
+  "english": "Golden Fluid",
+  "region": "mouth",
+  "view": "face-front",
+  "find": "In the mouth, under the left side of the tongue, on the vein beside the central fold of skin.",
+  "place": {
+   "manual": "Inside the mouth, under or on the tongue; shown near the mouth for reference."
+  },
+  "selfCare": "avoid",
+  "avoidReason": "Under the tongue on a vein; traditionally pricked to bleed, not suitable for self-pressing.",
+  "technique": null,
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [],
+  "tags": [],
+  "whoMatch": false,
+  "whoNote": "Extra point from the WHO 1991 nomenclature; no WHO 2008 text, so location is from independent web sources.",
+  "sources": [
+   {
+    "id": "adalberto",
+    "name": "Attilio D'Alberto Jin Jin",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/jin-jin.php"
+   },
+   {
+    "id": "bs-nd",
+    "name": "Brainscape flashcards: Extra Points and Needling directions (locations)",
+    "url": "https://brainscape.com/flashcards/extra-points-and-needling-directions-5846973/packs/8189512"
+   },
+   {
+    "id": "bs-ex",
+    "name": "Brainscape flashcards: Extraordinary Points (locations, indications)",
+    "url": "https://brainscape.com/flashcards/extraordinary-points-99634/packs/376636"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "EX-HN13",
+  "pinyin": "Yuye",
+  "english": "Jade Fluid",
+  "region": "mouth",
+  "view": "face-front",
+  "find": "In the mouth, under the right side of the tongue, on the vein beside the central fold of skin.",
+  "place": {
+   "manual": "Inside the mouth, under or on the tongue; shown near the mouth for reference."
+  },
+  "selfCare": "avoid",
+  "avoidReason": "Under the tongue on a vein; traditionally pricked to bleed, not suitable for self-pressing.",
+  "technique": null,
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [],
+  "tags": [],
+  "whoMatch": false,
+  "whoNote": "Extra point from the WHO 1991 nomenclature; no WHO 2008 text, so location is from independent web sources.",
+  "sources": [
+   {
+    "id": "adalberto",
+    "name": "Attilio D'Alberto Yu Ye",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/yu-ye.php"
+   },
+   {
+    "id": "bs-nd",
+    "name": "Brainscape flashcards: Extra Points and Needling directions (locations)",
+    "url": "https://brainscape.com/flashcards/extra-points-and-needling-directions-5846973/packs/8189512"
+   },
+   {
+    "id": "bs-ex",
+    "name": "Brainscape flashcards: Extraordinary Points (locations, indications)",
+    "url": "https://brainscape.com/flashcards/extraordinary-points-99634/packs/376636"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "EX-HN14",
+  "pinyin": "Yiming",
+  "english": "Eye Brightening",
+  "region": "head",
+  "view": "head-side",
+  "find": "Behind the ear, on the back edge of the bony bump behind the ear, about one thumb-width behind the soft hollow below the earlobe.",
+  "place": {
+   "at": "mastoid"
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "trouble sleeping",
+    "sources": [
+     "adalberto",
+     "bs-ind",
+     "bs-ex"
+    ]
+   },
+   {
+    "text": "ringing in the ears",
+    "sources": [
+     "adalberto",
+     "bs-ind",
+     "bs-ex"
+    ]
+   },
+   {
+    "text": "dizziness",
+    "sources": [
+     "adalberto",
+     "bs-ex"
+    ]
+   }
+  ],
+  "tags": [
+   "sleep",
+   "ear_hearing"
+  ],
+  "whoMatch": false,
+  "whoNote": "Extra point from the WHO 1991 nomenclature; no WHO 2008 text, so location is from independent web sources.",
+  "sources": [
+   {
+    "id": "adalberto",
+    "name": "Attilio D'Alberto Yi Ming",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/yi-ming.php"
+   },
+   {
+    "id": "bs-ind",
+    "name": "Brainscape flashcards: extra points (indications, needling)",
+    "url": "https://brainscape.com/flashcards/extra-points-2696167/packs/4528597"
+   },
+   {
+    "id": "bs-ex",
+    "name": "Brainscape flashcards: Extraordinary Points (locations, indications)",
+    "url": "https://brainscape.com/flashcards/extraordinary-points-99634/packs/376636"
+   },
+   {
+    "id": "bs-nd",
+    "name": "Brainscape flashcards: Extra Points and Needling directions (locations)",
+    "url": "https://brainscape.com/flashcards/extra-points-and-needling-directions-5846973/packs/8189512"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "EX-HN15",
+  "pinyin": "Jingbailao",
+  "english": "Neck Hundred Taxations",
+  "region": "neck",
+  "view": "head-back",
+  "find": "On the back of the neck, two thumb-widths above the big bump at the base of the neck and one thumb-width to the side of the spine.",
+  "place": {
+   "from": "C7",
+   "up": 2,
+   "out": 1
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "stiff neck",
+    "sources": [
+     "bs-ex",
+     "bs-ind",
+     "bs-ep"
+    ]
+   },
+   {
+    "text": "cough",
+    "sources": [
+     "bs-ex",
+     "bs-ind",
+     "bs-ep"
+    ]
+   }
+  ],
+  "tags": [
+   "neck_pain",
+   "cough_breathing"
+  ],
+  "whoMatch": false,
+  "whoNote": "Extra point from the WHO 1991 nomenclature; no WHO 2008 text, so location is from independent web sources. Only flashcard-type sources opened for this point.",
+  "sources": [
+   {
+    "id": "bs-nd",
+    "name": "Brainscape flashcards: Extra Points and Needling directions (locations)",
+    "url": "https://brainscape.com/flashcards/extra-points-and-needling-directions-5846973/packs/8189512"
+   },
+   {
+    "id": "bs-ex",
+    "name": "Brainscape flashcards: Extraordinary Points (locations, indications)",
+    "url": "https://brainscape.com/flashcards/extraordinary-points-99634/packs/376636"
+   },
+   {
+    "id": "bs-ind",
+    "name": "Brainscape flashcards: extra points (indications, needling)",
+    "url": "https://brainscape.com/flashcards/extra-points-2696167/packs/4528597"
+   },
+   {
+    "id": "bs-ep",
+    "name": "Brainscape flashcards: Extra Points (locations, indications)",
+    "url": "https://brainscape.com/flashcards/extra-points-5319804/packs/7879463"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "EX-CA1",
+  "pinyin": "Zigong",
+  "english": "Uterus",
+  "region": "abdomen",
+  "view": "torso-front",
+  "find": "On the lower belly, four thumb-widths below the navel and three thumb-widths to the side of the midline.",
+  "place": {
+   "from": "umbilicus",
+   "down": 4,
+   "out": 3
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [
+   "pregnancy"
+  ],
+  "pregnancy": true,
+  "indications": [
+   {
+    "text": "period pain",
+    "sources": [
+     "adalberto",
+     "bs-ex",
+     "bs-ind"
+    ]
+   },
+   {
+    "text": "irregular periods",
+    "sources": [
+     "adalberto",
+     "bs-ex",
+     "bs-ind"
+    ]
+   }
+  ],
+  "tags": [
+   "menstrual_cramps"
+  ],
+  "whoMatch": false,
+  "whoNote": "Extra point from the WHO 1991 nomenclature; no WHO 2008 text, so location is from independent web sources.",
+  "sources": [
+   {
+    "id": "adalberto",
+    "name": "Attilio D'Alberto Zi Gong",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/zi-gong.php"
+   },
+   {
+    "id": "bs-nd",
+    "name": "Brainscape flashcards: Extra Points and Needling directions (locations)",
+    "url": "https://brainscape.com/flashcards/extra-points-and-needling-directions-5846973/packs/8189512"
+   },
+   {
+    "id": "bs-ex",
+    "name": "Brainscape flashcards: Extraordinary Points (locations, indications)",
+    "url": "https://brainscape.com/flashcards/extraordinary-points-99634/packs/376636"
+   },
+   {
+    "id": "bs-ind",
+    "name": "Brainscape flashcards: extra points (indications, needling)",
+    "url": "https://brainscape.com/flashcards/extra-points-2696167/packs/4528597"
+   }
+  ],
+  "disputed": "",
+  "appFix": "",
+  "pregnancyBasis": "region:lower-abdomen"
+ },
+ {
+  "code": "ANMIAN",
+  "pinyin": "Anmian",
+  "english": "Peaceful Sleep",
+  "region": "neck",
+  "view": "head-side",
+  "find": "Just behind the ear, a little below the bony bump behind the ear, in the soft hollow roughly halfway between it and the earlobe hollow. Press lightly.",
+  "place": {
+   "between": [
+    "earlobe",
+    "mastoid"
+   ],
+   "frac": 0.5
+  },
+  "selfCare": "gentle",
+  "avoidReason": "",
+  "technique": "gentle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "trouble sleeping",
+    "sources": [
+     "adalberto",
+     "pulsetcm",
+     "umn",
+     "bs-ind",
+     "bs-ep"
+    ]
+   },
+   {
+    "text": "headache",
+    "sources": [
+     "pulsetcm",
+     "bs-ind"
+    ]
+   },
+   {
+    "text": "dizziness",
+    "sources": [
+     "adalberto",
+     "pulsetcm",
+     "bs-ind",
+     "bs-ep"
+    ]
+   },
+   {
+    "text": "anxious feelings",
+    "sources": [
+     "adalberto",
+     "pulsetcm"
+    ]
+   }
+  ],
+  "tags": [
+   "sleep",
+   "headache",
+   "stress_anxiety"
+  ],
+  "whoMatch": false,
+  "whoNote": "Modern extra point (not in WHO 1991 or 2008); location from independent web sources. UMN guide advises avoiding firm pressure near the styloid process.",
+  "sources": [
+   {
+    "id": "adalberto",
+    "name": "Attilio D'Alberto An Mian",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/an-mian.php"
+   },
+   {
+    "id": "pulsetcm",
+    "name": "PULSE TCM Singapore An Mian",
+    "url": "https://pulsetcm.sg/bites/an-mian-ex-hn20/"
+   },
+   {
+    "id": "umn",
+    "name": "UMN Taking Charge: insomnia acupoints",
+    "url": "https://takingcharge.csh.umn.edu/survivorship/insomnia-acupoints"
+   },
+   {
+    "id": "bs-ind",
+    "name": "Brainscape flashcards: extra points (indications, needling)",
+    "url": "https://brainscape.com/flashcards/extra-points-2696167/packs/4528597"
+   },
+   {
+    "id": "bs-ep",
+    "name": "Brainscape flashcards: Extra Points (locations, indications)",
+    "url": "https://brainscape.com/flashcards/extra-points-5319804/packs/7879463"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ }
+]
