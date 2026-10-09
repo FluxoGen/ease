@@ -1,7 +1,6 @@
 import type { ReactNode } from 'react';
-import { BackArt, FaceFront, FootSide, FootTop, HandBack, HandPalm, TorsoFront } from '../regions/art';
 import {
-  ArmInner, ArmOuter, FootSole, HeadBack, HeadSide, HeadTop, LegBack, LegFront, LegInner, LegOuter, TorsoSide,
+  ArmInner, BackArt, FaceFront, FootSide, FootTop, HandBack, HandPalm, TorsoFront, ArmOuter, FootSole, HeadBack, HeadSide, HeadTop, LegBack, LegFront, LegInner, LegOuter, TorsoSide,
 } from './art';
 import type { ViewId } from './geometry';
 

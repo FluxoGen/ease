@@ -1,0 +1,49 @@
+[
+  {"code":"SI7","question":"pregnancy","decision":true,
+   "note":"Both agreeing sources give a narrow classical rule (forbidden in the sixth month of pregnancy), not a blanket ban. meandqi's wording closely matches American Dragon's, so it may be copied from it and the two may not be fully independent.",
+   "sources":[
+    {"name":"Me & Qi (meandqi.com)","url":"https://www.meandqi.com/knowledge-base/acupuncture/small-intestine-meridian/zhizheng-si-7","says":"Safety warning: 'Contraindicated during pregnancy'. Caution: 'Classical texts indicate this point is forbidden during the sixth month of pregnancy.'"},
+    {"name":"American Dragon (Dr Joel Penner)","url":"https://www.americandragon.com/Points/SI-7.html","says":"CONTRAINDICATIONS: 'This point is forbidden during the sixth month of pregnancy.'"},
+    {"name":"Yin Yang House","url":"https://www.yinyanghouse.com/theory/acupuncturepoints/si7/","says":"Location, actions and Luo association only. No pregnancy caution."},
+    {"name":"Attilio D'Alberto","url":"https://www.attiliodalberto.com/acupuncture/points/si-7.php","says":"Location, actions, indications and needling. No pregnancy caution."},
+    {"name":"Acupuncture.com","url":"https://www.acupuncture.com/education/points/smallintestine/si7.htm","says":"Location, indications and needling. No pregnancy caution."},
+    {"name":"TCMWiki","url":"https://tcmwiki.com/wiki/zhizheng","says":"Location, indications and method. No pregnancy caution."},
+    {"name":"Atlas of Acupuncture Points (AcupunctureProducts.com, 2007, hosted on chiro.org)","url":"https://chiro.org/acupuncture/ABSTRACTS/FILES/Acupuncture_Points.pdf","says":"SI7 location only. No pregnancy caution. A search-engine summary claiming otherwise was wrong."},
+    {"name":"Dynamic Chiropractic, Amaro, forbidden-points table","url":"https://dynamicchiropractic.com/article/31656","says":"SI7 is not in the forbidden-points list. The SI points listed are SI10, SI11 and SI18."}
+   ]},
+  {"code":"GB2","question":"artery_at_point","decision":true,
+   "note":"The sources say the artery is close to or runs through the point region, not exactly under the point. A caution to press beside the pulse is consistent with them.",
+   "sources":[
+    {"name":"Me & Qi (meandqi.com)","url":"https://www.meandqi.com/knowledge-base/acupuncture/gall-bladder-meridian/tinghui-gb-2","says":"'This point is located close to the superficial temporal artery and auriculotemporal nerve... Avoid deep or aggressive needling.' Flags it as a 'Dangerous point - requires extra caution'."},
+    {"name":"Chinese Acupuncture & Wellness (cnacupuncture.com)","url":"http://cnacupuncture.com/points-of-the-gallbladder-meridian-of-foot-shaoyang.html","says":"Regional anatomy: 'Vasculature: The superficial temporal artery. Innervation: The great auricular nerve and facial nerve.'"},
+    {"name":"A+ Medical Encyclopedia (a-hospital.com) entry for 听会穴","url":"https://www.a-hospital.com/w/%E5%90%AC%E4%BC%9A%E7%A9%B4","says":"Anatomy: '有颞浅动脉耳前支，深部为颈外动脉及面后静脉' (the anterior auricular branch of the superficial temporal artery is at the point, with the external carotid artery deeper); also '布有...颞浅动脉'."},
+    {"name":"Yin Yang House","url":"https://www.yinyanghouse.com/theory/acupuncturepoints/gb2/","says":"Location and actions only. No anatomy or artery mention."},
+    {"name":"Attilio D'Alberto","url":"https://www.attiliodalberto.com/acupuncture/points/gb-2.php","says":"Location and needling with mouth slightly open. No artery mention."},
+    {"name":"Acupuncture.com","url":"https://www.acupuncture.com/education/points/gallbladder/gb2.htm","says":"Location and needling. No artery mention."},
+    {"name":"TCMWiki","url":"https://tcmwiki.com/wiki/tinghui","says":"Location and method. No artery mention."},
+    {"name":"AcuMeridianPoints","url":"https://acumeridianpoints.com/gall-bladder/gb-2-tinghui/","says":"Location and indications. No artery mention."},
+    {"name":"Atlas of Acupuncture Points (chiro.org PDF)","url":"https://chiro.org/acupuncture/ABSTRACTS/FILES/Acupuncture_Points.pdf","says":"Location only. No artery mention."}
+   ]},
+  {"code":"ST25","question":"pregnancy","decision":true,
+   "sources":[
+    {"name":"Me & Qi (meandqi.com)","url":"https://www.meandqi.com/knowledge-base/acupuncture/stomach-meridian/tianshu-st-25","says":"Safety warning: 'Contraindicated during pregnancy (especially after the first trimester) as strong stimulation may affect the uterus.'"},
+    {"name":"Satyori","url":"https://satyori.com/tcm/acupressure/st-25-tianshu/","says":"Acupressure page, Contraindications & Cautions: 'Avoid during pregnancy.'"},
+    {"name":"TCMWiki","url":"https://tcmwiki.com/wiki/tianshu","says":"'Women with 3 month or over pregnancy cannot be punctured.'"},
+    {"name":"Dynamic Chiropractic, Amaro, forbidden-points table","url":"https://dynamicchiropractic.com/article/31656","says":"Lists 'ST 25 - Needle during pregnancy' as a forbidden stimulation."},
+    {"name":"Acupuncture.com","url":"https://www.acupuncture.com/education/points/stomach/st25.htm","says":"'Do not moxa during pregnancy, according to the Prescriptions Worth a Thousand Gold.'"},
+    {"name":"Attilio D'Alberto","url":"https://www.attiliodalberto.com/acupuncture/points/st-25.php","says":"'Avoid deep needling during pregnancy.'"},
+    {"name":"Yin Yang House","url":"https://www.yinyanghouse.com/theory/acupuncturepoints/st25/","says":"No pregnancy caution."},
+    {"name":"Atlas of Acupuncture Points (chiro.org PDF)","url":"https://chiro.org/acupuncture/ABSTRACTS/FILES/Acupuncture_Points.pdf","says":"Location only. No pregnancy caution."}
+   ]},
+  {"code":"SP4","question":"pregnancy","decision":false,
+   "note":"Only one source gives a soft caution, and none says to avoid the point. Attilio D'Alberto uses SP4 with PC6 for morning sickness.",
+   "sources":[
+    {"name":"Me & Qi (meandqi.com)","url":"https://www.meandqi.com/knowledge-base/acupuncture/spleen-meridian/gongsun-sp-4","says":"'use with caution during pregnancy, especially with strong stimulation or sedation technique' (because of its Chong Mai effect on the uterus). This is a caution, not a contraindication."},
+    {"name":"Attilio D'Alberto","url":"https://www.attiliodalberto.com/acupuncture/points/sp-4.php","says":"No pregnancy caution. Recommends SP4 with PC6 for morning sickness."},
+    {"name":"Yin Yang House","url":"https://www.yinyanghouse.com/theory/acupuncturepoints/sp4/","says":"No pregnancy caution."},
+    {"name":"Acupuncture.com","url":"https://www.acupuncture.com/education/points/spleen/sp4.htm","says":"No pregnancy caution. Lists retention of placenta and postpartum faintness among its indications."},
+    {"name":"TCMWiki","url":"https://tcmwiki.com/wiki/gongsun","says":"No pregnancy caution."},
+    {"name":"Atlas of Acupuncture Points (chiro.org PDF)","url":"https://chiro.org/acupuncture/ABSTRACTS/FILES/Acupuncture_Points.pdf","says":"No pregnancy caution for SP4. The 'contraindicated in pregnancy' line in that section is for SP6."},
+    {"name":"Dynamic Chiropractic, Amaro, forbidden-points table","url":"https://dynamicchiropractic.com/article/31656","says":"SP4 is not listed. The spleen points listed are SP2, SP6 and SP7."}
+   ]}
+]

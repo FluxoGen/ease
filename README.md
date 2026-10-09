@@ -46,6 +46,20 @@ python3 scripts/unit_audit.py <who_entries.json>   # distance wording vs WHO num
 Research inputs (author records, verifier verdicts, hand-checked positions, lead fixes, pregnancy
 audit) are kept in `sources/library-research/` for provenance.
 
+### Licensed acupuncturist review
+
+`sources/review/acupuncturist-review.csv` lists every point, most important first (safety and
+pregnancy flags, disputed locations, routine lead points, extra points, then the rest), with a link to
+its page. A reviewer fills the four `REVIEW_` columns; then:
+
+```bash
+python3 scripts/import_review.py filled.csv "Name, L.Ac." 2026-11-01
+python3 scripts/assemble_library.py && python3 scripts/check_library.py
+```
+
+Signed-off points show "Reviewed by …" in the app; rejected ones become "References differ" with the
+reviewer's note. Regenerate the sheet with `python3 scripts/review_sheet.py > sources/review/acupuncturist-review.csv`.
+
 ## History
 
 The notes below record how the app got here.

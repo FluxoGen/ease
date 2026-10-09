@@ -26,6 +26,8 @@ export interface LibraryPoint {
   sources: Array<{ s: string; p?: string }>;
   evidence: Evidence;
   note?: string;
+  /** Set when a licensed acupuncturist has signed off this point. */
+  reviewed?: { by: string; date: string };
   avoidReason?: string;
   /** VA handout photo key (file stem in src/assets/points). */
   image?: string;

@@ -112,6 +112,8 @@ def main():
             verdicts[v['code']] = v
     positions = json.load(open(os.path.join(R, 'positions.json')))
     lead_fixes = json.load(open(os.path.join(R, 'lead_fixes.json')))
+    review_path = os.path.join(R, 'review.json')  # licensed acupuncturist sign-off (scripts/import_review.py)
+    review = json.load(open(review_path)) if os.path.exists(review_path) else {}
     audit = {a['id']: a for a in json.load(open(os.path.join(R, 'pregnancy_audit.json')))}
     audit_flag = set()
     for app_id, a in audit.items():
@@ -135,6 +137,9 @@ def main():
         for k, val in lead_fixes.get(code, {}).items():
             if k not in ('reason', 'evidence', 'note'):
                 rec[k] = val
+        rv = review.get(code)
+        if rv and rv.get('find'):
+            rec['find'] = rv['find']
         # sources
         srcs, by_author_id = [], {}
         for s in rec['sources']:
@@ -191,6 +196,12 @@ def main():
             note = lf['note']
         elif note:
             note = ''  # verifier wording is internal; only lead-written notes are shown to users
+        if rv:
+            if rv.get('reviewed'):
+                item['reviewed'] = {'by': rv['by'], 'date': rv['date']}
+            else:
+                item['evidence'] = 'disputed'
+                note = rv['dispute']
         if note:
             item['note'] = note
         if 'xy' in pos:

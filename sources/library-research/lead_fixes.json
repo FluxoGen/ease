@@ -159,6 +159,21 @@
  },
  "EX-B9": {
   "note": "References differ on the height. This follows the version two thumb-widths above the tip of the tailbone.",
-  "reason": "plain-language dispute note"
+  "reason": "EX distance check: previous text described the sacral hiatus, below this point",
+  "find": "On the middle line of the lower back, on the flat triangular bone at the base of the spine (the sacrum), three finger-widths above the tip of the tailbone, in the small dip there."
+ },
+ "ST25": {
+  "pregnancy": true,
+  "reason": "caution check: 4 sources say avoid in pregnancy"
+ },
+ "SI7": {
+  "pregnancy": true,
+  "reason": "caution check: 2 sources (classical sixth-month rule); borderline, kept cautious"
+ },
+ "GB2": {
+  "cautions": [
+   "pulse"
+  ],
+  "reason": "caution check: superficial temporal artery beside the point (3 sources)"
  }
 }

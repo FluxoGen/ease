@@ -68,6 +68,12 @@ export default function PointDetail() {
           how we check
         </Link>
       </p>
+      {point.reviewed && (
+        <p className="mt-1 flex items-center gap-1.5 text-xs font-semibold text-[#3c7a52] dark:text-[#8fd1a6]">
+          <BadgeCheck size={16} />
+          Reviewed by {point.reviewed.by}, {point.reviewed.date}
+        </p>
+      )}
 
       {blocked ? (
         <div className="mt-4 flex gap-3 rounded-xl border border-warn-500/40 bg-warn-50 p-4 dark:bg-warn-500/10">
