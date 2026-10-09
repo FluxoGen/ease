@@ -1,0 +1,17 @@
+{
+  "name": "ease-qa",
+  "private": true,
+  "type": "module",
+  "description": "Browser and Android-emulator QA for Ease (kept separate so the app itself stays dependency-light).",
+  "scripts": {
+    "web": "node run.mjs web",
+    "app": "node run.mjs app",
+    "android": "node run.mjs android",
+    "all": "node run.mjs all"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.13.0",
+    "playwright": "1.63.0",
+    "pngjs": "^7.0.0"
+  }
+}

@@ -25,9 +25,12 @@ Wellness education only. Not medical advice. Language is "traditionally used for
 | Routines | **23** symptom routines, built automatically from point tags |
 | Pictures | 19 original body-view drawings (placed by WHO cun measurements) + 21 VA handout photos |
 | Safety | 45 points pregnancy-flagged, 16 reference-only (never pressable), 78 gentle-touch |
-| Stack | React 19, TypeScript 6, Vite 8, Tailwind CSS v4, react-router 7, Headless UI, vite-plugin-pwa |
-| Backend | none; static data, works offline |
-| Review status | **not yet reviewed by a licensed acupuncturist** (stated on the Safety page) |
+| Stack | React 19, TypeScript 6, Vite 8, Tailwind CSS v4, react-router 7, Headless UI, vite-plugin-pwa, Capacitor 8 (Android) |
+| Platforms | Website (PWA, https://ease-murex.vercel.app) and Android app (Google Play), one codebase |
+| Backend | none; static data, works offline, no network calls in the code |
+| User data | three small settings on the device (pregnancy answer, appearance, a dismissed-card date); nothing is sent anywhere |
+| Version | 1.0.0, build 1 (`package.json` is the single source) |
+| Review status | **not yet reviewed by a licensed acupuncturist** (stated on the Safety guide) |
 
 ## Features
 
@@ -36,11 +39,17 @@ Wellness education only. Not medical advice. Language is "traditionally used for
 - **All points** (`/points`): search plus area and channel filters over the whole library.
 - **Point page**: picture, "Find it", technique, cautions, evidence chip, and a **guided press**
   (full-screen timer, 4 s in / 6 s out breathing dot, side switching, screen wake lock, next-point hand-off).
-- **Pregnancy gate**: users say once whether they are pregnant or not sure; flagged points then show a
-  warning instead of instructions, everywhere.
-- **Safety page**: urgent signs, pressing rules, color legend, how locations were checked.
-- **PWA**: installable, fully offline after first load (~46 precached files, about 2 MB).
-- **Light and dark**, responsive from small phones to desktop, large-text safe, WCAG AA contrast.
+- **Pregnancy, never a blocker**: nothing is asked on first launch. Home offers an optional, dismissible card, and a
+  point that is traditionally avoided in pregnancy asks in place (and won't start) until answered. Pregnant or not
+  sure sets those points aside everywhere. Change it any time in Settings.
+- **Settings tab**: Appearance (System / Light / Dark), Pregnancy, links to the Safety guide, About, privacy and feedback.
+- **Safety guide** (`/safety`): urgent signs, when to skip or stop, how locations were checked. **About** (`/about`): FluxoGen, version, privacy, credits.
+- **Light, dark or system**: a sun/moon button in the top bar and an Appearance choice in Settings; the switch is one smooth circular reveal.
+- **Version and build number** are shown in Settings and About.
+- **PWA**: installable, fully offline after first load (about 50 precached files, about 2.1 MB).
+- **Android app**: fully offline (no INTERNET permission), with its own mobile layout (app bar, navigation bar, bottom
+  sheets, touch ripple), see below.
+- Responsive from a 320 dp phone to a tablet and desktop, large-text safe (2x), WCAG AA contrast.
 
 ## Quick start
 
@@ -53,6 +62,7 @@ npm run build      # tsc -b && vite build -> dist/ (+ service worker)
 npm run preview    # serves dist/ at http://localhost:4173 with the service worker
 npm run lint       # oxlint
 npm run check      # library rules check + WCAG contrast check
+npm run android    # Android: native build + cap sync + open Android Studio
 npx tsc -b         # type-check only
 ```
 
@@ -63,25 +73,49 @@ Test offline: open the preview once online, then DevTools > Network > Offline an
 
 Dev-only route `/atlas-dev` draws all 19 views with every point labelled, for visual placement checks.
 
+## Android app
+
+The same code ships for Android with Capacitor 8, fully offline (no INTERNET permission, no network calls). In the app the
+UI is a dedicated layout (not the website in a wrapper): top app bar, Material navigation bar (a rail on tablets and in
+landscape), bottom action bar and sheets, touch ripple, screen transitions.
+
+```bash
+npm run android        # build, sync and open Android Studio, then press Run
+npm run android:sync   # after a web change: rebuild and copy into android/
+```
+
+If Studio shows a Gradle build error, set Gradle JDK to the embedded JDK 21 (see `docs/android.md`). Release steps, native
+behaviour and the Play checklist: [`docs/android.md`](docs/android.md). Privacy policy and terms (FluxoGen/legal repo):
+https://fluxogen.github.io/legal/ease/privacy/ and https://fluxogen.github.io/legal/ease/terms/ (**update them whenever the
+app stores or sends something new**).
+
+**Version:** edit `version` and `config.androidVersionCode` in `package.json` (Gradle reads both); raise
+`androidVersionCode` by 1 for every Play upload.
+
 ## Repository map
 
 ```
 src/
-  main.tsx, App.tsx        routes, shell (header, tab bar, footer, pregnancy gate)
-  pages/                   Home, RoutineDetail, PointDetail, AllPoints, BodyMap, Safety
-  components/              PointCard/Row/Picture, PressSheet, BodyFigure, BottomNav, ui/*
+  main.tsx, App.tsx        routes; the website shell or the Android AppLayout
+  pages/                   Home, RoutineDetail, PointDetail, AllPoints, BodyMap, Settings, Safety, About
+  components/              PointCard/Row/Picture, PressSheet, PregnancyPrompt, ThemeToggle, VersionLine, ui/*
+  components/app/          Android app layout: app bar, navigation bar, sheets
   components/atlas/        drawings (art.tsx), landmarks (geometry.ts), placer (place.ts)
   data/library/            points.json (generated), index.ts, shared.ts, areas.ts, photos.ts
   data/                    routines.ts, search.ts, nav.ts, groups.ts
+  native.ts, theme.ts,     Android glue (no-op on the web), light/dark/system, version + build number
+  version.ts
   context/, hooks/         pregnancy state, page titles
+android/                   Capacitor Android project (see docs/android.md)
+qa/                        browser + emulator QA suites (own package, see qa/README.md)
 scripts/                   assemble_library.py, check_library.py, unit_audit.py,
                            review_sheet.py, import_review.py, contrast_check.mjs
 sources/                   VA PDFs + every research, verification and review record
-docs/                      architecture.md, design-system.md, library-pipeline.md,
-                           placement-vocab.json, history.md
+docs/                      README (index), architecture.md, android.md, design-system.md,
+                           library-pipeline.md, placement-vocab.json, history.md
 ```
 
-Deeper detail: **[`docs/architecture.md`](docs/architecture.md)**.
+Deeper detail: **[`docs/architecture.md`](docs/architecture.md)** (index of all docs: [`docs/README.md`](docs/README.md)).
 
 ## The point library
 
@@ -121,7 +155,7 @@ Regenerate the sheet with `python3 scripts/review_sheet.py > sources/review/acup
 
 One semantic token system in `src/index.css` (spec: [`docs/design-system.md`](docs/design-system.md)). No component
 hard-codes a color. Color meaning: green = matches WHO, blue = cross-checked, amber = caution,
-rose = reference only / do not self-press (red is never used for information).
+rose = reference only / do not self-press (red is never used for information). Dark mode is a warm charcoal.
 
 ## Deploy
 
@@ -131,9 +165,9 @@ host works: `npm run build` and serve `dist/` with an SPA fallback.
 ## Quality checks
 
 `npm run check`, `npx tsc -b`, `npm run lint` and `npm run build` are the repo-level gates.
-Browser QA (Playwright on Chromium and WebKit, axe-core, a 13-viewport sweep, all 412 pages, timer flows)
-was run before each release but **those scripts are not in this repo**. Not yet tested: Firefox, and
-vibration/wake-lock on a real device (vibration was removed on purpose).
+Browser and Android QA (Playwright, axe-core, a 13-viewport sweep, timer and pregnancy flows, theme, an emulator
+suite and a six-screen-size tour) lives in [`qa/`](qa/README.md): `npm run qa:install`, then `npm run qa:web`,
+`npm run qa:app`, `npm run qa:android`. Not yet tested: Firefox, and real devices (emulators only).
 
 ## Development gotchas
 
@@ -147,7 +181,7 @@ vibration/wake-lock on a real device (vibration was removed on purpose).
 
 - No licensed acupuncturist review yet.
 - Markers are missing on the 21 VA handout photos (they carry their own); leg drawings have no drawn knee/ankle.
-- Browser QA scripts are outside the repo.
+- QA runs on emulators only; no real-device runs yet.
 - Older history: [`docs/history.md`](docs/history.md).
 
 ## Ownership and legal

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Android WebView sets the page's prefers-color-scheme from the theme's isLightTheme (API 29+).
+     Light here; values-night-v29 says dark. The web app does its own dark styling, so no force-dark. -->
+<resources>
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:background">@null</item>
+        <item name="android:windowBackground">@color/ease_paper</item>
+        <item name="android:isLightTheme">true</item>
+        <item name="android:forceDarkAllowed">false</item>
+    </style>
+</resources>

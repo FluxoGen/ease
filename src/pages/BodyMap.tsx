@@ -1,4 +1,4 @@
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, X } from 'lucide-react';
 import { useMemo, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import BodyFigure, { type BodyView } from '../components/BodyFigure';
@@ -48,10 +48,10 @@ export default function BodyMap() {
   return (
     <div className="lg:grid lg:grid-cols-[minmax(0,24rem)_1fr] lg:gap-12">
       <div>
-        <h1 className="text-[28px] font-extrabold leading-tight tracking-tight md:text-4xl">Where does it hurt?</h1>
-        <p className="mt-1.5 text-[15px] text-ink-2">Tap the area on the body.</p>
+        <h1 className="text-[28px] font-extrabold leading-tight tracking-tight md:text-4xl app:sr-only">Where does it hurt?</h1>
+        <p className="mt-1.5 text-[15px] text-ink-2 app:mt-1 app:text-center">Tap the area on the body.</p>
 
-        <div role="group" aria-label="Body side" className="mt-4 grid w-full max-w-[16rem] grid-cols-2 rounded-full border border-line bg-card-2 p-1">
+        <div role="group" aria-label="Body side" className="mt-4 grid w-full max-w-[16rem] grid-cols-2 rounded-full border border-line bg-card-2 p-1 app:mx-auto app:max-w-xs">
           {(['front', 'back'] as const).map((v) => (
             <button
               key={v}
@@ -65,17 +65,20 @@ export default function BodyMap() {
           ))}
         </div>
 
-        <div className="mx-auto mt-4 w-full max-w-[17rem] rounded-[28px] border border-line bg-atlas-paper px-6 py-5 lg:max-w-none">
-          <BodyFigure view={view} selected={area} onSelect={pick} counts={counts} className="mx-auto block h-[22rem] w-auto max-w-full md:h-[28rem] lg:h-[32rem]" />
+        <div className="mx-auto mt-4 w-full max-w-[17rem] rounded-[28px] border border-line bg-atlas-paper px-6 py-5 lg:max-w-none app:border-0 app:py-3">
+          <BodyFigure view={view} selected={area} onSelect={pick} counts={counts} className={`mx-auto block h-[22rem] w-auto max-w-full md:h-[28rem] lg:h-[32rem] app:transition-[height] app:duration-200 ${info ? 'app:h-[max(18rem,min(17rem,31dvh))]' : 'app:h-[max(21rem,min(30rem,52dvh))]'}`} />
         </div>
       </div>
 
-      <div ref={panel} className="mt-6 lg:mt-[5.25rem]" aria-live="polite">
+      <div ref={panel} className={`mt-6 lg:mt-[5.25rem] ${info ? 'app:pb-56' : ''}`} aria-live="polite">
         {info ? (
-          <section className="rounded-[var(--radius-card)] border border-line bg-card p-5 shadow-card">
+          <section className="rounded-[var(--radius-card)] border border-line bg-card p-5 shadow-card app:app-sheet app:fixed app:inset-x-0 app:bottom-[var(--nav-h)] app:z-20 app:mx-auto app:max-w-3xl app:rounded-b-none app:border-x-0 app:border-b-0 app:pb-4 app:pt-5 app:shadow-pop wide:app:bottom-0">
             <div className="flex items-baseline justify-between gap-3">
               <h2 className="text-xl font-extrabold tracking-tight">{info.label}</h2>
-              <Chip tone="accent" className="tnum">{counts[info.id] ?? 0} points</Chip>
+              <span className="flex items-center gap-1">
+                <Chip tone="accent" className="tnum">{counts[info.id] ?? 0} points</Chip>
+                <button type="button" aria-label="Close" data-back-closes onClick={() => setArea(null)} className="-mr-2 hidden h-11 w-11 items-center justify-center rounded-full text-ink-2 app:flex"><X size={20} aria-hidden="true" /></button>
+              </span>
             </div>
             {related.length > 0 && (
               <>
@@ -100,7 +103,7 @@ export default function BodyMap() {
             </LinkButton>
           </section>
         ) : (
-          <p className="rounded-[var(--radius-card)] border border-dashed border-line-strong p-5 text-[15px] text-ink-2">
+          <p className="rounded-[var(--radius-card)] border border-dashed border-line-strong p-5 text-[15px] text-ink-2 app:hidden">
             Pick a spot to see the points there and the symptoms they're traditionally used for.
           </p>
         )}

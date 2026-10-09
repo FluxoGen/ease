@@ -1,0 +1,32 @@
+// QA web/press: guided press timer: opens Ready, Start/Pause/Resume, Restart / Other side / Repeat wait for Start. Fake clock.
+// Needs the production build served: npm run build && npm run preview
+import { chromium } from 'playwright';
+import { WEB } from '../lib/env.mjs';
+const b = await chromium.launch(); const ctx = await b.newContext({ viewport: { width: 412, height: 915 }, hasTouch: true });
+await ctx.addInitScript(() => localStorage.setItem('ease.pregnancyStatus', 'no'));
+const p = await ctx.newPage(); await p.clock.install({ time: 0 });
+await p.goto(WEB + '/point/pc6'); await p.waitForTimeout(300);
+const t = () => p.locator('[role=timer] p').first().textContent();
+const st = () => p.locator('[role=timer] p').nth(1).textContent();
+const out = []; const ok = (n, c, d = '') => { out.push(`${c ? 'PASS' : 'FAIL'}  ${n} ${d}`); };
+await p.getByRole('button', { name: /Start press/ }).last().click(); await p.clock.runFor(3000); await p.waitForTimeout(200);
+ok('opening the press does not start the timer (Ready, full time)', (await t()) === '1:00' && (await st()) === 'Ready', await t());
+await p.getByRole('button', { name: 'Start', exact: true }).click(); await p.clock.runFor(12000); await p.waitForTimeout(200);
+ok('running counts down', (await t()) !== '1:00' && /Breathe/.test(await st()), await t());
+await p.getByRole('button', { name: 'Restart' }).click(); await p.waitForTimeout(200);
+ok('Restart resets to full time', (await t()) === '1:00', await t());
+ok('...and stays ready, not running', (await st()) === 'Ready' && await p.getByRole('button', { name: 'Start', exact: true }).count() === 1, await st());
+await p.clock.runFor(5000); await p.waitForTimeout(200);
+ok('...time does not move on its own', (await t()) === '1:00', await t());
+await p.getByRole('button', { name: 'Start', exact: true }).click(); await p.clock.runFor(4000); await p.waitForTimeout(200);
+ok('Start begins counting', (await t()) !== '1:00', await t());
+await p.getByRole('button', { name: 'Pause' }).click(); await p.waitForTimeout(100);
+ok('Pause then shows Resume (not Start)', await p.getByRole('button', { name: 'Resume' }).count() === 1 && (await st()) === 'Paused');
+await p.getByRole('button', { name: 'Resume' }).click(); await p.clock.runFor(60000); await p.waitForTimeout(300);
+ok('finish shows Nicely done', await p.getByText('Nicely done.').count() === 1);
+await p.getByRole('button', { name: 'Other side' }).click(); await p.waitForTimeout(200);
+ok('Other side waits at full time for you to start', (await t()) === '1:00' && (await st()) === 'Ready' && /Side 2 of 2/.test(await p.locator('[role=timer]').textContent()), await t());
+await p.getByRole('button', { name: 'Start', exact: true }).click(); await p.clock.runFor(60000); await p.waitForTimeout(300);
+await p.getByRole('button', { name: 'Repeat' }).click(); await p.waitForTimeout(200);
+ok('Repeat also waits for Start', (await t()) === '1:00' && (await st()) === 'Ready', await t());
+console.log(out.join('\n')); await b.close();

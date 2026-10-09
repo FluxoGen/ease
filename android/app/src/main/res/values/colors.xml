@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Mirrors the web tokens in src/index.css (light). Dark values live in values-night/colors.xml. -->
+<resources>
+    <color name="ease_paper">#F6F3EC</color>
+    <color name="ease_ink">#22302B</color>
+    <color name="ease_accent">#C8734F</color>
+    <color name="colorPrimary">#22302B</color>
+    <color name="colorPrimaryDark">#F6F3EC</color>
+    <color name="colorAccent">#8A4A30</color>
+</resources>

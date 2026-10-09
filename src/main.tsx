@@ -8,11 +8,18 @@ import Home from './pages/Home.tsx'
 import RoutineDetail from './pages/RoutineDetail.tsx'
 import PointDetail from './pages/PointDetail.tsx'
 import Safety from './pages/Safety.tsx'
+import Settings from './pages/Settings.tsx'
+import About from './pages/About.tsx'
 import BodyMap from './pages/BodyMap.tsx'
 import AllPoints from './pages/AllPoints.tsx'
 import AtlasSweep from './dev/AtlasSweep.tsx'
+import { hideSplash, restoreNativeState } from './native'
+import { initTheme } from './theme'
 
-createRoot(document.getElementById('root')!).render(
+// Android: restore saved settings before the first render (instant on the web).
+restoreNativeState().finally(() => {
+  initTheme()
+  createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <BrowserRouter>
       <Routes>
@@ -21,6 +28,8 @@ createRoot(document.getElementById('root')!).render(
           <Route path="routine/:routineId" element={<RoutineDetail />} />
           <Route path="point/:pointId" element={<PointDetail />} />
           <Route path="safety" element={<Safety />} />
+          <Route path="settings" element={<Settings />} />
+          <Route path="about" element={<About />} />
           <Route path="map" element={<BodyMap />} />
           <Route path="points" element={<AllPoints />} />
           {import.meta.env.DEV && <Route path="atlas-dev" element={<AtlasSweep />} />}
@@ -30,3 +39,6 @@ createRoot(document.getElementById('root')!).render(
     </BrowserRouter>
   </StrictMode>,
 )
+  // Never leave the Android splash up, even if the first render fails.
+  setTimeout(hideSplash, 3000)
+})

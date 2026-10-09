@@ -44,38 +44,52 @@
   --atlas-eye: #ffffff;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
+/* Dark = the system says dark, unless the Android app has said light; or the Android app says dark.
+   (Android's WebView only reads the system theme at start, so the app reports live switches via
+   data-theme on <html>; see MainActivity.java. The website never sets it.) */
+@custom-variant theme-dark {
+  @media (prefers-color-scheme: dark) {
+    &:is(:root:not([data-theme='light']), :root:not([data-theme='light']) *) {
+      @slot;
+    }
+  }
+  &:is([data-theme='dark'], [data-theme='dark'] *) {
+    @slot;
+  }
+}
+
+:root {
+  @variant theme-dark {
     color-scheme: dark;
-    --paper: #1a2420;
-    --card: #25322d;
-    --card-2: #2f3e38;
+    --paper: #191715;
+    --card: #242120;
+    --card-2: #2e2a27;
     --ink: #f2eee5;
-    --ink-2: #b9c1ba;
-    --ink-3: #8b958e;
+    --ink-2: #bdb6ab;
+    --ink-3: #8f887d;
     --line: rgb(246 243 236 / 0.1);
     --line-strong: rgb(246 243 236 / 0.2);
 
     --accent: #e08a63;
     --accent-strong: #eba684;
-    --on-accent: #1a2420;
-    --accent-tint: #3d3029;
+    --on-accent: #191715;
+    --accent-tint: #3a2b24;
 
     --ok: #8fd1a6;
-    --ok-tint: #213a2d;
+    --ok-tint: #232b26;
     --info: #9cc3e0;
-    --info-tint: #20323f;
+    --info-tint: #232a31;
     --caution: #f0d79a;
-    --caution-tint: #3a3220;
+    --caution-tint: #372f22;
     --caution-line: #6b5830;
     --stop: #f2a8a1;
-    --stop-tint: #3d2523;
+    --stop-tint: #3b2523;
     --stop-line: #774640;
 
     --shadow-card: 0 0 0 transparent;
     --shadow-pop: 0 24px 48px -16px rgb(0 0 0 / 0.6);
 
-    --atlas-paper: #1d2824;
+    --atlas-paper: #211e1c;
     --atlas-skin: #4a3b34;
     --atlas-shade: #5d4a40;
     --atlas-line: #d1a688;
@@ -87,17 +101,23 @@
   }
 }
 
-/* "wide" = tablet/desktop layout chrome: width >= 768px, or a short landscape phone (tab bar would eat half the height). */
+/* "wide" = tablet/desktop layout chrome: width >= 768px (in rem, so large text keeps it narrow), or a short landscape
+   phone (tab bar would eat half the height). The short-screen test uses px, not rem: rem inside a media query grows
+   with the system font size, which would make a tall portrait screen count as "short" at large text. */
 @custom-variant wide {
   @media (min-width: 48rem) {
     @slot;
   }
-  @media (max-height: 31.25rem) and (min-width: 35rem) {
+  @media (max-height: 500px) and (min-width: 560px) {
     @slot;
   }
 }
-/* Short screens: let the header scroll away instead of pinning it. */
-@media (max-height: 31.25rem) { header.sticky { position: static; } }
+/* App layout (Android app): utilities like app:hidden apply only under <html data-app>. */
+@custom-variant app (&:where([data-app] *));
+@custom-variant web (&:where(:root:not([data-app]) *));
+
+/* Short screens on the website: let the header scroll away instead of pinning it. */
+@media (max-height: 500px) { :root:not([data-app]) header.sticky { position: static; } }
 
 @theme inline {
   --color-paper: var(--paper);
@@ -179,8 +199,10 @@ body {
 .no-scrollbar::-webkit-scrollbar { display: none; }
 
 /* Handout photos are pure white; soften them at night (migraine and photophobia friendly). */
-@media (prefers-color-scheme: dark) {
-  .photo { filter: brightness(0.86) contrast(1.02); }
+.photo {
+  @variant theme-dark {
+    filter: brightness(0.86) contrast(1.02);
+  }
 }
 
 /* Tab bar tucks away on scroll down; the floating press bar drops to the bottom with it. */
@@ -191,3 +213,55 @@ body {
 
 /* A single very long word (large text on a small phone) breaks instead of pushing the page sideways. */
 h1, h2, h3 { overflow-wrap: anywhere; }
+
+/* Theme switch (src/theme.ts): no element fades on its own, so every colour changes in the same frame; the
+   circular reveal is one view transition on the whole page. */
+:root[data-theme-switching] *, :root[data-theme-switching] *::before, :root[data-theme-switching] *::after {
+  transition: none !important;
+}
+::view-transition-old(root), ::view-transition-new(root) { animation: none; mix-blend-mode: normal; }
+::view-transition-old(root) { z-index: 1; }
+::view-transition-new(root) { z-index: 2; }
+
+/* ---- App layout (only under <html data-app>) ---- */
+:root[data-app] {
+  overscroll-behavior: none;
+  --nav-h: 5rem;
+}
+/* An app is not a document: no text selection or long-press menus, except where you type or copy. */
+[data-app] body {
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+}
+[data-app] input, [data-app] textarea, [data-app] .selectable {
+  -webkit-user-select: text;
+  user-select: text;
+}
+[data-app] img { -webkit-user-drag: none; }
+
+/* Screen transitions: forward slides in, back and tab switches fade. */
+@keyframes app-push { from { opacity: 0; transform: translateX(28px); } to { opacity: 1; transform: none; } }
+@keyframes app-pop { from { opacity: 0; transform: translateX(-18px); } to { opacity: 1; transform: none; } }
+@keyframes app-fade { from { opacity: 0; } to { opacity: 1; } }
+@keyframes app-sheet { from { transform: translateY(100%); } to { transform: none; } }
+/* `backwards`, not `both`: once finished the wrapper must hold no transform, or it becomes the containing block for fixed bars. */
+.app-screen { animation: app-fade 0.18s ease-out backwards; }
+.app-screen.push { animation: app-push 0.24s cubic-bezier(0.2, 0.8, 0.2, 1) backwards; }
+.app-screen.pop { animation: app-pop 0.2s cubic-bezier(0.2, 0.8, 0.2, 1) backwards; }
+.app-sheet { animation: app-sheet 0.26s cubic-bezier(0.2, 0.8, 0.2, 1) both; }
+
+/* Touch ripple (see initRipple in src/native.ts). */
+.app-ripple { position: fixed; overflow: hidden; pointer-events: none; z-index: 60; contain: strict; }
+.app-ripple > i { position: absolute; border-radius: 50%; background: currentColor; opacity: 0.14; transform: scale(0); animation: app-ripple-grow 0.5s cubic-bezier(0.2, 0.6, 0.2, 1) forwards; }
+.app-ripple.out { transition: opacity 0.3s ease; opacity: 0; }
+@keyframes app-ripple-grow { to { transform: scale(1); } }
+
+/* Detail screens (point, routine) use a bottom action bar instead of the navigation bar. */
+[data-app] .pressbar { bottom: 0; padding-bottom: calc(0.75rem + env(safe-area-inset-bottom)); }
+
+/* Short landscape phones: a slimmer action bar. */
+@media (max-height: 500px) {
+  [data-app] .pressbar { padding-top: 0.5rem; padding-bottom: calc(0.5rem + env(safe-area-inset-bottom)); }
+  [data-app] .pressbar a, [data-app] .pressbar button { min-height: 3rem; }
+}

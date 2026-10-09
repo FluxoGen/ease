@@ -37,3 +37,13 @@ playwright-report
 
 # Phase 3 sweep data (generated)
 src/dev/records.json
+
+# Android signing keys (never commit)
+*.jks
+*.keystore
+keystore.properties
+android/app/release/
+
+# QA
+qa/node_modules/
+qa/out/

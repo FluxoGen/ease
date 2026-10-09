@@ -1,4 +1,4 @@
-import { useLayoutEffect, useRef } from 'react';
+import { useId, useLayoutEffect, useRef } from 'react';
 import { VIEWS, type ViewId, type XY } from './geometry';
 import { VIEW_ART } from './views';
 
@@ -35,6 +35,10 @@ export default function AtlasDiagram({ view, marks, className, compact, full, la
   const vh = full ? H : wh;
   const r = Math.max(4, (full ? Math.min(W, 300) : ww) * (marks.length > 2 ? 0.018 : 0.03));
   const Art = VIEW_ART[view];
+  const fade = useId();
+  // The crop cuts through the drawing (a thumb, a knuckle line). Fade the cut edges softly into the card so
+  // they read as a zoom, not a bug. The marker is drawn on top and stays crisp.
+  const fx = vw * 0.07, fy = vh * 0.07;
   const ref = useRef<SVGSVGElement>(null);
   // A label cut by the crop edge reads as a bug; hide any landmark label that isn't fully inside.
   useLayoutEffect(() => {
@@ -52,7 +56,23 @@ export default function AtlasDiagram({ view, marks, className, compact, full, la
       role="img"
       aria-label={g.label}
     >
-      <Art />
+      {full ? (
+        <Art />
+      ) : (
+        <>
+          <defs>
+            <linearGradient id={`${fade}-h`} x1={vx} x2={vx + vw} y1={0} y2={0} gradientUnits="userSpaceOnUse">
+              <stop offset="0" stopColor="#000" /><stop offset={fx / vw} stopColor="#fff" /><stop offset={1 - fx / vw} stopColor="#fff" /><stop offset="1" stopColor="#000" />
+            </linearGradient>
+            <linearGradient id={`${fade}-v`} x1={0} x2={0} y1={vy} y2={vy + vh} gradientUnits="userSpaceOnUse">
+              <stop offset="0" stopColor="#000" /><stop offset={fy / vh} stopColor="#fff" /><stop offset={1 - fy / vh} stopColor="#fff" /><stop offset="1" stopColor="#000" />
+            </linearGradient>
+            <mask id={`${fade}-mh`} maskUnits="userSpaceOnUse" x={vx} y={vy} width={vw} height={vh}><rect x={vx} y={vy} width={vw} height={vh} fill={`url(#${fade}-h)`} /></mask>
+            <mask id={`${fade}-mv`} maskUnits="userSpaceOnUse" x={vx} y={vy} width={vw} height={vh}><rect x={vx} y={vy} width={vw} height={vh} fill={`url(#${fade}-v)`} /></mask>
+          </defs>
+          <g mask={`url(#${fade}-mh)`}><g mask={`url(#${fade}-mv)`}><Art /></g></g>
+        </>
+      )}
       {all.map(([x, y], i) => (
         <g key={i}>
           {tone === 'stop' && !labels ? (

@@ -71,3 +71,15 @@ export const SOURCE_SITES: Record<string, { name: string; base: string }> = {
 export const SITE_BY_DOMAIN: Record<string, string> = Object.fromEntries(
   Object.entries(SOURCE_SITES).filter(([, s]) => s.base).map(([id, s]) => [new URL(s.base).hostname.replace('www.', ''), id]),
 );
+
+/** Public legal pages (FluxoGen/legal on GitHub Pages). Also used for the Play Store listing. */
+export const PRIVACY_URL = 'https://fluxogen.github.io/legal/ease/privacy/';
+export const TERMS_URL = 'https://fluxogen.github.io/legal/ease/terms/';
+
+export const CONTACT_EMAIL = 'fluxogentechnologies@gmail.com';
+
+/** Toast text after answering the pregnancy question. */
+export const PREGNANCY_ANSWERS = {
+  yes: "Got it. We'll set aside the points traditionally avoided in pregnancy.",
+  no: 'Thanks. You can change this anytime in Settings.',
+} as const;

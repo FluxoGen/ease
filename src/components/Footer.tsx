@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import fluxogenMark from '../assets/fluxogen-mark.png';
+import { PRIVACY_URL, TERMS_URL } from '../data/library/shared';
 
 const FLUXOGEN_URL = 'https://github.com/FluxoGen';
 const CONTACT_EMAIL = 'fluxogentechnologies@gmail.com';
@@ -19,7 +20,10 @@ export default function Footer() {
           </a>
           <nav aria-label="Footer" className="flex flex-wrap justify-end gap-x-4 text-xs font-medium text-ink-2">
             <Link to="/safety" className={link}>Safety</Link>
+            <Link to="/settings" className={link}>Settings</Link>
             <a href={FLUXOGEN_URL} target="_blank" rel="noreferrer" className={link}>About</a>
+            <a href={PRIVACY_URL} target="_blank" rel="noreferrer" className={link}>Privacy</a>
+            <a href={TERMS_URL} target="_blank" rel="noreferrer" className={link}>Terms</a>
             <a href={`mailto:${CONTACT_EMAIL}?subject=Ease%20feedback`} className={link}>Contact</a>
           </nav>
         </div>

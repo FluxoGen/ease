@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Ease mark (ring + acupoint dot) on the 108dp adaptive-icon canvas, inside the 66dp safe zone. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <path android:strokeColor="#22302B" android:strokeWidth="6.4" android:fillColor="#00000000"
+        android:pathData="M54,30a24,24 0,1 1,0 48a24,24 0,1 1,0 -48z"/>
+    <path android:fillColor="#C8734F"
+        android:pathData="M54,42.6a11.4,11.4 0,1 1,0 22.8a11.4,11.4 0,1 1,0 -22.8z"/>
+</vector>
