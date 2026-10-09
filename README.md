@@ -142,9 +142,9 @@ host works: `npm run build` and serve `dist/` with an SPA fallback.
 ## Quality checks
 
 `npm run check`, `npx tsc -b`, `npm run lint` and `npm run build` are the repo-level gates.
-Browser QA (Playwright on Chromium and WebKit, axe-core, a 13-viewport sweep, all 412 pages, timer flows)
-was run before each release but **those scripts are not in this repo**. Not yet tested: Firefox, and
-vibration/wake-lock on a real device (vibration was removed on purpose).
+Browser and Android QA (Playwright, axe-core, a 13-viewport sweep, timer and pregnancy flows, theme, an emulator
+suite and a six-screen-size tour) lives in [`qa/`](qa/README.md): `npm run qa:install`, then `npm run qa:web`,
+`npm run qa:app`, `npm run qa:android`. Not yet tested: Firefox, and real devices (emulators only).
 
 ## Development gotchas
 
@@ -158,7 +158,7 @@ vibration/wake-lock on a real device (vibration was removed on purpose).
 
 - No licensed acupuncturist review yet.
 - Markers are missing on the 21 VA handout photos (they carry their own); leg drawings have no drawn knee/ankle.
-- Browser QA scripts are outside the repo.
+- QA runs on emulators only; no real-device runs yet.
 - Older history: [`docs/history.md`](docs/history.md).
 
 ## Ownership and legal

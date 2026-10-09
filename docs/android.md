@@ -119,5 +119,5 @@ its service worker). The plugins' small web shims do ship in the website bundle.
 - Airplane mode: cold start, every tab, photos and drawings load.
 - Dark mode, landscape, largest font size, 3-button navigation: nothing cut off, no sideways scroll.
 
-The same checks were automated against an emulator (Playwright Android + adb) when the app was set up; see the
-PR for results.
+The same checks are automated in [`qa/`](../qa/README.md): `qa/android/install.sh`, then `npm run qa:android`
+(device suite, theme, and a six-screen-size adaptivity tour).

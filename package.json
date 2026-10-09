@@ -18,7 +18,11 @@
     "check": "python3 scripts/check_library.py && node scripts/contrast_check.mjs",
     "build:native": "tsc -b && vite build --mode native",
     "android": "npm run build:native && cap sync android && cap open android",
-    "android:sync": "npm run build:native && cap sync android"
+    "android:sync": "npm run build:native && cap sync android",
+    "qa:install": "npm --prefix qa install",
+    "qa:web": "npm --prefix qa run web",
+    "qa:app": "npm --prefix qa run app",
+    "qa:android": "npm --prefix qa run android"
   },
   "dependencies": {
     "@capacitor-community/keep-awake": "^8.0.1",

@@ -43,3 +43,7 @@ src/dev/records.json
 *.keystore
 keystore.properties
 android/app/release/
+
+# QA
+qa/node_modules/
+qa/out/
