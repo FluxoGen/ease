@@ -49,7 +49,6 @@ export default function PressSheet({ point, open, onClose, sides, next }: PressS
       const rem = (endAt.current - performance.now()) / 1000;
       if (rem <= 0) {
         setLeft(0); setRunning(false); setDone(true);
-        try { navigator.vibrate?.([120, 80, 120]); } catch { /* not supported */ }
       } else setLeft(rem);
     }, 200);
     return () => window.clearInterval(id);
