@@ -47,3 +47,16 @@ Cards 20px radius, buttons 14px, chips pill. 4px grid. Touch targets >= 44px.
 - Routines that can hide something serious show one shared urgent-care line; the full list is on Safety.
 - Screen readers get three timer announcements (started, halfway, finished), not a breath cue every few seconds.
 - Not done: markers on the 21 VA handout photos (they carry their own); a drawn knee/ankle on leg views.
+
+## Layout and behavior (as built)
+- **`wide` variant** (Tailwind custom): tablet/desktop chrome at width >= 48rem, or short landscape phones
+  (height <= 31.25rem, width >= 35rem). Phones use the bottom tab bar; `wide` uses the top nav.
+- **Chip rows** use `ChipScroller`: swipeable, edge fades, and it scrolls the selected chip into view only
+  when the selection changes (never fights the user's own scrolling).
+- **Tab bar** hides on scroll down (`data-nav="hidden"` on `<html>`); `.pressbar` drops with it.
+- **Titles**: every route sets a distinct `<title>` (`usePageTitle`).
+- **Guided press**: full-screen dialog, 4 s in / 6 s out, wall-clock timer, side switching, wake lock, no vibration.
+- **Long words**: headings use `overflow-wrap: anywhere` so large text never causes sideways scroll.
+- **Dark mode**: handout photos are dimmed slightly; no pure white surfaces.
+- **Motion**: all animation collapses under `prefers-reduced-motion`.
+See [architecture.md](architecture.md) for how these fit together.
