@@ -1,0 +1,1348 @@
+[
+ {
+  "code": "GB1",
+  "pinyin": "Tongziliao",
+  "english": "Pupil Crevice",
+  "region": "face",
+  "view": "face-front",
+  "find": "On the face, in the small hollow on the bony rim just beside the outer corner of the eye, about half a thumb-width out.",
+  "place": {
+   "from": "outer_eye_corner",
+   "out": 0.5
+  },
+  "selfCare": "gentle",
+  "avoidReason": "",
+  "technique": "gentle",
+  "cautions": [
+   "eye"
+  ],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "eye pain",
+    "sources": [
+     "mq",
+     "adb"
+    ]
+   },
+   {
+    "text": "headache",
+    "sources": [
+     "mq",
+     "adb"
+    ]
+   }
+  ],
+  "tags": [
+   "eye_strain",
+   "headache"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "mq",
+    "name": "Me and Qi GB1",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/gall-bladder-meridian/tongziliao-gb-1"
+   },
+   {
+    "id": "adb",
+    "name": "Attilio D'Alberto GB 1",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/gb-1.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "GB2",
+  "pinyin": "Tinghui",
+  "english": "Auditory Convergence",
+  "region": "face",
+  "view": "head-side",
+  "find": "Just in front of the small notch at the bottom of the ear's front flap, in the hollow behind the jaw joint; it is easiest to feel with the mouth open.",
+  "place": {
+   "manual": "In the hollow just in front of the notch below the tragus, behind the jaw joint, felt with the mouth open."
+  },
+  "selfCare": "gentle",
+  "avoidReason": "",
+  "technique": "gentle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "ringing in the ears",
+    "sources": [
+     "mq",
+     "adb"
+    ]
+   },
+   {
+    "text": "jaw pain",
+    "sources": [
+     "mq",
+     "adb"
+    ]
+   }
+  ],
+  "tags": [
+   "ear_hearing",
+   "toothache_jaw"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "mq",
+    "name": "Me and Qi GB2",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/gall-bladder-meridian/tinghui-gb-2"
+   },
+   {
+    "id": "adb",
+    "name": "Attilio D'Alberto GB 2",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/gb-2.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "GB3",
+  "pinyin": "Shangguan",
+  "english": "Upper Gate",
+  "region": "face",
+  "view": "head-side",
+  "find": "On the side of the face in front of the ear, in the dip just above the middle of the cheekbone arch.",
+  "place": {
+   "from": "zygomatic_arch",
+   "up": 0.5
+  },
+  "selfCare": "gentle",
+  "avoidReason": "",
+  "technique": "gentle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "ringing in the ears",
+    "sources": [
+     "mq",
+     "adb"
+    ]
+   },
+   {
+    "text": "toothache",
+    "sources": [
+     "mq",
+     "adb"
+    ]
+   }
+  ],
+  "tags": [
+   "ear_hearing",
+   "toothache_jaw"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "mq",
+    "name": "Me and Qi GB3",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/gall-bladder-meridian/shangguan-gb-3"
+   },
+   {
+    "id": "adb",
+    "name": "Attilio D'Alberto GB 3",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/gb-3.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "GB4",
+  "pinyin": "Hanyan",
+  "english": "Jaw Serenity",
+  "region": "head",
+  "view": "head-side",
+  "find": "On the temple inside the hairline, about a quarter of the way down the gentle curve from the forehead corner of the hairline to just above the ear.",
+  "place": {
+   "manual": "On the temple, within the hairline, one quarter of the way along the curve from the forehead corner of the hairline (ST8) down to GB7."
+  },
+  "selfCare": "gentle",
+  "avoidReason": "",
+  "technique": "gentle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "headache",
+    "sources": [
+     "mq",
+     "adb"
+    ]
+   }
+  ],
+  "tags": [
+   "headache"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "mq",
+    "name": "Me and Qi GB4",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/gall-bladder-meridian/hanyan-gb-4"
+   },
+   {
+    "id": "adb",
+    "name": "Attilio D'Alberto GB 4",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/gb-4.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "GB5",
+  "pinyin": "Xuanlu",
+  "english": "Suspended Skull",
+  "region": "head",
+  "view": "head-side",
+  "find": "On the temple inside the hairline, halfway along the gentle curve from the forehead corner of the hairline to the point just above and in front of the ear.",
+  "place": {
+   "manual": "On the temple, within the hairline, midway along the curve from the forehead corner of the hairline (ST8) to GB7."
+  },
+  "selfCare": "gentle",
+  "avoidReason": "",
+  "technique": "gentle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "headache",
+    "sources": [
+     "mq",
+     "adb"
+    ]
+   },
+   {
+    "text": "toothache",
+    "sources": [
+     "mq",
+     "adb"
+    ]
+   },
+   {
+    "text": "eye pain",
+    "sources": [
+     "mq",
+     "adb"
+    ]
+   }
+  ],
+  "tags": [
+   "headache",
+   "toothache_jaw",
+   "eye_strain"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "mq",
+    "name": "Me and Qi GB5",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/gall-bladder-meridian/xuanlu-gb-5"
+   },
+   {
+    "id": "adb",
+    "name": "Attilio D'Alberto GB 5",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/gb-5.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "GB6",
+  "pinyin": "Xuanli",
+  "english": "Suspended Tuft",
+  "region": "head",
+  "view": "head-side",
+  "find": "On the temple inside the hairline, about three-quarters of the way down the gentle curve from the forehead corner toward the front of the ear.",
+  "place": {
+   "manual": "On the temple, within the hairline, three quarters of the way along the curve from the forehead corner (ST8) to GB7."
+  },
+  "selfCare": "gentle",
+  "avoidReason": "",
+  "technique": "gentle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "headache",
+    "sources": [
+     "mq",
+     "adb"
+    ]
+   },
+   {
+    "text": "toothache",
+    "sources": [
+     "mq",
+     "adb"
+    ]
+   }
+  ],
+  "tags": [
+   "headache",
+   "toothache_jaw"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "mq",
+    "name": "Me and Qi GB6",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/gall-bladder-meridian/xuanli-gb-6"
+   },
+   {
+    "id": "adb",
+    "name": "Attilio D'Alberto GB 6",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/gb-6.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "GB7",
+  "pinyin": "Qubin",
+  "english": "Temporal Hairline Curve",
+  "region": "head",
+  "view": "head-side",
+  "find": "At the temple, where the hairline in front of the ear curves, level with the top of the ear. Press in the small dip there.",
+  "place": {
+   "manual": "At the temporal hairline, where the vertical line along its back edge meets the horizontal line through the top of the ear."
+  },
+  "selfCare": "gentle",
+  "avoidReason": "",
+  "technique": "gentle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "headache",
+    "sources": [
+     "mq",
+     "adb"
+    ]
+   },
+   {
+    "text": "stiff neck",
+    "sources": [
+     "mq",
+     "adb"
+    ]
+   },
+   {
+    "text": "vomiting",
+    "sources": [
+     "mq",
+     "adb"
+    ]
+   }
+  ],
+  "tags": [
+   "headache",
+   "neck_pain",
+   "nausea"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "mq",
+    "name": "Me and Qi GB7",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/gall-bladder-meridian/qubin-gb-7"
+   },
+   {
+    "id": "adb",
+    "name": "Attilio D'Alberto GB 7",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/gb-7.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "GB8",
+  "pinyin": "Shuaigu",
+  "english": "Valley Lead",
+  "region": "head",
+  "view": "head-side",
+  "find": "On the side of the head, about two finger-widths straight above the tip of the ear. It is easier to feel while you chew.",
+  "place": {
+   "from": "ear_apex",
+   "up": 1.5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "headache",
+    "sources": [
+     "mq",
+     "adb"
+    ]
+   },
+   {
+    "text": "dizziness",
+    "sources": [
+     "mq",
+     "adb"
+    ]
+   },
+   {
+    "text": "vomiting",
+    "sources": [
+     "mq",
+     "adb"
+    ]
+   }
+  ],
+  "tags": [
+   "headache",
+   "nausea"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "mq",
+    "name": "Me and Qi GB8",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/gall-bladder-meridian/shuaigu-gb-8"
+   },
+   {
+    "id": "adb",
+    "name": "Attilio D'Alberto GB 8",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/gb-8.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "GB9",
+  "pinyin": "Tianchong",
+  "english": "Celestial Hub",
+  "region": "head",
+  "view": "head-side",
+  "find": "On the side of the head just above and behind the ear, a bit behind the point two finger-widths above the ear tip.",
+  "place": {
+   "manual": "Above and behind the ear, 0.5 cun behind GB8 (which is 1.5 cun above the ear apex)."
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "headache",
+    "sources": [
+     "mq",
+     "adb"
+    ]
+   },
+   {
+    "text": "ringing in the ears",
+    "sources": [
+     "mq",
+     "adb"
+    ]
+   },
+   {
+    "text": "toothache",
+    "sources": [
+     "mq",
+     "adb"
+    ]
+   }
+  ],
+  "tags": [
+   "headache",
+   "ear_hearing",
+   "toothache_jaw"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "mq",
+    "name": "Me and Qi GB9",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/gall-bladder-meridian/tianchong-gb-9"
+   },
+   {
+    "id": "adb",
+    "name": "Attilio D'Alberto GB 9",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/gb-9.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "GB10",
+  "pinyin": "Fubai",
+  "english": "Floating White",
+  "region": "head",
+  "view": "head-side",
+  "find": "Behind the ear, just above and behind the bony bump you can feel behind the earlobe, in a small dip on the bone.",
+  "place": {
+   "manual": "Behind the ear, above and behind the mastoid bump, one third of the way along the curve from GB9 down to GB12."
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "ringing in the ears",
+    "sources": [
+     "mq",
+     "adb"
+    ]
+   },
+   {
+    "text": "toothache",
+    "sources": [
+     "mq",
+     "adb"
+    ]
+   }
+  ],
+  "tags": [
+   "ear_hearing",
+   "toothache_jaw"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "mq",
+    "name": "Me and Qi GB10",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/gall-bladder-meridian/fubai-gb-10"
+   },
+   {
+    "id": "adb",
+    "name": "Attilio D'Alberto GB 10",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/gb-10.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "GB11",
+  "pinyin": "Touqiaoyin",
+  "english": "Head Portal Yin",
+  "region": "head",
+  "view": "head-side",
+  "find": "Behind the ear, above and behind the bony bump behind the earlobe, a little lower than the point above it.",
+  "place": {
+   "manual": "Behind the ear, above and behind the mastoid bump, two thirds of the way along the curve from GB9 down to GB12."
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "headache",
+    "sources": [
+     "mq",
+     "adb"
+    ]
+   },
+   {
+    "text": "stiff neck",
+    "sources": [
+     "mq",
+     "adb"
+    ]
+   },
+   {
+    "text": "ringing in the ears",
+    "sources": [
+     "mq",
+     "adb"
+    ]
+   }
+  ],
+  "tags": [
+   "headache",
+   "neck_pain",
+   "ear_hearing"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "mq",
+    "name": "Me and Qi GB11",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/gall-bladder-meridian/touqiaoyin-gb-11"
+   },
+   {
+    "id": "adb",
+    "name": "Attilio D'Alberto GB 11",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/gb-11.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "GB12",
+  "pinyin": "Wangu",
+  "english": "Completion Bone",
+  "region": "neck",
+  "view": "head-side",
+  "find": "Just behind and below the bony bump behind the earlobe, in the soft hollow there.",
+  "place": {
+   "from": "mastoid",
+   "down": 0.5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "headache",
+    "sources": [
+     "mq",
+     "adb"
+    ]
+   },
+   {
+    "text": "trouble sleeping",
+    "sources": [
+     "mq",
+     "adb"
+    ]
+   },
+   {
+    "text": "toothache",
+    "sources": [
+     "mq",
+     "adb"
+    ]
+   }
+  ],
+  "tags": [
+   "headache",
+   "sleep",
+   "toothache_jaw"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "mq",
+    "name": "Me and Qi GB12",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/gall-bladder-meridian/wangu-gb-12"
+   },
+   {
+    "id": "adb",
+    "name": "Attilio D'Alberto GB 12",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/gb-12.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "GB13",
+  "pinyin": "Benshen",
+  "english": "Root of the Spirit",
+  "region": "head",
+  "view": "face-front",
+  "find": "On the forehead just inside the hairline, a little above the outer end of the eyebrow line, about four finger-widths out from the middle of the forehead.",
+  "place": {
+   "from": "anterior_hairline_mid",
+   "up": 0.5,
+   "out": 3
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "dizziness",
+    "sources": [
+     "mq",
+     "adb"
+    ]
+   },
+   {
+    "text": "anxious feelings",
+    "sources": [
+     "mq",
+     "adb"
+    ]
+   }
+  ],
+  "tags": [
+   "stress_anxiety"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "mq",
+    "name": "Me and Qi GB13",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/gall-bladder-meridian/benshen-gb-13"
+   },
+   {
+    "id": "adb",
+    "name": "Attilio D'Alberto GB 13",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/gb-13.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "GB14",
+  "pinyin": "Yangbai",
+  "english": "Yang White",
+  "region": "face",
+  "view": "face-front",
+  "find": "On the forehead, straight above the pupil when looking ahead, about one thumb-width above the eyebrow.",
+  "place": {
+   "from": "eyebrow_mid",
+   "up": 1
+  },
+  "selfCare": "gentle",
+  "avoidReason": "",
+  "technique": "gentle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "headache",
+    "sources": [
+     "mq",
+     "adb"
+    ]
+   },
+   {
+    "text": "eye pain",
+    "sources": [
+     "mq",
+     "adb"
+    ]
+   },
+   {
+    "text": "blurred vision",
+    "sources": [
+     "mq",
+     "adb"
+    ]
+   }
+  ],
+  "tags": [
+   "headache",
+   "eye_strain"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "mq",
+    "name": "Me and Qi GB14",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/gall-bladder-meridian/yangbai-gb-14"
+   },
+   {
+    "id": "adb",
+    "name": "Attilio D'Alberto GB 14",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/gb-14.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "GB15",
+  "pinyin": "Toulinqi",
+  "english": "Head Overlooking Tears",
+  "region": "head",
+  "view": "head-top",
+  "find": "On the scalp just inside the front hairline, straight above the pupil when looking ahead, a bit more than a thumb-width up from the edge of the hair.",
+  "place": {
+   "from": "anterior_hairline_mid",
+   "up": 0.5,
+   "out": 2.25
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "headache",
+    "sources": [
+     "mq",
+     "adb"
+    ]
+   },
+   {
+    "text": "dizziness",
+    "sources": [
+     "mq",
+     "adb"
+    ]
+   }
+  ],
+  "tags": [
+   "headache"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "mq",
+    "name": "Me and Qi GB15",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/gall-bladder-meridian/toulinqi-gb-15"
+   },
+   {
+    "id": "adb",
+    "name": "Attilio D'Alberto GB 15",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/gb-15.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "GB16",
+  "pinyin": "Muchuang",
+  "english": "Eye Window",
+  "region": "head",
+  "view": "head-top",
+  "find": "On the scalp, straight above the pupil, about two finger-widths back from the front hairline.",
+  "place": {
+   "from": "anterior_hairline_mid",
+   "up": 1.5,
+   "out": 2.25
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "eye pain",
+    "sources": [
+     "mq",
+     "adb"
+    ]
+   }
+  ],
+  "tags": [
+   "eye_strain"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "mq",
+    "name": "Me and Qi GB16",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/gall-bladder-meridian/muchuang-gb-16"
+   },
+   {
+    "id": "adb",
+    "name": "Attilio D'Alberto GB 16",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/gb-16.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "GB17",
+  "pinyin": "Zhengying",
+  "english": "Upright Nutrition",
+  "region": "head",
+  "view": "head-top",
+  "find": "On the scalp, straight above the pupil, about three finger-widths back from the front hairline.",
+  "place": {
+   "from": "anterior_hairline_mid",
+   "up": 2.5,
+   "out": 2.25
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "headache",
+    "sources": [
+     "mq",
+     "adb"
+    ]
+   },
+   {
+    "text": "dizziness",
+    "sources": [
+     "mq",
+     "adb"
+    ]
+   }
+  ],
+  "tags": [
+   "headache"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "mq",
+    "name": "Me and Qi GB17",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/gall-bladder-meridian/zhengying-gb-17"
+   },
+   {
+    "id": "adb",
+    "name": "Attilio D'Alberto GB 17",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/gb-17.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "GB18",
+  "pinyin": "Chengling",
+  "english": "Support Spirit",
+  "region": "head",
+  "view": "head-top",
+  "find": "On the scalp, straight above the pupil, about four thumb-widths back from the front hairline.",
+  "place": {
+   "from": "anterior_hairline_mid",
+   "up": 4,
+   "out": 2.25
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "headache",
+    "sources": [
+     "mq",
+     "adb"
+    ]
+   },
+   {
+    "text": "dizziness",
+    "sources": [
+     "mq",
+     "adb"
+    ]
+   },
+   {
+    "text": "blocked nose",
+    "sources": [
+     "mq",
+     "adb"
+    ]
+   }
+  ],
+  "tags": [
+   "headache",
+   "nose_sinus"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "mq",
+    "name": "Me and Qi GB18",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/gall-bladder-meridian/chengling-gb-18"
+   },
+   {
+    "id": "adb",
+    "name": "Attilio D'Alberto GB 18",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/gb-18.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "GB19",
+  "pinyin": "Naokong",
+  "english": "Brain Hollow",
+  "region": "head",
+  "view": "head-back",
+  "find": "On the back of the head, level with the top of the bony lump in the middle of the skull base, about three finger-widths out to the side, straight above the point in the neck hollow.",
+  "place": {
+   "from": "external_occipital_protuberance",
+   "out": 2.25
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "headache",
+    "sources": [
+     "mq",
+     "adb"
+    ]
+   },
+   {
+    "text": "dizziness",
+    "sources": [
+     "mq",
+     "adb"
+    ]
+   },
+   {
+    "text": "eye pain",
+    "sources": [
+     "mq",
+     "adb"
+    ]
+   },
+   {
+    "text": "ringing in the ears",
+    "sources": [
+     "mq",
+     "adb"
+    ]
+   }
+  ],
+  "tags": [
+   "headache",
+   "eye_strain",
+   "ear_hearing"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "mq",
+    "name": "Me and Qi GB19",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/gall-bladder-meridian/naokong-gb-19"
+   },
+   {
+    "id": "adb",
+    "name": "Attilio D'Alberto GB 19",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/gb-19.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "GB20",
+  "pinyin": "Fengchi",
+  "english": "Wind Pool",
+  "region": "neck",
+  "view": "head-back",
+  "find": "At the base of the skull, in the hollow between the two thick neck cords at the back and the muscle that runs up behind the ear, below the ridge of the skull.",
+  "place": {
+   "between": [
+    "external_occipital_protuberance",
+    "mastoid"
+   ],
+   "frac": 0.5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "headache",
+    "sources": [
+     "mq",
+     "adb"
+    ]
+   },
+   {
+    "text": "stiff neck",
+    "sources": [
+     "mq",
+     "adb"
+    ]
+   },
+   {
+    "text": "dizziness",
+    "sources": [
+     "mq",
+     "adb"
+    ]
+   },
+   {
+    "text": "eye discomfort",
+    "sources": [
+     "mq",
+     "adb"
+    ]
+   },
+   {
+    "text": "colds",
+    "sources": [
+     "mq",
+     "adb"
+    ]
+   }
+  ],
+  "tags": [
+   "headache",
+   "neck_pain",
+   "cold_flu"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "mq",
+    "name": "Me and Qi GB20",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/gall-bladder-meridian/fengchi-gb-20"
+   },
+   {
+    "id": "adb",
+    "name": "Attilio D'Alberto GB 20",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/gb-20.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "GB21",
+  "pinyin": "Jianjing",
+  "english": "Shoulder Well",
+  "region": "shoulder",
+  "view": "back",
+  "find": "On top of the shoulder, halfway between the bump at the base of the neck and the outer tip of the shoulder, on the thick muscle you can squeeze.",
+  "place": {
+   "between": [
+    "C7",
+    "acromial_angle"
+   ],
+   "frac": 0.5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "knead",
+  "cautions": [
+   "pregnancy"
+  ],
+  "pregnancy": true,
+  "indications": [
+   {
+    "text": "stiff neck",
+    "sources": [
+     "mq",
+     "adb"
+    ]
+   },
+   {
+    "text": "shoulder pain",
+    "sources": [
+     "mq",
+     "adb"
+    ]
+   }
+  ],
+  "tags": [
+   "neck_pain",
+   "shoulder_tension"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "mq",
+    "name": "Me and Qi GB21",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/gall-bladder-meridian/jianjing-gb-21"
+   },
+   {
+    "id": "adb",
+    "name": "Attilio D'Alberto GB 21",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/gb-21.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "GB22",
+  "pinyin": "Yuanye",
+  "english": "Armpit Abyss",
+  "region": "chest",
+  "view": "torso-side",
+  "find": "On the side of the ribcage with the arm raised, about four finger-widths below the centre of the armpit, in the gap between two ribs.",
+  "place": {
+   "from": "axilla_apex",
+   "down": 3
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "cough",
+    "sources": [
+     "mq",
+     "adb"
+    ]
+   },
+   {
+    "text": "chest tightness",
+    "sources": [
+     "mq",
+     "adb"
+    ]
+   },
+   {
+    "text": "rib-side pain",
+    "sources": [
+     "mq",
+     "adb"
+    ]
+   }
+  ],
+  "tags": [
+   "cough_breathing"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "mq",
+    "name": "Me and Qi GB22",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/gall-bladder-meridian/yuanye-gb-22"
+   },
+   {
+    "id": "adb",
+    "name": "Attilio D'Alberto GB 22",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/gb-22.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ }
+]

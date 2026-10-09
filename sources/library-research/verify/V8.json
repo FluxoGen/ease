@@ -1,0 +1,323 @@
+[
+ {
+  "code": "LR1",
+  "verdict": "ok",
+  "reason": "Lateral (second-toe side) nail-base corner matches WHO; nail technique sensible.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki LR1",
+   "url": "https://tcmwiki.com/wiki/lr1",
+   "agrees": true
+  }
+ },
+ {
+  "code": "LR2",
+  "verdict": "ok",
+  "reason": "Proximal to the 1st-2nd web margin at the red/white skin border matches WHO; indications (irritability, red eyes) plausible and supported by fresh source (eye redness/pain).",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki LR2",
+   "url": "https://tcmwiki.com/wiki/lr2",
+   "agrees": true
+  }
+ },
+ {
+  "code": "LR3",
+  "verdict": "ok",
+  "reason": "Depression distal to the junction of the 1st/2nd metatarsal bases over the dorsalis pedis pulse matches WHO; frac 0.85 toward the bases is reasonable; pulse caution correct; fresh source lists headache and red painful eyes.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki LR3",
+   "url": "https://tcmwiki.com/wiki/lr3",
+   "agrees": true
+  }
+ },
+ {
+  "code": "LR4",
+  "verdict": "fix",
+  "fixes": {
+   "find": "At the front of the inner ankle, in front of the ankle bump: lift your foot to make the thick tendon at the front of the ankle stand out, then press the soft dip just on the inner (big-toe) side of that tendon."
+  },
+  "reason": "The find text calls the landmark 'the large tendon that runs up from the big toe' - that is the big-toe extensor tendon, which lies on the outer side of the tibialis anterior. WHO places LR4 medial to tibialis anterior, so a user following the text could press between the two tendons (wrong spot). Place spec is fine.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki LR4",
+   "url": "https://tcmwiki.com/wiki/lr4",
+   "agrees": true
+  }
+ },
+ {
+  "code": "LR5",
+  "verdict": "ok",
+  "reason": "5 cun above the medial malleolus prominence at the centre of the tibia's medial surface matches WHO; 'five thumb-widths' correct.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki LR5",
+   "url": "https://tcmwiki.com/wiki/lr5",
+   "agrees": true
+  }
+ },
+ {
+  "code": "LR6",
+  "verdict": "ok",
+  "reason": "7 cun above the medial malleolus prominence on the tibia's medial surface matches WHO; 'seven thumb-widths' correct.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki LR6",
+   "url": "https://tcmwiki.com/wiki/lr6",
+   "agrees": true
+  }
+ },
+ {
+  "code": "LR7",
+  "verdict": "fix",
+  "fixes": {
+   "place": {
+    "manual": "One thumb-width behind SP9 (the hollow under the inner knee bump, the medial tibial condyle), toward the back of the calf, just below the condyle."
+   }
+  },
+  "reason": "WHO: below the medial tibial condyle, 1 cun POSTERIOR to SP9. The spec {from: tibia_medial_condyle, down: 0.5} has no backward offset, so it renders essentially on SP9. The vocab has no posterior direction for leg-inner, so manual is needed. Find text is acceptable.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki LR7",
+   "url": "https://tcmwiki.com/wiki/lr7",
+   "agrees": true
+  }
+ },
+ {
+  "code": "LR8",
+  "verdict": "ok",
+  "reason": "Depression in front of (medial to) the semitendinosus/semimembranosus tendons at the medial end of the knee crease, knee bent, matches WHO; knee pain supported by fresh source.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki LR8",
+   "url": "https://tcmwiki.com/wiki/lr8",
+   "agrees": true
+  }
+ },
+ {
+  "code": "LR9",
+  "verdict": "ok",
+  "reason": "4 cun above the patella base between gracilis and sartorius matches WHO (fresh source uses the older femoral-condyle landmark, same spot); 'four thumb-widths' correct.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki LR9",
+   "url": "https://tcmwiki.com/wiki/lr9",
+   "agrees": true
+  }
+ },
+ {
+  "code": "LR10",
+  "verdict": "fix",
+  "fixes": {
+   "place": {
+    "from": "pubic_symphysis_top",
+    "out": 2,
+    "down": 3
+   }
+  },
+  "reason": "WHO: 3 cun distal to ST30, and ST30 is 2 cun lateral to the midline at the pubic-symphysis level. The spec drops the 2 cun lateral offset and puts the dot on the midline below the pubic bone (genital area). Fresh source agrees: 3 cun directly below ST30.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki LR10",
+   "url": "https://tcmwiki.com/wiki/lr10",
+   "agrees": true
+  }
+ },
+ {
+  "code": "LR11",
+  "verdict": "fix",
+  "fixes": {
+   "place": {
+    "from": "pubic_symphysis_top",
+    "out": 2,
+    "down": 2
+   }
+  },
+  "reason": "Same error as LR10: WHO is 2 cun distal to ST30 (which is 2 cun off the midline); spec omits out: 2 and lands on the midline. Fresh source agrees: 2 cun directly below ST30, lateral border of adductor longus.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki LR11",
+   "url": "https://tcmwiki.com/wiki/lr11",
+   "agrees": true
+  }
+ },
+ {
+  "code": "LR12",
+  "verdict": "fix",
+  "fixes": {
+   "find": "In the groin crease, level with the top of the pubic bone and about two and a half thumb-widths out from the midline, where you may feel the groin pulse nearby; press beside the pulse, not on it."
+  },
+  "reason": "WHO gives only the level and 2.5 cun lateral, no side of the artery. 'Just outside the pulse' (lateral to it) is unsupported; the femoral pulse is usually felt further out, and the fresh source places the point where the femoral artery pulses. Remove the unsupported directional claim; place spec is correct.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki LR12",
+   "url": "https://tcmwiki.com/wiki/lr12",
+   "agrees": true
+  }
+ },
+ {
+  "code": "LR13",
+  "verdict": "ok",
+  "reason": "Below the free end of the 11th rib (the second-lowest floating rib) matches WHO, including the side-lying tip; fresh source agrees.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki LR13",
+   "url": "https://tcmwiki.com/wiki/lr13",
+   "agrees": true
+  }
+ },
+ {
+  "code": "LR14",
+  "verdict": "fix",
+  "fixes": {
+   "place": {
+    "from": "ics_6",
+    "out": 4
+   },
+   "find": "On the chest, straight below the nipple, in the gap between the sixth and seventh ribs, two rib-gaps below nipple level. For women, go straight down from the middle of the collarbone to the same rib gap, under the breast."
+  },
+  "reason": "Location text matches WHO (6th intercostal space, 4 cun lateral). But place {from: nipple, down: 2} assumes two rib-gaps = 2 cun; on the proportional chest scale the 4th-to-6th intercostal space is ~3 cun, so the dot would sit too high (about the 5th space). Anchor on the ics_6 landmark 4 cun out instead (assumes ics_6 is a midline level like the other ics_n). WHO also gives the midclavicular line for females; added for usability.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki LR14",
+   "url": "https://tcmwiki.com/wiki/lr14",
+   "agrees": true
+  }
+ },
+ {
+  "code": "CV1",
+  "verdict": "ok",
+  "reason": "Perineal midpoint matches WHO; correctly marked avoid with no technique.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki CV1",
+   "url": "https://tcmwiki.com/wiki/cv1",
+   "agrees": true
+  }
+ },
+ {
+  "code": "CV2",
+  "verdict": "ok",
+  "reason": "Midline just above the upper edge of the pubic symphysis matches WHO; pregnancy flag correct by region rule.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki CV2",
+   "url": "https://tcmwiki.com/wiki/cv2",
+   "agrees": true
+  }
+ },
+ {
+  "code": "CV3",
+  "verdict": "ok",
+  "reason": "4 cun below navel centre on midline; 'four thumb-widths' correct; pregnancy region rule applied.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki CV3",
+   "url": "https://tcmwiki.com/wiki/cv3",
+   "agrees": true
+  }
+ },
+ {
+  "code": "CV4",
+  "verdict": "ok",
+  "reason": "3 cun below navel; 'three thumb-widths (four finger-widths)' is the correct conversion; pregnancy region rule applied.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki CV4",
+   "url": "https://tcmwiki.com/wiki/cv4",
+   "agrees": true
+  }
+ },
+ {
+  "code": "CV5",
+  "verdict": "ok",
+  "reason": "2 cun below navel; 'two thumb-widths' correct; fresh source lists abdominal pain/distension.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki CV5",
+   "url": "https://tcmwiki.com/wiki/cv5",
+   "agrees": true
+  }
+ },
+ {
+  "code": "CV6",
+  "verdict": "ok",
+  "reason": "1.5 cun below navel; 'one and a half thumb-widths (two finger-widths)' is the correct conversion.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki CV6",
+   "url": "https://tcmwiki.com/wiki/cv6",
+   "agrees": true
+  }
+ },
+ {
+  "code": "CV7",
+  "verdict": "ok",
+  "reason": "1 cun below navel; 'one thumb-width' correct; fresh source lists abdominal pain and irregular menstruation.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki CV7",
+   "url": "https://tcmwiki.com/wiki/cv7",
+   "agrees": true
+  }
+ },
+ {
+  "code": "CV8",
+  "verdict": "ok",
+  "reason": "Centre of the umbilicus matches WHO; correctly avoid (navel interior).",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki CV8",
+   "url": "https://tcmwiki.com/wiki/cv8",
+   "agrees": true
+  }
+ },
+ {
+  "code": "CV9",
+  "verdict": "ok",
+  "reason": "1 cun above navel on midline; 'one thumb-width' correct; fresh source lists abdominal pain/diarrhoea/regurgitation.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki CV9",
+   "url": "https://tcmwiki.com/wiki/cv9",
+   "agrees": true
+  }
+ },
+ {
+  "code": "CV10",
+  "verdict": "ok",
+  "reason": "2 cun above navel; correct; fresh source lists distension, vomiting, diarrhoea.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki CV10",
+   "url": "https://tcmwiki.com/wiki/cv10",
+   "agrees": true
+  }
+ },
+ {
+  "code": "CV11",
+  "verdict": "ok",
+  "reason": "3 cun above navel (WHO text recovered from the CV10 block, as the author noted); correct; fresh source lists stomach ache and vomiting.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki CV11",
+   "url": "https://tcmwiki.com/wiki/cv11",
+   "agrees": true
+  }
+ },
+ {
+  "code": "CV12",
+  "verdict": "fix",
+  "fixes": {
+   "find": "On the upper belly, on the midline, halfway between the navel and the point where the lower end of the breastbone meets the rib arch (not the loose tip below it), about four thumb-widths above the navel."
+  },
+  "reason": "WHO anchors the midpoint on the xiphisternal junction; 'lower tip of the breastbone' reads as the xiphoid tip, which would put the midpoint lower. Distance (4 cun = four thumb-widths) and place spec are correct.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki CV12",
+   "url": "https://tcmwiki.com/wiki/cv12",
+   "agrees": true
+  }
+ }
+]

@@ -1,0 +1,1597 @@
+[
+ {
+  "code": "KI1",
+  "pinyin": "Yongquan",
+  "english": "Gushing Spring",
+  "region": "foot",
+  "view": "foot-sole",
+  "find": "On the sole, in the dip that appears when you curl your toes, about a third of the way from the base of the toes to the heel.",
+  "place": {
+   "between": [
+    "toe_web_2_3",
+    "heel_back"
+   ],
+   "frac": 0.33
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "feeling faint",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki KI1",
+    "url": "https://tcmwiki.com/wiki/ki1"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto KD 1",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/kd-1.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "KI2",
+  "pinyin": "Rangu",
+  "english": "Blazing Valley",
+  "region": "foot",
+  "view": "foot-inner",
+  "find": "On the inner edge of the foot, just below the bony bump in the middle of the arch, where the darker top skin meets the paler sole skin.",
+  "place": {
+   "from": "navicular_tuberosity",
+   "down": 0.5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "sore throat",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki KI2",
+    "url": "https://tcmwiki.com/wiki/ki2"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto KD 2",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/kd-2.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "KI3",
+  "pinyin": "Taixi",
+  "english": "Greater Stream",
+  "region": "ankle",
+  "view": "foot-inner",
+  "find": "On the inner ankle, in the hollow halfway between the inner ankle bone and the Achilles tendon, level with the tip of the bone.",
+  "place": {
+   "between": [
+    "medial_malleolus",
+    "achilles_tendon"
+   ],
+   "frac": 0.5
+  },
+  "selfCare": "gentle",
+  "avoidReason": "",
+  "technique": "gentle",
+  "cautions": [
+   "pulse"
+  ],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "insomnia",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "ringing in the ears",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "sore throat",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "irregular periods",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "sleep",
+   "ear_hearing"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki KI3",
+    "url": "https://tcmwiki.com/wiki/ki3"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto KD 3",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/kd-3.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "KI4",
+  "pinyin": "Dazhong",
+  "english": "Great Bell",
+  "region": "ankle",
+  "view": "foot-inner",
+  "find": "On the inner heel area, just behind and below the inner ankle bone, in the dip in front of where the Achilles tendon meets the heel.",
+  "place": {
+   "between": [
+    "medial_malleolus",
+    "calcaneus_medial"
+   ],
+   "frac": 0.4
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "constipation",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "low back pain",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "heel pain",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "low_back_pain",
+   "constipation",
+   "foot_ankle_strain"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki KI4",
+    "url": "https://tcmwiki.com/wiki/ki4"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto KD 4",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/kd-4.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "KI5",
+  "pinyin": "Shuiquan",
+  "english": "Water Spring",
+  "region": "ankle",
+  "view": "foot-inner",
+  "find": "On the inner side of the heel, about one thumb-width below the hollow behind the inner ankle bone, in the dip in front of the heel bump.",
+  "place": {
+   "between": [
+    "medial_malleolus",
+    "calcaneus_medial"
+   ],
+   "frac": 0.7
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "irregular periods",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "period pain",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "menstrual_cramps"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki KI5",
+    "url": "https://tcmwiki.com/wiki/ki5"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto KD 5",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/kd-5.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "KI6",
+  "pinyin": "Zhaohai",
+  "english": "Shining Sea",
+  "region": "ankle",
+  "view": "foot-inner",
+  "find": "On the inner ankle, in the hollow about one thumb-width straight below the tip of the inner ankle bone.",
+  "place": {
+   "from": "medial_malleolus",
+   "down": 1
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "insomnia",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "sore throat",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "irregular periods",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "sleep"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki KI6",
+    "url": "https://tcmwiki.com/wiki/ki6"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto KD 6",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/kd-6.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "KI7",
+  "pinyin": "Fuliu",
+  "english": "Returning Flow",
+  "region": "lower leg",
+  "view": "leg-inner",
+  "find": "On the inner lower leg, about two thumb-widths above the inner ankle bone, at the front edge of the Achilles tendon.",
+  "place": {
+   "line": "KI",
+   "from": "medial_malleolus",
+   "cun": 2
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "night sweats",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "diarrhea",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "swelling of the legs",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "digestive_health"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki KI7",
+    "url": "https://tcmwiki.com/wiki/ki7"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto KD 7",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/kd-7.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "KI8",
+  "pinyin": "Jiaoxin",
+  "english": "Intersection Reach",
+  "region": "lower leg",
+  "view": "leg-inner",
+  "find": "On the inner lower leg, about two thumb-widths above the inner ankle bone, just behind the edge of the shin bone and a little in front of the Achilles tendon.",
+  "place": {
+   "from": "medial_malleolus",
+   "up": 2
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "irregular periods",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "constipation",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "diarrhea",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "constipation",
+   "digestive_health"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki KI8",
+    "url": "https://tcmwiki.com/wiki/ki8"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto KD 8",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/kd-8.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "KI9",
+  "pinyin": "Zhubin",
+  "english": "Guest House",
+  "region": "lower leg",
+  "view": "leg-inner",
+  "find": "On the inner lower calf, about four finger-widths plus a thumb above the inner ankle bone, in the lower part of the calf muscle toward the Achilles tendon.",
+  "place": {
+   "line": "KI",
+   "from": "medial_malleolus",
+   "cun": 5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "knead",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "vomiting",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "calf pain",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "nausea"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki KI9",
+    "url": "https://tcmwiki.com/wiki/ki9"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto KD 9",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/kd-9.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "KI10",
+  "pinyin": "Yingu",
+  "english": "Yin Valley",
+  "region": "knee",
+  "view": "leg-back",
+  "find": "On the back of the knee, at the inner end of the crease when the knee is bent, just outside the tendon you can feel on the inner side.",
+  "place": {
+   "between": [
+    "semitendinosus_tendon",
+    "popliteal_crease_mid"
+   ],
+   "frac": 0.3
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "difficult urination",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "inner knee pain",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "knee_pain"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki KI10",
+    "url": "https://tcmwiki.com/wiki/ki10"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto KD 10",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/kd-10.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "KI11",
+  "pinyin": "Henggu",
+  "english": "Pubic Bone",
+  "region": "lower abdomen",
+  "view": "torso-front",
+  "find": "On the lowest part of the belly just above the pubic bone, about a thumb-width to the side of the midline.",
+  "place": {
+   "line": "KI",
+   "from": "umbilicus",
+   "cun": -5
+  },
+  "selfCare": "avoid",
+  "avoidReason": "Sits at the top of the pubic bone, in the genital area, where it cannot be pressed comfortably or sensibly on yourself.",
+  "technique": null,
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [],
+  "tags": [],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki KI11",
+    "url": "https://tcmwiki.com/wiki/ki11"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto KD 11",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/kd-11.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "KI12",
+  "pinyin": "Dahe",
+  "english": "Great Manifestation",
+  "region": "lower abdomen",
+  "view": "torso-front",
+  "find": "On the lower belly, about four thumb-widths below the navel, a thumb-width to the side of the midline.",
+  "place": {
+   "line": "KI",
+   "from": "umbilicus",
+   "cun": -4
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [
+   "pregnancy"
+  ],
+  "pregnancy": true,
+  "indications": [
+   {
+    "text": "abnormal vaginal discharge",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki KI12",
+    "url": "https://tcmwiki.com/wiki/ki12"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto KD 12",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/kd-12.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": "",
+  "pregnancyBasis": "region:lower-abdomen"
+ },
+ {
+  "code": "KI13",
+  "pinyin": "Qixue",
+  "english": "Qi Point",
+  "region": "lower abdomen",
+  "view": "torso-front",
+  "find": "On the lower belly, about four finger-widths below the navel, a thumb-width to the side of the midline.",
+  "place": {
+   "line": "KI",
+   "from": "umbilicus",
+   "cun": -3
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [
+   "pregnancy"
+  ],
+  "pregnancy": true,
+  "indications": [
+   {
+    "text": "irregular periods",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "abnormal vaginal discharge",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "diarrhea",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "digestive_health"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki KI13",
+    "url": "https://tcmwiki.com/wiki/ki13"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto KD 13",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/kd-13.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": "",
+  "pregnancyBasis": "region:lower-abdomen"
+ },
+ {
+  "code": "KI14",
+  "pinyin": "Siman",
+  "english": "Fourfold Fullness",
+  "region": "lower abdomen",
+  "view": "torso-front",
+  "find": "On the lower belly, about three finger-widths below the navel, a thumb-width to the side of the midline.",
+  "place": {
+   "line": "KI",
+   "from": "umbilicus",
+   "cun": -2
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [
+   "pregnancy"
+  ],
+  "pregnancy": true,
+  "indications": [
+   {
+    "text": "irregular periods",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki KI14",
+    "url": "https://tcmwiki.com/wiki/ki14"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto KD 14",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/kd-14.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": "",
+  "pregnancyBasis": "region:lower-abdomen"
+ },
+ {
+  "code": "KI15",
+  "pinyin": "Zhongzhu",
+  "english": "Middle Flow",
+  "region": "lower abdomen",
+  "view": "torso-front",
+  "find": "On the lower belly, about one thumb-width below the navel, half a thumb-width to the side of the midline.",
+  "place": {
+   "line": "KI",
+   "from": "umbilicus",
+   "cun": -1
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [
+   "pregnancy"
+  ],
+  "pregnancy": true,
+  "indications": [
+   {
+    "text": "constipation",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "diarrhea",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "irregular periods",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "digestive_health",
+   "constipation"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki KI15",
+    "url": "https://tcmwiki.com/wiki/ki15"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto KD 15",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/kd-15.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": "",
+  "pregnancyBasis": "region:lower-abdomen"
+ },
+ {
+  "code": "KI16",
+  "pinyin": "Huangshu",
+  "english": "Huang's Shu",
+  "region": "abdomen",
+  "view": "torso-front",
+  "find": "On the belly, right beside the navel, half a thumb-width out to the side.",
+  "place": {
+   "line": "KI",
+   "from": "umbilicus",
+   "cun": 0
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "constipation",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "abdominal pain",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "digestive_health",
+   "constipation"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki KI16",
+    "url": "https://tcmwiki.com/wiki/ki16"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto KD 16",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/kd-16.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "KI17",
+  "pinyin": "Shangqu",
+  "english": "Shang Bend",
+  "region": "upper abdomen",
+  "view": "torso-front",
+  "find": "On the upper belly, about three finger-widths above the navel, half a thumb-width to the side of the midline.",
+  "place": {
+   "line": "KI",
+   "from": "umbilicus",
+   "cun": 2
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "abdominal pain",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "digestive_health"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki KI17",
+    "url": "https://tcmwiki.com/wiki/ki17"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto KD 17",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/kd-17.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "KI18",
+  "pinyin": "Shiguan",
+  "english": "Stone Pass",
+  "region": "upper abdomen",
+  "view": "torso-front",
+  "find": "On the upper belly, about four finger-widths above the navel, half a thumb-width to the side of the midline.",
+  "place": {
+   "line": "KI",
+   "from": "umbilicus",
+   "cun": 3
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "constipation",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "vomiting",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "digestive_health",
+   "constipation",
+   "nausea"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki KI18",
+    "url": "https://tcmwiki.com/wiki/ki18"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto KD 18",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/kd-18.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "KI19",
+  "pinyin": "Yindu",
+  "english": "Yin Metropolis",
+  "region": "upper abdomen",
+  "view": "torso-front",
+  "find": "On the upper belly, about four thumb-widths above the navel, half a thumb-width to the side of the midline.",
+  "place": {
+   "line": "KI",
+   "from": "umbilicus",
+   "cun": 4
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "constipation",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "stomach and belly pain",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "digestive_health",
+   "constipation"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki KI19",
+    "url": "https://tcmwiki.com/wiki/ki19"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto KD 19",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/kd-19.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "KI20",
+  "pinyin": "Futonggu",
+  "english": "Abdominal Passage",
+  "region": "upper abdomen",
+  "view": "torso-front",
+  "find": "On the upper belly, about five thumb-widths above the navel, half a thumb-width to the side of the midline.",
+  "place": {
+   "line": "KI",
+   "from": "umbilicus",
+   "cun": 5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "vomiting",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "belly bloating and pain",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "heart palpitations",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "nausea",
+   "digestive_health"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki KI20",
+    "url": "https://tcmwiki.com/wiki/ki20"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto KD 20",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/kd-20.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "KI21",
+  "pinyin": "Youmen",
+  "english": "Hidden Gate",
+  "region": "upper abdomen",
+  "view": "torso-front",
+  "find": "On the upper belly, about six thumb-widths above the navel, below the ribs, half a thumb-width to the side of the midline.",
+  "place": {
+   "line": "KI",
+   "from": "umbilicus",
+   "cun": 6
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "nausea and vomiting",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "abdominal pain",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "nausea",
+   "digestive_health"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki KI21",
+    "url": "https://tcmwiki.com/wiki/ki21"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto KD 21",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/kd-21.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "KI22",
+  "pinyin": "Bulang",
+  "english": "Corridor Walk",
+  "region": "chest",
+  "view": "torso-front",
+  "find": "On the chest, in the gap between the fifth and sixth ribs, about two finger-widths out from the middle of the breastbone.",
+  "place": {
+   "line": "KI",
+   "from": "ics_5",
+   "cun": 0
+  },
+  "selfCare": "gentle",
+  "avoidReason": "",
+  "technique": "gentle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "cough and wheezing",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "chest tightness",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "cough_breathing"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki KI22",
+    "url": "https://tcmwiki.com/wiki/ki22"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto KD 22",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/kd-22.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "KI23",
+  "pinyin": "Shenfeng",
+  "english": "Spirit Seal",
+  "region": "chest",
+  "view": "torso-front",
+  "find": "On the chest, in the gap between the fourth and fifth ribs, about two finger-widths out from the middle of the breastbone.",
+  "place": {
+   "line": "KI",
+   "from": "ics_4",
+   "cun": 0
+  },
+  "selfCare": "gentle",
+  "avoidReason": "",
+  "technique": "gentle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "cough and wheezing",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "chest tightness",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "vomiting",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "cough_breathing"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki KI23",
+    "url": "https://tcmwiki.com/wiki/ki23"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto KD 23",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/kd-23.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "KI24",
+  "pinyin": "Lingxu",
+  "english": "Spirit Burial Ground",
+  "region": "chest",
+  "view": "torso-front",
+  "find": "On the chest, in the gap between the third and fourth ribs, about two finger-widths out from the middle of the breastbone.",
+  "place": {
+   "line": "KI",
+   "from": "ics_3",
+   "cun": 0
+  },
+  "selfCare": "gentle",
+  "avoidReason": "",
+  "technique": "gentle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "cough and wheezing",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "chest tightness",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "vomiting",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "cough_breathing"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki KI24",
+    "url": "https://tcmwiki.com/wiki/ki24"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto KD 24",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/kd-24.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "KI25",
+  "pinyin": "Shencang",
+  "english": "Spirit Storehouse",
+  "region": "chest",
+  "view": "torso-front",
+  "find": "On the upper chest, in the gap between the second and third ribs, about two finger-widths out from the middle of the breastbone.",
+  "place": {
+   "line": "KI",
+   "from": "ics_2",
+   "cun": 0
+  },
+  "selfCare": "gentle",
+  "avoidReason": "",
+  "technique": "gentle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "cough and wheezing",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "chest tightness",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "vomiting",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "cough_breathing"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki KI25",
+    "url": "https://tcmwiki.com/wiki/ki25"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto KD 25",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/kd-25.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "KI26",
+  "pinyin": "Yuzhong",
+  "english": "Lively Middle",
+  "region": "chest",
+  "view": "torso-front",
+  "find": "On the upper chest, in the gap between the first and second ribs, about two finger-widths out from the middle of the breastbone.",
+  "place": {
+   "line": "KI",
+   "from": "ics_1",
+   "cun": 0
+  },
+  "selfCare": "gentle",
+  "avoidReason": "",
+  "technique": "gentle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "cough and wheezing",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "chest tightness",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "cough_breathing"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki KI26",
+    "url": "https://tcmwiki.com/wiki/ki26"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto KD 26",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/kd-26.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "KI27",
+  "pinyin": "Shufu",
+  "english": "Shu Mansion",
+  "region": "chest",
+  "view": "torso-front",
+  "find": "On the upper chest, in the dip just under the collarbone, about two finger-widths out from the middle of the breastbone.",
+  "place": {
+   "line": "KI",
+   "from": "ics_1",
+   "cun": 1
+  },
+  "selfCare": "gentle",
+  "avoidReason": "",
+  "technique": "gentle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "cough and wheezing",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "chest tightness",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "cough_breathing"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki KI27",
+    "url": "https://tcmwiki.com/wiki/ki27"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto KD 27",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/kd-27.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ }
+]

@@ -1,16 +1,15 @@
 import { ChevronLeft } from 'lucide-react';
-import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import BodySilhouette from '../components/BodySilhouette';
-import { BODY_MAP_VIEWBOX } from '../data/bodyMap';
-import { points } from '../data/points';
-import { usePregnancy } from '../context/PregnancyContext';
+import PointPicture from '../components/PointPicture';
+import { library } from '../data/library';
+import { AREAS } from '../data/library/areas';
+
+/** One representative point per area, used as the card picture. */
+const COVER: Record<string, string> = {
+  head: 'gb20', 'chest-belly': 'cv12', back: 'bl23', arm: 'pc6', hand: 'li4', leg: 'st36', foot: 'lr3',
+};
 
 export default function BodyMap() {
-  const [view, setView] = useState<'front' | 'back'>('front');
-  const { status } = usePregnancy();
-  const shown = points.filter((p) => p.bodyMap?.view === view);
-
   return (
     <div>
       <Link
@@ -20,96 +19,30 @@ export default function BodyMap() {
         <ChevronLeft size={16} />
         All symptoms
       </Link>
-      <h1 className="text-2xl font-bold sm:text-3xl">Body Map</h1>
-      <p className="mt-1 text-muted dark:text-muted-dark">
-        Tap a point to see how to use it. A schematic diagram — not to anatomical scale.
-      </p>
+      <h1 className="text-2xl font-bold sm:text-3xl">Browse by body area</h1>
+      <p className="mt-1 text-muted dark:text-muted-dark">Pick an area to see every point in it.</p>
 
-      <div className="mt-4 inline-flex rounded-lg border border-charcoal/15 p-1 dark:border-ivory/20">
-        {(['front', 'back'] as const).map((v) => (
-          <button
-            key={v}
-            type="button"
-            onClick={() => setView(v)}
-            className={
-              view === v
-                ? 'rounded-md bg-charcoal px-4 py-1.5 text-sm font-semibold text-ivory dark:bg-ivory dark:text-charcoal'
-                : 'rounded-md px-4 py-1.5 text-sm font-semibold text-muted dark:text-muted-dark'
-            }
-          >
-            {v === 'front' ? 'Front' : 'Back'}
-          </button>
-        ))}
+      <div className="mt-5 grid grid-cols-2 gap-3 sm:grid-cols-3">
+        {AREAS.map((a) => {
+          const count = library.filter((p) => p.area === a.id).length;
+          const cover = library.find((p) => p.id === COVER[a.id]);
+          return (
+            <Link
+              key={a.id}
+              to={`/points?area=${a.id}`}
+              className="flex flex-col overflow-hidden rounded-2xl border border-charcoal/10 bg-sand shadow-sm dark:border-ivory/10 dark:bg-charcoal-soft"
+            >
+              <div className="aspect-square bg-[#fbf8f2]">
+                {cover && <PointPicture point={cover} drawing compact className="h-full w-full" />}
+              </div>
+              <div className="px-3 py-2.5">
+                <p className="font-bold text-charcoal dark:text-ivory">{a.label}</p>
+                <p className="text-xs text-muted dark:text-muted-dark">{count} points</p>
+              </div>
+            </Link>
+          );
+        })}
       </div>
-
-      <div className="relative mx-auto mt-4 max-w-[280px]">
-        <BodySilhouette className="w-full text-charcoal/60 dark:text-ivory/50" />
-        <svg
-          viewBox={`0 0 ${BODY_MAP_VIEWBOX.width} ${BODY_MAP_VIEWBOX.height}`}
-          className="absolute inset-0 h-full w-full"
-        >
-          {shown.map((p) => {
-            const blocked = status === 'yes' && p.pregnancyCaution;
-            return (
-              <Link key={p.id} to={`/point/${p.id}`} state={{ fromBodyMap: true }}>
-                {blocked ? (
-                  // Hollow ring, not just a different color — a shape
-                  // difference reads clearly even for colorblind users.
-                  <circle
-                    cx={p.bodyMap!.x}
-                    cy={p.bodyMap!.y}
-                    r={8}
-                    className="fill-white stroke-warn-500 dark:fill-charcoal-soft"
-                    strokeWidth={3}
-                  />
-                ) : !p.verified ? (
-                  // Dashed outline — not yet reviewed, distinct from a
-                  // confirmed solid point.
-                  <circle
-                    cx={p.bodyMap!.x}
-                    cy={p.bodyMap!.y}
-                    r={8}
-                    strokeDasharray="3 2"
-                    className="fill-clay/40 stroke-clay-dark dark:stroke-clay"
-                    strokeWidth={2}
-                  />
-                ) : (
-                  <circle
-                    cx={p.bodyMap!.x}
-                    cy={p.bodyMap!.y}
-                    r={8}
-                    className="fill-clay stroke-white hover:fill-clay-dark"
-                    strokeWidth={2}
-                  />
-                )}
-              </Link>
-            );
-          })}
-        </svg>
-      </div>
-
-      <div className="mt-6 flex flex-wrap gap-x-4 gap-y-1 text-xs text-muted dark:text-muted-dark">
-        <span className="flex items-center gap-1.5">
-          <span className="inline-block h-2.5 w-2.5 rounded-full bg-clay" />
-          Point
-        </span>
-        <span className="flex items-center gap-1.5">
-          <span className="inline-block h-2.5 w-2.5 rounded-full border-2 border-warn-500 bg-white dark:bg-charcoal-soft" />
-          Avoid during pregnancy
-        </span>
-        <span className="flex items-center gap-1.5">
-          <span
-            className="inline-block h-2.5 w-2.5 rounded-full bg-clay/40"
-            style={{ border: '2px dashed #8a4a30' }}
-          />
-          Not yet reviewed
-        </span>
-      </div>
-
-      <p className="mt-4 text-sm text-muted dark:text-muted-dark">
-        {shown.length} points shown on this view. Hand and foot points sit close together at this
-        scale — zoom in or check the routine list if a tap opens the wrong one.
-      </p>
     </div>
   );
 }

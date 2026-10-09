@@ -1,0 +1,1543 @@
+[
+ {
+  "code": "BL23",
+  "pinyin": "Shenshu",
+  "english": "Kidney Transporter",
+  "region": "lumbar",
+  "view": "back",
+  "find": "On the low back, two finger-widths out from the spine, level with the waist. It sits about halfway between the lowest rib and the top of the hip bone.",
+  "place": {
+   "from": "L2",
+   "out": 1.5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "low back pain",
+    "sources": [
+     "ada",
+     "tcmwiki",
+     "mq"
+    ]
+   },
+   {
+    "text": "ringing in the ears",
+    "sources": [
+     "ada",
+     "tcmwiki",
+     "mq"
+    ]
+   },
+   {
+    "text": "frequent urination",
+    "sources": [
+     "ada",
+     "tcmwiki",
+     "mq"
+    ]
+   },
+   {
+    "text": "tiredness",
+    "sources": [
+     "ada",
+     "mq"
+    ]
+   }
+  ],
+  "tags": [
+   "low_back_pain",
+   "ear_hearing",
+   "energy_fatigue"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "ada",
+    "name": "Attilio D'Alberto BL 23",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/bl-23.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki Shenshu",
+    "url": "https://tcmwiki.com/wiki/shenshu"
+   },
+   {
+    "id": "mq",
+    "name": "Me & Qi BL-23",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/bladder-meridian/shenshu-bl-23"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "BL24",
+  "pinyin": "Qihaishu",
+  "english": "Sea of Qi Shu",
+  "region": "lumbar",
+  "view": "back",
+  "find": "On the low back, two finger-widths out from the spine, one bony bump below the waist-level point (BL23), just above the level of the top of the hip bones.",
+  "place": {
+   "from": "L3",
+   "out": 1.5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "low back pain",
+    "sources": [
+     "ada",
+     "tcmwiki",
+     "mq"
+    ]
+   },
+   {
+    "text": "period cramps",
+    "sources": [
+     "ada",
+     "tcmwiki",
+     "mq"
+    ]
+   }
+  ],
+  "tags": [
+   "low_back_pain",
+   "menstrual_cramps"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "ada",
+    "name": "Attilio D'Alberto BL 24",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/bl-24.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki Qihaishu",
+    "url": "https://tcmwiki.com/wiki/qihaishu"
+   },
+   {
+    "id": "mq",
+    "name": "Me & Qi BL-24",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/bladder-meridian/qihaishu-bl-24"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "BL25",
+  "pinyin": "Dachangshu",
+  "english": "Large Intestine Shu",
+  "region": "lumbar",
+  "view": "back",
+  "find": "On the low back, two finger-widths out from the spine, at the height of the top of the hip bones, where a belt line would cross.",
+  "place": {
+   "from": "L4",
+   "out": 1.5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "low back pain",
+    "sources": [
+     "ada",
+     "tcmwiki",
+     "mq"
+    ]
+   },
+   {
+    "text": "constipation",
+    "sources": [
+     "ada",
+     "tcmwiki",
+     "mq"
+    ]
+   },
+   {
+    "text": "diarrhea",
+    "sources": [
+     "ada",
+     "tcmwiki",
+     "mq"
+    ]
+   },
+   {
+    "text": "bloating",
+    "sources": [
+     "ada",
+     "mq"
+    ]
+   }
+  ],
+  "tags": [
+   "low_back_pain",
+   "constipation",
+   "digestive_health"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "ada",
+    "name": "Attilio D'Alberto BL 25",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/bl-25.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki Dachangshu",
+    "url": "https://tcmwiki.com/wiki/dachangshu"
+   },
+   {
+    "id": "mq",
+    "name": "Me & Qi BL-25",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/bladder-meridian/dachangshu-bl-25"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "BL26",
+  "pinyin": "Guanyuanshu",
+  "english": "Gate of Origin Shu",
+  "region": "lumbar",
+  "view": "back",
+  "find": "On the low back, two finger-widths out from the spine, one bony bump below the belt-line point (BL25), just above the sacrum.",
+  "place": {
+   "from": "L5",
+   "out": 1.5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "bloating",
+    "sources": [
+     "ada",
+     "tcmwiki",
+     "mq"
+    ]
+   },
+   {
+    "text": "low back pain",
+    "sources": [
+     "tcmwiki",
+     "mq"
+    ]
+   },
+   {
+    "text": "frequent urination",
+    "sources": [
+     "tcmwiki",
+     "mq"
+    ]
+   }
+  ],
+  "tags": [
+   "digestive_health",
+   "low_back_pain"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "ada",
+    "name": "Attilio D'Alberto BL 26",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/bl-26.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki Guanyuanshu",
+    "url": "https://tcmwiki.com/wiki/guanyuanshu"
+   },
+   {
+    "id": "mq",
+    "name": "Me & Qi BL-26",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/bladder-meridian/guanyuanshu-bl-26"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "BL27",
+  "pinyin": "Xiaochangshu",
+  "english": "Small Intestine Shu",
+  "region": "sacral",
+  "view": "back",
+  "find": "On the lower back over the sacrum (the flat bone above the tailbone), two finger-widths out from the midline, a little above the dimple that sits over the buttock.",
+  "place": {
+   "from": "S1",
+   "out": 1.5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [
+   "pregnancy"
+  ],
+  "pregnancy": true,
+  "indications": [
+   {
+    "text": "abdominal pain",
+    "sources": [
+     "ada",
+     "tcmwiki",
+     "mq"
+    ]
+   },
+   {
+    "text": "diarrhea",
+    "sources": [
+     "ada",
+     "tcmwiki",
+     "mq"
+    ]
+   }
+  ],
+  "tags": [
+   "digestive_health"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "ada",
+    "name": "Attilio D'Alberto BL 27",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/bl-27.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki Xiaochangshu",
+    "url": "https://tcmwiki.com/wiki/xiaochangshu"
+   },
+   {
+    "id": "mq",
+    "name": "Me & Qi BL-27",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/bladder-meridian/xiaochangshu-bl-27"
+   }
+  ],
+  "disputed": "",
+  "appFix": "",
+  "pregnancyBasis": "region:sacrum"
+ },
+ {
+  "code": "BL28",
+  "pinyin": "Pangguangshu",
+  "english": "Bladder Shu",
+  "region": "sacral",
+  "view": "back",
+  "find": "On the lower back over the sacrum (the flat bone above the tailbone), two finger-widths out from the midline, level with the dimple above the buttock, a little below BL27.",
+  "place": {
+   "from": "S2",
+   "out": 1.5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [
+   "pregnancy"
+  ],
+  "pregnancy": true,
+  "indications": [
+   {
+    "text": "low back pain",
+    "sources": [
+     "ada",
+     "tcmwiki",
+     "mq"
+    ]
+   },
+   {
+    "text": "difficult urination",
+    "sources": [
+     "ada",
+     "tcmwiki",
+     "mq"
+    ]
+   }
+  ],
+  "tags": [
+   "low_back_pain"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "ada",
+    "name": "Attilio D'Alberto BL 28",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/bl-28.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki Pangguangshu",
+    "url": "https://tcmwiki.com/wiki/pangguangshu"
+   },
+   {
+    "id": "mq",
+    "name": "Me & Qi BL-28",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/bladder-meridian/pangguangshu-bl-28"
+   }
+  ],
+  "disputed": "",
+  "appFix": "",
+  "pregnancyBasis": "region:sacrum"
+ },
+ {
+  "code": "BL29",
+  "pinyin": "Zhonglushu",
+  "english": "Central Backbone Shu",
+  "region": "sacral",
+  "view": "back",
+  "find": "On the lower back over the sacrum (the flat bone above the tailbone), two finger-widths out from the midline, just below the dimple above the buttock, a little lower than BL28.",
+  "place": {
+   "from": "S3",
+   "out": 1.5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [
+   "pregnancy"
+  ],
+  "pregnancy": true,
+  "indications": [
+   {
+    "text": "low back pain",
+    "sources": [
+     "ada",
+     "tcmwiki",
+     "mq"
+    ]
+   }
+  ],
+  "tags": [
+   "low_back_pain"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "ada",
+    "name": "Attilio D'Alberto BL 29",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/bl-29.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki Zhonglushu",
+    "url": "https://tcmwiki.com/wiki/zhonglushu"
+   },
+   {
+    "id": "mq",
+    "name": "Me & Qi BL-29",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/bladder-meridian/zhonglushu-bl-29"
+   }
+  ],
+  "disputed": "",
+  "appFix": "",
+  "pregnancyBasis": "region:sacrum"
+ },
+ {
+  "code": "BL30",
+  "pinyin": "Baihuanshu",
+  "english": "White Ring Shu",
+  "region": "sacral",
+  "view": "back",
+  "find": "On the lower back over the sacrum (the flat bone above the tailbone), two finger-widths out from the midline, near the bottom of the sacrum, close to where the buttock crease begins.",
+  "place": {
+   "from": "S4",
+   "out": 1.5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [
+   "pregnancy"
+  ],
+  "pregnancy": true,
+  "indications": [
+   {
+    "text": "low back pain",
+    "sources": [
+     "ada",
+     "tcmwiki",
+     "mq"
+    ]
+   }
+  ],
+  "tags": [
+   "low_back_pain"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "ada",
+    "name": "Attilio D'Alberto BL 30",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/bl-30.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki Baihuanshu",
+    "url": "https://tcmwiki.com/wiki/baihuanshu"
+   },
+   {
+    "id": "mq",
+    "name": "Me & Qi BL-30",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/bladder-meridian/baihuanshu-bl-30"
+   }
+  ],
+  "disputed": "",
+  "appFix": "",
+  "pregnancyBasis": "region:sacrum"
+ },
+ {
+  "code": "BL31",
+  "pinyin": "Shangliao",
+  "english": "Upper Bone Hole",
+  "region": "sacral",
+  "view": "back",
+  "find": "On the sacrum, in the small dent just above the buttock dimple, about halfway between the spine line and the bony bump of the hip.",
+  "place": {
+   "manual": "In the uppermost small hollow of the sacrum, about midway between the spine line and the bony bump above the buttock dimple."
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [
+   "pregnancy"
+  ],
+  "pregnancy": true,
+  "indications": [
+   {
+    "text": "low back pain",
+    "sources": [
+     "ada",
+     "tcmwiki",
+     "mq"
+    ]
+   },
+   {
+    "text": "constipation",
+    "sources": [
+     "ada",
+     "tcmwiki",
+     "mq"
+    ]
+   },
+   {
+    "text": "period cramps",
+    "sources": [
+     "ada",
+     "mq"
+    ]
+   }
+  ],
+  "tags": [
+   "low_back_pain",
+   "constipation",
+   "menstrual_cramps"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "ada",
+    "name": "Attilio D'Alberto BL 31",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/bl-31.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki Shangliao",
+    "url": "https://tcmwiki.com/wiki/shangliao"
+   },
+   {
+    "id": "mq",
+    "name": "Me & Qi BL-31",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/bladder-meridian/shangliao-bl-31"
+   }
+  ],
+  "disputed": "",
+  "appFix": "",
+  "pregnancyBasis": "region:sacrum"
+ },
+ {
+  "code": "BL32",
+  "pinyin": "Ciliao",
+  "english": "Second Bone Hole",
+  "region": "sacral",
+  "view": "back",
+  "find": "On the sacrum, in the small dent at the buttock dimple, about halfway between the bony bump of the hip and the spine line.",
+  "place": {
+   "between": [
+    "psis",
+    "S2"
+   ],
+   "frac": 0.5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [
+   "pregnancy"
+  ],
+  "pregnancy": true,
+  "indications": [
+   {
+    "text": "period cramps",
+    "sources": [
+     "ada",
+     "tcmwiki",
+     "mq"
+    ]
+   },
+   {
+    "text": "low back pain",
+    "sources": [
+     "ada",
+     "tcmwiki",
+     "mq"
+    ]
+   }
+  ],
+  "tags": [
+   "menstrual_cramps",
+   "low_back_pain"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "ada",
+    "name": "Attilio D'Alberto BL 32",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/bl-32.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki Ciliao",
+    "url": "https://tcmwiki.com/wiki/ciliao"
+   },
+   {
+    "id": "mq",
+    "name": "Me & Qi BL-32",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/bladder-meridian/ciliao-bl-32"
+   }
+  ],
+  "disputed": "",
+  "appFix": "",
+  "pregnancyBasis": "region:sacrum"
+ },
+ {
+  "code": "BL33",
+  "pinyin": "Zhongliao",
+  "english": "Middle Bone Hole",
+  "region": "sacral",
+  "view": "back",
+  "find": "On the sacrum, in the small dent just below the buttock-dimple point (BL32), in line with it.",
+  "place": {
+   "manual": "In the third small hollow of the sacrum, just below BL32, in line with it."
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [
+   "pregnancy"
+  ],
+  "pregnancy": true,
+  "indications": [
+   {
+    "text": "constipation",
+    "sources": [
+     "ada",
+     "tcmwiki",
+     "mq"
+    ]
+   },
+   {
+    "text": "low back pain",
+    "sources": [
+     "ada",
+     "tcmwiki",
+     "mq"
+    ]
+   }
+  ],
+  "tags": [
+   "constipation",
+   "low_back_pain"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "ada",
+    "name": "Attilio D'Alberto BL 33",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/bl-33.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki Zhongliao",
+    "url": "https://tcmwiki.com/wiki/zhongliao"
+   },
+   {
+    "id": "mq",
+    "name": "Me & Qi BL-33",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/bladder-meridian/zhongliao-bl-33"
+   }
+  ],
+  "disputed": "",
+  "appFix": "",
+  "pregnancyBasis": "region:sacrum"
+ },
+ {
+  "code": "BL34",
+  "pinyin": "Xialiao",
+  "english": "Lower Bone Hole",
+  "region": "sacral",
+  "view": "back",
+  "find": "On the lowest part of the sacrum, in the small dent just below the previous point (BL33), near the start of the buttock crease.",
+  "place": {
+   "manual": "In the fourth (lowest) small hollow of the sacrum, just below BL33, in line with it."
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [
+   "pregnancy"
+  ],
+  "pregnancy": true,
+  "indications": [
+   {
+    "text": "constipation",
+    "sources": [
+     "ada",
+     "tcmwiki",
+     "mq"
+    ]
+   },
+   {
+    "text": "low back pain",
+    "sources": [
+     "ada",
+     "tcmwiki",
+     "mq"
+    ]
+   },
+   {
+    "text": "diarrhea",
+    "sources": [
+     "ada",
+     "mq"
+    ]
+   }
+  ],
+  "tags": [
+   "constipation",
+   "low_back_pain",
+   "digestive_health"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "ada",
+    "name": "Attilio D'Alberto BL 34",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/bl-34.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki Xialiao",
+    "url": "https://tcmwiki.com/wiki/xialiao"
+   },
+   {
+    "id": "mq",
+    "name": "Me & Qi BL-34",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/bladder-meridian/xialiao-bl-34"
+   }
+  ],
+  "disputed": "",
+  "appFix": "",
+  "pregnancyBasis": "region:sacrum"
+ },
+ {
+  "code": "BL35",
+  "pinyin": "Huiyang",
+  "english": "Meeting of Yang",
+  "region": "sacral",
+  "view": "back",
+  "find": "Right beside the very tip of the tailbone, in the soft hollow about half a thumb-width to the side of the buttock cleft.",
+  "place": {
+   "from": "coccyx_tip",
+   "out": 0.5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [
+   "pregnancy"
+  ],
+  "pregnancy": true,
+  "indications": [
+   {
+    "text": "diarrhea",
+    "sources": [
+     "ada",
+     "tcmwiki",
+     "mq"
+    ]
+   },
+   {
+    "text": "tailbone pain",
+    "sources": [
+     "ada",
+     "mq"
+    ]
+   }
+  ],
+  "tags": [
+   "digestive_health"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "ada",
+    "name": "Attilio D'Alberto BL 35",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/bl-35.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki Huiyang",
+    "url": "https://tcmwiki.com/wiki/huiyang"
+   },
+   {
+    "id": "mq",
+    "name": "Me & Qi BL-35",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/bladder-meridian/huiyang-bl-35"
+   }
+  ],
+  "disputed": "",
+  "appFix": "",
+  "pregnancyBasis": "region:sacrum"
+ },
+ {
+  "code": "BL36",
+  "pinyin": "Chengfu",
+  "english": "Hold and Support",
+  "region": "buttock",
+  "view": "leg-back",
+  "find": "At the very middle of the crease where the buttock meets the back of the thigh.",
+  "place": {
+   "at": "gluteal_fold_mid"
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "low back pain",
+    "sources": [
+     "ada",
+     "tcmwiki",
+     "mq"
+    ]
+   },
+   {
+    "text": "buttock and thigh pain",
+    "sources": [
+     "ada",
+     "tcmwiki"
+    ]
+   }
+  ],
+  "tags": [
+   "low_back_pain",
+   "hip_leg_pain"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "ada",
+    "name": "Attilio D'Alberto BL 36",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/bl-36.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki Chengfu",
+    "url": "https://tcmwiki.com/wiki/chengfu"
+   },
+   {
+    "id": "mq",
+    "name": "Me & Qi BL-36",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/bladder-meridian/chengfu-bl-36"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "BL37",
+  "pinyin": "Yinmen",
+  "english": "Gate of Abundance",
+  "region": "thigh",
+  "view": "leg-back",
+  "find": "On the back of the thigh, in the groove between the two hamstring muscles, about a hand-width (four finger-widths plus half) below the buttock crease.",
+  "place": {
+   "line": "BL",
+   "from": "gluteal_fold_mid",
+   "cun": -6
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "low back pain",
+    "sources": [
+     "ada",
+     "tcmwiki",
+     "mq"
+    ]
+   }
+  ],
+  "tags": [
+   "low_back_pain"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "ada",
+    "name": "Attilio D'Alberto BL 37",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/bl-37.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki Yinmen",
+    "url": "https://tcmwiki.com/wiki/yinmen"
+   },
+   {
+    "id": "mq",
+    "name": "Me & Qi BL-37",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/bladder-meridian/yinmen-bl-37"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "BL38",
+  "pinyin": "Fuxi",
+  "english": "Floating Cleft",
+  "region": "knee",
+  "view": "leg-back",
+  "find": "On the back of the thigh just above the knee crease, on the inner side of the outer hamstring tendon, about one thumb-width above the crease.",
+  "place": {
+   "from": "biceps_femoris_tendon",
+   "up": 1
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "constipation",
+    "sources": [
+     "ada",
+     "tcmwiki"
+    ]
+   },
+   {
+    "text": "tightness behind the knee",
+    "sources": [
+     "ada",
+     "tcmwiki",
+     "mq"
+    ]
+   }
+  ],
+  "tags": [
+   "constipation",
+   "knee_pain"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "ada",
+    "name": "Attilio D'Alberto BL 38",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/bl-38.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki Fuxi",
+    "url": "https://tcmwiki.com/wiki/fuxi"
+   },
+   {
+    "id": "mq",
+    "name": "Me & Qi BL-38",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/bladder-meridian/fuxi-bl-38"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "BL39",
+  "pinyin": "Weiyang",
+  "english": "Bend Yang",
+  "region": "knee",
+  "view": "leg-back",
+  "find": "At the outer end of the crease behind the knee, in the dent just inside the tight outer hamstring tendon.",
+  "place": {
+   "at": "biceps_femoris_tendon"
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "low back pain",
+    "sources": [
+     "ada",
+     "tcmwiki"
+    ]
+   },
+   {
+    "text": "leg cramps",
+    "sources": [
+     "ada",
+     "tcmwiki"
+    ]
+   }
+  ],
+  "tags": [
+   "low_back_pain",
+   "hip_leg_pain"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "ada",
+    "name": "Attilio D'Alberto BL 39",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/bl-39.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki Weiyang",
+    "url": "https://tcmwiki.com/wiki/weiyang"
+   },
+   {
+    "id": "mq",
+    "name": "Me & Qi BL-39",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/bladder-meridian/weiyang-bl-39"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "BL40",
+  "pinyin": "Weizhong",
+  "english": "Middle of the Crook",
+  "region": "knee",
+  "view": "leg-back",
+  "find": "At the center of the crease behind the knee, in the middle of the hollow, with the leg relaxed.",
+  "place": {
+   "at": "popliteal_crease_mid"
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "low back pain",
+    "sources": [
+     "ada",
+     "tcmwiki",
+     "mq"
+    ]
+   },
+   {
+    "text": "knee pain",
+    "sources": [
+     "ada",
+     "mq"
+    ]
+   }
+  ],
+  "tags": [
+   "low_back_pain",
+   "knee_pain"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "ada",
+    "name": "Attilio D'Alberto BL 40",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/bl-40.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki Weizhong",
+    "url": "https://tcmwiki.com/wiki/weizhong"
+   },
+   {
+    "id": "mq",
+    "name": "Me & Qi BL-40",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/bladder-meridian/weizhong-bl-40"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "BL41",
+  "pinyin": "Fufen",
+  "english": "Attached Branch",
+  "region": "upper back",
+  "view": "back",
+  "find": "On the upper back, four finger-widths out from the spine, level with the top of the shoulder blade's inner edge. Reach across the body to find it, along the inner border of the shoulder blade.",
+  "place": {
+   "from": "T2",
+   "out": 3
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "ball",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "stiff neck",
+    "sources": [
+     "ada",
+     "tcmwiki",
+     "mq"
+    ]
+   },
+   {
+    "text": "shoulder and upper back pain",
+    "sources": [
+     "ada",
+     "tcmwiki",
+     "mq"
+    ]
+   },
+   {
+    "text": "numb arm",
+    "sources": [
+     "ada",
+     "tcmwiki",
+     "mq"
+    ]
+   }
+  ],
+  "tags": [
+   "neck_pain",
+   "shoulder_tension",
+   "upper_back"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "ada",
+    "name": "Attilio D'Alberto BL 41",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/bl-41.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki Fufen",
+    "url": "https://tcmwiki.com/wiki/fufen"
+   },
+   {
+    "id": "mq",
+    "name": "Me & Qi BL-41",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/bladder-meridian/fufen-bl-41"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "BL42",
+  "pinyin": "Pohu",
+  "english": "Door of the Corporeal Soul",
+  "region": "upper back",
+  "view": "back",
+  "find": "On the upper back, four finger-widths out from the spine, along the inner edge of the shoulder blade, a thumb-width or so below the previous point (BL41).",
+  "place": {
+   "from": "T3",
+   "out": 3
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "ball",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "cough",
+    "sources": [
+     "ada",
+     "mq"
+    ]
+   },
+   {
+    "text": "wheezing",
+    "sources": [
+     "ada",
+     "mq"
+    ]
+   },
+   {
+    "text": "shoulder and upper back pain",
+    "sources": [
+     "tcmwiki",
+     "mq"
+    ]
+   }
+  ],
+  "tags": [
+   "cough_breathing",
+   "upper_back"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "ada",
+    "name": "Attilio D'Alberto BL 42",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/bl-42.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki Pohu",
+    "url": "https://tcmwiki.com/wiki/pohu"
+   },
+   {
+    "id": "mq",
+    "name": "Me & Qi BL-42",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/bladder-meridian/pohu-bl-42"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "BL43",
+  "pinyin": "Gaohuang",
+  "english": "Vital Region Shu",
+  "region": "upper back",
+  "view": "back",
+  "find": "On the upper back, four finger-widths out from the spine, on the inner edge of the shoulder blade at about its mid-height. Cross your arm over your chest to open the gap.",
+  "place": {
+   "from": "T4",
+   "out": 3
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "ball",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "wheezing",
+    "sources": [
+     "ada",
+     "tcmwiki",
+     "mq"
+    ]
+   },
+   {
+    "text": "cough",
+    "sources": [
+     "ada",
+     "tcmwiki",
+     "mq"
+    ]
+   },
+   {
+    "text": "tiredness",
+    "sources": [
+     "ada",
+     "tcmwiki",
+     "mq"
+    ]
+   }
+  ],
+  "tags": [
+   "cough_breathing",
+   "energy_fatigue"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "ada",
+    "name": "Attilio D'Alberto BL 43",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/bl-43.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki Gaohuang",
+    "url": "https://tcmwiki.com/wiki/gaohuang"
+   },
+   {
+    "id": "mq",
+    "name": "Me & Qi BL-43",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/bladder-meridian/gaohuangshu-bl-43"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "BL44",
+  "pinyin": "Shentang i",
+  "english": "Spirit Hall",
+  "region": "upper back",
+  "view": "back",
+  "find": "On the upper back, four finger-widths out from the spine, beside the inner edge of the shoulder blade, one thumb-width below BL43.",
+  "place": {
+   "from": "T5",
+   "out": 3
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "ball",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "anxiety",
+    "sources": [
+     "ada",
+     "mq"
+    ]
+   },
+   {
+    "text": "restlessness",
+    "sources": [
+     "ada",
+     "mq"
+    ]
+   },
+   {
+    "text": "chest tightness",
+    "sources": [
+     "tcmwiki",
+     "mq"
+    ]
+   }
+  ],
+  "tags": [
+   "stress_anxiety"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "ada",
+    "name": "Attilio D'Alberto BL 44",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/bl-44.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki Shentang i",
+    "url": "https://tcmwiki.com/wiki/shentang"
+   },
+   {
+    "id": "mq",
+    "name": "Me & Qi BL-44",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/bladder-meridian/shentang-bl-44"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "BL45",
+  "pinyin": "Yixi",
+  "english": "Yi Xi",
+  "region": "upper back",
+  "view": "back",
+  "find": "On the upper back, four finger-widths out from the spine, beside the lower half of the shoulder blade's inner edge, level with the bottom of the shoulder blade's spine.",
+  "place": {
+   "from": "T6",
+   "out": 3
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "ball",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "cough",
+    "sources": [
+     "ada",
+     "tcmwiki",
+     "mq"
+    ]
+   },
+   {
+    "text": "shoulder and upper back pain",
+    "sources": [
+     "tcmwiki",
+     "mq"
+    ]
+   }
+  ],
+  "tags": [
+   "cough_breathing",
+   "upper_back",
+   "shoulder_tension"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "ada",
+    "name": "Attilio D'Alberto BL 45",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/bl-45.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki Yixi",
+    "url": "https://tcmwiki.com/wiki/yixi"
+   },
+   {
+    "id": "mq",
+    "name": "Me & Qi BL-45",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/bladder-meridian/yixi-bl-45"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ }
+]

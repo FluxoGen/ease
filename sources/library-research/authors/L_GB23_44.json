@@ -1,0 +1,1190 @@
+[
+ {
+  "code": "GB23",
+  "pinyin": "Zhejin",
+  "english": "Sinew Seat",
+  "region": "chest",
+  "view": "torso-side",
+  "find": "On the side of the chest, a thumb-width in front of the midline of the armpit, in the groove between the ribs about level with the nipple.",
+  "place": {
+   "manual": "On the side of the rib cage, 1 cun in front of the midaxillary line, in the 4th rib space (about nipple height)."
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [],
+  "tags": [],
+  "whoMatch": true,
+  "whoNote": "Other sites say 5th intercostal space.",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House GB23",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/gb23"
+   },
+   {
+    "id": "adal",
+    "name": "Attilio D'Alberto GB-23",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/gb-23.php"
+   }
+  ],
+  "disputed": "Yin Yang House and D'Alberto place GB23 in the 5th intercostal space, 1 cun in front of GB22; WHO says 4th intercostal space, 1 cun anterior to the midaxillary line. Record follows WHO.",
+  "appFix": ""
+ },
+ {
+  "code": "GB24",
+  "pinyin": "Riyue",
+  "english": "Sun and Moon",
+  "region": "chest",
+  "view": "torso-front",
+  "find": "On the chest directly below the nipple, one rib below the rib that lies just under the nipple line (the seventh gap between ribs, at the lower rib edge).",
+  "place": {
+   "from": "ics_7",
+   "out": 4
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "nausea",
+    "sources": [
+     "yyh",
+     "adal"
+    ]
+   },
+   {
+    "text": "sour regurgitation",
+    "sources": [
+     "yyh",
+     "adal"
+    ]
+   },
+   {
+    "text": "bitter taste",
+    "sources": [
+     "yyh",
+     "adal"
+    ]
+   }
+  ],
+  "tags": [
+   "nausea",
+   "digestive_health"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House GB24",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/gb24"
+   },
+   {
+    "id": "adal",
+    "name": "Attilio D'Alberto GB-24",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/gb-24.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "GB25",
+  "pinyin": "Jingmen",
+  "english": "Capital Gate",
+  "region": "lateral abdomen",
+  "view": "torso-side",
+  "find": "On the side of the waist, just below the loose tip of the lowest rib, which you can feel behind the lower edge of the rib cage.",
+  "place": {
+   "from": "rib_12_tip",
+   "down": 0.5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "low back pain",
+    "sources": [
+     "yyh",
+     "adal"
+    ]
+   },
+   {
+    "text": "pain along the ribs",
+    "sources": [
+     "yyh",
+     "adal"
+    ]
+   },
+   {
+    "text": "diarrhea",
+    "sources": [
+     "yyh",
+     "adal"
+    ]
+   }
+  ],
+  "tags": [
+   "low_back_pain",
+   "digestive_health"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House GB25",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/gb25"
+   },
+   {
+    "id": "adal",
+    "name": "Attilio D'Alberto GB-25",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/gb-25.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "GB26",
+  "pinyin": "Daimai",
+  "english": "Girdling Vessel",
+  "region": "lateral abdomen",
+  "view": "torso-side",
+  "find": "On the side of the waist, just below the tip of the second-lowest floating rib, at about belly-button height.",
+  "place": {
+   "from": "rib_11_tip",
+   "down": 0.5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "low back pain",
+    "sources": [
+     "yyh",
+     "adal"
+    ]
+   }
+  ],
+  "tags": [
+   "low_back_pain"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House GB26",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/gb26"
+   },
+   {
+    "id": "adal",
+    "name": "Attilio D'Alberto GB-26",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/gb-26.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "GB27",
+  "pinyin": "Wushu",
+  "english": "Fifth Pivot",
+  "region": "lower abdomen",
+  "view": "torso-front",
+  "find": "On the lower belly, a few finger-widths below the belly button and just inside the front point of the hip bone.",
+  "place": {
+   "from": "asis",
+   "in": 1
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [
+   "pregnancy"
+  ],
+  "pregnancy": true,
+  "pregnancyBasis": "region:lower-abdomen",
+  "indications": [
+   {
+    "text": "lower belly pain",
+    "sources": [
+     "yyh",
+     "adal"
+    ]
+   }
+  ],
+  "tags": [],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House GB27",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/gb27"
+   },
+   {
+    "id": "adal",
+    "name": "Attilio D'Alberto GB-27",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/gb-27.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "GB28",
+  "pinyin": "Weidao",
+  "english": "Linking Path",
+  "region": "lower abdomen",
+  "view": "torso-front",
+  "find": "On the lower belly, a half thumb-width below and slightly toward the middle from the front point of the hip bone.",
+  "place": {
+   "from": "asis",
+   "in": 1.4,
+   "down": 0.5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [
+   "pregnancy"
+  ],
+  "pregnancy": true,
+  "pregnancyBasis": "region:lower-abdomen",
+  "indications": [],
+  "tags": [],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House GB28",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/gb28"
+   },
+   {
+    "id": "adal",
+    "name": "Attilio D'Alberto GB-28",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/gb-28.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "GB29",
+  "pinyin": "Juliao",
+  "english": "Squatting Bone Hole",
+  "region": "buttock",
+  "view": "leg-outer",
+  "find": "On the side of the hip, halfway between the front point of the hip bone and the bony bump on the outer upper thigh.",
+  "place": {
+   "between": [
+    "asis",
+    "greater_trochanter"
+   ],
+   "frac": 0.5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "hip pain",
+    "sources": [
+     "yyh",
+     "adal"
+    ]
+   },
+   {
+    "text": "sciatic-type leg pain",
+    "sources": [
+     "yyh",
+     "adal"
+    ]
+   }
+  ],
+  "tags": [
+   "hip_leg_pain"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House GB29",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/gb29"
+   },
+   {
+    "id": "adal",
+    "name": "Attilio D'Alberto GB-29",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/gb-29.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "GB30",
+  "pinyin": "Huantiao",
+  "english": "Jumping Round",
+  "region": "buttock",
+  "view": "back",
+  "find": "On the buttock, about one-third of the way from the bony bump on the outer hip toward the dip above the tailbone. Easiest to find lying on your side with the top knee bent.",
+  "place": {
+   "between": [
+    "greater_trochanter",
+    "sacral_hiatus"
+   ],
+   "frac": 0.33
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "ball",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "hip pain",
+    "sources": [
+     "yyh",
+     "adal"
+    ]
+   },
+   {
+    "text": "sciatic-type leg pain",
+    "sources": [
+     "yyh",
+     "adal"
+    ]
+   },
+   {
+    "text": "low back pain",
+    "sources": [
+     "yyh",
+     "adal"
+    ]
+   }
+  ],
+  "tags": [
+   "hip_leg_pain",
+   "low_back_pain"
+  ],
+  "whoMatch": true,
+  "whoNote": "WHO also lists an alternative: junction of lateral third and medial two-thirds of the line from the greater trochanter to the ASIS. Primary location used.",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House GB30",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/gb30"
+   },
+   {
+    "id": "adal",
+    "name": "Attilio D'Alberto GB-30",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/gb-30.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "GB31",
+  "pinyin": "Fengshi",
+  "english": "Wind Market",
+  "region": "thigh",
+  "view": "leg-outer",
+  "find": "On the outer thigh, where the tip of your middle finger lands when you stand with your arms hanging straight down.",
+  "place": {
+   "line": "GB",
+   "from": "popliteal_crease_lateral_end",
+   "cun": 9
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "sciatic-type leg pain",
+    "sources": [
+     "yyh",
+     "adal"
+    ]
+   },
+   {
+    "text": "leg weakness or numbness",
+    "sources": [
+     "yyh",
+     "adal"
+    ]
+   },
+   {
+    "text": "itchy skin",
+    "sources": [
+     "yyh",
+     "adal"
+    ]
+   }
+  ],
+  "tags": [
+   "hip_leg_pain"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House GB31",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/gb31"
+   },
+   {
+    "id": "adal",
+    "name": "Attilio D'Alberto GB-31",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/gb-31.php"
+   }
+  ],
+  "disputed": "Yin Yang House and D'Alberto say 7 cun above the knee crease; the WHO entry gives only the middle-fingertip rule and puts GB32 at 7 cun, 2 cun below GB31, so the dot is plotted near 9 cun.",
+  "appFix": ""
+ },
+ {
+  "code": "GB32",
+  "pinyin": "Zhongdu",
+  "english": "Central River",
+  "region": "thigh",
+  "view": "leg-outer",
+  "find": "On the outer thigh, about a hand's width (four finger-widths plus a bit) above the back-of-knee crease, behind the thick band along the outer thigh.",
+  "place": {
+   "line": "GB",
+   "from": "popliteal_crease_lateral_end",
+   "cun": 7
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [],
+  "tags": [],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House GB32",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/gb32"
+   },
+   {
+    "id": "adal",
+    "name": "Attilio D'Alberto GB-32",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/gb-32.php"
+   }
+  ],
+  "disputed": "WHO says 7 B-cun above the popliteal crease; Yin Yang House and D'Alberto say 5 cun (2 cun below GB31). Record follows WHO.",
+  "appFix": ""
+ },
+ {
+  "code": "GB33",
+  "pinyin": "Xiyangguan",
+  "english": "Knee Yang Joint",
+  "region": "knee",
+  "view": "leg-outer",
+  "find": "On the outer side of the knee, in the soft dip just above the knob of the thigh bone, between the thick outer band and the hamstring tendon behind it.",
+  "place": {
+   "from": "popliteal_crease_lateral_end",
+   "up": 1
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [],
+  "tags": [],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House GB33",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/gb33"
+   },
+   {
+    "id": "adal",
+    "name": "Attilio D'Alberto GB-33",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/gb-33.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "GB34",
+  "pinyin": "Yanglingquan",
+  "english": "Yang Mound Spring",
+  "region": "leg",
+  "view": "leg-outer",
+  "find": "On the outer side of the leg, in the soft hollow just in front of and below the knob of bone below the outer knee.",
+  "place": {
+   "from": "fibula_head",
+   "down": 1
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "muscle cramps and spasm",
+    "sources": [
+     "yyh",
+     "adal"
+    ]
+   },
+   {
+    "text": "hip and leg pain",
+    "sources": [
+     "yyh",
+     "adal"
+    ]
+   },
+   {
+    "text": "knee pain",
+    "sources": [
+     "yyh",
+     "adal"
+    ]
+   },
+   {
+    "text": "nausea",
+    "sources": [
+     "yyh",
+     "adal"
+    ]
+   },
+   {
+    "text": "pain along the ribs",
+    "sources": [
+     "yyh",
+     "adal"
+    ]
+   }
+  ],
+  "tags": [
+   "knee_pain",
+   "hip_leg_pain",
+   "nausea"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House GB34",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/gb34"
+   },
+   {
+    "id": "adal",
+    "name": "Attilio D'Alberto GB-34",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/gb-34.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "GB35",
+  "pinyin": "Yangjiao",
+  "english": "Yang Intersection",
+  "region": "leg",
+  "view": "leg-outer",
+  "find": "On the outer lower leg, about a hand-width (a little more than four finger-widths plus thumb) above the ankle bone, behind the thin outer shin bone.",
+  "place": {
+   "line": "GB",
+   "from": "lateral_malleolus",
+   "cun": 7
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [],
+  "tags": [],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House GB35",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/gb35"
+   },
+   {
+    "id": "adal",
+    "name": "Attilio D'Alberto GB-35",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/gb-35.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "GB36",
+  "pinyin": "Waiqiu",
+  "english": "Outer Hill",
+  "region": "leg",
+  "view": "leg-outer",
+  "find": "On the outer lower leg, about a hand-width and a bit above the ankle bone, on the front edge of the thin outer shin bone.",
+  "place": {
+   "line": "GB",
+   "from": "lateral_malleolus",
+   "cun": 7
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [],
+  "tags": [],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House GB36",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/gb36"
+   },
+   {
+    "id": "adal",
+    "name": "Attilio D'Alberto GB-36",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/gb-36.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "GB37",
+  "pinyin": "Guangming",
+  "english": "Bright Light",
+  "region": "leg",
+  "view": "leg-outer",
+  "find": "On the outer lower leg, about five thumb-widths above the ankle bone, on the front edge of the thin outer shin bone.",
+  "place": {
+   "line": "GB",
+   "from": "lateral_malleolus",
+   "cun": 5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "tired or blurry eyes",
+    "sources": [
+     "yyh",
+     "adal"
+    ]
+   },
+   {
+    "text": "headache around the eyes",
+    "sources": [
+     "yyh",
+     "adal"
+    ]
+   },
+   {
+    "text": "outer leg pain",
+    "sources": [
+     "yyh",
+     "adal"
+    ]
+   }
+  ],
+  "tags": [
+   "eye_strain",
+   "headache"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House GB37",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/gb37"
+   },
+   {
+    "id": "adal",
+    "name": "Attilio D'Alberto GB-37",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/gb-37.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "GB38",
+  "pinyin": "Yangfu",
+  "english": "Yang Assistance",
+  "region": "leg",
+  "view": "leg-outer",
+  "find": "On the outer lower leg, about four thumb-widths above the ankle bone, just in front of the thin outer shin bone.",
+  "place": {
+   "line": "GB",
+   "from": "lateral_malleolus",
+   "cun": 4
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [],
+  "tags": [],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House GB38",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/gb38"
+   },
+   {
+    "id": "adal",
+    "name": "Attilio D'Alberto GB-38",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/gb-38.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "GB39",
+  "pinyin": "Xuanzhong",
+  "english": "Suspended Bell",
+  "region": "leg",
+  "view": "leg-outer",
+  "find": "On the outer lower leg, about three thumb-widths above the ankle bone, in the groove between the thin outer shin bone and the tendons behind it.",
+  "place": {
+   "line": "GB",
+   "from": "lateral_malleolus",
+   "cun": 3
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "stiff neck",
+    "sources": [
+     "yyh",
+     "adal"
+    ]
+   },
+   {
+    "text": "ankle strain",
+    "sources": [
+     "yyh",
+     "adal"
+    ]
+   }
+  ],
+  "tags": [
+   "neck_pain",
+   "foot_ankle_strain"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House GB39",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/gb39"
+   },
+   {
+    "id": "adal",
+    "name": "Attilio D'Alberto GB-39",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/gb-39.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "GB40",
+  "pinyin": "Qiuxu",
+  "english": "Hill Ruins",
+  "region": "ankle",
+  "view": "foot-outer",
+  "find": "On the front-lower side of the outer ankle bone, in the hollow beside the tendon that runs toward the little toes.",
+  "place": {
+   "from": "lateral_malleolus",
+   "down": 0.5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "ankle pain",
+    "sources": [
+     "yyh",
+     "adal"
+    ]
+   }
+  ],
+  "tags": [
+   "foot_ankle_strain"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House GB40",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/gb40"
+   },
+   {
+    "id": "adal",
+    "name": "Attilio D'Alberto GB-40",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/gb-40.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "GB41",
+  "pinyin": "Zulinqi",
+  "english": "Foot Overlooking Tears",
+  "region": "foot",
+  "view": "foot-top",
+  "find": "On top of the foot, in the groove between the bones leading to the fourth and little toes, just past where they join, beside the little-toe tendon.",
+  "place": {
+   "between": [
+    "met_base_4_5",
+    "mtp_4"
+   ],
+   "frac": 0.2
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "headache at the side of the head",
+    "sources": [
+     "yyh",
+     "adal"
+    ]
+   },
+   {
+    "text": "outer foot pain",
+    "sources": [
+     "yyh",
+     "adal"
+    ]
+   }
+  ],
+  "tags": [
+   "headache"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House GB41",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/gb41"
+   },
+   {
+    "id": "adal",
+    "name": "Attilio D'Alberto GB-41",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/gb-41.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "GB42",
+  "pinyin": "Diwuhui",
+  "english": "Earth Fivefold Convergence",
+  "region": "foot",
+  "view": "foot-top",
+  "find": "On top of the foot, in the groove between the bones of the fourth and little toes, just behind the knuckle of the fourth toe.",
+  "place": {
+   "between": [
+    "mtp_4",
+    "met_base_4_5"
+   ],
+   "frac": 0.25
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [],
+  "tags": [],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House GB42",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/gb42"
+   },
+   {
+    "id": "adal",
+    "name": "Attilio D'Alberto GB-42",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/gb-42.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "GB43",
+  "pinyin": "Xiaxi",
+  "english": "Pinched Ravine",
+  "region": "foot",
+  "view": "foot-top",
+  "find": "On top of the foot, in the web between the fourth and little toes, a bit toward the ankle from the edge of the skin fold.",
+  "place": {
+   "between": [
+    "web_4_5",
+    "mtp_4"
+   ],
+   "frac": 0.15
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "headache",
+    "sources": [
+     "yyh",
+     "adal"
+    ]
+   },
+   {
+    "text": "dizziness",
+    "sources": [
+     "yyh",
+     "adal"
+    ]
+   },
+   {
+    "text": "ringing in the ears",
+    "sources": [
+     "yyh",
+     "adal"
+    ]
+   },
+   {
+    "text": "eye pain",
+    "sources": [
+     "yyh",
+     "adal"
+    ]
+   }
+  ],
+  "tags": [
+   "headache",
+   "ear_hearing",
+   "eye_strain"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House GB43",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/gb43"
+   },
+   {
+    "id": "adal",
+    "name": "Attilio D'Alberto GB-43",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/gb-43.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "GB44",
+  "pinyin": "Zuqiaoyin",
+  "english": "Foot Portal Yin",
+  "region": "foot",
+  "view": "foot-top",
+  "find": "On the outer side of the fourth toe, at the corner of the nail, a hair's breadth behind the nail edge.",
+  "place": {
+   "at": "toe4_nail_corner_outer"
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "nail",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "restless sleep",
+    "sources": [
+     "yyh",
+     "adal"
+    ]
+   },
+   {
+    "text": "eye pain",
+    "sources": [
+     "yyh",
+     "adal"
+    ]
+   },
+   {
+    "text": "ringing in the ears",
+    "sources": [
+     "yyh",
+     "adal"
+    ]
+   }
+  ],
+  "tags": [
+   "sleep",
+   "eye_strain",
+   "ear_hearing"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House GB44",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/gb44"
+   },
+   {
+    "id": "adal",
+    "name": "Attilio D'Alberto GB-44",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/gb-44.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ }
+]

@@ -1,0 +1,1289 @@
+[
+ {
+  "code": "BL46",
+  "pinyin": "Geguan",
+  "english": "Diaphragm Gate",
+  "region": "upper back",
+  "view": "back",
+  "find": "On the upper back, about four finger-widths out from the spine, level with the lower tips of the shoulder blades.",
+  "place": {
+   "from": "T7",
+   "out": 3
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "ball",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "belching",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "vomiting",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "back stiffness",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "nausea",
+   "upper_back"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto BL 46",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/bl-46.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki BL46",
+    "url": "https://tcmwiki.com/wiki/bl46"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "BL47",
+  "pinyin": "Hunmen",
+  "english": "Ethereal Soul Gate",
+  "region": "mid back",
+  "view": "back",
+  "find": "On the mid back, about four finger-widths out from the spine, two bony bumps of the spine below the level of the shoulder-blade tips.",
+  "place": {
+   "from": "T9",
+   "out": 3
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "ball",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "back pain",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "vomiting",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "chest and rib-side pain",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "upper_back",
+   "nausea"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto BL 47",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/bl-47.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki BL47",
+    "url": "https://tcmwiki.com/wiki/bl47"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "BL48",
+  "pinyin": "Yanggang",
+  "english": "Yang Headquarters",
+  "region": "mid back",
+  "view": "back",
+  "find": "On the mid back, about four finger-widths out from the spine, three bony bumps of the spine below the level of the shoulder-blade tips.",
+  "place": {
+   "from": "T10",
+   "out": 3
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "ball",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "diarrhea",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "abdominal pain",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "gurgling stomach",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "digestive_health"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto BL 48",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/bl-48.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki BL48",
+    "url": "https://tcmwiki.com/wiki/bl48"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "BL49",
+  "pinyin": "Yishe",
+  "english": "Intention Dwelling",
+  "region": "mid back",
+  "view": "back",
+  "find": "On the lower part of the mid back, about four finger-widths out from the spine, four bony bumps below the level of the shoulder-blade tips.",
+  "place": {
+   "from": "T11",
+   "out": 3
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "ball",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "bloating",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "vomiting",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "diarrhea",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "digestive_health",
+   "nausea"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto BL 49",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/bl-49.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki BL49",
+    "url": "https://tcmwiki.com/wiki/bl49"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "BL50",
+  "pinyin": "Weicang",
+  "english": "Stomach Granary",
+  "region": "lower back",
+  "view": "back",
+  "find": "At the bottom of the ribs at the back, about four finger-widths out from the spine, level with the last rib-bearing bump of the spine.",
+  "place": {
+   "from": "T12",
+   "out": 3
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "ball",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "bloating",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "stomach ache",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "back pain",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "digestive_health"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto BL 50",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/bl-50.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki BL50",
+    "url": "https://tcmwiki.com/wiki/bl50"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "BL51",
+  "pinyin": "Huangmen",
+  "english": "Vital Region Gate",
+  "region": "lower back",
+  "view": "back",
+  "find": "On the lower back, about four finger-widths out from the spine, at the top of the waist just below the last rib's bump.",
+  "place": {
+   "from": "L1",
+   "out": 3
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "constipation",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "upper belly pain",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "constipation",
+   "digestive_health"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto BL 51",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/bl-51.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki BL51",
+    "url": "https://tcmwiki.com/wiki/bl51"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "BL52",
+  "pinyin": "Zhishi",
+  "english": "Will Chamber",
+  "region": "lower back",
+  "view": "back",
+  "find": "On the lower back, about four finger-widths out from the spine, one bony bump below the top of the waist, level with the kidneys.",
+  "place": {
+   "from": "L2",
+   "out": 3
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "low back pain",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "urinary difficulty",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "low_back_pain"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto BL 52",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/bl-52.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki BL52",
+    "url": "https://tcmwiki.com/wiki/bl52"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "BL53",
+  "pinyin": "Baohuang",
+  "english": "Bladder Huang",
+  "region": "buttock",
+  "view": "back",
+  "find": "On the upper buttock, about four finger-widths out from the central ridge of the tailbone area, level with the second hollow in the sacrum.",
+  "place": {
+   "from": "S2",
+   "out": 3
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [
+   "pregnancy"
+  ],
+  "pregnancy": true,
+  "indications": [
+   {
+    "text": "low back pain",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "bloating",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "urinary difficulty",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "low_back_pain",
+   "digestive_health"
+  ],
+  "whoMatch": true,
+  "whoNote": "WHO says 3 B-cun lateral to the median sacral crest at S2. D'Alberto's page says 1 cun, TCM Wiki says 3; WHO followed.",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto BL 53",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/bl-53.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki BL53",
+    "url": "https://tcmwiki.com/wiki/bl53"
+   }
+  ],
+  "disputed": "",
+  "appFix": "",
+  "pregnancyBasis": "region:sacrum"
+ },
+ {
+  "code": "BL54",
+  "pinyin": "Zhibian",
+  "english": "Sequential Limit",
+  "region": "buttock",
+  "view": "back",
+  "find": "On the buttock, about four finger-widths out from the notch just above the buttock cleft, level with the lowest hollow of the sacrum.",
+  "place": {
+   "from": "sacral_hiatus",
+   "out": 3
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [
+   "pregnancy"
+  ],
+  "pregnancy": true,
+  "indications": [
+   {
+    "text": "low back pain",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "constipation",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "painful urination",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "low_back_pain",
+   "constipation"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto BL 54",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/bl-54.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki BL54",
+    "url": "https://tcmwiki.com/wiki/bl54"
+   }
+  ],
+  "disputed": "",
+  "appFix": "",
+  "pregnancyBasis": "region:sacrum"
+ },
+ {
+  "code": "BL55",
+  "pinyin": "Heyang",
+  "english": "Yang Convergence",
+  "region": "calf",
+  "view": "leg-back",
+  "find": "On the back of the calf, in the groove between the two calf-muscle bulges, about two finger-widths below the middle of the back-of-knee crease.",
+  "place": {
+   "line": "BL",
+   "from": "popliteal_crease_mid",
+   "cun": -2
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "low back pain",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "leg pain",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "low_back_pain",
+   "hip_leg_pain"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto BL 55",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/bl-55.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki BL55",
+    "url": "https://tcmwiki.com/wiki/bl55"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "BL56",
+  "pinyin": "Chengjin",
+  "english": "Sinews Support",
+  "region": "calf",
+  "view": "leg-back",
+  "find": "On the back of the calf, in the middle of the calf-muscle bulge, about a hand's width below the back-of-knee crease.",
+  "place": {
+   "line": "BL",
+   "from": "popliteal_crease_mid",
+   "cun": -5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "knead",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "low back pain",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "low_back_pain"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto BL 56",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/bl-56.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki BL56",
+    "url": "https://tcmwiki.com/wiki/bl56"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "BL57",
+  "pinyin": "Chengshan",
+  "english": "Mountain Support",
+  "region": "calf",
+  "view": "leg-back",
+  "find": "On the back of the calf, in the V-shaped notch where the two calf-muscle bulges taper into the Achilles tendon; rise onto your toes to see it.",
+  "place": {
+   "at": "calf_bulge_bottom"
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "calf cramps",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "low back pain",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "low_back_pain",
+   "hip_leg_pain"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto BL 57",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/bl-57.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki BL57",
+    "url": "https://tcmwiki.com/wiki/bl57"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "BL58",
+  "pinyin": "Feiyang",
+  "english": "Taking Flight",
+  "region": "lower leg",
+  "view": "leg-outer",
+  "find": "On the outer back of the lower leg, about a thumb-width outward and below the V-notch of the calf muscle, roughly seven thumb-widths above the outer ankle bone.",
+  "place": {
+   "line": "BL",
+   "from": "lateral_malleolus",
+   "cun": 7
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "low back pain",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "low_back_pain"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto BL 58",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/bl-58.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki BL58",
+    "url": "https://tcmwiki.com/wiki/bl58"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "BL59",
+  "pinyin": "Fuyang",
+  "english": "Instep Yang",
+  "region": "lower leg",
+  "view": "leg-outer",
+  "find": "On the outer back of the lower leg, between the outer shin bone and the Achilles tendon, about four finger-widths above the outer ankle bone.",
+  "place": {
+   "line": "BL",
+   "from": "lateral_malleolus",
+   "cun": 3
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "headache",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "low back pain",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "outer ankle pain",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "headache",
+   "low_back_pain",
+   "foot_ankle_strain"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto BL 59",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/bl-59.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki BL59",
+    "url": "https://tcmwiki.com/wiki/bl59"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "BL60",
+  "pinyin": "Kunlun",
+  "english": "Kunlun Mountains",
+  "region": "ankle",
+  "view": "leg-outer",
+  "find": "On the outer ankle, in the hollow between the bump of the outer ankle bone and the Achilles tendon.",
+  "place": {
+   "between": [
+    "lateral_malleolus",
+    "achilles_tendon"
+   ],
+   "frac": 0.5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [
+   "pregnancy"
+  ],
+  "pregnancy": true,
+  "indications": [
+   {
+    "text": "low back pain",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "headache",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "ankle pain",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "headache",
+   "low_back_pain",
+   "foot_ankle_strain"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto BL 60",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/bl-60.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki BL60",
+    "url": "https://tcmwiki.com/wiki/bl60"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "BL61",
+  "pinyin": "Pucan",
+  "english": "Servant's Respect",
+  "region": "foot",
+  "view": "foot-outer",
+  "find": "On the outer side of the heel, just below and in front of the ankle-bone hollow, on the heel bone where darker and paler skin meet.",
+  "place": {
+   "at": "calcaneus_lateral"
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "weak legs",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto BL 61",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/bl-61.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki BL61",
+    "url": "https://tcmwiki.com/wiki/bl61"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "BL62",
+  "pinyin": "Shenmai",
+  "english": "Extending Vessel",
+  "region": "foot",
+  "view": "foot-outer",
+  "find": "On the outer side of the foot, in the hollow just below the bottom edge of the outer ankle bone.",
+  "place": {
+   "from": "lateral_malleolus",
+   "down": 0.5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "headache",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "insomnia",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "headache",
+   "sleep"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto BL 62",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/bl-62.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki BL62",
+    "url": "https://tcmwiki.com/wiki/bl62"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "BL63",
+  "pinyin": "Jinmen",
+  "english": "Metal Gate",
+  "region": "foot",
+  "view": "foot-outer",
+  "find": "On the outer edge of the foot, in front of and below the outer ankle bone, in the hollow just behind the bump on the little-toe side of the foot.",
+  "place": {
+   "at": "cuboid"
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "outer ankle pain",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "foot_ankle_strain"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto BL 63",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/bl-63.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki BL63",
+    "url": "https://tcmwiki.com/wiki/bl63"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "BL64",
+  "pinyin": "Jinggu",
+  "english": "Capital Bone",
+  "region": "foot",
+  "view": "foot-outer",
+  "find": "On the outer edge of the foot, just in front of the bony bump halfway along the foot, where darker skin meets paler skin.",
+  "place": {
+   "at": "met5_tuberosity"
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "headache",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "headache"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto BL 64",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/bl-64.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki BL64",
+    "url": "https://tcmwiki.com/wiki/bl64"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "BL65",
+  "pinyin": "Shugu",
+  "english": "Restraining Bone",
+  "region": "foot",
+  "view": "foot-outer",
+  "find": "On the outer edge of the foot, in the hollow just behind the knuckle of the little toe, where darker skin meets paler skin.",
+  "place": {
+   "between": [
+    "met5_tuberosity",
+    "met5_head"
+   ],
+   "frac": 0.9
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "headache",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "stiff neck",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "back pain",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "headache",
+   "neck_pain",
+   "low_back_pain"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto BL 65",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/bl-65.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki BL65",
+    "url": "https://tcmwiki.com/wiki/bl65"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "BL66",
+  "pinyin": "Zutonggu",
+  "english": "Foot Penetrating Valley",
+  "region": "foot",
+  "view": "foot-outer",
+  "find": "On the outer edge of the little toe's base, in the hollow just in front of the knuckle, where darker skin meets paler skin.",
+  "place": {
+   "between": [
+    "met5_head",
+    "toe5_nail_corner_outer"
+   ],
+   "frac": 0.15
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "headache",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "stiff neck",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "dizziness",
+    "sources": [
+     "tcmwiki",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "headache",
+   "neck_pain"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto BL 66",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/bl-66.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki BL66",
+    "url": "https://tcmwiki.com/wiki/bl66"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "BL67",
+  "pinyin": "Zhiyin",
+  "english": "Reaching Yin",
+  "region": "foot",
+  "view": "foot-outer",
+  "find": "On the little toe, at the outer side of the nail, a hair's breadth behind the corner of the toenail.",
+  "place": {
+   "at": "toe5_nail_corner_outer"
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "nail",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [],
+  "tags": [],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto BL 67",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/bl-67.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki BL67",
+    "url": "https://tcmwiki.com/wiki/bl67"
+   }
+  ],
+  "disputed": "WHO and both sources describe BL67 mainly for moving a breech baby (by moxibustion) and for labour. No source says avoid in pregnancy, so pregnancy flag follows the brief (false). Recommend lead consider setting it true as a precaution.",
+  "appFix": ""
+ }
+]

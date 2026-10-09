@@ -1,0 +1,2131 @@
+[
+ {
+  "code": "EX-HN1",
+  "verdict": "fix",
+  "fixes": {
+   "indications": [
+    {
+     "text": "trouble sleeping",
+     "sources": [
+      "adalberto",
+      "tcmwiki",
+      "mq"
+     ]
+    },
+    {
+     "text": "headache at the top of the head",
+     "sources": [
+      "adalberto",
+      "tcmwiki",
+      "yyh"
+     ]
+    },
+    {
+     "text": "poor memory",
+     "sources": [
+      "adalberto",
+      "tcmwiki",
+      "yyh"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "adalberto",
+     "name": "Attilio D'Alberto Si Shen Cong",
+     "url": "https://www.attiliodalberto.com/acupuncture/points/si-shen-cong.php"
+    },
+    {
+     "id": "tcmwiki",
+     "name": "TCM Wiki Sishencong",
+     "url": "https://tcmwiki.com/wiki/sishencong"
+    },
+    {
+     "id": "yyh",
+     "name": "Yin Yang House Sishencong",
+     "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/x-sishencong"
+    },
+    {
+     "id": "mq",
+     "name": "Me & Qi Sishencong EX-HN-1",
+     "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-head-and-neck-ex-hn/sishengcong-ex-hn-1"
+    }
+   ]
+  },
+  "reason": "Location correct (four spots 1 cun around GV20 per Attilio, TCM Wiki, Yin Yang House, Me & Qi). Two of three author sources were flashcards; replaced. Indications re-backed: sleep (Attilio, TCM Wiki, Me & Qi), vertex headache (Attilio, TCM Wiki, YYH), poor memory (Attilio, TCM Wiki, YYH).",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me & Qi Sishencong EX-HN-1",
+   "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-head-and-neck-ex-hn/sishengcong-ex-hn-1",
+   "agrees": true
+  }
+ },
+ {
+  "code": "EX-HN2",
+  "verdict": "fix",
+  "fixes": {
+   "find": "On the front of the scalp, straight up from the pupil when you look ahead, one thumb-width back from the front hairline.",
+   "indications": [
+    {
+     "text": "headache",
+     "sources": [
+      "tcmwiki",
+      "mq"
+     ]
+    },
+    {
+     "text": "dizziness",
+     "sources": [
+      "tcmwiki",
+      "mq"
+     ]
+    },
+    {
+     "text": "stuffy nose",
+     "sources": [
+      "tcmwiki",
+      "mq"
+     ]
+    }
+   ],
+   "tags": [
+    "headache",
+    "nose_sinus"
+   ],
+   "sources": [
+    {
+     "id": "tcmwiki",
+     "name": "TCM Wiki Dangyang",
+     "url": "https://tcmwiki.com/wiki/dangyang"
+    },
+    {
+     "id": "mq",
+     "name": "Me & Qi Dangyang EX-HN-2",
+     "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-head-and-neck-ex-hn/dangyang-ex-hn-2"
+    }
+   ]
+  },
+  "reason": "Only flashcard sources. TCM Wiki and Me & Qi both place it on the pupil line 1 cun inside (behind) the front hairline, i.e. on the scalp, not 'on the forehead' as the find text says. Placement spec is right. Both sources list headache, dizziness and stuffy nose, so these can be added.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me & Qi Dangyang EX-HN-2",
+   "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-head-and-neck-ex-hn/dangyang-ex-hn-2",
+   "agrees": true
+  }
+ },
+ {
+  "code": "EX-HN3",
+  "verdict": "fix",
+  "fixes": {
+   "indications": [
+    {
+     "text": "trouble sleeping",
+     "sources": [
+      "adalberto",
+      "satyori",
+      "pulsetcm",
+      "tcmwiki",
+      "mq"
+     ]
+    },
+    {
+     "text": "headache at the front of the head",
+     "sources": [
+      "adalberto",
+      "satyori",
+      "yyh"
+     ]
+    },
+    {
+     "text": "stuffy nose",
+     "sources": [
+      "adalberto",
+      "satyori",
+      "yyh",
+      "mq"
+     ]
+    },
+    {
+     "text": "restlessness",
+     "sources": [
+      "adalberto",
+      "satyori",
+      "pulsetcm"
+     ]
+    },
+    {
+     "text": "dizziness",
+     "sources": [
+      "adalberto",
+      "satyori",
+      "tcmwiki",
+      "mq"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "adalberto",
+     "name": "Attilio D'Alberto Yin Tang",
+     "url": "https://www.attiliodalberto.com/acupuncture/points/yin-tang.php"
+    },
+    {
+     "id": "satyori",
+     "name": "Satyori EX-HN3 Yintang",
+     "url": "https://satyori.com/tcm/acupressure/ex-hn3-yintang/"
+    },
+    {
+     "id": "pulsetcm",
+     "name": "PULSE TCM Singapore Yin Tang",
+     "url": "https://pulsetcm.sg/bites/yin-tang-ex-hn3/"
+    },
+    {
+     "id": "tcmwiki",
+     "name": "TCM Wiki Yintang",
+     "url": "https://tcmwiki.com/wiki/yintang"
+    },
+    {
+     "id": "yyh",
+     "name": "Yin Yang House Yintang",
+     "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/x-yintang"
+    },
+    {
+     "id": "mq",
+     "name": "Me & Qi Yintang EX-HN-3",
+     "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-head-and-neck-ex-hn/yintang-ex-hn-3"
+    }
+   ]
+  },
+  "reason": "Location correct (midpoint between inner eyebrow ends; Me & Qi, YYH, TCM Wiki agree). Flashcard source removed; indications re-pointed to opened sources.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me & Qi Yintang EX-HN-3",
+   "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-head-and-neck-ex-hn/yintang-ex-hn-3",
+   "agrees": true
+  }
+ },
+ {
+  "code": "EX-HN4",
+  "verdict": "fix",
+  "fixes": {
+   "indications": [
+    {
+     "text": "headache at the front of the head",
+     "sources": [
+      "adalberto",
+      "yyh",
+      "mq"
+     ]
+    },
+    {
+     "text": "red, sore eyes",
+     "sources": [
+      "adalberto",
+      "mq"
+     ]
+    },
+    {
+     "text": "twitching eyelid",
+     "sources": [
+      "adalberto",
+      "mq"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "adalberto",
+     "name": "Attilio D'Alberto Yu Yao",
+     "url": "https://www.attiliodalberto.com/acupuncture/points/yu-yao.php"
+    },
+    {
+     "id": "yyh",
+     "name": "Yin Yang House Yuyao",
+     "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/x-yuyao"
+    },
+    {
+     "id": "mq",
+     "name": "Me & Qi Yuyao EX-HN-4",
+     "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-head-and-neck-ex-hn/yuyao-ex-hn-4"
+    }
+   ]
+  },
+  "reason": "Location correct (middle of eyebrow above the pupil per Attilio, YYH, Me & Qi; TCM Wiki's page has a typo 'between the eyebrows', so not used). Flashcards removed; indications re-backed.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me & Qi Yuyao EX-HN-4",
+   "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-head-and-neck-ex-hn/yuyao-ex-hn-4",
+   "agrees": true
+  }
+ },
+ {
+  "code": "EX-HN5",
+  "verdict": "fix",
+  "fixes": {
+   "indications": [
+    {
+     "text": "headache at the temple",
+     "sources": [
+      "adalberto",
+      "pulsetcm",
+      "lierre",
+      "yyh",
+      "mq"
+     ]
+    },
+    {
+     "text": "tired or sore eyes",
+     "sources": [
+      "adalberto",
+      "lierre",
+      "yyh",
+      "mq"
+     ]
+    },
+    {
+     "text": "toothache",
+     "sources": [
+      "adalberto",
+      "lierre",
+      "tcmwiki",
+      "yyh"
+     ]
+    },
+    {
+     "text": "dizziness",
+     "sources": [
+      "pulsetcm",
+      "lierre",
+      "mq"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "adalberto",
+     "name": "Attilio D'Alberto Tai Yang",
+     "url": "https://www.attiliodalberto.com/acupuncture/points/tai-yang.php"
+    },
+    {
+     "id": "pulsetcm",
+     "name": "PULSE TCM Singapore Tai Yang",
+     "url": "https://pulsetcm.sg/bites/tai-yang-ex-hn5/"
+    },
+    {
+     "id": "lierre",
+     "name": "Lierre Acupuncture Point Taiyang (EX-HN5)",
+     "url": "https://www.lierre.ca/blogs/acupuncture-supplies/acupuncture-point-taiyang-ex-hn5"
+    },
+    {
+     "id": "tcmwiki",
+     "name": "TCM Wiki Taiyang",
+     "url": "https://tcmwiki.com/wiki/taiyang"
+    },
+    {
+     "id": "yyh",
+     "name": "Yin Yang House Taiyang",
+     "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/x-taiyang"
+    },
+    {
+     "id": "mq",
+     "name": "Me & Qi Taiyang EX-HN-5",
+     "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-head-and-neck-ex-hn/taiyang-ex-hn-5"
+    }
+   ]
+  },
+  "reason": "Location correct (1 cun / one finger-breadth behind the midpoint of brow end and outer eye corner; Me & Qi, YYH, TCM Wiki, Lierre, PULSE agree). Flashcards removed; indications re-backed.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me & Qi Taiyang EX-HN-5",
+   "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-head-and-neck-ex-hn/taiyang-ex-hn-5",
+   "agrees": true
+  }
+ },
+ {
+  "code": "EX-HN6",
+  "verdict": "fix",
+  "fixes": {
+   "indications": [
+    {
+     "text": "one-sided headache",
+     "sources": [
+      "adalberto",
+      "mq"
+     ]
+    },
+    {
+     "text": "sore throat",
+     "sources": [
+      "adalberto",
+      "mq"
+     ]
+    },
+    {
+     "text": "red, sore eyes",
+     "sources": [
+      "adalberto",
+      "mq"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "adalberto",
+     "name": "Attilio D'Alberto Er Jian",
+     "url": "https://www.attiliodalberto.com/acupuncture/points/erjian.php"
+    },
+    {
+     "id": "yyh",
+     "name": "Yin Yang House Erjian",
+     "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/x-erjian"
+    },
+    {
+     "id": "mq",
+     "name": "Me & Qi Erjian EX-HN-6",
+     "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-head-and-neck-ex-hn/erjian-ex-hn-6"
+    }
+   ]
+  },
+  "reason": "Location correct (ear folded forward, top of the fold; YYH and Me & Qi agree with Attilio). Flashcards removed; indications re-backed.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me & Qi Erjian EX-HN-6",
+   "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-head-and-neck-ex-hn/erjian-ex-hn-6",
+   "agrees": true
+  }
+ },
+ {
+  "code": "EX-HN7",
+  "verdict": "fix",
+  "fixes": {
+   "sources": [
+    {
+     "id": "adalberto",
+     "name": "Attilio D'Alberto Qiu Hou",
+     "url": "https://www.attiliodalberto.com/acupuncture/points/qiu-hou.php"
+    },
+    {
+     "id": "tcmwiki",
+     "name": "TCM Wiki Qiuhou",
+     "url": "https://tcmwiki.com/wiki/qiuhou"
+    },
+    {
+     "id": "mq",
+     "name": "Me & Qi Qiuhou EX-HN-7",
+     "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-head-and-neck-ex-hn/qiuhou-ex-hn-7"
+    }
+   ]
+  },
+  "reason": "Location correct (junction of outer quarter and inner three quarters of the lower orbital rim; TCM Wiki, Me & Qi, Attilio). Avoid/eye caution appropriate. Flashcards replaced.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me & Qi Qiuhou EX-HN-7",
+   "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-head-and-neck-ex-hn/qiuhou-ex-hn-7",
+   "agrees": true
+  }
+ },
+ {
+  "code": "EX-HN8",
+  "verdict": "fix",
+  "fixes": {
+   "indications": [
+    {
+     "text": "stuffy nose",
+     "sources": [
+      "tcmwiki",
+      "yyh",
+      "mq"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "tcmwiki",
+     "name": "TCM Wiki Shangyingxiang",
+     "url": "https://tcmwiki.com/wiki/shangyingxiang"
+    },
+    {
+     "id": "yyh",
+     "name": "Yin Yang House Bitong (Shangyingxiang)",
+     "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/x-bitong"
+    },
+    {
+     "id": "mq",
+     "name": "Me & Qi Shangyingxiang EX-HN-8",
+     "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-head-and-neck-ex-hn/shangyingxiang-ex-hn-8"
+    }
+   ]
+  },
+  "reason": "Only flashcard sources. TCM Wiki, Me & Qi and Yin Yang House (as Bitong, its other name) all place it at the upper end of the nose-cheek groove where cartilage meets bone; find text agrees. Stuffy nose re-backed by all three.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House Bitong (Shangyingxiang)",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/x-bitong",
+   "agrees": true
+  }
+ },
+ {
+  "code": "EX-HN9",
+  "verdict": "fix",
+  "fixes": {
+   "sources": [
+    {
+     "id": "pmc-10175315",
+     "name": "PMC10175315 intranasal acupuncture, Neiyingxiang",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10175315"
+    },
+    {
+     "id": "tcmwiki",
+     "name": "TCM Wiki Neiyingxiang",
+     "url": "https://tcmwiki.com/wiki/neiyingxiang"
+    },
+    {
+     "id": "mq",
+     "name": "Me & Qi Neiyingxiang EX-HN-9",
+     "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-head-and-neck-ex-hn/neiyingxiang-ex-hn-9"
+    }
+   ]
+  },
+  "reason": "Location (inside the nostril, cartilage/bone junction) confirmed by TCM Wiki and Me & Qi, consistent with the PMC trial. Flashcard dropped. Avoid is right.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me & Qi Neiyingxiang EX-HN-9",
+   "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-head-and-neck-ex-hn/neiyingxiang-ex-hn-9",
+   "agrees": true
+  }
+ },
+ {
+  "code": "EX-HN10",
+  "verdict": "fix",
+  "fixes": {
+   "sources": [
+    {
+     "id": "tcmwiki",
+     "name": "TCM Wiki Juquan",
+     "url": "https://tcmwiki.com/wiki/juquan"
+    },
+    {
+     "id": "mq",
+     "name": "Me & Qi Juquan EX-HN-10",
+     "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-head-and-neck-ex-hn/juquan-ex-hn-10"
+    }
+   ]
+  },
+  "reason": "Only flashcard sources. TCM Wiki (midpoint of tongue top midline) and Me & Qi (centre of the fully stuck-out tongue) agree with the find text. In-mouth, so avoid is right.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me & Qi Juquan EX-HN-10",
+   "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-head-and-neck-ex-hn/juquan-ex-hn-10",
+   "agrees": true
+  }
+ },
+ {
+  "code": "EX-HN11",
+  "verdict": "fix",
+  "fixes": {
+   "sources": [
+    {
+     "id": "tcmwiki",
+     "name": "TCM Wiki Haiquan",
+     "url": "https://tcmwiki.com/wiki/haiquan"
+    },
+    {
+     "id": "mq",
+     "name": "Me & Qi Haiquan EX-HN-11",
+     "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-head-and-neck-ex-hn/haiquan-ex-hn-11"
+    }
+   ]
+  },
+  "reason": "Only flashcard sources. TCM Wiki and Me & Qi both put it at the middle of the tongue frenulum, matching the find text. Avoid is right.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me & Qi Haiquan EX-HN-11",
+   "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-head-and-neck-ex-hn/haiquan-ex-hn-11",
+   "agrees": true
+  }
+ },
+ {
+  "code": "EX-HN12",
+  "verdict": "fix",
+  "fixes": {
+   "sources": [
+    {
+     "id": "adalberto",
+     "name": "Attilio D'Alberto Jin Jin",
+     "url": "https://www.attiliodalberto.com/acupuncture/points/jin-jin.php"
+    },
+    {
+     "id": "tcmwiki",
+     "name": "TCM Wiki Jinjin",
+     "url": "https://tcmwiki.com/wiki/jinjin"
+    },
+    {
+     "id": "yyh",
+     "name": "Yin Yang House Jinjin/Yuye",
+     "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/x-jinjin-yuye"
+    },
+    {
+     "id": "mq",
+     "name": "Me & Qi Jinjin EX-HN-12",
+     "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-head-and-neck-ex-hn/jinjin-ex-hn-12"
+    }
+   ]
+  },
+  "reason": "Location correct (left sublingual vein; Attilio, TCM Wiki, YYH, Me & Qi). Flashcards replaced. Avoid is right.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me & Qi Jinjin EX-HN-12",
+   "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-head-and-neck-ex-hn/jinjin-ex-hn-12",
+   "agrees": true
+  }
+ },
+ {
+  "code": "EX-HN13",
+  "verdict": "fix",
+  "fixes": {
+   "sources": [
+    {
+     "id": "adalberto",
+     "name": "Attilio D'Alberto Yu Ye",
+     "url": "https://www.attiliodalberto.com/acupuncture/points/yu-ye.php"
+    },
+    {
+     "id": "tcmwiki",
+     "name": "TCM Wiki Yuye",
+     "url": "https://tcmwiki.com/wiki/yuye"
+    },
+    {
+     "id": "yyh",
+     "name": "Yin Yang House Jinjin/Yuye",
+     "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/x-jinjin-yuye"
+    },
+    {
+     "id": "mq",
+     "name": "Me & Qi Yuye EX-HN-13",
+     "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-head-and-neck-ex-hn/yuye-ex-hn-13"
+    }
+   ]
+  },
+  "reason": "Location correct (right sublingual vein; Attilio, TCM Wiki, YYH, Me & Qi). Flashcards replaced. Avoid is right.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me & Qi Yuye EX-HN-13",
+   "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-head-and-neck-ex-hn/yuye-ex-hn-13",
+   "agrees": true
+  }
+ },
+ {
+  "code": "EX-HN14",
+  "verdict": "fix",
+  "fixes": {
+   "indications": [
+    {
+     "text": "trouble sleeping",
+     "sources": [
+      "adalberto",
+      "tcmwiki",
+      "yyh",
+      "mq"
+     ]
+    },
+    {
+     "text": "ringing in the ears",
+     "sources": [
+      "adalberto",
+      "tcmwiki",
+      "yyh"
+     ]
+    },
+    {
+     "text": "dizziness",
+     "sources": [
+      "adalberto",
+      "mq"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "adalberto",
+     "name": "Attilio D'Alberto Yi Ming",
+     "url": "https://www.attiliodalberto.com/acupuncture/points/yi-ming.php"
+    },
+    {
+     "id": "tcmwiki",
+     "name": "TCM Wiki Yiming",
+     "url": "https://tcmwiki.com/wiki/yiming"
+    },
+    {
+     "id": "yyh",
+     "name": "Yin Yang House Yiming",
+     "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/x-yiming"
+    },
+    {
+     "id": "mq",
+     "name": "Me & Qi Yiming EX-HN-14",
+     "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-head-and-neck-ex-hn/yiming-ex-hn-14"
+    }
+   ]
+  },
+  "reason": "Location correct (1 cun behind TE17 on the back edge of the mastoid; Attilio, TCM Wiki, YYH, Me & Qi). Flashcards removed; indications re-backed.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House Yiming",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/x-yiming",
+   "agrees": true
+  }
+ },
+ {
+  "code": "EX-HN15",
+  "verdict": "fix",
+  "fixes": {
+   "find": "On the back of the neck: find the hollow just below the big bump at the base of the neck, go two thumb-widths straight up, then one thumb-width out to the side.",
+   "indications": [
+    {
+     "text": "stiff neck",
+     "sources": [
+      "tcmwiki",
+      "yyh",
+      "adalberto",
+      "mq"
+     ]
+    },
+    {
+     "text": "cough",
+     "sources": [
+      "tcmwiki",
+      "yyh",
+      "adalberto",
+      "mq"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "tcmwiki",
+     "name": "TCM Wiki Jingbailao",
+     "url": "https://tcmwiki.com/wiki/jingbailao"
+    },
+    {
+     "id": "yyh",
+     "name": "Yin Yang House Bailao",
+     "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/x-bailao"
+    },
+    {
+     "id": "adalberto",
+     "name": "Attilio D'Alberto Bailao",
+     "url": "https://www.attiliodalberto.com/acupuncture/points/bailao.php"
+    },
+    {
+     "id": "mq",
+     "name": "Me & Qi Bailao EX-HN-15",
+     "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-head-and-neck-ex-hn/bailao-ex-hn-15"
+    }
+   ]
+  },
+  "reason": "Only flashcard sources. TCM Wiki, YYH, Attilio and Me & Qi all give 2 cun above GV14 (the hollow just BELOW the C7 bump) and 1 cun lateral; the find text measured from the bump itself, so it is reworded. Placement from C7 up 2 is within tolerance. Stiff neck and cough backed by all four.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me & Qi Bailao EX-HN-15",
+   "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-head-and-neck-ex-hn/bailao-ex-hn-15",
+   "agrees": true
+  }
+ },
+ {
+  "code": "EX-CA1",
+  "verdict": "fix",
+  "fixes": {
+   "find": "On the lower belly: one hand-width plus one thumb-width below the navel, then one hand-width (four finger-widths) out to the side.",
+   "indications": [
+    {
+     "text": "period pain",
+     "sources": [
+      "adalberto",
+      "yyh"
+     ]
+    },
+    {
+     "text": "irregular periods",
+     "sources": [
+      "adalberto",
+      "mq"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "adalberto",
+     "name": "Attilio D'Alberto Zi Gong",
+     "url": "https://www.attiliodalberto.com/acupuncture/points/zi-gong.php"
+    },
+    {
+     "id": "yyh",
+     "name": "Yin Yang House Zigongxue",
+     "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/x-zigongxue"
+    },
+    {
+     "id": "mq",
+     "name": "Me & Qi Zigong EX-CA-1",
+     "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-chest-and-abdomen-ex-ca/zigong-ex-ca-1"
+    }
+   ]
+  },
+  "reason": "Location correct (4 cun below navel = 1 cun above pubic bone, 3 cun lateral; Attilio, YYH, Me & Qi). Pregnancy true is right (Attilio and Me & Qi: contraindicated). Flashcards replaced; find converted to hand-widths.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me & Qi Zigong EX-CA-1",
+   "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-chest-and-abdomen-ex-ca/zigong-ex-ca-1",
+   "agrees": true
+  }
+ },
+ {
+  "code": "ANMIAN",
+  "verdict": "fix",
+  "fixes": {
+   "find": "Behind the ear: find the soft hollow just behind the earlobe and the hollow under the base of the skull at the side of the neck. The point is halfway between them, just behind the bony bump behind the ear. Press lightly.",
+   "place": {
+    "manual": "Midway between the hollow behind the earlobe (TE17) and the hollow under the skull base beside the neck muscles (GB20), just behind the mastoid."
+   },
+   "indications": [
+    {
+     "text": "trouble sleeping",
+     "sources": [
+      "adalberto",
+      "pulsetcm",
+      "umn",
+      "yyh"
+     ]
+    },
+    {
+     "text": "dizziness",
+     "sources": [
+      "adalberto",
+      "pulsetcm"
+     ]
+    },
+    {
+     "text": "anxious feelings",
+     "sources": [
+      "adalberto",
+      "pulsetcm"
+     ]
+    }
+   ],
+   "tags": [
+    "sleep",
+    "stress_anxiety"
+   ],
+   "sources": [
+    {
+     "id": "adalberto",
+     "name": "Attilio D'Alberto An Mian",
+     "url": "https://www.attiliodalberto.com/acupuncture/points/an-mian.php"
+    },
+    {
+     "id": "pulsetcm",
+     "name": "PULSE TCM Singapore An Mian",
+     "url": "https://pulsetcm.sg/bites/an-mian-ex-hn20/"
+    },
+    {
+     "id": "umn",
+     "name": "UMN Taking Charge: insomnia acupoints",
+     "url": "https://takingcharge.csh.umn.edu/survivorship/insomnia-acupoints"
+    },
+    {
+     "id": "yyh",
+     "name": "Yin Yang House Anmian",
+     "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/x-anmian"
+    }
+   ]
+  },
+  "reason": "Location wrong. Attilio and Yin Yang House both put Anmian at the midpoint between TE17 (hollow behind the earlobe) and GB20 (hollow under the skull base beside the neck muscles). UMN puts it on the same line. That spot lies behind the mastoid bump. The record put it between the earlobe hollow and the mastoid, which is too far forward and overlaps Yiming. 'Headache' had only one non-flashcard source and is dropped.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House Anmian",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/x-anmian",
+   "agrees": true
+  }
+ },
+ {
+  "code": "EX-B1",
+  "verdict": "fix",
+  "fixes": {
+   "indications": [
+    {
+     "text": "cough",
+     "sources": [
+      "tcmwiki",
+      "atd",
+      "mq"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "tcmwiki",
+     "name": "TCM Wiki Dingchuan",
+     "url": "https://tcmwiki.com/wiki/dingchuan"
+    },
+    {
+     "id": "atd",
+     "name": "Attilio D'Alberto Ding Chuan",
+     "url": "https://www.attiliodalberto.com/acupuncture/points/ding-chuan.php"
+    },
+    {
+     "id": "yyh",
+     "name": "Yin Yang House Dingchuan",
+     "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/x-dingchuan"
+    },
+    {
+     "id": "mq",
+     "name": "Me & Qi Dingchuan EX-B-1",
+     "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-back-ex-b/dingchuan-ex-b-1"
+    }
+   ]
+  },
+  "reason": "Location correct (0.5 cun lateral to below C7; TCM Wiki, Attilio, YYH, Me & Qi). Flashcard dropped, two more sources added.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me & Qi Dingchuan EX-B-1",
+   "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-back-ex-b/dingchuan-ex-b-1",
+   "agrees": true
+  }
+ },
+ {
+  "code": "EX-B2",
+  "verdict": "ok",
+  "fixes": {
+   "sources": [
+    {
+     "id": "tcmwiki",
+     "name": "TCM Wiki Jiaji",
+     "url": "https://tcmwiki.com/wiki/jiaji"
+    },
+    {
+     "id": "atd",
+     "name": "Attilio D'Alberto Hua Tuo Jia Ji",
+     "url": "https://www.attiliodalberto.com/acupuncture/points/hua-tuo.php"
+    },
+    {
+     "id": "yyh",
+     "name": "Yin Yang House Huatuojiaji",
+     "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/x-huatuojiaji"
+    },
+    {
+     "id": "mq",
+     "name": "Me & Qi Huatuojiaji EX-B-2",
+     "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-back-ex-b/huatuojiaji-ex-b-2"
+    }
+   ]
+  },
+  "reason": "Location correct (0.5 cun lateral to each spinous process T1-L5; TCM Wiki, Attilio, YYH, Me & Qi). Already two reputable sources; extra sources added for robustness.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me & Qi Huatuojiaji EX-B-2",
+   "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-back-ex-b/huatuojiaji-ex-b-2",
+   "agrees": true
+  }
+ },
+ {
+  "code": "EX-B3",
+  "verdict": "fix",
+  "fixes": {
+   "find": "On the mid-back: find the spine bump level with the bottom tips of the shoulder blades, go one bump lower, then two finger-widths out to the side, level with the gap just below that bump.",
+   "indications": [
+    {
+     "text": "dry mouth",
+     "sources": [
+      "tcmwiki",
+      "atd",
+      "mq"
+     ]
+    },
+    {
+     "text": "stomach ache",
+     "sources": [
+      "tcmwiki",
+      "mq"
+     ]
+    }
+   ],
+   "tags": [
+    "digestive_health"
+   ],
+   "sources": [
+    {
+     "id": "tcmwiki",
+     "name": "TCM Wiki Weiwanxiashu",
+     "url": "https://tcmwiki.com/wiki/weiwanxiashu"
+    },
+    {
+     "id": "atd",
+     "name": "Attilio D'Alberto Wei Guan Xia Shu",
+     "url": "https://www.attiliodalberto.com/acupuncture/points/wei-guan-xia-shu.php"
+    },
+    {
+     "id": "mq",
+     "name": "Me & Qi Weiwanxiashu EX-B-3",
+     "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-back-ex-b/weiwanxiashu-ex-b-3"
+    }
+   ]
+  },
+  "reason": "Level and distance are correct (below T8, 1.5 cun; TCM Wiki, Attilio, Me & Qi). The find text's landmark 'bump around the middle of the shoulder blade' is misleading; T8 is one bump below the level of the shoulder-blade tips (T7). 1.5 cun converted to two finger-widths. Flashcard dropped; stomach ache added (TCM Wiki, Me & Qi).",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me & Qi Weiwanxiashu EX-B-3",
+   "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-back-ex-b/weiwanxiashu-ex-b-3",
+   "agrees": true
+  }
+ },
+ {
+  "code": "EX-B4",
+  "verdict": "fix",
+  "fixes": {
+   "find": "On the low back: find the first bump of the low back (three bumps above the one level with the hip-bone tops), then go one hand-width plus half a thumb-width out to the side, level with the gap just below it.",
+   "indications": [
+    {
+     "text": "low back pain",
+     "sources": [
+      "atd",
+      "mq"
+     ]
+    }
+   ],
+   "tags": [
+    "low_back_pain"
+   ],
+   "sources": [
+    {
+     "id": "tcmwiki",
+     "name": "TCM Wiki Pigen",
+     "url": "https://tcmwiki.com/wiki/pigen"
+    },
+    {
+     "id": "atd",
+     "name": "Attilio D'Alberto Pi Gen",
+     "url": "https://www.attiliodalberto.com/acupuncture/points/pi-gen.php"
+    },
+    {
+     "id": "mq",
+     "name": "Me & Qi Pigen EX-B-4",
+     "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-back-ex-b/pigen-ex-b-4"
+    }
+   ]
+  },
+  "reason": "Location correct (3.5 cun lateral to below L1; TCM Wiki, Attilio, Me & Qi). Find reworded to hand-widths and to the gap below the bump. Flashcard dropped. Low back pain added (Attilio: low back stiffness; Me & Qi: lumbar pain).",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me & Qi Pigen EX-B-4",
+   "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-back-ex-b/pigen-ex-b-4",
+   "agrees": true
+  }
+ },
+ {
+  "code": "EX-B5",
+  "verdict": "fix",
+  "fixes": {
+   "indications": [
+    {
+     "text": "low back pain",
+     "sources": [
+      "tcmwiki",
+      "mq"
+     ]
+    }
+   ],
+   "tags": [
+    "low_back_pain"
+   ],
+   "sources": [
+    {
+     "id": "tcmwiki",
+     "name": "TCM Wiki Xiajishu",
+     "url": "https://tcmwiki.com/wiki/xiajishu"
+    },
+    {
+     "id": "mq",
+     "name": "Me & Qi Xiajishu EX-B-5",
+     "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-back-ex-b/xiajishu-ex-b-5"
+    }
+   ]
+  },
+  "reason": "Location correct (midline below L3; TCM Wiki and Me & Qi; Me & Qi adds a 3-point variant with two side points 3 cun out). Flashcard dropped. Low back pain backed by both (TCM Wiki lumbago, Me & Qi). Me & Qi also notes a possible labour-promoting effect near term, but only one non-flashcard source, so pregnancy stays false.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me & Qi Xiajishu EX-B-5",
+   "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-back-ex-b/xiajishu-ex-b-5",
+   "agrees": true
+  }
+ },
+ {
+  "code": "EX-B6",
+  "verdict": "fix",
+  "fixes": {
+   "find": "On the low back: find the spine bump level with the tops of the hip bones, then go one hand-width (four finger-widths) out to the side, level with the gap just below it.",
+   "indications": [
+    {
+     "text": "low back pain",
+     "sources": [
+      "tcmwiki",
+      "mq"
+     ]
+    }
+   ],
+   "tags": [
+    "low_back_pain"
+   ],
+   "sources": [
+    {
+     "id": "tcmwiki",
+     "name": "TCM Wiki Yaoyi",
+     "url": "https://tcmwiki.com/wiki/yaoyi"
+    },
+    {
+     "id": "mq",
+     "name": "Me & Qi Yaoyi EX-B-6",
+     "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-back-ex-b/yaoyi-ex-b-6"
+    }
+   ]
+  },
+  "reason": "Location correct (3 cun lateral to below L4; TCM Wiki, Me & Qi). Find converted: 3 cun = one hand-width. Flashcards dropped. Low back pain backed by both.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me & Qi Yaoyi EX-B-6",
+   "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-back-ex-b/yaoyi-ex-b-6",
+   "agrees": true
+  }
+ },
+ {
+  "code": "EX-B7",
+  "verdict": "fix",
+  "fixes": {
+   "find": "On the low back, in the dimple one hand-width plus half a thumb-width out from the spine, level with the gap below the spine bump that lines up with the tops of the hip bones.",
+   "sources": [
+    {
+     "id": "tcmwiki",
+     "name": "TCM Wiki Yaoyan",
+     "url": "https://tcmwiki.com/wiki/yaoyan"
+    },
+    {
+     "id": "atd",
+     "name": "Attilio D'Alberto Yao Yan",
+     "url": "https://www.attiliodalberto.com/acupuncture/points/yaoyan.php"
+    },
+    {
+     "id": "yyh",
+     "name": "Yin Yang House Yaoyan",
+     "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/x-yaoyan"
+    },
+    {
+     "id": "mq",
+     "name": "Me & Qi Yaoyan EX-B-7",
+     "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-back-ex-b/yaoyan-ex-b-7"
+    }
+   ]
+  },
+  "reason": "Location correct (3.5 cun lateral to below L4 per TCM Wiki, YYH, Me & Qi; Attilio says 3.8). Find converted to hand-widths. Flashcard dropped.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me & Qi Yaoyan EX-B-7",
+   "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-back-ex-b/yaoyan-ex-b-7",
+   "agrees": true
+  }
+ },
+ {
+  "code": "EX-B8",
+  "verdict": "fix",
+  "fixes": {
+   "sources": [
+    {
+     "id": "tcmwiki",
+     "name": "TCM Wiki Shiqizhui",
+     "url": "https://tcmwiki.com/wiki/shiqizhui"
+    },
+    {
+     "id": "atd",
+     "name": "Attilio D'Alberto Shi Qi Zhui",
+     "url": "https://www.attiliodalberto.com/acupuncture/points/shi-qi-zhui.php"
+    },
+    {
+     "id": "yyh",
+     "name": "Yin Yang House Shiqizhui",
+     "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/x-shiqizhui"
+    },
+    {
+     "id": "mq",
+     "name": "Me & Qi Shiqizhuixia EX-B-8",
+     "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-back-ex-b/shiqizhuixia-ex-b-8"
+    }
+   ]
+  },
+  "reason": "Location correct (midline below L5; TCM Wiki, Attilio, YYH, Me & Qi). Pregnancy true reasonable (Me & Qi caution). Flashcard dropped.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me & Qi Shiqizhuixia EX-B-8",
+   "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-back-ex-b/shiqizhuixia-ex-b-8",
+   "agrees": true
+  }
+ },
+ {
+  "code": "EX-B9",
+  "verdict": "disputed",
+  "fixes": {
+   "find": "On the middle line of the lower back, three finger-widths above the tip of the tailbone, in the hollow between the two small bony ridges at the lower end of the sacrum.",
+   "indications": [
+    {
+     "text": "trouble sleeping",
+     "sources": [
+      "tcmwiki",
+      "mq"
+     ]
+    },
+    {
+     "text": "constipation",
+     "sources": [
+      "tcmwiki",
+      "mq"
+     ]
+    }
+   ],
+   "tags": [
+    "sleep",
+    "constipation"
+   ],
+   "sources": [
+    {
+     "id": "tcmwiki",
+     "name": "TCM Wiki Yaoqi",
+     "url": "https://tcmwiki.com/wiki/yaoqi"
+    },
+    {
+     "id": "atd",
+     "name": "Attilio D'Alberto Yao Qi",
+     "url": "https://www.attiliodalberto.com/acupuncture/points/yaoqi.php"
+    },
+    {
+     "id": "mq",
+     "name": "Me & Qi Yaoqi EX-B-9",
+     "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-back-ex-b/yaoqi-ex-b-9"
+    }
+   ]
+  },
+  "reason": "Sources genuinely disagree on height: TCM Wiki and Me & Qi put it 2 cun above the coccyx tip between the sacral horns (as the record does), Attilio puts it below the S2 spinous process. The 2-cun version is kept. Find gains the distance; flashcard dropped. Sleep and constipation are backed by TCM Wiki and Me & Qi.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me & Qi Yaoqi EX-B-9",
+   "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-back-ex-b/yaoqi-ex-b-9",
+   "agrees": true
+  }
+ },
+ {
+  "code": "EX-UE1",
+  "verdict": "fix",
+  "fixes": {
+   "sources": [
+    {
+     "id": "tcmwiki",
+     "name": "TCM Wiki Zhoujian",
+     "url": "https://tcmwiki.com/wiki/zhoujian"
+    },
+    {
+     "id": "atd",
+     "name": "Attilio D'Alberto Zhou Jian",
+     "url": "https://www.attiliodalberto.com/acupuncture/points/zhou-jian.php"
+    },
+    {
+     "id": "mq",
+     "name": "Me & Qi Zhoujian EX-UE-1",
+     "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-upper-extremities-ex-ue/zhoujian-ex-ue-1"
+    }
+   ]
+  },
+  "reason": "Location correct (tip of olecranon, elbow bent; TCM Wiki, Attilio, Me & Qi). Flashcard dropped.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me & Qi Zhoujian EX-UE-1",
+   "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-upper-extremities-ex-ue/zhoujian-ex-ue-1",
+   "agrees": true
+  }
+ },
+ {
+  "code": "EX-UE2",
+  "verdict": "fix",
+  "fixes": {
+   "find": "Inner forearm, a hand-width plus a thumb-width above the wrist crease. Two spots, one on each side of the tendon on the thumb side (it pops up when you bend the wrist toward the thumb).",
+   "sources": [
+    {
+     "id": "tcmwiki",
+     "name": "TCM Wiki Erbai",
+     "url": "https://tcmwiki.com/wiki/erbai"
+    },
+    {
+     "id": "atd",
+     "name": "Attilio D'Alberto Er Bai",
+     "url": "https://www.attiliodalberto.com/acupuncture/points/er-bai.php"
+    },
+    {
+     "id": "yyh",
+     "name": "Yin Yang House Erbai",
+     "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/x-erbai"
+    },
+    {
+     "id": "mq",
+     "name": "Me & Qi Erbai EX-UE-2",
+     "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-upper-extremities-ex-ue/erbai-ex-ue-2"
+    }
+   ]
+  },
+  "reason": "Level is right (4 cun above wrist crease), but the find text says 'either side of the central tendon'. TCM Wiki, Attilio, YYH and Me & Qi all name the flexor carpi radialis, the tendon on the thumb side, not the central one (palmaris). Flashcard dropped.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me & Qi Erbai EX-UE-2",
+   "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-upper-extremities-ex-ue/erbai-ex-ue-2",
+   "agrees": true
+  }
+ },
+ {
+  "code": "EX-UE3",
+  "verdict": "fix",
+  "fixes": {
+   "indications": [
+    {
+     "text": "chest tightness",
+     "sources": [
+      "tcmwiki",
+      "mq"
+     ]
+    },
+    {
+     "text": "stomach pain",
+     "sources": [
+      "tcmwiki",
+      "mq"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "tcmwiki",
+     "name": "TCM Wiki Zhongquan",
+     "url": "https://tcmwiki.com/wiki/zhongquan"
+    },
+    {
+     "id": "mq",
+     "name": "Me & Qi Zhongquan EX-UE-3",
+     "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-upper-extremities-ex-ue/zhongquan-ex-ue-3"
+    }
+   ]
+  },
+  "reason": "Location correct (back of wrist crease, thumb side of the extensor digitorum tendon; TCM Wiki, Me & Qi). Flashcards replaced; indications re-backed.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me & Qi Zhongquan EX-UE-3",
+   "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-upper-extremities-ex-ue/zhongquan-ex-ue-3",
+   "agrees": true
+  }
+ },
+ {
+  "code": "EX-UE4",
+  "verdict": "fix",
+  "fixes": {
+   "find": "On the back of the middle finger, at the centre of the middle joint (the knuckle halfway along the finger). Bend the finger slightly; it is at the top of the bent joint.",
+   "place": {
+    "manual": "Back of the middle finger, at the centre of the middle (proximal interphalangeal) joint."
+   },
+   "indications": [
+    {
+     "text": "nausea",
+     "sources": [
+      "tcmwiki",
+      "mq"
+     ]
+    },
+    {
+     "text": "hiccups",
+     "sources": [
+      "tcmwiki",
+      "mq"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "tcmwiki",
+     "name": "TCM Wiki Zhongkui",
+     "url": "https://tcmwiki.com/wiki/zhongkui"
+    },
+    {
+     "id": "mq",
+     "name": "Me & Qi Zhongkui EX-UE-4",
+     "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-upper-extremities-ex-ue/zhongkui-ex-ue-4"
+    }
+   ]
+  },
+  "reason": "TCM Wiki and Me & Qi both place it at the middle (proximal interphalangeal) joint of the middle finger, on the back. The find text's 'first knuckle crease, nearest the hand' reads as the big knuckle where the finger joins the hand, which is wrong. Flashcards replaced.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me & Qi Zhongkui EX-UE-4",
+   "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-upper-extremities-ex-ue/zhongkui-ex-ue-4",
+   "agrees": true
+  }
+ },
+ {
+  "code": "EX-UE5",
+  "verdict": "ok",
+  "fixes": {
+   "sources": [
+    {
+     "id": "tcmwiki",
+     "name": "TCM Wiki Dagukong",
+     "url": "https://tcmwiki.com/wiki/dagukong"
+    },
+    {
+     "id": "atd",
+     "name": "Attilio D'Alberto Da Gu Kong",
+     "url": "https://www.attiliodalberto.com/acupuncture/points/da-gu-kong.php"
+    },
+    {
+     "id": "mq",
+     "name": "Me & Qi Dagukong EX-UE-5",
+     "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-upper-extremities-ex-ue/dagukong-ex-ue-5"
+    }
+   ]
+  },
+  "reason": "Location correct (back of thumb, centre of the interphalangeal joint; TCM Wiki, Attilio, Me & Qi). Nosebleed backed by all three.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me & Qi Dagukong EX-UE-5",
+   "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-upper-extremities-ex-ue/dagukong-ex-ue-5",
+   "agrees": true
+  }
+ },
+ {
+  "code": "EX-UE6",
+  "verdict": "fix",
+  "fixes": {
+   "find": "On the back of the little finger, at the centre of the middle joint (the knuckle halfway along the finger).",
+   "place": {
+    "manual": "Back of the little finger, at the centre of the middle (proximal interphalangeal) joint."
+   },
+   "sources": [
+    {
+     "id": "tcmwiki",
+     "name": "TCM Wiki Xiaogukong",
+     "url": "https://tcmwiki.com/wiki/xiaogukong"
+    },
+    {
+     "id": "atd",
+     "name": "Attilio D'Alberto Xiao Gu Kong",
+     "url": "https://www.attiliodalberto.com/acupuncture/points/xiao-gu-kong.php"
+    },
+    {
+     "id": "mq",
+     "name": "Me & Qi Xiaogukong EX-UE-6",
+     "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-upper-extremities-ex-ue/xiaogukong-ex-ue-6"
+    }
+   ]
+  },
+  "reason": "TCM Wiki, Attilio and Me & Qi put it at the middle (proximal interphalangeal) joint of the little finger, on the back. 'First knuckle joint nearest the hand' reads as the base knuckle, so the wording is fixed.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me & Qi Xiaogukong EX-UE-6",
+   "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-upper-extremities-ex-ue/xiaogukong-ex-ue-6",
+   "agrees": true
+  }
+ },
+ {
+  "code": "EX-UE7",
+  "verdict": "disputed",
+  "fixes": {
+   "indications": [
+    {
+     "text": "low back pain",
+     "sources": [
+      "tcmwiki",
+      "yyh",
+      "mq"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "tcmwiki",
+     "name": "TCM Wiki Yaotongdian",
+     "url": "https://tcmwiki.com/wiki/yaotongdian"
+    },
+    {
+     "id": "yyh",
+     "name": "Yin Yang House Yaotongxue",
+     "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/x-yaotongxue"
+    },
+    {
+     "id": "mq",
+     "name": "Me & Qi Yaotongdian EX-UE-7",
+     "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-upper-extremities-ex-ue/yaotongdian-ex-ue-7"
+    }
+   ]
+  },
+  "reason": "TCM Wiki and Yin Yang House place the two points midway between wrist crease and knuckles (as recorded). Me & Qi and Attilio place them nearer the wrist, where the shaft meets the base of the hand bones. Record kept; flashcard dropped. Low back pain backed by TCM Wiki, YYH, Me & Qi.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me & Qi Yaotongdian EX-UE-7",
+   "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-upper-extremities-ex-ue/yaotongdian-ex-ue-7",
+   "agrees": false
+  }
+ },
+ {
+  "code": "EX-UE8",
+  "verdict": "fix",
+  "fixes": {
+   "indications": [
+    {
+     "text": "stiff neck",
+     "sources": [
+      "tcmwiki",
+      "pulsetcm",
+      "yyh",
+      "mq"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "tcmwiki",
+     "name": "TCM Wiki Wailaogong",
+     "url": "https://tcmwiki.com/wiki/wailaogong"
+    },
+    {
+     "id": "pulsetcm",
+     "name": "Pulse TCM Luo Zhen EX-UE8",
+     "url": "https://pulsetcm.sg/bites/luozhen-ex-ue8-stiff-neck/"
+    },
+    {
+     "id": "yyh",
+     "name": "Yin Yang House Luozhen",
+     "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/x-luozhen"
+    },
+    {
+     "id": "mq",
+     "name": "Me & Qi Wailaogong EX-UE-8",
+     "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-upper-extremities-ex-ue/wailaogong-ex-ue-8"
+    }
+   ]
+  },
+  "reason": "Location correct (between 2nd and 3rd hand bones, ~0.5 cun behind the knuckles; TCM Wiki, PULSE, YYH, Me & Qi). Flashcard dropped.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me & Qi Wailaogong EX-UE-8",
+   "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-upper-extremities-ex-ue/wailaogong-ex-ue-8",
+   "agrees": true
+  }
+ },
+ {
+  "code": "EX-UE9",
+  "verdict": "fix",
+  "fixes": {
+   "indications": [
+    {
+     "text": "finger numbness",
+     "sources": [
+      "atd",
+      "yyh",
+      "mq"
+     ]
+    },
+    {
+     "text": "swollen hand",
+     "sources": [
+      "tcmwiki",
+      "atd",
+      "mq"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "tcmwiki",
+     "name": "TCM Wiki Baxie",
+     "url": "https://tcmwiki.com/wiki/baxie"
+    },
+    {
+     "id": "atd",
+     "name": "Attilio D'Alberto Ba Xie",
+     "url": "https://www.attiliodalberto.com/acupuncture/points/baxie.php"
+    },
+    {
+     "id": "yyh",
+     "name": "Yin Yang House Baxie",
+     "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/x-baxie"
+    },
+    {
+     "id": "mq",
+     "name": "Me & Qi Baxie EX-UE-9",
+     "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-upper-extremities-ex-ue/baxie-ex-ue-9"
+    }
+   ]
+  },
+  "reason": "Location correct (just behind the finger webs, four per hand; TCM Wiki, Attilio, YYH, Me & Qi). Flashcard dropped; indications re-backed.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me & Qi Baxie EX-UE-9",
+   "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-upper-extremities-ex-ue/baxie-ex-ue-9",
+   "agrees": true
+  }
+ },
+ {
+  "code": "EX-UE10",
+  "verdict": "fix",
+  "fixes": {
+   "find": "On the palm side of the index, middle, ring and little fingers, at the centre of the middle crease of each finger (the joint halfway along). Four points on each hand.",
+   "place": {
+    "manual": "Palm side of the four fingers, at the middle of the crease of the middle (proximal interphalangeal) joint (four points per hand)."
+   },
+   "sources": [
+    {
+     "id": "tcmwiki",
+     "name": "TCM Wiki Sifeng",
+     "url": "https://tcmwiki.com/wiki/sifeng"
+    },
+    {
+     "id": "atd",
+     "name": "Attilio D'Alberto Si Feng",
+     "url": "https://www.attiliodalberto.com/acupuncture/points/si-feng.php"
+    },
+    {
+     "id": "yyh",
+     "name": "Yin Yang House Sifeng",
+     "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/x-sifeng"
+    },
+    {
+     "id": "mq",
+     "name": "Me & Qi Sifeng EX-UE-10",
+     "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-upper-extremities-ex-ue/sifeng-ex-ue-10"
+    }
+   ]
+  },
+  "reason": "All sources (TCM Wiki, Attilio, YYH, Me & Qi) give the crease of the MIDDLE (proximal interphalangeal) joint on the palm side. 'First knuckle joint nearest the palm' points to the crease at the base of the finger, so the wording is fixed. Flashcard dropped.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me & Qi Sifeng EX-UE-10",
+   "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-upper-extremities-ex-ue/sifeng-ex-ue-10",
+   "agrees": true
+  }
+ },
+ {
+  "code": "EX-UE11",
+  "verdict": "fix",
+  "fixes": {
+   "indications": [
+    {
+     "text": "sore throat",
+     "sources": [
+      "tcmwiki",
+      "atd"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "tcmwiki",
+     "name": "TCM Wiki Shixuan",
+     "url": "https://tcmwiki.com/wiki/shixuan"
+    },
+    {
+     "id": "atd",
+     "name": "Attilio D'Alberto Shi Xuan",
+     "url": "https://www.attiliodalberto.com/acupuncture/points/shi-xuan.php"
+    },
+    {
+     "id": "yyh",
+     "name": "Yin Yang House Shixuan",
+     "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/x-shixuan"
+    },
+    {
+     "id": "mq",
+     "name": "Me & Qi Shixuan EX-UE-11",
+     "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-upper-extremities-ex-ue/shixuan-ex-ue-11"
+    }
+   ]
+  },
+  "reason": "Location correct (fingertips, 0.1 cun from the nail; TCM Wiki, Attilio, YYH, Me & Qi). Flashcard dropped; 'fingertip numbness' had only Attilio plus a flashcard, so it is removed.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me & Qi Shixuan EX-UE-11",
+   "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-upper-extremities-ex-ue/shixuan-ex-ue-11",
+   "agrees": true
+  }
+ },
+ {
+  "code": "EX-LE1",
+  "verdict": "fix",
+  "fixes": {
+   "find": "Front of the thigh: find the spot three finger-widths above the outer top corner of the kneecap. The two points sit two finger-widths to the outside and two finger-widths to the inside of that spot.",
+   "indications": [
+    {
+     "text": "leg pain",
+     "sources": [
+      "tcmwiki",
+      "mq"
+     ]
+    }
+   ],
+   "tags": [
+    "knee_pain"
+   ],
+   "sources": [
+    {
+     "id": "tcmwiki",
+     "name": "TCM Wiki Kuangu",
+     "url": "https://tcmwiki.com/wiki/kuangu"
+    },
+    {
+     "id": "mq",
+     "name": "Me & Qi Kuangu EX-LE-1",
+     "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-lower-extremities-ex-le/kuangu-ex-le-1"
+    }
+   ]
+  },
+  "reason": "Wrong spacing. TCM Wiki and Me & Qi put the two points 1.5 cun to each side of ST34 (2 cun above the outer top corner of the kneecap), so they are about 3 cun apart, not 'two finger-widths apart'. Placement line is approximate (ST34 itself). Leg pain backed by both.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me & Qi Kuangu EX-LE-1",
+   "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-lower-extremities-ex-le/kuangu-ex-le-1",
+   "agrees": true
+  }
+ },
+ {
+  "code": "EX-LE2",
+  "verdict": "fix",
+  "fixes": {
+   "indications": [
+    {
+     "text": "knee pain",
+     "sources": [
+      "atd",
+      "yyh",
+      "mq"
+     ]
+    },
+    {
+     "text": "leg weakness",
+     "sources": [
+      "tcmwiki",
+      "atd",
+      "mq"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "tcmwiki",
+     "name": "TCM Wiki Heding",
+     "url": "https://tcmwiki.com/wiki/heding"
+    },
+    {
+     "id": "atd",
+     "name": "Attilio D'Alberto He Ding",
+     "url": "https://www.attiliodalberto.com/acupuncture/points/he-ding.php"
+    },
+    {
+     "id": "yyh",
+     "name": "Yin Yang House Heding",
+     "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/x-heding"
+    },
+    {
+     "id": "mq",
+     "name": "Me & Qi Heding EX-LE-2",
+     "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-lower-extremities-ex-le/heding-ex-le-2"
+    }
+   ]
+  },
+  "reason": "Location correct (midpoint of upper border of kneecap; TCM Wiki, Attilio, YYH, Me & Qi). Flashcard dropped; indications re-backed.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me & Qi Heding EX-LE-2",
+   "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-lower-extremities-ex-le/heding-ex-le-2",
+   "agrees": true
+  }
+ },
+ {
+  "code": "EX-LE3",
+  "verdict": "fix",
+  "fixes": {
+   "find": "Inner front of the thigh: one hand-width (four finger-widths) straight up from the inner top corner of the kneecap, on the bulge of the inner thigh muscle.",
+   "indications": [
+    {
+     "text": "itchy skin",
+     "sources": [
+      "tcmwiki",
+      "mq"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "tcmwiki",
+     "name": "TCM Wiki Baichongwo",
+     "url": "https://tcmwiki.com/wiki/baichongwo"
+    },
+    {
+     "id": "mq",
+     "name": "Me & Qi Baichongwo EX-LE-3",
+     "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-lower-extremities-ex-le/baichongwo-ex-le-3"
+    }
+   ]
+  },
+  "reason": "Location is right (3 cun above the inner top corner of the kneecap = 1 cun above SP10; TCM Wiki, Me & Qi), but the find text is hard to follow. Rewritten with the hand-width rule. Flashcards dropped. Itchy skin backed by TCM Wiki (eczema, rash) and Me & Qi (itchy skin).",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me & Qi Baichongwo EX-LE-3",
+   "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-lower-extremities-ex-le/baichongwo-ex-le-3",
+   "agrees": true
+  }
+ },
+ {
+  "code": "EX-LE4",
+  "verdict": "fix",
+  "fixes": {
+   "indications": [
+    {
+     "text": "knee pain",
+     "sources": [
+      "tcmwiki",
+      "atd",
+      "mq"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "tcmwiki",
+     "name": "TCM Wiki Neixiyan",
+     "url": "https://tcmwiki.com/wiki/neixiyan"
+    },
+    {
+     "id": "atd",
+     "name": "Attilio D'Alberto Nei Xi Yan",
+     "url": "https://www.attiliodalberto.com/acupuncture/points/neixiyan.php"
+    },
+    {
+     "id": "mq",
+     "name": "Me & Qi Neixiyan EX-LE-4",
+     "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-lower-extremities-ex-le/neixiyan-ex-le-4"
+    }
+   ]
+  },
+  "reason": "Location correct (inner knee-eye, knee bent; TCM Wiki, Attilio, Me & Qi). Flashcard dropped.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me & Qi Neixiyan EX-LE-4",
+   "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-lower-extremities-ex-le/neixiyan-ex-le-4",
+   "agrees": true
+  }
+ },
+ {
+  "code": "EX-LE5",
+  "verdict": "fix",
+  "fixes": {
+   "indications": [
+    {
+     "text": "knee pain",
+     "sources": [
+      "tcmwiki",
+      "atd",
+      "yyh",
+      "mq"
+     ]
+    },
+    {
+     "text": "leg weakness",
+     "sources": [
+      "tcmwiki",
+      "atd",
+      "mq"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "tcmwiki",
+     "name": "TCM Wiki Xiyan",
+     "url": "https://tcmwiki.com/wiki/xiyan"
+    },
+    {
+     "id": "atd",
+     "name": "Attilio D'Alberto Xi Yan",
+     "url": "https://www.attiliodalberto.com/acupuncture/points/xiyan.php"
+    },
+    {
+     "id": "yyh",
+     "name": "Yin Yang House Xiyan",
+     "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/x-xiyan"
+    },
+    {
+     "id": "mq",
+     "name": "Me & Qi Xiyan EX-LE-5",
+     "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-lower-extremities-ex-le/xiyan-ex-le-5"
+    }
+   ],
+   "whoNote": "Pair of points; the medial one is Neixiyan (EX-LE4) and the lateral one is ST35 (Dubi). No WHO 2008 text."
+  },
+  "reason": "Location correct (two hollows either side of the patellar tendon; TCM Wiki, Attilio, YYH, Me & Qi). Note: the record's whoNote says the medial one overlaps ST35. ST35 is the LATERAL one (Me & Qi, Attilio xi-yan). Flashcard dropped.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me & Qi Xiyan EX-LE-5",
+   "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-lower-extremities-ex-le/xiyan-ex-le-5",
+   "agrees": true
+  }
+ },
+ {
+  "code": "EX-LE6",
+  "verdict": "fix",
+  "fixes": {
+   "find": "Outer side of the lower leg: find the bony knob below the outer knee and the hollow just below and in front of it. Go three finger-widths further down from that hollow and press for the tender spot.",
+   "place": {
+    "line": "GB",
+    "from": "fibula_head",
+    "cun": -3
+   },
+   "sources": [
+    {
+     "id": "tcmwiki",
+     "name": "TCM Wiki Dannang",
+     "url": "https://tcmwiki.com/wiki/dannang"
+    },
+    {
+     "id": "atd",
+     "name": "Attilio D'Alberto Dan Nang",
+     "url": "https://www.attiliodalberto.com/acupuncture/points/dan-nang.php"
+    },
+    {
+     "id": "yyh",
+     "name": "Yin Yang House Dannangxue",
+     "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/x-dannangxue"
+    },
+    {
+     "id": "mq",
+     "name": "Me & Qi Dannang EX-LE-6",
+     "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-lower-extremities-ex-le/dannang-ex-le-6"
+    }
+   ]
+  },
+  "reason": "Wrong distance. All sources measure 1-2 cun (TCM Wiki and Attilio: 2 cun) below GB34, which is the hollow below and in front of the fibular head, not from the head itself. The point is about 3 cun below the fibular head, and the fibular head is not the 'top of the outer shin'. Flashcard dropped.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me & Qi Dannang EX-LE-6",
+   "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-lower-extremities-ex-le/dannang-ex-le-6",
+   "agrees": true
+  }
+ },
+ {
+  "code": "EX-LE7",
+  "verdict": "fix",
+  "fixes": {
+   "find": "Front of the lower leg: one hand-width plus three finger-widths below the bottom of the kneecap, one finger-width outside the shin bone. Press for the tender spot.",
+   "indications": [
+    {
+     "text": "indigestion",
+     "sources": [
+      "tcmwiki",
+      "mq"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "tcmwiki",
+     "name": "TCM Wiki Lanwei",
+     "url": "https://tcmwiki.com/wiki/lanwei"
+    },
+    {
+     "id": "atd",
+     "name": "Attilio D'Alberto Lan Wei",
+     "url": "https://www.attiliodalberto.com/acupuncture/points/lan-wei.php"
+    },
+    {
+     "id": "yyh",
+     "name": "Yin Yang House Lanweixue",
+     "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/x-lanweixue"
+    },
+    {
+     "id": "mq",
+     "name": "Me & Qi Lanwei EX-LE-7",
+     "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-lower-extremities-ex-le/lanwei-ex-le-7"
+    }
+   ]
+  },
+  "reason": "Location correct (2 cun below ST36 = 5 cun below the knee-eye; TCM Wiki, Attilio, YYH, Me & Qi), but 'a hand-width and more' is vague. Rewritten: 5 cun = a hand-width plus three finger-widths. Flashcard dropped.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me & Qi Lanwei EX-LE-7",
+   "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-lower-extremities-ex-le/lanwei-ex-le-7",
+   "agrees": true
+  }
+ },
+ {
+  "code": "EX-LE8",
+  "verdict": "fix",
+  "fixes": {
+   "sources": [
+    {
+     "id": "tcmwiki",
+     "name": "TCM Wiki Neihuaijian",
+     "url": "https://tcmwiki.com/wiki/neihuaijian"
+    },
+    {
+     "id": "mq",
+     "name": "Me & Qi Neihuaijian EX-LE-8",
+     "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-lower-extremities-ex-le/neihuaijian-ex-le-8"
+    }
+   ]
+  },
+  "reason": "Location correct (tip of inner ankle bone; TCM Wiki, Me & Qi). Flashcard dropped.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me & Qi Neihuaijian EX-LE-8",
+   "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-lower-extremities-ex-le/neihuaijian-ex-le-8",
+   "agrees": true
+  }
+ },
+ {
+  "code": "EX-LE9",
+  "verdict": "fix",
+  "fixes": {
+   "sources": [
+    {
+     "id": "tcmwiki",
+     "name": "TCM Wiki Waihuaijian",
+     "url": "https://tcmwiki.com/wiki/waihuaijian"
+    },
+    {
+     "id": "mq",
+     "name": "Me & Qi Waihuaijian EX-LE-9",
+     "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-lower-extremities-ex-le/waihuaijian-ex-le-9"
+    }
+   ]
+  },
+  "reason": "Location correct (tip of outer ankle bone; TCM Wiki, Me & Qi). Flashcard dropped.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me & Qi Waihuaijian EX-LE-9",
+   "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-lower-extremities-ex-le/waihuaijian-ex-le-9",
+   "agrees": true
+  }
+ },
+ {
+  "code": "EX-LE10",
+  "verdict": "fix",
+  "fixes": {
+   "indications": [
+    {
+     "text": "swollen foot",
+     "sources": [
+      "tcmwiki",
+      "atd",
+      "yyh",
+      "mq"
+     ]
+    },
+    {
+     "text": "toe numbness",
+     "sources": [
+      "atd",
+      "yyh"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "tcmwiki",
+     "name": "TCM Wiki Bafeng",
+     "url": "https://tcmwiki.com/wiki/bafeng"
+    },
+    {
+     "id": "atd",
+     "name": "Attilio D'Alberto Ba Feng",
+     "url": "https://www.attiliodalberto.com/acupuncture/points/bafeng.php"
+    },
+    {
+     "id": "yyh",
+     "name": "Yin Yang House Bafeng",
+     "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/x-bafeng"
+    },
+    {
+     "id": "mq",
+     "name": "Me & Qi Bafeng EX-LE-10",
+     "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-lower-extremities-ex-le/bafeng-ex-le-10"
+    }
+   ]
+  },
+  "reason": "Location correct (just behind the toe webs, four per foot; TCM Wiki, Attilio, YYH, Me & Qi). Flashcard dropped; indications re-backed.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me & Qi Bafeng EX-LE-10",
+   "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-lower-extremities-ex-le/bafeng-ex-le-10",
+   "agrees": true
+  }
+ },
+ {
+  "code": "EX-LE11",
+  "verdict": "fix",
+  "fixes": {
+   "pregnancy": true,
+   "cautions": [
+    "pregnancy"
+   ],
+   "sources": [
+    {
+     "id": "tcmwiki",
+     "name": "TCM Wiki Duyin",
+     "url": "https://tcmwiki.com/wiki/duyin"
+    },
+    {
+     "id": "mq",
+     "name": "Me & Qi Duyin EX-LE-11",
+     "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-lower-extremities-ex-le/duyin-ex-le-11"
+    }
+   ]
+  },
+  "reason": "Location correct (sole side of 2nd toe, last-joint crease; TCM Wiki, Me & Qi). TCM Wiki lists labour/placenta uses and Me & Qi advises caution in pregnancy because it is traditionally used to promote labour, so the pregnancy flag is added. Flashcard dropped.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me & Qi Duyin EX-LE-11",
+   "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-lower-extremities-ex-le/duyin-ex-le-11",
+   "agrees": true
+  }
+ },
+ {
+  "code": "EX-LE12",
+  "verdict": "fix",
+  "fixes": {
+   "indications": [
+    {
+     "text": "swollen feet",
+     "sources": [
+      "tcmwiki",
+      "mq"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "tcmwiki",
+     "name": "TCM Wiki Qiduan",
+     "url": "https://tcmwiki.com/wiki/qiduan"
+    },
+    {
+     "id": "mq",
+     "name": "Me & Qi Qiduan EX-LE-12",
+     "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-lower-extremities-ex-le/qiduan-ex-le-12"
+    }
+   ]
+  },
+  "reason": "Location correct (toe tips, 0.1 cun from the nail; TCM Wiki, Me & Qi). 'Toe numbness' had only TCM Wiki plus flashcards and is replaced by 'swollen feet' (TCM Wiki: foot swelling; Me & Qi: oedema of feet).",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me & Qi Qiduan EX-LE-12",
+   "url": "https://www.meandqi.com/tcm-education-center/acupuncture/extra-points-lower-extremities-ex-le/qiduan-ex-le-12",
+   "agrees": true
+  }
+ }
+]

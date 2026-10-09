@@ -311,13 +311,15 @@ export function TorsoFront() {
       <circle cx={102} cy={172} r={7} fill={SHADE} stroke={FAINT} strokeWidth={1.4} />
       <circle cx={198} cy={172} r={7} fill={SHADE} stroke={FAINT} strokeWidth={1.4} />
       <ellipse cx={150} cy={340} rx={5} ry={7} fill={SHADE} stroke={LINE} strokeWidth={1.4} />
-      <path d="M92 410 Q112 430 130 440" {...faint} />
-      <path d="M208 410 Q188 430 170 440" {...faint} />
+      <path d="M84 366 Q100 380 128 392" {...faint} />
+      <path d="M216 366 Q200 380 172 392" {...faint} />
+      <path d="M134 398 Q150 392 166 398" {...faint} strokeWidth={2} />
       <Label x={150} y={46} anchor="middle">notch</Label>
       <Label x={150} y={269} anchor="middle">breastbone tip</Label>
       <Label x={150} y={326} anchor="middle">navel</Label>
       <Label x={102} y={158} anchor="middle">nipple</Label>
-      <Label x={150} y={470} anchor="middle">hip bones</Label>
+      <Label x={150} y={418} anchor="middle">pubic bone</Label>
+      <Label x={92} y={360}>hip bone</Label>
       <Label x={36} y={120}>collarbone ↗</Label>
     </>
   );

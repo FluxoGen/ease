@@ -1,0 +1,122 @@
+{
+ "ST13": {
+  "find": "On the upper chest, just below the middle of the collarbone, four thumb-widths out from the breastbone midline, straight above the nipple.",
+  "reason": "unit audit: hand-width is 3 thumb-widths, WHO distance differs"
+ },
+ "ST14": {
+  "find": "On the upper chest, in the gap between the first and second ribs, four thumb-widths out from the breastbone midline, straight above the nipple.",
+  "reason": "unit audit: hand-width is 3 thumb-widths, WHO distance differs"
+ },
+ "ST15": {
+  "find": "On the chest, in the gap just below the second rib, four thumb-widths out from the breastbone midline, straight above the nipple. The second rib joins the breastbone at its raised ridge.",
+  "reason": "unit audit: hand-width is 3 thumb-widths, WHO distance differs"
+ },
+ "ST16": {
+  "find": "On the chest, in the gap between the third and fourth ribs, four thumb-widths out from the breastbone midline, just above the nipple.",
+  "reason": "unit audit: hand-width is 3 thumb-widths, WHO distance differs"
+ },
+ "SP13": {
+  "find": "On the lower belly, four thumb-widths (a hand-width plus a thumb-width) out from the midline, a little above the crease where the thigh meets the pelvis.",
+  "reason": "unit audit: hand-width is 3 thumb-widths, WHO distance differs"
+ },
+ "SP14": {
+  "find": "On the lower belly, a little more than a thumb-width below the level of the navel and four thumb-widths (a hand-width plus a thumb-width) out to the side.",
+  "reason": "unit audit: WHO 1.3 below the navel, 4 out"
+ },
+ "SP15": {
+  "find": "On the belly, level with the navel, four thumb-widths (a hand-width plus a thumb-width) out to the side of it.",
+  "reason": "unit audit: hand-width is 3 thumb-widths, WHO distance differs"
+ },
+ "SP16": {
+  "find": "On the upper belly, about four finger-widths above the navel and four thumb-widths (a hand-width plus a thumb-width) out to the side, near the lower edge of the ribs.",
+  "reason": "unit audit: hand-width is 3 thumb-widths, WHO distance differs"
+ },
+ "SP17": {
+  "find": "On the side of the chest, in the soft gap between the fifth and sixth ribs, six thumb-widths (two hand-widths) out from the center of the breastbone.",
+  "reason": "unit audit: hand-width is 3 thumb-widths, WHO distance differs"
+ },
+ "TE9": {
+  "find": "On the back of the forearm, in the groove between the two forearm bones, five thumb-widths (a hand-width plus three finger-widths) below the tip of the elbow.",
+  "reason": "unit audit: hand-width is 3 thumb-widths, WHO distance differs"
+ },
+ "TE12": {
+  "find": "On the back of the upper arm, in the middle of the arm, five thumb-widths (a hand-width plus three finger-widths) above the tip of the elbow.",
+  "reason": "unit audit: hand-width is 3 thumb-widths, WHO distance differs"
+ },
+ "ST20": {
+  "find": "On the upper belly, five thumb-widths above the navel and two thumb-widths out from the midline, about one thumb-width below the lower edge of the ribs.",
+  "reason": "removed point code from user text; levels from WHO"
+ },
+ "BL5": {
+  "find": "On the scalp, one thumb-width behind the front hairline and two finger-widths out from the midline.",
+  "reason": "removed point code from user text; levels from WHO"
+ },
+ "BL7": {
+  "find": "On the top of the head, four thumb-widths behind the front hairline and two finger-widths out from the midline.",
+  "reason": "removed point code from user text; levels from WHO"
+ },
+ "BL12": {
+  "find": "On the upper back, two finger-widths out from the spine, level with the second bump below the big bump at the base of the neck.",
+  "reason": "removed point code from user text; levels from WHO"
+ },
+ "BL14": {
+  "find": "Between the shoulder blades, two finger-widths out from the spine, one bump below the level of the inner ends of the shoulder-blade ridges.",
+  "reason": "removed point code from user text; levels from WHO"
+ },
+ "BL15": {
+  "find": "Between the shoulder blades, two finger-widths out from the spine, two bumps below the level of the inner ends of the shoulder-blade ridges.",
+  "reason": "removed point code from user text; levels from WHO"
+ },
+ "BL16": {
+  "find": "On the mid-back, two finger-widths out from the spine, one bump above the level of the bottom tips of the shoulder blades.",
+  "reason": "removed point code from user text; levels from WHO"
+ },
+ "BL19": {
+  "find": "On the mid-back, two finger-widths out from the spine, three bumps below the level of the bottom tips of the shoulder blades.",
+  "reason": "removed point code from user text; levels from WHO"
+ },
+ "BL20": {
+  "find": "On the mid-back, two finger-widths out from the spine, one bump above the last bone that carries a rib.",
+  "reason": "removed point code from user text; levels from WHO"
+ },
+ "BL22": {
+  "find": "On the lower back, two finger-widths out from the spine, level with the first bump below the last rib-bearing bone.",
+  "reason": "removed point code from user text; levels from WHO"
+ },
+ "BL24": {
+  "find": "On the low back, two finger-widths out from the spine, one bump above the level of the top of the hip bones.",
+  "reason": "removed point code from user text; levels from WHO"
+ },
+ "BL26": {
+  "find": "On the low back, two finger-widths out from the spine, one bump below the level of the top of the hip bones, just above the flat bone at the base of the spine.",
+  "reason": "removed point code from user text; levels from WHO"
+ },
+ "BL28": {
+  "find": "On the flat bone at the base of the spine (sacrum), two finger-widths out from the midline, level with the dimples above the buttocks.",
+  "reason": "removed point code from user text; levels from WHO"
+ },
+ "BL29": {
+  "find": "On the flat bone at the base of the spine (sacrum), two finger-widths out from the midline, about one thumb-width below the level of the dimples above the buttocks.",
+  "reason": "removed point code from user text; levels from WHO"
+ },
+ "BL33": {
+  "find": "On the sacrum, in the third small dent from the top, about one thumb-width below the level of the dimples, between the midline and the dimple line.",
+  "reason": "removed point code from user text; levels from WHO"
+ },
+ "BL34": {
+  "find": "On the lowest part of the sacrum, in the fourth small dent from the top, near the start of the buttock crease, between the midline and the dimple line.",
+  "reason": "removed point code from user text; levels from WHO"
+ },
+ "BL42": {
+  "find": "On the upper back, four finger-widths out from the spine, along the inner edge of the shoulder blade, level with the inner ends of the shoulder-blade ridges.",
+  "reason": "removed point code from user text; levels from WHO"
+ },
+ "BL44": {
+  "find": "On the upper back, four finger-widths out from the spine, beside the inner edge of the shoulder blade, two bumps below the level of the inner ends of the shoulder-blade ridges.",
+  "reason": "removed point code from user text; levels from WHO"
+ },
+ "BL45": {
+  "find": "On the upper back, four finger-widths out from the spine, beside the lower inner edge of the shoulder blade, one bump above the level of its bottom tip.",
+  "reason": "removed point code from user text; levels from WHO"
+ }
+}

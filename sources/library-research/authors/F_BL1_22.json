@@ -1,0 +1,1313 @@
+[
+ {
+  "code": "BL1",
+  "pinyin": "Jingming",
+  "english": "Bright Eyes",
+  "region": "face",
+  "view": "face-front",
+  "find": "On the face, in the small dip right beside the inner corner of the eye, between the eye and the side of the nose bridge. Use very light pressure and stay on the bone.",
+  "place": {
+   "from": "inner_eye_corner",
+   "up": 0.1,
+   "in": 0.1
+  },
+  "selfCare": "gentle",
+  "avoidReason": "",
+  "technique": "gentle",
+  "cautions": [
+   "eye"
+  ],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "tired or sore eyes",
+    "sources": [
+     "tcmwiki",
+     "adalb"
+    ]
+   }
+  ],
+  "tags": [
+   "eye_strain"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki BL1",
+    "url": "https://tcmwiki.com/wiki/bl1"
+   },
+   {
+    "id": "adalb",
+    "name": "Attilio D'Alberto BL1",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/bl-1.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "BL2",
+  "pinyin": "Cuanzhu",
+  "english": "Gathered Bamboo",
+  "region": "face",
+  "view": "face-front",
+  "find": "At the inner end of the eyebrow, in the small notch you can feel on the bone, straight above the inner corner of the eye.",
+  "place": {
+   "at": "eyebrow_inner"
+  },
+  "selfCare": "gentle",
+  "avoidReason": "",
+  "technique": "gentle",
+  "cautions": [
+   "eye"
+  ],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "headache",
+    "sources": [
+     "tcmwiki",
+     "adalb"
+    ]
+   },
+   {
+    "text": "tired or sore eyes",
+    "sources": [
+     "tcmwiki",
+     "adalb"
+    ]
+   },
+   {
+    "text": "hiccups",
+    "sources": [
+     "tcmwiki",
+     "adalb"
+    ]
+   }
+  ],
+  "tags": [
+   "headache",
+   "eye_strain"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki BL2",
+    "url": "https://tcmwiki.com/wiki/bl2"
+   },
+   {
+    "id": "adalb",
+    "name": "Attilio D'Alberto BL2",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/bl-2.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "BL3",
+  "pinyin": "Meichong",
+  "english": "Eyebrow Ascent",
+  "region": "head",
+  "view": "face-front",
+  "find": "On the forehead, straight up from the inner end of the eyebrow, about half a thumb-width inside the hairline.",
+  "place": {
+   "from": "anterior_hairline_mid",
+   "up": 0.5,
+   "out": 0.75
+  },
+  "selfCare": "gentle",
+  "avoidReason": "",
+  "technique": "gentle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "headache",
+    "sources": [
+     "tcmwiki",
+     "adalb"
+    ]
+   },
+   {
+    "text": "dizziness",
+    "sources": [
+     "tcmwiki",
+     "adalb"
+    ]
+   },
+   {
+    "text": "stuffy nose",
+    "sources": [
+     "tcmwiki",
+     "adalb"
+    ]
+   }
+  ],
+  "tags": [
+   "headache",
+   "nose_sinus"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki BL3",
+    "url": "https://tcmwiki.com/wiki/bl3"
+   },
+   {
+    "id": "adalb",
+    "name": "Attilio D'Alberto BL3",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/bl-3.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "BL4",
+  "pinyin": "Qucha",
+  "english": "Deviating Turn",
+  "region": "head",
+  "view": "face-front",
+  "find": "At the front hairline, about two finger-widths out from the middle of the forehead hairline, half a thumb-width up into the hair.",
+  "place": {
+   "from": "anterior_hairline_mid",
+   "up": 0.5,
+   "out": 1.5
+  },
+  "selfCare": "gentle",
+  "avoidReason": "",
+  "technique": "gentle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "headache",
+    "sources": [
+     "tcmwiki",
+     "adalb"
+    ]
+   },
+   {
+    "text": "dizziness",
+    "sources": [
+     "tcmwiki",
+     "adalb"
+    ]
+   },
+   {
+    "text": "stuffy nose",
+    "sources": [
+     "tcmwiki",
+     "adalb"
+    ]
+   }
+  ],
+  "tags": [
+   "headache",
+   "nose_sinus"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki BL4",
+    "url": "https://tcmwiki.com/wiki/bl4"
+   },
+   {
+    "id": "adalb",
+    "name": "Attilio D'Alberto BL4",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/bl-4.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "BL5",
+  "pinyin": "Wuchu",
+  "english": "Fifth Place",
+  "region": "head",
+  "view": "head-top",
+  "find": "On the scalp, one thumb-width behind the front hairline and about two finger-widths out from the midline, just behind BL4.",
+  "place": {
+   "from": "anterior_hairline_mid",
+   "up": 1,
+   "out": 1.5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "headache",
+    "sources": [
+     "tcmwiki",
+     "adalb"
+    ]
+   },
+   {
+    "text": "dizziness",
+    "sources": [
+     "tcmwiki",
+     "adalb"
+    ]
+   }
+  ],
+  "tags": [
+   "headache"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki BL5",
+    "url": "https://tcmwiki.com/wiki/bl5"
+   },
+   {
+    "id": "adalb",
+    "name": "Attilio D'Alberto BL5",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/bl-5.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "BL6",
+  "pinyin": "Chengguang",
+  "english": "Receiving Light",
+  "region": "head",
+  "view": "head-top",
+  "find": "On the top of the scalp, about two and a half thumb-widths behind the front hairline and two finger-widths out from the midline.",
+  "place": {
+   "from": "anterior_hairline_mid",
+   "up": 2.5,
+   "out": 1.5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "headache",
+    "sources": [
+     "tcmwiki",
+     "adalb"
+    ]
+   },
+   {
+    "text": "dizziness",
+    "sources": [
+     "tcmwiki",
+     "adalb"
+    ]
+   },
+   {
+    "text": "stuffy nose",
+    "sources": [
+     "tcmwiki",
+     "adalb"
+    ]
+   }
+  ],
+  "tags": [
+   "headache",
+   "nose_sinus"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki BL6",
+    "url": "https://tcmwiki.com/wiki/bl6"
+   },
+   {
+    "id": "adalb",
+    "name": "Attilio D'Alberto BL6",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/bl-6.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "BL7",
+  "pinyin": "Tongtian",
+  "english": "Penetrating Heaven",
+  "region": "head",
+  "view": "head-top",
+  "find": "On the top of the head, about four thumb-widths behind the front hairline and two finger-widths out from the midline, midway between BL6 and BL8.",
+  "place": {
+   "from": "anterior_hairline_mid",
+   "up": 4,
+   "out": 1.5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "headache",
+    "sources": [
+     "tcmwiki",
+     "adalb"
+    ]
+   },
+   {
+    "text": "dizziness",
+    "sources": [
+     "tcmwiki",
+     "adalb"
+    ]
+   },
+   {
+    "text": "stuffy nose",
+    "sources": [
+     "tcmwiki",
+     "adalb"
+    ]
+   }
+  ],
+  "tags": [
+   "headache",
+   "nose_sinus"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki BL7",
+    "url": "https://tcmwiki.com/wiki/bl7"
+   },
+   {
+    "id": "adalb",
+    "name": "Attilio D'Alberto BL7",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/bl-7.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "BL8",
+  "pinyin": "Luoque",
+  "english": "Declining Connection",
+  "region": "head",
+  "view": "head-top",
+  "find": "On the top of the head, about five and a half thumb-widths behind the front hairline, two finger-widths out from the midline and a little behind the crown.",
+  "place": {
+   "from": "anterior_hairline_mid",
+   "up": 5.5,
+   "out": 1.5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "dizziness",
+    "sources": [
+     "tcmwiki",
+     "adalb"
+    ]
+   },
+   {
+    "text": "ringing in the ears",
+    "sources": [
+     "tcmwiki",
+     "adalb"
+    ]
+   },
+   {
+    "text": "blurred vision",
+    "sources": [
+     "tcmwiki",
+     "adalb"
+    ]
+   }
+  ],
+  "tags": [
+   "ear_hearing",
+   "eye_strain"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki BL8",
+    "url": "https://tcmwiki.com/wiki/bl8"
+   },
+   {
+    "id": "adalb",
+    "name": "Attilio D'Alberto BL8",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/bl-8.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "BL9",
+  "pinyin": "Yuzhen",
+  "english": "Jade Pillow",
+  "region": "head",
+  "view": "head-back",
+  "find": "On the back of the head, about one thumb-width out from the midline, level with the top of the bony bump at the center of the skull base.",
+  "place": {
+   "from": "external_occipital_protuberance",
+   "out": 1.3
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "stiff neck",
+    "sources": [
+     "tcmwiki",
+     "adalb"
+    ]
+   }
+  ],
+  "tags": [
+   "neck_pain"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki BL9",
+    "url": "https://tcmwiki.com/wiki/bl9"
+   },
+   {
+    "id": "adalb",
+    "name": "Attilio D'Alberto BL9",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/bl-9.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "BL10",
+  "pinyin": "Tianzhu",
+  "english": "Heavenly Pillar",
+  "region": "neck",
+  "view": "head-back",
+  "find": "On the back of the neck, just below the skull, in the hollow on the outer side of the thick vertical neck muscle, a thumb-width out from the midline.",
+  "place": {
+   "from": "posterior_hairline_mid",
+   "up": 0.5,
+   "out": 1.3
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "stiff neck",
+    "sources": [
+     "tcmwiki",
+     "adalb"
+    ]
+   },
+   {
+    "text": "stuffy nose",
+    "sources": [
+     "tcmwiki",
+     "adalb"
+    ]
+   }
+  ],
+  "tags": [
+   "neck_pain",
+   "nose_sinus"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki BL10",
+    "url": "https://tcmwiki.com/wiki/bl10"
+   },
+   {
+    "id": "adalb",
+    "name": "Attilio D'Alberto BL10",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/bl-10.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "BL11",
+  "pinyin": "Dazhu",
+  "english": "Great Shuttle",
+  "region": "upper back",
+  "view": "back",
+  "find": "On the upper back, about two finger-widths out from the spine, level with the first bump below the base of the neck.",
+  "place": {
+   "from": "T1",
+   "out": 1.5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "ball",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "cough",
+    "sources": [
+     "tcmwiki",
+     "adalb"
+    ]
+   },
+   {
+    "text": "stiff neck",
+    "sources": [
+     "tcmwiki",
+     "adalb"
+    ]
+   },
+   {
+    "text": "upper back and shoulder blade ache",
+    "sources": [
+     "tcmwiki",
+     "adalb"
+    ]
+   }
+  ],
+  "tags": [
+   "cough_breathing",
+   "neck_pain",
+   "upper_back"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki BL11",
+    "url": "https://tcmwiki.com/wiki/bl11"
+   },
+   {
+    "id": "adalb",
+    "name": "Attilio D'Alberto BL11",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/bl-11.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "BL12",
+  "pinyin": "Fengmen",
+  "english": "Wind Gate",
+  "region": "upper back",
+  "view": "back",
+  "find": "On the upper back, about two finger-widths out from the spine, one bone-bump below BL11, in the muscle beside the spine.",
+  "place": {
+   "from": "T2",
+   "out": 1.5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "ball",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "common cold",
+    "sources": [
+     "tcmwiki",
+     "adalb"
+    ]
+   },
+   {
+    "text": "cough",
+    "sources": [
+     "tcmwiki",
+     "adalb"
+    ]
+   },
+   {
+    "text": "headache",
+    "sources": [
+     "tcmwiki",
+     "adalb"
+    ]
+   },
+   {
+    "text": "stiff neck",
+    "sources": [
+     "tcmwiki",
+     "adalb"
+    ]
+   }
+  ],
+  "tags": [
+   "cold_flu",
+   "cough_breathing",
+   "neck_pain"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki BL12",
+    "url": "https://tcmwiki.com/wiki/bl12"
+   },
+   {
+    "id": "adalb",
+    "name": "Attilio D'Alberto BL12",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/bl-12.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "BL13",
+  "pinyin": "Feishu",
+  "english": "Lung Shu",
+  "region": "upper back",
+  "view": "back",
+  "find": "On the upper back, about two finger-widths out from the spine, level with the line across the inner ends of the shoulder blade ridges.",
+  "place": {
+   "from": "T3",
+   "out": 1.5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "ball",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "cough",
+    "sources": [
+     "tcmwiki",
+     "adalb"
+    ]
+   }
+  ],
+  "tags": [
+   "cough_breathing"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki BL13",
+    "url": "https://tcmwiki.com/wiki/bl13"
+   },
+   {
+    "id": "adalb",
+    "name": "Attilio D'Alberto BL13",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/bl-13.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "BL14",
+  "pinyin": "Jueyinshu",
+  "english": "Pericardium Shu",
+  "region": "upper back",
+  "view": "back",
+  "find": "Between the shoulder blades, about two finger-widths out from the spine, one bone-bump below BL13.",
+  "place": {
+   "from": "T4",
+   "out": 1.5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "ball",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "chest tightness",
+    "sources": [
+     "tcmwiki",
+     "adalb"
+    ]
+   },
+   {
+    "text": "palpitations",
+    "sources": [
+     "tcmwiki",
+     "adalb"
+    ]
+   }
+  ],
+  "tags": [],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki BL14",
+    "url": "https://tcmwiki.com/wiki/bl14"
+   },
+   {
+    "id": "adalb",
+    "name": "Attilio D'Alberto BL14",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/bl-14.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "BL15",
+  "pinyin": "Xinshu",
+  "english": "Heart Shu",
+  "region": "upper back",
+  "view": "back",
+  "find": "Between the shoulder blades, about two finger-widths out from the spine, one bone-bump below BL14.",
+  "place": {
+   "from": "T5",
+   "out": 1.5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "ball",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "trouble sleeping",
+    "sources": [
+     "tcmwiki",
+     "adalb"
+    ]
+   },
+   {
+    "text": "palpitations",
+    "sources": [
+     "tcmwiki",
+     "adalb"
+    ]
+   },
+   {
+    "text": "upper back ache",
+    "sources": [
+     "tcmwiki",
+     "adalb"
+    ]
+   }
+  ],
+  "tags": [
+   "sleep",
+   "upper_back"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki BL15",
+    "url": "https://tcmwiki.com/wiki/bl15"
+   },
+   {
+    "id": "adalb",
+    "name": "Attilio D'Alberto BL15",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/bl-15.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "BL16",
+  "pinyin": "Dushu",
+  "english": "Governor Shu",
+  "region": "upper back",
+  "view": "back",
+  "find": "On the mid-back, about two finger-widths out from the spine, one bone-bump below BL15, about level with the middle of the shoulder blade.",
+  "place": {
+   "from": "T6",
+   "out": 1.5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "ball",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "abdominal pain",
+    "sources": [
+     "tcmwiki",
+     "adalb"
+    ]
+   },
+   {
+    "text": "gurgling bowels",
+    "sources": [
+     "tcmwiki",
+     "adalb"
+    ]
+   },
+   {
+    "text": "hiccups",
+    "sources": [
+     "tcmwiki",
+     "adalb"
+    ]
+   }
+  ],
+  "tags": [
+   "digestive_health"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki BL16",
+    "url": "https://tcmwiki.com/wiki/bl16"
+   },
+   {
+    "id": "adalb",
+    "name": "Attilio D'Alberto BL16",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/bl-16.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "BL17",
+  "pinyin": "Geshu",
+  "english": "Diaphragm Shu",
+  "region": "upper back",
+  "view": "back",
+  "find": "On the mid-back, about two finger-widths out from the spine, level with the bottom tip of the shoulder blade.",
+  "place": {
+   "from": "T7",
+   "out": 1.5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "ball",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "hiccups",
+    "sources": [
+     "tcmwiki",
+     "adalb"
+    ]
+   },
+   {
+    "text": "vomiting",
+    "sources": [
+     "tcmwiki",
+     "adalb"
+    ]
+   }
+  ],
+  "tags": [
+   "nausea"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki BL17",
+    "url": "https://tcmwiki.com/wiki/bl17"
+   },
+   {
+    "id": "adalb",
+    "name": "Attilio D'Alberto BL17",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/bl-17.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "BL18",
+  "pinyin": "Ganshu",
+  "english": "Liver Shu",
+  "region": "mid back",
+  "view": "back",
+  "find": "On the mid-back, about two finger-widths out from the spine, two bone-bumps below the level of the bottom tips of the shoulder blades.",
+  "place": {
+   "from": "T9",
+   "out": 1.5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "ball",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "tired or sore eyes",
+    "sources": [
+     "tcmwiki",
+     "adalb"
+    ]
+   }
+  ],
+  "tags": [
+   "eye_strain"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki BL18",
+    "url": "https://tcmwiki.com/wiki/bl18"
+   },
+   {
+    "id": "adalb",
+    "name": "Attilio D'Alberto BL18",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/bl-18.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "BL19",
+  "pinyin": "Danshu",
+  "english": "Gallbladder Shu",
+  "region": "mid back",
+  "view": "back",
+  "find": "On the mid-back, about two finger-widths out from the spine, one bone-bump below BL18.",
+  "place": {
+   "from": "T10",
+   "out": 1.5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "ball",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "stomach upset",
+    "sources": [
+     "tcmwiki",
+     "adalb"
+    ]
+   }
+  ],
+  "tags": [
+   "digestive_health"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki BL19",
+    "url": "https://tcmwiki.com/wiki/bl19"
+   },
+   {
+    "id": "adalb",
+    "name": "Attilio D'Alberto BL19",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/bl-19.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "BL20",
+  "pinyin": "Pishu",
+  "english": "Spleen Shu",
+  "region": "mid back",
+  "view": "back",
+  "find": "On the mid-back, about two finger-widths out from the spine, one bone-bump below BL19, just above the last rib-bearing bone.",
+  "place": {
+   "from": "T11",
+   "out": 1.5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "ball",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "loose stools",
+    "sources": [
+     "tcmwiki",
+     "adalb"
+    ]
+   }
+  ],
+  "tags": [
+   "digestive_health"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki BL20",
+    "url": "https://tcmwiki.com/wiki/bl20"
+   },
+   {
+    "id": "adalb",
+    "name": "Attilio D'Alberto BL20",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/bl-20.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "BL21",
+  "pinyin": "Weishu",
+  "english": "Stomach Shu",
+  "region": "mid back",
+  "view": "back",
+  "find": "On the mid-back, about two finger-widths out from the spine, level with the last rib-bearing bone, about halfway between the shoulder blades and hips.",
+  "place": {
+   "from": "T12",
+   "out": 1.5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "ball",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "stomach ache",
+    "sources": [
+     "tcmwiki",
+     "adalb"
+    ]
+   },
+   {
+    "text": "vomiting",
+    "sources": [
+     "tcmwiki",
+     "adalb"
+    ]
+   },
+   {
+    "text": "bloating",
+    "sources": [
+     "tcmwiki",
+     "adalb"
+    ]
+   },
+   {
+    "text": "back ache",
+    "sources": [
+     "tcmwiki",
+     "adalb"
+    ]
+   }
+  ],
+  "tags": [
+   "digestive_health",
+   "nausea"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki BL21",
+    "url": "https://tcmwiki.com/wiki/bl21"
+   },
+   {
+    "id": "adalb",
+    "name": "Attilio D'Alberto BL21",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/bl-21.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "BL22",
+  "pinyin": "Sanjiaoshu",
+  "english": "Triple Burner Shu",
+  "region": "lower back",
+  "view": "back",
+  "find": "On the lower back, about two finger-widths out from the spine, at the first bump of the lower back, one bone-bump below BL21.",
+  "place": {
+   "from": "L1",
+   "out": 1.5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "ball",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "gurgling bowels",
+    "sources": [
+     "tcmwiki",
+     "adalb"
+    ]
+   },
+   {
+    "text": "vomiting",
+    "sources": [
+     "tcmwiki",
+     "adalb"
+    ]
+   },
+   {
+    "text": "low back ache",
+    "sources": [
+     "tcmwiki",
+     "adalb"
+    ]
+   }
+  ],
+  "tags": [
+   "digestive_health",
+   "low_back_pain"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki BL22",
+    "url": "https://tcmwiki.com/wiki/bl22"
+   },
+   {
+    "id": "adalb",
+    "name": "Attilio D'Alberto BL22",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/bl-22.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ }
+]

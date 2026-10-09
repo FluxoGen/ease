@@ -15,16 +15,17 @@ import {
   Moon,
   Move,
   PersonStanding,
+  Smile,
   Thermometer,
   Utensils,
+  Wind,
   type LucideIcon,
 } from 'lucide-react';
 import { motion } from 'motion/react';
 import { Link } from 'react-router-dom';
 import { routines } from '../data/routines';
-import type { UseTag } from '../types';
 
-const ROUTINE_ICONS: Record<UseTag, LucideIcon> = {
+const ROUTINE_ICONS: Record<string, LucideIcon> = {
   low_back_pain: Activity,
   headache: Brain,
   neck_pain: Move,
@@ -42,6 +43,12 @@ const ROUTINE_ICONS: Record<UseTag, LucideIcon> = {
   digestive_health: Utensils,
   hand_wrist_strain: Hand,
   foot_ankle_strain: Footprints,
+  constipation: Utensils,
+  toothache_jaw: Smile,
+  nose_sinus: Wind,
+  cough_breathing: Wind,
+  knee_pain: Bone,
+  hip_leg_pain: PersonStanding,
 };
 
 export default function Home() {

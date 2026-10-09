@@ -1,0 +1,472 @@
+[
+ {
+  "code": "CV13",
+  "verdict": "fix",
+  "fixes": {
+   "find": "On the belly midline, about four finger-widths plus two thumb-widths above the navel, a little more than halfway from the navel up to the bottom of the breastbone."
+  },
+  "reason": "The find text says four fingers plus one thumb-width above the navel. That is about 4 cun, but WHO puts CV13 5 cun above the navel. 'Roughly halfway' is also off, since the true spot is 5/8 of the way to the breastbone. Yin Yang House gives 5 cun above the navel. The placement spec is correct.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House CV13",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/cv13/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "CV14",
+  "verdict": "fix",
+  "fixes": {
+   "find": "On the belly midline, about two thumb-widths below where the ribs meet at the bottom of the breastbone (roughly four finger-widths plus three thumb-widths above the navel)."
+  },
+  "reason": "The find text says one hand-width plus two thumb-widths. That is about 5 cun, but WHO puts CV14 6 cun above the navel. Yin Yang House gives 6 cun above the navel. The placement spec is correct.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House CV14",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/cv14/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "CV15",
+  "verdict": "fix",
+  "fixes": {
+   "find": "On the midline, one thumb-width below the spot where the flat breastbone ends and its small pointed tip begins. Press lightly."
+  },
+  "reason": "WHO puts CV15 1 cun below the xiphisternal junction, which is where the flat breastbone ends. The find text says 'under the pointed tip ... one thumb-width below it', which measures from the end of the xiphoid and lands too low. Yin Yang House gives 7 cun above the navel, which matches WHO. The placement spec is correct.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House CV15",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/cv15/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "CV16",
+  "verdict": "ok",
+  "reason": "The record matches WHO: the midpoint of the xiphisternal junction. Yin Yang House agrees (where the ribs meet the lower border of the sternum, at the sternum-xiphoid junction). The record already notes that Attilio's location differs.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House CV16",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/cv16/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "CV17",
+  "verdict": "ok",
+  "reason": "Matches WHO (level with the 4th intercostal space on the midline). Yin Yang House agrees: 4th ICS, midway between the nipples. It also lists cough, chest oppression and shortness of breath.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House CV17",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/cv17/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "CV18",
+  "verdict": "ok",
+  "reason": "Matches WHO (level with the 3rd intercostal space). Yin Yang House agrees and lists chest pain and cough.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House CV18",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/cv18/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "CV19",
+  "verdict": "ok",
+  "reason": "Matches WHO (level with the 2nd intercostal space). Yin Yang House agrees.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House CV19",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/cv19/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "CV20",
+  "verdict": "ok",
+  "reason": "Matches WHO (level with the 1st intercostal space). Yin Yang House agrees. Minor point: 'the next point up' means nothing to a lay user and could be dropped.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House CV20",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/cv20/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "CV21",
+  "verdict": "ok",
+  "reason": "Matches WHO (1 cun below the suprasternal fossa). Yin Yang House puts it between CV20 and CV22 and lists food stagnation and difficulty swallowing, which supports 'indigestion'.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House CV21",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/cv21/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "CV22",
+  "verdict": "ok",
+  "reason": "Matches WHO (centre of the suprasternal fossa). The throat caution and gentle pressure are appropriate. Yin Yang House agrees and lists sore throat, hoarseness and loss of voice.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House CV22",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/cv22/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "CV23",
+  "verdict": "ok",
+  "reason": "Matches WHO (depression above the hyoid on the midline). The throat caution is present. Yin Yang House agrees (upper border of the hyoid) and lists difficulty swallowing and drooling.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House CV23",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/cv23/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "CV24",
+  "verdict": "ok",
+  "reason": "Matches WHO (centre of the mentolabial sulcus). Yin Yang House agrees and lists pain in the teeth and gums.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House CV24",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/cv24/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "GV1",
+  "verdict": "ok",
+  "reason": "Matches WHO (midway between the coccyx tip and the anus). It is correctly marked avoid as perineal. Yin Yang House agrees.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House GV1",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/gv1/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "GV2",
+  "verdict": "ok",
+  "reason": "Matches WHO (sacral hiatus). Pregnancy=true is correct under the sacrum region rule. Yin Yang House agrees and lists irregular menstruation.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House GV2",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/gv2/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "GV3",
+  "verdict": "ok",
+  "reason": "Matches WHO (below the L4 spinous process, at the level of the iliac crest tops). Yin Yang House gives L4 and lists low back pain and irregular menstruation.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House GV3",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/gv3/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "GV4",
+  "verdict": "ok",
+  "reason": "Matches WHO (below L2). Yin Yang House gives L2 and lists low back pain and copious night urination.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House GV4",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/gv4/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "GV5",
+  "verdict": "fix",
+  "fixes": {
+   "find": "On the midline of the lower back, in the dip just under the first lower-back spine bump, one bump above the point level with the navel."
+  },
+  "reason": "The vertebra (L1) matches WHO and Yin Yang House. The find text, however, says the point is 'a thumb-width or so above the waist-level point'. Adjacent lumbar spinous processes are further apart than one thumb-width, so the cue should count spine bumps instead.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House GV5",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/gv5/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "GV6",
+  "verdict": "ok",
+  "reason": "Matches WHO (below T11). Yin Yang House gives T11 and lists diarrhea and abdominal fullness.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House GV6",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/gv6/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "GV7",
+  "verdict": "ok",
+  "reason": "Matches WHO (below T10). Yin Yang House gives T10 and lists back pain, epigastric pain, bloating and poor appetite.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House GV7",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/gv7/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "GV8",
+  "verdict": "fix",
+  "fixes": {
+   "find": "On the midline of the mid-back, in the dip under the 9th chest-level spine bump, about two bumps below the level of the lower tips of the shoulder blades."
+  },
+  "reason": "The vertebra (T9) matches WHO and Yin Yang House. The find text says T9 is 'level with the lower edge of the ribs at the back', which is wrong: the lowest ribs reach T12/L1. This cue would send users about three vertebrae too low.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House GV8",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/gv8/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "GV9",
+  "verdict": "ok",
+  "reason": "Matches WHO (below T7, level with the inferior angle of the scapula). Yin Yang House gives T7 and lists mid-thoracic pain and chest oppression.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House GV9",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/gv9/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "GV10",
+  "verdict": "ok",
+  "reason": "Matches WHO (below T6). Yin Yang House gives T6 and lists neck and back pain.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House GV10",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/gv10/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "GV11",
+  "verdict": "ok",
+  "reason": "Matches WHO (below T5). Yin Yang House gives T5 and lists palpitations, insomnia and poor memory.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House GV11",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/gv11/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "GV12",
+  "verdict": "ok",
+  "reason": "Matches WHO (below T3, level with the root of the scapular spine). Yin Yang House gives T3 and lists cough.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House GV12",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/gv12/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "GV13",
+  "verdict": "ok",
+  "reason": "Matches WHO (below T1). Yin Yang House gives T1 and lists neck/spine stiffness and chills and fever.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House GV13",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/gv13/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "GV14",
+  "verdict": "ok",
+  "reason": "Matches WHO (below C7). Yin Yang House gives C7 and lists colds, flu and a stiff neck.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House GV14",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/gv14/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "GV15",
+  "verdict": "fix",
+  "fixes": {
+   "find": "On the back of the neck, on the midline, about half a thumb-width above the hairline: in the hollow just above the first bony bump you feel at the top of the neck, below the base of the skull. Press lightly."
+  },
+  "reason": "The WHO text is missing from the scan. The standard WHO 2008 location is superior to the C2 spinous process, 0.5 cun above the posterior hairline. TCM Wiki puts it 0.5 cun below GV16. The find text says 'in the small hollow under the top neck bump', but the first bump you can feel at the top of the neck is C2, and the point lies above it. The record's whoNote also says 'below the C1 spinous process', but C1 has no palpable spinous process. The placement spec (posterior hairline up 0.5) is correct.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki GV15",
+   "url": "https://tcmwiki.com/wiki/gv15",
+   "agrees": true
+  }
+ },
+ {
+  "code": "GV16",
+  "verdict": "ok",
+  "reason": "Matches WHO (directly below the external occipital protuberance, between the trapezius muscles). TCM Wiki gives 1 cun above the posterior hairline, which matches the placement spec. It lists headache, dizziness, neck stiffness and sore throat.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki GV16",
+   "url": "https://tcmwiki.com/wiki/gv16",
+   "agrees": true
+  }
+ },
+ {
+  "code": "GV17",
+  "verdict": "fix",
+  "fixes": {
+   "place": {
+    "from": "posterior_hairline_mid",
+    "up": 2.5
+   }
+  },
+  "reason": "WHO puts GV17 in the depression above the external occipital protuberance. The spec {at: external_occipital_protuberance} would place the dot on top of the bump. TCM Wiki gives 2.5 cun above the posterior hairline (1.5 above GV16). The find text is fine.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki GV17",
+   "url": "https://tcmwiki.com/wiki/gv17",
+   "agrees": true
+  }
+ },
+ {
+  "code": "GV18",
+  "verdict": "fix",
+  "fixes": {
+   "find": "On the midline at the back of the head, about two finger-widths above the hollow that sits just over the bony bump at the base of the skull."
+  },
+  "reason": "The WHO text is missing from the scan. TCM Wiki gives 4 cun above the posterior hairline (1.5 cun above GV17), which matches the spec. The find text, however, says 'halfway between the bony bump and the very top of the head'. That is about 4.75 cun, which is too high.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki GV18",
+   "url": "https://tcmwiki.com/wiki/gv18",
+   "agrees": true
+  }
+ },
+ {
+  "code": "GV19",
+  "verdict": "ok",
+  "reason": "Matches WHO (5.5 cun above the posterior hairline, 1.5 cun behind GV20). On head-top, 'down' from the posterior hairline points toward the front, which is correct. TCM Wiki agrees: 1.5 cun behind GV20.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki GV19",
+   "url": "https://tcmwiki.com/wiki/gv19",
+   "agrees": true
+  }
+ },
+ {
+  "code": "GV20",
+  "verdict": "ok",
+  "reason": "Matches WHO (5 cun behind the anterior hairline, ear-apex line). TCM Wiki agrees and lists headache, dizziness and tinnitus.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki GV20",
+   "url": "https://tcmwiki.com/wiki/gv20",
+   "agrees": true
+  }
+ },
+ {
+  "code": "GV21",
+  "verdict": "fix",
+  "fixes": {
+   "find": "On the midline of the scalp, about two finger-widths (one and a half thumb-widths) in front of the crown point at the very top of the head."
+  },
+  "reason": "The spec (3.5 cun) matches WHO and TCM Wiki (1.5 cun in front of GV20). The find text says 'one thumb-width ahead of the crown point', but 1.5 cun is about two finger-widths.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki GV21",
+   "url": "https://tcmwiki.com/wiki/gv21",
+   "agrees": true
+  }
+ },
+ {
+  "code": "GV22",
+  "verdict": "ok",
+  "reason": "Matches WHO (2 cun behind the anterior hairline). TCM Wiki agrees and lists headache, vertigo and nasal discharge.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki GV22",
+   "url": "https://tcmwiki.com/wiki/gv22",
+   "agrees": true
+  }
+ },
+ {
+  "code": "GV23",
+  "verdict": "ok",
+  "reason": "Matches WHO (1 cun behind the anterior hairline). TCM Wiki agrees and lists headache, eye pain and nasal discharge.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki GV23",
+   "url": "https://tcmwiki.com/wiki/gv23",
+   "agrees": true
+  }
+ },
+ {
+  "code": "GV24",
+  "verdict": "ok",
+  "reason": "Matches WHO (0.5 cun behind the anterior hairline). TCM Wiki agrees and lists headache, nasal discharge, insomnia and palpitations. The indication 'nasal problems' is vague but acceptable.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki GV24",
+   "url": "https://tcmwiki.com/wiki/gv24",
+   "agrees": true
+  }
+ },
+ {
+  "code": "GV25",
+  "verdict": "ok",
+  "reason": "Matches WHO (tip of the nose). TCM Wiki agrees and lists rhinorrhea, epistaxis and syncope.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki GV25",
+   "url": "https://tcmwiki.com/wiki/gv25",
+   "agrees": true
+  }
+ },
+ {
+  "code": "GV26",
+  "verdict": "disputed",
+  "reason": "WHO's primary location is the midpoint of the philtrum, with an alternative at the junction of the upper one-third. TCM Wiki gives the upper one-third junction. The record's find text covers both, and its disputed field explains the split. No change is needed beyond keeping the dispute flag.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki GV26",
+   "url": "https://tcmwiki.com/wiki/gv26",
+   "agrees": false
+  }
+ },
+ {
+  "code": "GV27",
+  "verdict": "ok",
+  "reason": "Matches WHO (midpoint of the upper-lip tubercle). TCM Wiki agrees. Leaving indications empty is acceptable. TCM Wiki lists toothache and gum bleeding if the author wants to source some.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki GV27",
+   "url": "https://tcmwiki.com/wiki/gv27",
+   "agrees": true
+  }
+ },
+ {
+  "code": "GV28",
+  "verdict": "ok",
+  "reason": "Matches WHO (upper-lip frenulum and gum junction). It is correctly marked avoid because it is inside the mouth. TCM Wiki agrees.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki GV28",
+   "url": "https://tcmwiki.com/wiki/gv28",
+   "agrees": true
+  }
+ }
+]

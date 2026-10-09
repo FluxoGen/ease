@@ -1,62 +1,34 @@
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react';
-import { AlertTriangle, ChevronDown, ChevronLeft, Info } from 'lucide-react';
+import { AlertTriangle, BadgeCheck, ChevronDown, ChevronLeft, Info, Scale } from 'lucide-react';
+import { useState } from 'react';
 import { Link, Navigate, useLocation, useParams } from 'react-router-dom';
-import PointDiagram from '../components/PointDiagram';
-import RegionDiagram from '../components/RegionDiagram';
-import { hasRegionDiagram, regionLabel } from '../data/pointDiagrams';
+import { VIEWS } from '../components/atlas/geometry';
+import PointPicture from '../components/PointPicture';
+import { photoFor } from '../data/library/photos';
 import { usePregnancy } from '../context/PregnancyContext';
-import { pointsById } from '../data/points';
+import { findPoint } from '../data/library';
+import { CAUTIONS, CHANNELS, PRESSING_RULES, SOURCE_SITES, TECHNIQUES } from '../data/library/shared';
 import { routines } from '../data/routines';
-import type { FivePhase } from '../types';
 
-const TAG_LABELS: Record<string, string> = {
-  low_back_pain: 'Low back',
-  headache: 'Headaches',
-  neck_pain: 'Neck',
-  sleep: 'Sleep',
-  well_being: 'Well-being',
-  nausea: 'Nausea',
-  stress_anxiety: 'Stress & anxiety',
-  menstrual_cramps: 'Menstrual cramps',
-  cold_flu: 'Cold & flu',
-  energy_fatigue: 'Energy & fatigue',
-  upper_back: 'Upper & mid back',
-  shoulder_tension: 'Shoulder tension',
-  eye_strain: 'Eye strain',
-  ear_hearing: 'Ear & hearing',
-  digestive_health: 'Digestive health',
-  hand_wrist_strain: 'Hand, wrist & elbow',
-  foot_ankle_strain: 'Foot & ankle',
-};
-
-// Points where the WHO text could not be matched: ST44 (description missing from the
-// readable copy) and EX-B2 (an extra point outside WHO's 361).
-const NO_WHO_MATCH = new Set(['st44', 'ex_b2']);
-
-const PHASE_COLOR: Record<FivePhase, string> = {
-  wood: '#4a7c4e',
-  fire: '#c2483d',
-  earth: '#b8863b',
-  metal: '#8a8f94',
-  water: '#3f6b8a',
-};
+const EVIDENCE = {
+  who: { icon: BadgeCheck, text: 'Location matches the WHO standard', tone: 'text-[#3c7a52] dark:text-[#8fd1a6]' },
+  refs: { icon: Scale, text: 'Location from 2+ independent references', tone: 'text-[#3f6b8a] dark:text-[#9cc3e0]' },
+  disputed: { icon: Info, text: 'References differ on the exact spot', tone: 'text-amber-700 dark:text-amber-300' },
+  va: { icon: BadgeCheck, text: 'From a U.S. VA acupressure handout', tone: 'text-[#3c7a52] dark:text-[#8fd1a6]' },
+} as const;
 
 export default function PointDetail() {
   const { pointId } = useParams<{ pointId: string }>();
   const location = useLocation();
   const { status, setStatus } = usePregnancy();
-  const point = pointId ? pointsById[pointId] : undefined;
+  const point = pointId ? findPoint(pointId) : undefined;
+  const [showDrawing, setShowDrawing] = useState(false);
 
-  if (!point) return <Navigate to="/" replace />;
+  if (!point) return <Navigate to="/points" replace />;
+  if (pointId !== point.id) return <Navigate to={`/point/${point.id}`} replace state={location.state} />;
 
-  const blocked = status === 'yes' && point.pregnancyCaution;
-  const navState = location.state as
-    | { fromRoutine?: string; fromBodyMap?: boolean; fromAllPoints?: boolean }
-    | null;
-  // Falls back to any routine containing this point (never home) — covers
-  // hard reloads and direct deep links, where router state isn't available.
-  // A few points (e.g. GV26) aren't in any routine at all — those fall
-  // through to the All Points directory instead.
+  const blocked = status === 'yes' && point.pregnancy;
+  const navState = location.state as { fromRoutine?: string; fromBodyMap?: boolean; fromAllPoints?: boolean } | null;
   const fallbackRoutine = routines.find((r) => r.pointIds.includes(point.id));
   const backTo = navState?.fromBodyMap
     ? '/map'
@@ -67,6 +39,10 @@ export default function PointDetail() {
         : fallbackRoutine
           ? `/routine/${fallbackRoutine.id}`
           : '/points';
+  const ev = EVIDENCE[point.evidence];
+  const tech = point.technique ? TECHNIQUES[point.technique] : null;
+  const photo = Boolean(photoFor(point));
+  const usedIn = routines.filter((r) => r.pointIds.includes(point.id));
 
   return (
     <div>
@@ -79,66 +55,27 @@ export default function PointDetail() {
       </Link>
 
       <h1 className="text-2xl font-bold sm:text-3xl">
-        {point.name}
-        {point.altNames && (
-          <span className="ml-2 text-base font-normal text-muted dark:text-muted-dark">
-            {point.altNames.join(', ')}
-          </span>
-        )}
+        {point.code}
+        <span className="ml-2 text-base font-normal text-muted dark:text-muted-dark">{point.pinyin}</span>
       </h1>
-      {point.meridian && (
-        <p className="text-sm text-muted dark:text-muted-dark">{point.meridian} meridian</p>
-      )}
-
-      {!point.verified && (
-        <div className="mt-2 flex items-start gap-2.5 rounded-lg border border-amber-300/60 bg-amber-50 px-3 py-2.5 text-sm font-medium text-amber-900 dark:border-amber-400/30 dark:bg-amber-400/10 dark:text-amber-200">
-          <Info size={22} className="mt-0.5 shrink-0 text-amber-600 dark:text-amber-300" />
-          {NO_WHO_MATCH.has(point.id)
-            ? 'Not yet reviewed by a licensed acupuncturist. Location comes from acupuncture education sources, not the WHO standard; the picture is an approximate illustration.'
-            : 'Not yet reviewed by a licensed acupuncturist. Location matches the WHO standard point locations; the picture is an approximate illustration.'}
-        </div>
-      )}
-
-      {point.useTags.length > 0 && (
-        <div className="mt-3 flex flex-wrap gap-1.5">
-          {point.useTags.map((t) => (
-            <span
-              key={t}
-              className="rounded-full bg-charcoal/5 px-2.5 py-1 text-xs dark:bg-ivory/10"
-            >
-              {TAG_LABELS[t] ?? t}
-            </span>
-          ))}
-        </div>
-      )}
-
-      {(point.classicalGroups || point.fivePhase) && (
-        <div className="mt-3 text-sm text-muted dark:text-muted-dark">
-          {point.fivePhase && (
-            <span className="mr-2 inline-flex items-center gap-1.5">
-              <span
-                className="inline-block h-2.5 w-2.5 rounded-full"
-                style={{ backgroundColor: PHASE_COLOR[point.fivePhase] }}
-              />
-              {point.fivePhase[0].toUpperCase() + point.fivePhase.slice(1)} phase
-            </span>
-          )}
-          {point.classicalGroups?.join(' · ')}
-        </div>
-      )}
+      <p className="text-sm text-muted dark:text-muted-dark">
+        {[point.english, CHANNELS[point.channel] + (point.channel === 'EX' ? '' : ' channel')].filter(Boolean).join(' · ')}
+      </p>
+      <p className={`mt-2 flex items-center gap-1.5 text-xs font-semibold ${ev.tone}`}>
+        <ev.icon size={16} />
+        {ev.text}
+        <Link to="/safety#locations" className="font-normal underline underline-offset-2 opacity-80">
+          how we check
+        </Link>
+      </p>
 
       {blocked ? (
-        <div className="mt-4 flex gap-3 rounded-xl border border-warn-500/40 bg-warn-50 p-4 dark:border-warn-500/40 dark:bg-warn-500/10">
+        <div className="mt-4 flex gap-3 rounded-xl border border-warn-500/40 bg-warn-50 p-4 dark:bg-warn-500/10">
           <AlertTriangle className="mt-0.5 shrink-0 text-warn-600 dark:text-warn-500" size={20} />
           <p className="text-sm text-charcoal/80 dark:text-ivory/80">
-            <strong>Traditionally avoided during pregnancy.</strong> {point.name} is one of a
-            handful of points traditionally avoided during pregnancy. Talk to your medical
-            provider before using it. You marked yourself as pregnant or unsure —{' '}
-            <button
-              type="button"
-              className="text-clay-dark underline dark:text-clay"
-              onClick={() => setStatus('no')}
-            >
+            <strong>Traditionally avoided during pregnancy.</strong> Talk to your medical provider before
+            using it. You marked yourself as pregnant or unsure —{' '}
+            <button type="button" className="text-clay-dark underline dark:text-clay" onClick={() => setStatus('no')}>
               change that
             </button>{' '}
             if it's no longer accurate.
@@ -146,70 +83,103 @@ export default function PointDetail() {
         </div>
       ) : (
         <>
-          {point.image ? (
-            <div className="mt-4 overflow-hidden rounded-2xl border border-charcoal/10 bg-white dark:border-ivory/10">
-              <img
-                src={point.image}
-                alt={`${point.name} location`}
-                className="max-h-80 w-full object-contain"
-              />
-            </div>
-          ) : hasRegionDiagram(point.id) ? (
-            <div className="mt-4 overflow-hidden rounded-2xl border border-charcoal/10 bg-[#fbf8f2] dark:border-ivory/10">
-              <p className="pt-3 text-center text-xs font-semibold uppercase tracking-wide text-[#8A6650]">
-                {regionLabel(point.id)}
-              </p>
-              <RegionDiagram pointId={point.id} className="mx-auto my-2 h-72 w-72 max-w-[calc(100%-2rem)] rounded-xl border border-[#eadfce] bg-[#fbf8f2]" />
-              <p className="px-4 pb-3 text-center text-xs text-[#8A6650]">
-                Orange dot = this point. Illustration, not a photo — approximate location only.
-              </p>
-            </div>
-          ) : point.bodyMap ? (
-            <div className="mt-4 overflow-hidden rounded-2xl border border-charcoal/10 bg-sand dark:border-ivory/10 dark:bg-charcoal-soft">
-              <p className="pt-3 text-center text-xs font-semibold uppercase tracking-wide text-muted dark:text-muted-dark">
-                {point.region} &middot; {point.bodyMap.view} view
-              </p>
-              <PointDiagram x={point.bodyMap.x} y={point.bodyMap.y} className="mx-auto h-56 w-56" />
-              <p className="pb-3 text-center text-xs text-muted dark:text-muted-dark">
-                Dashed lines mark nearby joints for reference. Diagram, not a photo — approximate
-                location only.
+          <figure className="mt-4 overflow-hidden rounded-2xl border border-charcoal/10 bg-[#fbf8f2] dark:border-ivory/10">
+            <figcaption className="flex items-center justify-between px-4 pt-3 text-xs font-semibold uppercase tracking-wide text-[#8A6650]">
+              <span>{photo && !showDrawing ? 'Photo · VA handout' : VIEWS[point.view].label}</span>
+              {photo && (
+                <button type="button" className="normal-case underline underline-offset-2" onClick={() => setShowDrawing((v) => !v)}>
+                  {showDrawing ? 'Show photo' : 'Show drawing'}
+                </button>
+              )}
+            </figcaption>
+            <PointPicture
+              point={point}
+              drawing={showDrawing}
+              className="mx-auto my-2 h-72 w-72 max-w-[calc(100%-2rem)] rounded-xl bg-white"
+            />
+          </figure>
+
+          <h2 className="mt-5 text-lg font-bold">Find it</h2>
+          <p className="mt-1 text-charcoal/80 dark:text-ivory/80">{point.find}</p>
+
+          {point.selfCare === 'avoid' ? (
+            <div className="mt-5 flex gap-3 rounded-xl border border-amber-300/60 bg-amber-50 p-4 text-sm text-amber-900 dark:border-amber-400/30 dark:bg-amber-400/10 dark:text-amber-200">
+              <Info size={20} className="mt-0.5 shrink-0" />
+              <p>
+                <strong>Not for pressing yourself.</strong> {point.avoidReason} Shown for reference only.
               </p>
             </div>
-          ) : null}
-          <h2 className="mt-5 text-lg font-bold">Location</h2>
-          <p className="mt-1 text-charcoal/70 dark:text-ivory/70">{point.location}</p>
-          <h2 className="mt-5 text-lg font-bold">How to use it</h2>
-          <ul className="mt-1 list-disc space-y-1.5 pl-5 text-charcoal/70 dark:text-ivory/70">
-            <li>Press or rub the point with your thumb or finger for about 30 seconds.</li>
-            <li>Use pressure that feels good, not painful.</li>
-            <li>Do the same point on both sides of the body if it has a left and right.</li>
-            <li>Repeat as needed, up to five times a day.</li>
-          </ul>
+          ) : (
+            tech && (
+              <>
+                <h2 className="mt-5 text-lg font-bold">How to press</h2>
+                <p className="mt-1 text-charcoal/80 dark:text-ivory/80">
+                  <strong>{tech.label}, {tech.time}.</strong> {tech.how}
+                </p>
+                <ul className="mt-2 list-disc space-y-1 pl-5 text-sm text-charcoal/70 dark:text-ivory/70">
+                  {PRESSING_RULES.map((r) => <li key={r}>{r}</li>)}
+                </ul>
+              </>
+            )
+          )}
+
+          {point.selfCare !== 'avoid' && point.cautions.length > 0 && (
+            <ul className="mt-3 space-y-1.5">
+              {point.cautions.map((c) => (
+                <li key={c} className="flex gap-2 text-sm font-medium text-amber-800 dark:text-amber-300">
+                  <AlertTriangle size={16} className="mt-0.5 shrink-0" />
+                  {CAUTIONS[c]}
+                </li>
+              ))}
+            </ul>
+          )}
         </>
       )}
 
-      {point.pregnancyCaution && !blocked && (
-        <p className="mt-3 text-sm font-medium text-warn-500">
-          Traditionally avoided during pregnancy — talk to your medical provider first if that
-          applies to you.
+      {point.indications.length > 0 && (
+        <>
+          <h2 className="mt-5 text-lg font-bold">Traditionally used for</h2>
+          <div className="mt-2 flex flex-wrap gap-1.5">
+            {point.indications.map((t) => (
+              <span key={t} className="rounded-full bg-charcoal/5 px-2.5 py-1 text-xs dark:bg-ivory/10">{t}</span>
+            ))}
+          </div>
+        </>
+      )}
+      {usedIn.length > 0 && (
+        <p className="mt-3 text-sm text-muted dark:text-muted-dark">
+          In routines:{' '}
+          {usedIn.map((r, i) => (
+            <span key={r.id}>
+              {i > 0 && ', '}
+              <Link to={`/routine/${r.id}`} className="underline underline-offset-2">{r.title}</Link>
+            </span>
+          ))}
         </p>
+      )}
+
+      {point.note && (
+        <p className="mt-4 rounded-lg bg-charcoal/5 p-3 text-sm text-charcoal/70 dark:bg-ivory/10 dark:text-ivory/70">{point.note}</p>
       )}
 
       <Disclosure as="div" className="mt-6 border-t border-charcoal/10 pt-4 dark:border-ivory/10">
         <DisclosureButton className="group flex w-full items-center justify-between text-sm font-semibold">
-          General cautions
+          Sources
           <ChevronDown size={16} className="transition group-data-[open]:rotate-180" />
         </DisclosureButton>
-        <DisclosurePanel className="mt-2 text-sm text-charcoal/70 dark:text-ivory/70">
-          <ul className="list-disc space-y-1.5 pl-5">
-            <li>Skip any point over numb skin, a wound, swelling, active infection, or a recent blood clot.</li>
-            <li>Stop right away if you feel dizzy or otherwise unwell, and check with your provider if it doesn't pass.</li>
-            <li>This is wellness information, not a treatment — it doesn't replace medical care.</li>
-          </ul>
+        <DisclosurePanel as="ul" className="mt-2 space-y-1 text-sm text-charcoal/70 dark:text-ivory/70">
+          {point.sources.map((s) => {
+            const site = SOURCE_SITES[s.s];
+            const name = site?.name ?? s.s;
+            const href = site?.base && s.p ? site.base + s.p : undefined;
+            return (
+              <li key={s.s}>
+                {href ? <a href={href} target="_blank" rel="noreferrer" className="underline underline-offset-2">{name}</a> : name}
+              </li>
+            );
+          })}
         </DisclosurePanel>
       </Disclosure>
-
-      <p className="mt-5 text-xs text-muted dark:text-muted-dark">Source: {point.source}</p>
     </div>
   );
 }

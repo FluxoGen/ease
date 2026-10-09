@@ -11,7 +11,46 @@ An offline-capable PWA for self-acupressure — pressing points on your own body
 symptoms (not needle acupuncture). Symptom-first UX: pick what's going on, get a handful of
 points with photos and plain-language locations.
 
-## v1 scope
+
+## What it is
+
+A library of self-acupressure points covering all 361 WHO standard points plus the standard extra
+points, each with a picture, a plain-language way to find it, and how to press it. A symptom-first
+home screen groups them into routines (headache, sleep, low back, nausea and more).
+
+How the library is built, checked and kept honest is described in
+[`docs/library-pipeline.md`](docs/library-pipeline.md). In short:
+
+- **Locations** are written from the WHO Standard Acupuncture Point Locations (2008) and at least one
+  independent reference, then re-checked by a second reviewer against a fresh source. Extra points
+  outside WHO's 361 need two independent references. Flashcard/study sites are not counted.
+- **Pictures** are original drawings (19 body views). Each point is placed by its WHO measurement
+  ("1.5 thumb-widths above the wrist crease on the Lung line") so the dot sits where the standard says.
+  The 23 points from VA handouts also show the handout photo.
+- **Text is not repeated.** How to press, timings, cautions, source names and the review statement each
+  live once in `src/data/library/shared.ts`; points reference them by id.
+- **Safety.** Points you shouldn't press yourself (e.g. over the carotid, on the nipple, inside the mouth)
+  stay in the library marked "reference only". Pregnancy flags come from two-source evidence plus a
+  region rule for the lower belly and sacrum.
+- Nothing here has been reviewed by a licensed acupuncturist. That statement appears once, on the
+  Safety page, and every point links to it.
+
+### Rebuilding the library
+
+```bash
+python3 scripts/assemble_library.py      # research + verification -> src/data/library/points.json
+python3 scripts/check_library.py         # rules check (exit 1 on any problem)
+python3 scripts/unit_audit.py <who_entries.json>   # distance wording vs WHO numbers
+```
+
+Research inputs (author records, verifier verdicts, hand-checked positions, lead fixes, pregnancy
+audit) are kept in `sources/library-research/` for provenance.
+
+## History
+
+The notes below record how the app got here.
+
+### v1 scope
 
 25 points across 10 routines (low back, headaches, neck, sleep, well-being, nausea, stress &
 anxiety, menstrual cramps, cold & flu, energy & fatigue), sourced entirely from public-domain
@@ -106,26 +145,20 @@ anything shipped, since `npm run build` was always run before committing, but th
 
 ## Structure
 
-- `src/data/points.ts` — the 25 points: location, meridian, use tags, pregnancy flag, source,
-  classical groupings/Five Phase, body-map placement, verified flag.
-- `src/data/routines.ts` — the 10 symptom routines, each a list of point ids.
-- `src/data/bodyMap.ts` — the body-map SVG viewBox constant.
-- `src/components/BodySilhouette.tsx` — the original schematic body outline used by `/map`.
-- `src/components/RegionDiagram.tsx` + `src/components/regions/art.tsx` +
-  `src/data/pointDiagrams.ts` — original region illustrations (13 views: top/inner/outer foot,
-  palm, back of hand, elbow front/back, front of leg, back of knee, torso, back, face, side of
-  head) with landmark labels (ankle bone, navel, T7 shoulder-blade bottom, L4 hip-bone top…).
-  Each unverified point is a hand-placed dot on one view; the crop also shows nearby points as
-  hollow dots. This replaced the generic silhouette crop as the no-photo fallback.
-- `src/components/PointDiagram.tsx` — older zoomed silhouette crop; now only a last-resort fallback.
-- `src/pages/` — Home (symptom picker), RoutineDetail, PointDetail, Safety, BodyMap, AllPoints.
-- `src/assets/points/` — cropped point photos (JPEG, no VA branding).
-- `src/components/EaseLogo.tsx` — the wordmark as inline SVG (paths, no font needed to render it).
-- `sources/` — original VA PDFs, kept for provenance.
-- `brand-kit/` — the full brand kit (all logo variants, color tokens, favicons, social images,
-  usage guidelines). `public/` only has the specific files the app actually serves (favicons,
-  PWA icons); anything else — the reversed/mono/tagline logo variants, the Figma-adjacent
-  `EaseLogo.jsx` this component was adapted from, `tokens.css` — lives here for reference.
+- `src/data/library/points.json`: the generated point library (do not edit by hand; rerun the scripts).
+- `src/data/library/index.ts`: types, lookup, old-id redirects (`ub40` → `bl40`), position resolving.
+- `src/data/library/shared.ts`: shared text: techniques, pressing rules, cautions, sources, channels.
+- `src/data/routines.ts`: symptom routines, built from VA handout order plus points tagged for each.
+- `src/components/atlas/`: the 19 body-view drawings (`art.tsx`, plus older views in
+  `components/regions/art.tsx`), their landmark geometry (`geometry.ts`), the placer (`place.ts`) and
+  the cropped diagram (`AtlasDiagram.tsx`).
+- `src/pages/`: Home, RoutineDetail, PointDetail, AllPoints (search + area/channel filters), BodyMap
+  (area picker), Safety.
+- `src/dev/AtlasSweep.tsx`: dev-only page (`/atlas-dev`) drawing every view with every point labelled,
+  for visual checks.
+- `scripts/`: library assembly, rules check, unit audit.
+- `docs/`: pipeline, placement vocabulary.
+- `sources/`: VA PDFs and all research/verification records.
 
 ## v2 progress
 

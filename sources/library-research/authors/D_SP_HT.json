@@ -1,0 +1,1857 @@
+[
+ {
+  "code": "SP1",
+  "pinyin": "Yinbai",
+  "english": "Hidden White",
+  "region": "foot",
+  "view": "foot-inner",
+  "find": "On the inner side of the big toe, right at the corner of the nail, just behind the nail's base.",
+  "place": {
+   "at": "big_toe_nail_corner_inner"
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "nail",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "disturbed sleep",
+    "sources": [
+     "ad",
+     "mq"
+    ]
+   },
+   {
+    "text": "bloating",
+    "sources": [
+     "ad",
+     "mq"
+    ]
+   }
+  ],
+  "tags": [
+   "sleep",
+   "digestive_health"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "ad",
+    "name": "Attilio D'Alberto SP1",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/sp-1.php"
+   },
+   {
+    "id": "mq",
+    "name": "Me and Qi SP1",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/spleen-meridian/yinbai-sp-1"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "SP2",
+  "pinyin": "Dadu",
+  "english": "Great Metropolis",
+  "region": "foot",
+  "view": "foot-inner",
+  "find": "On the inner side of the big toe, just in front of the big knuckle joint, where the skin changes from the top of the foot to the sole.",
+  "place": {
+   "between": [
+    "mtp_1_inner",
+    "big_toe_nail_corner_inner"
+   ],
+   "frac": 0.08
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "bloating",
+    "sources": [
+     "ad",
+     "mq"
+    ]
+   },
+   {
+    "text": "diarrhea",
+    "sources": [
+     "ad",
+     "mq"
+    ]
+   },
+   {
+    "text": "stomach ache",
+    "sources": [
+     "ad",
+     "mq"
+    ]
+   }
+  ],
+  "tags": [
+   "digestive_health"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "ad",
+    "name": "Attilio D'Alberto SP2",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/sp-2.php"
+   },
+   {
+    "id": "mq",
+    "name": "Me and Qi SP2",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/spleen-meridian/dadu-sp-2"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "SP3",
+  "pinyin": "Taibai",
+  "english": "Supreme White",
+  "region": "foot",
+  "view": "foot-inner",
+  "find": "On the inner edge of the foot, in the hollow just behind the big knuckle joint, where the skin changes from top-of-foot to sole.",
+  "place": {
+   "between": [
+    "met1_base",
+    "mtp_1_inner"
+   ],
+   "frac": 0.9
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "poor appetite",
+    "sources": [
+     "ad",
+     "mq",
+     "sat"
+    ]
+   },
+   {
+    "text": "bloating",
+    "sources": [
+     "ad",
+     "mq",
+     "sat"
+    ]
+   },
+   {
+    "text": "loose stools",
+    "sources": [
+     "ad",
+     "mq",
+     "sat"
+    ]
+   },
+   {
+    "text": "fatigue",
+    "sources": [
+     "ad",
+     "mq"
+    ]
+   }
+  ],
+  "tags": [
+   "digestive_health",
+   "energy_fatigue"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "ad",
+    "name": "Attilio D'Alberto SP3",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/sp-3.php"
+   },
+   {
+    "id": "mq",
+    "name": "Me and Qi SP3",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/spleen-meridian/taibai-sp-3"
+   },
+   {
+    "id": "sat",
+    "name": "Satyori SP3",
+    "url": "https://satyori.com/tcm/acupressure/sp-3-taibai/"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "SP4",
+  "pinyin": "Gongsun",
+  "english": "Grandfather Grandson",
+  "region": "foot",
+  "view": "foot-inner",
+  "find": "On the inner edge of the foot, in the hollow just in front of and below the bump at the base of the big toe's long bone, where the skin changes color.",
+  "place": {
+   "between": [
+    "met1_base",
+    "mtp_1_inner"
+   ],
+   "frac": 0.15
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "stomach ache",
+    "sources": [
+     "ad",
+     "mq"
+    ]
+   },
+   {
+    "text": "irregular periods",
+    "sources": [
+     "ad",
+     "mq"
+    ]
+   }
+  ],
+  "tags": [
+   "digestive_health"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "ad",
+    "name": "Attilio D'Alberto SP4",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/sp-4.php"
+   },
+   {
+    "id": "mq",
+    "name": "Me and Qi SP4",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/spleen-meridian/gongsun-sp-4"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "SP5",
+  "pinyin": "Shangqiu",
+  "english": "Shang Hill",
+  "region": "ankle",
+  "view": "foot-inner",
+  "find": "On the inside of the ankle, in the soft hollow just in front of and below the inner ankle bone, halfway between that bone and the bump in front of it.",
+  "place": {
+   "between": [
+    "medial_malleolus",
+    "navicular_tuberosity"
+   ],
+   "frac": 0.5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "ankle pain",
+    "sources": [
+     "ad",
+     "mq"
+    ]
+   },
+   {
+    "text": "bloating",
+    "sources": [
+     "ad",
+     "mq"
+    ]
+   }
+  ],
+  "tags": [
+   "foot_ankle_strain",
+   "digestive_health"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "ad",
+    "name": "Attilio D'Alberto SP5",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/sp-5.php"
+   },
+   {
+    "id": "mq",
+    "name": "Me and Qi SP5",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/spleen-meridian/shangqiu-sp-5"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "SP6",
+  "pinyin": "Sanyinjiao",
+  "english": "Three Yin Intersection",
+  "region": "lower leg",
+  "view": "leg-inner",
+  "find": "On the inside of the lower leg, about four finger-widths above the tip of the inner ankle bone, just behind the edge of the shin bone.",
+  "place": {
+   "line": "SP",
+   "from": "medial_malleolus",
+   "cun": 3
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [
+   "pregnancy"
+  ],
+  "pregnancy": true,
+  "indications": [
+   {
+    "text": "trouble sleeping",
+    "sources": [
+     "ad",
+     "mq",
+     "sat"
+    ]
+   },
+   {
+    "text": "painful periods",
+    "sources": [
+     "ad",
+     "mq",
+     "sat"
+    ]
+   },
+   {
+    "text": "fatigue",
+    "sources": [
+     "ad",
+     "mq",
+     "sat"
+    ]
+   },
+   {
+    "text": "water retention",
+    "sources": [
+     "ad",
+     "mq",
+     "sat"
+    ]
+   }
+  ],
+  "tags": [
+   "sleep",
+   "menstrual_cramps",
+   "energy_fatigue"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "ad",
+    "name": "Attilio D'Alberto SP6",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/sp-6.php"
+   },
+   {
+    "id": "mq",
+    "name": "Me and Qi SP6",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/spleen-meridian/sanyinjiao-sp-6"
+   },
+   {
+    "id": "sat",
+    "name": "Satyori SP6",
+    "url": "https://satyori.com/tcm/acupressure/sp-6-sanyinjiao/"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "SP7",
+  "pinyin": "Lougu",
+  "english": "Leaking Valley",
+  "region": "lower leg",
+  "view": "leg-inner",
+  "find": "On the inside of the lower leg, about eight finger-widths (twice the span of SP6) above the inner ankle bone, just behind the edge of the shin bone.",
+  "place": {
+   "line": "SP",
+   "from": "medial_malleolus",
+   "cun": 6
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "bloating",
+    "sources": [
+     "ad",
+     "mq"
+    ]
+   },
+   {
+    "text": "diarrhea",
+    "sources": [
+     "ad",
+     "mq"
+    ]
+   }
+  ],
+  "tags": [
+   "digestive_health"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "ad",
+    "name": "Attilio D'Alberto SP7",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/sp-7.php"
+   },
+   {
+    "id": "mq",
+    "name": "Me and Qi SP7",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/spleen-meridian/lougu-sp-7"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "SP8",
+  "pinyin": "Diji",
+  "english": "Earth Pivot",
+  "region": "lower leg",
+  "view": "leg-inner",
+  "find": "On the inside of the lower leg, about four finger-widths below the hollow under the knee's bony bump, just behind the edge of the shin bone.",
+  "place": {
+   "line": "SP",
+   "from": "medial_malleolus",
+   "cun": 10
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "painful periods",
+    "sources": [
+     "ad",
+     "mq"
+    ]
+   },
+   {
+    "text": "irregular periods",
+    "sources": [
+     "ad",
+     "mq"
+    ]
+   },
+   {
+    "text": "abdominal pain",
+    "sources": [
+     "ad",
+     "mq"
+    ]
+   }
+  ],
+  "tags": [
+   "menstrual_cramps",
+   "digestive_health"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "ad",
+    "name": "Attilio D'Alberto SP8",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/sp-8.php"
+   },
+   {
+    "id": "mq",
+    "name": "Me and Qi SP8",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/spleen-meridian/diji-sp-8"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "SP9",
+  "pinyin": "Yinlingquan",
+  "english": "Yin Mound Spring",
+  "region": "knee",
+  "view": "leg-inner",
+  "find": "On the inside of the leg just below the knee, in the hollow where the shin bone's edge meets the underside of the bony bump below the inner knee.",
+  "place": {
+   "from": "tibia_medial_condyle",
+   "down": 0.5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "swelling and water retention",
+    "sources": [
+     "ad",
+     "mq"
+    ]
+   },
+   {
+    "text": "bloating",
+    "sources": [
+     "ad",
+     "mq"
+    ]
+   },
+   {
+    "text": "knee pain",
+    "sources": [
+     "ad",
+     "mq"
+    ]
+   }
+  ],
+  "tags": [
+   "digestive_health",
+   "knee_pain"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "ad",
+    "name": "Attilio D'Alberto SP9",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/sp-9.php"
+   },
+   {
+    "id": "mq",
+    "name": "Me and Qi SP9",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/spleen-meridian/yinlingquan-sp-9"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "SP10",
+  "pinyin": "Xuehai",
+  "english": "Sea of Blood",
+  "region": "thigh",
+  "view": "leg-inner",
+  "find": "On the inner thigh, about two thumb-widths above the inner upper corner of the kneecap, on the bulge of the thigh muscle that stands out when the knee is bent.",
+  "place": {
+   "from": "patella_medial_base",
+   "up": 2
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "knead",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "painful periods",
+    "sources": [
+     "ad",
+     "mq"
+    ]
+   },
+   {
+    "text": "irregular periods",
+    "sources": [
+     "ad",
+     "mq"
+    ]
+   },
+   {
+    "text": "skin rashes",
+    "sources": [
+     "ad",
+     "mq"
+    ]
+   }
+  ],
+  "tags": [
+   "menstrual_cramps"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "ad",
+    "name": "Attilio D'Alberto SP10",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/sp-10.php"
+   },
+   {
+    "id": "mq",
+    "name": "Me and Qi SP10",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/spleen-meridian/xuehai-sp-10"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "SP11",
+  "pinyin": "Jimen",
+  "english": "Winnower Gate",
+  "region": "thigh",
+  "view": "leg-inner",
+  "find": "On the inner thigh, about a hand-span and a half above the knee (eight thumb-widths above the kneecap's inner corner), in the groove along the front thigh muscle where a pulse can be felt.",
+  "place": {
+   "line": "SP",
+   "from": "patella_medial_base",
+   "cun": 8
+  },
+  "selfCare": "gentle",
+  "avoidReason": "",
+  "technique": "gentle",
+  "cautions": [
+   "pulse"
+  ],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "difficult urination",
+    "sources": [
+     "ad",
+     "mq"
+    ]
+   },
+   {
+    "text": "genital itching",
+    "sources": [
+     "ad",
+     "mq"
+    ]
+   }
+  ],
+  "tags": [],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "ad",
+    "name": "Attilio D'Alberto SP11",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/sp-11.php"
+   },
+   {
+    "id": "mq",
+    "name": "Me and Qi SP11",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/spleen-meridian/jimen-sp-11"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "SP12",
+  "pinyin": "Chongmen",
+  "english": "Surging Gate",
+  "region": "groin",
+  "view": "torso-front",
+  "find": "In the fold where the thigh meets the lower belly, a little outside the pulse you can feel in the groin, level with the top of the pubic bone.",
+  "place": {
+   "from": "pubic_symphysis_top",
+   "out": 3.5
+  },
+  "selfCare": "gentle",
+  "avoidReason": "",
+  "technique": "gentle",
+  "cautions": [
+   "pulse",
+   "pregnancy"
+  ],
+  "pregnancy": true,
+  "indications": [
+   {
+    "text": "lower abdominal pain",
+    "sources": [
+     "ad",
+     "mq"
+    ]
+   }
+  ],
+  "tags": [
+   "digestive_health"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "ad",
+    "name": "Attilio D'Alberto SP12",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/sp-12.php"
+   },
+   {
+    "id": "mq",
+    "name": "Me and Qi SP12",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/spleen-meridian/chongmen-sp-12"
+   }
+  ],
+  "disputed": "",
+  "appFix": "",
+  "pregnancyBasis": "region:lower-abdomen"
+ },
+ {
+  "code": "SP13",
+  "pinyin": "Fushe",
+  "english": "Abode of the Bowels",
+  "region": "lower abdomen",
+  "view": "torso-front",
+  "find": "On the lower belly, about four finger-widths out from the midline, a little above the crease where the thigh meets the pelvis.",
+  "place": {
+   "from": "pubic_symphysis_top",
+   "up": 0.7,
+   "out": 4
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [
+   "pregnancy"
+  ],
+  "pregnancy": true,
+  "indications": [
+   {
+    "text": "lower abdominal pain",
+    "sources": [
+     "ad",
+     "mq"
+    ]
+   },
+   {
+    "text": "thigh pain",
+    "sources": [
+     "ad",
+     "mq"
+    ]
+   }
+  ],
+  "tags": [
+   "digestive_health"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "ad",
+    "name": "Attilio D'Alberto SP13",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/sp-13.php"
+   },
+   {
+    "id": "mq",
+    "name": "Me and Qi SP13",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/spleen-meridian/fushe-sp-13"
+   }
+  ],
+  "disputed": "",
+  "appFix": "",
+  "pregnancyBasis": "region:lower-abdomen"
+ },
+ {
+  "code": "SP14",
+  "pinyin": "Fujie",
+  "english": "Abdominal Knot",
+  "region": "lower abdomen",
+  "view": "torso-front",
+  "find": "On the lower belly, about a thumb-width below the level of the navel and a hand's width out to the side.",
+  "place": {
+   "from": "umbilicus",
+   "down": 1.3,
+   "out": 4
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [
+   "pregnancy"
+  ],
+  "pregnancy": true,
+  "indications": [
+   {
+    "text": "bloating",
+    "sources": [
+     "ad",
+     "mq"
+    ]
+   },
+   {
+    "text": "diarrhea",
+    "sources": [
+     "ad",
+     "mq"
+    ]
+   },
+   {
+    "text": "pain around the navel",
+    "sources": [
+     "ad",
+     "mq"
+    ]
+   },
+   {
+    "text": "cough",
+    "sources": [
+     "ad",
+     "mq"
+    ]
+   }
+  ],
+  "tags": [
+   "digestive_health",
+   "cough_breathing"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "ad",
+    "name": "Attilio D'Alberto SP14",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/sp-14.php"
+   },
+   {
+    "id": "mq",
+    "name": "Me and Qi SP14",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/spleen-meridian/fujie-sp-14"
+   }
+  ],
+  "disputed": "",
+  "appFix": "",
+  "pregnancyBasis": "region:lower-abdomen"
+ },
+ {
+  "code": "SP15",
+  "pinyin": "Daheng",
+  "english": "Great Horizontal",
+  "region": "abdomen",
+  "view": "torso-front",
+  "find": "On the belly, level with the navel, about a hand's width out to the side of it.",
+  "place": {
+   "from": "umbilicus",
+   "out": 4
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "constipation",
+    "sources": [
+     "ad",
+     "mq"
+    ]
+   },
+   {
+    "text": "abdominal pain",
+    "sources": [
+     "ad",
+     "mq"
+    ]
+   },
+   {
+    "text": "diarrhea",
+    "sources": [
+     "ad",
+     "mq"
+    ]
+   },
+   {
+    "text": "cold limbs",
+    "sources": [
+     "ad",
+     "mq"
+    ]
+   }
+  ],
+  "tags": [
+   "constipation",
+   "digestive_health"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "ad",
+    "name": "Attilio D'Alberto SP15",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/sp-15.php"
+   },
+   {
+    "id": "mq",
+    "name": "Me and Qi SP15",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/spleen-meridian/daheng-sp-15"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "SP16",
+  "pinyin": "Fuai",
+  "english": "Abdominal Sorrow",
+  "region": "abdomen",
+  "view": "torso-front",
+  "find": "On the upper belly, about four finger-widths above the navel and a hand's width out to the side, near the lower edge of the ribs.",
+  "place": {
+   "from": "umbilicus",
+   "up": 3,
+   "out": 4
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "constipation",
+    "sources": [
+     "ad",
+     "mq"
+    ]
+   },
+   {
+    "text": "pain around the navel",
+    "sources": [
+     "ad",
+     "mq"
+    ]
+   }
+  ],
+  "tags": [
+   "constipation",
+   "digestive_health"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "ad",
+    "name": "Attilio D'Alberto SP16",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/sp-16.php"
+   },
+   {
+    "id": "mq",
+    "name": "Me and Qi SP16",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/spleen-meridian/fuai-sp-16"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "SP17",
+  "pinyin": "Shidou",
+  "english": "Food Hole",
+  "region": "chest",
+  "view": "torso-front",
+  "find": "On the side of the chest, in the soft gap between the fifth and sixth ribs, about a hand's width and a half out from the center of the breastbone.",
+  "place": {
+   "from": "ics_5",
+   "out": 6
+  },
+  "selfCare": "gentle",
+  "avoidReason": "",
+  "technique": "gentle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "chest tightness",
+    "sources": [
+     "ad",
+     "mq"
+    ]
+   },
+   {
+    "text": "bloating",
+    "sources": [
+     "ad",
+     "mq"
+    ]
+   }
+  ],
+  "tags": [
+   "digestive_health"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "ad",
+    "name": "Attilio D'Alberto SP17",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/sp-17.php"
+   },
+   {
+    "id": "mq",
+    "name": "Me and Qi SP17",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/spleen-meridian/shidou-sp-17"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "SP18",
+  "pinyin": "Tianxi",
+  "english": "Heavenly Stream",
+  "region": "chest",
+  "view": "torso-front",
+  "find": "On the side of the chest, in the soft gap between the fourth and fifth ribs, a little outside the nipple line.",
+  "place": {
+   "from": "ics_4",
+   "out": 6
+  },
+  "selfCare": "gentle",
+  "avoidReason": "",
+  "technique": "gentle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "cough",
+    "sources": [
+     "ad",
+     "mq"
+    ]
+   },
+   {
+    "text": "chest tightness",
+    "sources": [
+     "ad",
+     "mq"
+    ]
+   }
+  ],
+  "tags": [
+   "cough_breathing"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "ad",
+    "name": "Attilio D'Alberto SP18",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/sp-18.php"
+   },
+   {
+    "id": "mq",
+    "name": "Me and Qi SP18",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/spleen-meridian/tianxi-sp-18"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "SP19",
+  "pinyin": "Xiongxiang",
+  "english": "Chest Village",
+  "region": "chest",
+  "view": "torso-front",
+  "find": "On the side of the upper chest, in the soft gap between the third and fourth ribs, well outside the breastbone.",
+  "place": {
+   "from": "ics_3",
+   "out": 6
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "cough",
+    "sources": [
+     "ad",
+     "mq"
+    ]
+   },
+   {
+    "text": "chest tightness",
+    "sources": [
+     "ad",
+     "mq"
+    ]
+   }
+  ],
+  "tags": [
+   "cough_breathing"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "ad",
+    "name": "Attilio D'Alberto SP19",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/sp-19.php"
+   },
+   {
+    "id": "mq",
+    "name": "Me and Qi SP19",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/spleen-meridian/xiongxiang-sp-19"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "SP20",
+  "pinyin": "Zhourong",
+  "english": "All-Round Flourishing",
+  "region": "chest",
+  "view": "torso-front",
+  "find": "On the upper chest, in the soft gap between the second and third ribs, well out to the side of the breastbone, below the collarbone.",
+  "place": {
+   "from": "ics_2",
+   "out": 6
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "cough",
+    "sources": [
+     "ad",
+     "mq"
+    ]
+   },
+   {
+    "text": "chest discomfort",
+    "sources": [
+     "ad",
+     "mq"
+    ]
+   }
+  ],
+  "tags": [
+   "cough_breathing"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "ad",
+    "name": "Attilio D'Alberto SP20",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/sp-20.php"
+   },
+   {
+    "id": "mq",
+    "name": "Me and Qi SP20",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/spleen-meridian/zhourong-sp-20"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "SP21",
+  "pinyin": "Dabao",
+  "english": "Great Embracement",
+  "region": "side of chest",
+  "view": "torso-side",
+  "find": "On the side of the chest, in the soft gap between the sixth and seventh ribs, straight down from the middle of the armpit.",
+  "place": {
+   "at": "ics_6"
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "rib-side pain",
+    "sources": [
+     "ad",
+     "mq"
+    ]
+   },
+   {
+    "text": "body aches",
+    "sources": [
+     "ad",
+     "mq"
+    ]
+   }
+  ],
+  "tags": [],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "ad",
+    "name": "Attilio D'Alberto SP21",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/sp-21.php"
+   },
+   {
+    "id": "mq",
+    "name": "Me and Qi SP21",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/spleen-meridian/dabao-sp-21"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "HT1",
+  "pinyin": "Jiquan",
+  "english": "Highest Spring",
+  "region": "armpit",
+  "view": "arm-inner",
+  "find": "In the center of the armpit hollow, directly over the artery and nerves.",
+  "place": {
+   "at": "axilla_apex"
+  },
+  "selfCare": "avoid",
+  "avoidReason": "In the center of the armpit directly over the axillary artery and nerves; not suitable for self-pressing.",
+  "technique": null,
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "palpitations",
+    "sources": [
+     "ad",
+     "mq"
+    ]
+   }
+  ],
+  "tags": [],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "ad",
+    "name": "Attilio D'Alberto HT1",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/ht-1.php"
+   },
+   {
+    "id": "mq",
+    "name": "Me and Qi HT1",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/heart-meridian/jiquan-ht-1"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "HT2",
+  "pinyin": "Qingling",
+  "english": "Green Spirit",
+  "region": "upper arm",
+  "view": "arm-inner",
+  "find": "On the inner side of the upper arm, just along the inner edge of the biceps muscle, about four finger-widths above the elbow crease.",
+  "place": {
+   "line": "HT",
+   "from": "elbow_crease",
+   "cun": 3
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "shoulder and arm stiffness",
+    "sources": [
+     "ad",
+     "mq"
+    ]
+   }
+  ],
+  "tags": [
+   "shoulder_tension"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "ad",
+    "name": "Attilio D'Alberto HT2",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/ht-2.php"
+   },
+   {
+    "id": "mq",
+    "name": "Me and Qi HT2",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/heart-meridian/qingling-ht-2"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "HT3",
+  "pinyin": "Shaohai",
+  "english": "Lesser Sea",
+  "region": "elbow",
+  "view": "arm-inner",
+  "find": "On the inner side of the elbow, with the elbow bent, in the dip just in front of the bony bump on the inside, level with the end of the elbow crease.",
+  "place": {
+   "from": "medial_epicondyle",
+   "out": 0.8
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "elbow pain",
+    "sources": [
+     "ad",
+     "mq"
+    ]
+   },
+   {
+    "text": "anxiety",
+    "sources": [
+     "ad",
+     "mq"
+    ]
+   }
+  ],
+  "tags": [
+   "stress_anxiety"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "ad",
+    "name": "Attilio D'Alberto HT3",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/ht-3.php"
+   },
+   {
+    "id": "mq",
+    "name": "Me and Qi HT3",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/heart-meridian/shaohai-ht-3"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "HT4",
+  "pinyin": "Lingdao",
+  "english": "Spirit Path",
+  "region": "forearm",
+  "view": "arm-inner",
+  "find": "On the palm side of the forearm, on the little-finger side, about two finger-widths above the wrist crease, beside the tendon that stands out there.",
+  "place": {
+   "line": "HT",
+   "from": "wrist_crease_palm",
+   "cun": 1.5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "sudden loss of voice",
+    "sources": [
+     "ad",
+     "mq"
+    ]
+   },
+   {
+    "text": "sadness",
+    "sources": [
+     "ad",
+     "mq"
+    ]
+   },
+   {
+    "text": "fear",
+    "sources": [
+     "ad",
+     "mq"
+    ]
+   }
+  ],
+  "tags": [
+   "stress_anxiety"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "ad",
+    "name": "Attilio D'Alberto HT4",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/ht-4.php"
+   },
+   {
+    "id": "mq",
+    "name": "Me and Qi HT4",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/heart-meridian/lingdao-ht-4"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "HT5",
+  "pinyin": "Tongli",
+  "english": "Connecting Li",
+  "region": "forearm",
+  "view": "arm-inner",
+  "find": "On the palm side of the forearm, about one thumb-width above the wrist crease, on the thumb side of the tendon on the little-finger edge.",
+  "place": {
+   "line": "HT",
+   "from": "wrist_crease_palm",
+   "cun": 1
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "anxiety",
+    "sources": [
+     "ad",
+     "mq"
+    ]
+   },
+   {
+    "text": "palpitations",
+    "sources": [
+     "ad",
+     "mq"
+    ]
+   },
+   {
+    "text": "sudden loss of voice",
+    "sources": [
+     "ad",
+     "mq"
+    ]
+   }
+  ],
+  "tags": [
+   "stress_anxiety"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "ad",
+    "name": "Attilio D'Alberto HT5",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/ht-5.php"
+   },
+   {
+    "id": "mq",
+    "name": "Me and Qi HT5",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/heart-meridian/tongli-ht-5"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "HT6",
+  "pinyin": "Yinxi",
+  "english": "Yin Cleft",
+  "region": "forearm",
+  "view": "arm-inner",
+  "find": "On the palm side of the forearm, half a thumb-width above the wrist crease, on the thumb side of the tendon on the little-finger edge.",
+  "place": {
+   "line": "HT",
+   "from": "wrist_crease_palm",
+   "cun": 0.5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "night sweats",
+    "sources": [
+     "ad",
+     "mq"
+    ]
+   },
+   {
+    "text": "palpitations",
+    "sources": [
+     "ad",
+     "mq"
+    ]
+   },
+   {
+    "text": "chest pain",
+    "sources": [
+     "ad",
+     "mq"
+    ]
+   }
+  ],
+  "tags": [],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "ad",
+    "name": "Attilio D'Alberto HT6",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/ht-6.php"
+   },
+   {
+    "id": "mq",
+    "name": "Me and Qi HT6",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/heart-meridian/yinxi-ht-6"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "HT7",
+  "pinyin": "Shenmen",
+  "english": "Spirit Gate",
+  "region": "wrist",
+  "view": "hand-palm",
+  "find": "On the palm side of the wrist, in the small hollow on the little-finger side of the crease, just beside the tendon and the small bone there.",
+  "place": {
+   "line": "HT",
+   "from": "wrist_crease_palm",
+   "cun": 0
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [
+   "pulse"
+  ],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "trouble sleeping",
+    "sources": [
+     "ad",
+     "mq",
+     "sat"
+    ]
+   },
+   {
+    "text": "anxiety",
+    "sources": [
+     "ad",
+     "mq",
+     "sat"
+    ]
+   },
+   {
+    "text": "palpitations",
+    "sources": [
+     "ad",
+     "mq",
+     "sat"
+    ]
+   },
+   {
+    "text": "poor memory",
+    "sources": [
+     "ad",
+     "mq",
+     "sat"
+    ]
+   }
+  ],
+  "tags": [
+   "sleep",
+   "stress_anxiety"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "ad",
+    "name": "Attilio D'Alberto HT7",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/ht-7.php"
+   },
+   {
+    "id": "mq",
+    "name": "Me and Qi HT7",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/heart-meridian/shenmen-ht-7"
+   },
+   {
+    "id": "sat",
+    "name": "Satyori HT7",
+    "url": "https://satyori.com/tcm/acupressure/ht-7-shenmen/"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "HT8",
+  "pinyin": "Shaofu",
+  "english": "Lesser Mansion",
+  "region": "hand",
+  "view": "hand-palm",
+  "find": "On the palm, between the bones of the ring and little fingers, just behind the knuckles, where the little fingertip lands when you make a fist.",
+  "place": {
+   "manual": "On the palm between the ring- and little-finger bones, just behind the knuckles, where the little fingertip lands in a fist."
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "anxiety",
+    "sources": [
+     "ad",
+     "mq"
+    ]
+   },
+   {
+    "text": "trouble sleeping",
+    "sources": [
+     "ad",
+     "mq"
+    ]
+   },
+   {
+    "text": "palpitations",
+    "sources": [
+     "ad",
+     "mq"
+    ]
+   },
+   {
+    "text": "chest pain",
+    "sources": [
+     "ad",
+     "mq"
+    ]
+   }
+  ],
+  "tags": [
+   "sleep",
+   "stress_anxiety"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "ad",
+    "name": "Attilio D'Alberto HT8",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/ht-8.php"
+   },
+   {
+    "id": "mq",
+    "name": "Me and Qi HT8",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/heart-meridian/shaofu-ht-8"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "HT9",
+  "pinyin": "Shaochong",
+  "english": "Lesser Surge",
+  "region": "hand",
+  "view": "hand-palm",
+  "find": "On the little finger, on the thumb-side edge, right at the corner of the nail, just behind the nail's base.",
+  "place": {
+   "at": "little_finger_nail_corner_radial"
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "nail",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "palpitations",
+    "sources": [
+     "ad",
+     "mq"
+    ]
+   },
+   {
+    "text": "chest pain",
+    "sources": [
+     "ad",
+     "mq"
+    ]
+   }
+  ],
+  "tags": [],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "ad",
+    "name": "Attilio D'Alberto HT9",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/ht-9.php"
+   },
+   {
+    "id": "mq",
+    "name": "Me and Qi HT9",
+    "url": "https://www.meandqi.com/knowledge-base/acupuncture/heart-meridian/shaochong-ht-9"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ }
+]

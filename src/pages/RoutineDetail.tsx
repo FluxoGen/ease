@@ -1,19 +1,23 @@
-import { ChevronLeft } from 'lucide-react';
+import { ChevronDown, ChevronLeft } from 'lucide-react';
 import { motion } from 'motion/react';
+import { useState } from 'react';
 import { Link, Navigate, useParams } from 'react-router-dom';
-import PointDiagram from '../components/PointDiagram';
-import RegionDiagram from '../components/RegionDiagram';
-import { hasRegionDiagram } from '../data/pointDiagrams';
-import { pointsById } from '../data/points';
-import { routinesById } from '../data/routines';
+import PointPicture from '../components/PointPicture';
 import { usePregnancy } from '../context/PregnancyContext';
+import { libraryById } from '../data/library';
+import { routinesById } from '../data/routines';
+
+/** Show this many points before "Show all", so long routines stay scannable. */
+const FIRST = 8;
 
 export default function RoutineDetail() {
   const { routineId } = useParams<{ routineId: string }>();
   const { status } = usePregnancy();
+  const [all, setAll] = useState(false);
   const routine = routineId ? routinesById[routineId] : undefined;
 
   if (!routine) return <Navigate to="/" replace />;
+  const ids = all ? routine.pointIds : routine.pointIds.slice(0, FIRST);
 
   return (
     <div>
@@ -26,85 +30,52 @@ export default function RoutineDetail() {
       </Link>
       <h1 className="text-2xl font-bold sm:text-3xl">{routine.title}</h1>
       <p className="mt-1 text-muted dark:text-muted-dark">{routine.description}</p>
+      {routine.core.length > 0 && routine.sourceUrl && (
+        <p className="mt-2 text-xs text-muted dark:text-muted-dark">
+          The first {routine.core.length} points follow a{' '}
+          <a href={routine.sourceUrl} target="_blank" rel="noreferrer" className="underline underline-offset-2">VA acupressure handout</a>.
+        </p>
+      )}
 
-      <div className="mt-5 grid gap-3 sm:grid-cols-2">
-        {routine.pointIds.map((id, i) => {
-          const point = pointsById[id];
+      <div className="mt-5 grid grid-cols-1 gap-3 sm:grid-cols-2">
+        {ids.map((id, i) => {
+          const point = libraryById[id];
           if (!point) return null;
-          const blocked = status === 'yes' && point.pregnancyCaution;
+          const blocked = status === 'yes' && point.pregnancy;
           return (
-            <Link key={id} to={`/point/${id}`} state={{ fromRoutine: routine.id }}>
+            <Link key={id} to={`/point/${id}`} state={{ fromRoutine: routine.id }} className="block min-w-0">
               <motion.div
                 initial={{ opacity: 0, y: 8 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.18, delay: i * 0.03, ease: 'easeOut' }}
+                transition={{ duration: 0.18, delay: Math.min(i, 8) * 0.03, ease: 'easeOut' }}
                 whileTap={{ scale: 0.98 }}
                 className="flex items-center gap-3.5 rounded-xl border border-charcoal/10 bg-sand p-2.5 shadow-sm dark:border-ivory/10 dark:bg-charcoal-soft"
               >
                 <div className="h-16 w-16 shrink-0 overflow-hidden rounded-lg border border-charcoal/10 bg-white dark:border-ivory/10">
-                  {point.image ? (
-                    <img
-                      src={point.image}
-                      alt={`${point.name} location`}
-                      className={`h-full w-full object-contain ${blocked ? 'blur-md grayscale' : ''}`}
-                    />
-                  ) : hasRegionDiagram(point.id) ? (
-                    <RegionDiagram
-                      pointId={point.id}
-                      compact
-                      className={`h-full w-full bg-[#fbf8f2] ${blocked ? 'blur-md grayscale' : ''}`}
-                    />
-                  ) : point.bodyMap ? (
-                    <PointDiagram
-                      x={point.bodyMap.x}
-                      y={point.bodyMap.y}
-                      className={`h-full w-full ${blocked ? 'blur-md grayscale' : ''}`}
-                    />
-                  ) : null}
+                  <PointPicture point={point} compact className={`h-full w-full ${blocked ? 'blur-md grayscale' : ''}`} />
                 </div>
-                <div className="flex flex-col gap-0.5">
-                  <span className="font-bold text-charcoal dark:text-ivory">{point.name}</span>
-                  {point.altNames && (
-                    <span className="text-xs text-muted dark:text-muted-dark">
-                      {point.altNames.join(', ')}
-                    </span>
-                  )}
-                  {blocked && (
-                    <span className="text-xs font-semibold text-warn-500">
-                      Avoid during pregnancy
-                    </span>
-                  )}
-                  {!point.verified && !blocked && (
-                    <span className="text-xs font-semibold text-clay-dark dark:text-clay">
-                      Not yet reviewed
-                    </span>
-                  )}
+                <div className="flex min-w-0 flex-col gap-0.5">
+                  <span className="font-bold text-charcoal dark:text-ivory">
+                    {point.code}
+                    <span className="ml-1.5 font-normal text-muted dark:text-muted-dark">{point.pinyin}</span>
+                  </span>
+                  <span className="truncate text-xs text-muted dark:text-muted-dark">{point.find}</span>
+                  {blocked && <span className="text-xs font-semibold text-warn-500">Avoid during pregnancy</span>}
                 </div>
               </motion.div>
             </Link>
           );
         })}
       </div>
-
-      <p className="mt-6 text-xs text-muted dark:text-muted-dark">
-        {routine.sourceUrl ? (
-          <>
-            Source:{' '}
-            <a
-              href={routine.sourceUrl}
-              target="_blank"
-              rel="noreferrer"
-              className="text-clay-dark underline dark:text-clay"
-            >
-              VA public-domain handout
-            </a>
-          </>
-        ) : (
-          routine.sourceNote
-        )}
-      </p>
-      {routine.extraNote && (
-        <p className="mt-2 text-xs text-muted dark:text-muted-dark">{routine.extraNote}</p>
+      {routine.pointIds.length > FIRST && (
+        <button
+          type="button"
+          onClick={() => setAll((v) => !v)}
+          className="mt-4 flex w-full items-center justify-center gap-1.5 rounded-xl border border-charcoal/10 py-2.5 text-sm font-semibold dark:border-ivory/10"
+        >
+          {all ? 'Show fewer' : `Show all ${routine.pointIds.length} points`}
+          <ChevronDown size={16} className={all ? 'rotate-180' : ''} />
+        </button>
       )}
     </div>
   );

@@ -1,0 +1,570 @@
+[
+ {
+  "code": "BL46",
+  "verdict": "ok",
+  "reason": "Find, placement, safety and indications match the WHO entry; the fresh source gives the same location.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House UB 46",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/ub46/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "BL47",
+  "verdict": "ok",
+  "reason": "Find, placement, safety and indications match the WHO entry; the fresh source gives the same location.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House UB 47",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/ub47/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "BL48",
+  "verdict": "ok",
+  "reason": "Find, placement, safety and indications match the WHO entry; the fresh source gives the same location.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House UB 48",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/ub48/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "BL49",
+  "verdict": "ok",
+  "reason": "Find, placement, safety and indications match the WHO entry; the fresh source gives the same location.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House UB 49",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/ub49/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "BL50",
+  "verdict": "ok",
+  "reason": "Find, placement, safety and indications match the WHO entry; the fresh source gives the same location.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House UB 50",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/ub50/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "BL51",
+  "verdict": "ok",
+  "reason": "Find, placement, safety and indications match the WHO entry; the fresh source gives the same location.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House UB 51",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/ub51/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "BL52",
+  "verdict": "ok",
+  "reason": "Find, placement, safety and indications match the WHO entry; the fresh source gives the same location.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House UB 52",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/ub52/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "BL53",
+  "verdict": "ok",
+  "reason": "Matches WHO (3 cun lateral to the median sacral crest at the 2nd sacral foramen); YYH gives the same. Pregnancy true by sacral region rule.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House UB 53",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/ub53/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "BL54",
+  "verdict": "ok",
+  "reason": "Matches WHO (3 cun lateral at the 4th sacral foramen, level with the sacral hiatus); YYH agrees and lists painful urination. Pregnancy true by region rule.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House UB 54",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/ub54/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "BL55",
+  "verdict": "fix",
+  "fixes": {
+   "find": "On the back of the calf, in the groove between the two calf-muscle bulges, about three finger-widths below the middle of the back-of-knee crease."
+  },
+  "reason": "2 cun was written as 'two finger-widths' (2 cun is about three finger-widths). WHO and YYH: 2 cun below the knee crease (BL40).",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House UB 55",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/ub55/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "BL56",
+  "verdict": "fix",
+  "fixes": {
+   "find": "On the back of the calf, in the thickest part of the calf muscle, about halfway between the middle of the back-of-knee crease and the V-shaped notch where the calf muscle ends."
+  },
+  "reason": "5 cun was written as 'a hand's width' (a hand-width is about 3 cun). WHO note and YYH: midway between BL55 and BL57, 5 cun below BL40.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House UB 56",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/ub56/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "BL57",
+  "verdict": "ok",
+  "reason": "Find, placement, safety and indications match the WHO entry; the fresh source gives the same location.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House UB 57",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/ub57/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "BL58",
+  "verdict": "ok",
+  "reason": "Find, placement, safety and indications match the WHO entry; the fresh source gives the same location.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House UB 58",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/ub58/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "BL59",
+  "verdict": "fix",
+  "fixes": {
+   "find": "On the outer back of the lower leg, between the thin outer leg bone and the Achilles tendon, about four finger-widths above the hollow behind the outer ankle bone."
+  },
+  "reason": "Find called the fibula the 'outer shin bone' (the shin bone is the tibia). Level is correct (3 cun above BL60, WHO and YYH).",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House UB 59",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/ub59/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "BL60",
+  "verdict": "ok",
+  "reason": "Matches WHO; YYH also lists inducing labour, supporting the pregnancy flag.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House UB 60",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/ub60/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "BL61",
+  "verdict": "fix",
+  "fixes": {
+   "find": "On the outer side of the heel, straight down from the hollow between the outer ankle bone and the Achilles tendon, on the side of the heel bone where darker and paler skin meet."
+  },
+  "reason": "Find put the point 'below and in front of' the ankle hollow; WHO says distal to BL60 and YYH says directly below BL60, so not in front of it.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House UB 61",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/ub61/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "BL62",
+  "verdict": "ok",
+  "reason": "Find, placement, safety and indications match the WHO entry; the fresh source gives the same location.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House UB 62",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/ub62/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "BL63",
+  "verdict": "ok",
+  "reason": "Find, placement, safety and indications match the WHO entry; the fresh source gives the same location.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House UB 63",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/ub63/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "BL64",
+  "verdict": "ok",
+  "reason": "Matches WHO (distal to the 5th metatarsal tuberosity). YYH says 'below the tuberosity'; WHO followed.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House UB 64",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/ub64/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "BL65",
+  "verdict": "ok",
+  "reason": "Find, placement, safety and indications match the WHO entry; the fresh source gives the same location.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House UB 65",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/ub65/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "BL66",
+  "verdict": "ok",
+  "reason": "Find, placement, safety and indications match the WHO entry; the fresh source gives the same location.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House UB 66",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/ub66/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "BL67",
+  "verdict": "fix",
+  "fixes": {
+   "pregnancy": true,
+   "cautions": [
+    "pregnancy"
+   ],
+   "indications": [
+    {
+     "text": "headache",
+     "sources": [
+      "yyh",
+      "mq"
+     ]
+    },
+    {
+     "text": "eye pain",
+     "sources": [
+      "yyh",
+      "mq"
+     ]
+    }
+   ],
+   "tags": [
+    "headache",
+    "eye_strain"
+   ]
+  },
+  "reason": "Two sources say avoid in pregnancy: Me and Qi BL-67 ('Contraindicated during pregnancy') and Satyori BL-67 ('avoid in late pregnancy without guidance'), so the flag must be true. Indications were empty; YYH and Me and Qi both list headache and eye pain. Add source entries yyh (https://yinyanghouse.com/theory/acupuncturepoints/ub67/), mq (https://www.meandqi.com/knowledge-base/acupuncture/bladder-meridian/zhiyin-bl-67) and satyori (https://satyori.com/tcm/acupressure/bl-67-zhiyin/). Location is correct.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House UB 67",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/ub67/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "TE1",
+  "verdict": "ok",
+  "reason": "Find, placement, safety and indications match the WHO entry; the fresh source gives the same location.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House TH 1",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/th1/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "TE2",
+  "verdict": "ok",
+  "reason": "Find, placement, safety and indications match the WHO entry; the fresh source gives the same location.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House TH 2",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/th2/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "TE3",
+  "verdict": "ok",
+  "reason": "Find, placement, safety and indications match the WHO entry; the fresh source gives the same location.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House TH 3",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/th3/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "TE4",
+  "verdict": "fix",
+  "fixes": {
+   "find": "On the back of the wrist, right on the crease, in the dip on the little-finger side of the bundle of finger tendons, in line with the gap between the ring- and little-finger bones."
+  },
+  "reason": "WHO: ulnar to the extensor digitorum tendon, in line with the 4th-5th metacarpal gap. The find tied it to 'the tendon that runs to the middle finger', which puts it too far toward the thumb side. YYH agrees with WHO.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House TH 4",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/th4/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "TE5",
+  "verdict": "fix",
+  "fixes": {
+   "find": "On the back of the forearm, about three finger-widths above the wrist crease, in the groove between the two forearm bones, directly opposite the popular inner-wrist point."
+  },
+  "reason": "2 cun was written as 'two finger-widths' (about three finger-widths). WHO and YYH: 2 cun above TE4. Also removed the code 'PC6' from user text.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House TH 5",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/th5/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "TE6",
+  "verdict": "ok",
+  "reason": "Find, placement, safety and indications match the WHO entry; the fresh source gives the same location.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House TH 6",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/th6/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "TE7",
+  "verdict": "fix",
+  "fixes": {
+   "find": "On the back of the forearm, about four finger-widths above the wrist crease, just beside the bone on the little-finger side, about one finger-width over from the middle of the forearm.",
+   "place": {
+    "from": "wrist_crease_back",
+    "up": 3,
+    "in": 0.5
+   }
+  },
+  "reason": "Place was identical to TE6 (TE line, 3 cun) so the dot would sit on TE6. WHO: just radial to the ulna, on the ulnar side of TE6; YYH: one finger-width from TE6. Find also used the code 'TE6'.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House TH 7",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/th7/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "TE8",
+  "verdict": "fix",
+  "fixes": {
+   "find": "On the back of the forearm, in the groove between the two forearm bones, about one-third of the way from the wrist crease to the tip of the elbow."
+  },
+  "reason": "Find referred to the code 'TE6', which a non-expert cannot follow. WHO note: junction of lower third and upper two-thirds of the wrist-to-elbow-tip line (4 cun); YYH: 4 cun above TE4.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House TH 8",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/th8/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "TE9",
+  "verdict": "fix",
+  "fixes": {
+   "find": "On the back of the forearm, in the groove between the two forearm bones, about a hand-width plus two finger-widths below the tip of the elbow."
+  },
+  "reason": "5 cun was written as 'a hand-width' (about 3 cun). WHO and YYH: 5 cun below the olecranon.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House TH 9",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/th9/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "TE10",
+  "verdict": "ok",
+  "reason": "Find, placement, safety and indications match the WHO entry; the fresh source gives the same location.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House TH 10",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/th10/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "TE11",
+  "verdict": "fix",
+  "fixes": {
+   "find": "On the back of the upper arm, about three finger-widths above the tip of the elbow, in the middle of the arm."
+  },
+  "reason": "2 cun was written as 'two finger-widths' (about three finger-widths). WHO: 2 cun above the olecranon; YYH: 1 cun above TE10 (which is 1 cun above the olecranon).",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House TH 11",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/th11/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "TE12",
+  "verdict": "fix",
+  "fixes": {
+   "find": "On the back of the upper arm, in the middle of the arm, about a hand-width plus two finger-widths above the tip of the elbow."
+  },
+  "reason": "5 cun was written as 'a hand-width' (about 3 cun). WHO: 5 cun above the olecranon; YYH: midway between TE11 and TE13.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House TH 12",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/th12/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "TE13",
+  "verdict": "fix",
+  "fixes": {
+   "find": "On the back of the upper arm, about four finger-widths below the back corner of the shoulder bone, along the rear edge of the rounded shoulder muscle."
+  },
+  "reason": "WHO measures from the acromial angle (the back corner of the shoulder bone), not the 'bony tip of the shoulder'; distance is right. YYH: 3 cun below TE14 on the rear border of the deltoid.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House TH 13",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/th13/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "TE14",
+  "verdict": "ok",
+  "reason": "Find, placement, safety and indications match the WHO entry; the fresh source gives the same location.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House TH 14",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/th14/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "TE15",
+  "verdict": "fix",
+  "fixes": {
+   "find": "On the upper back, just above the upper inner corner of the shoulder blade, about halfway between the top of the shoulder muscle and the inner end of the shoulder blade's upper edge."
+  },
+  "reason": "Find said 'midway between the base of the neck and the point of the shoulder', which is the location of GB21, not TE15. WHO and YYH: midway between GB21 and SI13, above the superior angle of the scapula.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House TH 15",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/th15/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "TE16",
+  "verdict": "ok",
+  "reason": "Find, placement, safety and indications match the WHO entry; the fresh source gives the same location.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House TH 16",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/th16/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "TE17",
+  "verdict": "ok",
+  "reason": "Find, placement, safety and indications match the WHO entry; the fresh source gives the same location.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House TH 17",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/th17/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "TE18",
+  "verdict": "ok",
+  "reason": "Find, placement, safety and indications match the WHO entry; the fresh source gives the same location.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House TH 18",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/th18/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "TE19",
+  "verdict": "fix",
+  "fixes": {
+   "find": "Behind the ear, on the curved line that runs from behind the earlobe up to the tip of the ear, about one-third of the way down from the tip."
+  },
+  "reason": "Find used the code 'TE18' and a 'one thumb-width' distance no source gives. WHO and YYH: junction of upper third and lower two-thirds of the TE17-TE20 curve.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House TH 19",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/th19/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "TE20",
+  "verdict": "ok",
+  "reason": "Find, placement, safety and indications match the WHO entry; the fresh source gives the same location.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House TH 20",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/th20/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "TE21",
+  "verdict": "ok",
+  "reason": "Find, placement, safety and indications match the WHO entry; the fresh source gives the same location.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House TH 21",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/th21/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "TE22",
+  "verdict": "ok",
+  "reason": "Matches WHO; YYH also flags the temporal artery, consistent with the pulse caution.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House TH 22",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/th22/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "TE23",
+  "verdict": "ok",
+  "reason": "Find, placement, safety and indications match the WHO entry; the fresh source gives the same location.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House TH 23",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/th23/",
+   "agrees": true
+  }
+ }
+]

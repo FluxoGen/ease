@@ -1,0 +1,1673 @@
+[
+ {
+  "code": "SI1",
+  "pinyin": "Shaoze",
+  "english": "Lesser Marsh",
+  "region": "hand",
+  "view": "hand-back",
+  "find": "On the little finger, on the outer side (away from the ring finger), a hair's breadth behind the base corner of the nail.",
+  "place": {
+   "at": "little_nail_corner_ulnar"
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "nail",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "sore throat",
+    "sources": [
+     "adal",
+     "yyh"
+    ]
+   },
+   {
+    "text": "headache",
+    "sources": [
+     "adal",
+     "yyh"
+    ]
+   }
+  ],
+  "tags": [
+   "headache"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "adal",
+    "name": "Attilio D'Alberto SI 1",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/si-1.php"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House SI1",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/si1/"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "SI2",
+  "pinyin": "Qiangu",
+  "english": "Front Valley",
+  "region": "hand",
+  "view": "hand-back",
+  "find": "On the outer side of the little finger, in the small dip just in front of the knuckle where it meets the hand, at the line where the skin colour changes.",
+  "place": {
+   "at": "mcp_5_ulnar"
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "eye pain",
+    "sources": [
+     "adal",
+     "yyh"
+    ]
+   },
+   {
+    "text": "neck pain",
+    "sources": [
+     "adal",
+     "yyh"
+    ]
+   }
+  ],
+  "tags": [
+   "eye_strain",
+   "neck_pain"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "adal",
+    "name": "Attilio D'Alberto SI 2",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/si-2.php"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House SI2",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/si2/"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "SI3",
+  "pinyin": "Houxi",
+  "english": "Back Ravine",
+  "region": "hand",
+  "view": "hand-back",
+  "find": "On the outer edge of the hand, in the dip just behind the little-finger knuckle. Make a loose fist and look for the end of the crease below the little finger.",
+  "place": {
+   "from": "mcp_5_ulnar",
+   "up": 0.3
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "stiff neck",
+    "sources": [
+     "adal",
+     "yyh",
+     "satyori"
+    ]
+   },
+   {
+    "text": "headache",
+    "sources": [
+     "adal",
+     "yyh",
+     "satyori"
+    ]
+   },
+   {
+    "text": "ringing in the ears",
+    "sources": [
+     "adal",
+     "yyh",
+     "satyori"
+    ]
+   }
+  ],
+  "tags": [
+   "neck_pain",
+   "headache",
+   "ear_hearing"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "adal",
+    "name": "Attilio D'Alberto SI 3",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/si-3.php"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House SI3",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/si3/"
+   },
+   {
+    "id": "satyori",
+    "name": "Satyori SI-3 Houxi",
+    "url": "https://satyori.com/tcm/acupressure/si-3-houxi/"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "SI4",
+  "pinyin": "Wangu",
+  "english": "Wrist Bone",
+  "region": "hand",
+  "view": "hand-back",
+  "find": "On the outer edge of the hand, in the soft dip at the wrist end of the bone that leads to the little finger, just before the wrist bone.",
+  "place": {
+   "at": "hamate_triquetrum_dip"
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "headache",
+    "sources": [
+     "adal",
+     "yyh"
+    ]
+   },
+   {
+    "text": "neck pain",
+    "sources": [
+     "adal",
+     "yyh"
+    ]
+   },
+   {
+    "text": "wrist pain",
+    "sources": [
+     "adal",
+     "yyh"
+    ]
+   }
+  ],
+  "tags": [
+   "headache",
+   "neck_pain",
+   "hand_wrist_strain"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "adal",
+    "name": "Attilio D'Alberto SI 4",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/si-4.php"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House SI4",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/si4/"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "SI5",
+  "pinyin": "Yanggu",
+  "english": "Yang Valley",
+  "region": "wrist",
+  "view": "arm-outer",
+  "find": "On the little-finger side of the back of the wrist, in the hollow between the small knob of the forearm bone and the wrist bone next to it.",
+  "place": {
+   "line": "SI",
+   "from": "wrist_crease_back",
+   "cun": 0
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "wrist pain",
+    "sources": [
+     "adal",
+     "yyh"
+    ]
+   }
+  ],
+  "tags": [
+   "hand_wrist_strain"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "adal",
+    "name": "Attilio D'Alberto SI 5",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/si-5.php"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House SI5",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/si5/"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "SI6",
+  "pinyin": "Yanglao",
+  "english": "Nursing the Aged",
+  "region": "forearm",
+  "view": "arm-outer",
+  "find": "On the back of the forearm just above the wrist, on the little-finger side. Turn your palm toward your chest and feel for the cleft beside the knob of the forearm bone.",
+  "place": {
+   "line": "SI",
+   "from": "wrist_crease_back",
+   "cun": 1
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "neck pain",
+    "sources": [
+     "adal",
+     "yyh"
+    ]
+   },
+   {
+    "text": "shoulder pain",
+    "sources": [
+     "adal",
+     "yyh"
+    ]
+   },
+   {
+    "text": "blurred vision",
+    "sources": [
+     "adal",
+     "yyh"
+    ]
+   }
+  ],
+  "tags": [
+   "neck_pain",
+   "shoulder_tension",
+   "eye_strain"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "adal",
+    "name": "Attilio D'Alberto SI 6",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/si-6.php"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House SI6",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/si6/"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "SI7",
+  "pinyin": "Zhizheng",
+  "english": "Branch of the Upright",
+  "region": "forearm",
+  "view": "arm-outer",
+  "find": "On the little-finger side of the back of the forearm, about six to seven finger-widths above the wrist, along the edge of the forearm bone.",
+  "place": {
+   "line": "SI",
+   "from": "wrist_crease_back",
+   "cun": 5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "anxiety",
+    "sources": [
+     "adal",
+     "yyh"
+    ]
+   },
+   {
+    "text": "weak or sore elbow",
+    "sources": [
+     "adal",
+     "yyh"
+    ]
+   }
+  ],
+  "tags": [
+   "stress_anxiety"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "adal",
+    "name": "Attilio D'Alberto SI 7",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/si-7.php"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House SI7",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/si7/"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "SI8",
+  "pinyin": "Xiaohai",
+  "english": "Small Sea",
+  "region": "elbow",
+  "view": "arm-outer",
+  "find": "On the back of the elbow, in the groove between the pointy tip of the elbow and the bony bump on the inner side. Press lightly, as the nerve here is sensitive.",
+  "place": {
+   "from": "olecranon",
+   "in": 0.5
+  },
+  "selfCare": "gentle",
+  "avoidReason": "",
+  "technique": "gentle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "elbow pain",
+    "sources": [
+     "adal",
+     "yyh"
+    ]
+   },
+   {
+    "text": "neck pain",
+    "sources": [
+     "adal",
+     "yyh"
+    ]
+   }
+  ],
+  "tags": [
+   "neck_pain"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "adal",
+    "name": "Attilio D'Alberto SI 8",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/si-8.php"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House SI8",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/si8/"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "SI9",
+  "pinyin": "Jianzhen",
+  "english": "True Shoulder",
+  "region": "shoulder",
+  "view": "arm-outer",
+  "find": "At the back of the shoulder, behind and below the joint, about one thumb-width above the end of the back armpit fold when the arm hangs down.",
+  "place": {
+   "from": "axillary_fold_back",
+   "up": 1
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "shoulder pain",
+    "sources": [
+     "adal",
+     "yyh"
+    ]
+   },
+   {
+    "text": "arm pain",
+    "sources": [
+     "adal",
+     "yyh"
+    ]
+   }
+  ],
+  "tags": [
+   "shoulder_tension"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "adal",
+    "name": "Attilio D'Alberto SI 9",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/si-9.php"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House SI9",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/si9/"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "SI10",
+  "pinyin": "Naoshu",
+  "english": "Upper Arm Shu",
+  "region": "shoulder",
+  "view": "back",
+  "find": "At the back of the shoulder, above the back armpit fold, in the dip just under the ridge of the shoulder blade.",
+  "place": {
+   "manual": "Just above the back armpit fold, in the hollow directly below the ridge of the shoulder blade, above SI9."
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "shoulder pain",
+    "sources": [
+     "adal",
+     "yyh"
+    ]
+   },
+   {
+    "text": "arm weakness",
+    "sources": [
+     "adal",
+     "yyh"
+    ]
+   }
+  ],
+  "tags": [
+   "shoulder_tension"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "adal",
+    "name": "Attilio D'Alberto SI 10",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/si-10.php"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House SI10",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/si10/"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "SI11",
+  "pinyin": "Tianzong",
+  "english": "Celestial Gathering",
+  "region": "shoulder blade",
+  "view": "back",
+  "find": "On the shoulder blade, in the dip in the middle of the flat area below the ridge, about a third of the way down from the ridge toward the bottom tip of the blade.",
+  "place": {
+   "between": [
+    "scapula_mid",
+    "scapula_inferior_angle"
+   ],
+   "frac": 0.33
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "ball",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "shoulder pain",
+    "sources": [
+     "adal",
+     "yyh"
+    ]
+   },
+   {
+    "text": "shoulder blade pain",
+    "sources": [
+     "adal",
+     "yyh"
+    ]
+   }
+  ],
+  "tags": [
+   "shoulder_tension",
+   "upper_back"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "adal",
+    "name": "Attilio D'Alberto SI 11",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/si-11.php"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House SI11",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/si11/"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "SI12",
+  "pinyin": "Bingfeng",
+  "english": "Grasping the Wind",
+  "region": "shoulder blade",
+  "view": "back",
+  "find": "On the top of the shoulder blade, in the hollow above the middle of its ridge, in the muscle you can squeeze at the top of the shoulder.",
+  "place": {
+   "manual": "In the hollow above the middle of the ridge of the shoulder blade (the supraspinous fossa), directly above SI11."
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "knead",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "shoulder pain",
+    "sources": [
+     "adal",
+     "yyh"
+    ]
+   },
+   {
+    "text": "arm numbness",
+    "sources": [
+     "adal",
+     "yyh"
+    ]
+   }
+  ],
+  "tags": [
+   "shoulder_tension"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "adal",
+    "name": "Attilio D'Alberto SI 12",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/si-12.php"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House SI12",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/si12/"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "SI13",
+  "pinyin": "Quyuan",
+  "english": "Crooked Wall",
+  "region": "shoulder blade",
+  "view": "back",
+  "find": "On the top of the shoulder blade, in the hollow just above the inner end of its ridge, about halfway between the back of the shoulder and the second bump of the upper spine.",
+  "place": {
+   "manual": "In the hollow above the inner end of the shoulder blade ridge, midway between SI10 and the spine at T2."
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "knead",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "shoulder pain",
+    "sources": [
+     "adal",
+     "yyh"
+    ]
+   },
+   {
+    "text": "stiff shoulder blade",
+    "sources": [
+     "adal",
+     "yyh"
+    ]
+   }
+  ],
+  "tags": [
+   "shoulder_tension"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "adal",
+    "name": "Attilio D'Alberto SI 13",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/si-13.php"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House SI13",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/si13/"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "SI14",
+  "pinyin": "Jianwaishu",
+  "english": "Outer Shoulder Shu",
+  "region": "upper back",
+  "view": "back",
+  "find": "On the upper back, beside the spine, about a hand's width (four fingers) out from the first bump below the neck bump, level with the inner edge of the shoulder blade.",
+  "place": {
+   "from": "T1",
+   "out": 3
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "ball",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "neck pain",
+    "sources": [
+     "adal",
+     "yyh"
+    ]
+   },
+   {
+    "text": "upper back pain",
+    "sources": [
+     "adal",
+     "yyh"
+    ]
+   },
+   {
+    "text": "shoulder blade pain",
+    "sources": [
+     "adal",
+     "yyh"
+    ]
+   }
+  ],
+  "tags": [
+   "upper_back",
+   "neck_pain",
+   "shoulder_tension"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "adal",
+    "name": "Attilio D'Alberto SI 14",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/si-14.php"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House SI14",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/si14/"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "SI15",
+  "pinyin": "Jianzhongshu",
+  "english": "Middle Shoulder Shu",
+  "region": "upper back",
+  "view": "back",
+  "find": "On the upper back, about two finger-widths out from the big bump at the base of the neck, level with it.",
+  "place": {
+   "from": "C7",
+   "out": 2
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "ball",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "cough",
+    "sources": [
+     "adal",
+     "yyh"
+    ]
+   },
+   {
+    "text": "neck pain",
+    "sources": [
+     "adal",
+     "yyh"
+    ]
+   },
+   {
+    "text": "shoulder and upper back pain",
+    "sources": [
+     "adal",
+     "yyh"
+    ]
+   }
+  ],
+  "tags": [
+   "cough_breathing",
+   "neck_pain",
+   "upper_back"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "adal",
+    "name": "Attilio D'Alberto SI 15",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/si-15.php"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House SI15",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/si15/"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "SI16",
+  "pinyin": "Tianchuang",
+  "english": "Heavenly Window",
+  "region": "neck",
+  "view": "head-side",
+  "find": "On the side of the neck, just behind the big neck muscle running from ear to collarbone, level with the Adam's apple.",
+  "place": {
+   "at": "scm_back"
+  },
+  "selfCare": "gentle",
+  "avoidReason": "",
+  "technique": "gentle",
+  "cautions": [
+   "throat"
+  ],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "sore throat",
+    "sources": [
+     "adal",
+     "yyh"
+    ]
+   },
+   {
+    "text": "ringing in the ears",
+    "sources": [
+     "adal",
+     "yyh"
+    ]
+   },
+   {
+    "text": "ear pain",
+    "sources": [
+     "adal",
+     "yyh"
+    ]
+   },
+   {
+    "text": "neck pain",
+    "sources": [
+     "adal",
+     "yyh"
+    ]
+   }
+  ],
+  "tags": [
+   "ear_hearing",
+   "neck_pain"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "adal",
+    "name": "Attilio D'Alberto SI 16",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/si-16.php"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House SI16",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/si16/"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "SI17",
+  "pinyin": "Tianrong",
+  "english": "Heavenly Appearance",
+  "region": "neck",
+  "view": "head-side",
+  "find": "On the side of the neck, just behind the angle of the jaw, in the dip right in front of the big neck muscle.",
+  "place": {
+   "at": "scm_front"
+  },
+  "selfCare": "gentle",
+  "avoidReason": "",
+  "technique": "gentle",
+  "cautions": [
+   "throat"
+  ],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "sore throat",
+    "sources": [
+     "adal",
+     "yyh"
+    ]
+   },
+   {
+    "text": "ringing in the ears",
+    "sources": [
+     "adal",
+     "yyh"
+    ]
+   },
+   {
+    "text": "cough",
+    "sources": [
+     "adal",
+     "yyh"
+    ]
+   }
+  ],
+  "tags": [
+   "ear_hearing",
+   "cough_breathing"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "adal",
+    "name": "Attilio D'Alberto SI 17",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/si-17.php"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House SI17",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/si17/"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "SI18",
+  "pinyin": "Quanliao",
+  "english": "Cheek Bone Crevice",
+  "region": "face",
+  "view": "face-front",
+  "find": "On the face, in the dip along the lower edge of the cheekbone, straight below the outer corner of the eye.",
+  "place": {
+   "manual": "Directly below the outer corner of the eye, in the hollow on the lower edge of the cheekbone."
+  },
+  "selfCare": "gentle",
+  "avoidReason": "",
+  "technique": "gentle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "upper toothache",
+    "sources": [
+     "adal",
+     "yyh"
+    ]
+   },
+   {
+    "text": "eyelid twitching",
+    "sources": [
+     "adal",
+     "yyh"
+    ]
+   }
+  ],
+  "tags": [
+   "toothache_jaw"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "adal",
+    "name": "Attilio D'Alberto SI 18",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/si-18.php"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House SI18",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/si18/"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "SI19",
+  "pinyin": "Tinggong",
+  "english": "Listening Palace",
+  "region": "face",
+  "view": "head-side",
+  "find": "Just in front of the little flap at the ear opening, in the dip that appears when you open your mouth slightly.",
+  "place": {
+   "at": "tragus"
+  },
+  "selfCare": "gentle",
+  "avoidReason": "",
+  "technique": "gentle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "ringing in the ears",
+    "sources": [
+     "adal",
+     "yyh"
+    ]
+   },
+   {
+    "text": "jaw joint pain",
+    "sources": [
+     "adal",
+     "yyh"
+    ]
+   },
+   {
+    "text": "ear pain",
+    "sources": [
+     "adal",
+     "yyh"
+    ]
+   }
+  ],
+  "tags": [
+   "ear_hearing",
+   "toothache_jaw"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "adal",
+    "name": "Attilio D'Alberto SI 19",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/si-19.php"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House SI19",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/si19/"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "PC1",
+  "pinyin": "Tianchi",
+  "english": "Heavenly Pool",
+  "region": "chest",
+  "view": "torso-front",
+  "find": "On the chest, in the space between the fourth and fifth ribs, about one thumb-width outside the nipple.",
+  "place": {
+   "from": "nipple",
+   "out": 1
+  },
+  "selfCare": "gentle",
+  "avoidReason": "",
+  "technique": "gentle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "cough",
+    "sources": [
+     "adal",
+     "yyh"
+    ]
+   },
+   {
+    "text": "chest fullness",
+    "sources": [
+     "adal",
+     "yyh"
+    ]
+   },
+   {
+    "text": "headache",
+    "sources": [
+     "adal",
+     "yyh"
+    ]
+   }
+  ],
+  "tags": [
+   "cough_breathing",
+   "headache"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "adal",
+    "name": "Attilio D'Alberto PC 1",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/pc-1.php"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House PC1",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/pc1/"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "PC2",
+  "pinyin": "Tianquan",
+  "english": "Heavenly Spring",
+  "region": "upper arm",
+  "view": "arm-inner",
+  "find": "On the inner upper arm, in the groove between the two heads of the biceps muscle, about two to three finger-widths below the front armpit fold.",
+  "place": {
+   "line": "PC",
+   "from": "axillary_fold_front",
+   "cun": -2
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "cough",
+    "sources": [
+     "adal",
+     "yyh"
+    ]
+   },
+   {
+    "text": "chest discomfort",
+    "sources": [
+     "adal",
+     "yyh"
+    ]
+   },
+   {
+    "text": "palpitations",
+    "sources": [
+     "adal",
+     "yyh"
+    ]
+   }
+  ],
+  "tags": [
+   "cough_breathing"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "adal",
+    "name": "Attilio D'Alberto PC 2",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/pc-2.php"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House PC2",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/pc2/"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "PC3",
+  "pinyin": "Quze",
+  "english": "Marsh at the Bend",
+  "region": "elbow",
+  "view": "arm-inner",
+  "find": "In the middle of the inner elbow crease, on the little-finger side of the thick tendon. Press beside the pulse, not on it.",
+  "place": {
+   "line": "PC",
+   "from": "elbow_crease",
+   "cun": 0
+  },
+  "selfCare": "gentle",
+  "avoidReason": "",
+  "technique": "gentle",
+  "cautions": [
+   "pulse"
+  ],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "vomiting",
+    "sources": [
+     "adal",
+     "yyh"
+    ]
+   },
+   {
+    "text": "elbow pain",
+    "sources": [
+     "adal",
+     "yyh"
+    ]
+   },
+   {
+    "text": "palpitations",
+    "sources": [
+     "adal",
+     "yyh"
+    ]
+   }
+  ],
+  "tags": [
+   "nausea"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "adal",
+    "name": "Attilio D'Alberto PC 3",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/pc-3.php"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House PC3",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/pc3/"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "PC4",
+  "pinyin": "Ximen",
+  "english": "Cleft Gate",
+  "region": "forearm",
+  "view": "arm-inner",
+  "find": "On the inner forearm, between the two central tendons, about six to seven finger-widths above the wrist crease.",
+  "place": {
+   "line": "PC",
+   "from": "wrist_crease_palm",
+   "cun": 5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "palpitations",
+    "sources": [
+     "adal",
+     "yyh"
+    ]
+   }
+  ],
+  "tags": [],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "adal",
+    "name": "Attilio D'Alberto PC 4",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/pc-4.php"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House PC4",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/pc4/"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "PC5",
+  "pinyin": "Jianshi",
+  "english": "Intermediary",
+  "region": "forearm",
+  "view": "arm-inner",
+  "find": "On the inner forearm, between the two central tendons, about four finger-widths above the wrist crease.",
+  "place": {
+   "line": "PC",
+   "from": "wrist_crease_palm",
+   "cun": 3
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "chest discomfort",
+    "sources": [
+     "adal",
+     "yyh"
+    ]
+   }
+  ],
+  "tags": [],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "adal",
+    "name": "Attilio D'Alberto PC 5",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/pc-5.php"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House PC5",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/pc5/"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "PC6",
+  "pinyin": "Neiguan",
+  "english": "Inner Pass",
+  "region": "forearm",
+  "view": "arm-inner",
+  "find": "On the inner forearm, between the two central tendons, about three finger-widths above the wrist crease. Make a fist to see the tendons.",
+  "place": {
+   "line": "PC",
+   "from": "wrist_crease_palm",
+   "cun": 2
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "nausea",
+    "sources": [
+     "adal",
+     "yyh"
+    ]
+   },
+   {
+    "text": "motion sickness",
+    "sources": [
+     "adal",
+     "yyh"
+    ]
+   },
+   {
+    "text": "trouble sleeping",
+    "sources": [
+     "adal",
+     "yyh"
+    ]
+   },
+   {
+    "text": "anxiety",
+    "sources": [
+     "adal",
+     "yyh"
+    ]
+   },
+   {
+    "text": "chest tightness",
+    "sources": [
+     "adal",
+     "yyh"
+    ]
+   }
+  ],
+  "tags": [
+   "nausea",
+   "sleep",
+   "stress_anxiety"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "adal",
+    "name": "Attilio D'Alberto PC 6",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/pc-6.php"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House PC6",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/pc6/"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "PC7",
+  "pinyin": "Daling",
+  "english": "Great Mound",
+  "region": "wrist",
+  "view": "arm-inner",
+  "find": "On the inner wrist, in the middle of the wrist crease, between the two central tendons.",
+  "place": {
+   "line": "PC",
+   "from": "wrist_crease_palm",
+   "cun": 0
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "wrist pain",
+    "sources": [
+     "adal",
+     "yyh"
+    ]
+   }
+  ],
+  "tags": [
+   "hand_wrist_strain"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "adal",
+    "name": "Attilio D'Alberto PC 7",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/pc-7.php"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House PC7",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/pc7/"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "PC8",
+  "pinyin": "Laogong",
+  "english": "Labour Palace",
+  "region": "hand",
+  "view": "hand-palm",
+  "find": "In the middle of the palm, between the bones leading to the index and middle fingers, where the middle fingertip lands when you make a loose fist.",
+  "place": {
+   "at": "palm_center"
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "mouth sores",
+    "sources": [
+     "adal",
+     "yyh"
+    ]
+   },
+   {
+    "text": "restlessness",
+    "sources": [
+     "adal",
+     "yyh"
+    ]
+   }
+  ],
+  "tags": [
+   "stress_anxiety"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "adal",
+    "name": "Attilio D'Alberto PC 8",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/pc-8.php"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House PC8",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/pc8/"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "PC9",
+  "pinyin": "Zhongchong",
+  "english": "Middle Rushing",
+  "region": "hand",
+  "view": "hand-palm",
+  "find": "At the very tip of the middle finger, in the centre.",
+  "place": {
+   "at": "middle_fingertip"
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "nail",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "feeling faint",
+    "sources": [
+     "adal",
+     "yyh"
+    ]
+   },
+   {
+    "text": "feeling overheated",
+    "sources": [
+     "adal",
+     "yyh"
+    ]
+   }
+  ],
+  "tags": [],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "adal",
+    "name": "Attilio D'Alberto PC 9",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/pc-9.php"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House PC9",
+    "url": "https://yinyanghouse.com/theory/acupuncturepoints/pc9/"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ }
+]

@@ -1,0 +1,1678 @@
+[
+ {
+  "code": "LU1",
+  "pinyin": "Zhongfu",
+  "english": "Middle Palace",
+  "region": "chest",
+  "view": "torso-front",
+  "find": "On the upper chest, one rib-gap below the soft hollow under the outer collarbone, about six thumb-widths out from the breastbone.",
+  "place": {
+   "from": "infraclavicular_fossa",
+   "down": 1
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "cough",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "cough_breathing"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House LU 1",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/lu1"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto acupuncture points directory LU1",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/lu-1.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "LU2",
+  "pinyin": "Yunmen",
+  "english": "Cloud Gate",
+  "region": "chest",
+  "view": "torso-front",
+  "find": "On the upper chest, in the soft hollow just under the outer end of the collarbone, next to the bony knob at the front of the shoulder.",
+  "place": {
+   "at": "infraclavicular_fossa"
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "cough",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "shoulder pain",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "cough_breathing",
+   "shoulder_tension"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House LU 2",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/lu2"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto acupuncture points directory LU2",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/lu-2.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "LU3",
+  "pinyin": "Tianfu",
+  "english": "Celestial Storehouse",
+  "region": "upper arm",
+  "view": "arm-inner",
+  "find": "On the inner upper arm along the thumb side of the biceps muscle, about four finger-widths below the armpit fold.",
+  "place": {
+   "line": "LU",
+   "from": "axillary_fold_front",
+   "cun": -3
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "nosebleed",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "forgetfulness",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House LU 3",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/lu3"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto acupuncture points directory LU3",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/lu-3.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "LU4",
+  "pinyin": "Xiabai",
+  "english": "Guarding White",
+  "region": "upper arm",
+  "view": "arm-inner",
+  "find": "On the inner upper arm along the thumb side of the biceps muscle, about five finger-widths below the armpit fold, one thumb-width below the previous point.",
+  "place": {
+   "line": "LU",
+   "from": "axillary_fold_front",
+   "cun": -4
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "cough",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "chest tightness",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "cough_breathing"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House LU 4",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/lu4"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto acupuncture points directory LU4",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/lu-4.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "LU5",
+  "pinyin": "Chize",
+  "english": "Cubit Marsh",
+  "region": "elbow",
+  "view": "arm-inner",
+  "find": "In the elbow crease with the arm bent, in the dip on the thumb side of the thick tendon in the middle of the crease.",
+  "place": {
+   "from": "biceps_tendon",
+   "out": 0.5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "elbow pain",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House LU 5",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/lu5"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto acupuncture points directory LU5",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/lu-5.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "LU6",
+  "pinyin": "Kongzui",
+  "english": "Maximum Opening",
+  "region": "forearm",
+  "view": "arm-inner",
+  "find": "On the thumb side of the inner forearm, about a hand-width (four fingers plus a thumb) above the wrist crease, on the line to the elbow.",
+  "place": {
+   "line": "LU",
+   "from": "wrist_crease_palm",
+   "cun": 7
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "sore throat",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "cold_flu"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House LU 6",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/lu6"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto acupuncture points directory LU6",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/lu-6.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "LU7",
+  "pinyin": "Lieque",
+  "english": "Broken Sequence",
+  "region": "forearm",
+  "view": "arm-inner",
+  "find": "On the thumb side of the forearm, about two finger-widths above the wrist crease, in the groove next to the bony bump at the wrist.",
+  "place": {
+   "line": "LU",
+   "from": "wrist_crease_palm",
+   "cun": 1.5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "cold symptoms",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "sore throat",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "stiff neck",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "cold_flu",
+   "neck_pain"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House LU 7",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/lu7"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto acupuncture points directory LU7",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/lu-7.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "LU8",
+  "pinyin": "Jingqu",
+  "english": "Channel Ditch",
+  "region": "forearm",
+  "view": "arm-inner",
+  "find": "On the thumb side of the inner forearm, one thumb-width above the wrist crease, between the wrist bone bump and the pulse.",
+  "place": {
+   "line": "LU",
+   "from": "wrist_crease_palm",
+   "cun": 1
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [],
+  "tags": [],
+  "whoMatch": true,
+  "whoNote": "Fewer than two independent sources listed a usable indication; indications left empty.",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House LU 8",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/lu8"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto acupuncture points directory LU8",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/lu-8.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "LU9",
+  "pinyin": "Taiyuan",
+  "english": "Great Abyss",
+  "region": "wrist",
+  "view": "hand-palm",
+  "find": "At the wrist crease on the thumb side, in the soft dip just beside where you feel the pulse. Press next to the pulse, not on it.",
+  "place": {
+   "at": "radial_artery"
+  },
+  "selfCare": "gentle",
+  "avoidReason": "",
+  "technique": "gentle",
+  "cautions": [
+   "pulse"
+  ],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "wrist pain",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "cough",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "shortness of breath",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "hand_wrist_strain",
+   "cough_breathing"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House LU 9",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/lu9"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto acupuncture points directory LU9",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/lu-9.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "LU10",
+  "pinyin": "Yuji",
+  "english": "Fish Border",
+  "region": "hand",
+  "view": "hand-palm",
+  "find": "On the palm, along the edge of the thumb's fleshy pad, halfway down the long thumb-side hand bone where the darker skin meets the paler palm skin.",
+  "place": {
+   "at": "thenar"
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "sore throat",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "cold_flu"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House LU 10",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/lu10"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto acupuncture points directory LU10",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/lu-10.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "LU11",
+  "pinyin": "Shaoshang",
+  "english": "Lesser Merchant",
+  "region": "hand",
+  "view": "hand-palm",
+  "find": "On the outer edge of the thumb, just beside the base corner of the thumbnail, on the side away from the index finger.",
+  "place": {
+   "at": "thumb_nail_corner_radial"
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "nail",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "sore throat",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "cold_flu"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House LU 11",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/lu11"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto acupuncture points directory LU11",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/lu-11.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "LI1",
+  "pinyin": "Shangyang",
+  "english": "Shang Yang",
+  "region": "hand",
+  "view": "hand-back",
+  "find": "On the index finger, on the side nearest the thumb, just beside the base corner of the fingernail.",
+  "place": {
+   "at": "index_nail_corner_radial"
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "nail",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "toothache",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "fever",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "toothache_jaw"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House LI 1",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/li1"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto acupuncture points directory LI1",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/li-1.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "LI2",
+  "pinyin": "Erjian",
+  "english": "Second Interval",
+  "region": "hand",
+  "view": "hand-back",
+  "find": "On the thumb side of the index finger, in the small dip just in front of the big knuckle, where the darker skin meets the paler skin.",
+  "place": {
+   "from": "mcp_2_radial",
+   "down": 0.3
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "nail",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "toothache",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "sore throat",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "red eyes",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "toothache_jaw",
+   "cold_flu"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House LI 2",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/li2"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto acupuncture points directory LI2",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/li-2.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "LI3",
+  "pinyin": "Sanjian",
+  "english": "Third Interval",
+  "region": "hand",
+  "view": "hand-back",
+  "find": "On the back of the hand, in the hollow just behind the big knuckle of the index finger, on the thumb side.",
+  "place": {
+   "from": "mcp_2_radial",
+   "up": 0.5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "toothache",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "sore throat",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "diarrhea",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "toothache_jaw",
+   "cold_flu",
+   "digestive_health"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House LI 3",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/li3"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto acupuncture points directory LI3",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/li-3.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "LI4",
+  "pinyin": "Hegu",
+  "english": "Joining Valley",
+  "region": "hand",
+  "view": "hand-back",
+  "find": "On the back of the hand, on the thumb side of the index-finger hand bone, about halfway along it, in the fleshy web between thumb and index finger.",
+  "place": {
+   "between": [
+    "mcp_2_radial",
+    "met_1_2_junction"
+   ],
+   "frac": 0.5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [
+   "pregnancy"
+  ],
+  "pregnancy": true,
+  "indications": [
+   {
+    "text": "headache",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "toothache",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "stuffy nose",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "headache",
+   "toothache_jaw",
+   "nose_sinus"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House LI 4",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/li4"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto acupuncture points directory LI4",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/li-4.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": "Describes the muscle bulge when thumb and finger are squeezed together, a web-side spot that differs from the WHO location (midpoint of the index-finger hand bone, thumb side); reword to match."
+ },
+ {
+  "code": "LI5",
+  "pinyin": "Yangxi",
+  "english": "Yang Stream",
+  "region": "wrist",
+  "view": "hand-back",
+  "find": "On the back of the wrist at the thumb side, in the little hollow that appears between the two thumb tendons when you lift your thumb up.",
+  "place": {
+   "at": "snuffbox"
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "wrist pain",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "hand_wrist_strain"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House LI 5",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/li5"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto acupuncture points directory LI5",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/li-5.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "LI6",
+  "pinyin": "Pianli",
+  "english": "Veering Passage",
+  "region": "forearm",
+  "view": "arm-outer",
+  "find": "On the thumb-side back of the forearm, about four finger-widths above the wrist crease, on the line toward the outer elbow.",
+  "place": {
+   "line": "LI",
+   "from": "wrist_crease_back",
+   "cun": 3
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "facial puffiness",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House LI 6",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/li6"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto acupuncture points directory LI6",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/li-6.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "LI7",
+  "pinyin": "Wenliu",
+  "english": "Warm Dwelling",
+  "region": "forearm",
+  "view": "arm-outer",
+  "find": "On the thumb-side back of the forearm, about a hand-width (four fingers plus a thumb) above the wrist crease, on the line toward the outer elbow.",
+  "place": {
+   "line": "LI",
+   "from": "wrist_crease_back",
+   "cun": 5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [],
+  "tags": [],
+  "whoMatch": true,
+  "whoNote": "Fewer than two independent sources listed a usable indication; indications left empty.",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House LI 7",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/li7"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto acupuncture points directory LI7",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/li-7.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "LI8",
+  "pinyin": "Xialian",
+  "english": "Lower Edge",
+  "region": "forearm",
+  "view": "arm-outer",
+  "find": "On the thumb-side back of the forearm, about a hand-width (four fingers) below the outer end of the elbow crease, on the line to the wrist.",
+  "place": {
+   "line": "LI",
+   "from": "elbow_crease_lateral_end",
+   "cun": -4
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [],
+  "tags": [],
+  "whoMatch": true,
+  "whoNote": "Fewer than two independent sources listed a usable indication; indications left empty.",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House LI 8",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/li8"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto acupuncture points directory LI8",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/li-8.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "LI9",
+  "pinyin": "Shanglian",
+  "english": "Upper Edge",
+  "region": "forearm",
+  "view": "arm-outer",
+  "find": "On the thumb-side back of the forearm, about four finger-widths below the outer end of the elbow crease, on the line to the wrist.",
+  "place": {
+   "line": "LI",
+   "from": "elbow_crease_lateral_end",
+   "cun": -3
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "abdominal pain",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "arm numbness",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "digestive_health"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House LI 9",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/li9"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto acupuncture points directory LI9",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/li-9.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "LI10",
+  "pinyin": "Shousanli",
+  "english": "Arm Three Miles",
+  "region": "forearm",
+  "view": "arm-outer",
+  "find": "On the thumb-side back of the forearm, about three finger-widths below the outer end of the elbow crease, in the thick muscle.",
+  "place": {
+   "line": "LI",
+   "from": "elbow_crease_lateral_end",
+   "cun": -2
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "knead",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "arm and elbow pain",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "abdominal pain",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "shoulder pain",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "digestive_health",
+   "shoulder_tension"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House LI 10",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/li10"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto acupuncture points directory LI10",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/li-10.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "LI11",
+  "pinyin": "Quchi",
+  "english": "Pool at the Bend",
+  "region": "elbow",
+  "view": "arm-outer",
+  "find": "With the elbow bent, at the outer end of the elbow crease, in the dip on the thumb side just before the bony knob.",
+  "place": {
+   "at": "elbow_crease_lateral_end"
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "elbow pain",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "fever",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "itchy skin",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House LI 11",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/li11"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto acupuncture points directory LI11",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/li-11.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "LI12",
+  "pinyin": "Zhouliao",
+  "english": "Elbow Bone-Hole",
+  "region": "elbow",
+  "view": "arm-outer",
+  "find": "On the outer elbow, about one thumb-width above the bony knob on the outside of the elbow, at the front edge of the ridge there.",
+  "place": {
+   "from": "lateral_epicondyle",
+   "up": 1
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "elbow pain",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House LI 12",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/li12"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto acupuncture points directory LI12",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/li-12.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "LI13",
+  "pinyin": "Shouwuli",
+  "english": "Arm Five Miles",
+  "region": "upper arm",
+  "view": "arm-outer",
+  "find": "On the outer upper arm, about four finger-widths above the outer end of the elbow crease, on the line up to the shoulder.",
+  "place": {
+   "line": "LI",
+   "from": "elbow_crease_lateral_end",
+   "cun": 3
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "elbow and arm pain",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "cough",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "cough_breathing"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House LI 13",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/li13"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto acupuncture points directory LI13",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/li-13.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "LI14",
+  "pinyin": "Binao ft",
+  "english": "Upper Arm",
+  "region": "upper arm",
+  "view": "arm-outer",
+  "find": "On the outer upper arm, at the lower end of the rounded shoulder muscle, about a hand-width and a half above the elbow crease.",
+  "place": {
+   "line": "LI",
+   "from": "elbow_crease_lateral_end",
+   "cun": 7
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "knead",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "shoulder and arm pain",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "shoulder_tension"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House LI 14",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/li14"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto acupuncture points directory LI14",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/li-14.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "LI15",
+  "pinyin": "Jianyu",
+  "english": "Shoulder Bone",
+  "region": "shoulder",
+  "view": "arm-outer",
+  "find": "On top of the shoulder, in the hollow just in front of and below the bony tip of the shoulder, easiest to feel when you lift your arm out to the side.",
+  "place": {
+   "at": "acromion"
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "shoulder pain",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "shoulder_tension"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House LI 15",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/li15"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto acupuncture points directory LI15",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/li-15.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "LI16",
+  "pinyin": "Jugu f",
+  "english": "Great Bone",
+  "region": "shoulder",
+  "view": "back",
+  "find": "On the top of the shoulder, in the groove between the outer end of the collarbone and the ridge of the shoulder blade, near the shoulder tip.",
+  "place": {
+   "between": [
+    "acromial_angle",
+    "scapula_spine_root"
+   ],
+   "frac": 0.2
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "knead",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "shoulder pain",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "shoulder_tension"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House LI 16",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/li16"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto acupuncture points directory LI16",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/li-16.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "LI17",
+  "pinyin": "Tianding",
+  "english": "Heaven's Tripod",
+  "region": "neck",
+  "view": "head-side",
+  "find": "On the side of the neck, about a thumb-width below the point level with the Adam's apple, just behind the thick neck muscle. Light touch only.",
+  "place": {
+   "at": "scm_back"
+  },
+  "selfCare": "gentle",
+  "avoidReason": "",
+  "technique": "gentle",
+  "cautions": [
+   "throat"
+  ],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "sore throat",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "loss of voice",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "cold_flu"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House LI 17",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/li17"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto acupuncture points directory LI17",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/li-17.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "LI18",
+  "pinyin": "Futu",
+  "english": "Support the Prominence",
+  "region": "neck",
+  "view": "head-side",
+  "find": "On the side of the neck, level with the Adam's apple, in the gap between the two parts of the thick neck muscle. Light touch only, beside the pulse.",
+  "place": {
+   "between": [
+    "scm_front",
+    "scm_back"
+   ],
+   "frac": 0.5
+  },
+  "selfCare": "gentle",
+  "avoidReason": "",
+  "technique": "gentle",
+  "cautions": [
+   "pulse",
+   "throat"
+  ],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "sore throat",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "loss of voice",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "cold_flu"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House LI 18",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/li18"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto acupuncture points directory LI18",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/li-18.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "LI19",
+  "pinyin": "Kouheliao",
+  "english": "Mouth Grain-Hole",
+  "region": "face",
+  "view": "face-front",
+  "find": "On the upper lip area, directly below the outer edge of the nostril, level with the middle of the groove under the nose.",
+  "place": {
+   "from": "philtrum",
+   "out": 0.5
+  },
+  "selfCare": "gentle",
+  "avoidReason": "",
+  "technique": "gentle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "stuffy nose",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "nosebleed",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "nose_sinus"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House LI 19",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/li19"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto acupuncture points directory LI19",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/li-19.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "LI20",
+  "pinyin": "Yingxiang",
+  "english": "Welcome Fragrance",
+  "region": "face",
+  "view": "face-front",
+  "find": "On the face in the groove beside the nostril, level with the middle of the outer edge of the nostril wing.",
+  "place": {
+   "at": "nose_wing"
+  },
+  "selfCare": "gentle",
+  "avoidReason": "",
+  "technique": "gentle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "stuffy nose",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "loss of smell",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "nose_sinus"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House LI 20",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/li20"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto acupuncture points directory LI20",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/li-20.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ }
+]

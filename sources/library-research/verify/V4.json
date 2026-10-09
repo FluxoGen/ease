@@ -1,0 +1,528 @@
+[
+ {
+  "code": "BL1",
+  "verdict": "fix",
+  "fixes": {
+   "find": "On the face, in the small dip just above and inside the inner corner of the eye, against the side of the nose bridge. Use very light pressure and keep the fingertip on the bone, not the eye."
+  },
+  "reason": "WHO (closed eye) and YYH both put BL1 slightly ABOVE and medial to the inner corner; author's find only said 'beside'. Added 'just above' so users stay on the bone. Place spec (up 0.1, in 0.1) already correct.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House UB 1",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/ub1",
+   "agrees": true
+  }
+ },
+ {
+  "code": "BL2",
+  "verdict": "ok",
+  "reason": "Find and place match WHO (same landmark and distance); Yin Yang House gives the same location; safety and indications are plausible.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House UB 2",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/ub2",
+   "agrees": true
+  }
+ },
+ {
+  "code": "BL3",
+  "verdict": "ok",
+  "reason": "WHO: above the frontal notch, 0.5 B-cun into the hairline, midway between GV24 and BL4. Place out 0.75 / up 0.5 encodes the midpoint correctly; YYH agrees.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House UB 3",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/ub3",
+   "agrees": true
+  }
+ },
+ {
+  "code": "BL4",
+  "verdict": "ok",
+  "reason": "Find and place match WHO (same landmark and distance); Yin Yang House gives the same location; safety and indications are plausible.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House UB 4",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/ub4",
+   "agrees": true
+  }
+ },
+ {
+  "code": "BL5",
+  "verdict": "ok",
+  "reason": "Find and place match WHO (same landmark and distance); Yin Yang House gives the same location; safety and indications are plausible.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House UB 5",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/ub5",
+   "agrees": true
+  }
+ },
+ {
+  "code": "BL6",
+  "verdict": "ok",
+  "reason": "Find and place match WHO (same landmark and distance); Yin Yang House gives the same location; safety and indications are plausible.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House UB 6",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/ub6",
+   "agrees": true
+  }
+ },
+ {
+  "code": "BL7",
+  "verdict": "ok",
+  "reason": "Find and place match WHO (same landmark and distance); Yin Yang House gives the same location; safety and indications are plausible.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House UB 7",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/ub7",
+   "agrees": true
+  }
+ },
+ {
+  "code": "BL8",
+  "verdict": "ok",
+  "reason": "Find and place match WHO (same landmark and distance); Yin Yang House gives the same location; safety and indications are plausible.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House UB 8",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/ub8",
+   "agrees": true
+  }
+ },
+ {
+  "code": "BL9",
+  "verdict": "ok",
+  "reason": "WHO: level with the upper border of the external occipital protuberance, 1.3 B-cun lateral. YYH agrees. 'About one thumb-width' slightly understates 1.3 but is acceptable.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House UB 9",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/ub9",
+   "agrees": true
+  }
+ },
+ {
+  "code": "BL10",
+  "verdict": "ok",
+  "reason": "WHO: level with the upper border of the C2 spinous process, lateral to trapezius. YYH: 0.5 cun inside the posterior hairline, 1.3 cun lateral, on the lateral side of trapezius. Place (posterior hairline up 0.5, out 1.3) and find (outer side of the thick neck muscle) agree.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House UB 10",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/ub10",
+   "agrees": true
+  }
+ },
+ {
+  "code": "BL11",
+  "verdict": "fix",
+  "fixes": {
+   "find": "On the upper back. Find the big bump at the base of the neck, go down one more bump, then two finger-widths out from the spine, level with the lower edge of that second bump."
+  },
+  "reason": "WHO: inferior border of T1. 'Level with the first bump below the base of the neck' is ambiguous for a non-expert (the base-of-neck bump is C7 and users may stop there). Reworded to count from C7. Place spec T1/1.5 is correct.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House UB 11",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/ub11",
+   "agrees": true
+  }
+ },
+ {
+  "code": "BL12",
+  "verdict": "ok",
+  "reason": "Find and place match WHO (vertebral level and 1.5/3 B-cun lateral); Yin Yang House gives the same location; safety and indications are plausible.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House UB 12",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/ub12",
+   "agrees": true
+  }
+ },
+ {
+  "code": "BL13",
+  "verdict": "ok",
+  "reason": "Find and place match WHO (vertebral level and 1.5/3 B-cun lateral); Yin Yang House gives the same location; safety and indications are plausible.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House UB 13",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/ub13",
+   "agrees": true
+  }
+ },
+ {
+  "code": "BL14",
+  "verdict": "ok",
+  "reason": "Find and place match WHO (vertebral level and 1.5/3 B-cun lateral); Yin Yang House gives the same location; safety and indications are plausible.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House UB 14",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/ub14",
+   "agrees": true
+  }
+ },
+ {
+  "code": "BL15",
+  "verdict": "ok",
+  "reason": "Find and place match WHO (vertebral level and 1.5/3 B-cun lateral); Yin Yang House gives the same location; safety and indications are plausible.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House UB 15",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/ub15",
+   "agrees": true
+  }
+ },
+ {
+  "code": "BL16",
+  "verdict": "fix",
+  "fixes": {
+   "find": "On the mid-back, about two finger-widths out from the spine, one bone-bump below BL15, a little above the level of the bottom tips of the shoulder blades."
+  },
+  "reason": "T6 is one level above T7, which WHO notes is level with the inferior angle of the scapula, so 'about level with the middle of the shoulder blade' is too high (scapula spans roughly T2-T7). Place spec T6/1.5 is correct.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House UB 16",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/ub16",
+   "agrees": true
+  }
+ },
+ {
+  "code": "BL17",
+  "verdict": "ok",
+  "reason": "Find and place match WHO (vertebral level and 1.5/3 B-cun lateral); Yin Yang House gives the same location; safety and indications are plausible.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House UB 17",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/ub17",
+   "agrees": true
+  }
+ },
+ {
+  "code": "BL18",
+  "verdict": "ok",
+  "reason": "Find and place match WHO (vertebral level and 1.5/3 B-cun lateral); Yin Yang House gives the same location; safety and indications are plausible.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House UB 18",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/ub18",
+   "agrees": true
+  }
+ },
+ {
+  "code": "BL19",
+  "verdict": "ok",
+  "reason": "Find and place match WHO (vertebral level and 1.5/3 B-cun lateral); Yin Yang House gives the same location; safety and indications are plausible.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House UB 19",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/ub19",
+   "agrees": true
+  }
+ },
+ {
+  "code": "BL20",
+  "verdict": "ok",
+  "reason": "Find and place match WHO (vertebral level and 1.5/3 B-cun lateral); Yin Yang House gives the same location; safety and indications are plausible.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House UB 20",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/ub20",
+   "agrees": true
+  }
+ },
+ {
+  "code": "BL21",
+  "verdict": "ok",
+  "reason": "Find and place match WHO (vertebral level and 1.5/3 B-cun lateral); Yin Yang House gives the same location; safety and indications are plausible.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House UB 21",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/ub21",
+   "agrees": true
+  }
+ },
+ {
+  "code": "BL22",
+  "verdict": "ok",
+  "reason": "Find and place match WHO (vertebral level and 1.5/3 B-cun lateral); Yin Yang House gives the same location; safety and indications are plausible.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House UB 22",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/ub22",
+   "agrees": true
+  }
+ },
+ {
+  "code": "BL23",
+  "verdict": "ok",
+  "reason": "Find and place match WHO (vertebral level and 1.5/3 B-cun lateral); Yin Yang House gives the same location; safety and indications are plausible.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House UB 23",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/ub23",
+   "agrees": true
+  }
+ },
+ {
+  "code": "BL24",
+  "verdict": "ok",
+  "reason": "Find and place match WHO (vertebral level and 1.5/3 B-cun lateral); Yin Yang House gives the same location; safety and indications are plausible.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House UB 24",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/ub24",
+   "agrees": true
+  }
+ },
+ {
+  "code": "BL25",
+  "verdict": "ok",
+  "reason": "Find and place match WHO (vertebral level and 1.5/3 B-cun lateral); Yin Yang House gives the same location; safety and indications are plausible.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House UB 25",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/ub25",
+   "agrees": true
+  }
+ },
+ {
+  "code": "BL26",
+  "verdict": "ok",
+  "reason": "Find and place match WHO (vertebral level and 1.5/3 B-cun lateral); Yin Yang House gives the same location; safety and indications are plausible.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House UB 26",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/ub26",
+   "agrees": true
+  }
+ },
+ {
+  "code": "BL27",
+  "verdict": "ok",
+  "reason": "Find and place match WHO (vertebral level and 1.5/3 B-cun lateral); Yin Yang House gives the same location; safety and indications are plausible.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House UB 27",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/ub27",
+   "agrees": true
+  }
+ },
+ {
+  "code": "BL28",
+  "verdict": "ok",
+  "reason": "Find and place match WHO (vertebral level and 1.5/3 B-cun lateral); Yin Yang House gives the same location; safety and indications are plausible.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House UB 28",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/ub28",
+   "agrees": true
+  }
+ },
+ {
+  "code": "BL29",
+  "verdict": "ok",
+  "reason": "Find and place match WHO (vertebral level and 1.5/3 B-cun lateral); Yin Yang House gives the same location; safety and indications are plausible.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House UB 29",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/ub29",
+   "agrees": true
+  }
+ },
+ {
+  "code": "BL30",
+  "verdict": "ok",
+  "reason": "Find and place match WHO (vertebral level and 1.5/3 B-cun lateral); Yin Yang House gives the same location; safety and indications are plausible.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House UB 30",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/ub30",
+   "agrees": true
+  }
+ },
+ {
+  "code": "BL31",
+  "verdict": "ok",
+  "reason": "WHO: first posterior sacral foramen; YYH: midpoint between the PSIS and the midline at the first foramen level. Find agrees; YYH lists a pregnancy caution, which agrees with pregnancy=true.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House UB 31",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/ub31",
+   "agrees": true
+  }
+ },
+ {
+  "code": "BL32",
+  "verdict": "fix",
+  "fixes": {
+   "find": "On the sacrum, in the small dent level with the dimple above the buttock, about halfway between that dimple (the bony bump of the hip) and the spine line."
+  },
+  "reason": "WHO: second sacral foramen, midway between the posterior superior iliac spine (the dimple) and the S2 spinous process. Author's text said 'at the buttock dimple' and 'halfway between' in the same sentence, which contradict each other. Place spec (between psis and S2, 0.5) is correct.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House UB 32",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/ub32",
+   "agrees": true
+  }
+ },
+ {
+  "code": "BL33",
+  "verdict": "ok",
+  "reason": "Find and place match WHO (vertebral level and 1.5/3 B-cun lateral); Yin Yang House gives the same location; safety and indications are plausible.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House UB 33",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/ub33",
+   "agrees": true
+  }
+ },
+ {
+  "code": "BL34",
+  "verdict": "ok",
+  "reason": "Find and place match WHO (vertebral level and 1.5/3 B-cun lateral); Yin Yang House gives the same location; safety and indications are plausible.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House UB 34",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/ub34",
+   "agrees": true
+  }
+ },
+ {
+  "code": "BL35",
+  "verdict": "fix",
+  "fixes": {
+   "selfCare": "avoid",
+   "avoidReason": "Lies inside the buttock cleft beside the tip of the tailbone, next to the anal and perineal area; not suitable for self-pressing.",
+   "technique": "",
+   "tags": []
+  },
+  "reason": "Location matches WHO (0.5 B-cun lateral to the tip of the coccyx) and YYH. But the point sits in the gluteal cleft right next to the anus/perineum, which the brief's safety rule lists as 'avoid'; YYH's main uses (hemorrhoids, genital swelling, vaginal discharge) confirm the area. Marked avoid, removed technique and routine tag.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House UB 35",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/ub35",
+   "agrees": true
+  }
+ },
+ {
+  "code": "BL36",
+  "verdict": "ok",
+  "reason": "Find and place match WHO (same landmark and distance); Yin Yang House gives the same location; safety and indications are plausible.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House UB 36",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/ub36",
+   "agrees": true
+  }
+ },
+ {
+  "code": "BL37",
+  "verdict": "fix",
+  "fixes": {
+   "find": "On the back of the thigh, in the groove between the two hamstring muscles, a little above halfway down from the buttock crease to the knee crease (about two hand-widths below the buttock crease)."
+  },
+  "reason": "Distance error: WHO puts BL37 6 B-cun below the gluteal fold (1 B-cun above the midpoint of BL36-BL40). The author wrote 'about a hand-width (four finger-widths plus half)', which is about 3-3.5 cun, roughly half the real distance. Place spec (BL line, -6 from gluteal fold) is correct.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House UB 37",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/ub37",
+   "agrees": true
+  }
+ },
+ {
+  "code": "BL38",
+  "verdict": "ok",
+  "reason": "WHO: medial to the biceps femoris tendon, 1 B-cun above the popliteal crease. Find and place agree; YYH lists hard stools, which backs up 'constipation'.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House UB 38",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/ub38",
+   "agrees": true
+  }
+ },
+ {
+  "code": "BL39",
+  "verdict": "ok",
+  "reason": "WHO: medial to the biceps femoris tendon in the popliteal crease. Find says 'just inside the outer hamstring tendon', which is correct. The placer should offset the dot slightly medial of the tendon landmark.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House UB 39",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/ub39",
+   "agrees": true
+  }
+ },
+ {
+  "code": "BL40",
+  "verdict": "fix",
+  "fixes": {
+   "selfCare": "gentle",
+   "technique": "gentle",
+   "cautions": [
+    "pulse"
+   ]
+  },
+  "reason": "Location matches WHO and YYH. The popliteal artery runs directly under the middle of the knee crease (YYH also lists general precautions here), so the vocabulary's `pulse` caution and light pressure apply; author had none.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House UB 40",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/ub40",
+   "agrees": true
+  }
+ },
+ {
+  "code": "BL41",
+  "verdict": "ok",
+  "reason": "Find and place match WHO (vertebral level and 1.5/3 B-cun lateral); Yin Yang House gives the same location; safety and indications are plausible.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House UB 41",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/ub41",
+   "agrees": true
+  }
+ },
+ {
+  "code": "BL42",
+  "verdict": "ok",
+  "reason": "Find and place match WHO (vertebral level and 1.5/3 B-cun lateral); Yin Yang House gives the same location; safety and indications are plausible.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House UB 42",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/ub42",
+   "agrees": true
+  }
+ },
+ {
+  "code": "BL43",
+  "verdict": "ok",
+  "reason": "WHO: T4, 3 B-cun lateral. 'At about its mid-height' is a little low (T4 is in the upper part of the scapula's inner edge) but T4 level plus the shoulder blade edge is findable; left as is.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House UB 43",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/ub43",
+   "agrees": true
+  }
+ },
+ {
+  "code": "BL44",
+  "verdict": "ok",
+  "reason": "Find and place match WHO (vertebral level and 1.5/3 B-cun lateral); Yin Yang House gives the same location; safety and indications are plausible.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House UB 44",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/ub44",
+   "agrees": true
+  }
+ },
+ {
+  "code": "BL45",
+  "verdict": "fix",
+  "fixes": {
+   "find": "On the upper back, four finger-widths out from the spine, beside the lower half of the shoulder blade's inner edge, one bone-bump below BL44 and a little above the level of the shoulder blade's bottom tip."
+  },
+  "reason": "Landmark error: author said 'level with the bottom of the shoulder blade's spine'. The root of the scapular spine is at T3 (BL13/BL42 level); BL45 is at T6 (WHO). Place spec T6/3 is correct; only the find text was wrong.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House UB 45",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/ub45",
+   "agrees": true
+  }
+ }
+]

@@ -2,6 +2,10 @@ import { Check, ChevronLeft } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
 import { toast } from 'sonner';
 import { usePregnancy } from '../context/PregnancyContext';
+import { library } from '../data/library';
+import { REVIEW_STATEMENT } from '../data/library/shared';
+
+const PREGNANCY_POINTS = library.filter((p) => p.pregnancy && p.selfCare !== 'avoid').map((p) => p.code);
 
 export default function Safety() {
   const { status, setStatus } = usePregnancy();
@@ -31,10 +35,10 @@ export default function Safety() {
       <section className="mt-6">
         <h2 className="text-lg font-bold">Pregnancy</h2>
         <p className="mt-1 text-charcoal/70 dark:text-ivory/70">
-          A handful of points in this app (LI4, SP6, UB60) are traditionally avoided during
-          pregnancy. If you are pregnant or think you might be, talk to your medical provider
-          before using acupressure, and this app will hide instructions for those specific
-          points.
+          {PREGNANCY_POINTS.length} points in this app are traditionally avoided during pregnancy,
+          mostly on the lower belly, low back and a few classic ones like LI4 and SP6. If you are
+          pregnant or think you might be, talk to your medical provider before using acupressure,
+          and this app will hide instructions for those points.
         </p>
         <div className="mt-3 rounded-xl border border-charcoal/10 bg-sand p-4 dark:border-ivory/10 dark:bg-charcoal-soft">
           <p className="mb-3 text-sm text-muted dark:text-muted-dark">Which applies to you?</p>
@@ -100,13 +104,17 @@ export default function Safety() {
         </p>
       </section>
 
-      <section className="mt-6">
-        <h2 className="text-lg font-bold">Sources</h2>
-        <p className="mt-1 text-charcoal/70 dark:text-ivory/70">
-          Point selections, groupings, and photos are adapted from public-domain patient
-          education handouts published by the VA Portland Health Care System and the VHA Office
-          of Patient Centered Care and Cultural Transformation (U.S. federal government works,
-          17 U.S.C. §105).
+      <section id="locations" className="mt-6 scroll-mt-20">
+        <h2 className="text-lg font-bold">How point locations are checked</h2>
+        <p className="mt-1 text-charcoal/70 dark:text-ivory/70">{REVIEW_STATEMENT}</p>
+        <ul className="mt-2 list-disc space-y-1 pl-5 text-sm text-charcoal/70 dark:text-ivory/70">
+          <li><strong>Matches the WHO standard:</strong> the location agrees with the WHO 2008 standard and at least one independent reference.</li>
+          <li><strong>2+ independent references:</strong> extra points the WHO standard doesn't cover, confirmed by at least two independent references.</li>
+          <li><strong>References differ:</strong> reputable sources disagree on the exact spot; the point page says how.</li>
+          <li><strong>VA handout:</strong> taught in a U.S. Veterans Affairs acupressure handout (public domain), with its photo.</li>
+        </ul>
+        <p className="mt-2 text-sm text-charcoal/70 dark:text-ivory/70">
+          Pictures are drawn for this app and show approximate positions. Each point page lists its sources.
         </p>
       </section>
     </div>

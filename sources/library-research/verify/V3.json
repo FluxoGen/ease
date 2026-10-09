@@ -1,0 +1,689 @@
+[
+ {
+  "code": "SP1",
+  "verdict": "ok",
+  "reason": "Matches WHO: medial side of big toe, about 0.1 unit behind the nail corner. Yinyanghouse agrees.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House SP1",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/sp1/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "SP2",
+  "verdict": "ok",
+  "reason": "Matches WHO: distal to the 1st MTP joint at the red-white skin border; frac 0.08 from the joint toward the toe is in the right direction. Yinyanghouse agrees.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House SP2",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/sp2/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "SP3",
+  "verdict": "ok",
+  "reason": "Matches WHO: proximal to the 1st MTP joint at the red-white border. Yinyanghouse agrees.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House SP3",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/sp3/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "SP4",
+  "verdict": "ok",
+  "reason": "Matches WHO: distal and inferior to the 1st metatarsal base. Yinyanghouse agrees; it also lists irregular menstruation and abdominal pain.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House SP4",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/sp4/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "SP5",
+  "verdict": "ok",
+  "reason": "Matches WHO: midway between navicular tuberosity and medial malleolus, antero-inferior to it. Yinyanghouse agrees.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House SP5",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/sp5/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "SP6",
+  "verdict": "ok",
+  "reason": "Matches WHO: 3 units above the medial malleolus, behind the tibia (4 finger-widths). Yinyanghouse agrees and lists a pregnancy caution, consistent with pregnancy=true.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House SP6",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/sp6/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "SP7",
+  "verdict": "fix",
+  "fixes": {
+   "find": "On the inside of the lower leg, about eight finger-widths above the inner ankle bone (twice as high as the point four finger-widths up), just behind the edge of the shin bone."
+  },
+  "reason": "Location correct (6 units above ankle prominence = 8 finger-widths), but find text used the code 'SP6', which a non-expert cannot follow. Reworded without codes.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House SP7",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/sp7/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "SP8",
+  "verdict": "ok",
+  "reason": "Matches WHO: 3 units below SP9 (13-unit lower-leg span gives 10 units above the ankle). Yinyanghouse agrees (3 cun below SP9); lists painful/irregular periods.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House SP8",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/sp8/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "SP9",
+  "verdict": "ok",
+  "reason": "Matches WHO: depression under the medial tibial condyle at the tibia's edge. Yinyanghouse agrees and lists medial knee pain.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House SP9",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/sp9/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "SP10",
+  "verdict": "ok",
+  "reason": "Matches WHO: 2 units above the medial end of the patella base on vastus medialis. Yinyanghouse agrees and lists menstrual issues and skin problems (eczema).",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House SP10",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/sp10/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "SP11",
+  "verdict": "fix",
+  "fixes": {
+   "find": "On the inner thigh, about a third of the way down from the groin crease to the knee, in the groove between the front and inner thigh muscles where a pulse can be felt. Press beside the pulse, not on it.",
+   "place": {
+    "line": "SP",
+    "from": "patella_medial_base",
+    "cun": 12
+   },
+   "whoNote": "WHO 2008 puts SP11 at the junction of the upper third and lower two thirds of the line from the patella's medial base to SP12 (about 12 units above the patella); older texts place it 6 units above SP10 (8 above the patella)."
+  },
+  "reason": "Record used the traditional 8-unit-above-patella location (yinyanghouse: '6 cun above SP10'), but WHO places SP11 one third of the way from SP12 to the knee, i.e. about 12 units above the patella base on an 18-unit thigh. WHO is the authority; older location noted in whoNote.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House SP11",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/sp11/",
+   "agrees": false
+  }
+ },
+ {
+  "code": "SP12",
+  "verdict": "ok",
+  "reason": "Matches WHO: inguinal crease lateral to the femoral pulse, level with the pubic symphysis; out 3.5 matches yinyanghouse ('3.5 cun lateral to CV2'), which flags 'Avoid Artery', consistent with gentle + pulse. Pregnancy true by groin/lower-abdomen region rule.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House SP12",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/sp12/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "SP13",
+  "verdict": "fix",
+  "fixes": {
+   "find": "On the lower belly, a hand's width out from the midline, a little above the crease where the thigh meets the pelvis."
+  },
+  "reason": "WHO gives 4 units lateral to the midline; 'four finger-widths' is only 3 units. Changed to a hand's width, consistent with SP14-SP16 in the same file.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House SP13",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/sp13/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "SP14",
+  "verdict": "ok",
+  "reason": "Matches WHO: 1.3 units below the umbilicus, 4 lateral. Yinyanghouse agrees (diarrhoea, abdominal pain, cough).",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House SP14",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/sp14/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "SP15",
+  "verdict": "ok",
+  "reason": "Matches WHO: 4 units lateral to the umbilicus. Yinyanghouse agrees; lists constipation and abdominal pain.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House SP15",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/sp15/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "SP16",
+  "verdict": "ok",
+  "reason": "Matches WHO: 3 units above the umbilicus, 4 lateral. Yinyanghouse agrees.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House SP16",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/sp16/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "SP17",
+  "verdict": "ok",
+  "reason": "Matches WHO: 5th intercostal space, 6 units lateral. Yinyanghouse agrees; lists chest fullness and abdominal distention.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House SP17",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/sp17/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "SP18",
+  "verdict": "ok",
+  "reason": "Matches WHO: 4th intercostal space, 6 units lateral. Yinyanghouse agrees; lists cough and chest oppression.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House SP18",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/sp18/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "SP19",
+  "verdict": "ok",
+  "reason": "Matches WHO: 3rd intercostal space, 6 units lateral. Yinyanghouse agrees (cough, chest oppression).",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House SP19",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/sp19/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "SP20",
+  "verdict": "ok",
+  "reason": "Matches WHO: 2nd intercostal space, 6 units lateral. Yinyanghouse agrees (cough, chest oppression).",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House SP20",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/sp20/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "SP21",
+  "verdict": "ok",
+  "reason": "Matches WHO: 6th intercostal space on the midaxillary line. Yinyanghouse agrees; lists generalised body pain and rib-side pain.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House SP21",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/sp21/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "HT1",
+  "verdict": "ok",
+  "reason": "Matches WHO: centre of the armpit over the axillary artery. Correctly marked avoid; yinyanghouse flags 'Avoid Artery'.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House HT1",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/ht1/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "HT2",
+  "verdict": "ok",
+  "reason": "Matches WHO: 3 units above the elbow crease, medial to biceps. Yinyanghouse agrees (3 cun above HT3); lists shoulder/arm pain.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House HT2",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/ht2/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "HT3",
+  "verdict": "ok",
+  "reason": "Matches WHO: midpoint between the medial end of the elbow crease and the medial epicondyle. Yinyanghouse agrees.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House HT3",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/ht3/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "HT4",
+  "verdict": "ok",
+  "reason": "Matches WHO: 1.5 units above the wrist crease, radial to the FCU tendon. Yinyanghouse agrees; lists sudden loss of voice and emotional disturbance.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House HT4",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/ht4/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "HT5",
+  "verdict": "ok",
+  "reason": "Matches WHO: 1 unit above the wrist crease, radial to FCU. Yinyanghouse agrees; lists sudden loss of voice, anxiety with palpitations.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House HT5",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/ht5/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "HT6",
+  "verdict": "ok",
+  "reason": "Matches WHO: 0.5 unit above the wrist crease, radial to FCU. Yinyanghouse agrees; lists night sweats and palpitations.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House HT6",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/ht6/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "HT7",
+  "verdict": "ok",
+  "reason": "Matches WHO: on the wrist crease radial to FCU at the pisiform. Yinyanghouse agrees; lists insomnia and anxiety. Pulse caution reasonable (ulnar artery).",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House HT7",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/ht7/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "HT8",
+  "verdict": "ok",
+  "reason": "Matches WHO: between 4th and 5th metacarpals where the little fingertip rests in a fist. Yinyanghouse agrees.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House HT8",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/ht8/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "HT9",
+  "verdict": "ok",
+  "reason": "Matches WHO: radial corner of the little fingernail. Yinyanghouse agrees.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House HT9",
+   "url": "https://yinyanghouse.com/theory/acupuncturepoints/ht9/",
+   "agrees": true
+  }
+ },
+ {
+  "code": "SI1",
+  "verdict": "ok",
+  "reason": "Matches WHO: ulnar corner of the little fingernail. Me and Qi agrees (headache, sore throat/tonsillitis). Note: Me and Qi says 'use with caution during pregnancy' (one source only, so pregnancy=false stands under the 2-source rule).",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me and Qi SI1",
+   "url": "https://www.meandqi.com/knowledge-base/acupuncture/small-intestine-meridian/shaoze-si-1",
+   "agrees": true
+  }
+ },
+ {
+  "code": "SI2",
+  "verdict": "fix",
+  "fixes": {
+   "place": {
+    "from": "mcp_5_ulnar",
+    "down": 0.3
+   }
+  },
+  "reason": "WHO puts SI2 distal to the 5th knuckle joint (SI3 is proximal). Placing it exactly 'at' the joint landmark gives no direction; SI3 already uses up 0.3, so SI2 should be down 0.3 (toward the fingertip). Find text is correct.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me and Qi SI2",
+   "url": "https://www.meandqi.com/knowledge-base/acupuncture/small-intestine-meridian/qiangu-si-2",
+   "agrees": true
+  }
+ },
+ {
+  "code": "SI3",
+  "verdict": "ok",
+  "reason": "Matches WHO: proximal to the 5th MCP joint on the ulnar side at the red-white border. Me and Qi agrees; lists stiff neck, headaches, tinnitus.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me and Qi SI3",
+   "url": "https://www.meandqi.com/knowledge-base/acupuncture/small-intestine-meridian/houxi-si-3",
+   "agrees": true
+  }
+ },
+ {
+  "code": "SI4",
+  "verdict": "ok",
+  "reason": "Matches WHO: depression between the 5th metacarpal base and the carpal bone. Me and Qi agrees; lists headache, stiff neck, wrist pain.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me and Qi SI4",
+   "url": "https://www.meandqi.com/knowledge-base/acupuncture/small-intestine-meridian/wangu-si-4",
+   "agrees": true
+  }
+ },
+ {
+  "code": "SI5",
+  "verdict": "ok",
+  "reason": "Matches WHO: between the ulnar styloid and the triquetrum. Me and Qi agrees.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me and Qi SI5",
+   "url": "https://www.meandqi.com/knowledge-base/acupuncture/small-intestine-meridian/yanggu-si-5",
+   "agrees": true
+  }
+ },
+ {
+  "code": "SI6",
+  "verdict": "ok",
+  "reason": "Matches WHO: radial side of the head of the ulna, palm-to-chest method. Me and Qi agrees; lists shoulder pain and blurred vision.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me and Qi SI6",
+   "url": "https://www.meandqi.com/knowledge-base/acupuncture/small-intestine-meridian/yanglao-si-6",
+   "agrees": true
+  }
+ },
+ {
+  "code": "SI7",
+  "verdict": "ok",
+  "reason": "Matches WHO: 5 units above the wrist on the SI5-SI8 line. Me and Qi agrees; lists anxiety and neck pain. Me and Qi lists 'contraindicated during pregnancy' (one source; not enough for pregnancy=true under the 2-source rule, but worth a second check).",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me and Qi SI7",
+   "url": "https://www.meandqi.com/knowledge-base/acupuncture/small-intestine-meridian/zhizheng-si-7",
+   "agrees": true
+  }
+ },
+ {
+  "code": "SI8",
+  "verdict": "ok",
+  "reason": "Matches WHO: between olecranon and medial epicondyle (ulnar-nerve groove). Me and Qi agrees; gentle is appropriate.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me and Qi SI8",
+   "url": "https://www.meandqi.com/knowledge-base/acupuncture/small-intestine-meridian/xiaohai-si-8",
+   "agrees": true
+  }
+ },
+ {
+  "code": "SI9",
+  "verdict": "ok",
+  "reason": "Matches WHO: 1 unit above the posterior axillary fold. Me and Qi agrees.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me and Qi SI9",
+   "url": "https://www.meandqi.com/knowledge-base/acupuncture/small-intestine-meridian/jianzhen-si-9",
+   "agrees": true
+  }
+ },
+ {
+  "code": "SI10",
+  "verdict": "ok",
+  "reason": "Matches WHO: directly above the posterior axillary fold, below the scapular spine. Me and Qi agrees.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me and Qi SI10",
+   "url": "https://www.meandqi.com/knowledge-base/acupuncture/small-intestine-meridian/naoshu-si-10",
+   "agrees": true
+  }
+ },
+ {
+  "code": "SI11",
+  "verdict": "fix",
+  "fixes": {
+   "place": {
+    "manual": "On the shoulder blade, one third of the way down the line from the midpoint of the shoulder-blade ridge to the blade's bottom tip."
+   }
+  },
+  "reason": "WHO measures SI11 from the midpoint of the scapular spine to the inferior angle. The spec used 'scapula_mid' (the vocab does not define it as the spine midpoint; it reads as the centre of the blade), so frac 0.33 from it would sit too low. Switched to a manual spec that states the WHO line; lead may instead add a scapula_spine_mid landmark.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me and Qi SI11",
+   "url": "https://www.meandqi.com/knowledge-base/acupuncture/small-intestine-meridian/tianzong-si-11",
+   "agrees": true
+  }
+ },
+ {
+  "code": "SI12",
+  "verdict": "ok",
+  "reason": "Matches WHO: suprascapular fossa above the midpoint of the scapular spine. Me and Qi agrees.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me and Qi SI12",
+   "url": "https://www.meandqi.com/knowledge-base/acupuncture/small-intestine-meridian/bingfeng-si-12",
+   "agrees": true
+  }
+ },
+ {
+  "code": "SI13",
+  "verdict": "fix",
+  "fixes": {
+   "find": "On the top of the shoulder blade, in the hollow just above the inner end of its ridge, about halfway between the back of the shoulder and the spine at the second bump below the big bump at the base of the neck."
+  },
+  "reason": "Location matches WHO (midpoint of SI10 to T2 spinous process), but 'the second bump of the upper spine' is ambiguous for a layperson (could be read as counting from the skull). Clarified as counting below the C7 bump.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me and Qi SI13",
+   "url": "https://www.meandqi.com/knowledge-base/acupuncture/small-intestine-meridian/quyuan-si-13",
+   "agrees": true
+  }
+ },
+ {
+  "code": "SI14",
+  "verdict": "ok",
+  "reason": "Matches WHO: 3 units lateral to the lower border of T1 (a hand's width of four fingers is correct). Me and Qi agrees.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me and Qi SI14",
+   "url": "https://www.meandqi.com/knowledge-base/acupuncture/small-intestine-meridian/jianwaishu-si-14",
+   "agrees": true
+  }
+ },
+ {
+  "code": "SI15",
+  "verdict": "fix",
+  "fixes": {
+   "find": "On the upper back, about three finger-widths (two thumb-widths) out to the side of the big bump at the base of the neck, level with its lower edge."
+  },
+  "reason": "WHO: 2 units lateral to the lower border of C7. 'Two finger-widths' is only 1.5 units; 2 units is about two thumb-widths or three finger-widths. Also added 'level with its lower edge' per WHO.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me and Qi SI15",
+   "url": "https://www.meandqi.com/knowledge-base/acupuncture/small-intestine-meridian/jianzhongshu-si-15",
+   "agrees": true
+  }
+ },
+ {
+  "code": "SI16",
+  "verdict": "ok",
+  "reason": "Matches WHO: posterior border of SCM, level with the top of the thyroid cartilage. Me and Qi agrees (level with the Adam's apple); lists tinnitus, ear pain.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me and Qi SI16",
+   "url": "https://www.meandqi.com/knowledge-base/acupuncture/small-intestine-meridian/tianchuang-si-16",
+   "agrees": true
+  }
+ },
+ {
+  "code": "SI17",
+  "verdict": "fix",
+  "fixes": {
+   "cautions": [
+    "throat",
+    "pulse"
+   ]
+  },
+  "reason": "Location matches WHO and Me and Qi. The point lies just in front of the big neck muscle at the jaw angle, over the carotid region, so the 'pulse' caution (press beside the pulse, not on it) belongs alongside 'throat'.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me and Qi SI17",
+   "url": "https://www.meandqi.com/knowledge-base/acupuncture/small-intestine-meridian/tianrong-si-17",
+   "agrees": true
+  }
+ },
+ {
+  "code": "SI18",
+  "verdict": "ok",
+  "reason": "Matches WHO: directly below the outer eye corner under the cheekbone. Me and Qi agrees; lists eyelid twitching and face pain.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me and Qi SI18",
+   "url": "https://www.meandqi.com/knowledge-base/acupuncture/small-intestine-meridian/quanliao-si-18",
+   "agrees": true
+  }
+ },
+ {
+  "code": "SI19",
+  "verdict": "fix",
+  "fixes": {
+   "place": {
+    "manual": "In the hollow just in front of the middle of the tragus, between it and the jaw joint; it opens up when the mouth is slightly open."
+   }
+  },
+  "reason": "WHO puts SI19 anterior to the centre of the tragus, between it and the condyle of the jaw. The spec {at: tragus} would put the dot on the tragus flap itself rather than in front of it. Find text is correct.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me and Qi SI19",
+   "url": "https://www.meandqi.com/knowledge-base/acupuncture/small-intestine-meridian/tinggong-si-19",
+   "agrees": true
+  }
+ },
+ {
+  "code": "PC1",
+  "verdict": "ok",
+  "reason": "Matches WHO: 4th intercostal space, 5 units lateral (1 unit outside the nipple). Me and Qi agrees; lists cough and chest oppression.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me and Qi PC1",
+   "url": "https://www.meandqi.com/knowledge-base/acupuncture/pericardium-meridian/tianchi-pc-1",
+   "agrees": true
+  }
+ },
+ {
+  "code": "PC2",
+  "verdict": "ok",
+  "reason": "Matches WHO: 2 units below the anterior axillary fold between the biceps heads; cun -2 is correctly away from the trunk. Me and Qi agrees.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me and Qi PC2",
+   "url": "https://www.meandqi.com/knowledge-base/acupuncture/pericardium-meridian/tianquan-pc-2",
+   "agrees": true
+  }
+ },
+ {
+  "code": "PC3",
+  "verdict": "ok",
+  "reason": "Matches WHO: on the elbow crease, ulnar (little-finger) side of the biceps tendon. Me and Qi agrees; lists vomiting and palpitations. Pulse caution correct (brachial artery).",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me and Qi PC3",
+   "url": "https://www.meandqi.com/knowledge-base/acupuncture/pericardium-meridian/quze-pc-3",
+   "agrees": true
+  }
+ },
+ {
+  "code": "PC4",
+  "verdict": "ok",
+  "reason": "Matches WHO: 5 units above the wrist crease between the two tendons. Me and Qi agrees; lists palpitations.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me and Qi PC4",
+   "url": "https://www.meandqi.com/knowledge-base/acupuncture/pericardium-meridian/ximen-pc-4",
+   "agrees": true
+  }
+ },
+ {
+  "code": "PC5",
+  "verdict": "ok",
+  "reason": "Matches WHO: 3 units above the wrist crease between the tendons. Me and Qi agrees.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me and Qi PC5",
+   "url": "https://www.meandqi.com/knowledge-base/acupuncture/pericardium-meridian/jianshi-pc-5",
+   "agrees": true
+  }
+ },
+ {
+  "code": "PC6",
+  "verdict": "ok",
+  "reason": "Matches WHO: 2 units above the wrist crease between the tendons. Me and Qi agrees; lists nausea, vomiting, insomnia, anxiety. (Me and Qi notes caution in early pregnancy; single source.)",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me and Qi PC6",
+   "url": "https://www.meandqi.com/knowledge-base/acupuncture/pericardium-meridian/neiguan-pc-6",
+   "agrees": true
+  }
+ },
+ {
+  "code": "PC7",
+  "verdict": "ok",
+  "reason": "Matches WHO: middle of the wrist crease between the tendons. Me and Qi agrees.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me and Qi PC7",
+   "url": "https://www.meandqi.com/knowledge-base/acupuncture/pericardium-meridian/daling-pc-7",
+   "agrees": true
+  }
+ },
+ {
+  "code": "PC8",
+  "verdict": "fix",
+  "fixes": {
+   "whoNote": "WHO 2008 lists an alternative location between the 3rd and 4th metacarpal bones; the record uses the primary (2nd-3rd) location."
+  },
+  "reason": "Location matches WHO primary and Me and Qi (between 2nd and 3rd metacarpals). WHO also gives an alternative between the 3rd and 4th; pipeline rule 1 requires the record to say so, and whoNote was empty.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me and Qi PC8",
+   "url": "https://www.meandqi.com/knowledge-base/acupuncture/pericardium-meridian/laogong-pc-8",
+   "agrees": true
+  }
+ },
+ {
+  "code": "PC9",
+  "verdict": "fix",
+  "fixes": {
+   "whoNote": "WHO 2008 lists an alternative location 0.1 F-cun proximal to the radial (thumb-side) corner of the middle fingernail; the record uses the primary fingertip location."
+  },
+  "reason": "Location matches WHO primary and Me and Qi (centre of the fingertip). WHO gives an alternative at the radial nail corner; rule 1 requires noting it, and whoNote was empty.",
+  "freshSource": {
+   "id": "mq",
+   "name": "Me and Qi PC9",
+   "url": "https://www.meandqi.com/knowledge-base/acupuncture/pericardium-meridian/zhongchong-pc-9",
+   "agrees": true
+  }
+ }
+]

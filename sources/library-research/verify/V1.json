@@ -1,0 +1,731 @@
+[
+ {
+  "code": "LU1",
+  "verdict": "fix",
+  "fixes": {
+   "find": "On the upper chest near the shoulder, about one thumb-width below the soft hollow under the outer collarbone, level with the gap just below the first rib (about six thumb-widths out from the middle of the chest)."
+  },
+  "reason": "Location right (WHO: level with 1st rib gap, 1 thumb-width below LU2, 6 from the midline), but 'one rib-gap below the hollow' is vague and could be read as the 2nd rib gap. Fresh source agrees: 6 cun lateral, level with the space below the 1st rib.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki LU1",
+   "url": "https://tcmwiki.com/wiki/lu1",
+   "agrees": true
+  }
+ },
+ {
+  "code": "LU2",
+  "verdict": "fix",
+  "fixes": {
+   "find": "On the upper chest, in the soft hollow just under the outer end of the collarbone, on the chest side of the bony knob at the front of the shoulder."
+  },
+  "reason": "WHO puts LU2 medial to the coracoid (on the chest side of the bony knob). 'Next to the bony knob' doesn't say which side. Fresh source agrees on the infraclavicular hollow, 6 cun lateral.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki LU2",
+   "url": "https://tcmwiki.com/wiki/lu2",
+   "agrees": true
+  }
+ },
+ {
+  "code": "LU3",
+  "verdict": "ok",
+  "reason": "Matches WHO (thumb side of the biceps, 3 thumb-widths below the front armpit fold; four finger-widths is right). Fresh source agrees and lists nosebleed.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki LU3",
+   "url": "https://tcmwiki.com/wiki/lu3",
+   "agrees": true
+  }
+ },
+ {
+  "code": "LU4",
+  "verdict": "fix",
+  "fixes": {
+   "find": "On the inner upper arm along the thumb side of the biceps muscle, about four finger-widths plus one thumb-width below the front armpit fold."
+  },
+  "reason": "WHO puts it 4 thumb-widths below the fold. 'Five finger-widths' is about 3.75 and 'the previous point' means nothing to a user. Fresh source agrees: 4 cun below the fold, 5 above the elbow crease.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki LU4",
+   "url": "https://tcmwiki.com/wiki/lu4",
+   "agrees": true
+  }
+ },
+ {
+  "code": "LU5",
+  "verdict": "ok",
+  "reason": "Matches WHO (elbow crease, thumb side of the biceps tendon). Fresh source agrees. Cough is also a major indication there; the author could add it if their second source agrees.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki LU5",
+   "url": "https://tcmwiki.com/wiki/lu5",
+   "agrees": true
+  }
+ },
+ {
+  "code": "LU6",
+  "verdict": "fix",
+  "fixes": {
+   "find": "On the thumb side of the inner forearm, on the line from wrist to elbow, one thumb-width above the halfway point between the wrist crease and the elbow crease."
+  },
+  "reason": "Distance error: WHO puts it 7 thumb-widths above the palm-side wrist crease. 'Four fingers plus a thumb' is only about 4. place cun 7 is correct. Fresh source agrees on 7 cun on the LU5 to LU9 line.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki LU6",
+   "url": "https://tcmwiki.com/wiki/lu6",
+   "agrees": true
+  }
+ },
+ {
+  "code": "LU7",
+  "verdict": "ok",
+  "reason": "Matches WHO (1.5 above the wrist crease = two finger-widths, in the groove just above the wrist bone bump). Fresh source agrees, and also lists head and neck pain and cough.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki LU7",
+   "url": "https://tcmwiki.com/wiki/lu7",
+   "agrees": true
+  }
+ },
+ {
+  "code": "LU8",
+  "verdict": "fix",
+  "fixes": {
+   "selfCare": "gentle",
+   "technique": "gentle",
+   "cautions": [
+    "pulse"
+   ]
+  },
+  "reason": "Location matches WHO (1 thumb-width above the crease, between the wrist bone and the radial artery). The point sits right beside the radial pulse, so it needs the pulse caution and light pressure. Fresh source agrees on location and lists cough, sore throat and wrist pain. The empty indications could be filled if the author's sources confirm them.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki LU8",
+   "url": "https://tcmwiki.com/wiki/lu8",
+   "agrees": true
+  }
+ },
+ {
+  "code": "LU9",
+  "verdict": "ok",
+  "reason": "Matches WHO (thumb end of the wrist crease, at the radial artery). Pulse caution and gentle are right. Fresh source agrees.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki LU9",
+   "url": "https://tcmwiki.com/wiki/lu9",
+   "agrees": true
+  }
+ },
+ {
+  "code": "LU10",
+  "verdict": "ok",
+  "reason": "Matches WHO (midpoint of the 1st metacarpal, at the border of red and white skin). Fresh source agrees and lists sore throat.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki LU10",
+   "url": "https://tcmwiki.com/wiki/lu10",
+   "agrees": true
+  }
+ },
+ {
+  "code": "LU11",
+  "verdict": "ok",
+  "reason": "Matches WHO (thumb-side corner of the thumbnail). Fresh source agrees and lists sore throat.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki LU11",
+   "url": "https://tcmwiki.com/wiki/lu11",
+   "agrees": true
+  }
+ },
+ {
+  "code": "LI1",
+  "verdict": "ok",
+  "reason": "Matches WHO (index fingernail corner, thumb side). Fresh source agrees and lists fever and sore throat.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki LI1",
+   "url": "https://tcmwiki.com/wiki/li1",
+   "agrees": true
+  }
+ },
+ {
+  "code": "LI2",
+  "verdict": "fix",
+  "fixes": {
+   "find": "On the thumb side of the index finger, in the small dip just past the big knuckle toward the fingertip, where the darker skin meets the paler skin."
+  },
+  "reason": "WHO puts it on the fingertip side of the 2nd knuckle. 'In front of' is ambiguous to a user. place (down 0.3 = toward the fingertip) is correct. Fresh source agrees: in the depression in front of the joint, and lists toothache.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki LI2",
+   "url": "https://tcmwiki.com/wiki/li2",
+   "agrees": true
+  }
+ },
+ {
+  "code": "LI3",
+  "verdict": "fix",
+  "fixes": {
+   "find": "On the back of the hand, in the hollow on the thumb side of the index finger's big knuckle, just on the wrist side of it."
+  },
+  "reason": "WHO puts it on the wrist side of the 2nd knuckle. 'Behind' is ambiguous on the back of the hand. Fresh source agrees: posterior to the joint, and lists toothache and sore throat.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki LI3",
+   "url": "https://tcmwiki.com/wiki/li3",
+   "agrees": true
+  }
+ },
+ {
+  "code": "LI4",
+  "verdict": "ok",
+  "reason": "Find matches WHO (thumb side of the midpoint of the 2nd metacarpal). Pregnancy flag correct. Fresh source agrees and lists toothache and delayed labour. The existing appFix is valid.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki LI4",
+   "url": "https://tcmwiki.com/wiki/li4",
+   "agrees": true
+  }
+ },
+ {
+  "code": "LI5",
+  "verdict": "ok",
+  "reason": "Matches WHO (anatomical snuffbox between the two thumb tendons). Fresh source agrees.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki LI5",
+   "url": "https://tcmwiki.com/wiki/li5",
+   "agrees": true
+  }
+ },
+ {
+  "code": "LI6",
+  "verdict": "ok",
+  "reason": "Matches WHO (3 above the back wrist crease = four finger-widths). Fresh source agrees.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki LI6",
+   "url": "https://tcmwiki.com/wiki/li6",
+   "agrees": true
+  }
+ },
+ {
+  "code": "LI7",
+  "verdict": "fix",
+  "fixes": {
+   "find": "On the thumb-side back of the forearm, on the line toward the outer elbow, a little under halfway from the wrist crease to the elbow crease (about five thumb-widths up)."
+  },
+  "reason": "Distance error: WHO puts it 5 thumb-widths above the back wrist crease. 'Four fingers plus a thumb' is about 4. place cun 5 is correct. Fresh source agrees on 5 cun above LI5.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki LI7",
+   "url": "https://tcmwiki.com/wiki/li7",
+   "agrees": true
+  }
+ },
+ {
+  "code": "LI8",
+  "verdict": "fix",
+  "fixes": {
+   "find": "On the thumb-side back of the forearm, on the line to the wrist, about four finger-widths plus one thumb-width below the outer end of the elbow crease."
+  },
+  "reason": "Distance error: WHO puts it 4 thumb-widths below the elbow crease. 'A hand-width (four fingers)' is about 3, which is LI9's spot. place cun -4 is correct. Fresh source agrees on 4 cun below the elbow crease and lists elbow/arm pain and abdominal pain.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki LI8",
+   "url": "https://tcmwiki.com/wiki/li8",
+   "agrees": true
+  }
+ },
+ {
+  "code": "LI9",
+  "verdict": "ok",
+  "reason": "Matches WHO (3 below the elbow crease = four finger-widths). Fresh source agrees and lists abdominal pain and arm numbness.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki LI9",
+   "url": "https://tcmwiki.com/wiki/li9",
+   "agrees": true
+  }
+ },
+ {
+  "code": "LI10",
+  "verdict": "ok",
+  "reason": "Matches WHO (2 below the elbow crease, about three finger-widths). Fresh source agrees and lists arm pain and abdominal pain.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki LI10",
+   "url": "https://tcmwiki.com/wiki/li10",
+   "agrees": true
+  }
+ },
+ {
+  "code": "LI11",
+  "verdict": "ok",
+  "reason": "Matches WHO (outer end of the elbow crease with the elbow bent). Fresh source agrees and lists fever and itching.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki LI11",
+   "url": "https://tcmwiki.com/wiki/li11",
+   "agrees": true
+  }
+ },
+ {
+  "code": "LI12",
+  "verdict": "ok",
+  "reason": "Matches WHO (above the lateral epicondyle, in front of the ridge). Fresh source agrees (1 cun above and outside LI11, directly above the epicondyle).",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki LI12",
+   "url": "https://tcmwiki.com/wiki/li12",
+   "agrees": true
+  }
+ },
+ {
+  "code": "LI13",
+  "verdict": "ok",
+  "reason": "Matches WHO (3 above the elbow crease on the LI11 to LI15 line). Fresh source agrees.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki LI13",
+   "url": "https://tcmwiki.com/wiki/li13",
+   "agrees": true
+  }
+ },
+ {
+  "code": "LI14",
+  "verdict": "fix",
+  "fixes": {
+   "pinyin": "Binao",
+   "find": "On the outer upper arm, about three-quarters of the way up from the elbow crease to the armpit, just in front of the lower tip of the rounded shoulder muscle."
+  },
+  "reason": "Distance error: WHO puts it 7 thumb-widths above LI11. 'A hand-width and a half' is about 4.5. place cun 7 is correct. The pinyin has OCR junk ('Binao ft'). Fresh source agrees: 7 cun above Quchi, at the lower end of the deltoid.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki LI14",
+   "url": "https://tcmwiki.com/wiki/li14",
+   "agrees": true
+  }
+ },
+ {
+  "code": "LI15",
+  "verdict": "fix",
+  "fixes": {
+   "find": "On the outer front of the shoulder, in the hollow just in front of and below the bony tip of the shoulder, easiest to feel when you lift your arm out to the side."
+  },
+  "reason": "WHO puts it in the hollow in front of and below the acromion, toward the outer shoulder. 'On top of the shoulder' misleads. Fresh source agrees: directly below the front edge of the acromion when the arm is raised. Note: place 'at acromion' puts the dot on the bone tip, not in the hollow below it. The placer should nudge it down and forward if possible.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki LI15",
+   "url": "https://tcmwiki.com/wiki/li15",
+   "agrees": true
+  }
+ },
+ {
+  "code": "LI16",
+  "verdict": "fix",
+  "fixes": {
+   "pinyin": "Jugu"
+  },
+  "reason": "Location text matches WHO (the dip between the outer collarbone and the shoulder-blade ridge). The pinyin has OCR junk ('Jugu f'). place 'between acromial_angle and scapula_spine_root frac 0.2' puts the dot on the shoulder-blade ridge, not in the dip in front of and above it. The lead should check the dot in Phase 3. Fresh source agrees.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki LI16",
+   "url": "https://tcmwiki.com/wiki/li16",
+   "agrees": true
+  }
+ },
+ {
+  "code": "LI17",
+  "verdict": "fix",
+  "fixes": {
+   "place": {
+    "from": "scm_back",
+    "down": 1
+   },
+   "find": "On the side of the neck, about one thumb-width below the level of the Adam's apple, just behind the back edge of the thick neck muscle. Light touch only."
+  },
+  "reason": "WHO puts it at the level of the cricoid cartilage, behind the back edge of the neck muscle, directly below LI18. place {at: scm_back} has no level, so it would land where LI18 is. Fresh source agrees (back edge of the muscle, midway between LI18 and the hollow above the collarbone).",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki LI17",
+   "url": "https://tcmwiki.com/wiki/li17",
+   "agrees": true
+  }
+ },
+ {
+  "code": "LI18",
+  "verdict": "ok",
+  "reason": "Matches WHO (level with the top of the Adam's apple, between the two heads of the neck muscle). Gentle with pulse and throat cautions is appropriate near the carotid. Fresh source agrees.",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki LI18",
+   "url": "https://tcmwiki.com/wiki/li18",
+   "agrees": true
+  }
+ },
+ {
+  "code": "LI19",
+  "verdict": "fix",
+  "fixes": {
+   "whoNote": "WHO gives an alternative location: level with the junction of the upper third and lower two-thirds of the groove under the nose, below the outer nostril edge."
+  },
+  "reason": "Location matches WHO, but WHO lists an alternative location (at one-third of the way down the groove under the nose). Pipeline rule 1 requires the record to say so. Fresh source agrees (0.5 cun out from GV26, below the outer nostril).",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki LI19",
+   "url": "https://tcmwiki.com/wiki/li19",
+   "agrees": true
+  }
+ },
+ {
+  "code": "LI20",
+  "verdict": "fix",
+  "fixes": {
+   "whoNote": "WHO gives an alternative location: in the groove beside the nose, level with the lower edge of the nostril wing."
+  },
+  "reason": "Location matches WHO, but WHO lists an alternative location (in the groove at the level of the lower edge of the nostril wing). Rule 1 requires a note. Fresh source agrees (nasolabial groove beside the midpoint of the nostril wing).",
+  "freshSource": {
+   "id": "tcmwiki",
+   "name": "TCM Wiki LI20",
+   "url": "https://tcmwiki.com/wiki/li20",
+   "agrees": true
+  }
+ },
+ {
+  "code": "KI1",
+  "verdict": "ok",
+  "reason": "Matches WHO (deepest dip with toes curled, one-third of the way from the 2nd/3rd toe base to the heel). Fresh source agrees and lists fainting, headache and insomnia.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House KD 1",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/kd1",
+   "agrees": true
+  }
+ },
+ {
+  "code": "KI2",
+  "verdict": "ok",
+  "reason": "Matches WHO (below the navicular tuberosity, at the border of red and white skin). Fresh source agrees and lists chronic sore throat.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House KD 2",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/kd2",
+   "agrees": true
+  }
+ },
+ {
+  "code": "KI3",
+  "verdict": "ok",
+  "reason": "Matches WHO (hollow between the inner ankle bone and the Achilles tendon). Pulse caution is reasonable (posterior tibial artery). Fresh source agrees and lists insomnia, tinnitus and sore throat.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House KD 3",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/kd3",
+   "agrees": true
+  }
+ },
+ {
+  "code": "KI4",
+  "verdict": "ok",
+  "reason": "Matches WHO (behind and below the inner ankle bone, in front of the Achilles attachment). Fresh source agrees and lists low back pain and heel pain.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House KD 4",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/kd4",
+   "agrees": true
+  }
+ },
+ {
+  "code": "KI5",
+  "verdict": "ok",
+  "reason": "Find matches WHO (1 thumb-width below KI3, in front of the heel bump). Fresh source agrees and lists period pain. Minor: the 'between malleolus and calcaneus_medial frac 0.7' place does not encode 'directly below KI3'. Check the dot in Phase 3.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House KD 5",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/kd5",
+   "agrees": true
+  }
+ },
+ {
+  "code": "KI6",
+  "verdict": "ok",
+  "reason": "Matches WHO (1 thumb-width below the inner ankle bone tip). Fresh source agrees and lists insomnia, sore throat and menstrual issues.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House KD 6",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/kd6",
+   "agrees": true
+  }
+ },
+ {
+  "code": "KI7",
+  "verdict": "ok",
+  "reason": "Matches WHO (2 above the inner ankle bone, front edge of the Achilles). Fresh source agrees (2 cun above KI3, front of the Achilles) and lists sweating, swelling and diarrhoea.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House KD 7",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/kd7",
+   "agrees": true
+  }
+ },
+ {
+  "code": "KI8",
+  "verdict": "fix",
+  "reason": "Find matches WHO (2 above the ankle bone, behind the shin-bone edge, 0.5 thumb-width in front of KI7). But place {from medial_malleolus, up 2} gives the same spot as KI7 (line KI, cun 2), so the two dots will overlap. Fresh source agrees: 0.5 cun anterior to KI7. The lead needs to encode the 0.5 forward offset (toward the shin bone / tibia_posterior_border). The vocab has no clear anterior direction on leg-inner, so no exact spec is proposed.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House KD 8",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/kd8",
+   "agrees": true
+  }
+ },
+ {
+  "code": "KI9",
+  "verdict": "fix",
+  "fixes": {
+   "find": "On the inner lower calf, about five thumb-widths above the inner ankle bone, in the groove between the bottom of the calf muscle and the Achilles tendon."
+  },
+  "reason": "Distance error: WHO puts it 5 thumb-widths above the inner ankle bone. 'Four finger-widths plus a thumb' is about 4. place cun 5 is correct. Fresh source agrees: 5 cun above KI3 at the lower end of the calf muscle.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House KD 9",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/kd9",
+   "agrees": true
+  }
+ },
+ {
+  "code": "KI10",
+  "verdict": "ok",
+  "reason": "Matches WHO (in the knee crease, just outside the semitendinosus tendon). Fresh source places it between the semitendinosus and semimembranosus, which is the same spot in practice, and lists difficult urination.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House KD 10",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/kd10",
+   "agrees": true
+  }
+ },
+ {
+  "code": "KI11",
+  "verdict": "fix",
+  "fixes": {
+   "pregnancy": true,
+   "cautions": [
+    "pregnancy"
+   ],
+   "find": "On the lowest part of the belly just above the pubic bone, about half a thumb-width to the side of the midline."
+  },
+  "reason": "Two problems. (1) WHO puts it 0.5 thumb-width from the midline; the find says 'a thumb-width'. (2) The region rule makes lower-abdomen points pregnancy:true even when marked avoid. 'Avoid' is right for self-pressing. Fresh source agrees: 5 cun below the navel, 0.5 lateral.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House KD 11",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/kd11",
+   "agrees": true
+  }
+ },
+ {
+  "code": "KI12",
+  "verdict": "fix",
+  "fixes": {
+   "find": "On the lower belly, about four thumb-widths below the navel, half a thumb-width to the side of the midline."
+  },
+  "reason": "WHO puts it 0.5 thumb-width from the midline. 'A thumb-width to the side' doubles it. place line KI is correct. Fresh source agrees: 4 cun below, 0.5 lateral.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House KD 12",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/kd12",
+   "agrees": true
+  }
+ },
+ {
+  "code": "KI13",
+  "verdict": "fix",
+  "fixes": {
+   "find": "On the lower belly, about four finger-widths below the navel, half a thumb-width to the side of the midline."
+  },
+  "reason": "WHO puts it 0.5 thumb-width from the midline. 'A thumb-width' doubles it. Fresh source agrees: 3 cun below, 0.5 lateral.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House KD 13",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/kd13",
+   "agrees": true
+  }
+ },
+ {
+  "code": "KI14",
+  "verdict": "fix",
+  "fixes": {
+   "find": "On the lower belly, about three finger-widths below the navel, half a thumb-width to the side of the midline."
+  },
+  "reason": "WHO puts it 0.5 thumb-width from the midline. 'A thumb-width' doubles it. Fresh source agrees: 2 cun below, 0.5 lateral.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House KD 14",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/kd14",
+   "agrees": true
+  }
+ },
+ {
+  "code": "KI15",
+  "verdict": "ok",
+  "reason": "Matches WHO (1 below the navel, 0.5 lateral). Pregnancy rule applied. Fresh source agrees.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House KD 15",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/kd15",
+   "agrees": true
+  }
+ },
+ {
+  "code": "KI16",
+  "verdict": "ok",
+  "reason": "Matches WHO (0.5 out from the navel centre; beside the navel, not in it). Fresh source agrees and lists constipation and abdominal pain.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House KD 16",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/kd16",
+   "agrees": true
+  }
+ },
+ {
+  "code": "KI17",
+  "verdict": "ok",
+  "reason": "Matches WHO (2 above the navel, 0.5 lateral). Fresh source agrees and lists abdominal pain.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House KD 17",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/kd17",
+   "agrees": true
+  }
+ },
+ {
+  "code": "KI18",
+  "verdict": "ok",
+  "reason": "Matches WHO (3 above, 0.5 lateral). Fresh source agrees and lists vomiting.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House KD 18",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/kd18",
+   "agrees": true
+  }
+ },
+ {
+  "code": "KI19",
+  "verdict": "ok",
+  "reason": "Matches WHO (4 above, 0.5 lateral). Fresh source agrees and lists abdominal pain, nausea and bloating.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House KD 19",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/kd19",
+   "agrees": true
+  }
+ },
+ {
+  "code": "KI20",
+  "verdict": "ok",
+  "reason": "Matches WHO (5 above, 0.5 lateral). Fresh source agrees and lists palpitations and digestive issues.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House KD 20",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/kd20",
+   "agrees": true
+  }
+ },
+ {
+  "code": "KI21",
+  "verdict": "ok",
+  "reason": "Matches WHO (6 above, 0.5 lateral). Fresh source agrees and lists vomiting and abdominal pain.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House KD 21",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/kd21",
+   "agrees": true
+  }
+ },
+ {
+  "code": "KI22",
+  "verdict": "fix",
+  "fixes": {
+   "find": "On the chest, in the gap between the fifth and sixth ribs, about two thumb-widths out from the middle of the breastbone."
+  },
+  "reason": "WHO puts it 2 thumb-widths from the midline. 'Two finger-widths' is about 1.5, so it lands too close to the breastbone. Rib gap and place are correct. Fresh source agrees: 5th rib gap, 2 cun from the midline, and lists cough and chest tightness.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House KD 22",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/kd22",
+   "agrees": true
+  }
+ },
+ {
+  "code": "KI23",
+  "verdict": "fix",
+  "fixes": {
+   "find": "On the chest, in the gap between the fourth and fifth ribs, about two thumb-widths out from the middle of the breastbone."
+  },
+  "reason": "WHO puts it 2 thumb-widths from the midline. 'Two finger-widths' is about 1.5, so it lands too close to the breastbone. Rib gap and place are correct. Fresh source agrees: 4th rib gap, 2 cun from the midline, and lists cough and chest tightness.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House KD 23",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/kd23",
+   "agrees": true
+  }
+ },
+ {
+  "code": "KI24",
+  "verdict": "fix",
+  "fixes": {
+   "find": "On the chest, in the gap between the third and fourth ribs, about two thumb-widths out from the middle of the breastbone."
+  },
+  "reason": "WHO puts it 2 thumb-widths from the midline. 'Two finger-widths' is about 1.5, so it lands too close to the breastbone. Rib gap and place are correct. Fresh source agrees: 3rd rib gap, 2 cun from the midline, and lists cough and chest tightness.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House KD 24",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/kd24",
+   "agrees": true
+  }
+ },
+ {
+  "code": "KI25",
+  "verdict": "fix",
+  "fixes": {
+   "find": "On the upper chest, in the gap between the second and third ribs, about two thumb-widths out from the middle of the breastbone."
+  },
+  "reason": "WHO puts it 2 thumb-widths from the midline. 'Two finger-widths' is about 1.5, so it lands too close to the breastbone. Rib gap and place are correct. Fresh source agrees: 2nd rib gap, 2 cun from the midline, and lists cough and chest tightness.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House KD 25",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/kd25",
+   "agrees": true
+  }
+ },
+ {
+  "code": "KI26",
+  "verdict": "fix",
+  "fixes": {
+   "find": "On the upper chest, in the gap between the first and second ribs, about two thumb-widths out from the middle of the breastbone."
+  },
+  "reason": "WHO puts it 2 thumb-widths from the midline. 'Two finger-widths' is about 1.5, so it lands too close to the breastbone. Rib gap and place are correct. Fresh source agrees: 1st rib gap, 2 cun from the midline, and lists cough and chest tightness.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House KD 26",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/kd26",
+   "agrees": true
+  }
+ },
+ {
+  "code": "KI27",
+  "verdict": "fix",
+  "fixes": {
+   "find": "On the upper chest, in the dip just under the collarbone, about two thumb-widths out from the middle of the breastbone."
+  },
+  "reason": "WHO puts it 2 thumb-widths from the midline. 'Two finger-widths' is about 1.5. Fresh source agrees: lower border of the collarbone, 2 cun lateral, and lists cough and chest tightness.",
+  "freshSource": {
+   "id": "yyh",
+   "name": "Yin Yang House KD 27",
+   "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/kd27",
+   "agrees": true
+  }
+ }
+]

@@ -1,0 +1,1427 @@
+[
+ {
+  "code": "ST23",
+  "pinyin": "Taiyi",
+  "english": "Supreme Unity",
+  "region": "abdomen",
+  "view": "torso-front",
+  "find": "On the upper belly, two thumb-widths above the navel and two thumb-widths out to the side of the midline.",
+  "place": {
+   "from": "umbilicus",
+   "up": 2,
+   "out": 2
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "abdominal pain",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "stomach discomfort",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "digestive_health"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House ST 23",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/st23"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto acupuncture points directory ST 23",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/st-23.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "ST24",
+  "pinyin": "Huaroumen",
+  "english": "Slippery Flesh Gate",
+  "region": "abdomen",
+  "view": "torso-front",
+  "find": "On the upper belly, one thumb-width above the navel and two thumb-widths out to the side of the midline.",
+  "place": {
+   "from": "umbilicus",
+   "up": 1,
+   "out": 2
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "stomach pain",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "vomiting",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "nausea",
+   "digestive_health"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House ST 24",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/st24"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto acupuncture points directory ST 24",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/st-24.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "ST25",
+  "pinyin": "Tianshu",
+  "english": "Celestial Pivot",
+  "region": "abdomen",
+  "view": "torso-front",
+  "find": "On the belly, level with the navel and two thumb-widths out to the side of it.",
+  "place": {
+   "from": "umbilicus",
+   "out": 2
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "diarrhea",
+    "sources": [
+     "yyh",
+     "dalberto",
+     "tcmwiki"
+    ]
+   },
+   {
+    "text": "constipation",
+    "sources": [
+     "yyh",
+     "dalberto",
+     "tcmwiki"
+    ]
+   },
+   {
+    "text": "abdominal pain",
+    "sources": [
+     "yyh",
+     "dalberto",
+     "tcmwiki"
+    ]
+   },
+   {
+    "text": "bloating",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "painful periods",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "digestive_health",
+   "constipation",
+   "menstrual_cramps"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House ST 25",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/st25"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto acupuncture points directory ST 25",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/st-25.php"
+   },
+   {
+    "id": "tcmwiki",
+    "name": "TCM Wiki ST25",
+    "url": "https://tcmwiki.com/wiki/st25"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "ST26",
+  "pinyin": "Wailing",
+  "english": "Outer Mound",
+  "region": "abdomen",
+  "view": "torso-front",
+  "find": "On the lower belly, one thumb-width below the navel and two thumb-widths out to the side of the midline.",
+  "place": {
+   "from": "umbilicus",
+   "down": 1,
+   "out": 2
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [
+   "pregnancy"
+  ],
+  "pregnancy": true,
+  "indications": [
+   {
+    "text": "abdominal pain",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "painful periods",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "irregular periods",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "menstrual_cramps",
+   "digestive_health"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House ST 26",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/st26"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto acupuncture points directory ST 26",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/st-26.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": "",
+  "pregnancyBasis": "region:lower-abdomen"
+ },
+ {
+  "code": "ST27",
+  "pinyin": "Daju",
+  "english": "Great Gigantic",
+  "region": "abdomen",
+  "view": "torso-front",
+  "find": "On the lower belly, two thumb-widths below the navel and two thumb-widths out to the side of the midline.",
+  "place": {
+   "from": "umbilicus",
+   "down": 2,
+   "out": 2
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [
+   "pregnancy"
+  ],
+  "pregnancy": true,
+  "indications": [
+   {
+    "text": "bloating",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "abdominal pain",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "irregular periods",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "digestive_health"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House ST 27",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/st27"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto acupuncture points directory ST 27",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/st-27.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": "",
+  "pregnancyBasis": "region:lower-abdomen"
+ },
+ {
+  "code": "ST28",
+  "pinyin": "Shuidao",
+  "english": "Waterway",
+  "region": "abdomen",
+  "view": "torso-front",
+  "find": "On the lower belly, three thumb-widths below the navel and two thumb-widths out to the side of the midline.",
+  "place": {
+   "from": "umbilicus",
+   "down": 3,
+   "out": 2
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [
+   "pregnancy"
+  ],
+  "pregnancy": true,
+  "indications": [
+   {
+    "text": "difficulty urinating",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House ST 28",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/st28"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto acupuncture points directory ST 28",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/st-28.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": "",
+  "pregnancyBasis": "region:lower-abdomen"
+ },
+ {
+  "code": "ST29",
+  "pinyin": "Guilai",
+  "english": "Return",
+  "region": "abdomen",
+  "view": "torso-front",
+  "find": "On the lower belly, four thumb-widths below the navel and two thumb-widths out to the side of the midline, just above the pubic bone.",
+  "place": {
+   "from": "umbilicus",
+   "down": 4,
+   "out": 2
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "circle",
+  "cautions": [
+   "pregnancy"
+  ],
+  "pregnancy": true,
+  "indications": [
+   {
+    "text": "irregular periods",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "painful periods",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "menstrual_cramps"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House ST 29",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/st29"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto acupuncture points directory ST 29",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/st-29.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": "",
+  "pregnancyBasis": "region:lower-abdomen"
+ },
+ {
+  "code": "ST30",
+  "pinyin": "Qichong",
+  "english": "Rushing Qi",
+  "region": "groin",
+  "view": "torso-front",
+  "find": "In the crease where the lower belly meets the thigh, level with the top of the pubic bone and two thumb-widths out from the midline. Feel for the pulse and press beside it.",
+  "place": {
+   "from": "pubic_symphysis_top",
+   "out": 2
+  },
+  "selfCare": "gentle",
+  "avoidReason": "",
+  "technique": "gentle",
+  "cautions": [
+   "pregnancy",
+   "pulse"
+  ],
+  "pregnancy": true,
+  "indications": [
+   {
+    "text": "abdominal pain",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "painful periods",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "irregular periods",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "menstrual_cramps"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House ST 30",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/st30"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto acupuncture points directory ST 30",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/st-30.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": "",
+  "pregnancyBasis": "region:lower-abdomen"
+ },
+ {
+  "code": "ST31",
+  "pinyin": "Biguan",
+  "english": "Thigh Joint",
+  "region": "thigh",
+  "view": "leg-front",
+  "find": "On the upper front of the thigh, in the soft dip just below the hip bone's front point, level with the top of the pubic bone.",
+  "place": {
+   "line": "ST",
+   "from": "patella_base",
+   "cun": 18
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "thigh pain",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "leg weakness",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "hip_leg_pain"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House ST 31",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/st31"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto acupuncture points directory ST 31",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/st-31.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "ST32",
+  "pinyin": "Futu",
+  "english": "Crouching Rabbit",
+  "region": "thigh",
+  "view": "leg-front",
+  "find": "On the front-outer thigh, about six thumb-widths above the top of the kneecap, on the line toward the hip bone's front point.",
+  "place": {
+   "line": "ST",
+   "from": "patella_base",
+   "cun": 6
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "knead",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "knee pain",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "low back pain",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "knee weakness",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "knee_pain",
+   "low_back_pain"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House ST 32",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/st32"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto acupuncture points directory ST 32",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/st-32.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "ST33",
+  "pinyin": "Yinshi",
+  "english": "Yin Market",
+  "region": "thigh",
+  "view": "leg-front",
+  "find": "On the front-outer thigh, about three thumb-widths above the top of the kneecap, just outside the large thigh tendon.",
+  "place": {
+   "line": "ST",
+   "from": "patella_base",
+   "cun": 3
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "knead",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "knee pain",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "leg weakness",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "knee_pain"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House ST 33",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/st33"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto acupuncture points directory ST 33",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/st-33.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "ST34",
+  "pinyin": "Liangqiu",
+  "english": "Beam Hill",
+  "region": "thigh",
+  "view": "leg-front",
+  "find": "On the front-outer thigh, about two thumb-widths above the top of the kneecap, in the groove between the thigh tendon and the outer thigh muscle.",
+  "place": {
+   "line": "ST",
+   "from": "patella_base",
+   "cun": 2
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "knead",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "knee pain",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "stomach pain",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "vomiting",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "knee_pain",
+   "nausea",
+   "digestive_health"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House ST 34",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/st34"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto acupuncture points directory ST 34",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/st-34.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "ST35",
+  "pinyin": "Dubi",
+  "english": "Calf's Nose",
+  "region": "knee",
+  "view": "leg-front",
+  "find": "With the knee bent, in the hollow just below the kneecap on its outer side, beside the thick tendon under the kneecap.",
+  "place": {
+   "at": "patella_lateral_hollow"
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "knee pain",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "knee_pain"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House ST 35",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/st35"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto acupuncture points directory ST 35",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/st-35.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "ST36",
+  "pinyin": "Zusanli",
+  "english": "Leg Three Miles",
+  "region": "lower leg",
+  "view": "leg-front",
+  "find": "On the front of the lower leg, about four finger-widths below the kneecap's lower edge and one finger-width outside the shin bone, in the muscle.",
+  "place": {
+   "line": "ST",
+   "from": "patella_lateral_hollow",
+   "cun": -3
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "nausea",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "low energy",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "stomach pain",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "diarrhea",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "nausea",
+   "energy_fatigue",
+   "digestive_health"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House ST 36",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/st36"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto acupuncture points directory ST 36",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/st-36.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "ST37",
+  "pinyin": "Shangjuxu",
+  "english": "Upper Great Hollow",
+  "region": "lower leg",
+  "view": "leg-front",
+  "find": "On the front of the lower leg, about six thumb-widths below the knee hollow and one finger-width outside the shin bone, in the muscle.",
+  "place": {
+   "line": "ST",
+   "from": "patella_lateral_hollow",
+   "cun": -6
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "diarrhea",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "abdominal pain",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "bloating",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "digestive_health"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House ST 37",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/st37"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto acupuncture points directory ST 37",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/st-37.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "ST38",
+  "pinyin": "Tiaokou",
+  "english": "Ribbon Opening",
+  "region": "lower leg",
+  "view": "leg-front",
+  "find": "On the front of the lower leg, about eight thumb-widths below the knee hollow, one finger-width outside the shin bone, roughly midway to the ankle.",
+  "place": {
+   "line": "ST",
+   "from": "patella_lateral_hollow",
+   "cun": -8
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "shoulder pain",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "lower leg numbness",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "shoulder_tension"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House ST 38",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/st38"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto acupuncture points directory ST 38",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/st-38.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "ST39",
+  "pinyin": "Xiajuxu",
+  "english": "Lower Great Hollow",
+  "region": "lower leg",
+  "view": "leg-front",
+  "find": "On the front of the lower leg, about nine thumb-widths below the knee hollow and one finger-width outside the shin bone, a little below the midpoint.",
+  "place": {
+   "line": "ST",
+   "from": "patella_lateral_hollow",
+   "cun": -9
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "abdominal pain",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "diarrhea",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "digestive_health"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House ST 39",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/st39"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto acupuncture points directory ST 39",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/st-39.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "ST40",
+  "pinyin": "Fenglong",
+  "english": "Abundant Bulge",
+  "region": "lower leg",
+  "view": "leg-front",
+  "find": "On the front-outer lower leg, halfway between the knee and the ankle bone, about two finger-widths outside the sharp edge of the shin bone, in the muscle.",
+  "place": {
+   "line": "ST",
+   "from": "lateral_malleolus",
+   "cun": 8
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "cough",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "dizziness",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "cough_breathing"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House ST 40",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/st40"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto acupuncture points directory ST 40",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/st-40.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "ST41",
+  "pinyin": "Jiexi",
+  "english": "Ravine Divide",
+  "region": "ankle",
+  "view": "foot-top",
+  "find": "On the front of the ankle, in the middle of the crease where foot meets leg, in the hollow between the two big tendons. They stand out when you lift your toes.",
+  "place": {
+   "at": "ankle_front_crease_mid"
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "ankle pain",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "headache",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "dizziness",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "constipation",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "foot_ankle_strain",
+   "headache",
+   "constipation"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House ST 41",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/st41"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto acupuncture points directory ST 41",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/st-41.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "ST42",
+  "pinyin": "Chongyang",
+  "english": "Rushing Yang",
+  "region": "foot",
+  "view": "foot-top",
+  "find": "On the top of the foot, at the highest part of the arch, where you can feel a pulse. Press gently beside the pulse, not on it.",
+  "place": {
+   "at": "met_base_2_3"
+  },
+  "selfCare": "gentle",
+  "avoidReason": "",
+  "technique": "gentle",
+  "cautions": [
+   "pulse"
+  ],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "toothache",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "foot pain",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "toothache_jaw",
+   "foot_ankle_strain"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House ST 42",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/st42"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto acupuncture points directory ST 42",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/st-42.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "ST43",
+  "pinyin": "Xiangu",
+  "english": "Sunken Valley",
+  "region": "foot",
+  "view": "foot-top",
+  "find": "On the top of the foot, in the groove between the bones leading to the second and third toes, in the hollow just behind the toe knuckle.",
+  "place": {
+   "from": "web_2_3",
+   "up": 1.5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "bloating",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "abdominal pain",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "foot pain",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "digestive_health",
+   "foot_ankle_strain"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House ST 43",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/st43"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto acupuncture points directory ST 43",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/st-43.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "ST44",
+  "pinyin": "Neiting",
+  "english": "Inner Courtyard",
+  "region": "foot",
+  "view": "foot-top",
+  "find": "On the top of the foot, just behind the web between the second and third toes, in the small dip beside the base of the second toe.",
+  "place": {
+   "from": "web_2_3",
+   "up": 0.5
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "press",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "toothache",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "sore throat",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "stomach pain",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   },
+   {
+    "text": "diarrhea",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "toothache_jaw",
+   "digestive_health"
+  ],
+  "whoMatch": false,
+  "whoNote": "WHO 2008 entry text for ST44 is missing from the scan (title only). Location taken from two independent sources (Yin Yang House: proximal to the web margin between toes 2 and 3, in a depression distal-lateral to the second metatarsophalangeal joint; D'Alberto: at the web edge in the depression beside the base of the second toe, outer side).",
+  "sources": [
+   {
+    "id": "yyh",
+    "name": "Yin Yang House ST 44",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/st44"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto acupuncture points directory ST 44",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/st-44.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ },
+ {
+  "code": "ST45",
+  "pinyin": "Lidui",
+  "english": "Strict Exchange",
+  "region": "foot",
+  "view": "foot-top",
+  "find": "On the second toe, at the outer corner of the nail, right where the side edge meets the base of the nail.",
+  "place": {
+   "from": "toe2_nail_corner_outer",
+   "up": 0.1
+  },
+  "selfCare": "ok",
+  "avoidReason": "",
+  "technique": "nail",
+  "cautions": [],
+  "pregnancy": false,
+  "indications": [
+   {
+    "text": "toothache",
+    "sources": [
+     "yyh",
+     "dalberto"
+    ]
+   }
+  ],
+  "tags": [
+   "toothache_jaw"
+  ],
+  "whoMatch": true,
+  "whoNote": "",
+  "sources": [
+   {
+    "id": "who2008",
+    "name": "WHO Standard Acupuncture Point Locations (2008)"
+   },
+   {
+    "id": "yyh",
+    "name": "Yin Yang House ST 45",
+    "url": "https://www.yinyanghouse.com/theory/acupuncturepoints/st45"
+   },
+   {
+    "id": "dalberto",
+    "name": "Attilio D'Alberto acupuncture points directory ST 45",
+    "url": "https://www.attiliodalberto.com/acupuncture/points/st-45.php"
+   }
+  ],
+  "disputed": "",
+  "appFix": ""
+ }
+]
