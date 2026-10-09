@@ -4,13 +4,13 @@ export type TechniqueId = 'circle' | 'press' | 'knead' | 'nail' | 'gentle' | 'ba
 export type CautionId = 'pregnancy' | 'pulse' | 'eye' | 'throat';
 export type SelfCare = 'ok' | 'gentle' | 'avoid';
 
-export const TECHNIQUES: Record<TechniqueId, { label: string; how: string; time: string }> = {
-  circle: { label: 'Small circles', how: 'Press with a thumb or fingertip and make small, slow circles.', time: '1 minute' },
-  press: { label: 'Steady press', how: 'Press steadily with a thumb or fingertip and hold.', time: '30–60 seconds' },
-  knead: { label: 'Knead', how: 'Squeeze and knead the muscle between your thumb and fingers.', time: '1 minute' },
-  nail: { label: 'Nail press', how: 'Press with the edge of a fingernail, on and off.', time: '10–20 presses' },
-  gentle: { label: 'Light touch', how: 'Light fingertip pressure in tiny circles. Never press hard here.', time: '30 seconds' },
-  ball: { label: 'Tennis ball', how: 'Lean against a tennis ball on a wall and roll gently, or ask someone to press.', time: '1 minute' },
+export const TECHNIQUES: Record<TechniqueId, { label: string; how: string; time: string; seconds: number }> = {
+  circle: { label: 'Small circles', how: 'Press with a thumb or fingertip and make small, slow circles.', time: '1 minute', seconds: 60 },
+  press: { label: 'Steady press', how: 'Press steadily with a thumb or fingertip and hold.', time: '30–60 seconds', seconds: 45 },
+  knead: { label: 'Knead', how: 'Squeeze and knead the muscle between your thumb and fingers.', time: '1 minute', seconds: 60 },
+  nail: { label: 'Nail press', how: 'Press with the edge of a fingernail, on and off.', time: '10–20 presses', seconds: 30 },
+  gentle: { label: 'Light touch', how: 'Light fingertip pressure in tiny circles. Never press hard here.', time: '30 seconds', seconds: 30 },
+  ball: { label: 'Tennis ball', how: 'Lean against a tennis ball on a wall and roll gently, or ask someone to press.', time: '1 minute', seconds: 60 },
 };
 
 /** Applies to every point; shown once on the point page, not repeated per point. */
@@ -31,6 +31,17 @@ export const CAUTIONS: Record<CautionId, string> = {
 /** Shown once on the Safety page and linked from every point. */
 export const REVIEW_STATEMENT =
   'Point locations are checked against the WHO Standard Acupuncture Point Locations (2008) and independent references, and re-checked by a second reviewer. They have not been reviewed by a licensed acupuncturist. This is wellness information, not medical advice.';
+
+/** One line, shown on routines whose symptoms can sometimes be serious. Full list on the Safety page. */
+export const URGENT_LINE = 'Sudden severe pain, chest pain, trouble breathing, fainting or confusion? Get medical help first.';
+
+export const URGENT_SIGNS = [
+  'A sudden, severe or "worst ever" headache',
+  'Headache with fever, a stiff neck, confusion, weakness or numbness, or after a head injury',
+  'Chest pain, pressure or trouble breathing',
+  'Severe belly pain, or vomiting that will not stop',
+  'Fainting, or a sudden change in vision or speech',
+];
 
 export const CHANNELS: Record<string, string> = {
   LU: 'Lung', LI: 'Large Intestine', ST: 'Stomach', SP: 'Spleen', HT: 'Heart', SI: 'Small Intestine',

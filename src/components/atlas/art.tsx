@@ -3,20 +3,20 @@ import type { ReactNode } from 'react';
 // New atlas drawings. Every shape is drawn around the landmark coordinates in ./geometry.ts,
 // so a placed dot always sits on the structure it is measured from.
 
-const SKIN = '#F3D9C4';
-const SHADE = '#E6C0A5';
-const LINE = '#B58467';
-const FAINT = '#D2A88E';
-const LABEL = '#8A6650';
-const NAIL = '#FAEDE3';
-const HAIR = '#8f7563';
+const SKIN = 'var(--atlas-skin)';
+const SHADE = 'var(--atlas-shade)';
+const LINE = 'var(--atlas-line)';
+const FAINT = 'var(--atlas-faint)';
+const LABEL = 'var(--atlas-label)';
+const NAIL = 'var(--atlas-nail)';
+const HAIR = 'var(--atlas-hair)';
 
 const stroke = { stroke: LINE, strokeWidth: 2, strokeLinejoin: 'round', strokeLinecap: 'round' } as const;
 const faint = { stroke: FAINT, strokeWidth: 1.6, fill: 'none', strokeLinecap: 'round' } as const;
 
 function Label({ x, y, children, anchor = 'start' }: { x: number; y: number; children: ReactNode; anchor?: 'start' | 'middle' | 'end' }) {
   return (
-    <text x={x} y={y} fontSize={11} fill={LABEL} textAnchor={anchor} fontFamily="Manrope, sans-serif" fontWeight={600}>
+    <text data-lm x={x} y={y} fontSize={11} fill={LABEL} textAnchor={anchor} fontFamily="inherit" fontWeight={600} stroke="var(--atlas-paper)" strokeWidth={3} paintOrder="stroke" strokeLinejoin="round">
       {children}
     </text>
   );
@@ -50,7 +50,7 @@ function Guide({ y, w, children }: { y: number; w: number; children: ReactNode }
   return (
     <g>
       <line x1={4} x2={w - 4} y1={y} y2={y} stroke={LINE} strokeOpacity={0.45} strokeWidth={1} strokeDasharray="4 4" />
-      <text x={48} y={y - 3} fontSize={10.5} fill={LABEL} fontFamily="Manrope, sans-serif" fontWeight={700}>{children}</text>
+      <text data-lm x={48} y={y - 3} fontSize={10.5} fill={LABEL} fontFamily="inherit" fontWeight={700} stroke="var(--atlas-paper)" strokeWidth={3} paintOrder="stroke">{children}</text>
     </g>
   );
 }
@@ -245,7 +245,7 @@ export function HeadSide() {
       <ellipse cx={200} cy={190} rx={14} ry={34} fill={SKIN} stroke={LINE} strokeWidth={1.8} />
       <path d="M198 168 Q210 190 198 212" {...faint} />
       <path d="M92 152 Q110 144 128 152" fill="none" stroke={LINE} strokeWidth={3} strokeLinecap="round" />
-      <ellipse cx={112} cy={170} rx={12} ry={6} fill="#fff" stroke={LINE} strokeWidth={1.4} />
+      <ellipse cx={112} cy={170} rx={12} ry={6} fill="var(--atlas-eye)" stroke={LINE} strokeWidth={1.4} />
       <circle cx={110} cy={170} r={4} fill={LINE} />
       <path d="M76 262 Q92 270 104 264" fill="none" stroke={LINE} strokeWidth={2} strokeLinecap="round" />
       <path d="M100 302 Q150 300 198 272" {...faint} />
@@ -271,7 +271,7 @@ export function HeadBack() {
       <path d="M40 360 Q60 300 110 280 L100 230 L200 230 L190 280 Q240 300 260 360 Z" fill={SKIN} {...stroke} />
       <ellipse cx={44} cy={150} rx={12} ry={28} fill={SKIN} {...stroke} />
       <ellipse cx={256} cy={150} rx={12} ry={28} fill={SKIN} {...stroke} />
-      <ellipse cx={150} cy={130} rx={106} ry={112} fill="#8f7563" stroke={LINE} strokeWidth={2} />
+      <ellipse cx={150} cy={130} rx={106} ry={112} fill={HAIR} stroke={LINE} strokeWidth={2} />
       <path d="M54 170 Q66 214 100 222 Q150 212 200 222 Q234 214 246 170 Q240 230 200 238 L100 238 Q60 230 54 170 Z" fill={SKIN} stroke="none" />
       <path d="M60 178 Q150 196 240 178" fill="none" stroke={LINE} strokeWidth={1.6} strokeDasharray="5 4" />
       <Bump x={150} y={120} r={7} />
@@ -292,10 +292,10 @@ export function HeadTop() {
     <>
       <ellipse cx={30} cy={210} rx={14} ry={30} fill={SKIN} {...stroke} />
       <ellipse cx={270} cy={210} rx={14} ry={30} fill={SKIN} {...stroke} />
-      <ellipse cx={150} cy={240} rx={124} ry={204} fill="#8f7563" stroke={LINE} strokeWidth={2} />
+      <ellipse cx={150} cy={240} rx={124} ry={204} fill={HAIR} stroke={LINE} strokeWidth={2} />
       <path d="M40 120 Q150 30 260 120 Q240 70 150 40 Q60 70 40 120 Z" fill={SKIN} stroke={LINE} strokeWidth={1.6} />
-      <path d="M150 40 L150 440" stroke="#f3e3d6" strokeOpacity={0.6} strokeWidth={1.4} strokeDasharray="6 6" />
-      <path d="M30 226 L270 226" stroke="#f3e3d6" strokeOpacity={0.5} strokeWidth={1.2} strokeDasharray="4 6" />
+      <path d="M150 40 L150 440" stroke="var(--atlas-paper)" strokeOpacity={0.6} strokeWidth={1.4} strokeDasharray="6 6" />
+      <path d="M30 226 L270 226" stroke="var(--atlas-paper)" strokeOpacity={0.5} strokeWidth={1.2} strokeDasharray="4 6" />
       <path d="M150 20 L140 36 L160 36 Z" fill={LINE} />
       <Label x={150} y={14} anchor="middle">face this way</Label>
       <Label x={150} y={464} anchor="middle">back of the head</Label>
@@ -495,7 +495,7 @@ const SPINE_Y = [70, 87, 104, 121, 138, 155, 172, 189, 206, 223, 240, 257, 274, 
 export function BackArt() {
   return (
     <>
-      <path d="M110 0 L190 0 L190 24 Q150 34 110 24 Z" fill="#7a6252" opacity={0.85} />
+      <path d="M110 0 L190 0 L190 24 Q150 34 110 24 Z" fill={HAIR} opacity={0.85} />
       <path d="M126 24 L124 62 C90 74 40 82 26 118 C14 160 24 200 40 240 C60 290 84 330 90 360 C80 400 70 450 62 520 C66 560 90 600 150 604 C210 600 234 560 238 520 C230 450 220 400 210 360 C216 330 240 290 260 240 C276 200 286 160 274 118 C260 82 210 74 176 62 L174 24 Z" fill={SKIN} {...stroke} />
       {/* shoulder blades */}
       <path d="M108 122 L52 104 Q44 130 62 160 Q80 190 112 200 Q106 165 108 122 Z" {...faint} strokeWidth={2} />
@@ -541,8 +541,8 @@ export function FaceFront() {
       {/* brows, eyes */}
       <path d="M86 130 Q108 114 134 128" fill="none" stroke={LINE} strokeWidth={3.4} strokeLinecap="round" />
       <path d="M214 130 Q192 114 166 128" fill="none" stroke={LINE} strokeWidth={3.4} strokeLinecap="round" />
-      <ellipse cx={110} cy={152} rx={20} ry={9} fill="#fff" stroke={LINE} strokeWidth={1.6} />
-      <ellipse cx={190} cy={152} rx={20} ry={9} fill="#fff" stroke={LINE} strokeWidth={1.6} />
+      <ellipse cx={110} cy={152} rx={20} ry={9} fill="var(--atlas-eye)" stroke={LINE} strokeWidth={1.6} />
+      <ellipse cx={190} cy={152} rx={20} ry={9} fill="var(--atlas-eye)" stroke={LINE} strokeWidth={1.6} />
       <circle cx={110} cy={152} r={6} fill={LINE} />
       <circle cx={190} cy={152} r={6} fill={LINE} />
       {/* nose */}

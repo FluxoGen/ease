@@ -1,43 +1,71 @@
-import { ShieldCheck } from 'lucide-react';
+import { ShieldAlert } from 'lucide-react';
 import { Toaster } from 'sonner';
-import { Link, Outlet, useLocation } from 'react-router-dom';
+import { useEffect } from 'react';
+import { Link, Outlet, useLocation, useNavigationType } from 'react-router-dom';
+import BottomNav from './components/BottomNav';
 import EaseLogo from './components/EaseLogo';
 import Footer from './components/Footer';
 import PregnancyGate from './components/PregnancyGate';
+import Chip from './components/ui/Chip';
 import { PregnancyContext } from './context/PregnancyContext';
+import { NAV, type NavState } from './data/nav';
 import { usePregnancyStatus } from './hooks/usePregnancyStatus';
 
 export default function App() {
   const { status, setStatus } = usePregnancyStatus();
-  const location = useLocation();
+  const { pathname, state } = useLocation();
+  const navType = useNavigationType();
+  // New pages open at the top; back/forward keeps the browser's own scroll position.
+  useEffect(() => {
+    if (navType !== 'POP') window.scrollTo(0, 0);
+  }, [pathname, navType]);
 
   return (
     <PregnancyContext.Provider value={{ status, setStatus }}>
-      <div className="flex min-h-full flex-col">
-        <header className="sticky top-0 z-10 flex items-center justify-between border-b border-charcoal/10 bg-sand/90 px-4 py-3 backdrop-blur sm:px-6 dark:border-ivory/10 dark:bg-charcoal-soft/90">
-          <Link to="/" aria-label="Ease home">
-            <EaseLogo height={22} className="dark:hidden" />
-            <EaseLogo height={22} ink="#F6F3EC" className="hidden dark:block" />
-          </Link>
-          <Link
-            to="/safety"
-            state={{ from: location.pathname !== '/safety' ? location.pathname : undefined }}
-            className="flex items-center gap-1.5 text-sm text-muted hover:text-charcoal dark:text-muted-dark dark:hover:text-ivory"
-          >
-            <ShieldCheck size={16} />
-            Safety info
-          </Link>
+      <div className="flex min-h-dvh flex-col">
+        <header className="sticky top-0 z-20 border-b border-line bg-paper/95 backdrop-blur-xl">
+          <div className="mx-auto flex h-14 w-full max-w-5xl items-center justify-between gap-4 px-4 wide:h-16 md:px-8">
+            <Link to="/" aria-label="Ease home" className="-mx-2 flex min-h-11 shrink-0 items-center px-2">
+              <EaseLogo height={24} ink="var(--ink)" dot="var(--accent)" />
+            </Link>
+
+            <nav aria-label="Main" className="hidden items-center gap-1 wide:flex">
+              {NAV.map(({ to, label, icon: Icon, match }) => {
+                const active = match(pathname, state as NavState | null);
+                return (
+                  <Link
+                    key={to}
+                    to={to}
+                    aria-current={active ? 'page' : undefined}
+                    className={`flex min-h-11 items-center gap-2 rounded-full px-4 text-sm font-semibold transition ${active ? 'bg-card-2 text-ink' : 'text-ink-2 hover:bg-card-2/60 hover:text-ink'}`}
+                  >
+                    <Icon size={18} aria-hidden="true" />
+                    {label}
+                  </Link>
+                );
+              })}
+            </nav>
+
+            <div className="flex min-w-[2rem] justify-end">
+              {status === 'yes' && (
+                <Link to="/safety" aria-label="Pregnancy mode is on. Open safety settings">
+                  <Chip tone="caution" icon={ShieldAlert}>Pregnancy mode</Chip>
+                </Link>
+              )}
+            </div>
+          </div>
         </header>
 
         <PregnancyGate open={status === 'unset'} />
 
-        <main className="mx-auto w-full max-w-xl flex-1 px-4 py-6 sm:px-6">
+        <main className="mx-auto w-full max-w-5xl flex-1 px-4 pb-10 pt-5 md:px-8 md:pt-8">
           <Outlet />
         </main>
 
         <Footer />
+        <BottomNav />
       </div>
-      <Toaster position="bottom-center" richColors closeButton />
+      <Toaster position="top-center" closeButton offset={72} toastOptions={{ className: '!rounded-2xl !border !border-line !bg-card !text-ink !shadow-pop' }} />
     </PregnancyContext.Provider>
   );
 }

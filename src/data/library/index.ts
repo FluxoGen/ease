@@ -1,4 +1,4 @@
-import type { ViewId, XY } from '../../components/atlas/geometry';
+import { VIEWS, type ViewId, type XY } from '../../components/atlas/geometry';
 import { resolvePlace, type Place } from '../../components/atlas/place';
 import raw from './points.json';
 import type { CautionId, SelfCare, TechniqueId } from './shared';
@@ -61,4 +61,12 @@ export function pointXY(p: LibraryPoint): XY | null {
   }
   xyCache.set(p.id, xy);
   return xy;
+}
+
+/** Midline points (belly, spine, face) are pressed once; the rest on both sides. */
+export function sidesOf(p: LibraryPoint): 1 | 2 {
+  if (p.channel === 'CV' || p.channel === 'GV') return 1;
+  const xy = pointXY(p);
+  const mid = VIEWS[p.view].mirrorX;
+  return xy && mid !== undefined && Math.abs(xy[0] - mid) <= 3 ? 1 : 2;
 }

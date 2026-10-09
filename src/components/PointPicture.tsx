@@ -20,5 +20,5 @@ export default function PointPicture({ point, className, compact, drawing }: Poi
   }
   const xy = pointXY(point);
   if (!xy) return null;
-  return <AtlasDiagram view={point.view} marks={point.marks ?? [xy]} compact={compact} className={className} />;
+  return <AtlasDiagram view={point.view} marks={point.marks ?? [xy]} compact={compact} className={className} tone={point.selfCare === 'avoid' ? 'stop' : 'press'} />;
 }

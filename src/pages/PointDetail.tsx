@@ -1,191 +1,248 @@
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react';
-import { AlertTriangle, BadgeCheck, ChevronDown, ChevronLeft, Info, Scale } from 'lucide-react';
+import { AlertTriangle, ArrowRight, BadgeCheck, ChevronDown, ChevronLeft, Hand, Info, Scale, ShieldAlert, Timer } from 'lucide-react';
 import { useState } from 'react';
 import { Link, Navigate, useLocation, useParams } from 'react-router-dom';
 import { VIEWS } from '../components/atlas/geometry';
 import PointPicture from '../components/PointPicture';
-import { photoFor } from '../data/library/photos';
+import PressSheet from '../components/PressSheet';
+import Chip, { type ChipTone } from '../components/ui/Chip';
+import { Button } from '../components/ui/Button';
 import { usePregnancy } from '../context/PregnancyContext';
-import { findPoint } from '../data/library';
+import { findPoint, libraryById, sidesOf } from '../data/library';
+import { photoFor } from '../data/library/photos';
 import { CAUTIONS, CHANNELS, PRESSING_RULES, SOURCE_SITES, TECHNIQUES } from '../data/library/shared';
-import { routines } from '../data/routines';
+import { routines, routinesById } from '../data/routines';
+import { usePageTitle } from '../hooks/usePageTitle';
 
-const EVIDENCE = {
-  who: { icon: BadgeCheck, text: 'Location matches the WHO standard', tone: 'text-[#3c7a52] dark:text-[#8fd1a6]' },
-  refs: { icon: Scale, text: 'Location from 2+ independent references', tone: 'text-[#3f6b8a] dark:text-[#9cc3e0]' },
-  disputed: { icon: Info, text: 'References differ on the exact spot', tone: 'text-amber-700 dark:text-amber-300' },
-  va: { icon: BadgeCheck, text: 'From a U.S. VA acupressure handout', tone: 'text-[#3c7a52] dark:text-[#8fd1a6]' },
-} as const;
+const EVIDENCE: Record<string, { icon: typeof BadgeCheck; tone: ChipTone; text: string }> = {
+  who: { icon: BadgeCheck, tone: 'ok', text: 'Location matches WHO standard' },
+  refs: { icon: Scale, tone: 'info', text: 'Cross-checked references' },
+  disputed: { icon: Info, tone: 'caution', text: 'References differ' },
+  va: { icon: BadgeCheck, tone: 'info', text: 'VA handout' },
+};
+
+function Section({ title, children }: { title: string; children: React.ReactNode }) {
+  return (
+    <section className="mt-7">
+      <h2 className="mb-2 text-xs font-bold uppercase tracking-wider text-ink-2">{title}</h2>
+      {children}
+    </section>
+  );
+}
 
 export default function PointDetail() {
   const { pointId } = useParams<{ pointId: string }>();
   const location = useLocation();
   const { status, setStatus } = usePregnancy();
-  const point = pointId ? findPoint(pointId) : undefined;
   const [showDrawing, setShowDrawing] = useState(false);
+  const [pressing, setPressing] = useState(false);
+  const point = pointId ? findPoint(pointId) : undefined;
+  usePageTitle(point ? `${point.code} ${point.pinyin}` : undefined);
 
   if (!point) return <Navigate to="/points" replace />;
   if (pointId !== point.id) return <Navigate to={`/point/${point.id}`} replace state={location.state} />;
 
   const blocked = status === 'yes' && point.pregnancy;
-  const navState = location.state as { fromRoutine?: string; fromBodyMap?: boolean; fromAllPoints?: boolean } | null;
-  const fallbackRoutine = routines.find((r) => r.pointIds.includes(point.id));
-  const backTo = navState?.fromBodyMap
-    ? '/map'
-    : navState?.fromAllPoints
-      ? '/points'
-      : navState?.fromRoutine
-        ? `/routine/${navState.fromRoutine}`
-        : fallbackRoutine
-          ? `/routine/${fallbackRoutine.id}`
-          : '/points';
+  const navState = location.state as { fromRoutine?: string; fromAllPoints?: boolean; fromHome?: boolean } | null;
+  const routine = (navState?.fromRoutine && routinesById[navState.fromRoutine]) || (navState?.fromAllPoints || navState?.fromHome ? undefined : routines.find((r) => r.pointIds.includes(point.id)));
+  const back = routine
+    ? { to: `/routine/${routine.id}`, label: routine.title }
+    : { to: navState?.fromAllPoints ? '/points' : '/', label: navState?.fromAllPoints ? 'Search' : 'Home' };
+
+  // Next point in this routine, skipping anything pregnancy mode hides.
+  const nextId = routine?.pointIds.slice(routine.pointIds.indexOf(point.id) + 1).find((id) => {
+    const p = libraryById[id];
+    return p && !(status === 'yes' && p.pregnancy);
+  });
+  const nextPoint = nextId ? libraryById[nextId] : undefined;
+  const next = nextPoint && routine ? { to: `/point/${nextPoint.id}`, label: nextPoint.code, state: { fromRoutine: routine.id } } : undefined;
+
   const ev = EVIDENCE[point.evidence];
   const tech = point.technique ? TECHNIQUES[point.technique] : null;
-  const photo = Boolean(photoFor(point));
+  const sides = sidesOf(point);
+  const hasPhoto = Boolean(photoFor(point));
   const usedIn = routines.filter((r) => r.pointIds.includes(point.id));
+  const canPress = point.selfCare !== 'avoid' && !blocked && tech;
 
   return (
     <div>
-      <Link
-        to={backTo}
-        className="mb-3 flex items-center gap-1 text-sm text-muted hover:text-charcoal dark:text-muted-dark dark:hover:text-ivory"
-      >
-        <ChevronLeft size={16} />
-        Back
+      <Link to={back.to} className="-ml-2 mb-2 inline-flex min-h-11 items-center gap-1 rounded-full px-2 text-sm font-semibold text-ink-2 hover:text-ink">
+        <ChevronLeft size={18} aria-hidden="true" />
+        {back.label}
       </Link>
 
-      <h1 className="text-2xl font-bold sm:text-3xl">
-        {point.code}
-        <span className="ml-2 text-base font-normal text-muted dark:text-muted-dark">{point.pinyin}</span>
-      </h1>
-      <p className="text-sm text-muted dark:text-muted-dark">
-        {[point.english, CHANNELS[point.channel] + (point.channel === 'EX' ? '' : ' channel')].filter(Boolean).join(' · ')}
-      </p>
-      <p className={`mt-2 flex items-center gap-1.5 text-xs font-semibold ${ev.tone}`}>
-        <ev.icon size={16} />
-        {ev.text}
-        <Link to="/safety#locations" className="font-normal underline underline-offset-2 opacity-80">
-          how we check
-        </Link>
-      </p>
-      {point.reviewed && (
-        <p className="mt-1 flex items-center gap-1.5 text-xs font-semibold text-[#3c7a52] dark:text-[#8fd1a6]">
-          <BadgeCheck size={16} />
-          Reviewed by {point.reviewed.by}, {point.reviewed.date}
-        </p>
+      <header>
+        <div className="flex flex-wrap items-baseline gap-x-3">
+          <h1 className="tnum text-[44px] font-extrabold leading-none tracking-tight lg:text-6xl">{point.code}</h1>
+          <p className="text-lg font-semibold text-ink-2">{point.pinyin}</p>
+        </div>
+        <p className="mt-1.5 text-[15px] text-ink-2">{[point.english, CHANNELS[point.channel] + (point.channel === 'EX' ? '' : ' channel')].filter(Boolean).join(' · ')}</p>
+        <div className="mt-3 flex flex-wrap items-center gap-2">
+          {point.selfCare !== 'avoid' && (
+            <Link to="/safety#locations" aria-label={`${ev.text}. How locations are checked`} className="-my-2.5 inline-flex min-h-11 items-center">
+              <Chip tone={ev.tone} icon={ev.icon}>{ev.text}</Chip>
+            </Link>
+          )}
+          {point.reviewed && <Chip tone="ok" icon={BadgeCheck}>Reviewed by {point.reviewed.by}</Chip>}
+          {point.selfCare === 'gentle' && <Chip tone="caution" icon={Hand}>Light touch</Chip>}
+        </div>
+      </header>
+
+      {point.selfCare === 'avoid' && (
+        <div role="alert" className="mt-4 flex gap-3 rounded-[var(--radius-card)] border border-stop-line bg-stop-tint p-4 text-stop">
+          <ShieldAlert size={22} className="mt-0.5 shrink-0" aria-hidden="true" />
+          <p className="text-[15px] leading-relaxed"><strong>Not for pressing yourself.</strong> {point.avoidReason} Shown for reference only.</p>
+        </div>
       )}
 
-      {blocked ? (
-        <div className="mt-4 flex gap-3 rounded-xl border border-warn-500/40 bg-warn-50 p-4 dark:bg-warn-500/10">
-          <AlertTriangle className="mt-0.5 shrink-0 text-warn-600 dark:text-warn-500" size={20} />
-          <p className="text-sm text-charcoal/80 dark:text-ivory/80">
-            <strong>Traditionally avoided during pregnancy.</strong> Talk to your medical provider before
-            using it. You marked yourself as pregnant or unsure —{' '}
-            <button type="button" className="text-clay-dark underline dark:text-clay" onClick={() => setStatus('no')}>
-              change that
-            </button>{' '}
-            if it's no longer accurate.
-          </p>
-        </div>
-      ) : (
-        <>
-          <figure className="mt-4 overflow-hidden rounded-2xl border border-charcoal/10 bg-[#fbf8f2] dark:border-ivory/10">
-            <figcaption className="flex items-center justify-between px-4 pt-3 text-xs font-semibold uppercase tracking-wide text-[#8A6650]">
-              <span>{photo && !showDrawing ? 'Photo · VA handout' : VIEWS[point.view].label}</span>
-              {photo && (
-                <button type="button" className="normal-case underline underline-offset-2" onClick={() => setShowDrawing((v) => !v)}>
-                  {showDrawing ? 'Show photo' : 'Show drawing'}
-                </button>
-              )}
-            </figcaption>
-            <PointPicture
-              point={point}
-              drawing={showDrawing}
-              className="mx-auto my-2 h-72 w-72 max-w-[calc(100%-2rem)] rounded-xl bg-white"
-            />
-          </figure>
-
-          <h2 className="mt-5 text-lg font-bold">Find it</h2>
-          <p className="mt-1 text-charcoal/80 dark:text-ivory/80">{point.find}</p>
-
-          {point.selfCare === 'avoid' ? (
-            <div className="mt-5 flex gap-3 rounded-xl border border-amber-300/60 bg-amber-50 p-4 text-sm text-amber-900 dark:border-amber-400/30 dark:bg-amber-400/10 dark:text-amber-200">
-              <Info size={20} className="mt-0.5 shrink-0" />
-              <p>
-                <strong>Not for pressing yourself.</strong> {point.avoidReason} Shown for reference only.
+      <div className="mt-5 lg:grid lg:grid-cols-[minmax(0,26rem)_1fr] lg:items-start lg:gap-10">
+        <div className="lg:sticky lg:top-24">
+          {blocked ? (
+            <div className="rounded-[var(--radius-card)] border border-caution-line bg-caution-tint p-5 text-caution">
+              <div className="flex items-center gap-2 font-extrabold"><ShieldAlert size={20} aria-hidden="true" /> Hidden in pregnancy mode</div>
+              <p className="mt-2 text-[15px] leading-relaxed">
+                This point is traditionally avoided during pregnancy. Talk to your medical provider before using it.
               </p>
+              <button type="button" onClick={() => setStatus('no')} className="mt-3 text-sm font-bold underline underline-offset-2">
+                I'm not pregnant. Show it.
+              </button>
             </div>
           ) : (
-            tech && (
-              <>
-                <h2 className="mt-5 text-lg font-bold">How to press</h2>
-                <p className="mt-1 text-charcoal/80 dark:text-ivory/80">
-                  <strong>{tech.label}, {tech.time}.</strong> {tech.how}
-                </p>
-                <ul className="mt-2 list-disc space-y-1 pl-5 text-sm text-charcoal/70 dark:text-ivory/70">
-                  {PRESSING_RULES.map((r) => <li key={r}>{r}</li>)}
-                </ul>
-              </>
-            )
+            <figure className="overflow-hidden rounded-[var(--radius-card)] border border-line bg-atlas-paper shadow-card">
+              <figcaption className="flex flex-wrap items-center justify-between gap-2 px-4 pt-3 text-xs font-bold uppercase tracking-wider text-ink-2">
+                <span>{hasPhoto && !showDrawing ? 'Photo · VA handout' : VIEWS[point.view].label}</span>
+                {hasPhoto && (
+                  <span role="group" aria-label="Picture type" className="flex max-w-full rounded-full bg-card-2 p-0.5 normal-case tracking-normal">
+                    {([false, true] as const).map((d) => (
+                      <button key={String(d)} type="button" aria-pressed={showDrawing === d} onClick={() => setShowDrawing(d)} className={`min-h-11 min-w-0 rounded-full px-3.5 text-xs font-bold ${showDrawing === d ? 'bg-card text-ink shadow-card' : 'text-ink-2'}`}>
+                        {d ? 'Drawing' : 'Photo'}
+                      </button>
+                    ))}
+                  </span>
+                )}
+              </figcaption>
+              <PointPicture point={point} drawing={showDrawing} className={`mx-auto my-3 aspect-square w-full max-w-[22rem] ${hasPhoto && !showDrawing ? 'photo rounded-2xl bg-white p-2' : ''}`} />
+            </figure>
           )}
 
-          {point.selfCare !== 'avoid' && point.cautions.length > 0 && (
-            <ul className="mt-3 space-y-1.5">
+          {canPress && (
+            <div className="mt-3 hidden rounded-[var(--radius-card)] border border-line bg-card p-4 shadow-card wide:block">
+              <div className="flex items-center gap-3">
+                <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-accent-tint text-accent-strong"><Timer size={22} aria-hidden="true" /></span>
+                <div className="min-w-0">
+                  <p className="font-extrabold leading-tight">{tech.label} · {tech.time}</p>
+                  <p className="text-[13px] text-ink-2">{sides === 2 ? 'Do both sides' : 'One spot on the midline'}</p>
+                </div>
+              </div>
+              <Button className="mt-3 w-full" onClick={() => setPressing(true)}>Start press</Button>
+            </div>
+          )}
+        </div>
+
+        <div>
+          <Section title="Find it">
+            <p className="text-[19px] font-medium leading-relaxed text-ink">{point.find}</p>
+          </Section>
+
+          {point.selfCare !== 'avoid' && !blocked && point.cautions.length > 0 && (
+            <ul className="mt-5 space-y-2">
               {point.cautions.map((c) => (
-                <li key={c} className="flex gap-2 text-sm font-medium text-amber-800 dark:text-amber-300">
-                  <AlertTriangle size={16} className="mt-0.5 shrink-0" />
+                <li key={c} className="flex gap-2.5 rounded-2xl border border-caution-line bg-caution-tint p-3 text-[14px] font-semibold leading-snug text-caution">
+                  <AlertTriangle size={18} className="mt-px shrink-0" aria-hidden="true" />
                   {CAUTIONS[c]}
                 </li>
               ))}
             </ul>
           )}
-        </>
-      )}
 
-      {point.indications.length > 0 && (
+          {point.indications.length > 0 && (
+            <Section title="Traditionally used for">
+              <ul className="flex flex-wrap gap-2">
+                {point.indications.map((t) => <li key={t}><Chip className="!px-3 !py-1.5 !text-[13px] !font-medium !text-ink">{t}</Chip></li>)}
+              </ul>
+            </Section>
+          )}
+
+          {usedIn.length > 0 && (
+            <Section title="In routines">
+              <ul className="flex flex-wrap gap-2">
+                {usedIn.map((r) => (
+                  <li key={r.id}>
+                    <Link to={`/routine/${r.id}`} className="inline-flex min-h-11 items-center rounded-full border border-line bg-card px-4 text-sm font-semibold hover:border-accent">{r.title}</Link>
+                  </li>
+                ))}
+              </ul>
+            </Section>
+          )}
+
+          {point.note && (
+            <p className="mt-6 flex gap-2.5 rounded-2xl border border-caution-line bg-caution-tint p-3 text-[14px] leading-snug text-caution">
+              <Info size={18} className="mt-px shrink-0" aria-hidden="true" />
+              {point.note}
+            </p>
+          )}
+
+          {next && nextPoint && (
+            <Link to={next.to} state={next.state} className="mt-8 flex items-center gap-3 rounded-[var(--radius-card)] border border-line bg-card p-4 shadow-card transition active:scale-[0.99]">
+              <span className="min-w-0 flex-1">
+                <span className="block text-xs font-bold uppercase tracking-wider text-ink-2">Next in {routine!.title}</span>
+                <span className="mt-0.5 block truncate text-lg font-extrabold">{nextPoint.code} <span className="font-medium text-ink-2">{nextPoint.pinyin}</span></span>
+              </span>
+              <ArrowRight size={22} className="shrink-0 text-accent-strong" aria-hidden="true" />
+            </Link>
+          )}
+
+          <div className="mt-7 divide-y divide-line border-y border-line">
+            {point.selfCare !== 'avoid' && (
+              <Disclosure as="div">
+                <DisclosureButton className="group flex min-h-12 w-full items-center justify-between text-left text-sm font-bold">
+                  Pressing tips
+                  <ChevronDown size={18} className="transition group-data-[open]:rotate-180" aria-hidden="true" />
+                </DisclosureButton>
+                <DisclosurePanel as="ul" className="list-disc space-y-1 pb-3 pl-5 text-sm text-ink-2">
+                  {PRESSING_RULES.map((r) => <li key={r}>{r}</li>)}
+                </DisclosurePanel>
+              </Disclosure>
+            )}
+            <Disclosure as="div">
+              <DisclosureButton className="group flex min-h-12 w-full items-center justify-between text-left text-sm font-bold">
+                Sources
+                <ChevronDown size={18} className="transition group-data-[open]:rotate-180" aria-hidden="true" />
+              </DisclosureButton>
+              <DisclosurePanel as="ul" className="space-y-1 pb-3 text-sm text-ink-2">
+                {point.sources.map((s) => {
+                  const site = SOURCE_SITES[s.s];
+                  const href = site?.base && s.p ? site.base + s.p : undefined;
+                  return (
+                    <li key={s.s}>
+                      {href ? <a href={href} target="_blank" rel="noreferrer" className="font-medium text-accent-strong underline underline-offset-2">{site.name}</a> : site?.name ?? s.s}
+                    </li>
+                  );
+                })}
+              </DisclosurePanel>
+            </Disclosure>
+          </div>
+        </div>
+      </div>
+
+      {canPress && (
         <>
-          <h2 className="mt-5 text-lg font-bold">Traditionally used for</h2>
-          <div className="mt-2 flex flex-wrap gap-1.5">
-            {point.indications.map((t) => (
-              <span key={t} className="rounded-full bg-charcoal/5 px-2.5 py-1 text-xs dark:bg-ivory/10">{t}</span>
-            ))}
+          <div className="h-16 wide:hidden" aria-hidden="true" />
+          <div className="pressbar fixed inset-x-0 z-20 border-t border-line bg-paper/97 px-4 py-2.5 backdrop-blur-xl wide:hidden">
+            <div className="mx-auto flex max-w-md items-center gap-3">
+              <div className="min-w-0 flex-1">
+                <p className="truncate text-[15px] font-extrabold leading-tight">{tech.label}</p>
+                <p className="truncate text-xs text-ink-2">{tech.time} · {sides === 2 ? 'both sides' : 'midline'}</p>
+              </div>
+              <Button className="shrink-0" onClick={() => setPressing(true)}>
+                <Timer size={18} aria-hidden="true" /> Start press
+              </Button>
+            </div>
           </div>
         </>
       )}
-      {usedIn.length > 0 && (
-        <p className="mt-3 text-sm text-muted dark:text-muted-dark">
-          In routines:{' '}
-          {usedIn.map((r, i) => (
-            <span key={r.id}>
-              {i > 0 && ', '}
-              <Link to={`/routine/${r.id}`} className="underline underline-offset-2">{r.title}</Link>
-            </span>
-          ))}
-        </p>
-      )}
 
-      {point.note && (
-        <p className="mt-4 rounded-lg bg-charcoal/5 p-3 text-sm text-charcoal/70 dark:bg-ivory/10 dark:text-ivory/70">{point.note}</p>
-      )}
-
-      <Disclosure as="div" className="mt-6 border-t border-charcoal/10 pt-4 dark:border-ivory/10">
-        <DisclosureButton className="group flex w-full items-center justify-between text-sm font-semibold">
-          Sources
-          <ChevronDown size={16} className="transition group-data-[open]:rotate-180" />
-        </DisclosureButton>
-        <DisclosurePanel as="ul" className="mt-2 space-y-1 text-sm text-charcoal/70 dark:text-ivory/70">
-          {point.sources.map((s) => {
-            const site = SOURCE_SITES[s.s];
-            const name = site?.name ?? s.s;
-            const href = site?.base && s.p ? site.base + s.p : undefined;
-            return (
-              <li key={s.s}>
-                {href ? <a href={href} target="_blank" rel="noreferrer" className="underline underline-offset-2">{name}</a> : name}
-              </li>
-            );
-          })}
-        </DisclosurePanel>
-      </Disclosure>
+      {canPress && <PressSheet key={point.id} point={point} open={pressing} onClose={() => setPressing(false)} sides={sides} next={next} />}
     </div>
   );
 }
