@@ -6,6 +6,7 @@ import PointRow from '../components/PointRow';
 import { POPULAR, ROUTINE_ICONS, SYMPTOM_GROUPS, routineList } from '../data/groups';
 import { search } from '../data/search';
 import { routinesById, type Routine } from '../data/routines';
+import { usePageTitle } from '../hooks/usePageTitle';
 
 function SymptomTile({ r, big }: { r: Routine; big?: boolean }) {
   const Icon = ROUTINE_ICONS[r.id];
@@ -39,6 +40,7 @@ function SymptomTile({ r, big }: { r: Routine; big?: boolean }) {
 }
 
 export default function Home() {
+  usePageTitle();
   const [q, setQ] = useState('');
   const input = useRef<HTMLInputElement>(null);
   const result = useMemo(() => search(q), [q]);
@@ -71,7 +73,7 @@ export default function Home() {
             type="button"
             aria-label="Clear search"
             onClick={() => { setQ(''); input.current?.focus(); }}
-            className="absolute right-2 top-1/2 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full text-ink-2 hover:bg-card-2"
+            className="absolute right-1.5 top-1/2 flex h-11 w-11 -translate-y-1/2 items-center justify-center rounded-full text-ink-2 hover:bg-card-2"
           >
             <X size={18} aria-hidden="true" />
           </button>

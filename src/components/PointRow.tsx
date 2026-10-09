@@ -27,7 +27,7 @@ export default function PointRow({ point: p, state }: PointRowProps) {
         {badgeText(p)}
       </span>
       <span className="min-w-0 flex-1">
-        <span className="block truncate text-[15px] font-bold leading-snug text-ink">
+        <span className="line-clamp-2 text-[15px] font-bold leading-snug text-ink">
           {p.pinyin}
           <span className="ml-1.5 font-medium text-ink-2">{p.english}</span>
         </span>

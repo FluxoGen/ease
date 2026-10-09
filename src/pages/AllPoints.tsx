@@ -6,13 +6,15 @@ import { library, type Area } from '../data/library';
 import { AREAS } from '../data/library/areas';
 import { CHANNELS } from '../data/library/shared';
 import { search } from '../data/search';
+import { usePageTitle } from '../hooks/usePageTitle';
 
 const PAGE = 60;
 
 const chip = (on: boolean) =>
-  `min-h-10 shrink-0 rounded-full px-4 text-sm font-bold transition ${on ? 'bg-ink text-paper' : 'border border-line-strong bg-card text-ink-2 hover:text-ink'}`;
+  `min-h-11 shrink-0 rounded-full px-4 text-sm font-bold transition ${on ? 'bg-ink text-paper' : 'border border-line-strong bg-card text-ink-2 hover:text-ink'}`;
 
 export default function AllPoints() {
+  usePageTitle('All points');
   const [params, setParams] = useSearchParams();
   const area = (params.get('area') as Area | null) ?? null;
   const [query, setQuery] = useState(params.get('q') ?? '');
@@ -55,7 +57,7 @@ export default function AllPoints() {
           className="h-14 w-full rounded-2xl border border-line-strong bg-card pl-12 pr-12 text-base font-medium text-ink shadow-card outline-none placeholder:text-ink-2 focus:border-accent focus:ring-4 focus:ring-accent/15 [&::-webkit-search-cancel-button]:hidden"
         />
         {query && (
-          <button type="button" aria-label="Clear search" onClick={() => { setQuery(''); input.current?.focus(); }} className="absolute right-2 top-1/2 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full text-ink-2 hover:bg-card-2">
+          <button type="button" aria-label="Clear search" onClick={() => { setQuery(''); input.current?.focus(); }} className="absolute right-1.5 top-1/2 flex h-11 w-11 -translate-y-1/2 items-center justify-center rounded-full text-ink-2 hover:bg-card-2">
             <X size={18} aria-hidden="true" />
           </button>
         )}

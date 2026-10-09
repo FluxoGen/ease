@@ -6,6 +6,7 @@ import Chip, { type ChipTone } from '../components/ui/Chip';
 import { usePregnancy } from '../context/PregnancyContext';
 import { library } from '../data/library';
 import { REVIEW_STATEMENT, URGENT_SIGNS } from '../data/library/shared';
+import { usePageTitle } from '../hooks/usePageTitle';
 
 const PREGNANCY_POINTS = library.filter((p) => p.pregnancy && p.selfCare !== 'avoid').length;
 
@@ -31,6 +32,7 @@ const LEGEND: Array<{ tone: ChipTone; icon: LucideIcon; label: string; text: str
 ];
 
 export default function Safety() {
+  usePageTitle('Safety');
   const { status, setStatus } = usePregnancy();
   const { hash } = useLocation();
 

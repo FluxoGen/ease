@@ -8,6 +8,7 @@ import { library, type Area } from '../data/library';
 import { AREAS } from '../data/library/areas';
 import { ROUTINE_ICONS } from '../data/groups';
 import { routinesById } from '../data/routines';
+import { usePageTitle } from '../hooks/usePageTitle';
 
 /** Symptom routines that live in each body area. */
 const RELATED: Record<Area, string[]> = {
@@ -21,6 +22,7 @@ const RELATED: Record<Area, string[]> = {
 };
 
 export default function BodyMap() {
+  usePageTitle('Where does it hurt?');
   const [view, setView] = useState<BodyView>('front');
   const [area, setArea] = useState<Area | null>(null);
   const counts = useMemo(() => {
@@ -83,7 +85,7 @@ export default function BodyMap() {
                     const Icon = ROUTINE_ICONS[r.id];
                     return (
                       <li key={r.id}>
-                        <Link to={`/routine/${r.id}`} className="inline-flex min-h-10 items-center gap-2 rounded-full border border-line bg-paper px-3.5 text-sm font-semibold hover:border-accent">
+                        <Link to={`/routine/${r.id}`} className="inline-flex min-h-11 items-center gap-2 rounded-full border border-line bg-paper px-4 text-sm font-semibold hover:border-accent">
                           {Icon && <Icon size={16} className="text-accent-strong" aria-hidden="true" />}
                           {r.title}
                         </Link>

@@ -1,6 +1,6 @@
 import { Dialog, DialogPanel, DialogTitle } from '@headlessui/react';
 import { Pause, Play, RotateCcw, X } from 'lucide-react';
-import { useCallback, useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import type { LibraryPoint } from '../data/library';
 import { PRESSING_RULES, TECHNIQUES } from '../data/library/shared';
@@ -21,47 +21,75 @@ interface PressSheetProps {
 const IN = 4;
 const CYCLE = 10;
 
-const fmt = (s: number) => `${Math.floor(s / 60)}:${String(Math.max(0, Math.ceil(s) % 60)).padStart(2, '0')}`;
+const fmt = (sec: number) => {
+  const whole = Math.max(0, Math.ceil(sec));
+  return `${Math.floor(whole / 60)}:${String(whole % 60).padStart(2, '0')}`;
+};
+
+type Next = PressSheetProps['next'];
 
 /** Full-screen guided press: the logo's dot breathes while the timer runs. */
 export default function PressSheet({ point, open, onClose, sides, next }: PressSheetProps) {
+  return (
+    <Dialog open={open} onClose={onClose} transition className="relative z-50">
+      <div className="fixed inset-0 bg-paper transition-opacity duration-200 data-closed:opacity-0" aria-hidden="true" />
+      <div className="fixed inset-0 flex justify-center overflow-y-auto">
+        <DialogPanel className="flex min-h-full w-full max-w-md flex-col px-5 pb-[max(1.5rem,env(safe-area-inset-bottom))] pt-4 transition duration-200 ease-out data-closed:translate-y-6 data-closed:opacity-0">
+          {/* The panel only exists while open, so every opening gets a brand-new timer. */}
+          <PressBody point={point} onClose={onClose} sides={sides} next={next} />
+        </DialogPanel>
+      </div>
+    </Dialog>
+  );
+}
+
+function PressBody({ point, onClose, sides, next }: { point: LibraryPoint; onClose: () => void; sides: 1 | 2; next: Next }) {
   const tech = TECHNIQUES[point.technique ?? 'press'];
   const total = tech.seconds;
   const [side, setSide] = useState(1);
   const [left, setLeft] = useState(total);
   const [running, setRunning] = useState(true);
   const [done, setDone] = useState(false);
+  // The countdown is driven by a wall-clock deadline, so it stays accurate if the tab is throttled.
   const endAt = useRef(0);
+  const remaining = useRef(total);
 
-  const reset = useCallback((nextSide = 1) => {
-    setSide(nextSide); setLeft(total); setDone(false); setRunning(true);
-    endAt.current = performance.now() + total * 1000;
-  }, [total]);
+  const begin = (secs: number) => {
+    remaining.current = secs;
+    endAt.current = performance.now() + secs * 1000;
+    setLeft(secs); setDone(false); setRunning(true);
+  };
+  const reset = (nextSide = 1) => { setSide(nextSide); begin(total); };
+  const togglePause = () => {
+    if (running) setRunning(false);
+    else { endAt.current = performance.now() + remaining.current * 1000; setRunning(true); }
+  };
 
-  // Start fresh each time the sheet opens.
-  useEffect(() => { if (open) reset(1); }, [open, reset]);
+  // Start the clock when the body mounts (state already starts at full time, running).
+  useEffect(() => { endAt.current = performance.now() + total * 1000; }, [total]);
 
-  // Countdown from a wall-clock deadline so it stays accurate if the tab is throttled.
   useEffect(() => {
-    if (!open || !running || done) return;
-    endAt.current = performance.now() + left * 1000;
+    if (!running || done) return;
     const id = window.setInterval(() => {
       const rem = (endAt.current - performance.now()) / 1000;
       if (rem <= 0) {
+        remaining.current = 0;
         setLeft(0); setRunning(false); setDone(true);
-      } else setLeft(rem);
+      } else {
+        remaining.current = rem;
+        setLeft(rem);
+      }
     }, 200);
     return () => window.clearInterval(id);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [open, running, done]);
+  }, [running, done]);
 
   // Keep the screen awake while pressing.
   useEffect(() => {
-    if (!open || !running) return;
+    if (!running) return;
     let lock: { release: () => Promise<void> } | null = null;
     (navigator as unknown as { wakeLock?: { request: (t: string) => Promise<typeof lock> } }).wakeLock?.request('screen').then((l) => { lock = l; }).catch(() => {});
     return () => { lock?.release().catch(() => {}); };
-  }, [open, running]);
+  }, [running]);
 
   const elapsed = total - left;
   // Screen readers hear three short announcements, not a breath cue every few seconds.
@@ -73,10 +101,7 @@ export default function PressSheet({ point, open, onClose, sides, next }: PressS
   const C = 2 * Math.PI * R;
 
   return (
-    <Dialog open={open} onClose={onClose} transition className="relative z-50">
-      <div className="fixed inset-0 bg-paper transition-opacity duration-200 data-closed:opacity-0" aria-hidden="true" />
-      <div className="fixed inset-0 flex justify-center overflow-y-auto">
-        <DialogPanel className="flex min-h-full w-full max-w-md flex-col px-5 pb-[max(1.5rem,env(safe-area-inset-bottom))] pt-4 transition duration-200 ease-out data-closed:translate-y-6 data-closed:opacity-0">
+    <>
           <div className="flex items-center justify-between">
             <DialogTitle className="text-base font-extrabold tracking-tight">
               {point.code} <span className="font-medium text-ink-2">· {tech.label}</span>
@@ -141,7 +166,7 @@ export default function PressSheet({ point, open, onClose, sides, next }: PressS
           ) : (
             <div className="flex flex-col gap-3">
               <div className="grid grid-cols-[1fr_auto] gap-2.5">
-                <Button onClick={() => setRunning((r) => !r)}>
+                <Button onClick={togglePause}>
                   {running ? <Pause size={18} aria-hidden="true" /> : <Play size={18} aria-hidden="true" />}
                   {running ? 'Pause' : 'Resume'}
                 </Button>
@@ -157,8 +182,6 @@ export default function PressSheet({ point, open, onClose, sides, next }: PressS
               </Link>
             </div>
           )}
-        </DialogPanel>
-      </div>
-    </Dialog>
+    </>
   );
 }

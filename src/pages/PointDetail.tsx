@@ -12,6 +12,7 @@ import { findPoint, libraryById, sidesOf } from '../data/library';
 import { photoFor } from '../data/library/photos';
 import { CAUTIONS, CHANNELS, PRESSING_RULES, SOURCE_SITES, TECHNIQUES } from '../data/library/shared';
 import { routines, routinesById } from '../data/routines';
+import { usePageTitle } from '../hooks/usePageTitle';
 
 const EVIDENCE: Record<string, { icon: typeof BadgeCheck; tone: ChipTone; text: string }> = {
   who: { icon: BadgeCheck, tone: 'ok', text: 'Location matches WHO standard' },
@@ -36,6 +37,7 @@ export default function PointDetail() {
   const [showDrawing, setShowDrawing] = useState(false);
   const [pressing, setPressing] = useState(false);
   const point = pointId ? findPoint(pointId) : undefined;
+  usePageTitle(point ? `${point.code} ${point.pinyin}` : undefined);
 
   if (!point) return <Navigate to="/points" replace />;
   if (pointId !== point.id) return <Navigate to={`/point/${point.id}`} replace state={location.state} />;
@@ -112,7 +114,7 @@ export default function PointDetail() {
                 {hasPhoto && (
                   <span role="group" aria-label="Picture type" className="flex max-w-full rounded-full bg-card-2 p-0.5 normal-case tracking-normal">
                     {([false, true] as const).map((d) => (
-                      <button key={String(d)} type="button" aria-pressed={showDrawing === d} onClick={() => setShowDrawing(d)} className={`min-h-10 min-w-0 rounded-full px-3 text-xs font-bold ${showDrawing === d ? 'bg-card text-ink shadow-card' : 'text-ink-2'}`}>
+                      <button key={String(d)} type="button" aria-pressed={showDrawing === d} onClick={() => setShowDrawing(d)} className={`min-h-11 min-w-0 rounded-full px-3.5 text-xs font-bold ${showDrawing === d ? 'bg-card text-ink shadow-card' : 'text-ink-2'}`}>
                         {d ? 'Drawing' : 'Photo'}
                       </button>
                     ))}
@@ -166,7 +168,7 @@ export default function PointDetail() {
               <ul className="flex flex-wrap gap-2">
                 {usedIn.map((r) => (
                   <li key={r.id}>
-                    <Link to={`/routine/${r.id}`} className="inline-flex min-h-10 items-center rounded-full border border-line bg-card px-3.5 text-sm font-semibold hover:border-accent">{r.title}</Link>
+                    <Link to={`/routine/${r.id}`} className="inline-flex min-h-11 items-center rounded-full border border-line bg-card px-4 text-sm font-semibold hover:border-accent">{r.title}</Link>
                   </li>
                 ))}
               </ul>

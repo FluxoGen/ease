@@ -10,6 +10,7 @@ import { ROUTINE_ICONS } from '../data/groups';
 import { libraryById, sidesOf } from '../data/library';
 import { TECHNIQUES, URGENT_LINE } from '../data/library/shared';
 import { routinesById } from '../data/routines';
+import { usePageTitle } from '../hooks/usePageTitle';
 
 /** Steps shown as cards; the rest are compact rows so long routines stay scannable. */
 const STEPS = 6;
@@ -19,6 +20,7 @@ export default function RoutineDetail() {
   const { status } = usePregnancy();
   const [all, setAll] = useState(false);
   const routine = routineId ? routinesById[routineId] : undefined;
+  usePageTitle(routine?.title);
   if (!routine) return <Navigate to="/" replace />;
 
   const Icon = ROUTINE_ICONS[routine.id];
@@ -27,7 +29,9 @@ export default function RoutineDetail() {
   const steps = points.slice(0, STEPS);
   const more = points.slice(STEPS);
   const state = { fromRoutine: routine.id };
-  const minutes = Math.max(1, Math.round(steps.filter((p) => p.technique).reduce((sum, p) => sum + TECHNIQUES[p.technique!].seconds * sidesOf(p), 0) / 60));
+  // Pregnancy mode skips flagged points, so they don't count toward the steps or the time.
+  const doable = steps.filter((p) => p.technique && !(status === 'yes' && p.pregnancy));
+  const minutes = Math.max(1, Math.round(doable.reduce((sum, p) => sum + TECHNIQUES[p.technique!].seconds * sidesOf(p), 0) / 60));
 
   return (
     <div className="max-w-3xl">
@@ -60,7 +64,7 @@ export default function RoutineDetail() {
             <Play size={18} aria-hidden="true" /> Start routine
           </LinkButton>
           <p className="mt-2 text-[13px] text-ink-2">
-            <span className="tnum">{steps.length}</span> steps, about <span className="tnum">{minutes}</span> min. We'll guide you point by point.
+            <span className="tnum">{doable.length}</span> {doable.length === 1 ? 'step' : 'steps'}, about <span className="tnum">{minutes}</span> min. We'll guide you point by point.
           </p>
         </div>
       )}
