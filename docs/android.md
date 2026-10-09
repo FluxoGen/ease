@@ -52,18 +52,29 @@ production website build). `<html data-app>` is set before the first render, and
 |---|---|
 | Logo header on every page, big page headings | Top app bar: logo on Home, a title on each tab, a back arrow on detail screens (the title fades in when you scroll) |
 | Dot-style tab bar that hides on scroll; desktop top nav | Material navigation bar with a pill indicator; a rail on tablets and in landscape; hidden on detail screens |
-| "‹ Home" text link, footer with links | System-style back arrow; no footer (About, version and feedback live on Safety) |
+| "‹ Home" text link, footer with links | System-style back arrow; no footer (About, version, privacy and feedback live under the Settings tab) |
 | Cards with their own borders | One rounded surface per list, with dividers |
+| Pregnancy question as a pop-up | An optional card on Home; a flagged point asks in place; the answer is changed in Settings |
 | Inline "Start routine / Start press" buttons | Bottom action bar on detail screens |
 | Body-map result under the figure; `<select>` for channels | Bottom sheets (body-map result, channel filter) |
 | Hover and focus styles | Touch ripple, press states, no text selection, no overscroll glow |
 | Pages swap instantly | Short slide/fade transitions (none for reduced motion) |
 
-Code: `src/components/app/` (`AppChrome.tsx` bar and nav, `barContext.ts`, `ChannelSheet.tsx`), `AppLayout` in
+Code: `src/components/app/` (`AppChrome.tsx` bar and nav, `barContext.ts`, `BarSpacer.tsx`, `ChannelSheet.tsx`), `AppLayout` in
 `src/App.tsx`, `initRipple` in `src/native.ts`. A detail screen gives the bar its title with `<AppBarTitle>`.
 System back also closes a bottom sheet (`data-back-closes`) before leaving the screen.
 
-Known limit: on a landscape phone (about 400 px tall) the point screen is cramped but scrollable.
+### Screen sizes and large text
+
+- The short-screen rules (landscape phones) are written in **px**, not rem: `rem` inside a media query follows the system
+  font size, so at 2x text a tall portrait phone would count as "short".
+- The bottom action bars wrap at large text and `BarSpacer` reserves their real height; the navigation bar truncates
+  labels instead of overflowing; headings wrap instead of breaking mid-word.
+- The guided press pins its Start/Pause row to the bottom of the screen, and uses a side-by-side layout on a short,
+  wide screen.
+- Tested (emulator): 320 dp to 800 dp wide, the largest display-size setting, a foldable-sized screen, 1x and 2x text,
+  portrait and landscape (`qa/android/sizes.sh`). Known limit: on a very short landscape phone at 2x text the point
+  screen is cramped but scrollable.
 
 ## What is native, and where
 
@@ -74,10 +85,10 @@ Known limit: on a landscape phone (about 400 px tall) the point screen is crampe
 | Screen stays on during a press | `@capacitor-community/keep-awake` (Android WebView has no Wake Lock API); released on pause, finish or close. Only the latest request can release it, so a quick pause/resume never lets the screen sleep mid-press. | `src/native.ts`, `PressSheet.tsx` |
 | Splash | Android 12 splash API: paper background + Ease mark; hidden after the first render, with a 3 s fallback so it can never stick. | `res/values/styles.xml`, `res/drawable/splash_icon.xml` |
 | Status and navigation bars | Capacitor SystemBars, `insetsHandling: native`: the WebView sits between the bars, the window behind them is paper (dark: night paper). | `capacitor.config.ts`, `res/values*/colors.xml` |
-| Light / dark | A sun/moon button in the top bar and an **Appearance** card on Safety (System, Light, Dark). The choice is saved in localStorage and mirrored to native storage. `src/theme.ts` applies it as `data-theme` on `<html>` (the CSS `theme-dark` variant reads it), and `MainActivity.EaseNative` gives the page the system theme at start (`isDark`) and lets it set the status/navigation bar icons and window colour (`setBars`). System switches while the app is open reach the page as an `ease-system-theme` event, which it ignores if you picked Light or Dark. The switch is one view transition (a circle growing from the tapped control) with all CSS transitions off while it runs, so every colour changes in the same frame; the status/navigation bars follow when it ends. The activity is not restarted, so a running timer survives. | `src/theme.ts`, `MainActivity.java`, `src/index.css` |
+| Light / dark | A sun/moon button in the top bar and an **Appearance** card in Settings (System, Light, Dark). The choice is saved in localStorage and mirrored to native storage. `src/theme.ts` applies it as `data-theme` on `<html>` (the CSS `theme-dark` variant reads it), and `MainActivity.EaseNative` gives the page the system theme at start (`isDark`) and lets it set the status/navigation bar icons and window colour (`setBars`). System switches while the app is open reach the page as an `ease-system-theme` event, which it ignores if you picked Light or Dark. The switch is one view transition (a circle growing from the tapped control) with all CSS transitions off while it runs, so every colour changes in the same frame; the status/navigation bars follow when it ends. The activity is not restarted, so a running timer survives. | `src/theme.ts`, `MainActivity.java`, `src/index.css` |
 | Icon | Adaptive vector icon (ring + dot on paper) with a monochrome layer for themed icons; PNGs for API 24-25. | `res/drawable/ic_launcher_*.xml`, `res/mipmap-*` |
-| Saved answer | The pregnancy answer is kept in localStorage and mirrored to native SharedPreferences (`@capacitor/preferences`), which is the source of truth at startup: the WebView writes its storage to disk about a second late, so a fast kill could otherwise lose it. | `src/native.ts`, `usePregnancyStatus.ts` |
-| Privacy | No `INTERNET` / network-state permission (removed even if a library adds it). Cloud backup and device transfer are off, so the pregnancy answer never leaves the phone. | `AndroidManifest.xml`, `res/xml/data_extraction_rules.xml` |
+| Saved settings | Three small settings (`ease.pregnancyStatus`, `ease.theme`, `ease.pregnancyNudge`) are kept in localStorage and mirrored to native SharedPreferences (`@capacitor/preferences`), which is the source of truth at startup: the WebView writes its storage to disk about a second late, so a fast kill could otherwise lose them. | `src/native.ts`, `usePregnancyStatus.ts`, `theme.ts`, `PregnancyPrompt.tsx` |
+| Privacy | No `INTERNET` / network-state permission (removed even if a library adds it). Cloud backup and device transfer are off, so the settings (including the pregnancy answer) never leave the phone. | `AndroidManifest.xml`, `res/xml/data_extraction_rules.xml` |
 
 Debug builds can be inspected from `chrome://inspect`; release builds cannot.
 
@@ -98,8 +109,10 @@ its service worker). The plugins' small web shims do ship in the website bundle.
    `android/app/release/app-release.aab`.
 4. **Play Console** (Create app: name "Ease", app, free):
    - **Privacy policy:** https://fluxogen.github.io/legal/ease/privacy/
-   - **Data safety:** no data collected, no data shared. (The pregnancy answer is stored on the device only
-     and never transmitted, which Play does not count as collection.)
+   - **Data safety:** no data collected, no data shared. (Three small settings, including the optional pregnancy
+     answer, are stored on the device only and never transmitted, which Play does not count as collection.)
+   - The privacy policy and terms live in the FluxoGen/legal repo (`ease/privacy/`, `ease/terms/`). **Update them whenever
+     the app stores or sends something new** (see "Add a setting" in architecture.md).
    - **Health apps declaration:** wellness / self-care education; not a medical device. Content says
      "traditionally used for", never "treats".
    - **Ads:** no. **Content rating:** complete the questionnaire (reference health info, no user content).
@@ -115,9 +128,10 @@ its service worker). The plugins' small web shims do ship in the website bundle.
 - Fresh install opens straight to Home (no blocking question); the optional pregnancy card works; the answer survives a restart.
 - Home > routine > point > Start press; back closes the press, then returns routine > Home > leaves the app.
 - Screen stays on during a press; pause releases it.
-- Privacy / source links open in the browser; Contact opens the mail app; returning lands on the same page.
+- Privacy / terms / source links open in the browser; Send feedback (Settings or About) opens the mail app; returning lands on the same page.
+- Settings shows "Version X (build N)" matching `package.json`; the Content id matches the latest commit.
 - Airplane mode: cold start, every tab, photos and drawings load.
-- Dark mode, landscape, largest font size, 3-button navigation: nothing cut off, no sideways scroll.
+- Dark mode (the sun/moon button and the Appearance choices, including while the system theme differs), landscape, largest font size, 3-button navigation: nothing cut off, no sideways scroll.
 
 The same checks are automated in [`qa/`](../qa/README.md): `qa/android/install.sh`, then `npm run qa:android`
 (device suite, theme, and a six-screen-size adaptivity tour).
