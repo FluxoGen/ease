@@ -108,7 +108,10 @@ export function initUpdates() {
 /** The "Update" / "Reload" / "Restart" button. */
 export async function applyUpdate() {
   if (demo) {
-    if (state.phase === 'available') {
+    if (state.source === 'web') {
+      // The website has no download step: Reload swaps in the waiting version and the page restarts.
+      set({ phase: 'none', progress: null });
+    } else if (state.phase === 'available') {
       set({ phase: 'downloading', progress: 0.1, failed: false });
       let p = 0.1;
       const t = setInterval(() => { p += 0.2; if (p >= 1) { clearInterval(t); set({ phase: 'ready', progress: null }); } else set({ progress: p }); }, 600);
