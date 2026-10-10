@@ -97,31 +97,49 @@ its service worker). The plugins' small web shims do ship in the website bundle.
 
 ## Release to Google Play
 
-1. **Version.** One place: `package.json`. `version` is the version name (shown as "Version 1.0.0") and
-   `config.androidVersionCode` is the build number (shown as "build 1"); Gradle reads both, so the app, the website and the
-   Play listing can't drift. Raise `androidVersionCode` by 1 on every Play upload. Settings and About show
-   "Version X (build N)" and, in the app, the web content's commit id (a quick way to spot a missed `npm run android:sync`).
-2. **Upload key (once).** Android Studio > Build > Generate Signed App Bundle > create a new keystore. Keep the
-   `.jks` file and its passwords outside the repo (a password manager plus an offline backup). `*.jks` and
-   `*.keystore` are git-ignored. Enrol in **Play App Signing** when Play Console offers it; then a lost upload
-   key can be reset.
-3. **Build the bundle.** `npm run android:sync`, then Build > Generate Signed App Bundle > release. Output:
-   `android/app/release/app-release.aab`.
-4. **Play Console** (Create app: name "Ease", app, free):
+Everything you upload is prepared in this repo and `~/ease-signing/` (outside the repo, owner-only).
+
+**What exists**
+- `~/ease-signing/ease-upload.jks` + `keystore.properties`: the **upload key** (keep a backup in a password manager;
+  never commit it). Play App Signing holds the real app-signing key, so a lost upload key can be reset in Play Console.
+- `android/app/build.gradle` signs release builds with that key when `keystore.properties` exists (path override:
+  `$EASE_KEYSTORE_PROPERTIES`); without it the release build is unsigned, so a fresh clone still builds.
+- `store/`: icon, feature graphic, 8 phone screenshots and the listing text (`store/listing.md`).
+
+**Build a release**
+1. Version: one place, `package.json`. `version` is the version name and `config.androidVersionCode` the build number
+   (Gradle reads both). **Raise `androidVersionCode` by 1 for every upload** (build 1 is the first).
+2. `npm run android:sync`, then `cd android && ./gradlew bundleRelease assembleRelease`.
+   - Upload this: `android/app/build/outputs/bundle/release/app-release.aab` (copy it to `~/ease-signing/release/`).
+   - `app-release.apk` (same folder pattern, `apk/release/`) is a signed APK for installing on a test phone.
+3. Check: `jarsigner -verify app-release.aab` says "jar verified"; the certificate is `CN=FluxoGen Ease upload key`.
+
+**Upload (Play Console)**
+1. **Account type.** A *personal* account created after 13 Nov 2023 must first run a **closed test with at least 12
+   testers opted in for 14 continuous days**, then apply for production access (Play Console, Dashboard). An
+   *organization* account does not have this requirement. Rules change: check the live Play Console page.
+2. **Create app:** name "Ease: Self-Acupressure Guide", English, App, Free.
+3. **App content (policy):**
    - **Privacy policy:** https://fluxogen.github.io/legal/ease/privacy/
-   - **Data safety:** no data collected, no data shared. (Three small settings, including the optional pregnancy
-     answer, are stored on the device only and never transmitted, which Play does not count as collection.)
-   - The privacy policy and terms live in the FluxoGen/legal repo (`ease/privacy/`, `ease/terms/`). **Update them whenever
-     the app stores or sends something new** (see "Add a setting" in architecture.md).
-   - **Health apps declaration:** wellness / self-care education; not a medical device. Content says
-     "traditionally used for", never "treats".
-   - **Ads:** no. **Content rating:** complete the questionnaire (reference health info, no user content).
-   - **Target audience:** 18+ (matches the privacy policy; not designed for children).
-   - **Store listing:** short description, full description, 512 px icon (`public/android-chrome-512x512.png`
-     is the web icon; export the adaptive icon from Studio's Image Asset tool for an exact match), feature graphic
-     1024 x 500, at least 2 phone screenshots.
-5. **Testing track first.** Upload to Internal testing, install from the Play link on a real phone, run the
-   checklist below, then promote to Production.
+   - **App access:** all features work with no login. **Ads:** no.
+   - **Content rating:** answer the questionnaire honestly (reference/health education, no user content, no violence).
+   - **Target audience:** 18+ (matches the privacy policy). **Advertising ID:** not used. **Government / financial / news:** no.
+   - **Data safety:** no data collected, no data shared (three small settings stay on the device and are never sent).
+   - **Health apps declaration:** required for every app. Select the health categories that honestly fit (for example
+     stress or sleep management) and say it is wellness education, not a medical device.
+4. **Main store listing:** copy from `store/listing.md`; upload `store/icon-512.png`, `store/feature-graphic-1024x500.png` and
+   `store/screenshots/*.png` (phone screenshots: each side 320-3840 px, long side at most 2x the short side; 1080x1920 is used).
+   Category Health & Fitness; contact fluxogentechnologies@gmail.com; website https://ease-murex.vercel.app.
+5. **Testing > Internal testing:** create a release, upload the `.aab`, add yourself as a tester, then install from the
+   Play link on a **real phone** and run the checklist below.
+6. **Closed test** (needed for personal accounts): add 12+ testers, keep them opted in for 14 days, then apply for production.
+7. **Production:** create the release from the same bundle, roll out. The first review can take several days.
+8. **Updates:** raise `androidVersionCode`, build, upload the new `.aab` (same upload key).
+
+Target API is 36, which meets Play's rule for new apps and updates (Android 16 / API 36 from 31 Aug 2026). The app does not
+lock orientation, so it also meets the large-screen rule.
+
+**Regenerate the store assets** after any UI change: `qa/android/store.sh` (emulator; screenshots are real 1080x1920 captures).
 
 ## Device checklist (before each release)
 
