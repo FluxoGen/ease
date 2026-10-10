@@ -95,6 +95,21 @@ Debug builds can be inspected from `chrome://inspect`; release builds cannot.
 The website build is unchanged by all this (every native call is a no-op in a browser, and the website keeps
 its service worker). The plugins' small web shims do ship in the website bundle.
 
+## Update prompts (Google Play in-app updates)
+
+When a newer build is on Google Play, Ease shows a small "A new version of Ease is available" card with **Update** and
+**Later** (`src/update.ts`, `@capawesome/capacitor-app-update`). Update starts a *flexible* Play update: it downloads in the
+background and then asks to **Restart**. Google Play does the checking and downloading, so the app still has no INTERNET
+permission (the plugin only adds Play's own update dialog activity; check with `aapt2 dump permissions`).
+
+- Only installs from Google Play get it. A sideloaded APK or an emulator build shows nothing (Play answers "install not
+  allowed", which the app catches).
+- **How to test for real:** upload build N and build N+1 to an Internal testing track, install N from the Play link, publish N+1,
+  open the app (Play can take minutes to learn about the new build); the card appears. Or use Play's *Internal app sharing*.
+- **Tuning:** `MIN_STALENESS_DAYS` in `src/update.ts` (0 = prompt as soon as Play reports an update); to force a critical
+  update, set the in-app update priority for that release with the Play Developer API and call `performImmediateUpdate` for it.
+- "Later" is remembered for the session only, so nothing extra is stored (and the privacy policy needs no new setting).
+
 ## Release to Google Play
 
 Everything you upload is prepared in this repo and `~/ease-signing/` (outside the repo, owner-only).
@@ -137,7 +152,8 @@ Everything you upload is prepared in this repo and `~/ease-signing/` (outside th
    Play link on a **real phone** and run the checklist below.
 6. **Closed test** (needed for personal accounts): add 12+ testers, keep them opted in for 14 days, then apply for production.
 7. **Production:** create the release from the same bundle, roll out. The first review can take several days.
-8. **Updates:** raise `androidVersionCode`, build, upload the new `.aab` (same upload key).
+8. **Updates:** raise `androidVersionCode`, build, upload the new `.aab` (same upload key). People on the previous build then
+   see the update card described above.
 
 Target API is 36, which meets Play's rule for new apps and updates (Android 16 / API 36 from 31 Aug 2026). The app does not
 lock orientation, so it also meets the large-screen rule.

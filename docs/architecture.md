@@ -77,7 +77,7 @@ find, selfCare, technique, cautions, pregnancy, tags, tagWeight, indications, so
 | `src/components/atlas/` | The body-view drawings and the placement engine |
 | `src/data/` | `library/` (points.json, shared text, areas, photos), `routines.ts`, `search.ts`, `nav.ts`, `groups.ts` |
 | `src/native.ts` | All Android glue (a no-op on the web): `isApp`, back button, links, keep-awake, native storage, splash, ripple |
-| `src/theme.ts`, `src/version.ts` | Light/dark/system; version and build number |
+| `src/theme.ts`, `src/version.ts`, `src/update.ts` | Light/dark/system; version and build number; "new version available" |
 | `android/` | The Capacitor project (manifest, icons, splash, `MainActivity`) |
 | `qa/` | Browser and emulator test suites (own package) |
 | `scripts/`, `sources/` | Library build and its research records |
@@ -179,9 +179,24 @@ Vite injects the version and a short commit id (`__APP_VERSION__`, `__BUILD_ID__
 the web; Settings and About show "Version 1.0.0 (build 1)". In the app a "Content abc1234" line shows the web
 bundle's commit, which exposes a missed `npm run android:sync`.
 
+### Update prompts ("a new version is available")
+
+No backend, in both builds (`src/update.ts`, `components/UpdatePrompt.tsx`):
+
+| | How it works | Buttons |
+|---|---|---|
+| **Android app** | Google Play's in-app update API through `@capawesome/capacitor-app-update`. Ease asks the Play Store on the phone whether a newer build is published (at start and on resume, at most hourly); Play downloads it in the background (a *flexible* update). The app still holds **no INTERNET permission**: Play does the networking. Only works for installs from Google Play. | Update, then (after download) Restart; Later |
+| **Website** | `vite-plugin-pwa` runs in `registerType: 'prompt'` mode: a new deploy is fetched by the service worker but waits; the page offers it and swaps only when the user taps Reload. Checked hourly and when the tab returns. | Reload; Later |
+
+"Later" lasts for the current session only, so nothing new is stored on the device (the privacy policy lists what is stored).
+`MIN_STALENESS_DAYS` in `update.ts` controls how long Play must have known about an update before Ease nags (0 = at once).
+The prompt is a small non-blocking card under the top bar (top-right on wide screens) that never covers the guided press.
+A dev-only preview (`npm run dev`, then `?update=available|downloading|ready`, add `&app=1` for the app layout) shows the
+states. The real Play flow can only be tested with two builds on a Play test track (see android.md).
+
 ### Offline / PWA
 
-`vite-plugin-pwa` (autoUpdate) precaches `js, css, html, ico, png, jpg, svg, woff2` (about 50 files, about 2.1 MB).
+`vite-plugin-pwa` (prompt mode, see above) precaches `js, css, html, ico, png, jpg, svg, woff2` (about 50 files, about 2.1 MB).
 Fonts are self-hosted (Manrope variable). The manifest sets standalone display and maskable icons. Dev mode has no
 service worker, so test offline on `npm run preview`. The native build (`--mode native`) has no service worker: the
 APK already holds every file.
@@ -267,6 +282,7 @@ lines is frozen in [placement-vocab.json](placement-vocab.json); `/atlas-dev` sh
 | Capacitor, bundled files, no INTERNET permission | Offline by construction; strong privacy story | A web change needs `npm run android:sync` and a new release |
 | One view transition for the theme switch | All colours change in one frame | Needs a Chromium-class WebView (instant switch elsewhere) |
 | Version in `package.json`, read by Gradle | App, website and Play listing cannot drift | Bump `androidVersionCode` by hand per upload |
+| Update prompts via Google Play and the service worker, not our own version file | Works with no backend and keeps the app free of the INTERNET permission | The Play prompt only exists for Play installs and needs a second build on a test track to test |
 | QA in its own package (`qa/`) | The app stays dependency-light | Separate `npm run qa:install` |
 
 ## 7. Extending

@@ -20,12 +20,15 @@ Each command prints one line per script (`ok` / `FAIL`) and exits with 1 if anyt
 | web | `flows` | Behaviour: guided press (opens Ready, pause/resume/restart), pregnancy question (never blocking; asked in place on a flagged point), pregnancy mode (nothing flagged reachable), Settings, search, body map, list filters, back/scroll, redirects, reduced motion, dark mode |
 | web | `audit` | Every route, light/dark, phone/tablet/desktop: axe (WCAG 2.x A/AA + best practice), headings, names, images, links, tap targets, dark-mode glare, console errors, page titles |
 | web | `responsive` | 13 viewports (320 to 2560 px) at 100/150/200% text: sideways overflow, off-screen text, tap targets |
+| web | `update` | A real service-worker update cycle with no backend: builds v1 and v2, opens v1, deploys v2 under it; the prompt appears, v1 keeps running until Reload, Reload swaps to v2, Later hides it for the session and it is offered again on reopening |
 | web | `press` | The guided timer with a fake clock: Ready, Start, Pause/Resume, Restart / Other side / Repeat wait for Start |
 | app | `audit` | The app layout (`?app=1`) at 412x915 light/dark, 360x640, landscape, tablet: same checks as web/audit |
 | app | `responsive` | The app layout at 13 viewports and 150/200% text, plus: last content can always scroll clear of the fixed bars |
+| app | `update` | The update card UI (app and website layouts, dev preview flag): states, Update to downloading to Restart, 44 px buttons, axe, 320 px at 200% text, never above the guided press |
 | app | `theme` | System / Light / Dark on the website and the app layout: toggle, persistence, live system change, explicit choice wins, browser-chrome colour |
 | android | `suite` | The installed app on a device: first launch, all 441+ screens, back button, press + keep-awake, links to browser/mail, rotation, dark/light, 200% font, 3-button nav, airplane mode, pregnancy, app layout, Settings/Safety/About |
 | android | `theme` | Theme choice survives killing the app; explicit choice ignores system changes; status/navigation bar colours and icon colours match |
+| android | `coldload` | 25 cold loads: the app must always draw its first screen (no blank screen, none slower than 8 s) |
 | android | `sizes` | `tour.mjs` at six screen sizes (320 dp phone to 800 dp tablet, largest display size, foldable) x normal and 2x text x portrait and landscape: layout checks and screenshots |
 
 ## Setup per group

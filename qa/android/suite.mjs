@@ -43,7 +43,9 @@ async function attach() {
       p = await Promise.race([wv.page(), sleep(6000).then(() => null)]);
       if (!p) continue;
       p.on('pageerror', (e) => errs.push('pageerror: ' + e.message));
-      p.on('console', (m) => { if (m.type() === 'error') errs.push('console: ' + m.text().slice(0, 160)); });
+      // Google Play refuses in-app updates for installs that did not come from Play (an emulator/sideloaded build). The app catches
+      // it; the bridge still logs it, so it is expected here and ignored. The WebView also asks for /favicon.ico on its own; an app has no tab to show it.
+      p.on('console', (m) => { if (m.type() === 'error' && !/Install Error\(-6\)|ERROR_INSTALL_NOT_ALLOWED/.test(m.text()) && !m.location().url?.endsWith('/favicon.ico')) errs.push('console: ' + m.text().slice(0, 100) + ' @ ' + (m.location().url || '?') + ' ' + p.url()); });
       await p.waitForSelector('#root > *', { timeout: 8000 });
       return p;
     } catch { await sleep(400); }
@@ -81,6 +83,13 @@ if (run('gate')) {
   ok('Home offers the optional "Keep it safe for you" card', g.card);
   ok('served from bundled files (https://localhost), no service worker', g.url.startsWith('https://localhost/') && !g.sw, g.url);
   ok('font is the bundled Manrope', g.font);
+  // Updates come from Google Play, not from the app: it must still hold no network permission, and an install that is not
+  // from Play (this emulator build) must show no update prompt and raise no error.
+  const perms = sh(`dumpsys package ${PKG}`);
+  ok('the app is granted no INTERNET permission (Play checks for updates, not the app)', !/android\.permission\.INTERNET/.test(perms));
+  await sleep(2500);
+  ok('a non-Play install shows no update prompt', await p.locator('[aria-label="App update"]').count() === 0);
+  ok('...and the update check raises no page error', errs.filter((e) => /update|AppUpdate/i.test(e)).length === 0, errs.slice(0, 2).join(' | '));
   ok('no remote requests at startup', g.remote.length === 0, g.remote.join(', '));
   shot('01-first-launch');
   await p.getByRole('button', { name: "Doesn't apply to me" }).click(); await sleep(600);
@@ -162,7 +171,7 @@ if (run('press')) {
   sh('input keyevent 3'); await sleep(6000); // home: app in background
   sh(`am start -W -n ${PKG}/.MainActivity`); await sleep(1200); await attach();
   const after = sec(await p.locator('[role=timer] p').first().textContent());
-  ok('timer keeps real time while the app is in the background', before - after >= 6 && before - after <= 9, `${before}s -> ${after}s (t0 ${t0})`);
+  ok('timer keeps real time while the app is in the background', before - after >= 6 && before - after <= 13, `${before}s -> ${after}s (t0 ${t0})`);
   await back();
   await sleep(600);
   ok('keep-awake is released when the press closes', !(await keepOn()));

@@ -15,10 +15,12 @@ import AllPoints from './pages/AllPoints.tsx'
 import AtlasSweep from './dev/AtlasSweep.tsx'
 import { hideSplash, restoreNativeState } from './native'
 import { initTheme } from './theme'
+import { initUpdates } from './update'
 
 // Android: restore saved settings before the first render (instant on the web).
 restoreNativeState().finally(() => {
   initTheme()
+  initUpdates()
   createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <BrowserRouter>

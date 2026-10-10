@@ -31,9 +31,12 @@ const PERSISTED_KEYS = ['ease.pregnancyStatus', 'ease.theme', 'ease.pregnancyNud
  * Before the first render. Native storage is the source of truth: it is written at once, while the
  * WebView may not have saved its own copy yet. A value only in localStorage (older installs) is copied over.
  */
+/** The first screen must never wait on a native call that may never answer (seen on a loaded device after a page reload). */
+const RESTORE_TIMEOUT_MS = 1500;
+
 export async function restoreNativeState(): Promise<void> {
   if (!isNative) return;
-  await Promise.all(PERSISTED_KEYS.map(async (key) => {
+  const restore = Promise.all(PERSISTED_KEYS.map(async (key) => {
     try {
       const { value } = await Preferences.get({ key });
       const local = localStorage.getItem(key);
@@ -46,6 +49,8 @@ export async function restoreNativeState(): Promise<void> {
       // storage unavailable: the app still works, it just asks again
     }
   }));
+  // Settings are also in localStorage (every change is written to both), so starting without the native copy is safe.
+  await Promise.race([restore, new Promise<void>((resolve) => { window.setTimeout(resolve, RESTORE_TIMEOUT_MS); })]);
 }
 
 /** Mirror a persisted setting to native storage (no-op on the web). `null` removes it. */
