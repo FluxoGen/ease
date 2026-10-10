@@ -10,34 +10,19 @@ Ease: Self-Acupressure Guide
 Find acupressure points for everyday symptoms. Guided, offline and private.
 
 ## Full description (max 4000)
-Ease is a calm, symptom-first guide to self-acupressure: pressing points on your own body with your fingers, the way
-many people do for everyday aches. Pick what is bothering you, get a short routine, and follow a gentle guided timer.
+Plain paragraphs on purpose: Play Console does not apply bullet or heading formatting reliably.
 
-WHAT YOU GET
-- 412 points: all 361 points of the WHO standard, plus extra points, each with a drawing and a plain-language way to find it
-- 23 routines for everyday concerns such as headaches, neck and shoulder tension, low back, sleep, nausea, eye strain and stress
-- Tap-where-it-hurts body map (front and back)
-- Search by symptom, body part, or point name and code
-- Pictures for every point, and photos from public-domain U.S. VA patient handouts for the first routines
-- A guided press timer with a slow breathing cue, side switching and a "next point" hand-off
-- Light, dark or follow-your-phone appearance; works at large text sizes
+Ease is a calm, symptom-first guide to self-acupressure: pressing points on your own body with your fingers, the way many people do for everyday aches. Pick what is bothering you, get a short routine, and follow a gentle guided timer.
 
-BUILT TO BE TRUSTED
-- Locations follow the WHO Standard Acupuncture Point Locations (2008), checked against independent references and described in our own words
-- Every point says how well its location is confirmed, and where references differ
-- Points that should not be pressed by yourself are shown for reference only
-- Points traditionally avoided in pregnancy are flagged, and you can choose to set them aside
-- Clear guidance on when to get medical help first
+The library has 412 points, including all 361 points of the WHO standard plus extra points, each with a drawing and a plain-language way to find it. There are 23 routines for everyday concerns such as headaches, neck and shoulder tension, low back, sleep, nausea, eye strain and stress. You can search by symptom, body part, or point name and code, or tap where it hurts on the body map, front and back. Every point has a picture, and the first routines also use photos from public-domain U.S. VA patient handouts.
 
-PRIVATE AND OFFLINE
-- Works fully offline: everything is inside the app
-- No accounts, no ads, no analytics, no tracking. The app does not even have internet access
-- Your few settings stay on your phone
+When you are ready to try a point, a guided timer walks you through it with a slow breathing cue, switches sides for you, and hands you on to the next point in the routine. Ease works in light mode, dark mode, or follows your phone, and it stays readable at large text sizes.
 
-IMPORTANT
-Ease is wellness education about traditionally used points. It does not diagnose or treat any condition and is not a
-substitute for care from a licensed provider. Locations have not yet been reviewed by a licensed acupuncturist.
-If you are pregnant or have a health condition, talk to your medical provider first.
+Ease is built to be trusted. Point locations follow the WHO Standard Acupuncture Point Locations (2008), checked against independent references and described in our own words. Every point shows how well its location is confirmed, and says where references differ. Points that should not be pressed by yourself are shown for reference only. Points traditionally avoided in pregnancy are flagged, and you can choose to set them aside. There is also clear guidance on when to get medical help first.
+
+Ease is private and works fully offline. Everything is inside the app. There are no accounts, no ads, no analytics and no tracking, and the app does not even have internet access. Your few settings stay on your phone.
+
+Important: Ease is wellness education about traditionally used points. It does not diagnose or treat any condition and is not a substitute for care from a licensed provider. Locations have not yet been reviewed by a licensed acupuncturist. If you are pregnant or have a health condition, talk to your medical provider first.
 
 Made by FluxoGen.
 
