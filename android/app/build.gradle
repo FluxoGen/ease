@@ -4,6 +4,13 @@ apply plugin: 'com.android.application'
 // name and config.androidVersionCode is the build number. Raise androidVersionCode on every Play upload.
 def appPackage = new groovy.json.JsonSlurper().parse(new File(rootDir, '../package.json'))
 
+// Release signing: reads the upload key from a keystore.properties file kept OUTSIDE the repo (default
+// ~/ease-signing/keystore.properties, or the path in $EASE_KEYSTORE_PROPERTIES). Without it the release build is left
+// unsigned, so a fresh clone or CI still builds. Never commit the keystore or this file.
+def keystoreProps = new Properties()
+def keystoreFile = new File(System.getenv('EASE_KEYSTORE_PROPERTIES') ?: "${System.getProperty('user.home')}/ease-signing/keystore.properties")
+if (keystoreFile.exists()) keystoreFile.withInputStream { keystoreProps.load(it) }
+
 android {
     namespace = "com.fluxogen.ease"
     compileSdk = rootProject.ext.compileSdkVersion
@@ -20,8 +27,19 @@ android {
             ignoreAssetsPattern = '!.svn:!.git:!.ds_store:!*.scc:.*:!CVS:!thumbs.db:!picasa.ini:!*~'
         }
     }
+    signingConfigs {
+        release {
+            if (keystoreProps.containsKey('storeFile')) {
+                storeFile file(keystoreProps['storeFile'])
+                storePassword keystoreProps['storePassword']
+                keyAlias keystoreProps['keyAlias']
+                keyPassword keystoreProps['keyPassword']
+            }
+        }
+    }
     buildTypes {
         release {
+            if (keystoreProps.containsKey('storeFile')) signingConfig signingConfigs.release
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
