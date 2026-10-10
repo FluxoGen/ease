@@ -5,7 +5,7 @@ import { chromium } from 'playwright';
 import AxeBuilder from '@axe-core/playwright';
 
 import fs from 'node:fs';
-import { WEB, outPath, points as pts, routineIds } from '../lib/env.mjs';
+import { WEB, outPath, routineIds } from '../lib/env.mjs';
 const B = WEB;
 const findings = [];
 const add = (area, msg) => findings.push(`[${area}] ${msg}`);
@@ -105,7 +105,7 @@ const deep = async (p, u, tag, w) => {
   if (r.imgs.length) add(tag, `${u}: broken images: ${tt(r.imgs)}`);
   if (r.links.length) add(tag, `${u}: links: ${tt(r.links)}`);
   if (r.whites.length) add(tag, `${u}: bright surfaces in dark mode: ${tt(r.whites)}`);
-  const small = r.small.filter((s) => w < 1000);
+  const small = w < 1000 ? r.small : [];
   if (small.length) add(tag, `${u}: small tap targets: ${tt(small)}`);
   const ax = await new AxeBuilder({ page: p }).withTags(['wcag2a', 'wcag2aa', 'wcag21aa', 'wcag22aa', 'best-practice']).analyze();
   for (const v of ax.violations) add(tag, `${u}: axe ${v.id} (${v.impact}): ${v.nodes[0].html.slice(0, 90)}`);

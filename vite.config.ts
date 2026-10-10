@@ -22,7 +22,8 @@ export default defineConfig(({ mode }) => ({
     tailwindcss(),
     VitePWA({
       disable: mode === 'native',
-      registerType: 'autoUpdate',
+      // 'prompt': a new deploy waits until the user taps Reload (see src/update.ts) instead of replacing the page under them.
+      registerType: 'prompt',
       workbox: {
         globPatterns: ['**/*.{js,css,html,ico,png,jpg,svg,woff2}'],
       },

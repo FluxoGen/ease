@@ -25,7 +25,7 @@ const mk = async (o = {}, status = 'no') => { const ctx = await b.newContext({ v
 // ---- keyboard: tab order + visible focus on every stop
 { const [c, p] = await mk({ viewport: { width: 1280, height: 800 } }); let bad = [];
   for (const u of ['/', '/map', '/points', '/safety', '/routine/sleep', '/point/pc6']) {
-    await p.goto(B + u); await p.waitForTimeout(200); let n = 0, stops = 0;
+    await p.goto(B + u); await p.waitForTimeout(200); let stops = 0;
     for (let i = 0; i < 40; i++) {
       await p.keyboard.press('Tab'); stops++;
       const r = await p.evaluate(() => { const a = document.activeElement; if (!a || a === document.body) return null; const cs = getComputedStyle(a); const rc = a.getBoundingClientRect();
@@ -100,7 +100,7 @@ const mk = async (o = {}, status = 'no') => { const ctx = await b.newContext({ v
 
 // ---- body map: every region, both views, counts add up, link lands on filtered list
 { const [c, p] = await mk(); await p.goto(B + '/map'); await p.waitForTimeout(400);
-  const total = pts.length; const labels = await p.$$eval('.body-region', (g) => g.map((x) => x.getAttribute('aria-label')));
+  const labels = await p.$$eval('.body-region', (g) => g.map((x) => x.getAttribute('aria-label')));
   const counts = {}; for (const l of labels) { const m = l.match(/^(.*), (\d+) points/); if (m) counts[m[1]] = +m[2]; }
   const sum = Object.values(counts).reduce((a, b) => a + b, 0); ok('front view exposes 6 areas and counts are sane', labels.length >= 6 && sum > 0, JSON.stringify(counts));
   await p.getByRole('button', { name: 'Back', exact: true }).click(); await p.waitForTimeout(250);
@@ -119,7 +119,7 @@ const mk = async (o = {}, status = 'no') => { const ctx = await b.newContext({ v
   await p.getByRole('button', { name: /Show \d+ more/ }).click(); await p.waitForTimeout(150); ok('"Show more" adds the next page', (await p.$$('a[href^="/point/"]')).length === 120);
   await p.fill('input[type=search]', 'zzzzqq'); await p.waitForTimeout(250); ok('no-match state appears with a way out', (await p.getByText('No points match.').count()) === 1);
   await p.getByRole('button', { name: 'Clear filters' }).click(); await p.waitForTimeout(250); ok('"Clear filters" restores the full list', (await p.$$('a[href^="/point/"]')).length === 60);
-  await p.goto(B + '/points?area=bogus'); await p.waitForTimeout(250); const bogus = (await p.$$('a[href^="/point/"]')).length; ok('an invalid ?area= doesn\'t break the list', bogus === 0 || bogus > 0, `${bogus} rows`);
+  await p.goto(B + '/points?area=bogus'); await p.waitForTimeout(250); const bogus = (await p.$$('a[href^="/point/"]')).length; ok('an invalid ?area= doesn\'t break the list', bogus >= 0, `${bogus} rows`);
   await p.goto(B + '/points?q=hegu'); await p.waitForTimeout(250); ok('?q= pre-fills and filters the search', (await p.inputValue('input[type=search]')) === 'hegu' && (await p.$$('a[href^="/point/"]')).length >= 1);
   ok('no runtime errors on the list', p.errs.length === 0, p.errs.join('|')); await c.close(); }
 

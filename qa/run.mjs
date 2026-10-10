@@ -11,13 +11,13 @@ const here = path.dirname(fileURLToPath(import.meta.url));
 
 const GROUPS = {
   web: { needs: { url: WEB, how: 'npm run build && npm run preview' }, scripts: [
-    ['flows', 'web/flows.mjs'], ['audit', 'web/audit.mjs'], ['responsive', 'web/responsive.mjs'], ['press', 'web/press.mjs'],
+    ['flows', 'web/flows.mjs'], ['audit', 'web/audit.mjs'], ['responsive', 'web/responsive.mjs'], ['press', 'web/press.mjs'], ['update', 'web/update.mjs'],
   ] },
   app: { needs: { url: DEV, how: 'npm run dev' }, scripts: [
-    ['audit', 'app/audit.mjs'], ['responsive', 'app/responsive.mjs'], ['theme', 'app/theme.mjs'],
+    ['audit', 'app/audit.mjs'], ['responsive', 'app/responsive.mjs'], ['theme', 'app/theme.mjs'], ['update', 'app/update.mjs'],
   ] },
   android: { needs: null, scripts: [
-    ['suite', 'android/suite.mjs'], ['theme', 'android/theme.mjs'], ['sizes', 'android/sizes.sh'],
+    ['suite', 'android/suite.mjs'], ['theme', 'android/theme.mjs'], ['coldload', 'android/cold-load.mjs'], ['sizes', 'android/sizes.sh'],
   ] },
 };
 

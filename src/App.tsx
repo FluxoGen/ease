@@ -6,6 +6,7 @@ import BottomNav from './components/BottomNav';
 import EaseLogo from './components/EaseLogo';
 import Footer from './components/Footer';
 import ThemeToggle from './components/ThemeToggle';
+import UpdatePrompt from './components/UpdatePrompt';
 import Chip from './components/ui/Chip';
 import { PregnancyContext } from './context/PregnancyContext';
 import { NAV, type NavState } from './data/nav';
@@ -84,6 +85,7 @@ export default function App() {
         <Footer />
         <BottomNav />
       </div>
+      <UpdatePrompt />
       <Toaster position="top-center" closeButton offset={72} toastOptions={{ className: '!rounded-2xl !border !border-line !bg-card !text-ink !shadow-pop' }} />
     </PregnancyContext.Provider>
   );
@@ -109,6 +111,7 @@ function AppLayout({ status, setStatus }: { status: ReturnType<typeof usePregnan
           </main>
           {!detail && <AppNav />}
         </div>
+        <UpdatePrompt />
         <Toaster position="bottom-center" closeButton offset={detail ? 96 : 104} toastOptions={{ className: '!rounded-2xl !border !border-line !bg-card !text-ink !shadow-pop' }} />
       </BarProvider>
     </PregnancyContext.Provider>

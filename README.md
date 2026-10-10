@@ -46,6 +46,8 @@ Wellness education only. Not medical advice. Language is "traditionally used for
 - **Safety guide** (`/safety`): urgent signs, when to skip or stop, how locations were checked. **About** (`/about`): FluxoGen, version, privacy, credits.
 - **Light, dark or system**: a sun/moon button in the top bar and an Appearance choice in Settings; the switch is one smooth circular reveal.
 - **Version and build number** are shown in Settings and About.
+- **"New version available" prompts with no backend**: on Android through Google Play's in-app updates (the app still has no
+  internet permission), on the website through the service worker (Reload). "Later" is not stored.
 - **PWA**: installable, fully offline after first load (about 50 precached files, about 2.1 MB).
 - **Android app**: fully offline (no INTERNET permission), with its own mobile layout (app bar, navigation bar, bottom
   sheets, touch ripple), see below.
