@@ -112,6 +112,9 @@ export async function applyUpdate() {
       set({ phase: 'downloading', progress: 0.1, failed: false });
       let p = 0.1;
       const t = setInterval(() => { p += 0.2; if (p >= 1) { clearInterval(t); set({ phase: 'ready', progress: null }); } else set({ progress: p }); }, 600);
+    } else if (state.phase === 'ready') {
+      // Stands in for the app restarting on the new version: the prompt goes away.
+      set({ phase: 'none', progress: null });
     }
     return;
   }
