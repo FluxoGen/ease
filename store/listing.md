@@ -54,4 +54,7 @@ Made by FluxoGen.
 - Feature graphic: `feature-graphic-1024x500.png`
 - Phone screenshots (1080x1920, 9:16): `screenshots/01` to `08`, in this order:
   home, routine, point photo, point drawing, body map, guided press, all points, dark mode
+- Tablet screenshots (2560x1440, 16:9; use for both 7-inch and 10-inch): `screenshots-tablet/01` to `08`
+- Chromebook / desktop screenshots (1920x1080, 16:9): `screenshots-desktop/01` to `08`
+- Android XR: not provided on purpose (the app was not built or tested for XR headsets)
 - Regenerate after UI changes: `qa/android/store.sh`

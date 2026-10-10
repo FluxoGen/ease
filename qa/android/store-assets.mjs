@@ -1,8 +1,9 @@
-// Google Play store assets, made from the real app: phone screenshots (1080x1920), the 512 px icon and the 1024x500
-// feature graphic. Output goes to <repo>/store/.
-//   node store-assets.mjs            everything
-//   node store-assets.mjs graphics   only the icon and feature graphic (from existing screenshots)
-// Needs for screenshots: a booted emulator showing a 1080x1920 screen (qa/android/store.sh sets it up) with the debug APK installed.
+// Google Play store assets, made from the real app. Output goes to <repo>/store/.
+//   node store-assets.mjs phone     phone screenshots    -> store/screenshots          (emulator screen 1080x1920)
+//   node store-assets.mjs tablet    tablet screenshots   -> store/screenshots-tablet   (emulator screen 2560x1440, 16:9)
+//   node store-assets.mjs desktop   Chromebook/desktop   -> store/screenshots-desktop  (emulator screen 1920x1080, 16:9)
+//   node store-assets.mjs graphics  the 512 px icon and the 1024x500 feature graphic (from the phone screenshots)
+// Screenshots need a booted emulator at the right screen size with the debug APK installed: qa/android/store.sh does it all.
 import { _android as android, chromium } from 'playwright';
 import { execSync } from 'node:child_process';
 import fs from 'node:fs';
@@ -11,11 +12,11 @@ import { ADB, PKG } from '../lib/android.mjs';
 import { ROOT } from '../lib/env.mjs';
 
 const STORE = path.join(ROOT, 'store');
-const SHOTS = path.join(STORE, 'screenshots');
+const KIND = process.argv[2] ?? 'phone';
+const SHOTS = path.join(STORE, KIND === 'tablet' ? 'screenshots-tablet' : KIND === 'desktop' ? 'screenshots-desktop' : 'screenshots');
 fs.mkdirSync(SHOTS, { recursive: true });
 const sh = (c) => execSync(`${ADB} shell ${JSON.stringify(c)}`, { encoding: 'utf8', maxBuffer: 64 << 20 });
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
-const only = process.argv[2];
 
 async function screenshots() {
   const [dev] = await android.devices();
@@ -62,7 +63,7 @@ async function graphics() {
 
   // 1024 x 500 feature graphic: wordmark and promise on the left, two real screens on the right.
   {
-    const img = (n) => 'data:image/png;base64,' + fs.readFileSync(path.join(SHOTS, n)).toString('base64');
+    const img = (n) => 'data:image/png;base64,' + fs.readFileSync(path.join(STORE, 'screenshots', n)).toString('base64');
     const font = 'data:font/woff2;base64,' + fs.readFileSync(manrope).toString('base64');
     const html = `<!doctype html><meta charset="utf-8"><style>
       @font-face{font-family:M;src:url(${font}) format("woff2-variations");font-weight:200 800}
@@ -94,7 +95,5 @@ async function graphics() {
   await b.close();
 }
 
-if (only !== 'graphics') await screenshots();
-await graphics();
-for (const f of fs.readdirSync(SHOTS)) console.log(`screenshots/${f}`);
-console.log('icon-512.png', 'feature-graphic-1024x500.png');
+if (KIND === 'graphics') await graphics(); else await screenshots();
+for (const f of fs.readdirSync(SHOTS)) console.log(`${path.basename(SHOTS)}/${f}`);

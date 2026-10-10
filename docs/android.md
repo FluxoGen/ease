@@ -129,6 +129,9 @@ Everything you upload is prepared in this repo and `~/ease-signing/` (outside th
      stress or sleep management) and say it is wellness education, not a medical device.
 4. **Main store listing:** copy from `store/listing.md`; upload `store/icon-512.png`, `store/feature-graphic-1024x500.png` and
    `store/screenshots/*.png` (phone screenshots: each side 320-3840 px, long side at most 2x the short side; 1080x1920 is used).
+   Optional large-screen sets, real captures of the tablet layout: `store/screenshots-tablet` (2560x1440, for both the 7-inch
+   and 10-inch slots) and `store/screenshots-desktop` (1920x1080, Chromebook/desktop); the console wants 4 to 8 per
+   section, 16:9 or 9:16, 1080-7680 px. Leave Android XR empty (not built or tested for XR).
    Category Health & Fitness; contact fluxogentechnologies@gmail.com; website https://ease-murex.vercel.app.
 5. **Testing > Internal testing:** create a release, upload the `.aab`, add yourself as a tester, then install from the
    Play link on a **real phone** and run the checklist below.
